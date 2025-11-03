@@ -1,0 +1,109 @@
+@keyframes disPlay {
+  100% {
+    display: none;
+  }
+}
+
+@keyframes pulseColor {
+  0% {
+    filter: brightness(1);
+    opacity: 1;
+  }
+  5% {
+    filter: brightness(0.8);
+    opacity: 1;
+  }
+  10% {
+    filter: brightness(1);
+    opacity: 1;
+  }
+  15% {
+    filter: brightness(1);
+    opacity: 1;
+  }
+  20% {
+    filter: brightness(0.8);
+    opacity: 1;
+  }
+  25% {
+    filter: brightness(1);
+    opacity: 1;
+  }
+  30% {
+    filter: brightness(1);
+    opacity: 1;
+  }
+  35% {
+    filter: brightness(0.8);
+    opacity: 1;
+  }
+  40% {
+    filter: brightness(1);
+    opacity: 1;
+  }
+  45% {
+    filter: brightness(1);
+    opacity: 1;
+  }
+  50% {
+    filter: brightness(0.8);
+    opacity: 1;
+  }
+  55% {
+    filter: brightness(1);
+    opacity: 0;
+    visibility: hidden;
+  }
+  60% {
+    filter: brightness(1);
+    opacity: 0;
+    visibility: hidden;
+  }
+  65% {
+    filter: brightness(0.8);
+    opacity: 0;
+    visibility: hidden;
+  }
+  70% {
+    filter: brightness(1);
+    opacity: 0;
+    visibility: hidden;
+  }
+  75% {
+    filter: brightness(1);
+    opacity: 0;
+    visibility: hidden;
+  }
+  80% {
+    filter: brightness(0.8);
+    opacity: 0;
+    visibility: hidden;
+  }
+  85% {
+    filter: brightness(1);
+    opacity: 0;
+    visibility: hidden;
+  }
+  90% {
+    filter: brightness(1);
+    opacity: 0;
+    visibility: hidden;
+  }
+  95% {
+    filter: brightness(0.8);
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    filter: brightness(1);
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@keyframes blur {
+  100% {
+    filter: blur(200px);
+    transform: skew(45deg);
+  }
+}
