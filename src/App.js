@@ -1,7 +1,6 @@
-import { Route, Router, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import './App.scss';
 import Header from './component/layout/Header';
-import Main from './pages/Home/Main';
 import Home from './pages/Home/Home';
 import Products from './pages/Products/Products';
 import ProductDetail from './pages/Products/ProductDetail';
