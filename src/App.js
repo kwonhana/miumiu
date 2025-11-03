@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.scss';
 import Header from './component/layout/Header';
 import Home from './pages/Home/Home';
@@ -10,6 +9,7 @@ import OrderComplete from './pages/Checkout/OrderComplete';
 import OrderSummary from './pages/Checkout/OrderSummary';
 import Payment from './pages/Checkout/Payment';
 import Footer from './component/layout/Footer';
+import { Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
