@@ -5,6 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination } from 'swiper/modules';
 import '../../styles/pages/home.scss';
 import ColumnSlide from '../../component/collection/ColumnSlide';
+import CousLe from '../../component/layout/CousLe';
 
 const Home = () => {
   const newItemTitle = [
@@ -41,6 +42,7 @@ const Home = () => {
           </div>
           <ColumnSlide />
         </section>
+        <CousLe />
       </div>
       {/* <LineBanner /> */}
     </main>

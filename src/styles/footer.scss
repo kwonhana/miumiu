@@ -1,14 +1,15 @@
 @use "../App.scss" as fo;
 
 footer {
+    background-color: #F4F4F4;
+    padding: 80px 0;
   .inner {
     @include fo.inner();
-    margin: 80px auto;
     .footer-top {
       @include fo.flex(space-between, flex-start, 0);
       margin-bottom: 80px;
       .footer-logo {
-        width: 40.9%;
+        width: 40%;
         aspect-ratio: 590/80
       }
       .footer-right {
@@ -28,9 +29,11 @@ footer {
     }
     .footer-bottom {
       @include fo.font(1.2rem, 400, #666);
+      border-top: 1px solid #E3E3E3;
       address {
         font-style: normal;
-        margin: 30px 0;
+        padding: 30px 0;
+        line-height: 20px;
       }
     }
   }
