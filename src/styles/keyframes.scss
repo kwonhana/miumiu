@@ -107,3 +107,13 @@
     transform: skew(45deg);
   }
 }
+
+//TODO 미우미우 텍스트 라인 베너
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

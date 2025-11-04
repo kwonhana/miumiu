@@ -1,14 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Logo = ({ color = 'black' }) => {
+const Logo = ({ color = 'black', height = 80 }) => {
+  const aspectRatio = 591 / 80;
+  const width = height * aspectRatio;
+
   return (
     <h1 className="logo">
       <Link to="/">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width="591"
-          height="80"
+          width={width}
+          height={height}
           viewBox="0 0 591 80"
           fill="none">
           <path
