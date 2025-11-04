@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../styles/component/fw-New-container.scss';
+
 import { Link } from 'react-router-dom';
 
 const NewItemMain = ({ item, no }) => {
