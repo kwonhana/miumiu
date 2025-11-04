@@ -1,4 +1,5 @@
 import React from 'react';
+import '../../styles/collection/NewItemMain.scss';
 
 import { Link } from 'react-router-dom';
 

@@ -1,19 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Logo = ({ color = 'black', height = 80 }) => {
-  const aspectRatio = 591 / 80;
-  const width = height * aspectRatio;
-
+const Logo = ({ color = 'black' }) => {
   return (
     <h1 className="logo">
       <Link to="/">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width={width}
-          height={height}
+          width="100%"
+          height="auto"
           viewBox="0 0 591 80"
-          fill="none">
+          fill="none"
+          style={{ aspectRatio: '591 / 80' }}>
           <path
             d="M359.049 0C379.603 0 396.222 13.8967 396.222 31.9248V73.9903H370.857V31.5492C370.857 26.291 366.046 21.784 359.486 21.784C352.926 21.784 348.115 25.9154 348.115 31.5492V73.6148H322.75V31.5492C321.876 13.8967 338.494 0 359.049 0Z"
             fill={color}
@@ -28,7 +26,7 @@ const Logo = ({ color = 'black', height = 80 }) => {
             fill={color}
           />
           <path
-            d="M558.471 79.625V57.0899C562.407  55.5875 564.593 52.2073 564.593 48.4514V6.01025H590.396V48.4514C590.396 64.226 576.839 77.7471 558.471 79.625Z"
+            d="M558.471 79.625V57.0899C562.407 55.5875 564.593 52.2073 564.593 48.4514V6.01025H590.396V48.4514C590.396 64.226 576.839 77.7471 558.471 79.625Z"
             fill={color}
           />
           <path
