@@ -1,0 +1,37 @@
+@use "../App.scss" as fo;
+
+footer {
+  .inner {
+    @include fo.inner();
+    margin: 80px auto;
+    .footer-top {
+      @include fo.flex(space-between, flex-start, 0);
+      margin-bottom: 80px;
+      .footer-logo {
+        width: 40.9%;
+        aspect-ratio: 590/80
+      }
+      .footer-right {
+        @include fo.flex(flex-start, flex-start, 110px);
+        .menu-box {
+          .menu-title {
+            @include fo.font(1.4rem, 600, #000);
+            margin-bottom: 12px;
+          }
+
+          li {
+            @include fo.font(1.4rem, 400, #000);
+            line-height: 30px;
+          }
+        }
+      }
+    }
+    .footer-bottom {
+      @include fo.font(1.2rem, 400, #666);
+      address {
+        font-style: normal;
+        margin: 30px 0;
+      }
+    }
+  }
+}
