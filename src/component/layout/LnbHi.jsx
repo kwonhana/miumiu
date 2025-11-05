@@ -1,64 +1,60 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
+const colections = [
+  { key: 'MIU MIU AUTOMNE', label: 'MIU MIU AUTOMNE' },
+  { key: 'NEW BALANCE X MIU MIU', label: 'NEW BALANCE X MIU MIU' },
+  { key: 'MIU MIU CUSTOM STUDIO', label: 'MIU MIU CUSTOM STUDIO' },
+  { key: 'MIU MIU UPCYCLED', label: 'MIU MIU UPCYCLED' },
+  { key: 'MIU CLOSET', label: 'MIU CLOSET' },
+  { key: '기프트', label: '기프트' },
+  { key: '향수', label: '향수' },
+];
+const newitems = [
+  { key: '슈즈', label: '슈즈' },
+  { key: '악세서리', label: '악세서리' },
+  { key: '의류', label: '의류' },
+  { key: '가방', label: '가방' },
+];
 const LnbHi = () => {
   return (
-    <li>
-      <span>하이라이트</span>
-      <div>
-        <div>
-          <span>컬렉션</span>
-          <ul>
-            <li>
-              <p>MIU MIU AUTOMNE</p>
+    <div className="lnb-hi">
+      <div className="lnb-hi-col">
+        <span>컬렉션</span>
+        <ul>
+          {colections.map((colection) => (
+            <li key={colection.key}>
+              <Link to={`/${colection.key}`}>{colection.label}</Link>
             </li>
-            <li>
-              <p>NEW BALANCE X MIU MIU</p>
-            </li>
-            <li>
-              <p>MIU MIU CUSTOM STUDIO</p>
-            </li>
-            <li>
-              <p>MIU MIU UPCYCLED</p>
-            </li>
-            <li>
-              <p>MIU CLOSET</p>
-            </li>
-            <li>
-              <p>기프트</p>
-            </li>
-            <li>
-              <p>향수</p>
-            </li>
-          </ul>
-          <span>신상품</span>
-          <ul>
-            <li>
-              <p>슈즈</p>
-            </li>
-            <li>
-              <p>엑세서리</p>
-            </li>
-            <li>
-              <p>의류</p>
-            </li>
-            <li>
-              <p>가방</p>
-            </li>
-          </ul>
-          <span>MIU MIU CLUB</span>
-          <ul>
-            <li>
-              <p>MIU MIU Women's Tales</p>
-            </li>
-          </ul>
-        </div>
-        <div>
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
-        </div>
+          ))}
+        </ul>
       </div>
-    </li>
+
+      <div className="lnb-hi-new">
+        <span>신상품</span>
+        <ul>
+          {newitems.map((newitem) => (
+            <li key={newitem.key}>
+              <Link to={`/${newitem.key}`}>{newitem.label}</Link>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <div className="lnb-hi-miu">
+        <span>miu miu</span>
+        <ul>
+          <li key={`Miu Miu Women's Tales`}>
+            <Link to={`/Miu Miu Women's Tales`}>Miu Miu Women's Tales</Link>
+          </li>
+        </ul>
+      </div>
+      <div className="lnb-hi-imgs">
+        <img src="" alt="" />
+        <img src="" alt="" />
+        <img src="" alt="" />
+      </div>
+    </div>
   );
 };
 

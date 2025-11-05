@@ -1,35 +1,49 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import Lnb from './Lnb.jsx';
 import { Link } from 'react-router-dom';
 import Logo from './Logo.jsx';
+import '../../styles/layout/header.scss';
 
 const Header = () => {
+  const [lnbOpen, setLnbOpen] = useState(false);
+  const toggleLnb = () => {
+    setLnbOpen(!lnbOpen);
+  };
   return (
     <header>
-      <div className="header-left">
-        <Logo color={`white`} />
-        <div>
-          <Link>
-            <img src="" alt="" />
-          </Link>
+      <div className="header-wrap">
+        <div className="header-left">
+          <div>
+            <Link className="Icon" onClick={toggleLnb}>
+              <div>
+                <img src="/assets/icon/HamIcon.svg" alt="menu" />
+              </div>
+            </Link>
+          </div>
+        </div>
+        <Logo className="logo" color={`white`} />
+        <div className="header-right">
+          <div className="gnb-list">
+            <div className="Icon">
+              <Link>
+                <img src="/assets/icon/SearchIcon.svg" alt="Search" />
+              </Link>
+            </div>
+            <div className="Icon user">
+              <Link>
+                <img src="/assets/icon/UserIcon.svg" alt="user" />
+              </Link>
+            </div>
+            <div className="Icon">
+              <Link>
+                <img src="/assets/icon/CartIcon.svg" alt="cart" />
+              </Link>
+            </div>
+          </div>
         </div>
       </div>
-      <div className="header-right">
-        <ul className="gnb-list">
-          <li>
-            <img src="" alt="" />
-          </li>
-          <li>
-            <img src="" alt="" />
-          </li>
-          <li>
-            <img src="" alt="" />
-          </li>
-        </ul>
-      </div>
-
-      <Lnb />
+      <Lnb isOpen={lnbOpen} />
     </header>
   );
 };

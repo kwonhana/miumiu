@@ -1,3 +1,20 @@
+.lnb-wrap {
+  background-color: #fff;
+  overflow: hidden;
+  max-height: 0;
+  visibility: hidden;
+
+  transition: max-width 0.3s ease-out, visibility 0.3s;
+  width: 100%;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 10;
+}
+.lnb-wrap.active {
+  max-height: 464px;
+  visibility: visible;
+}
 .lnb-title {
   border: 1px solid blue;
   display: flex;
