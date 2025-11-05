@@ -1,0 +1,43 @@
+.lnb-wrap {
+  background-color: #fff;
+  overflow: hidden;
+  max-height: 0;
+  visibility: hidden;
+
+  transition: max-width 0.3s ease-out, visibility 0.3s;
+  width: 100%;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 10;
+}
+.lnb-wrap.active {
+  max-height: 464px;
+  visibility: visible;
+}
+.lnb-title {
+  border: 1px solid blue;
+  display: flex;
+  gap: 30px;
+}
+.lnb-list {
+  border: 1px solid green;
+  display: flex;
+}
+.lnb-hi {
+  border: 1px solid red;
+  display: flex;
+  gap: 100px;
+}
+.lnb-bags {
+  border: 1px solid black;
+  display: flex;
+}
+.lnb-shoes {
+  border: 1px solid yellow;
+  display: flex;
+}
+.lnb-wall {
+  border: 1px solid violet;
+  display: flex;
+}

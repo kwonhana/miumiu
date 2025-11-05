@@ -1,0 +1,30 @@
+header {
+  position: relative;
+}
+.Icon {
+  height: 24px;
+  width: 24px;
+  padding: 4px;
+}
+.user {
+  padding: 0;
+}
+.header-wrap {
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  // border: 1px solid #fff;
+  width: 8%;
+  aspect-ratio: 150/24;
+
+  img {
+    width: 100%;
+  }
+}
+.gnb-list {
+  display: flex;
+  gap: 30px;
+}
