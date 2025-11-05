@@ -1,5 +1,4 @@
 import React from "react";
-import "../../App.scss"
 import "../../styles/footer.scss";
 import Logo from "./Logo";
 

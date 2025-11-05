@@ -2,15 +2,14 @@
 
 .CousLetter-wrap {
   .inner {
-    @include b.inner();
     padding: 78px 0;
     .box {
       @include b.flex(center, center, 0);
       .boxlayout {
         @include b.flex(center, center, 0);
         flex-direction: column;
-        width: 720px;
-        height: 290px;
+        width: 50%;
+        aspect-ratio: 720/230;
         
 
         &:first-child{
