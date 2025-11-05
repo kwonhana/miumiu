@@ -16,7 +16,7 @@ const newitems = [
   { key: '의류', label: '의류' },
   { key: '가방', label: '가방' },
 ];
-const LnbHi = () => {
+const Test = () => {
   return (
     <div className="lnb-hi">
       <div className="lnb-hi-col">
@@ -58,4 +58,4 @@ const LnbHi = () => {
   );
 };
 
-export default LnbHi;
+export default Test;

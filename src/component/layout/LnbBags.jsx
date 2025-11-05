@@ -18,9 +18,8 @@ const conicBags = [
 ];
 const LnbBags = () => {
   return (
-    <li>
-      <span>가방</span>
-      <div>
+    <div className="lnb-bags">
+      <div className="lnb-bags-left">
         <ul>
           <span>가방</span>
           {bags.map((bag) => (
@@ -34,7 +33,7 @@ const LnbBags = () => {
         </div>
       </div>
 
-      <div>
+      <div className="lnb-bags-right">
         <span>아이코닉백</span>
         <ul>
           {conicBags.map((conicbag) => (
@@ -43,22 +42,14 @@ const LnbBags = () => {
             </li>
           ))}
         </ul>
-        <ul>
-          <li>
-            <img src="" alt="" />
-          </li>
-          <li>
-            <img src="" alt="" />
-          </li>
-          <li>
-            <img src="" alt="" />
-          </li>
-          <li>
-            <img src="" alt="" />
-          </li>
-        </ul>
+        <div>
+          <img src="" alt="" />
+          <img src="" alt="" />
+          <img src="" alt="" />
+          <img src="" alt="" />
+        </div>
       </div>
-    </li>
+    </div>
   );
 };
 
