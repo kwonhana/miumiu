@@ -22,22 +22,6 @@ import { Shipping } from './pages/Checkout/Shipping/Shipping';
 function App() {
   return (
     <>
-      {/* <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-
-        <Route path="/products" element={<Products />} />
-        <Route path="/productdetail" element={<ProductDetail />} />
-
-        <Route path="/cart" element={<Cart />} />
-        <Route path="/coupon" element={<Coupon />} />
-        <Route path="/ordercomplete" element={<OrderComplete />} />
-        <Route path="/ordersummary" element={<OrderSummary />} />
-        <Route path="/payment" element={<Payment />} />
-
-        <Route path="/login" element={<Login />} />
-      </Routes>
-      <Footer /> */}
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
