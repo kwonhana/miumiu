@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import '../scss/SeasonCollection.scss';
 import WOW from 'wowjs';
+import { Link } from 'react-router-dom';
 
 const items = [
   { no: '5BA302_US0_F0002_V_OWO' },
@@ -36,13 +37,20 @@ const SeasonCollection = () => {
         </div>
       </div>
       <div className="bottomSection">
-        {items.map((el) => {
-          return (
-            <div className="item">
-              <img src={`/assets/images/static/main/SeasonCollection/${el.no}.png`} alt={el.no} />
-            </div>
-          );
-        })}
+        <div className="item-container">
+          {items.map((el) => {
+            return (
+              <div className="item">
+                <Link>
+                  <img
+                    src={`/assets/images/static/main/SeasonCollection/${el.no}.png`}
+                    alt={el.no}
+                  />
+                </Link>
+              </div>
+            );
+          })}
+        </div>
       </div>
     </section>
   );

@@ -42,7 +42,7 @@ const Home = () => {
               ))}
             </Swiper>
           </div>
-          <ColumnSlide />
+          <ColumnSlide direction="vertical" />
         </section>
         <AutomneBi />
         <MostLove />

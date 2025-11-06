@@ -31,11 +31,20 @@
 
   .bottomSection {
     margin-top: 80px;
-    display: flex;
-    gap: 24px;
-    .item {
-      width: 18%;
-      aspect-ratio: 330/206;
+    width: 100%;
+    overflow: hidden;
+
+    .item-container {
+      width: 190%;
+      display: flex;
+      justify-content: center;
+      gap: 24px;
+
+      .item {
+        width: 18%;
+        max-width: 330px;
+        aspect-ratio: 330/206;
+      }
     }
   }
 }
