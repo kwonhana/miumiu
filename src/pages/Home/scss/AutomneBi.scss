@@ -1,0 +1,29 @@
+@use '../../../App.scss' as main;
+@use './keyframes.scss' as line;
+
+.AutomneBi {
+  width: 100%;
+  aspect-ratio: 1440/420;
+
+  .container {
+    @include main.flex(center, center, 0);
+    flex-direction: column;
+    margin: 132px 0;
+  }
+
+  .logo {
+    width: 12.5%;
+  }
+
+  b {
+    font-family: 'Libre Baskerville';
+    @include main.font(2rem, 400, #000);
+    margin-top: 30px;
+  }
+
+  p {
+    margin-top: 20px;
+    @include main.font(1.6rem, 400, #333);
+    line-height: 162%;
+  }
+}

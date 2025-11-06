@@ -1,13 +1,13 @@
 import React from 'react';
-import NewItemMain from '../../component/collection/NewItemMain';
+import NewItemMain from './layout/NewItemMain';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination } from 'swiper/modules';
-import '../../styles/pages/home.scss';
-import ColumnSlide from '../../component/collection/ColumnSlide';
-import AutomneBi from '../../component/layout/main/AutomneBi';
-import LineBanner from '../../component/layout/main/LineBanner';
-import MostLove from '../../component/layout/main/MostLove';
-import SeasonCollection from '../../component/layout/main/SeasonCollection';
+import ColumnSlide from './layout/ColumnSlide';
+import AutomneBi from './layout/AutomneBi';
+import LineBanner from './layout/LineBanner';
+import MostLove from './layout/MostLove';
+import SeasonCollection from './layout/SeasonCollection';
+import './scss/home.scss';
 
 const Home = () => {
   const newItemTitle = [

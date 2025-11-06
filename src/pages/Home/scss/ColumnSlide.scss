@@ -1,0 +1,26 @@
+@use '../../../App.scss' as main;
+
+.column-slide {
+  width: 330px;
+  aspect-ratio: 330/1000;
+
+  .swiper {
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .swiper-wrapper {
+    transition-timing-function: linear;
+  }
+
+  .swiper-slide {
+    width: 100%;
+    aspect-ratio: 330/425;
+    background: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+  }
+}
