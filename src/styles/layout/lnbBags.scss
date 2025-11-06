@@ -1,0 +1,19 @@
+@use './lnb.scss' as f;
+
+.lnb-bags {
+  border: 1px solid black;
+  display: flex;
+  margin-top: 5rem;
+  gap: 17.4rem;
+}
+.lnb-bags-left {
+  display: flex;
+  gap: 4rem;
+
+  @include f.fontStyle;
+}
+.lnb-bags-right {
+  display: flex;
+
+  @include f.fontStyle;
+}

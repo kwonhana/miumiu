@@ -16,43 +16,47 @@ const newitems = [
   { key: '의류', label: '의류' },
   { key: '가방', label: '가방' },
 ];
-const LnbHi = () => {
+const LnbHi = ({ isActive }) => {
   return (
-    <div className="lnb-hi">
-      <div className="lnb-hi-col">
-        <span>컬렉션</span>
-        <ul>
-          {colections.map((colection) => (
-            <li key={colection.key}>
-              <Link to={`/${colection.key}`}>{colection.label}</Link>
-            </li>
-          ))}
-        </ul>
-      </div>
+    <div className={`lnb-hi ${isActive ? '' : 'hidden'}`}>
+      <div className="lnb-hi-left">
+        <div className="lnb-hi-col">
+          <span>컬렉션</span>
+          <ul>
+            {colections.map((colection) => (
+              <li key={colection.key}>
+                <Link to={`/${colection.key}`}>{colection.label}</Link>
+              </li>
+            ))}
+          </ul>
+        </div>
 
-      <div className="lnb-hi-new">
-        <span>신상품</span>
-        <ul>
-          {newitems.map((newitem) => (
-            <li key={newitem.key}>
-              <Link to={`/${newitem.key}`}>{newitem.label}</Link>
-            </li>
-          ))}
-        </ul>
-      </div>
+        <div className="lnb-hi-new">
+          <span>신상품</span>
+          <ul>
+            {newitems.map((newitem) => (
+              <li key={newitem.key}>
+                <Link to={`/${newitem.key}`}>{newitem.label}</Link>
+              </li>
+            ))}
+          </ul>
+        </div>
 
-      <div className="lnb-hi-miu">
-        <span>miu miu</span>
-        <ul>
-          <li key={`Miu Miu Women's Tales`}>
-            <Link to={`/Miu Miu Women's Tales`}>Miu Miu Women's Tales</Link>
-          </li>
-        </ul>
+        <div className="lnb-hi-miu">
+          <span>miu miu</span>
+          <ul>
+            <li key={`Miu Miu Women's Tales`}>
+              <Link to={`/Miu Miu Women's Tales`}>Miu Miu Women's Tales</Link>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div className="lnb-hi-imgs">
-        <img src="" alt="" />
-        <img src="" alt="" />
-        <img src="" alt="" />
+      <div className="lnb-hi-right">
+        <div className="lnb-hi-imgs">
+          <img src="/assets/images/lnb/collection-1.jpg" alt="collection1" />
+          <img src="/assets/images/lnb/collection-2.jpg" alt="collection2" />
+          <img src="/assets/images/lnb/collection-3.jpg" alt="collection3" />
+        </div>
       </div>
     </div>
   );

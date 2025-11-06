@@ -11,9 +11,9 @@ const jewels = [
   { key: '팔찌', label: '팔찌' },
   { key: '이어링', label: '이어링' },
 ];
-const LnbWalletJewel = () => {
+const LnbWalletJewel = ({ isActive }) => {
   return (
-    <div className="lnb-wall">
+    <div className={`lnb-wallet ${isActive ? '' : 'hidden'}`}>
       <div className="lnb-wall-left">
         <ul>
           <span>지갑</span>
@@ -24,7 +24,7 @@ const LnbWalletJewel = () => {
           ))}
         </ul>
         <div className="wall-imgs-left">
-          <img src="" alt="" />
+          <img src="/assets/images/lnb/wall-list.jpg" alt="지갑" />
         </div>
       </div>
 
@@ -38,10 +38,10 @@ const LnbWalletJewel = () => {
           ))}
         </ul>
         <div className="wall-imgs-right">
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
+          <img src="/assets/images/lnb/jewel-earing.jpg" alt="귀걸이" />
+          <img src="/assets/images/lnb/jewel-neck.jpg" alt="목걸이" />
+          <img src="/assets/images/lnb/jewel-arm.jpg" alt="팔찌" />
+          <img src="/assets/images/lnb/jewel-ring.jpg" alt="반지" />
         </div>
       </div>
     </div>

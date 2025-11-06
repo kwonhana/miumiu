@@ -1,10 +1,13 @@
-import React from "react";
-import LineBanner from "../../component/layout/LineBanner";
-import NewItemMain from "../../component/collection/NewItemMain";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Pagination } from "swiper/modules";
-import "../../styles/pages/home.scss";
-import ColumnSlide from "../../component/collection/ColumnSlide";
+import React from 'react';
+import NewItemMain from '../../component/collection/NewItemMain';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay, Pagination } from 'swiper/modules';
+import '../../styles/pages/home.scss';
+import ColumnSlide from '../../component/collection/ColumnSlide';
+import AutomneBi from '../../component/layout/main/AutomneBi';
+import LineBanner from '../../component/layout/main/LineBanner';
+import MostLove from '../../component/layout/main/MostLove';
+import SeasonCollection from '../../component/layout/main/SeasonCollection';
 import CousLe from "../../component/layout/CousLe";
 import MiuClub from "../../component/miuClub/MiuClub";
 
@@ -44,10 +47,11 @@ const Home = () => {
           </div>
           <ColumnSlide />
         </section>
+        <AutomneBi />
+        <MostLove />
       </div>
-      {/* <LineBanner /> */}
-      <MiuClub />
-      <CousLe />
+      <LineBanner />
+      <SeasonCollection />
     </main>
   );
 };
