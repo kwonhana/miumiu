@@ -1,24 +1,22 @@
-@use './lnb.scss' as i;
-@use './lnb.scss' as l;
-@use './lnb.scss' as f;
+@use './lnb.scss' as g;
 
 .lnb-hi {
-  border: 1px solid red;
-  display: flex;
   margin-top: 5rem;
+  width: 100%;
+  display: flex;
 }
 .lnb-hi-left {
   display: flex;
   gap: 100px;
-  @include f.fontStyle();
+  @include g.fontStyle();
 }
 .lnb-hi-col,
 .lnb-hi-new,
 .lnb-hi-miu {
-  @include l.listStyle();
+  @include g.listStyle();
 }
 
 .lnb-hi-imgs {
-  @include i.img();
+  @include g.img();
   margin-left: 39.6rem;
 }

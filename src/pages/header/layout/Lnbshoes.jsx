@@ -20,34 +20,36 @@ const conicshoes = [
 const Lnbshoes = ({ isActive }) => {
   return (
     <div className={`lnb-shoes ${isActive ? '' : 'hidden'}`}>
-      <div className="lnb-shoes-left">
-        <ul>
-          <span>슈즈</span>
-          {shoes.map((shoe) => (
-            <li key={shoe.key}>
-              <Link to={`/${shoe.key}`}>{shoe.label}</Link>
-            </li>
-          ))}
-        </ul>
-        <div className="shoes-imgs-left">
-          <img src="/assets/images/lnb/shoes-list.jpg" alt="신발" />
+      <div className="lnb-inner">
+        <div className="lnb-shoes-left">
+          <ul>
+            <span>슈즈</span>
+            {shoes.map((shoe) => (
+              <li key={shoe.key}>
+                <Link to={`/${shoe.key}`}>{shoe.label}</Link>
+              </li>
+            ))}
+          </ul>
+          <div className="shoes-imgs-left">
+            <img src="/assets/images/lnb/shoes-list.jpg" alt="신발" />
+          </div>
         </div>
-      </div>
 
-      <div className="lnb-shoes-right">
-        <ul>
-          <span>아이코닉 슈즈</span>
-          {conicshoes.map((conicshoe) => (
-            <li key={conicshoe.key}>
-              <Link to={`/${conicshoe.key}`}>{conicshoe.label}</Link>
-            </li>
-          ))}
-        </ul>
-        <div className="shoes-imgs-right">
-          <img src="/assets/images/lnb/shoes-miu.jpg" alt="미우발레" />
-          <img src="/assets/images/lnb/shoes-plum.jpg" alt="플룸" />
-          <img src="/assets/images/lnb/shoes-winter.jpg" alt="겨울신발" />
-          <img src="/assets/images/lnb/shoes-peny.jpg" alt="페니로퍼" />
+        <div className="lnb-shoes-right">
+          <ul>
+            <span>아이코닉 슈즈</span>
+            {conicshoes.map((conicshoe) => (
+              <li key={conicshoe.key}>
+                <Link to={`/${conicshoe.key}`}>{conicshoe.label}</Link>
+              </li>
+            ))}
+          </ul>
+          <div className="shoes-imgs-right">
+            <img src="/assets/images/lnb/shoes-miu.jpg" alt="미우발레" />
+            <img src="/assets/images/lnb/shoes-plum.jpg" alt="플룸" />
+            <img src="/assets/images/lnb/shoes-winter.jpg" alt="겨울신발" />
+            <img src="/assets/images/lnb/shoes-peny.jpg" alt="페니로퍼" />
+          </div>
         </div>
       </div>
     </div>

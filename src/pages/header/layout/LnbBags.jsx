@@ -1,3 +1,5 @@
+import '../scss/lnbBags.scss';
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 const bags = [
@@ -19,34 +21,36 @@ const conicBags = [
 const LnbBags = ({ isActive }) => {
   return (
     <div className={`lnb-bags ${isActive ? '' : 'hidden'}`}>
-      <div className="lnb-bags-left">
-        <ul>
-          <span>가방</span>
-          {bags.map((bag) => (
-            <li key={bag.key}>
-              <Link to={`/${bag.key}`}>{bag.label}</Link>
-            </li>
-          ))}
-        </ul>
-        <div className="bags-imgs-left">
-          <img src="/assets/images/lnb/bags-list.jpg" alt="가방" />
+      <div className="lnb-inner">
+        <div className="lnb-bags-left">
+          <ul>
+            <span>가방</span>
+            {bags.map((bag) => (
+              <li key={bag.key}>
+                <Link to={`/${bag.key}`}>{bag.label}</Link>
+              </li>
+            ))}
+          </ul>
+          <div className="bags-imgs-left">
+            <img src="/assets/images/lnb/bags-list.jpg" alt="가방" />
+          </div>
         </div>
-      </div>
 
-      <div className="lnb-bags-right">
-        <ul>
-          <span>아이코닉백</span>
-          {conicBags.map((conicbag) => (
-            <li key={conicbag.key}>
-              <Link to={`/${conicbag.key}`}>{conicbag.label}</Link>
-            </li>
-          ))}
-        </ul>
-        <div className="bags-imgs-right">
-          <img src="/assets/images/lnb/bags-wander.jpg" alt="완더" />
-          <img src="/assets/images/lnb/bags-arcadi.jpg" alt="아르카디" />
-          <img src="/assets/images/lnb/bags-pocket.jpg" alt="포켓" />
-          <img src="/assets/images/lnb/bags-vo.jpg" alt="보" />
+        <div className="lnb-bags-right">
+          <ul>
+            <span>아이코닉백</span>
+            {conicBags.map((conicbag) => (
+              <li key={conicbag.key}>
+                <Link to={`/${conicbag.key}`}>{conicbag.label}</Link>
+              </li>
+            ))}
+          </ul>
+          <div className="bags-imgs-right">
+            <img src="/assets/images/lnb/bags-wander.jpg" alt="완더" />
+            <img src="/assets/images/lnb/bags-arcadi.jpg" alt="아르카디" />
+            <img src="/assets/images/lnb/bags-pocket.jpg" alt="포켓" />
+            <img src="/assets/images/lnb/bags-vo.jpg" alt="보" />
+          </div>
         </div>
       </div>
     </div>

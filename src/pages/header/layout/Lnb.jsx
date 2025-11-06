@@ -4,14 +4,12 @@ import LnbHi from './LnbHi';
 import Lnbshoes from './Lnbshoes';
 import LnbWalletJewel from './LnbWalletJewel';
 import { useState } from 'react';
-// import './../scss/lnb.scss';
-// import './../scss/lnbHi.scss';
-// import './../scss/lnbBags.scss';
+import './../scss/lnb.scss';
 
 const Lnb = ({ isOpen }) => {
   const [activeMenu, setActiveMenu] = useState('hi');
   return (
-    <nav className={`lnb-wrap  ${isOpen ? 'active' : ''}`}>
+    <nav className={`lnb-wrap ${isOpen ? 'active' : ''}`}>
       <ul className="lnb-title">
         <li>
           <Link onClick={() => setActiveMenu('hi')}>하이라이트</Link>
