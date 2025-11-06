@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../styles/component/Linebanner.scss';
+import '../../../styles/layout/main/Linebanner.scss';
 
 const LineBanner = () => {
   return (

@@ -3,6 +3,8 @@ import '../../styles/collection/ColumnSlide.scss';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Mousewheel, Autoplay } from 'swiper/modules';
 
+const slideItems = [{ title: '', itemUrl: '' }];
+
 const ColumnSlide = () => {
   return (
     <div className="column-slide">
