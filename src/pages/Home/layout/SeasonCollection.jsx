@@ -39,16 +39,7 @@ const SeasonCollection = () => {
       <div className="bottomSection">
         <div className="item-container">
           {items.map((el) => {
-            return (
-              <div className="item">
-                <Link>
-                  <img
-                    src={`/assets/images/static/main/SeasonCollection/${el.no}.png`}
-                    alt={el.no}
-                  />
-                </Link>
-              </div>
-            );
+            return <div className="item"></div>;
           })}
         </div>
       </div>

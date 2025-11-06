@@ -43,21 +43,14 @@ const ColumnSlide = ({ direction, item }) => {
   return (
     <div className="column-slide">
       <>
-        <Swiper
-          direction={direction}
-          slidesPerView={2.2}
-          spaceBetween={24}
-          loop={true}
-          mousewheel={true}
-          autoplay={{
-            delay: 0, // 지연 없이 계속 흐름
-            disableOnInteraction: false,
-          }}
-          speed={3000} // 천천히 부드럽게
-          modules={[Autoplay, Mousewheel]}
-          className="mySwiper">
-          <SwiperSlider item={slideItems} direction="vertical" />
-        </Swiper>
+        <SwiperSlider
+          item={slideItems}
+          direction="vertical"
+          perView="2.2"
+          speed="1000"
+          delay="2000"
+          center="true"
+        />
       </>
     </div>
   );
