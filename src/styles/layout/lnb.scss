@@ -1,4 +1,41 @@
+@mixin img() {
+  display: flex;
+  aspect-ratio: 257/200;
+  width: 20rem;
+  max-width: 100%;
+  gap: 2.4rem;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@mixin listStyle() {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+  }
+}
+
+@mixin fontStyle() {
+  span {
+    font-size: 1.6rem;
+    color: #888;
+  }
+  li {
+    font-size: 1.4rem;
+    font-weight: 400;
+  }
+}
+
 .lnb-wrap {
+  border: 1px solid yellowgreen;
+  padding: 5rem 4rem;
   background-color: #fff;
   overflow: hidden;
   max-height: 0;
@@ -6,6 +43,7 @@
 
   transition: max-width 0.3s ease-out, visibility 0.3s;
   width: 100%;
+  max-height: 46.4rem;
   position: absolute;
   top: 100%;
   left: 0;
@@ -18,26 +56,40 @@
 .lnb-title {
   border: 1px solid blue;
   display: flex;
-  gap: 30px;
+
+  font-size: 1.8rem;
+  font-weight: 500;
+  gap: 3rem;
 }
 .lnb-list {
   border: 1px solid green;
   display: flex;
 }
-.lnb-hi {
-  border: 1px solid red;
-  display: flex;
-  gap: 100px;
-}
-.lnb-bags {
-  border: 1px solid black;
-  display: flex;
-}
+
 .lnb-shoes {
   border: 1px solid yellow;
   display: flex;
 }
-.lnb-wall {
+.lnb-shoes-right {
+  display: flex;
+}
+.lnb-shoes-left {
+  display: flex;
+}
+
+.lnb-wallet {
   border: 1px solid violet;
   display: flex;
+}
+.lnb-wall-left {
+  display: flex;
+}
+.lnb-wall-right {
+  display: flex;
+}
+
+.bags-imgs-right,
+.shoes-imgs-right,
+.wall-imgs-right {
+  @include img();
 }

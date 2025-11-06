@@ -35,7 +35,7 @@ const Header = () => {
                 <img src="/assets/icon/UserIcon.svg" alt="user" />
               </Link>
             </div>
-            <div className="Icon">
+            <div className="Icon cart">
               <Link>
                 <img src="/assets/icon/CartIcon.svg" alt="cart" />
               </Link>

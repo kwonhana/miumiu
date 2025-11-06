@@ -17,10 +17,10 @@ const conicshoes = [
   { key: '김나지움', label: '김나지움' },
   { key: '루슈', label: '루슈' },
 ];
-const Lnbshoes = () => {
+const Lnbshoes = ({ isActive }) => {
   return (
-    <div className="lnb-shoes">
-      <div className="lng-shoes-left">
+    <div className={`lnb-shoes ${isActive ? '' : 'hidden'}`}>
+      <div className="lnb-shoes-left">
         <ul>
           <span>슈즈</span>
           {shoes.map((shoe) => (
@@ -30,7 +30,7 @@ const Lnbshoes = () => {
           ))}
         </ul>
         <div className="shoes-imgs-left">
-          <img src="" alt="" />
+          <img src="/assets/images/lnb/shoes-list.jpg" alt="신발" />
         </div>
       </div>
 
@@ -44,10 +44,10 @@ const Lnbshoes = () => {
           ))}
         </ul>
         <div className="shoes-imgs-right">
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
+          <img src="/assets/images/lnb/shoes-miu.jpg" alt="미우발레" />
+          <img src="/assets/images/lnb/shoes-plum.jpg" alt="플룸" />
+          <img src="/assets/images/lnb/shoes-winter.jpg" alt="겨울신발" />
+          <img src="/assets/images/lnb/shoes-peny.jpg" alt="페니로퍼" />
         </div>
       </div>
     </div>

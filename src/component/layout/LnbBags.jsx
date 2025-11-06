@@ -16,9 +16,9 @@ const conicBags = [
   { key: '아방뛰르', label: '아방뛰르' },
   { key: '아이비', label: '아이비' },
 ];
-const LnbBags = () => {
+const LnbBags = ({ isActive }) => {
   return (
-    <div className="lnb-bags">
+    <div className={`lnb-bags ${isActive ? '' : 'hidden'}`}>
       <div className="lnb-bags-left">
         <ul>
           <span>가방</span>
@@ -28,25 +28,25 @@ const LnbBags = () => {
             </li>
           ))}
         </ul>
-        <div>
-          <img src="" alt="" />
+        <div className="bags-imgs-left">
+          <img src="/assets/images/lnb/bags-list.jpg" alt="가방" />
         </div>
       </div>
 
       <div className="lnb-bags-right">
-        <span>아이코닉백</span>
         <ul>
+          <span>아이코닉백</span>
           {conicBags.map((conicbag) => (
             <li key={conicbag.key}>
               <Link to={`/${conicbag.key}`}>{conicbag.label}</Link>
             </li>
           ))}
         </ul>
-        <div>
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
+        <div className="bags-imgs-right">
+          <img src="/assets/images/lnb/bags-wander.jpg" alt="완더" />
+          <img src="/assets/images/lnb/bags-arcadi.jpg" alt="아르카디" />
+          <img src="/assets/images/lnb/bags-pocket.jpg" alt="포켓" />
+          <img src="/assets/images/lnb/bags-vo.jpg" alt="보" />
         </div>
       </div>
     </div>
