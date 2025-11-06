@@ -16,6 +16,7 @@ const SwiperSlider = ({ item, direction, perView, speed, delay, center }) => {
         autoplay={{
           delay: delay, // 지연 없이 계속 흐름
           disableOnInteraction: false,
+          // ----- reverseDirection: true,
         }}
         speed={speed} // 천천히 부드럽게
         centeredSlides={center}
@@ -23,7 +24,7 @@ const SwiperSlider = ({ item, direction, perView, speed, delay, center }) => {
         {item.map((el) => {
           return (
             <SwiperSlide>
-              <img src={`${el.imgUrl}`} alt="" />
+              <img src={`${el.imgUrl}`} alt={`${el.alt}`} />
               <div className={el.title ? 'title' : 'hidden'}></div>
             </SwiperSlide>
           );
