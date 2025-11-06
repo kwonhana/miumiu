@@ -1,0 +1,29 @@
+@use '../../../App.scss' as main;
+@use '../../keyframes.scss' as line;
+
+.MostLove {
+  margin-bottom: 185px;
+  h2 {
+    text-align: center;
+    font-family: 'Libre Baskerville';
+    @include main.font(3rem, 700, #000);
+    margin-bottom: 60px;
+  }
+
+  .item-box {
+    @include main.flex(space-between, center, 0);
+
+    .item {
+      width: 23%;
+      .item-img {
+        aspect-ratio: 330/440;
+      }
+
+      .title {
+        @include main.font(1.8rem, 500, #000);
+        text-align: center;
+        margin-top: 20px;
+      }
+    }
+  }
+}
