@@ -15,7 +15,7 @@ const CousLe = () => {
           <div className="boxlayout">
             <p className="title">NEW LETTER</p>
             <p className="sub-title">최신 캠페인과 컬렉션 소식을 메일을 통해<br/>빠르게 만나보세요!</p>
-            <input type="text" />
+            <input type="email" placeholder="이메일 주소*" />
           </div>
         </div>
       </div>
