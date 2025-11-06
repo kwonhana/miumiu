@@ -1,6 +1,7 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState } from 'react';
+import { Link, Navigate, useNavigate } from 'react-router-dom';
 import '../../styles/auth/login.scss';
+import { useAuthStore } from '../../api/authStore';
 
 const list = [
   { icon: '', title: '개인계정을 통해 특별한 쇼핑 경험을 느껴보세요.' },
@@ -13,6 +14,21 @@ const list = [
 ];
 
 const Login = () => {
+  //1. 변수
+  const [id, setId] = useState('');
+  const [password, setPassword] = useState('');
+  const { onGoogleLogin } = useAuthStore();
+  const navigate = useNavigate();
+
+  //1-2 구글 로그인
+  const handleGoogleLogin = async () => {
+    console.log('구글');
+    await onGoogleLogin();
+    // navigate('/');
+  };
+  //2. 메서드
+
+  //3.뿌려
   return (
     <section className="login-wrap">
       <div className="login-container">
@@ -21,8 +37,26 @@ const Login = () => {
           <p className="subTitle">미우미우를 찾아주셔서 감사합니다.</p>
 
           <div className="login-input">
-            <input className="inputID" placeholder="이메일 / 휴대폰 번호" type="text" required />
-            <input className="inputPassword" placeholder="비밀번호" type="password" required />
+            <form>
+              <input
+                className="inputID"
+                value={id}
+                placeholder="이메일 / 휴대폰 번호"
+                type="text"
+                required
+                onChange={(e) => setId(e.target.value)}
+              />
+              <input
+                className="inputPassword"
+                value={password}
+                placeholder="비밀번호"
+                type="password"
+                required
+                onChange={(e) => setPassword(e.target.value)}
+                // name????
+              />
+            </form>
+
             <div className="helf">
               <p>
                 <Link className="link">비밀번호를 잊으셨나요?</Link>
@@ -37,7 +71,9 @@ const Login = () => {
                 <button className="btnLogin">로그인</button>{' '}
               </p>
               <p>
-                <button className="btnGoogle">구글 계정으로 로그인</button>
+                <button className="btnGoogle" onClick={handleGoogleLogin}>
+                  구글 계정으로 로그인
+                </button>
               </p>
               <p>
                 <button className="btnKakao">카카오 계정으로 로그인</button>
@@ -45,9 +81,9 @@ const Login = () => {
             </div>
 
             <ul className="info">
-              {list.map((el) => {
+              {list.map((el, i) => {
                 return (
-                  <li>
+                  <li key={i}>
                     <span className="icon">{el.icon}</span>
                     <span>{el.title}</span>
                   </li>

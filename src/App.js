@@ -11,6 +11,7 @@ import Payment from './pages/Checkout/Payment';
 import Footer from './component/layout/Footer';
 import { Routes, Route } from 'react-router-dom';
 import Login from './pages/auth/Login';
+import 'animate.css/animate.min.css';
 
 function App() {
   return (
