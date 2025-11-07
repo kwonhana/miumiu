@@ -1,0 +1,50 @@
+@use "../../../App.scss" as b;
+
+.CousLetter-wrap {
+  .inner {
+    padding: 78px 0;
+    .box {
+      @include b.flex(center, center, 0);
+      .boxlayout {
+        @include b.flex(center, center, 0);
+        flex-direction: column;
+        width: 50%;
+        aspect-ratio: 720/230;
+        padding: 60px 0;
+
+        &:first-child {
+          background-color: #f3f3f3;
+        }
+
+        &:last-child {
+          background-color: #fdf3ed;
+        }
+        .title {
+          @include b.font(1.4rem, 400, #888);
+          padding-bottom: 12px;
+        }
+        .sub-title {
+          @include b.font(2.2rem, 500 #000);
+          text-align: center;
+          line-height: 32px;
+        }
+        > button {
+          aspect-ratio: 300/60;
+          margin-top: 49px;
+          width: 42%;
+          background-color: #000;
+          padding: 11px 39px;
+          @include b.font(1.6rem, 500, #fff);
+        }
+        >input{
+          aspect-ratio: 458/60;
+          margin-top: 17px;
+          width: 64%;
+          background-color: #fff;
+          padding: 16px 24px;
+          @include b.font(1.6rem, 400, #777);
+        }
+      }
+    }
+  }
+}

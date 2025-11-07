@@ -6,6 +6,9 @@ import MostLove from './layout/MostLove';
 import Main from './layout/Main';
 import SeasonCollection from './layout/SeasonCollection';
 import './scss/home.scss';
+import CousLet from './layout/CouLet';
+import MiuClub from './layout/MiuClub';
+import SpeclalCo from './layout/SpeclalCo';
 
 const Home = () => {
   return (
@@ -21,6 +24,9 @@ const Home = () => {
       </div>
       <LineBanner />
       <SeasonCollection />
+      <SpeclalCo />
+      <MiuClub />
+      <CousLet />
     </main>
   );
 };

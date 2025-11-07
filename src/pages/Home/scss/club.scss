@@ -1,0 +1,61 @@
+@use '../../../App.scss' as cl;
+@use './keyframes.scss' as roll;
+
+.miu-club-wrap {
+  background-color: #000;
+  .inner {
+    @include cl.flex(center, center, 72px);
+    height: 100%;
+    aspect-ratio: 1920/1080;
+    overflow: hidden;
+
+    .club-title {
+      > h2 {
+        font-family: 'Libre Baskerville';
+        padding-bottom: 30px;
+        @include cl.font(4rem, 700, #fff);
+      }
+      > p {
+        @include cl.font(1.4rem, 400, #fff);
+      }
+    }
+
+    .club-slides {
+      display: flex;
+      gap: 72px;
+      .slider-card {
+        height: max-content;
+        animation: bannerScrollY 40s linear infinite;
+
+        &.paused {
+          animation-play-state: paused;
+        }
+      }
+
+      .slider-card2 {
+        height: fit-content;
+        animation: bannerScrollReturnY 40s linear infinite;
+
+        &.paused {
+          animation-play-state: paused;
+        }
+      }
+
+      .card-container {
+        .card-box {
+          padding-bottom: 100px;
+          .card-menu {
+            @include cl.font(1.4rem, 400, #fff);
+            line-height: 22px;
+            margin-top: 31px;
+          }
+          .card-title {
+            @include cl.font(2.2rem, 500, #fff);
+            line-height: 33px;
+            margin-top: 8px;
+          }
+        }
+      }
+    }
+  }
+}

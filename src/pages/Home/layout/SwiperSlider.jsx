@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Autoplay, Mousewheel } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -24,8 +25,10 @@ const SwiperSlider = ({ item, direction, perView, speed, delay, center }) => {
         {item.map((el) => {
           return (
             <SwiperSlide>
-              <img src={`${el.imgUrl}`} alt={`${el.alt}`} />
+              <Link>
+              <img src={`${el.imgUrl}`} alt="" />
               <div className={el.title ? 'title' : 'hidden'}></div>
+              </Link>
             </SwiperSlide>
           );
         })}
