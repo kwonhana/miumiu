@@ -10,7 +10,7 @@ const Header = () => {
     setLnbOpen(!lnbOpen);
   };
   return (
-    <header className="black">
+    <header className="">
       <div className="header-wrap">
         <div className="header-left">
           <Link className="menu" onClick={toggleLnb}>

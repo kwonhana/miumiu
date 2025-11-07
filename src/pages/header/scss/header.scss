@@ -1,9 +1,13 @@
 header {
-  position: relative;
+  position: fixed;
+  top: 0;
+  width: 100%;
   max-width: 2400px;
   margin: 0 auto;
   padding: 2.8rem 4rem;
   background-color: transparent;
+  z-index: 999;
+
   &.black {
     background-color: #000;
   }
