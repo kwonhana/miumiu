@@ -9,7 +9,7 @@ const SwiperSlider = ({ item, direction, perView, speed, delay, center }) => {
       <Swiper
         className="mySwiper"
         direction={direction}
-        slidesPerView={perView}
+        slidesPerView={4}
         spaceBetween={24}
         loop={true}
         mousewheel={true}

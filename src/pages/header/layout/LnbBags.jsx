@@ -1,7 +1,6 @@
 import '../scss/lnbSub.scss';
-
-import React from 'react';
 import { Link } from 'react-router-dom';
+
 const bags = [
   { key: '백팩', label: '백팩' },
   { key: '미니백', label: '미니백' },

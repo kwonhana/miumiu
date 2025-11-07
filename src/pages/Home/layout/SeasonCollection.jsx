@@ -1,8 +1,7 @@
-import React, { useEffect } from 'react';
 import '../scss/SeasonCollection.scss';
-import WOW from 'wowjs';
 import { Link } from 'react-router-dom';
-import SwiperSlider from './SwiperSlider';
+import 'swiper/css';
+import { useState } from 'react';
 
 const items = [
   {
@@ -16,10 +15,6 @@ const items = [
   {
     imgUrl: './assets/images/static/main/SeasonCollection/5BB172_2CRW_F0NBL_V_OOO.png',
     alt: '5BB172_2CRW_F0NBL_V_OOO',
-  },
-  {
-    imgUrl: './assets/images/static/main/SeasonCollection/5BB182_2IER_F0046_V_MOO.png',
-    alt: '5BB182_2IER_F0046_V_MOO',
   },
   {
     imgUrl: './assets/images/static/main/SeasonCollection/5BB182_2IER_F0046_V_MOO.png',
@@ -60,9 +55,9 @@ const items = [
 ];
 
 const SeasonCollection = () => {
-  useEffect(() => {
-    new WOW.WOW().init();
-  }, []);
+  const [isPaused, setPaused] = useState(false);
+  // const [selected, setSelected] = useState(banners[0]);
+
   return (
     <section className="SeasonCollection">
       <div className="topSection">
@@ -76,10 +71,21 @@ const SeasonCollection = () => {
           </div>
         </div>
       </div>
-      <div className="bottomSection">
-        <div className="item-container">
-          <SwiperSlider item={items} direction="horizontal" perView="12" speed="1000" delay="0" />
-        </div>
+      <div
+        className="bottomSection"
+        onMouseEnter={() => setPaused(true)}
+        onMouseLeave={() => setPaused(false)}>
+        <ul className={`item-container ${isPaused ? 'paused' : ''}`}>
+          {items.concat(items).map((el, index) => {
+            return (
+              <li key={index}>
+                <Link to={`/product/${el.alt}`}>
+                  <img src={el.imgUrl} alt={el.alt} />
+                </Link>
+              </li>
+            );
+          })}
+        </ul>
       </div>
     </section>
   );

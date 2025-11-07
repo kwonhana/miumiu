@@ -32,18 +32,23 @@
   .bottomSection {
     margin-top: 80px;
     width: 100%;
-    overflow: hidden;
+    // overflow: hidden;
+    border: 1px solid;
 
     .item-container {
-      width: 190%;
       display: flex;
-      justify-content: center;
       gap: 24px;
+      width: max-content;
+      animation: bannerScroll 10s linear infinite;
 
-      .item {
-        width: 18%;
-        max-width: 330px;
-        aspect-ratio: 330/206;
+      &.paused {
+        animation-play-state: paused;
+      }
+
+      li {
+        min-width: 330px;
+        width: 17%;
+        aspect-ratio: 330/200;
       }
     }
   }
