@@ -1,5 +1,6 @@
 import React from 'react';
 import '../scss/NewItemMain.scss';
+import 'swiper/css';
 
 import { Link } from 'react-router-dom';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -29,9 +30,11 @@ const NewItemMain = () => {
           {newItemTitle.map((product, index) => (
             <SwiperSlide key={index}>
               <div className="new-container">
-                <p>
-                  <img src={`/assets/images/detail/${product.no}.jpg`} alt={product.item} />
-                </p>
+                <div
+                  className="img-box"
+                  style={{ backgroundImage: `url(/assets/images/detail/${product.no}.jpg)` }}>
+                  {/* <img src= alt={product.item} /> */}
+                </div>
                 <div className="gradient-wrap">
                   <span>WHAT'S NEW</span>
                   <h2>{product.item}</h2>

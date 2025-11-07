@@ -1,8 +1,7 @@
 @use '../../../App.scss' as main;
 
 .column-slide {
-  width: 330px;
-  aspect-ratio: 330/1000;
+  aspect-ratio: 240/900;
 
   .swiper {
     height: 100%;
@@ -15,11 +14,25 @@
 
   .swiper-slide {
     width: 100%;
-    aspect-ratio: 330/425;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 18px;
-    font-weight: bold;
+    aspect-ratio: 240/500;
+    @include main.flex(center, center, 0);
+    position: relative;
+
+    &:hover::before {
+      opacity: 0.6;
+    }
+
+    &::before {
+      background-color: rgba(0, 0, 0, 0.6);
+      display: inline-block;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      @include main.flex(center, center, 0);
+      @include main.font(2rem, 500, #fff);
+      opacity: 0;
+    }
   }
 }

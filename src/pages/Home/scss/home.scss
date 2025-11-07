@@ -1,13 +1,13 @@
-@use '../../../App.scss' as main;
+@use './../../../App.scss' as main;
 
 .main {
   .newItem {
     @include main.flex(center, stretch, 10%);
-    aspect-ratio: 1440/980;
+    aspect-ratio: 1440/800;
   }
 
   .fw-collection {
-    width: 47%;
+    max-width: 560px;
     aspect-ratio: 684/880;
     overflow: hidden;
     margin: 60px 0;
@@ -16,10 +16,6 @@
       .swiper-wrapper {
         width: 400%;
         @include main.flex(start, center, 0);
-      }
-      .swiper-slide {
-        width: 100%;
-        flex-grow: 1;
       }
     }
   }

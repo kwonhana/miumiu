@@ -1,433 +1,49 @@
-import React from 'react';
-import '../../styles/main.scss';
+import React, { useEffect, useState } from 'react';
+import './scss/main.scss';
+import './scss/keyframes.scss';
+import Logo from '../../component/layout/Logo';
+import WOW from 'wowjs';
+
+const introItems = [
+  { data: 'miumiunux_1.jpg' },
+  { data: 'miumiunux_2.avif' },
+  { data: 'miumiunux_3.avif' },
+  { data: 'miumiunux_4.avif' },
+  { data: 'miumiunux_5.avif' },
+  { data: 'miumiunux_6.avif' },
+  { data: 'miumiunux_7.avif' },
+  { data: 'miumiunux_8.avif' },
+  { data: 'miumiunux_9.avif' },
+  { data: 'miumiunux_10.avif' },
+  { data: 'miumiunux_11.avif' },
+  { data: 'miumiunux_12.avif' },
+];
 
 const Main = () => {
+  const [randomItems, setRandomItems] = useState([]);
+
+  useEffect(() => {
+    new WOW.WOW().init();
+    const randomImg = [...introItems].sort(() => 0.5 - Math.random());
+    setRandomItems(randomImg.slice(0, 1));
+  }, []);
+
   return (
     <div className="intro">
-      <div className="dotte-wrap">
-        <div class="dotte delay-0 ss"></div>
-        <div class="dotte delay-1 ss"></div>
-        <div class="dotte delay-2 ss"></div>
-        <div class="dotte delay-3 ss"></div>
-        <div class="dotte delay-4 ss"></div>
-        <div class="dotte delay-5 ss"></div>
-        <div class="dotte delay-6 ss"></div>
-        <div class="dotte delay-7 ss"></div>
-        <div class="dotte delay-8 ss"></div>
-        <div class="dotte delay-9 ss"></div>
-        <div class="dotte delay-10 ss"></div>
-        <div class="dotte delay-11 ss"></div>
-        <div class="dotte delay-12 ss"></div>
-        <div class="dotte delay-13 ss"></div>
-        <div class="dotte delay-14 ss"></div>
-        <div class="dotte delay-15 ss"></div>
-        <div class="dotte delay-16 ss"></div>
-        <div class="dotte delay-17 ss"></div>
-        <div class="dotte delay-18 ss"></div>
-        <div class="dotte delay-19 ss"></div>
-        <div class="dotte delay-20 ss"></div>
-        <div class="dotte delay-21 ss"></div>
-        <div class="dotte delay-22 ss"></div>
-        <div class="dotte delay-23 ss"></div>
-        <div class="dotte delay-24 ss"></div>
-
-        <div class="dotte delay-1 ss"></div>
-        <div class="dotte delay-2 ss"></div>
-        <div class="dotte delay-3 ss"></div>
-        <div class="dotte delay-4 ss"></div>
-        <div class="dotte delay-5 ss"></div>
-        <div class="dotte delay-6 ss"></div>
-        <div class="dotte delay-7 ss"></div>
-        <div class="dotte delay-8 ss"></div>
-        <div class="dotte delay-9 ss"></div>
-        <div class="dotte delay-10 ss"></div>
-        <div class="dotte delay-11 ss"></div>
-        <div class="dotte delay-12 ss"></div>
-        <div class="dotte delay-13 ss"></div>
-        <div class="dotte delay-14 ss"></div>
-        <div class="dotte delay-15 ss"></div>
-        <div class="dotte delay-16 ss"></div>
-        <div class="dotte delay-17 ss"></div>
-        <div class="dotte delay-18 ss"></div>
-        <div class="dotte delay-19 ss"></div>
-        <div class="dotte delay-20 ss"></div>
-        <div class="dotte delay-21 ss"></div>
-        <div class="dotte delay-22 ss"></div>
-        <div class="dotte delay-23 ss"></div>
-        <div class="dotte delay-24 ss"></div>
-        <div class="dotte delay-0 ss"></div>
-
-        <div class="dotte delay-2 ss"></div>
-        <div class="dotte delay-3 ss"></div>
-        <div class="dotte delay-4 ss"></div>
-        <div class="dotte delay-5 ss"></div>
-        <div class="dotte delay-6 ss"></div>
-        <div class="dotte delay-7 ss"></div>
-        <div class="dotte delay-8 ss"></div>
-        <div class="dotte delay-9 ss"></div>
-        <div class="dotte delay-10 ss"></div>
-        <div class="dotte delay-11 ss"></div>
-        <div class="dotte delay-12 ss"></div>
-        <div class="dotte delay-13 ss"></div>
-        <div class="dotte delay-14 ss"></div>
-        <div class="dotte delay-15 ss"></div>
-        <div class="dotte delay-16 ss"></div>
-        <div class="dotte delay-17 ss"></div>
-        <div class="dotte delay-18 ss"></div>
-        <div class="dotte delay-19 ss"></div>
-        <div class="dotte delay-20 ss"></div>
-        <div class="dotte delay-21 ss"></div>
-        <div class="dotte delay-22 ss"></div>
-        <div class="dotte delay-23 ss"></div>
-        <div class="dotte delay-24 ss"></div>
-        <div class="dotte delay-0 ss"></div>
-        <div class="dotte delay-1 ss"></div>
-
-        <div class="dotte delay-3 ss"></div>
-        <div class="dotte delay-4 ss"></div>
-        <div class="dotte delay-5 ss"></div>
-        <div class="dotte delay-6 ss"></div>
-        <div class="dotte delay-7 ss"></div>
-        <div class="dotte delay-8 ss"></div>
-        <div class="dotte delay-9 ss"></div>
-        <div class="dotte delay-10 ss"></div>
-        <div class="dotte delay-11 ss"></div>
-        <div class="dotte delay-12 ss"></div>
-        <div class="dotte delay-13 ss"></div>
-        <div class="dotte delay-14 ss"></div>
-        <div class="dotte delay-15 ss"></div>
-        <div class="dotte delay-16 ss"></div>
-        <div class="dotte delay-17 ss"></div>
-        <div class="dotte delay-18 ss"></div>
-        <div class="dotte delay-19 ss"></div>
-        <div class="dotte delay-20 ss"></div>
-        <div class="dotte delay-21 ss"></div>
-        <div class="dotte delay-22 ss"></div>
-        <div class="dotte delay-23 ss"></div>
-        <div class="dotte delay-24 ss"></div>
-        <div class="dotte delay-0 ss"></div>
-        <div class="dotte delay-1 ss"></div>
-        <div class="dotte delay-2 ss"></div>
-
-        <div class="dotte delay-4 ss"></div>
-        <div class="dotte delay-5 ss"></div>
-        <div class="dotte delay-6 ss"></div>
-        <div class="dotte delay-7 ss"></div>
-        <div class="dotte delay-8 ss"></div>
-        <div class="dotte delay-9 ss"></div>
-        <div class="dotte delay-10 ss"></div>
-        <div class="dotte delay-11 ss"></div>
-        <div class="dotte delay-12 ss"></div>
-        <div class="dotte delay-13 ss"></div>
-        <div class="dotte delay-14 ss"></div>
-        <div class="dotte delay-15 ss"></div>
-        <div class="dotte delay-16 ss"></div>
-        <div class="dotte delay-17 ss"></div>
-        <div class="dotte delay-18 ss"></div>
-        <div class="dotte delay-19 ss"></div>
-        <div class="dotte delay-20 ss"></div>
-        <div class="dotte delay-21 ss"></div>
-        <div class="dotte delay-22 ss"></div>
-        <div class="dotte delay-23 ss"></div>
-        <div class="dotte delay-24 ss"></div>
-        <div class="dotte delay-0 ss"></div>
-        <div class="dotte delay-1 ss"></div>
-        <div class="dotte delay-2 ss"></div>
-        <div class="dotte delay-3 ss"></div>
-
-        <div class="dotte delay-5 ss"></div>
-        <div class="dotte delay-6 ss"></div>
-        <div class="dotte delay-7 ss"></div>
-        <div class="dotte delay-8 ss"></div>
-        <div class="dotte delay-9 ss"></div>
-        <div class="dotte delay-10 ss"></div>
-        <div class="dotte delay-11 ss"></div>
-        <div class="dotte delay-12 ss"></div>
-        <div class="dotte delay-13 ss"></div>
-        <div class="dotte delay-14 ss"></div>
-        <div class="dotte delay-15 ss"></div>
-        <div class="dotte delay-16 ss"></div>
-        <div class="dotte delay-17 ss"></div>
-        <div class="dotte delay-18 ss"></div>
-        <div class="dotte delay-19 ss"></div>
-        <div class="dotte delay-20 ss"></div>
-        <div class="dotte delay-21 ss"></div>
-        <div class="dotte delay-22 ss"></div>
-        <div class="dotte delay-23 ss"></div>
-        <div class="dotte delay-24 ss"></div>
-        <div class="dotte delay-0 ss"></div>
-        <div class="dotte delay-1 ss"></div>
-        <div class="dotte delay-2 ss"></div>
-        <div class="dotte delay-3 ss"></div>
-        <div class="dotte delay-4 ss"></div>
-
-        <div class="dotte delay-6 ss"></div>
-        <div class="dotte delay-7 ss"></div>
-        <div class="dotte delay-8 ss"></div>
-        <div class="dotte delay-9 ss"></div>
-        <div class="dotte delay-10 ss"></div>
-        <div class="dotte delay-11 ss"></div>
-        <div class="dotte delay-12 ss"></div>
-        <div class="dotte delay-13 ss"></div>
-        <div class="dotte delay-14 ss"></div>
-        <div class="dotte delay-15 ss"></div>
-        <div class="dotte delay-16 ss"></div>
-        <div class="dotte delay-17 ss"></div>
-        <div class="dotte delay-18 ss"></div>
-        <div class="dotte delay-19 ss"></div>
-        <div class="dotte delay-20 ss"></div>
-        <div class="dotte delay-21 ss"></div>
-        <div class="dotte delay-22 ss"></div>
-        <div class="dotte delay-23 ss"></div>
-        <div class="dotte delay-24 ss"></div>
-        <div class="dotte delay-0 ss"></div>
-        <div class="dotte delay-1 ss"></div>
-        <div class="dotte delay-2 ss"></div>
-        <div class="dotte delay-3 ss"></div>
-        <div class="dotte delay-4 ss"></div>
-        <div class="dotte delay-5 ss"></div>
-
-        <div class="dotte delay-7 ss"></div>
-        <div class="dotte delay-8 ss"></div>
-        <div class="dotte delay-9 ss"></div>
-        <div class="dotte delay-10 ss"></div>
-        <div class="dotte delay-11 ss"></div>
-        <div class="dotte delay-12 ss"></div>
-        <div class="dotte delay-13 ss"></div>
-        <div class="dotte delay-14 ss"></div>
-        <div class="dotte delay-15 ss"></div>
-        <div class="dotte delay-16 ss"></div>
-        <div class="dotte delay-17 ss"></div>
-        <div class="dotte delay-18 ss"></div>
-        <div class="dotte delay-19 ss"></div>
-        <div class="dotte delay-20 ss"></div>
-        <div class="dotte delay-21 ss"></div>
-        <div class="dotte delay-22 ss"></div>
-        <div class="dotte delay-23 ss"></div>
-        <div class="dotte delay-24 ss"></div>
-        <div class="dotte delay-0 ss"></div>
-        <div class="dotte delay-1 ss"></div>
-        <div class="dotte delay-2 ss"></div>
-        <div class="dotte delay-3 ss"></div>
-        <div class="dotte delay-4 ss"></div>
-        <div class="dotte delay-5 ss"></div>
-        <div class="dotte delay-6 ss"></div>
-
-        <div class="dotte delay-8 ss"></div>
-        <div class="dotte delay-9 ss"></div>
-        <div class="dotte delay-10 ss"></div>
-        <div class="dotte delay-11 ss"></div>
-        <div class="dotte delay-12 ss"></div>
-        <div class="dotte delay-13 ss"></div>
-        <div class="dotte delay-14 ss"></div>
-        <div class="dotte delay-15 ss"></div>
-        <div class="dotte delay-16 ss"></div>
-        <div class="dotte delay-17 ss"></div>
-        <div class="dotte delay-18 ss"></div>
-        <div class="dotte delay-19 ss"></div>
-        <div class="dotte delay-20 ss"></div>
-        <div class="dotte delay-21 ss"></div>
-        <div class="dotte delay-22 ss"></div>
-        <div class="dotte delay-23 ss"></div>
-        <div class="dotte delay-24 ss"></div>
-        <div class="dotte delay-0 ss"></div>
-        <div class="dotte delay-1 ss"></div>
-        <div class="dotte delay-2 ss"></div>
-        <div class="dotte delay-3 ss"></div>
-        <div class="dotte delay-4 ss"></div>
-        <div class="dotte delay-5 ss"></div>
-        <div class="dotte delay-6 ss"></div>
-        <div class="dotte delay-7 ss"></div>
-
-        <div class="dotte delay-9 ss"></div>
-        <div class="dotte delay-10 ss"></div>
-        <div class="dotte delay-11 ss"></div>
-        <div class="dotte delay-12 ss"></div>
-        <div class="dotte delay-13 ss"></div>
-        <div class="dotte delay-14 ss"></div>
-        <div class="dotte delay-15 ss"></div>
-        <div class="dotte delay-16 ss"></div>
-        <div class="dotte delay-17 ss"></div>
-        <div class="dotte delay-18 ss"></div>
-        <div class="dotte delay-19 ss"></div>
-        <div class="dotte delay-20 ss"></div>
-        <div class="dotte delay-21 ss"></div>
-        <div class="dotte delay-22 ss"></div>
-        <div class="dotte delay-23 ss"></div>
-        <div class="dotte delay-24 ss"></div>
-        <div class="dotte delay-0 ss"></div>
-        <div class="dotte delay-1 ss"></div>
-        <div class="dotte delay-2 ss"></div>
-        <div class="dotte delay-3 ss"></div>
-        <div class="dotte delay-4 ss"></div>
-        <div class="dotte delay-5 ss"></div>
-        <div class="dotte delay-6 ss"></div>
-        <div class="dotte delay-7 ss"></div>
-        <div class="dotte delay-8 ss"></div>
-
-        <div class="dotte delay-10 ss"></div>
-        <div class="dotte delay-11 ss"></div>
-        <div class="dotte delay-12 ss"></div>
-        <div class="dotte delay-13 ss"></div>
-        <div class="dotte delay-14 ss"></div>
-        <div class="dotte delay-15 ss"></div>
-        <div class="dotte delay-16 ss"></div>
-        <div class="dotte delay-17 ss"></div>
-        <div class="dotte delay-18 ss"></div>
-        <div class="dotte delay-19 ss"></div>
-        <div class="dotte delay-20 ss"></div>
-        <div class="dotte delay-21 ss"></div>
-        <div class="dotte delay-22 ss"></div>
-        <div class="dotte delay-23 ss"></div>
-        <div class="dotte delay-24 ss"></div>
-        <div class="dotte delay-0 ss"></div>
-        <div class="dotte delay-1 ss"></div>
-        <div class="dotte delay-2 ss"></div>
-        <div class="dotte delay-3 ss"></div>
-        <div class="dotte delay-4 ss"></div>
-        <div class="dotte delay-5 ss"></div>
-        <div class="dotte delay-6 ss"></div>
-        <div class="dotte delay-7 ss"></div>
-        <div class="dotte delay-8 ss"></div>
-        <div class="dotte delay-9 ss"></div>
-
-        <div class="dotte delay-11 ss"></div>
-        <div class="dotte delay-12 ss"></div>
-        <div class="dotte delay-13 ss"></div>
-        <div class="dotte delay-14 ss"></div>
-        <div class="dotte delay-15 ss"></div>
-        <div class="dotte delay-16 ss"></div>
-        <div class="dotte delay-17 ss"></div>
-        <div class="dotte delay-18 ss"></div>
-        <div class="dotte delay-19 ss"></div>
-        <div class="dotte delay-20 ss"></div>
-        <div class="dotte delay-21 ss"></div>
-        <div class="dotte delay-22 ss"></div>
-        <div class="dotte delay-23 ss"></div>
-        <div class="dotte delay-24 ss"></div>
-        <div class="dotte delay-0 ss"></div>
-        <div class="dotte delay-1 ss"></div>
-        <div class="dotte delay-2 ss"></div>
-        <div class="dotte delay-3 ss"></div>
-        <div class="dotte delay-4 ss"></div>
-        <div class="dotte delay-5 ss"></div>
-        <div class="dotte delay-6 ss"></div>
-        <div class="dotte delay-7 ss"></div>
-        <div class="dotte delay-8 ss"></div>
-        <div class="dotte delay-9 ss"></div>
-        <div class="dotte delay-10 ss"></div>
-
-        <div class="dotte delay-12 ss"></div>
-        <div class="dotte delay-13 ss"></div>
-        <div class="dotte delay-14 ss"></div>
-        <div class="dotte delay-15 ss"></div>
-        <div class="dotte delay-16 ss"></div>
-        <div class="dotte delay-17 ss"></div>
-        <div class="dotte delay-18 ss"></div>
-        <div class="dotte delay-19 ss"></div>
-        <div class="dotte delay-20 ss"></div>
-        <div class="dotte delay-21 ss"></div>
-        <div class="dotte delay-22 ss"></div>
-        <div class="dotte delay-23 ss"></div>
-        <div class="dotte delay-24 ss"></div>
-        <div class="dotte delay-0 ss"></div>
-        <div class="dotte delay-1 ss"></div>
-        <div class="dotte delay-2 ss"></div>
-        <div class="dotte delay-3 ss"></div>
-        <div class="dotte delay-4 ss"></div>
-        <div class="dotte delay-5 ss"></div>
-        <div class="dotte delay-6 ss"></div>
-        <div class="dotte delay-7 ss"></div>
-        <div class="dotte delay-8 ss"></div>
-        <div class="dotte delay-9 ss"></div>
-        <div class="dotte delay-10 ss"></div>
-        <div class="dotte delay-11 ss"></div>
-
-        <div class="dotte delay-13 ss"></div>
-        <div class="dotte delay-14 ss"></div>
-        <div class="dotte delay-15 ss"></div>
-        <div class="dotte delay-16 ss"></div>
-        <div class="dotte delay-17 ss"></div>
-        <div class="dotte delay-18 ss"></div>
-        <div class="dotte delay-19 ss"></div>
-        <div class="dotte delay-20 ss"></div>
-        <div class="dotte delay-21 ss"></div>
-        <div class="dotte delay-22 ss"></div>
-        <div class="dotte delay-23 ss"></div>
-        <div class="dotte delay-24 ss"></div>
-        <div class="dotte delay-0 ss"></div>
-        <div class="dotte delay-1 ss"></div>
-        <div class="dotte delay-2 ss"></div>
-        <div class="dotte delay-3 ss"></div>
-        <div class="dotte delay-4 ss"></div>
-        <div class="dotte delay-5 ss"></div>
-        <div class="dotte delay-6 ss"></div>
-        <div class="dotte delay-7 ss"></div>
-        <div class="dotte delay-8 ss"></div>
-        <div class="dotte delay-9 ss"></div>
-        <div class="dotte delay-10 ss"></div>
-        <div class="dotte delay-11 ss"></div>
-        <div class="dotte delay-12 ss"></div>
-
-        <div class="dotte delay-14 ss"></div>
-        <div class="dotte delay-15 ss"></div>
-        <div class="dotte delay-16 ss"></div>
-        <div class="dotte delay-17 ss"></div>
-        <div class="dotte delay-18 ss"></div>
-        <div class="dotte delay-19 ss"></div>
-        <div class="dotte delay-20 ss"></div>
-        <div class="dotte delay-21 ss"></div>
-        <div class="dotte delay-22 ss"></div>
-        <div class="dotte delay-23 ss"></div>
-        <div class="dotte delay-24 ss"></div>
-        <div class="dotte delay-0 ss"></div>
-        <div class="dotte delay-1 ss"></div>
-        <div class="dotte delay-2 ss"></div>
-        <div class="dotte delay-3 ss"></div>
-        <div class="dotte delay-4 ss"></div>
-        <div class="dotte delay-5 ss"></div>
-        <div class="dotte delay-6 ss"></div>
-        <div class="dotte delay-7 ss"></div>
-        <div class="dotte delay-8 ss"></div>
-        <div class="dotte delay-9 ss"></div>
-        <div class="dotte delay-10 ss"></div>
-        <div class="dotte delay-11 ss"></div>
-        <div class="dotte delay-12 ss"></div>
-        <div class="dotte delay-13 ss"></div>
-
-        <div class="dotte delay-15 ss"></div>
-        <div class="dotte delay-16 ss"></div>
-        <div class="dotte delay-17 ss"></div>
-        <div class="dotte delay-18 ss"></div>
-        <div class="dotte delay-19 ss"></div>
-        <div class="dotte delay-20 ss"></div>
-        <div class="dotte delay-21 ss"></div>
-        <div class="dotte delay-22 ss"></div>
-        <div class="dotte delay-23 ss"></div>
-        <div class="dotte delay-24 ss"></div>
-        <div class="dotte delay-0 ss"></div>
-        <div class="dotte delay-1 ss"></div>
-        <div class="dotte delay-2 ss"></div>
-        <div class="dotte delay-3 ss"></div>
-        <div class="dotte delay-4 ss"></div>
-        <div class="dotte delay-5 ss"></div>
-        <div class="dotte delay-6 ss"></div>
-        <div class="dotte delay-7 ss"></div>
-        <div class="dotte delay-8 ss"></div>
-        <div class="dotte delay-9 ss"></div>
-        <div class="dotte delay-10 ss"></div>
-        <div class="dotte delay-11 ss"></div>
-        <div class="dotte delay-12 ss"></div>
-        <div class="dotte delay-13 ss"></div>
-        <div class="dotte delay-14 ss"></div>
-      </div>
-      <div className="logo-wrapper">
-        <img
-          src="https://www.miumiu.com/content/dam/miumiunux/MiuMiuNUXlogo.svg"
-          alt="MiuMiu Logo"
-          id="logo"
-        />
-      </div>
+      {randomItems.map((el, index) => {
+        return (
+          <div
+            className={`poto-box`}
+            key={index}
+            style={{ backgroundImage: `url(/assets/images/static/intro/${el.data})` }}>
+            {/* <strong >Miu Miu Automne</strong> */}
+          </div>
+        );
+      })}
+      ;
+      {/* <div className={`logo-wrapper`}>
+        <Logo />
+      </div> */}
     </div>
   );
 };

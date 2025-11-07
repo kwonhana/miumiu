@@ -80,7 +80,7 @@ const SeasonCollection = () => {
             return (
               <li key={index}>
                 <Link to={`/product/${el.alt}`}>
-                  <img src={el.imgUrl} alt={el.alt} />
+                  <img src={el.imgUrl} alt={el.alt} data-alt="" />
                 </Link>
               </li>
             );

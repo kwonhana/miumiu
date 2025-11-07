@@ -51,7 +51,8 @@ const ColumnSlide = () => {
     <div className="column-slide">
       <>
         <Swiper
-          slidesPerView={2.2}
+          slidesPerView={2.8}
+          spaceBetween={24}
           direction="vertical"
           centeredSlides={true}
           loop={true}
@@ -67,7 +68,7 @@ const ColumnSlide = () => {
           className="mySwiper">
           {slideItems.map((el) => {
             return (
-              <SwiperSlide>
+              <SwiperSlide data-alt={el.alt}>
                 <img src={el.imgUrl} alt={el.alt} />
               </SwiperSlide>
             );
