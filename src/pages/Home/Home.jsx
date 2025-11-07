@@ -3,9 +3,9 @@ import NewItemMain from './layout/NewItemMain';
 import AutomneBi from './layout/AutomneBi';
 import LineBanner from './layout/LineBanner';
 import MostLove from './layout/MostLove';
+import Main from './layout/Main';
 import SeasonCollection from './layout/SeasonCollection';
 import './scss/home.scss';
-import Main from './Main';
 
 const Home = () => {
   return (

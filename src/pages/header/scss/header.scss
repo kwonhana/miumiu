@@ -3,7 +3,10 @@ header {
   max-width: 2400px;
   margin: 0 auto;
   padding: 2.8rem 4rem;
-  background-color: #000;
+  background-color: transparent;
+  &.black {
+    background-color: #000;
+  }
   .header-wrap {
     display: flex;
     justify-content: space-between;

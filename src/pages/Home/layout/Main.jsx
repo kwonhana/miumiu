@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import './scss/main.scss';
-import './scss/keyframes.scss';
-import Logo from '../../component/layout/Logo';
+import '../scss/main.scss';
+import '../scss/keyframes.scss';
+import Logo from '../../../component/layout/Logo';
 import WOW from 'wowjs';
 
 const introItems = [
