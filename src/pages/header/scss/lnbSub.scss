@@ -1,0 +1,45 @@
+@use './lnb.scss' as g;
+
+.lnb-inner {
+  display: flex;
+  justify-content: space-between;
+
+  .hi {
+    gap: 10rem;
+  }
+
+  .lnb-left {
+    display: flex;
+    .lnb-menus {
+      @include g.fontStyle;
+    }
+
+    .lnb-img {
+      // border: 1px solid black;
+      img {
+        aspect-ratio: 382/257;
+      }
+    }
+  }
+  .lnb-right {
+    display: flex;
+    .lnb-menus {
+      @include g.fontStyle;
+    }
+    .lnb-imgs {
+      display: flex;
+      gap: 2.4rem;
+      p {
+        display: none;
+      }
+      img {
+        aspect-ratio: 200/257;
+      }
+      &:hover {
+        li {
+          filter: brightness(0.7);
+        }
+      }
+    }
+  }
+}
