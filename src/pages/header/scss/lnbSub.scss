@@ -31,15 +31,40 @@
       gap: 2.4rem;
       p {
         display: none;
+        font-size: 1.6rem;
+        font-weight: 500;
       }
-      img {
-        aspect-ratio: 200/257;
-      }
-      &:hover {
-        li {
-          filter: brightness(0.7);
+      li {
+        position: relative;
+        img {
+          aspect-ratio: 200/257;
+        }
+        &:hover {
+          img {
+            filter: brightness(0.7);
+          }
+        }
+        &:hover {
+          p {
+            position: absolute;
+            display: block;
+            color: white;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+          }
         }
       }
+      // &:hover {
+      //   p {
+      //     position: absolute;
+      //     display: block;
+      //     color: white;
+      //     left: 50%;
+      //     top: 50%;
+      //     transform: translate(-50%, -50%);
+      //   }
+      // }
     }
   }
 }

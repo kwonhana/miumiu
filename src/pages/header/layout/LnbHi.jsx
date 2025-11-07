@@ -45,20 +45,28 @@ const LnbHi = ({ isActive }) => {
           <div className="lnb-menus">
             <p className="lnb-menus-title">MIU MIU CLUB</p>
             <ul>
-              <li className="lnb-sub-menus">Miu Miu Women's Tales</li>
+              <Link>
+                <li className="lnb-sub-menus">Miu Miu Women's Tales</li>
+              </Link>
             </ul>
           </div>
         </div>
         <div className="lnb-right">
-          <ul className="lnb-imgs">
+          <ul>
             <li>
-              <img src="/assets/images/lnb/collection-1.jpg" alt="collection-1" />
+              <Link>
+                <img src="/assets/images/lnb/collection-1.jpg" alt="collection-1" />
+              </Link>
             </li>
             <li>
-              <img src="/assets/images/lnb/collection-2.jpg" alt="collection-2" />
+              <Link>
+                <img src="/assets/images/lnb/collection-2.jpg" alt="collection-2" />
+              </Link>
             </li>
             <li>
-              <img src="/assets/images/lnb/collection-3.jpg" alt="collection-3" />
+              <Link>
+                <img src="/assets/images/lnb/collection-3.jpg" alt="collection-3" />
+              </Link>
             </li>
           </ul>
         </div>

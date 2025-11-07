@@ -2,30 +2,49 @@ header {
   position: relative;
   max-width: 2400px;
   margin: 0 auto;
-}
-.Icon {
-  aspect-ratio: 24/24;
-  padding: 4px;
-}
-.user {
-  padding: 0;
-}
-.header-wrap {
+  padding: 2.8rem 4rem;
   background-color: #000;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.logo {
-  // border: 1px solid #fff;
-  width: 8%;
-  aspect-ratio: 150/24;
+  .header-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
-  img {
-    width: 100%;
+    .menu {
+      align-items: center;
+      aspect-ratio: 1/1;
+      width: 2.4rem;
+      height: 2.4rem;
+      align-items: center;
+      justify-content: center;
+    }
+    .logo {
+      // border: 1px solid #fff;
+      position: absolute;
+      width: 8%;
+      aspect-ratio: 150/24;
+      left: 50%;
+      transform: translateX(-50%);
+
+      img {
+        width: 100%;
+      }
+    }
+    .header-right {
+      .Icon {
+        align-items: center;
+        width: 2.4rem;
+        height: 2.4rem;
+        aspect-ratio: 1/1;
+        padding: 4px;
+      }
+      .gnb-list {
+        display: flex;
+        gap: 30px;
+
+        .user {
+          padding: 0;
+        }
+      }
+    }
   }
-}
-.gnb-list {
-  display: flex;
-  gap: 30px;
 }

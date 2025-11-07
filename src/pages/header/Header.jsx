@@ -13,13 +13,9 @@ const Header = () => {
     <header>
       <div className="header-wrap">
         <div className="header-left">
-          <div>
-            <Link className="Icon" onClick={toggleLnb}>
-              <div>
-                <img src="/assets/icon/HamIcon.svg" alt="menu" />
-              </div>
-            </Link>
-          </div>
+          <Link className="menu" onClick={toggleLnb}>
+            <img src="/assets/icon/HamIcon.svg" alt="menu" />
+          </Link>
         </div>
         <Logo className="logo" color={`white`} />
         <div className="header-right">
