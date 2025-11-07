@@ -60,10 +60,9 @@ const Lnbshoes = ({ isActive }) => {
           </div>
           <ul className="lnb-imgs">
             {conicshoes.slice(0, 4).map((conicshoe) => (
-              <li key={conicshoe.alt}>
+              <li key={conicshoe.alt} data-alt={conicshoe.alt}>
                 <Link to={`/${conicshoe.alt}`}>
                   <img src={conicshoe.src} alt={conicshoe.alt} />
-                  <p>{conicshoe.alt}</p>
                 </Link>
               </li>
             ))}

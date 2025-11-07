@@ -45,7 +45,7 @@ const LnbWalletJewel = ({ isActive }) => {
           </div>
           <ul className="lnb-imgs">
             {jewels.slice(0, 4).map((jewel) => (
-              <li key={jewel.alt}>
+              <li key={jewel.alt} data-alt={jewel.alt}>
                 <Link to={`/${jewel.alt}`}>
                   <img src={jewel.src} alt={jewel.alt} />
                   <p>{jewel.alt}</p>

@@ -44,27 +44,26 @@
             filter: brightness(0.7);
           }
         }
+        &::before {
+          content: attr(data-alt);
+          visibility: hidden;
+          opacity: 0;
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          transform: translate(-50%);
+          font-size: 1.6rem;
+          font-weight: 500;
+          color: #fff;
+          z-index: 10;
+        }
         &:hover {
-          p {
-            position: absolute;
-            display: block;
-            color: white;
-            left: 50%;
-            top: 50%;
-            transform: translate(-50%, -50%);
+          &::before {
+            visibility: visible;
+            opacity: 1;
           }
         }
       }
-      // &:hover {
-      //   p {
-      //     position: absolute;
-      //     display: block;
-      //     color: white;
-      //     left: 50%;
-      //     top: 50%;
-      //     transform: translate(-50%, -50%);
-      //   }
-      // }
     }
   }
 }

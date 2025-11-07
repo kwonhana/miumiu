@@ -53,7 +53,7 @@ const LnbBags = ({ isActive }) => {
           </div>
           <ul className="lnb-imgs">
             {conicBags.slice(0, 4).map((conicBag) => (
-              <li key={conicBag.alt}>
+              <li key={conicBag.alt} data-alt={conicBag.alt}>
                 <Link to={`/${conicBag.alt}`}>
                   <img src={conicBag.src} alt={conicBag.alt} />
                   <p>{conicBag.alt}</p>
