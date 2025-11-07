@@ -21,44 +21,46 @@ const LnbHi = ({ isActive }) => {
   return (
     <div className={`lnb-hi ${isActive ? '' : 'hidden'}`}>
       <div className="lnb-inner">
-        <div className="lnb-hi-left">
-          <div className="lnb-hi-col">
-            <span>컬렉션</span>
-            <ul>
+        <div className="lnb-left hi">
+          <div className="lnb-menus">
+            <p className="lnb-menus-title">컬렉션</p>
+            <ul className="lnb-sub-menus">
               {colections.map((colection) => (
-                <li key={colection.key}>
+                <li className="lnb-menuList" key={colection.key}>
                   <Link to={`/${colection.key}`}>{colection.label}</Link>
                 </li>
               ))}
             </ul>
           </div>
-
-          <div className="lnb-hi-new">
-            <span>신상품</span>
-            <ul>
-              {newitems.map((newitem) => (
-                <li key={newitem.key}>
-                  <Link to={`/${newitem.key}`}>{newitem.label}</Link>
+          <div className="lnb-menus">
+            <p className="lnb-menus-title">신상품</p>
+            <ul className="lnb-sub-menus">
+              {newitems.map((items) => (
+                <li className="lnb-menuList" key={items.key}>
+                  <Link to={`/${items.key}`}>{items.label}</Link>
                 </li>
               ))}
             </ul>
           </div>
-
-          <div className="lnb-hi-miu">
-            <span>miu miu</span>
+          <div className="lnb-menus">
+            <p className="lnb-menus-title">MIU MIU CLUB</p>
             <ul>
-              <li key={`Miu Miu Women's Tales`}>
-                <Link to={`/Miu Miu Women's Tales`}>Miu Miu Women's Tales</Link>
-              </li>
+              <li className="lnb-sub-menus">Miu Miu Women's Tales</li>
             </ul>
           </div>
         </div>
-        <div className="lnb-hi-right">
-          <div className="lnb-hi-imgs">
-            <img src="/assets/images/lnb/collection-1.jpg" alt="collection1" />
-            <img src="/assets/images/lnb/collection-2.jpg" alt="collection2" />
-            <img src="/assets/images/lnb/collection-3.jpg" alt="collection3" />
-          </div>
+        <div className="lnb-right">
+          <ul className="lnb-imgs">
+            <li>
+              <img src="/assets/images/lnb/collection-1.jpg" alt="collection-1" />
+            </li>
+            <li>
+              <img src="/assets/images/lnb/collection-2.jpg" alt="collection-2" />
+            </li>
+            <li>
+              <img src="/assets/images/lnb/collection-3.jpg" alt="collection-3" />
+            </li>
+          </ul>
         </div>
       </div>
     </div>

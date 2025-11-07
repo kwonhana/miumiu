@@ -12,17 +12,31 @@ const Lnb = ({ isOpen }) => {
     <nav className={`lnb-wrap ${isOpen ? 'active' : ''}`}>
       <ul className="lnb-title">
         <li>
-          <Link onClick={() => setActiveMenu('hi')}>하이라이트</Link>
+          <Link onClick={() => setActiveMenu('hi')} className={activeMenu === 'hi' ? 'active' : ''}>
+            하이라이트
+          </Link>
         </li>
 
         <li>
-          <Link onClick={() => setActiveMenu('bags')}>가방</Link>
+          <Link
+            onClick={() => setActiveMenu('bags')}
+            className={activeMenu === 'bags' ? 'active' : ''}>
+            가방
+          </Link>
         </li>
         <li>
-          <Link onClick={() => setActiveMenu('shoes')}>슈즈</Link>
+          <Link
+            onClick={() => setActiveMenu('shoes')}
+            className={activeMenu === 'shoes' ? 'active' : ''}>
+            슈즈
+          </Link>
         </li>
         <li>
-          <Link onClick={() => setActiveMenu('wallet')}>지갑&패션주얼리</Link>
+          <Link
+            onClick={() => setActiveMenu('wallet')}
+            className={activeMenu === 'wallet' ? 'active' : ''}>
+            지갑&패션주얼리
+          </Link>
         </li>
       </ul>
       <div className="lnb-list">

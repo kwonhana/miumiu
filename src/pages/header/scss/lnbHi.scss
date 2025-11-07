@@ -1,22 +1,26 @@
 @use './lnb.scss' as g;
 
-.lnb-hi {
-  margin-top: 5rem;
-  width: 100%;
+.lnb-inner {
   display: flex;
-}
-.lnb-hi-left {
-  display: flex;
-  gap: 100px;
-  @include g.fontStyle();
-}
-.lnb-hi-col,
-.lnb-hi-new,
-.lnb-hi-miu {
-  @include g.listStyle();
-}
+  justify-content: space-between;
 
-.lnb-hi-imgs {
-  @include g.img();
-  margin-left: 39.6rem;
+  .hi {
+    gap: 10rem;
+  }
+
+  .lnb-left {
+    display: flex;
+    .lnb-menus {
+      @include g.fontStyle;
+    }
+  }
+  .lnb-right {
+    .lnb-imgs {
+      display: flex;
+      gap: 2.4rem;
+      img {
+        aspect-ratio: 200/257;
+      }
+    }
+  }
 }

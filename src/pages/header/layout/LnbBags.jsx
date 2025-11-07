@@ -1,4 +1,4 @@
-import '../scss/lnbBags.scss';
+import '../scss/lnbSub.scss';
 
 import React from 'react';
 import { Link } from 'react-router-dom';
@@ -20,37 +20,50 @@ const conicBags = [
 ];
 const LnbBags = ({ isActive }) => {
   return (
-    <div className={`lnb-bags ${isActive ? '' : 'hidden'}`}>
+    <div className={`lnb-box ${isActive ? '' : 'hidden'}`}>
       <div className="lnb-inner">
-        <div className="lnb-bags-left">
-          <ul>
-            <span>가방</span>
-            {bags.map((bag) => (
-              <li key={bag.key}>
-                <Link to={`/${bag.key}`}>{bag.label}</Link>
-              </li>
-            ))}
-          </ul>
-          <div className="bags-imgs-left">
-            <img src="/assets/images/lnb/bags-list.jpg" alt="가방" />
+        <div className="lnb-left">
+          <div className="lnb-menus">
+            <p className="lnb-menus-title">가방</p>
+            <ul className="lnb-sub-menus">
+              {bags.map((bag) => (
+                <li className="lnb-menuList" key={bag.key}>
+                  <Link to={`/${bag.key}`}>{bag.label}</Link>
+                </li>
+              ))}
+            </ul>
           </div>
+          <ul className="lnb-img">
+            <li>
+              <img src="/assets/images/lnb/bags-list.jpg" alt="bag" />
+            </li>
+          </ul>
         </div>
-
-        <div className="lnb-bags-right">
-          <ul>
-            <span>아이코닉백</span>
-            {conicBags.map((conicbag) => (
-              <li key={conicbag.key}>
-                <Link to={`/${conicbag.key}`}>{conicbag.label}</Link>
-              </li>
-            ))}
-          </ul>
-          <div className="bags-imgs-right">
-            <img src="/assets/images/lnb/bags-wander.jpg" alt="완더" />
-            <img src="/assets/images/lnb/bags-arcadi.jpg" alt="아르카디" />
-            <img src="/assets/images/lnb/bags-pocket.jpg" alt="포켓" />
-            <img src="/assets/images/lnb/bags-vo.jpg" alt="보" />
+        <div className="lnb-right">
+          <div className="lnb-menus">
+            <p className="lnb-menus-title">아이코닉 백</p>
+            <ul className="lnb-sub-menus">
+              {conicBags.map((bagconicBag) => (
+                <li className="lnb-menuList" key={bagconicBag.key}>
+                  <Link to={`/${bagconicBag.key}`}>{bagconicBag.label}</Link>
+                </li>
+              ))}
+            </ul>
           </div>
+          <ul className="lnb-imgs">
+            <li>
+              <img src="/assets/images/lnb/bags-wander.jpg" alt="wander" />
+            </li>
+            <li>
+              <img src="/assets/images/lnb/bags-arcadi.jpg" alt="arcadi" />
+            </li>
+            <li>
+              <img src="/assets/images/lnb/bags-pocket.jpg" alt="pocket" />
+            </li>
+            <li>
+              <img src="/assets/images/lnb/bags-vo.jpg" alt="vo" />
+            </li>
+          </ul>
         </div>
       </div>
     </div>

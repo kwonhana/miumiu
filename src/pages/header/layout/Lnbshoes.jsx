@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import '../scss/lnbSub.scss';
 
 const shoes = [
   { key: '부츠', label: '부츠' },
@@ -19,37 +20,50 @@ const conicshoes = [
 ];
 const Lnbshoes = ({ isActive }) => {
   return (
-    <div className={`lnb-shoes ${isActive ? '' : 'hidden'}`}>
+    <div className={`lnb-box ${isActive ? '' : 'hidden'}`}>
       <div className="lnb-inner">
-        <div className="lnb-shoes-left">
-          <ul>
-            <span>슈즈</span>
-            {shoes.map((shoe) => (
-              <li key={shoe.key}>
-                <Link to={`/${shoe.key}`}>{shoe.label}</Link>
-              </li>
-            ))}
-          </ul>
-          <div className="shoes-imgs-left">
-            <img src="/assets/images/lnb/shoes-list.jpg" alt="신발" />
+        <div className="lnb-left">
+          <div className="lnb-menus">
+            <p className="lnb-menus-title">슈즈</p>
+            <ul className="lnb-sub-menus">
+              {shoes.map((shoe) => (
+                <li className="lnb-menuList" key={shoe.key}>
+                  <Link to={`/${shoe.key}`}>{shoe.label}</Link>
+                </li>
+              ))}
+            </ul>
           </div>
+          <ul className="lnb-img">
+            <li>
+              <img src="/assets/images/lnb/shoes-list.jpg" alt="bag" />
+            </li>
+          </ul>
         </div>
-
-        <div className="lnb-shoes-right">
-          <ul>
-            <span>아이코닉 슈즈</span>
-            {conicshoes.map((conicshoe) => (
-              <li key={conicshoe.key}>
-                <Link to={`/${conicshoe.key}`}>{conicshoe.label}</Link>
-              </li>
-            ))}
-          </ul>
-          <div className="shoes-imgs-right">
-            <img src="/assets/images/lnb/shoes-miu.jpg" alt="미우발레" />
-            <img src="/assets/images/lnb/shoes-plum.jpg" alt="플룸" />
-            <img src="/assets/images/lnb/shoes-winter.jpg" alt="겨울신발" />
-            <img src="/assets/images/lnb/shoes-peny.jpg" alt="페니로퍼" />
+        <div className="lnb-right">
+          <div className="lnb-menus">
+            <p className="lnb-menus-title">아이코닉 슈즈</p>
+            <ul className="lnb-sub-menus">
+              {conicshoes.map((shoes) => (
+                <li className="lnb-menuList" key={shoes.key}>
+                  <Link to={`/${shoes.key}`}>{shoes.label}</Link>
+                </li>
+              ))}
+            </ul>
           </div>
+          <ul className="lnb-imgs">
+            <li>
+              <img src="/assets/images/lnb/shoes-miu.jpg" alt="ballet" />
+            </li>
+            <li>
+              <img src="/assets/images/lnb/shoes-plum.jpg" alt="plum" />
+            </li>
+            <li>
+              <img src="/assets/images/lnb/shoes-winter.jpg" alt="winter" />
+            </li>
+            <li>
+              <img src="/assets/images/lnb/shoes-peny.jpg" alt="peny" />
+            </li>
+          </ul>
         </div>
       </div>
     </div>
