@@ -3,11 +3,11 @@
 
 .intro {
   .poto-box {
-    margin-top: -80px;
     top: 0;
     width: 100%;
-    aspect-ratio: 1920/1020;
+    aspect-ratio: 1920/1080;
     height: auto;
+    min-height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
     @include main.flex(center, center, 0);

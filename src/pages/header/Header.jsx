@@ -5,12 +5,18 @@ import Lnb from './layout/Lnb';
 import './scss/header.scss';
 
 const Header = () => {
+  const [scrollY, setScrollY] = useState(0);
   const [lnbOpen, setLnbOpen] = useState(false);
   const toggleLnb = () => {
     setLnbOpen(!lnbOpen);
   };
+
+  window.addEventListener('scroll', () => {
+    setScrollY(window.scrollY);
+    console.log(scrollY);
+  });
   return (
-    <header className="">
+    <header className={`${scrollY >= 20 ? 'black' : ''}`}>
       <div className="header-wrap">
         <div className="header-left">
           <Link className="menu" onClick={toggleLnb}>
