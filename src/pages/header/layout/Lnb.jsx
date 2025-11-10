@@ -10,6 +10,7 @@ const Lnb = ({ isOpen }) => {
   const [activeMenu, setActiveMenu] = useState('hi');
   return (
     <nav className={`lnb-wrap ${isOpen ? 'active' : ''}`}>
+      <div className="headerBlock"></div>
       <ul className="lnb-title">
         <li>
           <Link onClick={() => setActiveMenu('hi')} className={activeMenu === 'hi' ? 'active' : ''}>

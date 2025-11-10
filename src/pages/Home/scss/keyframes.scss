@@ -41,29 +41,23 @@
   }
 }
 
-@keyframes logo {
+@keyframes LogoFix {
   0% {
-    width: 600px;
-    top: 50%;
+    top: 50vh;
+    width: 20%;
   }
-
-  80% {
-    width: 600px;
-    top: 50%;
-  }
-
   100% {
-    width: 150px;
-    top: 24px;
+    top: 14px;
+    width: 8%;
   }
 }
 
-@keyframes fixed {
+@keyframes headerBg {
   0% {
-    top: 0;
+    background-color: #00000000;
   }
 
   100% {
-    top: -100%;
+    background-color: #000;
   }
 }
