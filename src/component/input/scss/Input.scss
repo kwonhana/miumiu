@@ -1,0 +1,125 @@
+@use '../../../App.scss' as input;
+
+//TODO input 디자인
+.base-input {
+  display: inline-block;
+  border: 1px solid blue;
+  input {
+    border: 1px solid input.$line;
+    border-radius: 4px;
+    padding: 16px;
+    @include input.font(1.4rem, 400, input.$base);
+
+    &::placeholder {
+      @include input.font(1.4rem, 400, input.$text-666);
+    }
+
+    &:focus::placeholder {
+      color: #fff;
+    }
+  }
+
+  .icon {
+    display: none;
+  }
+
+  .info {
+    display: none;
+  }
+
+  &.failure {
+    input {
+      border: 1px solid #ff0000;
+    }
+
+    .info {
+      display: block;
+      margin-top: 8px;
+      @include input.font(1.2rem, 400, #ff0000);
+    }
+  }
+
+  &.success {
+    position: relative;
+
+    input {
+      border: 1px solid input.$base;
+    }
+
+    .icon {
+      width: 12px;
+      aspect-ratio: 1/1;
+      display: inline-block;
+      position: absolute;
+      right: 16px;
+      top: 50%;
+      transform: translateY(-50%);
+      background-image: url('../../../../public/assets/icon/input-success.png');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 16px 16px;
+    }
+  }
+
+  //TODO 비밀번호 input
+  .password-icon {
+    width: 14px;
+    aspect-ratio: 14/16;
+    display: inline-block;
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-image: url('../../../../public/assets/icon/input-password.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 14px 16px;
+  }
+
+  //TODO 인증 input
+
+  &.auth {
+    position: relative;
+
+    .auth-icon {
+      display: none;
+    }
+
+    .sand {
+      display: inline-block;
+      position: absolute;
+      right: 16px;
+      top: 50%;
+      transform: translateY(-50%);
+      @include input.font(1.4rem, 400, input.$text-666);
+
+      &::after {
+        content: '';
+        position: absolute;
+        bottom: -1px;
+        left: 0;
+        border-bottom: 1px solid input.$text-666;
+        width: 100%;
+      }
+    }
+
+    &.success {
+      .sand {
+        display: none;
+      }
+      .auth-icon {
+        width: 12px;
+        aspect-ratio: 1/1;
+        display: inline-block;
+        position: absolute;
+        right: 16px;
+        top: 50%;
+        transform: translateY(-50%);
+        background-image: url('../../../../public/assets/icon/input-success.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 16px 16px;
+      }
+    }
+  }
+}

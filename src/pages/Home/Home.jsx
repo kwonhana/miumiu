@@ -9,6 +9,12 @@ import './scss/home.scss';
 import CousLet from './layout/CouLet';
 import MiuClub from './layout/MiuClub';
 import SpeclalCo from './layout/SpeclalCo';
+import AddressInput from '../../component/input/AddressInput';
+import EmailInput from '../../component/input/EmailInput';
+import PasswordInput from '../../component/input/PasswordInput';
+import SearchInput from '../../component/input/SearchInput';
+import { TextInput } from '../../component/input/TextInput';
+import AuthInput from '../../component/input/AuthInput';
 
 const Home = () => {
   return (
@@ -27,6 +33,12 @@ const Home = () => {
       <SpeclalCo />
       <MiuClub />
       <CousLet />
+      <AddressInput />
+      <EmailInput />
+      <PasswordInput />
+      <AuthInput />
+      <SearchInput />
+      <TextInput />
     </main>
   );
 };
