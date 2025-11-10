@@ -1,1 +1,8 @@
-@use '../../../App.scss' as g;
+@use '../../../App.scss' as comp;
+
+.miu-btn {
+  background-color: red;
+  aspect-ratio: 448/60;
+  @include comp.flex(center, center, 0);
+  @include comp.font(1.6rem, 600, #fff);
+}

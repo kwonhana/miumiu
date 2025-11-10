@@ -28,13 +28,13 @@
           text-align: center;
           line-height: 32px;
         }
-        > button {
+        > .go-btn {
           aspect-ratio: 300/60;
           margin-top: 49px;
           width: 42%;
           background-color: main.$base;
-          padding: 11px 39px;
           @include main.font(1.6rem, 500, #fff);
+          @include main.flex(center, center, 0);
         }
         > input {
           aspect-ratio: 458/60;

@@ -14,6 +14,7 @@
       flex-grow: 1;
       span {
         @include main.font(1.4rem, 400, #fff);
+        user-select: none;
       }
 
       h2 {
@@ -21,6 +22,7 @@
         @include main.font(4rem, 700, #fff);
         text-transform: uppercase;
         margin-top: 40px;
+        user-select: none;
       }
     }
     .right-container {
@@ -39,7 +41,9 @@
       display: flex;
       gap: 24px;
       width: max-content;
-      animation: bannerScroll 10s linear infinite;
+      animation: bannerScroll 20s linear infinite;
+      touch-action: pan-x;
+      -webkit-overflow-scrolling: touch;
 
       &.paused {
         animation-play-state: paused;

@@ -23,6 +23,7 @@
         @include main.font(1.8rem, 500, main.$base);
         text-align: center;
         margin-top: 20px;
+        user-select: none;
       }
     }
   }

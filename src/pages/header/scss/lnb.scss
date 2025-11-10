@@ -1,4 +1,4 @@
-@use '../../../App.scss' as header;
+@use '../../../App.scss' as main;
 
 @mixin img() {
   display: flex;
@@ -25,6 +25,7 @@
     font-size: 1.6rem;
     color: #888;
     margin-bottom: 2rem;
+    user-select: none;
   }
   .lnb-sub-menus {
     display: flex;
@@ -33,27 +34,28 @@
     gap: 1.6rem;
     font-size: 1.4rem;
     font-weight: 400;
+    user-select: none;
   }
 }
 
 .lnb-wrap {
   width: 100%;
-  height: 54.4rem;
+  aspect-ratio: 1920/594;
   position: absolute;
   top: 0;
   left: 0;
-  padding: 5rem 4rem;
   background-color: #fff;
   overflow: hidden;
   visibility: hidden;
   z-index: 10;
+  padding: 13rem 4rem 5rem 4rem;
 
   &::before {
     content: '';
     display: inline-block;
     width: 100%;
     height: 8rem;
-    background: header.$base;
+    background: main.$base;
     position: absolute;
     top: 0;
     left: 0;
@@ -68,8 +70,10 @@
     font-weight: 500;
     display: flex;
     gap: 3rem;
+
     a {
       text-decoration: none;
+
       &.active {
         text-decoration: underline;
       }

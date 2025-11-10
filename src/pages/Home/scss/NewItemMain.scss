@@ -60,6 +60,33 @@
   }
 }
 
+.swiper {
+  position: relative;
+
+  .swiper-pagination {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    width: 100px;
+    z-index: 2;
+    @include main.flex(center, center, 6px);
+    transform: translateX(-50%);
+
+    .swiper-pagination-bullet {
+      display: inline-block;
+      aspect-ratio: 1/1;
+      width: 6px;
+      background: rgba(255, 255, 255, 0.3);
+      cursor: pointer;
+      &.swiper-pagination-bullet-active {
+        background: #fff;
+        height: 6px;
+        width: 30px;
+      }
+    }
+  }
+}
+
 .swiper-slide-active .new-container {
   z-index: 1;
 }
