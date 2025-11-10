@@ -1,12 +1,12 @@
-@use '../../../App.scss' as b;
+@use '../../../App.scss' as main;
 
 .CousLetter-wrap {
   .inner {
     padding: 78px 0;
     .box {
-      @include b.flex(center, center, 0);
+      @include main.flex(center, center, 0);
       .boxlayout {
-        @include b.flex(center, center, 0);
+        @include main.flex(center, center, 0);
         flex-direction: column;
         width: 50%;
         aspect-ratio: 720/230;
@@ -20,11 +20,11 @@
           background-color: #fdf3ed;
         }
         .title {
-          @include b.font(1.4rem, 400, #888);
+          @include main.font(1.4rem, 400, #888);
           padding-bottom: 12px;
         }
         .sub-title {
-          @include b.font(2.2rem, 500 $base);
+          @include main.font(2.2rem, 500 main.$base);
           text-align: center;
           line-height: 32px;
         }
@@ -32,9 +32,9 @@
           aspect-ratio: 300/60;
           margin-top: 49px;
           width: 42%;
-          background-color: $base;
+          background-color: main.$base;
           padding: 11px 39px;
-          @include b.font(1.6rem, 500, #fff);
+          @include main.font(1.6rem, 500, #fff);
         }
         > input {
           aspect-ratio: 458/60;
@@ -42,7 +42,7 @@
           width: 64%;
           background-color: #fff;
           padding: 16px 24px;
-          @include b.font(1.6rem, 400, #777);
+          @include main.font(1.6rem, 400, #777);
         }
       }
     }

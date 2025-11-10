@@ -1,3 +1,5 @@
+@use '../../../App.scss' as header;
+
 header {
   position: fixed;
   top: 0;
@@ -9,7 +11,7 @@ header {
   z-index: 999;
 
   &.black {
-    background-color: $base;
+    background-color: header.$base;
     animation: headerBg 1s ease-in-out;
     animation-fill-mode: forwards;
 
@@ -19,19 +21,15 @@ header {
     }
   }
   .header-wrap {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    @include header.flex(space-between, center, 0);
     position: relative;
     z-index: 20;
 
     .menu {
-      align-items: center;
+      @include header.flex(center, center, 0);
       aspect-ratio: 1/1;
       width: 2.4rem;
       height: 2.4rem;
-      align-items: center;
-      justify-content: center;
     }
     .logo {
       position: absolute;
@@ -52,10 +50,10 @@ header {
         height: 2.4rem;
         aspect-ratio: 1/1;
         padding: 4px;
+        border: 1px solid orange;
       }
       .gnb-list {
-        display: flex;
-        gap: 30px;
+        @include header.flex(start, start, 30pp);
 
         .user {
           padding: 0;

@@ -17,13 +17,13 @@
 
   b {
     font-family: 'Libre Baskerville';
-    @include main.font(2rem, 400, $base);
+    @include main.font(2rem, 400, main.$base);
     margin-top: 30px;
   }
 
   p {
     margin-top: 20px;
-    @include main.font(1.6rem, 400, $base);
+    @include main.font(1.6rem, 400, main.$base);
     line-height: 162%;
   }
 }
