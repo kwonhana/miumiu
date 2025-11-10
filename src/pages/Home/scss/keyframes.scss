@@ -1,3 +1,5 @@
+@use '../../../App.scss' as main;
+
 @keyframes disPlay {
   100% {
     display: none;
@@ -58,6 +60,6 @@
   }
 
   100% {
-    background-color: #000;
+    background-color: main.$base;
   }
 }

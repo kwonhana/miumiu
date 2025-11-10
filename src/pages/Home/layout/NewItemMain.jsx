@@ -21,6 +21,7 @@ const NewItemMain = () => {
         <Swiper
           slidesPerView={1}
           centeredSlides={true}
+          pagination={{ clickable: true }}
           autoplay={{
             delay: 2500,
             disableOnInteraction: false,

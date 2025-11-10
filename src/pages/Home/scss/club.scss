@@ -2,7 +2,7 @@
 @use './keyframes.scss' as roll;
 
 .miu-club-wrap {
-  background-color: #000;
+  background-color: cl.$base;
   .inner {
     @include cl.flex(center, center, 72px);
     height: 100%;

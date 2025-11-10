@@ -14,7 +14,8 @@ const SpeclalCo = () => {
         <ul className="speclal-item">
           {speclal.map((img, key) => (
             <li
-              className={`speclal-item-box`}
+              className={`speclal-item-box wow animate__animated animate__zoomIn`}
+              data-wow-delay="0.6s"
               key={key}
               style={{
                 backgroundImage: `url(/assets/images/static/main/SpeclalCo/${img.imgUrl}.jpg)`,

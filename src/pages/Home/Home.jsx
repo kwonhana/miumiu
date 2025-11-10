@@ -17,7 +17,7 @@ const Home = () => {
       <div className="inner">
         <NewItemMain />
       </div>
-      <LineBanner />
+      {/* <LineBanner /> */}
       <div className="inner">
         <AutomneBi />
         <MostLove />

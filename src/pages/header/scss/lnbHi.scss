@@ -1,4 +1,4 @@
-@use './lnb.scss' as g;
+@use './lnb.scss' as header;
 
 .lnb-inner {
   display: flex;
@@ -11,7 +11,7 @@
   .lnb-left {
     display: flex;
     .lnb-menus {
-      @include g.fontStyle;
+      @include header.fontStyle;
     }
   }
   .lnb-right {
