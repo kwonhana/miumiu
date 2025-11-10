@@ -181,7 +181,7 @@ $line: #c4c4c4;
   text-overflow: ellipsis;
 }
 
-@mixin font($fs: 1.6rem, $fw: 400, $color: #333) {
+@mixin font($fs: 1.6rem, $fw: 400, $color: $base) {
   font-size: $fs;
   font-weight: $fw;
   color: $color;
