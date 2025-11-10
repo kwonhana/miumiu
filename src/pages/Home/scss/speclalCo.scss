@@ -5,7 +5,7 @@
     padding: 100px 0;
     h2 {
       font-family: 'Libre Baskerville';
-      @include sp.font(3rem, 700 #000);
+      @include sp.font(3rem, 700 $base);
       line-height: 44px;
       text-align: center;
     }
@@ -19,7 +19,6 @@
         background-position: center;
         background-size: cover;
         @include sp.flex(flex-start, end, 24px);
-
         .text-wrap {
           margin: 0 0 60px 50px;
           width: fit-content;
@@ -32,7 +31,7 @@
           font-family: 'Libre Baskerville';
           @include sp.font(3.6rem, 700, #fff);
           line-height: 60px;
-          background-color: #000;
+          background-color: $base;
           display: inline-block;
           padding: 0 12px;
         }

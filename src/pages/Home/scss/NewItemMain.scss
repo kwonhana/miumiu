@@ -53,8 +53,8 @@
       padding: 17px 78px;
 
       &:hover {
-        border: 1px solid #000;
-        background-color: #000;
+        border: 1px solid $base;
+        background-color: $base;
       }
     }
   }

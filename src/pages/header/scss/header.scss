@@ -9,7 +9,7 @@ header {
   z-index: 999;
 
   &.black {
-    background-color: #000;
+    background-color: $base;
     animation: headerBg 1s ease-in-out;
     animation-fill-mode: forwards;
 

@@ -1,7 +1,7 @@
-// 영문글꼴
+//TODO 영문폰트
 @import url('https://fonts.googleapis.com/css2?family=Hi+Melody&family=Jua&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Noto+Sans+KR:wght@100..900&display=swap');
 
-//한글글꼴
+//TODO 한글 Pretendard 폰트
 @font-face {
   font-family: 'Pretendard';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Thin.woff2')
@@ -74,6 +74,7 @@
   font-display: swap;
 }
 
+//TODO 리셋 css
 html {
   font-size: 62.5%; // 16px × 62.5% = 10px
 }
@@ -146,6 +147,14 @@ table {
   margin: 0 auto;
 }
 
+//TODO 컬러 가이드
+$base: #000;
+$text-333: #333;
+$text-666: #666;
+$text-bbb: #bbb;
+$line: #c4c4c4;
+
+//TODO mixin
 @mixin flex($jc: space-between, $ai: center, $gap) {
   display: flex;
   justify-content: $jc;
@@ -179,6 +188,7 @@ table {
   color: $color;
 }
 
+//TODO 공통화
 .hidden {
   display: none;
 }

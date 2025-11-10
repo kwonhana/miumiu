@@ -1,4 +1,4 @@
-@use "../../../App.scss" as b;
+@use '../../../App.scss' as b;
 
 .CousLetter-wrap {
   .inner {
@@ -24,7 +24,7 @@
           padding-bottom: 12px;
         }
         .sub-title {
-          @include b.font(2.2rem, 500 #000);
+          @include b.font(2.2rem, 500 $base);
           text-align: center;
           line-height: 32px;
         }
@@ -32,11 +32,11 @@
           aspect-ratio: 300/60;
           margin-top: 49px;
           width: 42%;
-          background-color: #000;
+          background-color: $base;
           padding: 11px 39px;
           @include b.font(1.6rem, 500, #fff);
         }
-        >input{
+        > input {
           aspect-ratio: 458/60;
           margin-top: 17px;
           width: 64%;

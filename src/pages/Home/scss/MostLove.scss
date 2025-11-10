@@ -6,7 +6,7 @@
   h2 {
     text-align: center;
     font-family: 'Libre Baskerville';
-    @include main.font(3rem, 700, #000);
+    @include main.font(3rem, 700, $base);
     margin-bottom: 60px;
   }
 
@@ -20,7 +20,7 @@
       }
 
       .title {
-        @include main.font(1.8rem, 500, #000);
+        @include main.font(1.8rem, 500, $base);
         text-align: center;
         margin-top: 20px;
       }
