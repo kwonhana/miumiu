@@ -1,0 +1,34 @@
+@use '../../../App.scss' as product;
+
+.product-page {
+  padding-top: 180px;
+  h2 {
+    @include product.font(2.2rem, 500, #000);
+    text-align: center;
+    line-height: 140%;
+  }
+}
+
+.product-menu {
+  @include product.flex(center, cneter, 0);
+  padding-top: 30px;
+  .item-menu {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 2.4rem;
+    div {
+      aspect-ratio: 5/6;
+      background-color: lightseagreen;
+    }
+    p {
+      @include product.font(1.6rem, 400, #333);
+      padding-top: 12px;
+      text-align: center;
+    }
+  }
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}

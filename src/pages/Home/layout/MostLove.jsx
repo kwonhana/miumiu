@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import WOW from 'wowjs';
 import '../scss/MostLove.scss';
+import { Link } from 'react-router-dom';
 
 const items = [
   { title: '여성 핸드백', imgUrl: 'bags' },
@@ -22,14 +23,16 @@ const MostLove = () => {
         <ul className="item-box  ">
           {items.map((el, index) => {
             return (
-              <li className="item" key={index}>
-                <div className="item-img">
-                  <img
-                    src={`/assets/images/static/main/mostLoved/${el.imgUrl}.png`}
-                    alt={el.title}
-                  />
-                </div>
-                <p className="title">{el.title}</p>
+              <li className="item" category={el.imgUrl} key={index}>
+                <Link to={`/bags`}>
+                  <div className="item-img">
+                    <img
+                      src={`/assets/images/static/main/mostLoved/${el.imgUrl}.png`}
+                      alt={el.title}
+                    />
+                  </div>
+                  <p className="title">{el.title}</p>
+                </Link>
               </li>
             );
           })}
