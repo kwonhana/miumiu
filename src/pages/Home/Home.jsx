@@ -15,6 +15,7 @@ import PasswordInput from '../../component/input/PasswordInput';
 import SearchInput from '../../component/input/SearchInput';
 import { TextInput } from '../../component/input/TextInput';
 import AuthInput from '../../component/input/AuthInput';
+import BirthdayInput from '../../component/input/BirthdayInput';
 
 const Home = () => {
   return (
@@ -39,6 +40,7 @@ const Home = () => {
       <AuthInput />
       <SearchInput />
       <TextInput />
+      <BirthdayInput />
     </main>
   );
 };
