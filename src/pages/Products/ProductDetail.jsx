@@ -2,8 +2,14 @@ import React from 'react';
 import Button from '../../component/layout/Button';
 import './scss/ProductDetail.scss';
 import { Link } from 'react-router-dom';
+import { useProductsStore } from '../../store/useProductsStore';
 
 const ProductDetail = () => {
+  // const { id } = useParams();
+  const { items } = useProductsStore();
+
+  console.log(items);
+
   return (
     <section className="ProductDetail-wrap">
       <div className="inner">

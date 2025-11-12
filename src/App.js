@@ -19,6 +19,7 @@ import OrderSummary from './pages/Checkout/OrderSummary/OrderSummary';
 import Payment from './pages/Checkout/Payment/Payment';
 import { Shipping } from './pages/Checkout/Shipping/Shipping';
 import Products from './pages/Products/Products';
+import ProductDetail from './pages/Products/ProductDetail';
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
         <Route path="shipping" element={<Shipping />} />
         <Route path="/:category1" element={<Products />} />
         <Route path="/:category1/:category2" element={<Products />} />
+        <Route path="productdetail" element={<ProductDetail />} />
       </Routes>
       <Footer />
     </>

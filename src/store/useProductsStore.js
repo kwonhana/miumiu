@@ -44,8 +44,8 @@ export const useProductsStore = create((set, get) => ({
 
   onMakeMenu: () => {
     const menuList = [];
-
     const item1 = get().items;
+    console.log('아이템1', item1);
 
     item1.forEach(({ category1, category2, tags }) => {
       // ---- 메인 메뉴 ----
@@ -53,18 +53,21 @@ export const useProductsStore = create((set, get) => ({
       if (!mainMenu) {
         mainMenu = {
           name: category1,
-          link: ``,
+          link: `/${category1}`,
           subMenu: [],
           kor: categoryKorMap[category1],
           tag: tags,
         };
         menuList.push(mainMenu);
+        console.log('메인메뉴', mainMenu);
       }
       // -----서브 메뉴 -----
       let hasMenu = mainMenu.subMenu.find((s) => s.name === category2);
       if (!hasMenu && category2) {
-        mainMenu.subMenu.push({ name: category2, link: ``, tag: tags });
+        mainMenu.subMenu.push({ name: category2, link: `/${category1}/${category2}`, tag: tags });
       }
     });
+    set({ menu: menuList });
+    console.log(menuList);
   },
 }));
