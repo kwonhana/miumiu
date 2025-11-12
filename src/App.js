@@ -18,7 +18,7 @@ import OrderComplete from './pages/Checkout/OrderComplete/OrderComplete';
 import OrderSummary from './pages/Checkout/OrderSummary/OrderSummary';
 import Payment from './pages/Checkout/Payment/Payment';
 import { Shipping } from './pages/Checkout/Shipping/Shipping';
-import Bags from './pages/Products/Bags';
+import Products from './pages/Products/Products';
 
 function App() {
   return (
@@ -39,7 +39,8 @@ function App() {
         <Route path="ordersummary" element={<OrderSummary />} />
         <Route path="payment" element={<Payment />} />
         <Route path="shipping" element={<Shipping />} />
-        <Route path="bags" element={<Bags />} />
+        <Route path="/:category1" element={<Products />} />
+        <Route path="/:category1/:category2" element={<Products />} />
       </Routes>
       <Footer />
     </>
