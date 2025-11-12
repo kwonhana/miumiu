@@ -1,30 +1,38 @@
-import React, { useEffect } from 'react';
-import './scss/Products.scss';
-import '../../App.scss';
 import { useProductsStore } from '../../store/useProductsStore';
+import './scss/Products.scss';
+import { Link, useParams } from 'react-router-dom';
 
-const Products = ({ category }) => {
-  const { onFecthItems, onItemCategory } = useProductsStore();
+const Products = () => {
+  const { category1, category2 } = useParams();
+  const { items } = useProductsStore();
 
-  let catelist = onItemCategory(category);
-  useEffect(() => {
-    if (onFecthItems.length === 0) onFecthItems();
-  }, []);
+  const filtered = items.filter((item) => {
+    if (category1 && category2) {
+      return item.category1 === category1 && item.category2 === category2;
+    } else if (category1) {
+      return item.category1 === category1;
+    } else {
+      return true;
+    }
+  });
 
   return (
-    <section className="product-page">
-      <h2></h2>
+    <section className="product-page inner">
+      <h2>가방</h2>
       <div className="product-menu">
         <ul className="item-menu">
-          {catelist.map((item) => (
-            <li key={item.id}>{item.detail_images}</li>
+          {filtered.map((p) => (
+            <li key={p.id}>
+              <Link>
+                <img src="" alt="" />
+                <p>{p.kor}</p>
+              </Link>
+            </li>
           ))}
         </ul>
       </div>
       <div className="product-list-wrap">
-        <ul className="product-list">
-          <li></li>
-        </ul>
+        <ul className="product-list"></ul>
       </div>
     </section>
   );

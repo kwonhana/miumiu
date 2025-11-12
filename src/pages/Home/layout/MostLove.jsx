@@ -24,7 +24,7 @@ const MostLove = () => {
           {items.map((el, index) => {
             return (
               <li className="item" category={el.imgUrl} key={index}>
-                <Link to={`/bags`}>
+                <Link>
                   <div className="item-img">
                     <img
                       src={`/assets/images/static/main/mostLoved/${el.imgUrl}.png`}
