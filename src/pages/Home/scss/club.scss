@@ -10,19 +10,24 @@
     overflow: hidden;
 
     .club-title {
+      flex-grow: 1;
+      width: 100%;
       > h2 {
         font-family: 'Libre Baskerville';
         padding-bottom: 30px;
         @include cl.font(4rem, 700, #fff);
+        line-height: 1.6;
       }
       > p {
-        @include cl.font(1.4rem, 400, #fff);
+        @include cl.font(1.6rem, 400, #fff);
+        line-height: 1.6;
       }
     }
 
     .club-slides {
       display: flex;
-      gap: 72px;
+      width: 100%;
+      gap: 100px;
       .slider-card {
         height: max-content;
         animation: bannerScrollY 40s linear infinite;
@@ -43,7 +48,9 @@
 
       .card-container {
         .card-box {
-          padding-bottom: 100px;
+          width: 360px;
+
+          margin-bottom: 80px;
           .card-menu {
             @include cl.font(1.4rem, 400, #fff);
             line-height: 22px;

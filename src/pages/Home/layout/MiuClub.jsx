@@ -7,11 +7,14 @@ const MiuClub = () => {
     <section className="miu-club-wrap">
       <div className="inner">
         <div className="club-title">
-          <h2>MIU MIU CLUB</h2>
+          <h2>
+            MIU MIU
+            <br /> JEWELLERY
+          </h2>
           <p>
-            미우미우의 다양한 컬렉션과 스페셜 프로젝트를
+            미우미우의 현대적이고 여성스러운 감성을 담은
             <br />
-            만나보세요
+            jewellery Collections
           </p>
         </div>
         <CulbSlider />
