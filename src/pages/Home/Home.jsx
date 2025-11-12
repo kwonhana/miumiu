@@ -11,6 +11,7 @@ import MiuClub from './layout/MiuClub';
 import SpeclalCo from './layout/SpeclalCo';
 import BirthdayInput from '../../component/input/BirthdayInput';
 import PhoneInput from '../../component/input/PhoneInput';
+import NameInput from '../../component/input/NameInput';
 
 const Home = () => {
   return (
@@ -31,6 +32,7 @@ const Home = () => {
       <CousLet />
       <BirthdayInput />
       <PhoneInput />
+      <NameInput />
     </main>
   );
 };

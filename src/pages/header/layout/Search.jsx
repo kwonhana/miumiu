@@ -1,9 +1,18 @@
 import React from 'react';
 import '../scss/search.scss';
-import { useAuthStore } from '../../../api/authStore';
+import { useSearchState } from '../../../api/useSearchState';
 
 const Search = ({ isOpen }) => {
-  const { searchWord, setSearchWord } = useAuthStore();
+  const { searchWord, setSearchWord, lastSearch, addLastSearch, clearSearchWord, onSearchDelete } =
+    useSearchState();
+  const handleSearch = (e) => {
+    if (e.key === 'Enter') {
+      addLastSearch(searchWord);
+      clearSearchWord();
+      console.log('검색엔터');
+    }
+  };
+
   return (
     <div className={`search-wrap ${isOpen ? 'active' : ''}`}>
       <div className="search-box">
@@ -12,13 +21,28 @@ const Search = ({ isOpen }) => {
           placeholder="검색어를 입력해주세요."
           value={searchWord}
           onChange={(e) => setSearchWord(e.target.value)}
+          onKeyDown={handleSearch}
         />
-        <img src="/assets/icon/SearchIconBk.svg" alt="search" />
+        <button>
+          <img src="/assets/icon/SearchIconBK.svg" alt="search" />
+        </button>
       </div>
       <div className="search-list">
         <div className="lasted-search">
           <p>최근 검색어</p>
-          <div className="lasted-list"></div>
+          <ul className="lasted-list">
+            {lastSearch.map((item) => (
+              <li key={item.id}>
+                <span>{item.word}</span>
+                <button
+                  onClick={() => {
+                    onSearchDelete(item.id);
+                  }}>
+                  <img src="/assets/icon/search-remove.svg" />
+                </button>
+              </li>
+            ))}
+          </ul>
         </div>
         <div className="divider"></div>
         <div className="recommend-search">

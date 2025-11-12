@@ -5,6 +5,7 @@
     padding: 78px 0;
     .box {
       @include main.flex(center, center, 0);
+      align-items: stretch;
       .boxlayout {
         @include main.flex(center, center, 0);
         flex-direction: column;

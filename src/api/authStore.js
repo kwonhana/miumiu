@@ -4,9 +4,6 @@ import { auth, db, googleAuthProvider } from './firebase';
 import { doc, getDoc, setDoc } from 'firebase/firestore';
 
 export const useAuthStore = create((set) => ({
-  setSearchWord: (word) => set({ searchWord: word }),
-  clearSearch: () => set({ searchWord: '' }),
-
   user: null,
 
   onGoogleLogin: async () => {

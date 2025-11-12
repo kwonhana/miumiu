@@ -1,22 +1,54 @@
-import React, { useState } from 'react';
+import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import Logo from '../../component/layout/Logo';
 import Lnb from './layout/Lnb';
+import Search from './layout/Search';
 import './scss/header.scss';
 
 const Header = () => {
   const [scrollY, setScrollY] = useState(0);
   const [lnbOpen, setLnbOpen] = useState(false);
-  const toggleLnb = () => {
-    setLnbOpen(!lnbOpen);
-  };
+  const [searchOpen, setSearchOpen] = useState(false);
+  const headerRef = useRef(null);
+  const closeAll = useCallback(() => {
+    setLnbOpen(false);
+    setSearchOpen(false);
+  }, []);
 
-  window.addEventListener('scroll', () => {
-    setScrollY(window.scrollY);
-    console.log(scrollY);
-  });
+  const toggleLnb = useCallback(() => {
+    setLnbOpen((prev) => !prev);
+    setSearchOpen(false);
+  }, []);
+
+  const toggleSearch = useCallback(() => {
+    setSearchOpen((prev) => !prev);
+    setLnbOpen(false);
+  }, []);
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrollY(window.scrollY);
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (headerRef.current && !headerRef.current.contains(event.target)) {
+        closeAll();
+      }
+    };
+    if (lnbOpen || searchOpen) {
+      document.addEventListener('mousedown', handleClickOutside);
+    }
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [lnbOpen, searchOpen, closeAll]);
   return (
-    <header className={`${scrollY >= 20 ? 'black' : ''}`}>
+    <header ref={headerRef} className={`${scrollY >= 20 ? 'black' : ''}`}>
       <div className="header-wrap">
         <div className="header-left">
           <Link className="menu" onClick={toggleLnb}>
@@ -27,7 +59,7 @@ const Header = () => {
         <div className="header-right">
           <div className="gnb-list">
             <div className="Icon">
-              <Link>
+              <Link onClick={toggleSearch}>
                 <img src="/assets/icon/SearchIcon.svg" alt="Search" />
               </Link>
             </div>
@@ -45,6 +77,7 @@ const Header = () => {
         </div>
       </div>
       <Lnb isOpen={lnbOpen} />
+      <Search isOpen={searchOpen} />
     </header>
   );
 };
