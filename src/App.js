@@ -20,8 +20,15 @@ import Payment from './pages/Checkout/Payment/Payment';
 import { Shipping } from './pages/Checkout/Shipping/Shipping';
 import Products from './pages/Products/Products';
 import ProductDetail from './pages/Products/ProductDetail';
+import { useProductsStore } from './store/useProductsStore';
+import { useEffect } from 'react';
 
 function App() {
+  const { onFecthItems, onMakeMenu } = useProductsStore();
+  useEffect(() => {
+    onFecthItems();
+    onMakeMenu();
+  }, [onFecthItems, onMakeMenu]);
   return (
     <>
       <Header />
@@ -42,6 +49,7 @@ function App() {
         <Route path="shipping" element={<Shipping />} />
         <Route path="/:category1" element={<Products />} />
         <Route path="/:category1/:category2" element={<Products />} />
+        <Route path="/:category1/:tags" element={<Products />} />
         <Route path="productdetail" element={<ProductDetail />} />
       </Routes>
       <Footer />
