@@ -34,10 +34,11 @@ export const useProductsStore = create((set, get) => ({
   items: [],
 
   onFecthItems: async () => {
-    const existing = get().items;
-    if (existing.length > 0) return;
+    const pull = get().items;
+    if (pull.length > 0) return;
 
     set({ items: products });
+    console.log(products);
   },
 
   // ------ 메뉴 생성 --------
@@ -48,7 +49,7 @@ export const useProductsStore = create((set, get) => ({
     const item1 = get().items;
     console.log('아이템1', item1);
 
-    item1.forEach(({ category1, category2, tags }) => {
+    item1.forEach(({ category1, category2, tags, id }) => {
       // ---- 메인 메뉴 ----
       let mainMenu = menuList.find((m) => m.name === category1);
       if (!mainMenu) {
@@ -58,6 +59,7 @@ export const useProductsStore = create((set, get) => ({
           subMenu: [],
           kor: categoryKorMap[category1],
           tag: tags,
+          id: id,
         };
         menuList.push(mainMenu);
         console.log('메인메뉴', mainMenu);
