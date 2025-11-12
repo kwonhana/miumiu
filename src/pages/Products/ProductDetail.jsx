@@ -4,8 +4,9 @@ import './scss/ProductDetail.scss';
 import { Link } from 'react-router-dom';
 import { useProductsStore } from '../../store/useProductsStore';
 
-const ProductDetail = () => {
+const ProductDetail = ({ id }) => {
   // const { id } = useParams();
+
   const { items } = useProductsStore();
 
   console.log(items);
@@ -33,25 +34,35 @@ const ProductDetail = () => {
           <div className="top-nav">
             <ul>
               <li>
-                <Link>제품 설명</Link>
+                <Link className="link">제품 설명</Link>
               </li>
               <li>
-                <Link>제품 상세 정보</Link>
+                <Link className="link">제품 상세 정보</Link>
               </li>
               <li>
-                <Link>사이즈 가이드</Link>
+                <Link className="link">사이즈 가이드</Link>
               </li>
               <li>
-                <Link>제품 세부 정보</Link>
+                <Link className="link">제품 세부 정보</Link>
               </li>
               <li>
-                <Link>매장 찾기</Link>
+                <Link className="link">매장 찾기</Link>
               </li>
             </ul>
             <div className="button-wrap">
               <Button title="장바구니 담기" />
               <Button title="구매하기" />
             </div>
+          </div>
+          <div className="product-info">
+            <div className="image1"></div>
+            <div className="image2"></div>
+            <div className="image3"></div>
+            <div className="image4"></div>
+            <div className="image5"></div>
+            <div className="image6"></div>
+            <div className="image7"></div>
+            <div className="image8"></div>
           </div>
         </div>
       </div>

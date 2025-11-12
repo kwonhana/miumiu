@@ -9,6 +9,7 @@ const categoryKorMap = {
   mini: '미니백',
   topHandles: '토트백',
   shoulder: '숄더백',
+
   hobo: '호보백',
   backpacks: '백팩',
   totes: '토트백',

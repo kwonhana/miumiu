@@ -62,4 +62,45 @@
       }
     }
   }
+
+  .ProductDetail-bottom {
+    margin-top: 140px;
+
+    .top-nav {
+      @include pd.flex(space-between, center, auto);
+      margin-bottom: 80px;
+
+      ul {
+        display: flex;
+        gap: 10px;
+
+        li .link {
+          padding: 20px;
+          @include pd.font(1.6rem, 400, pd.$base);
+
+          &:hover {
+            border-bottom: 1px solid pd.$base;
+          }
+        }
+      }
+
+      .button-wrap {
+        @include pd.flex(center, center, 10px);
+
+        button {
+          @include pd.font(1.4rem, 600, pd.$base);
+          padding: 10px 12px;
+
+          &:nth-child(1) {
+            border: 1px solid pd.$base;
+          }
+          &:nth-child(2) {
+            border: 1px solid pd.$base;
+            background-color: pd.$base;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
 }

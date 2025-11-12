@@ -1,22 +1,40 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useEffect, useState } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import Logo from '../../component/layout/Logo';
 import Lnb from './layout/Lnb';
 import './scss/header.scss';
 
 const Header = () => {
+  const location = useLocation();
   const [scrollY, setScrollY] = useState(0);
   const [lnbOpen, setLnbOpen] = useState(false);
   const toggleLnb = () => {
     setLnbOpen(!lnbOpen);
   };
 
-  window.addEventListener('scroll', () => {
-    setScrollY(window.scrollY);
-    console.log(scrollY);
-  });
+  useEffect(() => {
+    if (location.pathname === '/') {
+      const handleScroll = () => {
+        setScrollY(window.scrollY);
+        console.log(scrollY);
+      };
+      window.addEventListener('scroll', handleScroll);
+      return () => {
+        window.removeEventListener('scroll', handleScroll);
+      };
+    } else {
+      setScrollY(100);
+    }
+  }, [location]);
+
+  const isMainPage = location.pathname === '/';
+  const headerClass = isMainPage ? (scrollY >= 20 ? 'black' : '') : 'black';
+  // window.addEventListener('scroll', () => {
+
+  // });
+
   return (
-    <header className={`${scrollY >= 20 ? 'black' : ''}`}>
+    <header className={headerClass}>
       <div className="header-wrap">
         <div className="header-left">
           <Link className="menu" onClick={toggleLnb}>
