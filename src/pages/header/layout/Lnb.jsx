@@ -1,24 +1,16 @@
 import { Link } from 'react-router-dom';
 import LnbBags from './LnbBags';
-import LnbHi from './LnbHi';
 import Lnbshoes from './Lnbshoes';
 import LnbWalletJewel from './LnbWalletJewel';
 import { useState } from 'react';
 import './../scss/lnb.scss';
-import { useProductsStore } from '../../../store/useProductsStore';
 
 const Lnb = ({ isOpen }) => {
-  const [activeMenu, setActiveMenu] = useState('hi');
-  const { menu } = useProductsStore();
+  const [activeMenu, setActiveMenu] = useState('bags');
   return (
     <nav className={`lnb-wrap ${isOpen ? 'active' : ''}`}>
       <div className="headerBlock"></div>
       <ul className="lnb-title">
-        <li>
-          <Link onClick={() => setActiveMenu('hi')} className={activeMenu === 'hi' ? 'active' : ''}>
-            하이라이트
-          </Link>
-        </li>
         <li>
           <Link
             onClick={() => setActiveMenu('bags')}
@@ -42,7 +34,6 @@ const Lnb = ({ isOpen }) => {
         </li>
       </ul>
       <div className="lnb-list">
-        <LnbHi isActive={activeMenu === 'hi'} />
         <LnbBags isActive={activeMenu === 'bags'} />
         <Lnbshoes isActive={activeMenu === 'shoes'} />
         <LnbWalletJewel isActive={activeMenu === 'wallet'} />
