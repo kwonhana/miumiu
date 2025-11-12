@@ -176,4 +176,25 @@
 .birthday {
   position: relative;
   width: fit-content;
+
+  &.success {
+    .icon {
+      @include iconSuccess();
+    }
+  }
+}
+
+//TODO 전화번호
+.phone {
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  /* Firefox */
+  input[type='number'] {
+    appearance: textfield;
+    -moz-appearance: textfield;
+  }
 }

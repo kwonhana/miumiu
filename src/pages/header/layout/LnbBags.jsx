@@ -2,20 +2,20 @@ import '../scss/lnbSub.scss';
 import { Link } from 'react-router-dom';
 
 const bags = [
-  { alt: '백팩' },
-  { alt: '미니백' },
-  { alt: '호보백' },
-  { alt: '탑핸들' },
-  { alt: '토트백' },
-  { alt: '숄더백' },
+  { alt: '백팩', alt2: 'backpacks' },
+  { alt: '미니백', alt2: 'mini' },
+  { alt: '호보백', alt2: 'hobo' },
+  { alt: '탑핸들', alt2: 'topHandles' },
+  { alt: '토트백', alt2: 'totes' },
+  { alt: '숄더백', alt2: 'shoulder' },
 ];
-const conicBags = [
-  { alt: '완더', src: '/assets/images/lnb/bags-wander.jpg' },
-  { alt: '아르카디', src: '/assets/images/lnb/bags-arcadi.jpg' },
-  { alt: '포켓', src: '/assets/images/lnb/bags-pocket.jpg' },
-  { alt: '보', src: '/assets/images/lnb/bags-vo.jpg' },
-  { alt: '아방뛰르' },
-  { alt: '아이비' },
+const iconicBags = [
+  { alt: '완더', alt2: 'wander', src: '/assets/images/lnb/bags-wander.jpg' },
+  { alt: '아르카디', alt2: 'arcadie', src: '/assets/images/lnb/bags-arcadi.jpg' },
+  { alt: '포켓', alt2: 'pocket', src: '/assets/images/lnb/bags-pocket.jpg' },
+  { alt: '보', alt2: 'beau', src: '/assets/images/lnb/bags-vo.jpg' },
+  { alt: '아방뛰르', alt2: 'abang' },
+  { alt: '아이비', alt2: 'ivy' },
 ];
 const LnbBags = ({ isActive }) => {
   return (
@@ -27,7 +27,7 @@ const LnbBags = ({ isActive }) => {
             <ul className="lnb-sub-menus">
               {bags.map((bag) => (
                 <li className="lnb-menuList" key={bag.alt}>
-                  <Link to={`/${bag.alt}`}>{bag.alt}</Link>
+                  <Link to={`/bags/${bag.alt2}`}>{bag.alt}</Link>
                 </li>
               ))}
             </ul>
@@ -44,19 +44,19 @@ const LnbBags = ({ isActive }) => {
           <div className="lnb-menus">
             <p className="lnb-menus-title">아이코닉 백</p>
             <ul className="lnb-sub-menus">
-              {conicBags.map((conicBag) => (
-                <li className="lnb-menuList" key={conicBag.alt}>
-                  <Link to={`/${conicBag.alt}`}>{conicBag.alt}</Link>
+              {iconicBags.map((iconicBag) => (
+                <li className="lnb-menuList" key={iconicBag.alt}>
+                  <Link to={`/bags/${iconicBag.alt2}`}>{iconicBag.alt}</Link>
                 </li>
               ))}
             </ul>
           </div>
           <ul className="lnb-imgs">
-            {conicBags.slice(0, 4).map((conicBag) => (
-              <li key={conicBag.alt} data-alt={conicBag.alt}>
-                <Link to={`/${conicBag.alt}`}>
-                  <img src={conicBag.src} alt={conicBag.alt} />
-                  <p>{conicBag.alt}</p>
+            {iconicBags.slice(0, 4).map((iconicBag) => (
+              <li key={iconicBag.alt} data-alt={iconicBag.alt}>
+                <Link to={`/bags/${iconicBag.alt2}`}>
+                  <img src={iconicBag.src} alt={iconicBag.alt} />
+                  <p>{iconicBag.alt}</p>
                 </Link>
               </li>
             ))}

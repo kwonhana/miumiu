@@ -5,9 +5,11 @@ import Lnbshoes from './Lnbshoes';
 import LnbWalletJewel from './LnbWalletJewel';
 import { useState } from 'react';
 import './../scss/lnb.scss';
+import { useProductsStore } from '../../../store/useProductsStore';
 
 const Lnb = ({ isOpen }) => {
   const [activeMenu, setActiveMenu] = useState('hi');
+  const { menu } = useProductsStore();
   return (
     <nav className={`lnb-wrap ${isOpen ? 'active' : ''}`}>
       <div className="headerBlock"></div>
@@ -17,7 +19,6 @@ const Lnb = ({ isOpen }) => {
             하이라이트
           </Link>
         </li>
-
         <li>
           <Link
             onClick={() => setActiveMenu('bags')}
