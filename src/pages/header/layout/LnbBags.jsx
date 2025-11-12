@@ -46,7 +46,7 @@ const LnbBags = ({ isActive }) => {
             <ul className="lnb-sub-menus">
               {iconicBags.map((iconicBag) => (
                 <li className="lnb-menuList" key={iconicBag.alt}>
-                  <Link to={`/bags/${iconicBag.alt2}`}>{iconicBag.alt}</Link>
+                  <Link to={`/bags/${iconicBag.alt}`}>{iconicBag.alt}</Link>
                 </li>
               ))}
             </ul>
@@ -54,7 +54,7 @@ const LnbBags = ({ isActive }) => {
           <ul className="lnb-imgs">
             {iconicBags.slice(0, 4).map((iconicBag) => (
               <li key={iconicBag.alt} data-alt={iconicBag.alt}>
-                <Link to={`/bags/${iconicBag.alt2}`}>
+                <Link to={`/bags/${iconicBag.alt}`}>
                   <img src={iconicBag.src} alt={iconicBag.alt} />
                   <p>{iconicBag.alt}</p>
                 </Link>
