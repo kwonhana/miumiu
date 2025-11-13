@@ -2,6 +2,7 @@ import React from 'react';
 import '../scss/couLet.scss';
 import { Link } from 'react-router-dom';
 import Button from '../../../component/layout/Button';
+import EmailInput from '../../../component/input/EmailInput';
 
 const CousLet = () => {
   return (
@@ -22,7 +23,7 @@ const CousLet = () => {
               <br />
               빠르게 만나보세요!
             </p>
-            <input type="email" placeholder="이메일 주소*" />
+            <EmailInput />
           </div>
         </div>
       </div>

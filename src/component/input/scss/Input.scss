@@ -59,7 +59,7 @@
     }
 
     &:focus::placeholder {
-      color: #fff;
+      color: input.$text-bbb;
     }
   }
 

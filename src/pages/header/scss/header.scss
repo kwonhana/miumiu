@@ -9,7 +9,6 @@ header {
   padding: 2.8rem 4rem;
   background-color: #00000000;
   z-index: 999;
-
   &.black {
     background-color: header.$base;
     animation: headerBg 1s ease-in-out;
@@ -48,10 +47,9 @@ header {
         width: 2.4rem;
         aspect-ratio: 1/1;
         padding: 4px;
-        border: 1px solid orange;
       }
       .gnb-list {
-        @include header.flex(start, start, 30pp);
+        @include header.flex(start, start, 3rem);
 
         .user {
           padding: 0;
