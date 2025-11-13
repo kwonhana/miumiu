@@ -44725,4 +44725,3936 @@ export const products = [
       '5TT282_2FLQ_F0976_detail_2.jpg',
     ],
   },
+  {
+    id: '5GG203_2CSR_F0040',
+    index: 2,
+    category1: 'accessories',
+    category2: 'scarves-and-gloves',
+    name: '울, 캐시미어, 시어링 미튼 장갑',
+    price: '₩ 1,160,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5GG/5GG203/2CSRF0040/5GG203_2CSR_F0040_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%9A%B8-%EC%BA%90%EC%8B%9C%EB%AF%B8%EC%96%B4-%EC%8B%9C%EC%96%B4%EB%A7%81-%EB%AF%B8%ED%8A%BC-%EC%9E%A5%EA%B0%91/5GG203_2CSR_F0040',
+    crawled_at: '2025-11-13T16:54:43.757085',
+    subtitle:
+      '가죽 장갑 스트랩, 대비되는 텍스처, 대비되는 컬러의 눈에 띄는 로고가 특징인 울과 캐시미어, 시어링 소재 미튼 장갑입니다.',
+    bullet_points: [
+      '제품 코드: 5GG203_2CSR_F0040',
+      '니트 울 손바닥 부분',
+      '가죽 장갑 스트랩 포함',
+      '눈에 띄는 로고',
+    ],
+    size_info: [],
+    material: '주 소재: 순수 울',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5GG/5GG203/2CSRF0040/5GG203_2CSR_F0040_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울, 캐시미어, 시어링 미튼 장갑',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5GG/5GG203/2CSRF0040/5GG203_2CSR_F0040_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울, 캐시미어, 시어링 미튼 장갑',
+        index: 1,
+      },
+    ],
+    local_image: '5GG203_2CSR_F0040.jpg',
+    local_detail_images: [
+      '5GG203_2CSR_F0040_detail_thumbnail.jpg',
+      '5GG203_2CSR_F0040_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5GG203_2CSR_F0009',
+    index: 3,
+    category1: 'accessories',
+    category2: 'scarves-and-gloves',
+    name: '울, 캐시미어, 시어링 미튼 장갑',
+    price: '₩ 1,160,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5GG/5GG203/2CSRF0009/5GG203_2CSR_F0009_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%9A%B8-%EC%BA%90%EC%8B%9C%EB%AF%B8%EC%96%B4-%EC%8B%9C%EC%96%B4%EB%A7%81-%EB%AF%B8%ED%8A%BC-%EC%9E%A5%EA%B0%91/5GG203_2CSR_F0009',
+    crawled_at: '2025-11-13T16:55:06.096940',
+    subtitle:
+      '가죽 장갑 스트랩, 대비되는 텍스처, 대비되는 컬러의 눈에 띄는 로고가 특징인 울과 캐시미어, 시어링 소재 미튼 장갑입니다.',
+    bullet_points: [
+      '제품 코드: 5GG203_2CSR_F0009',
+      '니트 울 손바닥 부분',
+      '가죽 장갑 스트랩 포함',
+      '눈에 띄는 로고',
+    ],
+    size_info: [],
+    material: '주 소재: 순수 울',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5GG/5GG203/2CSRF0009/5GG203_2CSR_F0009_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울, 캐시미어, 시어링 미튼 장갑',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5GG/5GG203/2CSRF0009/5GG203_2CSR_F0009_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울, 캐시미어, 시어링 미튼 장갑',
+        index: 1,
+      },
+    ],
+    local_image: '5GG203_2CSR_F0009.jpg',
+    local_detail_images: [
+      '5GG203_2CSR_F0009_detail_thumbnail.jpg',
+      '5GG203_2CSR_F0009_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5GG202_2F8S_F0040',
+    index: 4,
+    category1: 'accessories',
+    category2: 'scarves-and-gloves',
+    name: '울 및 캐시미어 장갑',
+    price: '₩ 710,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5GG/5GG202/2F8SF0040/5GG202_2F8S_F0040_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%9A%B8-%EB%B0%8F-%EC%BA%90%EC%8B%9C%EB%AF%B8%EC%96%B4-%EC%9E%A5%EA%B0%91/5GG202_2F8S_F0040',
+    crawled_at: '2025-11-13T16:55:26.776244',
+    subtitle:
+      '울과 모헤어의 부드러운 촉감과 대비되는 컬러의 아이코닉한 미우미우 로고가 조화를 이루는 장갑입니다.',
+    bullet_points: ['제품 코드: 5GG202_2F8S_F0040', '눈에 띄는 로고'],
+    size_info: [],
+    material: '주 소재: 캐시미어, 순수 울',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5GG/5GG202/2F8SF0040/5GG202_2F8S_F0040_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 및 캐시미어 장갑',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5GG/5GG202/2F8SF0040/5GG202_2F8S_F0040_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 및 캐시미어 장갑',
+        index: 1,
+      },
+    ],
+    local_image: '5GG202_2F8S_F0040.jpg',
+    local_detail_images: [
+      '5GG202_2F8S_F0040_detail_thumbnail.jpg',
+      '5GG202_2F8S_F0040_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5GG202_2F8S_F0031',
+    index: 5,
+    category1: 'accessories',
+    category2: 'scarves-and-gloves',
+    name: '울 및 캐시미어 장갑',
+    price: '₩ 710,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5GG/5GG202/2F8SF0031/5GG202_2F8S_F0031_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%9A%B8-%EB%B0%8F-%EC%BA%90%EC%8B%9C%EB%AF%B8%EC%96%B4-%EC%9E%A5%EA%B0%91/5GG202_2F8S_F0031',
+    crawled_at: '2025-11-13T16:55:51.024944',
+    subtitle:
+      '울과 모헤어의 부드러운 촉감과 대비되는 컬러의 아이코닉한 미우미우 로고가 조화를 이루는 장갑입니다.',
+    bullet_points: ['제품 코드: 5GG202_2F8S_F0031', '눈에 띄는 로고'],
+    size_info: [],
+    material: '주 소재: 캐시미어, 순수 울',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5GG/5GG202/2F8SF0031/5GG202_2F8S_F0031_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 및 캐시미어 장갑',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5GG/5GG202/2F8SF0031/5GG202_2F8S_F0031_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 및 캐시미어 장갑',
+        index: 1,
+      },
+    ],
+    local_image: '5GG202_2F8S_F0031.jpg',
+    local_detail_images: [
+      '5GG202_2F8S_F0031_detail_thumbnail.jpg',
+      '5GG202_2F8S_F0031_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5FS048_2F8S_F0003',
+    index: 6,
+    category1: 'accessories',
+    category2: 'scarves-and-gloves',
+    name: '캐시미어 스카프',
+    price: '₩ 850,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FS/5FS048/2F8SF0003/5FS048_2F8S_F0003_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DAundefined.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%BA%90%EC%8B%9C%EB%AF%B8%EC%96%B4-%EC%8A%A4%EC%B9%B4%ED%94%84/5FS048_2F8S_F0003',
+    crawled_at: '2025-11-13T16:56:16.058728',
+    subtitle:
+      '대비되는 컬러의 미우미우 로고로 아이코닉한 개성이 돋보이는 스카프입니다. 캐시미어 소재를 사용해 겨울 룩에 어울리는 더욱 포근하고 따뜻한 디자인입니다.',
+    bullet_points: ['제품 코드: 5FS048_2F8S_F0003', '로고 라벨'],
+    size_info: ['높이 190cm', '폭 22cm'],
+    material: '주 소재: 캐시미어, 순수 울',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FS/5FS048/2F8SF0003/5FS048_2F8S_F0003_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '캐시미어 스카프',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FS/5FS048/2F8SF0003/5FS048_2F8S_F0003_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '캐시미어 스카프',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FS/5FS048/2F8SF0003/5FS048_2F8S_F0003_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '캐시미어 스카프',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FS/5FS048/2F8SF0003/5FS048_2F8S_F0003_MDLA.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '캐시미어 스카프',
+        index: 3,
+      },
+    ],
+    local_detail_images: [
+      '5FS048_2F8S_F0003_detail_thumbnail.jpg',
+      '5FS048_2F8S_F0003_detail_2.jpg',
+      '5FS048_2F8S_F0003_detail_3.jpg',
+      '5FS048_2F8S_F0003_detail_4.jpg',
+    ],
+  },
+  {
+    id: '5GG202_2F8S_F0003',
+    index: 7,
+    category1: 'accessories',
+    category2: 'scarves-and-gloves',
+    name: '울 및 캐시미어 장갑',
+    price: '₩ 710,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5GG/5GG202/2F8SF0003/5GG202_2F8S_F0003_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%9A%B8-%EB%B0%8F-%EC%BA%90%EC%8B%9C%EB%AF%B8%EC%96%B4-%EC%9E%A5%EA%B0%91/5GG202_2F8S_F0003',
+    crawled_at: '2025-11-13T16:56:47.124357',
+    subtitle:
+      '울과 모헤어의 부드러운 촉감과 대비되는 컬러의 아이코닉한 미우미우 로고가 조화를 이루는 장갑입니다.',
+    bullet_points: ['제품 코드: 5GG202_2F8S_F0003', '눈에 띄는 로고'],
+    size_info: [],
+    material: '주 소재: 캐시미어, 순수 울',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5GG/5GG202/2F8SF0003/5GG202_2F8S_F0003_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 및 캐시미어 장갑',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5GG/5GG202/2F8SF0003/5GG202_2F8S_F0003_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 및 캐시미어 장갑',
+        index: 1,
+      },
+    ],
+    local_image: '5GG202_2F8S_F0003.jpg',
+    local_detail_images: [
+      '5GG202_2F8S_F0003_detail_thumbnail.jpg',
+      '5GG202_2F8S_F0003_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5FS062_2CQD_F0031',
+    index: 8,
+    category1: 'accessories',
+    category2: 'scarves-and-gloves',
+    name: '울 및 모헤어 스카프',
+    price: '₩ 1,000,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FS/5FS062/2CQDF0031/5FS062_2CQD_F0031_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%9A%B8-%EB%B0%8F-%EB%AA%A8%ED%97%A4%EC%96%B4-%EC%8A%A4%EC%B9%B4%ED%94%84/5FS062_2CQD_F0031',
+    crawled_at: '2025-11-13T16:57:12.393051',
+    subtitle:
+      '울과 모헤어의 포근함과 아이코닉한 감성을 더하는 미우미우 로고가 돋보입니다. 테두리의 프린지 디테일로 스카프의 디자인이 완성됩니다.',
+    bullet_points: ['제품 코드: 5FS062_2CQD_F0031', '눈에 띄는 로고', '프린지 테두리'],
+    size_info: ['높이 185cm', '폭 23cm'],
+    material: '주 소재: 폴리아미드, 모헤어, 울',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FS/5FS062/2CQDF0031/5FS062_2CQD_F0031_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 및 모헤어 스카프',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FS/5FS062/2CQDF0031/5FS062_2CQD_F0031_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 및 모헤어 스카프',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FS/5FS062/2CQDF0031/5FS062_2CQD_F0031_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 및 모헤어 스카프',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FS/5FS062/2CQDF0031/5FS062_2CQD_F0031_MDR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 및 모헤어 스카프',
+        index: 3,
+      },
+    ],
+    local_image: '5FS062_2CQD_F0031.jpg',
+    local_detail_images: [
+      '5FS062_2CQD_F0031_detail_thumbnail.jpg',
+      '5FS062_2CQD_F0031_detail_2.jpg',
+      '5FS062_2CQD_F0031_detail_3.jpg',
+      '5FS062_2CQD_F0031_detail_4.jpg',
+    ],
+  },
+  {
+    id: '5GG196_2CQD_F0031',
+    index: 9,
+    category1: 'accessories',
+    category2: 'scarves-and-gloves',
+    name: '울 및 모헤어 장갑',
+    price: '₩ 680,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5GG/5GG196/2CQDF0031/5GG196_2CQD_F0031_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%9A%B8-%EB%B0%8F-%EB%AA%A8%ED%97%A4%EC%96%B4-%EC%9E%A5%EA%B0%91/5GG196_2CQD_F0031',
+    crawled_at: '2025-11-13T16:57:35.111726',
+    subtitle:
+      '울과 모헤어의 부드러운 촉감과 대비되는 컬러의 아이코닉한 미우미우 로고가 조화를 이루는 장갑입니다.',
+    bullet_points: ['제품 코드: 5GG196_2CQD_F0031', '눈에 띄는 로고'],
+    size_info: [],
+    material: '주 소재: 폴리아미드, 모헤어, 울',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5GG/5GG196/2CQDF0031/5GG196_2CQD_F0031_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 및 모헤어 장갑',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5GG/5GG196/2CQDF0031/5GG196_2CQD_F0031_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 및 모헤어 장갑',
+        index: 1,
+      },
+    ],
+    local_image: '5GG196_2CQD_F0031.jpg',
+    local_detail_images: [
+      '5GG196_2CQD_F0031_detail_thumbnail.jpg',
+      '5GG196_2CQD_F0031_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5FS062_2CQD_F0005',
+    index: 10,
+    category1: 'accessories',
+    category2: 'scarves-and-gloves',
+    name: '울 및 모헤어 스카프',
+    price: '₩ 1,000,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%9A%B8-%EB%B0%8F-%EB%AA%A8%ED%97%A4%EC%96%B4-%EC%8A%A4%EC%B9%B4%ED%94%84/5FS062_2CQD_F0005',
+    crawled_at: '2025-11-13T16:58:06.533598',
+    subtitle:
+      '울과 모헤어의 포근함과 아이코닉한 감성을 더하는 미우미우 로고가 돋보입니다. 테두리의 프린지 디테일로 스카프의 디자인이 완성됩니다.',
+    bullet_points: ['제품 코드: 5FS062_2CQD_F0005', '눈에 띄는 로고', '프린지 테두리'],
+    size_info: ['높이 185cm', '폭 23cm'],
+    material: '주 소재: 폴리아미드, 모헤어, 울',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FS/5FS062/2CQDF0005/5FS062_2CQD_F0005_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 및 모헤어 스카프',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FS/5FS062/2CQDF0005/5FS062_2CQD_F0005_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 및 모헤어 스카프',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FS/5FS062/2CQDF0005/5FS062_2CQD_F0005_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 및 모헤어 스카프',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FS/5FS062/2CQDF0005/5FS062_2CQD_F0005_MDR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 및 모헤어 스카프',
+        index: 3,
+      },
+    ],
+    local_image: '5FS062_2CQD_F0005.jpg',
+    local_detail_images: [
+      '5FS062_2CQD_F0005_detail_thumbnail.jpg',
+      '5FS062_2CQD_F0005_detail_2.jpg',
+      '5FS062_2CQD_F0005_detail_3.jpg',
+      '5FS062_2CQD_F0005_detail_4.jpg',
+    ],
+  },
+  {
+    id: '5GG196_2CQD_F0005',
+    index: 11,
+    category1: 'accessories',
+    category2: 'scarves-and-gloves',
+    name: '울 및 모헤어 장갑',
+    price: '₩ 680,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%9A%B8-%EB%B0%8F-%EB%AA%A8%ED%97%A4%EC%96%B4-%EC%9E%A5%EA%B0%91/5GG196_2CQD_F0005',
+    crawled_at: '2025-11-13T16:58:29.470233',
+    subtitle:
+      '울과 모헤어의 부드러운 촉감과 대비되는 컬러의 아이코닉한 미우미우 로고가 조화를 이루는 장갑입니다.',
+    bullet_points: ['제품 코드: 5GG196_2CQD_F0005', '눈에 띄는 로고'],
+    size_info: [],
+    material: '주 소재: 폴리아미드, 모헤어, 울',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5GG/5GG196/2CQDF0005/5GG196_2CQD_F0005_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 및 모헤어 장갑',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5GG/5GG196/2CQDF0005/5GG196_2CQD_F0005_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 및 모헤어 장갑',
+        index: 1,
+      },
+    ],
+    local_image: '5GG196_2CQD_F0005.jpg',
+    local_detail_images: [
+      '5GG196_2CQD_F0005_detail_thumbnail.jpg',
+      '5GG196_2CQD_F0005_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5FS062_2CQD_F0018',
+    index: 12,
+    category1: 'accessories',
+    category2: 'scarves-and-gloves',
+    name: '울 및 모헤어 스카프',
+    price: '₩ 1,000,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%9A%B8-%EB%B0%8F-%EB%AA%A8%ED%97%A4%EC%96%B4-%EC%8A%A4%EC%B9%B4%ED%94%84/5FS062_2CQD_F0018',
+    crawled_at: '2025-11-13T16:58:53.692517',
+    subtitle:
+      '울과 모헤어의 포근함과 아이코닉한 감성을 더하는 미우미우 로고가 돋보입니다. 테두리의 프린지 디테일로 스카프의 디자인이 완성됩니다.',
+    bullet_points: ['제품 코드: 5FS062_2CQD_F0018', '눈에 띄는 로고', '프린지 테두리'],
+    size_info: ['높이 185cm', '폭 23cm'],
+    material: '주 소재: 폴리아미드, 모헤어, 울',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FS/5FS062/2CQDF0018/5FS062_2CQD_F0018_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 및 모헤어 스카프',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FS/5FS062/2CQDF0018/5FS062_2CQD_F0018_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 및 모헤어 스카프',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FS/5FS062/2CQDF0018/5FS062_2CQD_F0018_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 및 모헤어 스카프',
+        index: 2,
+      },
+    ],
+    local_image: '5FS062_2CQD_F0018.jpg',
+    local_detail_images: [
+      '5FS062_2CQD_F0018_detail_thumbnail.jpg',
+      '5FS062_2CQD_F0018_detail_2.jpg',
+      '5FS062_2CQD_F0018_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5GG196_2CQD_F0018',
+    index: 13,
+    category1: 'accessories',
+    category2: 'scarves-and-gloves',
+    name: '울 및 모헤어 장갑',
+    price: '₩ 680,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%9A%B8-%EB%B0%8F-%EB%AA%A8%ED%97%A4%EC%96%B4-%EC%9E%A5%EA%B0%91/5GG196_2CQD_F0018',
+    crawled_at: '2025-11-13T16:59:14.443867',
+    subtitle:
+      '울과 모헤어의 부드러운 촉감과 대비되는 컬러의 아이코닉한 미우미우 로고가 조화를 이루는 장갑입니다.',
+    bullet_points: ['제품 코드: 5GG196_2CQD_F0018', '눈에 띄는 로고'],
+    size_info: [],
+    material: '주 소재: 폴리아미드, 모헤어, 울',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5GG/5GG196/2CQDF0018/5GG196_2CQD_F0018_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 및 모헤어 장갑',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5GG/5GG196/2CQDF0018/5GG196_2CQD_F0018_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 및 모헤어 장갑',
+        index: 1,
+      },
+    ],
+    local_image: '5GG196_2CQD_F0018.jpg',
+    local_detail_images: [
+      '5GG196_2CQD_F0018_detail_thumbnail.jpg',
+      '5GG196_2CQD_F0018_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5FS048_2ID1_F0036',
+    index: 14,
+    category1: 'accessories',
+    category2: 'scarves-and-gloves',
+    name: '니트 스카프',
+    price: '₩ 1,000,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EB%8B%88%ED%8A%B8-%EC%8A%A4%EC%B9%B4%ED%94%84/5FS048_2ID1_F0036',
+    crawled_at: '2025-11-13T16:59:36.649319',
+    subtitle:
+      '이 부드럽고 포근한 니트 스카프는 립 니트 모티프, 우아한 색조, 대비되는 색상의 레터링 로고와 같은 유행을 타지 않는 디테일로 클래식한 미학을 새롭게 해석합니다.',
+    bullet_points: [
+      '제품 코드: 5FS048_2ID1_F0036',
+      '로고 디테일',
+      '39% 버진 울 - 29% 모헤어 - 16% 캐시미어 - 16% 폴리아미드',
+    ],
+    size_info: ['높이 190cm', '폭 22cm'],
+    material: '주 소재: 캐시미어 버진 울',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FS/5FS048/2ID1F0036/5FS048_2ID1_F0036_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '니트 스카프',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FS/5FS048/2ID1F0036/5FS048_2ID1_F0036_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '니트 스카프',
+        index: 1,
+      },
+    ],
+    local_image: '5FS048_2ID1_F0036.jpg',
+    local_detail_images: [
+      '5FS048_2ID1_F0036_detail_thumbnail.jpg',
+      '5FS048_2ID1_F0036_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5FS094_2CVE_F04BG',
+    index: 15,
+    category1: 'accessories',
+    category2: 'scarves-and-gloves',
+    name: '프린지 울 스카프',
+    price: '₩ 1,100,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%ED%94%84%EB%A6%B0%EC%A7%80-%EC%9A%B8-%EC%8A%A4%EC%B9%B4%ED%94%84/5FS094_2CVE_F04BG',
+    crawled_at: '2025-11-13T17:00:01.142235',
+    subtitle:
+      '부드러운 울과 고급 모헤어 혼방으로 독특한 액세서리가 탄생했습니다. 경쾌한 스트라이프 패턴과 프린지 엣지가 돋보이는 스카프로 컬러와 텍스처가 조화를 이룹니다.',
+    bullet_points: [
+      '제품 코드: 5FS094_2CVE_F04BG',
+      '라벨 로고',
+      '양 측면에 프린지',
+      '64% 모헤어, 32% 폴리아미드, 4% 울',
+    ],
+    size_info: ['높이 23cm', '폭 185cm'],
+    material: '주 소재: 폴리아미드, 모헤어, 울',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FS/5FS094/2CVEF04BG/5FS094_2CVE_F04BG_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '프린지 울 스카프',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FS/5FS094/2CVEF04BG/5FS094_2CVE_F04BG_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '프린지 울 스카프',
+        index: 1,
+      },
+    ],
+    local_image: '5FS094_2CVE_F04BG.jpg',
+    local_detail_images: [
+      '5FS094_2CVE_F04BG_detail_thumbnail.jpg',
+      '5FS094_2CVE_F04BG_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5FS094_2CVE_F0WYH',
+    index: 16,
+    category1: 'accessories',
+    category2: 'scarves-and-gloves',
+    name: '프린지 울 스카프',
+    price: '₩ 1,100,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%ED%94%84%EB%A6%B0%EC%A7%80-%EC%9A%B8-%EC%8A%A4%EC%B9%B4%ED%94%84/5FS094_2CVE_F0WYH',
+    crawled_at: '2025-11-13T17:00:29.762273',
+    subtitle:
+      '부드러운 울과 고급 모헤어 혼방으로 독특한 액세서리가 탄생했습니다. 경쾌한 스트라이프 패턴과 프린지 엣지가 돋보이는 스카프로 컬러와 텍스처가 조화를 이룹니다.',
+    bullet_points: [
+      '제품 코드: 5FS094_2CVE_F0WYH',
+      '라벨 로고',
+      '양 측면에 프린지',
+      '64% 모헤어, 32% 폴리아미드, 4% 울',
+    ],
+    size_info: ['높이 23cm', '폭 185cm'],
+    material: '주 소재: 폴리아미드, 모헤어, 울',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FS/5FS094/2CVEF0WYH/5FS094_2CVE_F0WYH_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '프린지 울 스카프',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FS/5FS094/2CVEF0WYH/5FS094_2CVE_F0WYH_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '프린지 울 스카프',
+        index: 1,
+      },
+    ],
+    local_image: '5FS094_2CVE_F0WYH.jpg',
+    local_detail_images: [
+      '5FS094_2CVE_F0WYH_detail_thumbnail.jpg',
+      '5FS094_2CVE_F0WYH_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5GG147_2ICP_F0480',
+    index: 17,
+    category1: 'accessories',
+    category2: 'scarves-and-gloves',
+    name: '립 조직 니트 실크 핑거리스 장갑',
+    price: '₩ 1,140,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EB%A6%BD-%EC%A1%B0%EC%A7%81-%EB%8B%88%ED%8A%B8-%EC%8B%A4%ED%81%AC-%ED%95%91%EA%B1%B0%EB%A6%AC%EC%8A%A4-%EC%9E%A5%EA%B0%91/5GG147_2ICP_F0480',
+    crawled_at: '2025-11-13T17:00:51.486966',
+    subtitle:
+      '패션쇼의 양말에서 영감을 받아 다채로운 감성을 표현하는 립 조직 니트 실크 핑거리스 장갑입니다. 캐주얼한 룩과 보다 세련된 조합으로 유쾌하게 완성되었습니다.',
+    bullet_points: ['제품 코드: 5GG147_2ICP_F0480', '로고 라벨'],
+    size_info: ['높이 60cm'],
+    material: '주 소재: 재생 실크',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5GG/5GG147/2ICPF0480/5GG147_2ICP_F0480_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '립 조직 니트 실크 핑거리스 장갑',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5GG/5GG147/2ICPF0480/5GG147_2ICP_F0480_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '립 조직 니트 실크 핑거리스 장갑',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5GG/5GG147/2ICPF0480/5GG147_2ICP_F0480_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '립 조직 니트 실크 핑거리스 장갑',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5GG/5GG147/2ICPF0480/5GG147_2ICP_F0480_MDLA.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '립 조직 니트 실크 핑거리스 장갑',
+        index: 3,
+      },
+    ],
+    local_image: '5GG147_2ICP_F0480.jpg',
+    local_detail_images: [
+      '5GG147_2ICP_F0480_detail_thumbnail.jpg',
+      '5GG147_2ICP_F0480_detail_2.jpg',
+      '5GG147_2ICP_F0480_detail_3.jpg',
+      '5GG147_2ICP_F0480_detail_4.jpg',
+    ],
+  },
+  {
+    id: '5FS139_180W_F0308',
+    index: 18,
+    category1: 'accessories',
+    category2: 'scarves-and-gloves',
+    name: '울 및 캐시미어 스카프',
+    price: '₩ 1,070,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%9A%B8-%EB%B0%8F-%EC%BA%90%EC%8B%9C%EB%AF%B8%EC%96%B4-%EC%8A%A4%EC%B9%B4%ED%94%84/5FS139_180W_F0308',
+    crawled_at: '2025-11-13T17:01:16.756244',
+    subtitle:
+      '이 스카프는 재생 원사의 부드러움과 세련된 립 니트 모티프를 결합하여, 아이코닉하고 유행을 타지 않는 액세서리의 유쾌한 정신을 기념하는 폼폼 트림으로 더욱 돋보입니다.',
+    bullet_points: ['제품 코드: 5FS139_180W_F0308', '로고 라벨', '폼폼 트림'],
+    size_info: ['높이 170cm', '폭 15cm'],
+    material: '주 소재: 재활용 캐시미어 재활용 울',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FS/5FS139/180WF0308/5FS139_180W_F0308_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 및 캐시미어 스카프',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FS/5FS139/180WF0308/5FS139_180W_F0308_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 및 캐시미어 스카프',
+        index: 1,
+      },
+    ],
+    local_image: '5FS139_180W_F0308.jpg',
+    local_detail_images: [
+      '5FS139_180W_F0308_detail_thumbnail.jpg',
+      '5FS139_180W_F0308_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5FS139_180W_F0031',
+    index: 19,
+    category1: 'accessories',
+    category2: 'scarves-and-gloves',
+    name: '울 및 캐시미어 스카프',
+    price: '₩ 1,070,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%9A%B8-%EB%B0%8F-%EC%BA%90%EC%8B%9C%EB%AF%B8%EC%96%B4-%EC%8A%A4%EC%B9%B4%ED%94%84/5FS139_180W_F0031',
+    crawled_at: '2025-11-13T17:01:42.799151',
+    subtitle:
+      '이 스카프는 재생 원사의 부드러움과 세련된 립 니트 모티프를 결합하여, 아이코닉하고 유행을 타지 않는 액세서리의 유쾌한 정신을 기념하는 폼폼 트림으로 더욱 돋보입니다.',
+    bullet_points: ['제품 코드: 5FS139_180W_F0031', '로고 라벨', '폼폼 트림'],
+    size_info: ['높이 170cm', '폭 15cm'],
+    material: '주 소재: 재활용 캐시미어 재활용 울',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FS/5FS139/180WF0031/5FS139_180W_F0031_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 및 캐시미어 스카프',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FS/5FS139/180WF0031/5FS139_180W_F0031_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 및 캐시미어 스카프',
+        index: 1,
+      },
+    ],
+    local_image: '5FS139_180W_F0031.jpg',
+    local_detail_images: [
+      '5FS139_180W_F0031_detail_thumbnail.jpg',
+      '5FS139_180W_F0031_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5FF004_2ID9_F0008',
+    index: 20,
+    category1: 'accessories',
+    category2: 'scarves-and-gloves',
+    name: '울 및 캐시미어 프린트 스카프',
+    price: '₩ 430,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%9A%B8-%EB%B0%8F-%EC%BA%90%EC%8B%9C%EB%AF%B8%EC%96%B4-%ED%94%84%EB%A6%B0%ED%8A%B8-%EC%8A%A4%EC%B9%B4%ED%94%84/5FF004_2ID9_F0008',
+    crawled_at: '2025-11-13T17:02:11.120784',
+    subtitle:
+      '울과 캐시미어 소재로 완성된 반다나 프린트 스카프는 미우미우의 빈티지 감성을 자아냅니다. 컬러 대비가 이 스카프의 개성을 강조하며, 어떤 룩에도 독특한 포인트를 더합니다.',
+    bullet_points: ['제품 코드: 5FF004_2ID9_F0008', '프린트 로고'],
+    size_info: ['높이 55cm', '폭 55cm'],
+    material: '패브릭',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FF/5FF004/2ID9F0008/5FF004_2ID9_F0008_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 및 캐시미어 프린트 스카프',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FF/5FF004/2ID9F0008/5FF004_2ID9_F0008_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 및 캐시미어 프린트 스카프',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FF/5FF004/2ID9F0008/5FF004_2ID9_F0008_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 및 캐시미어 프린트 스카프',
+        index: 2,
+      },
+    ],
+    local_image: '5FF004_2ID9_F0008.jpg',
+    local_detail_images: [
+      '5FF004_2ID9_F0008_detail_thumbnail.jpg',
+      '5FF004_2ID9_F0008_detail_2.jpg',
+      '5FF004_2ID9_F0008_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5FF004_2ID9_F0244',
+    index: 21,
+    category1: 'accessories',
+    category2: 'scarves-and-gloves',
+    name: '울 및 캐시미어 프린트 스카프',
+    price: '₩ 430,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%9A%B8-%EB%B0%8F-%EC%BA%90%EC%8B%9C%EB%AF%B8%EC%96%B4-%ED%94%84%EB%A6%B0%ED%8A%B8-%EC%8A%A4%EC%B9%B4%ED%94%84/5FF004_2ID9_F0244',
+    crawled_at: '2025-11-13T17:02:34.299511',
+    subtitle:
+      '울과 캐시미어 소재로 완성된 반다나 프린트 스카프는 미우미우의 빈티지 감성을 자아냅니다. 컬러 대비가 이 스카프의 개성을 강조하며, 어떤 룩에도 독특한 포인트를 더합니다.',
+    bullet_points: ['제품 코드: 5FF004_2ID9_F0244', '프린트 로고'],
+    size_info: ['높이 55cm', '폭 55cm'],
+    material: '패브릭',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FF/5FF004/2ID9F0244/5FF004_2ID9_F0244_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 및 캐시미어 프린트 스카프',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FF/5FF004/2ID9F0244/5FF004_2ID9_F0244_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 및 캐시미어 프린트 스카프',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FF/5FF004/2ID9F0244/5FF004_2ID9_F0244_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 및 캐시미어 프린트 스카프',
+        index: 2,
+      },
+    ],
+    local_image: '5FF004_2ID9_F0244.jpg',
+    local_detail_images: [
+      '5FF004_2ID9_F0244_detail_thumbnail.jpg',
+      '5FF004_2ID9_F0244_detail_2.jpg',
+      '5FF004_2ID9_F0244_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5FF004_2IEA_F0046',
+    index: 22,
+    category1: 'accessories',
+    category2: 'scarves-and-gloves',
+    name: '실크 프린트 스카프',
+    price: '₩ 430,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%8B%A4%ED%81%AC-%ED%94%84%EB%A6%B0%ED%8A%B8-%EC%8A%A4%EC%B9%B4%ED%94%84/5FF004_2IEA_F0046',
+    crawled_at: '2025-11-13T17:02:57.493599',
+    subtitle:
+      '실크 소재로 제작된 반다나 프린트 스카프는 미우미우 특유의 빈티지 무드를 담고 있습니다. 컬러 대비가 뚜렷한 개성을 드러내며, 스타일에 유니크한 감각을 더해줍니다.',
+    bullet_points: ['제품 코드: 5FF004_2IEA_F0046', '프린트 로고'],
+    size_info: ['높이 55cm', '폭 55cm'],
+    material: '주 소재: 실크',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FF/5FF004/2IEAF0046/5FF004_2IEA_F0046_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '실크 프린트 스카프',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FF/5FF004/2IEAF0046/5FF004_2IEA_F0046_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '실크 프린트 스카프',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FF/5FF004/2IEAF0046/5FF004_2IEA_F0046_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '실크 프린트 스카프',
+        index: 2,
+      },
+    ],
+    local_image: '5FF004_2IEA_F0046.jpg',
+    local_detail_images: [
+      '5FF004_2IEA_F0046_detail_thumbnail.jpg',
+      '5FF004_2IEA_F0046_detail_2.jpg',
+      '5FF004_2IEA_F0046_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5FF004_2IEA_F0154',
+    index: 23,
+    category1: 'accessories',
+    category2: 'scarves-and-gloves',
+    name: '실크 프린트 스카프',
+    price: '₩ 430,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%8B%A4%ED%81%AC-%ED%94%84%EB%A6%B0%ED%8A%B8-%EC%8A%A4%EC%B9%B4%ED%94%84/5FF004_2IEA_F0154',
+    crawled_at: '2025-11-13T17:03:25.517135',
+    subtitle:
+      '실크 소재로 제작된 반다나 프린트 스카프는 미우미우 특유의 빈티지 무드를 담고 있습니다. 컬러 대비가 뚜렷한 개성을 드러내며, 스타일에 유니크한 감각을 더해줍니다.',
+    bullet_points: ['제품 코드: 5FF004_2IEA_F0154', '프린트 로고'],
+    size_info: ['높이 55cm', '폭 55cm'],
+    material: '주 소재: 실크',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FF/5FF004/2IEAF0154/5FF004_2IEA_F0154_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '실크 프린트 스카프',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FF/5FF004/2IEAF0154/5FF004_2IEA_F0154_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '실크 프린트 스카프',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FF/5FF004/2IEAF0154/5FF004_2IEA_F0154_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '실크 프린트 스카프',
+        index: 2,
+      },
+    ],
+    local_image: '5FF004_2IEA_F0154.jpg',
+    local_detail_images: [
+      '5FF004_2IEA_F0154_detail_thumbnail.jpg',
+      '5FF004_2IEA_F0154_detail_2.jpg',
+      '5FF004_2IEA_F0154_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5FF001_2ID9_F0244',
+    index: 24,
+    category1: 'accessories',
+    category2: 'scarves-and-gloves',
+    name: '울 및 캐시미어 프린트 스카프',
+    price: '₩ 850,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%9A%B8-%EB%B0%8F-%EC%BA%90%EC%8B%9C%EB%AF%B8%EC%96%B4-%ED%94%84%EB%A6%B0%ED%8A%B8-%EC%8A%A4%EC%B9%B4%ED%94%84/5FF001_2ID9_F0244',
+    crawled_at: '2025-11-13T17:03:52.967890',
+    subtitle:
+      '울과 캐시미어 소재로 완성된 반다나 프린트 스카프는 미우미우의 빈티지 감성을 자아냅니다. 컬러 대비가 이 스카프의 개성을 강조하며, 어떤 룩에도 독특한 포인트를 더합니다.',
+    bullet_points: ['제품 코드: 5FF001_2ID9_F0244', '프린트 로고'],
+    size_info: ['높이 90cm', '폭 90cm'],
+    material: '패브릭',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FF/5FF001/2ID9F0244/5FF001_2ID9_F0244_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 및 캐시미어 프린트 스카프',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FF/5FF001/2ID9F0244/5FF001_2ID9_F0244_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 및 캐시미어 프린트 스카프',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FF/5FF001/2ID9F0244/5FF001_2ID9_F0244_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 및 캐시미어 프린트 스카프',
+        index: 2,
+      },
+    ],
+    local_image: '5FF001_2ID9_F0244.jpg',
+    local_detail_images: [
+      '5FF001_2ID9_F0244_detail_thumbnail.jpg',
+      '5FF001_2ID9_F0244_detail_2.jpg',
+      '5FF001_2ID9_F0244_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5FF004_2ICE_F0399',
+    index: 25,
+    category1: 'accessories',
+    category2: 'scarves-and-gloves',
+    name: '프린티드 포플린 스카프',
+    price: '₩ 410,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%ED%94%84%EB%A6%B0%ED%8B%B0%EB%93%9C-%ED%8F%AC%ED%94%8C%EB%A6%B0-%EC%8A%A4%EC%B9%B4%ED%94%84/5FF004_2ICE_F0399',
+    crawled_at: '2025-11-13T17:04:22.000842',
+    subtitle:
+      '빈티지 감성과 미우미우 미학의 독특한 요소를 반영한 반다나 모티프의 포플린 스카프는 각각의 룩을 독특한 감성으로 완성하는 컬러 대비가 특징입니다.',
+    bullet_points: ['제품 코드: 5FF004_2ICE_F0399', '프린티드 로고'],
+    size_info: ['높이 55cm', '폭 55cm'],
+    material: '주 소재: 코튼',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FF/5FF004/2ICEF0399/5FF004_2ICE_F0399_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '프린티드 포플린 스카프',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FF/5FF004/2ICEF0399/5FF004_2ICE_F0399_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '프린티드 포플린 스카프',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FF/5FF004/2ICEF0399/5FF004_2ICE_F0399_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '프린티드 포플린 스카프',
+        index: 2,
+      },
+    ],
+    local_image: '5FF004_2ICE_F0399.jpg',
+    local_detail_images: [
+      '5FF004_2ICE_F0399_detail_thumbnail.jpg',
+      '5FF004_2ICE_F0399_detail_2.jpg',
+      '5FF004_2ICE_F0399_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5FF008_2ICE_F0399',
+    index: 1,
+    category1: 'accessories',
+    category2: 'scarves-and-gloves',
+    name: '프린티드 포플린 스카프',
+    price: '₩ 360,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FF/5FF008/2ICEF0399/5FF008_2ICE_F0399_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%ED%94%84%EB%A6%B0%ED%8B%B0%EB%93%9C-%ED%8F%AC%ED%94%8C%EB%A6%B0-%EC%8A%A4%EC%B9%B4%ED%94%84/5FF008_2ICE_F0399',
+    crawled_at: '2025-11-13T17:13:05.184097',
+    subtitle:
+      '빈티지 감성과 미우미우 미학의 독특한 요소를 반영한 반다나 모티프의 포플린 스카프는 각각의 룩을 독특한 감성으로 완성하는 컬러 대비가 특징입니다.',
+    bullet_points: ['제품 코드: 5FF008_2ICE_F0399', '프린티드 로고'],
+    size_info: ['높이 85cm', '폭 6cm'],
+    material: '주 소재: 코튼',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FF/5FF008/2ICEF0399/5FF008_2ICE_F0399_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '프린티드 포플린 스카프',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FF/5FF008/2ICEF0399/5FF008_2ICE_F0399_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '프린티드 포플린 스카프',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FF/5FF008/2ICEF0399/5FF008_2ICE_F0399_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '프린티드 포플린 스카프',
+        index: 2,
+      },
+    ],
+    local_image: '5FF008_2ICE_F0399.jpg',
+    local_detail_images: [
+      '5FF008_2ICE_F0399_detail_thumbnail.jpg',
+      '5FF008_2ICE_F0399_detail_2.jpg',
+      '5FF008_2ICE_F0399_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5FF004_2ICG_F0008',
+    index: 2,
+    category1: 'accessories',
+    category2: 'scarves-and-gloves',
+    name: '프린티드 포플린 스카프',
+    price: '₩ 410,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FF/5FF004/2ICGF0008/5FF004_2ICG_F0008_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%ED%94%84%EB%A6%B0%ED%8B%B0%EB%93%9C-%ED%8F%AC%ED%94%8C%EB%A6%B0-%EC%8A%A4%EC%B9%B4%ED%94%84/5FF004_2ICG_F0008',
+    crawled_at: '2025-11-13T17:13:35.008796',
+    subtitle:
+      '빈티지 감성과 미우미우 미학의 독특한 요소를 반영한 반다나 모티프의 포플린 스카프는 각각의 룩을 독특한 감성으로 완성하는 컬러 대비가 특징입니다.',
+    bullet_points: ['제품 코드: 5FF004_2ICG_F0008', '프린티드 로고'],
+    size_info: ['높이 55cm', '폭 55cm'],
+    material: '주 소재: 코튼',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FF/5FF004/2ICGF0008/5FF004_2ICG_F0008_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '프린티드 포플린 스카프',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FF/5FF004/2ICGF0008/5FF004_2ICG_F0008_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '프린티드 포플린 스카프',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FF/5FF004/2ICGF0008/5FF004_2ICG_F0008_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '프린티드 포플린 스카프',
+        index: 2,
+      },
+    ],
+    local_image: '5FF004_2ICG_F0008.jpg',
+    local_detail_images: [
+      '5FF004_2ICG_F0008_detail_thumbnail.jpg',
+      '5FF004_2ICG_F0008_detail_2.jpg',
+      '5FF004_2ICG_F0008_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5FF008_2ICG_F0008',
+    index: 3,
+    category1: 'accessories',
+    category2: 'scarves-and-gloves',
+    name: '프린티드 포플린 스카프',
+    price: '₩ 360,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FF/5FF008/2ICGF0008/5FF008_2ICG_F0008_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%ED%94%84%EB%A6%B0%ED%8B%B0%EB%93%9C-%ED%8F%AC%ED%94%8C%EB%A6%B0-%EC%8A%A4%EC%B9%B4%ED%94%84/5FF008_2ICG_F0008',
+    crawled_at: '2025-11-13T17:13:55.975438',
+    subtitle:
+      '빈티지 감성과 미우미우 미학의 독특한 요소를 반영한 반다나 모티프의 포플린 스카프는 각각의 룩을 독특한 감성으로 완성하는 컬러 대비가 특징입니다.',
+    bullet_points: ['제품 코드: 5FF008_2ICG_F0008', '프린티드 로고'],
+    size_info: ['높이 85cm', '폭 6cm'],
+    material: '주 소재: 코튼',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FF/5FF008/2ICGF0008/5FF008_2ICG_F0008_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '프린티드 포플린 스카프',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FF/5FF008/2ICGF0008/5FF008_2ICG_F0008_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '프린티드 포플린 스카프',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FF/5FF008/2ICGF0008/5FF008_2ICG_F0008_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '프린티드 포플린 스카프',
+        index: 2,
+      },
+    ],
+    local_image: '5FF008_2ICG_F0008.jpg',
+    local_detail_images: [
+      '5FF008_2ICG_F0008_detail_thumbnail.jpg',
+      '5FF008_2ICG_F0008_detail_2.jpg',
+      '5FF008_2ICG_F0008_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5FF008_2ICG_F0304',
+    index: 4,
+    category1: 'accessories',
+    category2: 'scarves-and-gloves',
+    name: '프린티드 포플린 스카프',
+    price: '₩ 360,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FF/5FF008/2ICGF0304/5FF008_2ICG_F0304_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%ED%94%84%EB%A6%B0%ED%8B%B0%EB%93%9C-%ED%8F%AC%ED%94%8C%EB%A6%B0-%EC%8A%A4%EC%B9%B4%ED%94%84/5FF008_2ICG_F0304',
+    crawled_at: '2025-11-13T17:14:17.221500',
+    subtitle:
+      '빈티지 감성과 미우미우 미학의 독특한 요소를 반영한 반다나 모티프의 포플린 스카프는 각각의 룩을 독특한 감성으로 완성하는 컬러 대비가 특징입니다.',
+    bullet_points: ['제품 코드: 5FF008_2ICG_F0304', '프린티드 로고'],
+    size_info: ['높이 85cm', '폭 6cm'],
+    material: '주 소재: 코튼',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FF/5FF008/2ICGF0304/5FF008_2ICG_F0304_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '프린티드 포플린 스카프',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FF/5FF008/2ICGF0304/5FF008_2ICG_F0304_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '프린티드 포플린 스카프',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FF/5FF008/2ICGF0304/5FF008_2ICG_F0304_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '프린티드 포플린 스카프',
+        index: 2,
+      },
+    ],
+    local_image: '5FF008_2ICG_F0304.jpg',
+    local_detail_images: [
+      '5FF008_2ICG_F0304_detail_thumbnail.jpg',
+      '5FF008_2ICG_F0304_detail_2.jpg',
+      '5FF008_2ICG_F0304_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5FF004_2F7Y_F022X',
+    index: 5,
+    category1: 'accessories',
+    category2: 'scarves-and-gloves',
+    name: '프린트 트윌 스카프',
+    price: '₩ 430,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FF/5FF004/2F7YF022X/5FF004_2F7Y_F022X_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%ED%94%84%EB%A6%B0%ED%8A%B8-%ED%8A%B8%EC%9C%8C-%EC%8A%A4%EC%B9%B4%ED%94%84/5FF004_2F7Y_F022X',
+    crawled_at: '2025-11-13T17:14:38.943435',
+    subtitle: '발랄한 폴카 도트 프린트로 장식한 실크 트윌 스카프입니다.',
+    bullet_points: ['제품 코드: 5FF004_2F7Y_F022X', '로고 라벨'],
+    size_info: ['높이 55cm', '폭 55cm'],
+    material: '주 소재: 실크',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FF/5FF004/2F7YF022X/5FF004_2F7Y_F022X_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '프린트 트윌 스카프',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FF/5FF004/2F7YF022X/5FF004_2F7Y_F022X_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '프린트 트윌 스카프',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FF/5FF004/2F7YF022X/5FF004_2F7Y_F022X_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '프린트 트윌 스카프',
+        index: 2,
+      },
+    ],
+    local_image: '5FF004_2F7Y_F022X.jpg',
+    local_detail_images: [
+      '5FF004_2F7Y_F022X_detail_thumbnail.jpg',
+      '5FF004_2F7Y_F022X_detail_2.jpg',
+      '5FF004_2F7Y_F022X_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5FF008_2F7Y_F0N13',
+    index: 6,
+    category1: 'accessories',
+    category2: 'scarves-and-gloves',
+    name: '프린트 트윌 스카프',
+    price: '₩ 360,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FF/5FF008/2F7YF0N13/5FF008_2F7Y_F0N13_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%ED%94%84%EB%A6%B0%ED%8A%B8-%ED%8A%B8%EC%9C%8C-%EC%8A%A4%EC%B9%B4%ED%94%84/5FF008_2F7Y_F0N13',
+    crawled_at: '2025-11-13T17:14:58.230810',
+    subtitle: '발랄한 폴카 도트 프린트로 장식한 실크 트윌 스카프입니다.',
+    bullet_points: ['제품 코드: 5FF008_2F7Y_F0N13', '로고 라벨'],
+    size_info: ['높이 85cm', '폭 6cm'],
+    material: '주 소재: 실크',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FF/5FF008/2F7YF0N13/5FF008_2F7Y_F0N13_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '프린트 트윌 스카프',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FF/5FF008/2F7YF0N13/5FF008_2F7Y_F0N13_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '프린트 트윌 스카프',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FF/5FF008/2F7YF0N13/5FF008_2F7Y_F0N13_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '프린트 트윌 스카프',
+        index: 2,
+      },
+    ],
+    local_image: '5FF008_2F7Y_F0N13.jpg',
+    local_detail_images: [
+      '5FF008_2F7Y_F0N13_detail_thumbnail.jpg',
+      '5FF008_2F7Y_F0N13_detail_2.jpg',
+      '5FF008_2F7Y_F0N13_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5FF004_2F7Y_F04D7',
+    index: 7,
+    category1: 'accessories',
+    category2: 'scarves-and-gloves',
+    name: '프린트 트윌 스카프',
+    price: '₩ 430,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FF/5FF004/2F7YF04D7/5FF004_2F7Y_F04D7_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%ED%94%84%EB%A6%B0%ED%8A%B8-%ED%8A%B8%EC%9C%8C-%EC%8A%A4%EC%B9%B4%ED%94%84/5FF004_2F7Y_F04D7',
+    crawled_at: '2025-11-13T17:15:21.130222',
+    subtitle: '발랄한 폴카 도트 프린트로 장식한 실크 트윌 스카프입니다.',
+    bullet_points: ['제품 코드: 5FF004_2F7Y_F04D7', '로고 라벨'],
+    size_info: ['높이 55cm', '폭 55cm'],
+    material: '주 소재: 실크',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FF/5FF004/2F7YF04D7/5FF004_2F7Y_F04D7_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '프린트 트윌 스카프',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FF/5FF004/2F7YF04D7/5FF004_2F7Y_F04D7_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '프린트 트윌 스카프',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FF/5FF004/2F7YF04D7/5FF004_2F7Y_F04D7_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '프린트 트윌 스카프',
+        index: 2,
+      },
+    ],
+    local_image: '5FF004_2F7Y_F04D7.jpg',
+    local_detail_images: [
+      '5FF004_2F7Y_F04D7_detail_thumbnail.jpg',
+      '5FF004_2F7Y_F04D7_detail_2.jpg',
+      '5FF004_2F7Y_F04D7_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5FF004_2F7Y_F03FD',
+    index: 8,
+    category1: 'accessories',
+    category2: 'scarves-and-gloves',
+    name: '프린트 트윌 스카프',
+    price: '₩ 430,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiu_products/5/5FF/5FF004/2F7YF03FD/5FF004_2F7Y_F03FD_SLF.png/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%ED%94%84%EB%A6%B0%ED%8A%B8-%ED%8A%B8%EC%9C%8C-%EC%8A%A4%EC%B9%B4%ED%94%84/5FF004_2F7Y_F03FD',
+    crawled_at: '2025-11-13T17:15:49.177997',
+    subtitle: '발랄한 폴카 도트 프린트로 장식한 실크 트윌 스카프입니다.',
+    bullet_points: ['제품 코드: 5FF004_2F7Y_F03FD', '로고 라벨'],
+    size_info: ['높이 55cm', '폭 55cm'],
+    material: '주 소재: 실크',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiu_products/5/5FF/5FF004/2F7YF03FD/5FF004_2F7Y_F03FD_SLF.png/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '프린트 트윌 스카프',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiu_products/5/5FF/5FF004/2F7YF03FD/5FF004_2F7Y_F03FD_SLD.png/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '프린트 트윌 스카프',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiu_products/5/5FF/5FF004/2F7YF03FD/5FF004_2F7Y_F03FD_SLO.png/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '프린트 트윌 스카프',
+        index: 2,
+      },
+    ],
+    local_image: '5FF004_2F7Y_F03FD.jpg',
+    local_detail_images: [
+      '5FF004_2F7Y_F03FD_detail_thumbnail.jpg',
+      '5FF004_2F7Y_F03FD_detail_2.jpg',
+      '5FF004_2F7Y_F03FD_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5FF042_2F71_F0056',
+    index: 9,
+    category1: 'accessories',
+    category2: 'scarves-and-gloves',
+    name: '메탈 스카프 링',
+    price: '₩ 300,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FF/5FF042/2F71F0056/5FF042_2F71_F0056_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EB%A9%94%ED%83%88-%EC%8A%A4%EC%B9%B4%ED%94%84-%EB%A7%81/5FF042_2F71_F0056',
+    crawled_at: '2025-11-13T17:16:13.507425',
+    subtitle:
+      '룩에 현대적인 감성을 더하는 심플한 디자인의 스카프 링은 아이코닉한 로고 디테일로 완성됩니다.',
+    bullet_points: ['제품 코드: 5FF042_2F71_F0056', '각인 로고'],
+    size_info: ['높이 1.3cm', '폭 1.3cm'],
+    material: '주 소재: 브라스',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FF/5FF042/2F71F0056/5FF042_2F71_F0056_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '메탈 스카프 링',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FF/5FF042/2F71F0056/5FF042_2F71_F0056_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '메탈 스카프 링',
+        index: 1,
+      },
+    ],
+    local_image: '5FF042_2F71_F0056.jpg',
+    local_detail_images: [
+      '5FF042_2F71_F0056_detail_thumbnail.jpg',
+      '5FF042_2F71_F0056_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5FS048_2F8S_F0031',
+    index: 10,
+    category1: 'accessories',
+    category2: 'scarves-and-gloves',
+    name: '캐시미어 스카프',
+    price: '₩ 850,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FS/5FS048/2F8SF0031/5FS048_2F8S_F0031_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%BA%90%EC%8B%9C%EB%AF%B8%EC%96%B4-%EC%8A%A4%EC%B9%B4%ED%94%84/5FS048_2F8S_F0031',
+    crawled_at: '2025-11-13T17:16:37.888467',
+    subtitle:
+      '대비되는 컬러의 미우미우 로고로 아이코닉한 개성이 돋보이는 스카프입니다. 캐시미어 소재를 사용해 겨울 룩에 어울리는 더욱 포근하고 따뜻한 디자인입니다.',
+    bullet_points: ['제품 코드: 5FS048_2F8S_F0031', '로고 라벨'],
+    size_info: ['높이 190cm', '폭 22cm'],
+    material: '주 소재: 캐시미어, 순수 울',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FS/5FS048/2F8SF0031/5FS048_2F8S_F0031_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '캐시미어 스카프',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FS/5FS048/2F8SF0031/5FS048_2F8S_F0031_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '캐시미어 스카프',
+        index: 1,
+      },
+    ],
+    local_image: '5FS048_2F8S_F0031.jpg',
+    local_detail_images: [
+      '5FS048_2F8S_F0031_detail_thumbnail.jpg',
+      '5FS048_2F8S_F0031_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5FS048_2F8S_F0040',
+    index: 11,
+    category1: 'accessories',
+    category2: 'scarves-and-gloves',
+    name: '캐시미어 스카프',
+    price: '₩ 850,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FS/5FS048/2F8SF0040/5FS048_2F8S_F0040_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%BA%90%EC%8B%9C%EB%AF%B8%EC%96%B4-%EC%8A%A4%EC%B9%B4%ED%94%84/5FS048_2F8S_F0040',
+    crawled_at: '2025-11-13T17:17:01.456183',
+    subtitle:
+      '대비되는 컬러의 미우미우 로고로 아이코닉한 개성이 돋보이는 스카프입니다. 캐시미어 소재를 사용해 겨울 룩에 어울리는 더욱 포근하고 따뜻한 디자인입니다.',
+    bullet_points: ['제품 코드: 5FS048_2F8S_F0040', '로고 라벨'],
+    size_info: ['높이 190cm', '폭 22cm'],
+    material: '주 소재: 캐시미어, 순수 울',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FS/5FS048/2F8SF0040/5FS048_2F8S_F0040_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '캐시미어 스카프',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FS/5FS048/2F8SF0040/5FS048_2F8S_F0040_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '캐시미어 스카프',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5FS/5FS048/2F8SF0040/5FS048_2F8S_F0040_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '캐시미어 스카프',
+        index: 2,
+      },
+    ],
+    local_image: '5FS048_2F8S_F0040.jpg',
+    local_detail_images: [
+      '5FS048_2F8S_F0040_detail_thumbnail.jpg',
+      '5FS048_2F8S_F0040_detail_2.jpg',
+      '5FS048_2F8S_F0040_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5IF181_068_F0E18',
+    index: 1,
+    category1: 'accessories',
+    category2: 'hair-accessories',
+    name: '벨벳 스크런치',
+    price: '₩ 550,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF181/068F0E18/5IF181_068_F0E18_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EB%B2%A8%EB%B2%B3-%EC%8A%A4%ED%81%AC%EB%9F%B0%EC%B9%98/5IF181_068_F0E18',
+    crawled_at: '2025-11-13T16:54:39.620139',
+    subtitle:
+      '클래식한 리본 쉐입과 메탈 레터링 로고의 반항적인 본질이 어우러진 벨벳 스크런치가 모든 룩을 스타일리시하게 완성합니다.',
+    bullet_points: ['제품 코드: 5IF181_068_F0E18', '리본 장식', '메탈 레터링 로고'],
+    size_info: ['높이 3cm'],
+    material: '주 소재: 코튼',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF181/068F0E18/5IF181_068_F0E18_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '벨벳 스크런치',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF181/068F0E18/5IF181_068_F0E18_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '벨벳 스크런치',
+        index: 1,
+      },
+    ],
+    local_image: '5IF181_068_F0E18.jpg',
+    local_detail_images: ['5IF181_068_F0E18_detail_thumbnail.jpg', '5IF181_068_F0E18_detail_2.jpg'],
+  },
+  {
+    id: '5IF282_068_F0E18',
+    index: 2,
+    category1: 'accessories',
+    category2: 'hair-accessories',
+    name: '벨벳 헤어 클립',
+    price: '₩ 590,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF282/068F0E18/5IF282_068_F0E18_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EB%B2%A8%EB%B2%B3-%ED%97%A4%EC%96%B4-%ED%81%B4%EB%A6%BD/5IF282_068_F0E18',
+    crawled_at: '2025-11-13T16:55:00.408567',
+    subtitle:
+      '리본은 은은한 여성미의 상징으로, 대비되는 색상의 메탈 로고로 장식된 우아한 벨벳 헤어 클립의 로맨틱한 특성을 정의합니다.',
+    bullet_points: ['제품 코드: 5IF282_068_F0E18', '메탈 레터링 로고'],
+    size_info: ['높이 7cm', '폭 15cm'],
+    material: '주 소재: 코튼',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF282/068F0E18/5IF282_068_F0E18_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '벨벳 헤어 클립',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF282/068F0E18/5IF282_068_F0E18_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '벨벳 헤어 클립',
+        index: 1,
+      },
+    ],
+    local_image: '5IF282_068_F0E18.jpg',
+    local_detail_images: ['5IF282_068_F0E18_detail_thumbnail.jpg', '5IF282_068_F0E18_detail_2.jpg'],
+  },
+  {
+    id: '5IF092_068_F0E18',
+    index: 3,
+    category1: 'accessories',
+    category2: 'hair-accessories',
+    name: '벨벳 헤어 클립',
+    price: '₩ 610,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF092/068F0E18/5IF092_068_F0E18_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EB%B2%A8%EB%B2%B3-%ED%97%A4%EC%96%B4-%ED%81%B4%EB%A6%BD/5IF092_068_F0E18',
+    crawled_at: '2025-11-13T16:55:21.410038',
+    subtitle:
+      '크리스탈의 미우미우 로고가 돋보이는 헤어 클립으로, 무지개 빛깔의 반짝임을 연출합니다.',
+    bullet_points: ['제품 코드: 5IF092_068_F0E18', '인조 크리스털 레터링 로고'],
+    size_info: ['높이 3cm', '폭 8cm'],
+    material: '주 소재: 코튼',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF092/068F0E18/5IF092_068_F0E18_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '벨벳 헤어 클립',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF092/068F0E18/5IF092_068_F0E18_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '벨벳 헤어 클립',
+        index: 1,
+      },
+    ],
+    local_image: '5IF092_068_F0E18.jpg',
+    local_detail_images: ['5IF092_068_F0E18_detail_thumbnail.jpg', '5IF092_068_F0E18_detail_2.jpg'],
+  },
+  {
+    id: '5IF092_068_F0011',
+    index: 4,
+    category1: 'accessories',
+    category2: 'hair-accessories',
+    name: '벨벳 헤어 클립',
+    price: '₩ 610,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF092/068F0011/5IF092_068_F0011_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EB%B2%A8%EB%B2%B3-%ED%97%A4%EC%96%B4-%ED%81%B4%EB%A6%BD/5IF092_068_F0011',
+    crawled_at: '2025-11-13T16:55:41.884567',
+    subtitle:
+      '크리스탈의 미우미우 로고가 돋보이는 헤어 클립으로, 무지개 빛깔의 반짝임을 연출합니다.',
+    bullet_points: ['제품 코드: 5IF092_068_F0011', '인조 크리스털 레터링 로고'],
+    size_info: ['높이 3cm', '폭 8cm'],
+    material: '주 소재: 코튼',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF092/068F0011/5IF092_068_F0011_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '벨벳 헤어 클립',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF092/068F0011/5IF092_068_F0011_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '벨벳 헤어 클립',
+        index: 1,
+      },
+    ],
+    local_image: '5IF092_068_F0011.jpg',
+    local_detail_images: ['5IF092_068_F0011_detail_thumbnail.jpg', '5IF092_068_F0011_detail_2.jpg'],
+  },
+  {
+    id: '5IF276_2F6T_F04Z8',
+    index: 5,
+    category1: 'accessories',
+    category2: 'hair-accessories',
+    name: '에나멜 메탈 헤어 클립',
+    price: '₩ 800,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF276/2F6TF04Z8/5IF276_2F6T_F04Z8_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%97%90%EB%82%98%EB%A9%9C-%EB%A9%94%ED%83%88-%ED%97%A4%EC%96%B4-%ED%81%B4%EB%A6%BD/5IF276_2F6T_F04Z8',
+    crawled_at: '2025-11-13T16:56:04.016505',
+    subtitle:
+      '깔끔한 라인과 세련된 컬러가 더해져 우아한 무드를 완성하는 에나멜 메탈 헤어 클립입니다. 아이코닉한 로고 장식이 미우미우만의 독창적인 스타일을 강조합니다.',
+    bullet_points: [
+      '제품 코드: 5IF276_2F6T_F04Z8',
+      '3개의 메탈 및 컬러 에나멜 헤어 클립 세트',
+      '로고 디테일',
+    ],
+    size_info: ['폭 6.3cm'],
+    material: '주 소재: 브라스',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF276/2F6TF04Z8/5IF276_2F6T_F04Z8_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '에나멜 메탈 헤어 클립',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF276/2F6TF04Z8/5IF276_2F6T_F04Z8_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '에나멜 메탈 헤어 클립',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF276/2F6TF04Z8/5IF276_2F6T_F04Z8_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '에나멜 메탈 헤어 클립',
+        index: 2,
+      },
+    ],
+    local_image: '5IF276_2F6T_F04Z8.jpg',
+    local_detail_images: [
+      '5IF276_2F6T_F04Z8_detail_thumbnail.jpg',
+      '5IF276_2F6T_F04Z8_detail_2.jpg',
+      '5IF276_2F6T_F04Z8_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5IF273_2IFX_F0NXA',
+    index: 6,
+    category1: 'accessories',
+    category2: 'hair-accessories',
+    name: '메탈 헤어 바레트',
+    price: '₩ 570,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF273/2IFXF0NXA/5IF273_2IFX_F0NXA_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EB%A9%94%ED%83%88-%ED%97%A4%EC%96%B4-%EB%B0%94%EB%A0%88%ED%8A%B8/5IF273_2IFX_F0NXA',
+    crawled_at: '2025-11-13T16:56:25.422398',
+    subtitle:
+      '세련되고 빛나는 리본이 이 바레트의 주인공으로, 절제된 섬세함을 표현하여 모든 스타일에 독특한 디테일이 됩니다.',
+    bullet_points: [
+      '제품 코드: 5IF273_2IFX_F0NXA',
+      '슬라이딩 클립',
+      '중앙 리본',
+      '눈에 띄는 각인 로고',
+    ],
+    size_info: ['폭 6.1cm'],
+    material: '기타 소재',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF273/2IFXF0NXA/5IF273_2IFX_F0NXA_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '메탈 헤어 바레트',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF273/2IFXF0NXA/5IF273_2IFX_F0NXA_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '메탈 헤어 바레트',
+        index: 1,
+      },
+    ],
+    local_image: '5IF273_2IFX_F0NXA.jpg',
+    local_detail_images: [
+      '5IF273_2IFX_F0NXA_detail_thumbnail.jpg',
+      '5IF273_2IFX_F0NXA_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5IF277_2F6T_F061C',
+    index: 7,
+    category1: 'accessories',
+    category2: 'hair-accessories',
+    name: '에나멜 메탈 헤어 클립',
+    price: '₩ 520,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF277/2F6TF061C/5IF277_2F6T_F061C_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%97%90%EB%82%98%EB%A9%9C-%EB%A9%94%ED%83%88-%ED%97%A4%EC%96%B4-%ED%81%B4%EB%A6%BD/5IF277_2F6T_F061C',
+    crawled_at: '2025-11-13T16:56:50.131205',
+    subtitle:
+      '아이코닉한 미우미우 로고가 현대적인 느낌을 더해주는 에나멜 메탈 헤어 클립으로, 대담하고 세련된 여성미를 더해 각 룩을 완성합니다.',
+    bullet_points: [
+      '제품 코드: 5IF277_2F6T_F061C',
+      '컬러 에나멜과 메탈로 제작되었습니다.',
+      '로고 디테일',
+    ],
+    size_info: ['폭 6.1cm'],
+    material: '주 소재: 브라스',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF277/2F6TF061C/5IF277_2F6T_F061C_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '에나멜 메탈 헤어 클립',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF277/2F6TF061C/5IF277_2F6T_F061C_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '에나멜 메탈 헤어 클립',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF277/2F6TF061C/5IF277_2F6T_F061C_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '에나멜 메탈 헤어 클립',
+        index: 2,
+      },
+    ],
+    local_image: '5IF277_2F6T_F061C.jpg',
+    local_detail_images: [
+      '5IF277_2F6T_F061C_detail_thumbnail.jpg',
+      '5IF277_2F6T_F061C_detail_2.jpg',
+      '5IF277_2F6T_F061C_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5IF282_068_F0002',
+    index: 8,
+    category1: 'accessories',
+    category2: 'hair-accessories',
+    name: '벨벳 헤어 클립',
+    price: '₩ 590,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF282/068F0002/5IF282_068_F0002_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EB%B2%A8%EB%B2%B3-%ED%97%A4%EC%96%B4-%ED%81%B4%EB%A6%BD/5IF282_068_F0002',
+    crawled_at: '2025-11-13T16:57:12.705293',
+    subtitle:
+      '리본은 은은한 여성미의 상징으로, 대비되는 색상의 메탈 로고로 장식된 우아한 벨벳 헤어 클립의 로맨틱한 특성을 정의합니다.',
+    bullet_points: ['제품 코드: 5IF282_068_F0002', '메탈 레터링 로고'],
+    size_info: ['높이 7cm', '폭 15cm'],
+    material: '주 소재: 코튼',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF282/068F0002/5IF282_068_F0002_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '벨벳 헤어 클립',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF282/068F0002/5IF282_068_F0002_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '벨벳 헤어 클립',
+        index: 1,
+      },
+    ],
+    local_image: '5IF282_068_F0002.jpg',
+    local_detail_images: ['5IF282_068_F0002_detail_thumbnail.jpg', '5IF282_068_F0002_detail_2.jpg'],
+  },
+  {
+    id: '5IF284_068_F0E18',
+    index: 9,
+    category1: 'accessories',
+    category2: 'hair-accessories',
+    name: '벨벳 헤어 클립',
+    price: '₩ 750,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF284/068F0E18/5IF284_068_F0E18_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EB%B2%A8%EB%B2%B3-%ED%97%A4%EC%96%B4-%ED%81%B4%EB%A6%BD/5IF284_068_F0E18',
+    crawled_at: '2025-11-13T16:57:39.090877',
+    subtitle:
+      '리본은 은은한 여성미의 상징으로, 대조적인 색상의 메탈 로고로 장식된 우아한 벨벳 헤어 클립의 로맨틱한 특성을 정의합니다.',
+    bullet_points: ['제품 코드: 5IF284_068_F0E18', '메탈 레터링 로고'],
+    size_info: ['높이 22cm', '폭 12.5cm'],
+    material: '주 소재: 폴리아미드, 레이온',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF284/068F0E18/5IF284_068_F0E18_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '벨벳 헤어 클립',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF284/068F0E18/5IF284_068_F0E18_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '벨벳 헤어 클립',
+        index: 1,
+      },
+    ],
+    local_image: '5IF284_068_F0E18.jpg',
+    local_detail_images: ['5IF284_068_F0E18_detail_thumbnail.jpg', '5IF284_068_F0E18_detail_2.jpg'],
+  },
+  {
+    id: '5IF284_068_F0002',
+    index: 10,
+    category1: 'accessories',
+    category2: 'hair-accessories',
+    name: '벨벳 헤어 클립',
+    price: '₩ 750,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF284/068F0002/5IF284_068_F0002_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EB%B2%A8%EB%B2%B3-%ED%97%A4%EC%96%B4-%ED%81%B4%EB%A6%BD/5IF284_068_F0002',
+    crawled_at: '2025-11-13T16:58:05.761345',
+    subtitle:
+      '리본은 은은한 여성미의 상징으로, 대조적인 색상의 메탈 로고로 장식된 우아한 벨벳 헤어 클립의 로맨틱한 특성을 정의합니다.',
+    bullet_points: ['제품 코드: 5IF284_068_F0002', '메탈 레터링 로고'],
+    size_info: ['높이 22cm', '폭 12.5cm'],
+    material: '주 소재: 폴리아미드, 레이온',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF284/068F0002/5IF284_068_F0002_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '벨벳 헤어 클립',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF284/068F0002/5IF284_068_F0002_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '벨벳 헤어 클립',
+        index: 1,
+      },
+    ],
+    local_image: '5IF284_068_F0002.jpg',
+    local_detail_images: ['5IF284_068_F0002_detail_thumbnail.jpg', '5IF284_068_F0002_detail_2.jpg'],
+  },
+  {
+    id: '5IF284_068_F0011',
+    index: 11,
+    category1: 'accessories',
+    category2: 'hair-accessories',
+    name: '벨벳 헤어 클립',
+    price: '₩ 750,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF284/068F0011/5IF284_068_F0011_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EB%B2%A8%EB%B2%B3-%ED%97%A4%EC%96%B4-%ED%81%B4%EB%A6%BD/5IF284_068_F0011',
+    crawled_at: '2025-11-13T16:58:27.644401',
+    subtitle:
+      '리본은 은은한 여성미의 상징으로, 대조적인 색상의 메탈 로고로 장식된 우아한 벨벳 헤어 클립의 로맨틱한 특성을 정의합니다.',
+    bullet_points: ['제품 코드: 5IF284_068_F0011', '메탈 레터링 로고'],
+    size_info: ['높이 22cm', '폭 12.5cm'],
+    material: '주 소재: 폴리아미드, 레이온',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF284/068F0011/5IF284_068_F0011_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '벨벳 헤어 클립',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF284/068F0011/5IF284_068_F0011_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '벨벳 헤어 클립',
+        index: 1,
+      },
+    ],
+    local_image: '5IF284_068_F0011.jpg',
+    local_detail_images: ['5IF284_068_F0011_detail_thumbnail.jpg', '5IF284_068_F0011_detail_2.jpg'],
+  },
+  {
+    id: '5IF181_2IFK_F0RDS',
+    index: 12,
+    category1: 'accessories',
+    category2: 'hair-accessories',
+    name: '플래드 울 스크런치',
+    price: '₩ 590,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF181/2IFKF0RDS/5IF181_2IFK_F0RDS_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%ED%94%8C%EB%9E%98%EB%93%9C-%EC%9A%B8-%EC%8A%A4%ED%81%AC%EB%9F%B0%EC%B9%98/5IF181_2IFK_F0RDS',
+    crawled_at: '2025-11-13T16:58:49.178946',
+    subtitle:
+      '타임리스한 플래드 패턴으로 완성된 스크런치입니다. 심플한 디자인에 미우미우 특유의 클래식 워드로브 실험 정신을 반영해 세련된 매력을 더합니다.',
+    bullet_points: ['제품 코드: 5IF181_2IFK_F0RDS', '중앙 리본 장식', '메탈 레터링 로고'],
+    size_info: ['높이 3cm'],
+    material: '주 소재: 폴리아미드, 순수 울',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF181/2IFKF0RDS/5IF181_2IFK_F0RDS_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '플래드 울 스크런치',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF181/2IFKF0RDS/5IF181_2IFK_F0RDS_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '플래드 울 스크런치',
+        index: 1,
+      },
+    ],
+    local_image: '5IF181_2IFK_F0RDS.jpg',
+    local_detail_images: [
+      '5IF181_2IFK_F0RDS_detail_thumbnail.jpg',
+      '5IF181_2IFK_F0RDS_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5IF092_2IFK_F0RDS',
+    index: 13,
+    category1: 'accessories',
+    category2: 'hair-accessories',
+    name: '체크 울 헤어 클립',
+    price: '₩ 620,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%B2%B4%ED%81%AC-%EC%9A%B8-%ED%97%A4%EC%96%B4-%ED%81%B4%EB%A6%BD/5IF092_2IFK_F0RDS',
+    crawled_at: '2025-11-13T16:59:12.277218',
+    subtitle:
+      '클래식한 플래드 패턴이 부드러운 울 텍스처와 어우러진 헤어 클립입니다. 메탈 로고 장식이 더해져 특별한 포인트를 연출합니다.',
+    bullet_points: ['제품 코드: 5IF092_2IFK_F0RDS', '후면 메탈 헤어 클립', '메탈 레터링 로고'],
+    size_info: [],
+    material: '주 소재: 폴리아미드, 순수 울',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF092/2IFKF0RDS/5IF092_2IFK_F0RDS_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '체크 울 헤어 클립',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF092/2IFKF0RDS/5IF092_2IFK_F0RDS_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '체크 울 헤어 클립',
+        index: 1,
+      },
+    ],
+    local_image: '5IF092_2IFK_F0RDS.jpg',
+    local_detail_images: [
+      '5IF092_2IFK_F0RDS_detail_thumbnail.jpg',
+      '5IF092_2IFK_F0RDS_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5IF181_2IEP_F0244',
+    index: 14,
+    category1: 'accessories',
+    category2: 'hair-accessories',
+    name: '하운즈투스 스크런치',
+    price: '₩ 590,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%ED%95%98%EC%9A%B4%EC%A6%88%ED%88%AC%EC%8A%A4-%EC%8A%A4%ED%81%AC%EB%9F%B0%EC%B9%98/5IF181_2IEP_F0244',
+    crawled_at: '2025-11-13T16:59:32.228183',
+    subtitle:
+      '타임리스한 하운드투스 패턴이 이 스크런치의 구조적인 디자인에 개성을 더하며, 미우미우가 남성복의 아이코닉 요소와 실험적인 대화를 이어가는 방식을 강조합니다.',
+    bullet_points: ['제품 코드: 5IF181_2IEP_F0244', '중앙 리본', '메탈 레터링 로고'],
+    size_info: [],
+    material: '주 소재: 순수 울',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF181/2IEPF0244/5IF181_2IEP_F0244_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '하운즈투스 스크런치',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF181/2IEPF0244/5IF181_2IEP_F0244_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '하운즈투스 스크런치',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF181/2IEPF0244/5IF181_2IEP_F0244_SLDA.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '하운즈투스 스크런치',
+        index: 2,
+      },
+    ],
+    local_image: '5IF181_2IEP_F0244.jpg',
+    local_detail_images: [
+      '5IF181_2IEP_F0244_detail_thumbnail.jpg',
+      '5IF181_2IEP_F0244_detail_2.jpg',
+      '5IF181_2IEP_F0244_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5IF092_2IEP_F0244',
+    index: 15,
+    category1: 'accessories',
+    category2: 'hair-accessories',
+    name: '하운즈투스 헤어 클립',
+    price: '₩ 610,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%ED%95%98%EC%9A%B4%EC%A6%88%ED%88%AC%EC%8A%A4-%ED%97%A4%EC%96%B4-%ED%81%B4%EB%A6%BD/5IF092_2IEP_F0244',
+    crawled_at: '2025-11-13T16:59:51.505696',
+    subtitle:
+      '클래식한 하운즈투스 패턴이 미우미우 특유의 남성복 아이콘에 대한 실험적 해석과 어우러져, 간결한 디자인의 헤어 클립에 개성과 존재감을 더합니다.',
+    bullet_points: ['제품 코드: 5IF092_2IEP_F0244', '뒷면 메탈 클립 클로저', '메탈 로고 레터링'],
+    size_info: [],
+    material: '주 소재: 순수 울',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF092/2IEPF0244/5IF092_2IEP_F0244_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '하운즈투스 헤어 클립',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF092/2IEPF0244/5IF092_2IEP_F0244_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '하운즈투스 헤어 클립',
+        index: 1,
+      },
+    ],
+    local_image: '5IF092_2IEP_F0244.jpg',
+    local_detail_images: [
+      '5IF092_2IEP_F0244_detail_thumbnail.jpg',
+      '5IF092_2IEP_F0244_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5IF242_069_F0002',
+    index: 16,
+    category1: 'accessories',
+    category2: 'hair-accessories',
+    name: '페이턴트 가죽 바렛',
+    price: '₩ 660,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%ED%8E%98%EC%9D%B4%ED%84%B4%ED%8A%B8-%EA%B0%80%EC%A3%BD-%EB%B0%94%EB%A0%9B/5IF242_069_F0002',
+    crawled_at: '2025-11-13T17:00:13.721871',
+    subtitle:
+      '광택감 있는 페이턴트 가죽과 미우미우의 아이코닉한 메탈 로고가 조화를 이루며, 매 룩에 강렬한 포인트를 더해줍니다.',
+    bullet_points: [
+      '제품 코드: 5IF242_069_F0002',
+      '메탈 트리밍 디테일',
+      '슬라이드 클로저',
+      '레터링 로고',
+    ],
+    size_info: ['높이 1.6cm', '폭 6.5cm'],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF242/069F0002/5IF242_069_F0002_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '페이턴트 가죽 바렛',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF242/069F0002/5IF242_069_F0002_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '페이턴트 가죽 바렛',
+        index: 1,
+      },
+    ],
+    local_image: '5IF242_069_F0002.jpg',
+    local_detail_images: ['5IF242_069_F0002_detail_thumbnail.jpg', '5IF242_069_F0002_detail_2.jpg'],
+  },
+  {
+    id: '5IF188_2C3V_F0237',
+    index: 17,
+    category1: 'accessories',
+    category2: 'hair-accessories',
+    name: '가죽, 스웨이드, 시어링 헤어 클립 세트',
+    price: '₩ 1,340,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%EC%8A%A4%EC%9B%A8%EC%9D%B4%EB%93%9C-%EC%8B%9C%EC%96%B4%EB%A7%81-%ED%97%A4%EC%96%B4-%ED%81%B4%EB%A6%BD-%EC%84%B8%ED%8A%B8/5IF188_2C3V_F0237',
+    crawled_at: '2025-11-13T17:00:34.832842',
+    subtitle:
+      '가죽, 스웨이드, 시어링 소재로 제작된 클립 세트로, 아이코닉한 메탈 미우미우 레터링 로고가 각각의 액세서리에 독특함을 더합니다.',
+    bullet_points: ['제품 코드: 5IF188_2C3V_F0237', '메탈 레터링 로고'],
+    size_info: ['폭 5.6cm'],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF188/2C3VF0237/5IF188_2C3V_F0237_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽, 스웨이드, 시어링 헤어 클립 세트',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF188/2C3VF0237/5IF188_2C3V_F0237_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽, 스웨이드, 시어링 헤어 클립 세트',
+        index: 1,
+      },
+    ],
+    local_image: '5IF188_2C3V_F0237.jpg',
+    local_detail_images: [
+      '5IF188_2C3V_F0237_detail_thumbnail.jpg',
+      '5IF188_2C3V_F0237_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5IF188_2IEK_F04UM',
+    index: 18,
+    category1: 'accessories',
+    category2: 'hair-accessories',
+    name: '체크 패브릭, 코듀로이 및 스웨이드 헤어 바렛',
+    price: '₩ 1,340,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%B2%B4%ED%81%AC-%ED%8C%A8%EB%B8%8C%EB%A6%AD-%EC%BD%94%EB%93%80%EB%A1%9C%EC%9D%B4-%EB%B0%8F-%EC%8A%A4%EC%9B%A8%EC%9D%B4%EB%93%9C-%ED%97%A4%EC%96%B4-%EB%B0%94%EB%A0%9B/5IF188_2IEK_F04UM',
+    crawled_at: '2025-11-13T17:00:56.229783',
+    subtitle:
+      '다양한 텍스처와 패턴이 경쾌하게 어우러져, 아이코닉한 매력을 드러내고 여성스럽고 세련된 스타일을 재해석한 바렛입니다. 사계절 모든 스타일링에 이상적인 아이템입니다.',
+    bullet_points: ['제품 코드: 5IF188_2IEK_F04UM', '메탈 레터링 로고'],
+    size_info: ['폭 5.6cm'],
+    material: '주 소재: 모헤어, 순수 울',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF188/2IEKF04UM/5IF188_2IEK_F04UM_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '체크 패브릭, 코듀로이 및 스웨이드 헤어 바렛',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF188/2IEKF04UM/5IF188_2IEK_F04UM_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '체크 패브릭, 코듀로이 및 스웨이드 헤어 바렛',
+        index: 1,
+      },
+    ],
+    local_image: '5IF188_2IEK_F04UM.jpg',
+    local_detail_images: [
+      '5IF188_2IEK_F04UM_detail_thumbnail.jpg',
+      '5IF188_2IEK_F04UM_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5IF188_2IEK_F04UK',
+    index: 19,
+    category1: 'accessories',
+    category2: 'hair-accessories',
+    name: '체크 패브릭, 코듀로이 및 스웨이드 헤어 바렛',
+    price: '₩ 1,340,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%B2%B4%ED%81%AC-%ED%8C%A8%EB%B8%8C%EB%A6%AD-%EC%BD%94%EB%93%80%EB%A1%9C%EC%9D%B4-%EB%B0%8F-%EC%8A%A4%EC%9B%A8%EC%9D%B4%EB%93%9C-%ED%97%A4%EC%96%B4-%EB%B0%94%EB%A0%9B/5IF188_2IEK_F04UK',
+    crawled_at: '2025-11-13T17:01:16.029190',
+    subtitle:
+      '다양한 텍스처와 패턴이 경쾌하게 어우러져, 아이코닉한 매력을 드러내고 여성스럽고 세련된 스타일을 재해석한 바렛입니다. 사계절 모든 스타일링에 이상적인 아이템입니다.',
+    bullet_points: ['제품 코드: 5IF188_2IEK_F04UK', '메탈 레터링 로고'],
+    size_info: ['폭 5.6cm'],
+    material: '주 소재: 모헤어, 순수 울',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF188/2IEKF04UK/5IF188_2IEK_F04UK_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '체크 패브릭, 코듀로이 및 스웨이드 헤어 바렛',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF188/2IEKF04UK/5IF188_2IEK_F04UK_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '체크 패브릭, 코듀로이 및 스웨이드 헤어 바렛',
+        index: 1,
+      },
+    ],
+    local_image: '5IF188_2IEK_F04UK.jpg',
+    local_detail_images: [
+      '5IF188_2IEK_F04UK_detail_thumbnail.jpg',
+      '5IF188_2IEK_F04UK_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5IF188_2IEK_F04UL',
+    index: 20,
+    category1: 'accessories',
+    category2: 'hair-accessories',
+    name: '체크 패브릭, 코듀로이 및 스웨이드 헤어 바렛',
+    price: '₩ 1,340,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%B2%B4%ED%81%AC-%ED%8C%A8%EB%B8%8C%EB%A6%AD-%EC%BD%94%EB%93%80%EB%A1%9C%EC%9D%B4-%EB%B0%8F-%EC%8A%A4%EC%9B%A8%EC%9D%B4%EB%93%9C-%ED%97%A4%EC%96%B4-%EB%B0%94%EB%A0%9B/5IF188_2IEK_F04UL',
+    crawled_at: '2025-11-13T17:01:42.306152',
+    subtitle:
+      '다양한 텍스처와 패턴이 경쾌하게 어우러져, 아이코닉한 매력을 드러내고 여성스럽고 세련된 스타일을 재해석한 바렛입니다. 사계절 모든 스타일링에 이상적인 아이템입니다.',
+    bullet_points: ['제품 코드: 5IF188_2IEK_F04UL', '메탈 레터링 로고'],
+    size_info: ['폭 5.6cm'],
+    material: '주 소재: 모헤어, 순수 울',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF188/2IEKF04UL/5IF188_2IEK_F04UL_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '체크 패브릭, 코듀로이 및 스웨이드 헤어 바렛',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF188/2IEKF04UL/5IF188_2IEK_F04UL_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '체크 패브릭, 코듀로이 및 스웨이드 헤어 바렛',
+        index: 1,
+      },
+    ],
+    local_image: '5IF188_2IEK_F04UL.jpg',
+    local_detail_images: [
+      '5IF188_2IEK_F04UL_detail_thumbnail.jpg',
+      '5IF188_2IEK_F04UL_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5IF254_2CSW_F0442',
+    index: 21,
+    category1: 'accessories',
+    category2: 'hair-accessories',
+    name: '가죽 보 헤어 클립',
+    price: '₩ 730,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%EB%B3%B4-%ED%97%A4%EC%96%B4-%ED%81%B4%EB%A6%BD/5IF254_2CSW_F0442',
+    crawled_at: '2025-11-13T17:02:05.156532',
+    subtitle:
+      '페미닌함의 상징인 보우가 돋보이는 가죽 헤어 클립입니다. 대비 컬러의 메탈 로고가 더해져 로맨틱하면서도 세련된 매력을 선사합니다.',
+    bullet_points: ['제품 코드: 5IF254_2CSW_F0442', '후면 메탈 헤어 클립', '메탈 레터링 로고'],
+    size_info: ['높이 2.5cm', '폭 12.5cm'],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF254/2CSWF0442/5IF254_2CSW_F0442_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 보 헤어 클립',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF254/2CSWF0442/5IF254_2CSW_F0442_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 보 헤어 클립',
+        index: 1,
+      },
+    ],
+    local_image: '5IF254_2CSW_F0442.jpg',
+    local_detail_images: [
+      '5IF254_2CSW_F0442_detail_thumbnail.jpg',
+      '5IF254_2CSW_F0442_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5IF254_2CSW_F098L',
+    index: 22,
+    category1: 'accessories',
+    category2: 'hair-accessories',
+    name: '가죽 보 헤어 클립',
+    price: '₩ 730,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%EB%B3%B4-%ED%97%A4%EC%96%B4-%ED%81%B4%EB%A6%BD/5IF254_2CSW_F098L',
+    crawled_at: '2025-11-13T17:02:25.157532',
+    subtitle:
+      '페미닌함의 상징인 보우가 돋보이는 가죽 헤어 클립입니다. 대비 컬러의 메탈 로고가 더해져 로맨틱하면서도 세련된 매력을 선사합니다.',
+    bullet_points: ['제품 코드: 5IF254_2CSW_F098L', '후면 메탈 헤어 클립', '메탈 레터링 로고'],
+    size_info: ['높이 2.5cm', '폭 12.5cm'],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF254/2CSWF098L/5IF254_2CSW_F098L_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 보 헤어 클립',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF254/2CSWF098L/5IF254_2CSW_F098L_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 보 헤어 클립',
+        index: 1,
+      },
+    ],
+    local_image: '5IF254_2CSW_F098L.jpg',
+    local_detail_images: [
+      '5IF254_2CSW_F098L_detail_thumbnail.jpg',
+      '5IF254_2CSW_F098L_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5IF254_2CSW_F0002',
+    index: 23,
+    category1: 'accessories',
+    category2: 'hair-accessories',
+    name: '가죽 보 헤어 클립',
+    price: '₩ 730,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%EB%B3%B4-%ED%97%A4%EC%96%B4-%ED%81%B4%EB%A6%BD/5IF254_2CSW_F0002',
+    crawled_at: '2025-11-13T17:02:47.947311',
+    subtitle:
+      '페미닌함의 상징인 보우가 돋보이는 가죽 헤어 클립입니다. 대비 컬러의 메탈 로고가 더해져 로맨틱하면서도 세련된 매력을 선사합니다.',
+    bullet_points: ['제품 코드: 5IF254_2CSW_F0002', '후면 메탈 헤어 클립', '메탈 레터링 로고'],
+    size_info: ['높이 2.5cm', '폭 12.5cm'],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF254/2CSWF0002/5IF254_2CSW_F0002_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 보 헤어 클립',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF254/2CSWF0002/5IF254_2CSW_F0002_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 보 헤어 클립',
+        index: 1,
+      },
+    ],
+    local_image: '5IF254_2CSW_F0002.jpg',
+    local_detail_images: [
+      '5IF254_2CSW_F0002_detail_thumbnail.jpg',
+      '5IF254_2CSW_F0002_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5IF184_2C3V_F0009',
+    index: 24,
+    category1: 'accessories',
+    category2: 'hair-accessories',
+    name: '헤어 클립 세트',
+    price: '₩ 1,340,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%ED%97%A4%EC%96%B4-%ED%81%B4%EB%A6%BD-%EC%84%B8%ED%8A%B8/5IF184_2C3V_F0009',
+    crawled_at: '2025-11-13T17:03:11.264588',
+    subtitle:
+      '점박이 레오파드 효과, 시어링의 부드러운 촉감, 글로시한 페이턴트 가죽이 돋보이는 헤어 클립 세트입니다. 아이코닉한 레터링 로고가 디자인을 완성합니다.',
+    bullet_points: ['제품 코드: 5IF184_2C3V_F0009', '메탈 레터링 로고'],
+    size_info: ['폭 5.6cm'],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF184/2C3VF0009/5IF184_2C3V_F0009_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '헤어 클립 세트',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF184/2C3VF0009/5IF184_2C3V_F0009_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '헤어 클립 세트',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF184/2C3VF0009/5IF184_2C3V_F0009_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '헤어 클립 세트',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF184/2C3VF0009/5IF184_2C3V_F0009_MDLA.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '헤어 클립 세트',
+        index: 3,
+      },
+    ],
+    local_image: '5IF184_2C3V_F0009.jpg',
+    local_detail_images: [
+      '5IF184_2C3V_F0009_detail_thumbnail.jpg',
+      '5IF184_2C3V_F0009_detail_2.jpg',
+      '5IF184_2C3V_F0009_detail_3.jpg',
+      '5IF184_2C3V_F0009_detail_4.jpg',
+    ],
+  },
+  {
+    id: '5IF188_2C3V_F0E18',
+    index: 1,
+    category1: 'accessories',
+    category2: 'hair-accessories',
+    name: '가죽, 스웨이드, 시어링 헤어 클립 세트',
+    price: '₩ 1,340,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF188/2C3VF0E18/5IF188_2C3V_F0E18_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%EC%8A%A4%EC%9B%A8%EC%9D%B4%EB%93%9C-%EC%8B%9C%EC%96%B4%EB%A7%81-%ED%97%A4%EC%96%B4-%ED%81%B4%EB%A6%BD-%EC%84%B8%ED%8A%B8/5IF188_2C3V_F0E18',
+    crawled_at: '2025-11-13T17:14:26.867868',
+    subtitle:
+      '가죽, 스웨이드, 시어링 소재로 제작된 클립 세트로, 아이코닉한 메탈 미우미우 레터링 로고가 각각의 액세서리에 독특함을 더합니다.',
+    bullet_points: ['제품 코드: 5IF188_2C3V_F0E18', '메탈 레터링 로고'],
+    size_info: ['폭 5.6cm'],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF188/2C3VF0E18/5IF188_2C3V_F0E18_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽, 스웨이드, 시어링 헤어 클립 세트',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF188/2C3VF0E18/5IF188_2C3V_F0E18_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽, 스웨이드, 시어링 헤어 클립 세트',
+        index: 1,
+      },
+    ],
+    local_image: '5IF188_2C3V_F0E18.jpg',
+    local_detail_images: [
+      '5IF188_2C3V_F0E18_detail_thumbnail.jpg',
+      '5IF188_2C3V_F0E18_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5IF188_2C3V_F098L',
+    index: 2,
+    category1: 'accessories',
+    category2: 'hair-accessories',
+    name: '가죽, 스웨이드, 시어링 헤어 클립 세트',
+    price: '₩ 1,340,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF188/2C3VF098L/5IF188_2C3V_F098L_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%EC%8A%A4%EC%9B%A8%EC%9D%B4%EB%93%9C-%EC%8B%9C%EC%96%B4%EB%A7%81-%ED%97%A4%EC%96%B4-%ED%81%B4%EB%A6%BD-%EC%84%B8%ED%8A%B8/5IF188_2C3V_F098L',
+    crawled_at: '2025-11-13T17:14:48.585969',
+    subtitle:
+      '가죽, 스웨이드, 시어링 소재로 제작된 클립 세트로, 아이코닉한 메탈 미우미우 레터링 로고가 각각의 액세서리에 독특함을 더합니다.',
+    bullet_points: ['제품 코드: 5IF188_2C3V_F098L', '메탈 레터링 로고'],
+    size_info: ['폭 5.6cm'],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF188/2C3VF098L/5IF188_2C3V_F098L_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽, 스웨이드, 시어링 헤어 클립 세트',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF188/2C3VF098L/5IF188_2C3V_F098L_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽, 스웨이드, 시어링 헤어 클립 세트',
+        index: 1,
+      },
+    ],
+    local_image: '5IF188_2C3V_F098L.jpg',
+    local_detail_images: [
+      '5IF188_2C3V_F098L_detail_thumbnail.jpg',
+      '5IF188_2C3V_F098L_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5IF092_2F7T_F098L',
+    index: 3,
+    category1: 'accessories',
+    category2: 'hair-accessories',
+    name: '시어링 헤어 클립',
+    price: '₩ 640,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF092/2F7TF098L/5IF092_2F7T_F098L_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%8B%9C%EC%96%B4%EB%A7%81-%ED%97%A4%EC%96%B4-%ED%81%B4%EB%A6%BD/5IF092_2F7T_F098L',
+    crawled_at: '2025-11-13T17:15:10.555266',
+    subtitle: '부드러운 시어링으로 제작한 소형 헤어 클립으로, 메탈 레터링 로고로 장식했습니다.',
+    bullet_points: ['제품 코드: 5IF092_2F7T_F098L', '메탈 레터링 로고'],
+    size_info: ['높이 3cm', '폭 8cm'],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF092/2F7TF098L/5IF092_2F7T_F098L_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '시어링 헤어 클립',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF092/2F7TF098L/5IF092_2F7T_F098L_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '시어링 헤어 클립',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF092/2F7TF098L/5IF092_2F7T_F098L_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '시어링 헤어 클립',
+        index: 2,
+      },
+    ],
+    local_image: '5IF092_2F7T_F098L.jpg',
+    local_detail_images: [
+      '5IF092_2F7T_F098L_detail_thumbnail.jpg',
+      '5IF092_2F7T_F098L_detail_2.jpg',
+      '5IF092_2F7T_F098L_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5IF241_069_F0D27',
+    index: 4,
+    category1: 'accessories',
+    category2: 'hair-accessories',
+    name: '페이턴트 가죽 헤어 클립',
+    price: '₩ 710,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF241/069F0D27/5IF241_069_F0D27_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%ED%8E%98%EC%9D%B4%ED%84%B4%ED%8A%B8-%EA%B0%80%EC%A3%BD-%ED%97%A4%EC%96%B4-%ED%81%B4%EB%A6%BD/5IF241_069_F0D27',
+    crawled_at: '2025-11-13T17:15:42.738755',
+    subtitle:
+      '광택감 있는 페이턴트 가죽에 상징적인 메탈 로고가 더해져 강렬하면서도 세련된 페미니니티를 표현합니다.',
+    bullet_points: ['제품 코드: 5IF241_069_F0D27', '후면 메탈 클립', '메탈 레터링 로고'],
+    size_info: ['높이 1.7cm', '폭 5.2cm'],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF241/069F0D27/5IF241_069_F0D27_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '페이턴트 가죽 헤어 클립',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF241/069F0D27/5IF241_069_F0D27_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '페이턴트 가죽 헤어 클립',
+        index: 1,
+      },
+    ],
+    local_image: '5IF241_069_F0D27.jpg',
+    local_detail_images: ['5IF241_069_F0D27_detail_thumbnail.jpg', '5IF241_069_F0D27_detail_2.jpg'],
+  },
+  {
+    id: '5IF240_069_F0D27',
+    index: 5,
+    category1: 'accessories',
+    category2: 'hair-accessories',
+    name: '페이턴트 가죽 헤어 클립',
+    price: '₩ 890,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF240/069F0D27/5IF240_069_F0D27_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%ED%8E%98%EC%9D%B4%ED%84%B4%ED%8A%B8-%EA%B0%80%EC%A3%BD-%ED%97%A4%EC%96%B4-%ED%81%B4%EB%A6%BD/5IF240_069_F0D27',
+    crawled_at: '2025-11-13T17:16:05.318699',
+    subtitle:
+      '아이코닉한 미우미우 메탈 로고가 현대적인 느낌을 더해주는 페이턴트 가죽 헤어 클립으로, 강렬하고 세련된 여성미를 더해 각 룩을 완성합니다.',
+    bullet_points: ['제품 코드: 5IF240_069_F0D27', '후면 메탈 클립', '메탈 레터링 로고'],
+    size_info: ['높이 1.5cm', '폭 8cm'],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF240/069F0D27/5IF240_069_F0D27_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '페이턴트 가죽 헤어 클립',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF240/069F0D27/5IF240_069_F0D27_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '페이턴트 가죽 헤어 클립',
+        index: 1,
+      },
+    ],
+    local_image: '5IF240_069_F0D27.jpg',
+    local_detail_images: ['5IF240_069_F0D27_detail_thumbnail.jpg', '5IF240_069_F0D27_detail_2.jpg'],
+  },
+  {
+    id: '5IF241_069_F0002',
+    index: 6,
+    category1: 'accessories',
+    category2: 'hair-accessories',
+    name: '페이턴트 가죽 헤어 클립',
+    price: '₩ 710,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF241/069F0002/5IF241_069_F0002_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%ED%8E%98%EC%9D%B4%ED%84%B4%ED%8A%B8-%EA%B0%80%EC%A3%BD-%ED%97%A4%EC%96%B4-%ED%81%B4%EB%A6%BD/5IF241_069_F0002',
+    crawled_at: '2025-11-13T17:16:28.606581',
+    subtitle:
+      '광택감 있는 페이턴트 가죽에 상징적인 메탈 로고가 더해져 강렬하면서도 세련된 페미니니티를 표현합니다.',
+    bullet_points: ['제품 코드: 5IF241_069_F0002', '후면 메탈 클립', '메탈 레터링 로고'],
+    size_info: ['높이 1.7cm', '폭 5.2cm'],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF241/069F0002/5IF241_069_F0002_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '페이턴트 가죽 헤어 클립',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF241/069F0002/5IF241_069_F0002_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '페이턴트 가죽 헤어 클립',
+        index: 1,
+      },
+    ],
+    local_image: '5IF241_069_F0002.jpg',
+    local_detail_images: ['5IF241_069_F0002_detail_thumbnail.jpg', '5IF241_069_F0002_detail_2.jpg'],
+  },
+  {
+    id: '5IF240_069_F0002',
+    index: 7,
+    category1: 'accessories',
+    category2: 'hair-accessories',
+    name: '페이턴트 가죽 헤어 클립',
+    price: '₩ 890,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF240/069F0002/5IF240_069_F0002_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%ED%8E%98%EC%9D%B4%ED%84%B4%ED%8A%B8-%EA%B0%80%EC%A3%BD-%ED%97%A4%EC%96%B4-%ED%81%B4%EB%A6%BD/5IF240_069_F0002',
+    crawled_at: '2025-11-13T17:16:50.621664',
+    subtitle:
+      '아이코닉한 미우미우 메탈 로고가 현대적인 느낌을 더해주는 페이턴트 가죽 헤어 클립으로, 강렬하고 세련된 여성미를 더해 각 룩을 완성합니다.',
+    bullet_points: ['제품 코드: 5IF240_069_F0002', '후면 메탈 클립', '메탈 레터링 로고'],
+    size_info: ['높이 1.5cm', '폭 8cm'],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF240/069F0002/5IF240_069_F0002_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '페이턴트 가죽 헤어 클립',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF240/069F0002/5IF240_069_F0002_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '페이턴트 가죽 헤어 클립',
+        index: 1,
+      },
+    ],
+    local_image: '5IF240_069_F0002.jpg',
+    local_detail_images: ['5IF240_069_F0002_detail_thumbnail.jpg', '5IF240_069_F0002_detail_2.jpg'],
+  },
+  {
+    id: '5IF241_069_F0E18',
+    index: 8,
+    category1: 'accessories',
+    category2: 'hair-accessories',
+    name: '페이턴트 가죽 헤어 클립',
+    price: '₩ 710,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF241/069F0E18/5IF241_069_F0E18_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%ED%8E%98%EC%9D%B4%ED%84%B4%ED%8A%B8-%EA%B0%80%EC%A3%BD-%ED%97%A4%EC%96%B4-%ED%81%B4%EB%A6%BD/5IF241_069_F0E18',
+    crawled_at: '2025-11-13T17:17:12.878762',
+    subtitle:
+      '광택감 있는 페이턴트 가죽에 상징적인 메탈 로고가 더해져 강렬하면서도 세련된 페미니니티를 표현합니다.',
+    bullet_points: ['제품 코드: 5IF241_069_F0E18', '후면 메탈 클립', '메탈 레터링 로고'],
+    size_info: ['높이 1.7cm', '폭 5.2cm'],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF241/069F0E18/5IF241_069_F0E18_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '페이턴트 가죽 헤어 클립',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF241/069F0E18/5IF241_069_F0E18_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '페이턴트 가죽 헤어 클립',
+        index: 1,
+      },
+    ],
+    local_image: '5IF241_069_F0E18.jpg',
+    local_detail_images: ['5IF241_069_F0E18_detail_thumbnail.jpg', '5IF241_069_F0E18_detail_2.jpg'],
+  },
+  {
+    id: '5IF240_069_F0E18',
+    index: 9,
+    category1: 'accessories',
+    category2: 'hair-accessories',
+    name: '페이턴트 가죽 헤어 클립',
+    price: '₩ 890,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF240/069F0E18/5IF240_069_F0E18_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%ED%8E%98%EC%9D%B4%ED%84%B4%ED%8A%B8-%EA%B0%80%EC%A3%BD-%ED%97%A4%EC%96%B4-%ED%81%B4%EB%A6%BD/5IF240_069_F0E18',
+    crawled_at: '2025-11-13T17:17:35.395133',
+    subtitle:
+      '아이코닉한 미우미우 메탈 로고가 현대적인 느낌을 더해주는 페이턴트 가죽 헤어 클립으로, 강렬하고 세련된 여성미를 더해 각 룩을 완성합니다.',
+    bullet_points: ['제품 코드: 5IF240_069_F0E18', '후면 메탈 클립', '메탈 레터링 로고'],
+    size_info: ['높이 1.5cm', '폭 8cm'],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF240/069F0E18/5IF240_069_F0E18_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '페이턴트 가죽 헤어 클립',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF240/069F0E18/5IF240_069_F0E18_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '페이턴트 가죽 헤어 클립',
+        index: 1,
+      },
+    ],
+    local_image: '5IF240_069_F0E18.jpg',
+    local_detail_images: ['5IF240_069_F0E18_detail_thumbnail.jpg', '5IF240_069_F0E18_detail_2.jpg'],
+  },
+  {
+    id: '5IF241_069_F0230',
+    index: 10,
+    category1: 'accessories',
+    category2: 'hair-accessories',
+    name: '페이턴트 가죽 헤어 클립',
+    price: '₩ 710,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF241/069F0230/5IF241_069_F0230_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%ED%8E%98%EC%9D%B4%ED%84%B4%ED%8A%B8-%EA%B0%80%EC%A3%BD-%ED%97%A4%EC%96%B4-%ED%81%B4%EB%A6%BD/5IF241_069_F0230',
+    crawled_at: '2025-11-13T17:17:55.651614',
+    subtitle:
+      '광택감 있는 페이턴트 가죽에 상징적인 메탈 로고가 더해져 강렬하면서도 세련된 페미니니티를 표현합니다.',
+    bullet_points: ['제품 코드: 5IF241_069_F0230', '후면 메탈 클립', '메탈 레터링 로고'],
+    size_info: ['높이 1.7cm', '폭 5.2cm'],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF241/069F0230/5IF241_069_F0230_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '페이턴트 가죽 헤어 클립',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF241/069F0230/5IF241_069_F0230_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '페이턴트 가죽 헤어 클립',
+        index: 1,
+      },
+    ],
+    local_image: '5IF241_069_F0230.jpg',
+    local_detail_images: ['5IF241_069_F0230_detail_thumbnail.jpg', '5IF241_069_F0230_detail_2.jpg'],
+  },
+  {
+    id: '5IF241_069_F0032',
+    index: 11,
+    category1: 'accessories',
+    category2: 'hair-accessories',
+    name: '페이턴트 가죽 헤어 클립',
+    price: '₩ 710,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF241/069F0032/5IF241_069_F0032_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%ED%8E%98%EC%9D%B4%ED%84%B4%ED%8A%B8-%EA%B0%80%EC%A3%BD-%ED%97%A4%EC%96%B4-%ED%81%B4%EB%A6%BD/5IF241_069_F0032',
+    crawled_at: '2025-11-13T17:18:22.653730',
+    subtitle:
+      '광택감 있는 페이턴트 가죽에 상징적인 메탈 로고가 더해져 강렬하면서도 세련된 페미니니티를 표현합니다.',
+    bullet_points: ['제품 코드: 5IF241_069_F0032', '후면 메탈 클립', '메탈 레터링 로고'],
+    size_info: ['높이 1.7cm', '폭 5.2cm'],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF241/069F0032/5IF241_069_F0032_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '페이턴트 가죽 헤어 클립',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF241/069F0032/5IF241_069_F0032_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '페이턴트 가죽 헤어 클립',
+        index: 1,
+      },
+    ],
+    local_image: '5IF241_069_F0032.jpg',
+    local_detail_images: ['5IF241_069_F0032_detail_thumbnail.jpg', '5IF241_069_F0032_detail_2.jpg'],
+  },
+  {
+    id: '5IF242_069_F0230',
+    index: 12,
+    category1: 'accessories',
+    category2: 'hair-accessories',
+    name: '페이턴트 가죽 바렛',
+    price: '₩ 660,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF242/069F0230/5IF242_069_F0230_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%ED%8E%98%EC%9D%B4%ED%84%B4%ED%8A%B8-%EA%B0%80%EC%A3%BD-%EB%B0%94%EB%A0%9B/5IF242_069_F0230',
+    crawled_at: '2025-11-13T17:18:44.023395',
+    subtitle:
+      '광택감 있는 페이턴트 가죽과 미우미우의 아이코닉한 메탈 로고가 조화를 이루며, 매 룩에 강렬한 포인트를 더해줍니다.',
+    bullet_points: [
+      '제품 코드: 5IF242_069_F0230',
+      '메탈 트리밍 디테일',
+      '슬라이드 클로저',
+      '레터링 로고',
+    ],
+    size_info: ['높이 1.6cm', '폭 6.5cm'],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF242/069F0230/5IF242_069_F0230_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '페이턴트 가죽 바렛',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF242/069F0230/5IF242_069_F0230_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '페이턴트 가죽 바렛',
+        index: 1,
+      },
+    ],
+    local_image: '5IF242_069_F0230.jpg',
+    local_detail_images: ['5IF242_069_F0230_detail_thumbnail.jpg', '5IF242_069_F0230_detail_2.jpg'],
+  },
+  {
+    id: '5IF242_069_F0E18',
+    index: 13,
+    category1: 'accessories',
+    category2: 'hair-accessories',
+    name: '페이턴트 가죽 바렛',
+    price: '₩ 660,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%ED%8E%98%EC%9D%B4%ED%84%B4%ED%8A%B8-%EA%B0%80%EC%A3%BD-%EB%B0%94%EB%A0%9B/5IF242_069_F0E18',
+    crawled_at: '2025-11-13T17:19:06.417522',
+    subtitle:
+      '광택감 있는 페이턴트 가죽과 미우미우의 아이코닉한 메탈 로고가 조화를 이루며, 매 룩에 강렬한 포인트를 더해줍니다.',
+    bullet_points: [
+      '제품 코드: 5IF242_069_F0E18',
+      '메탈 트리밍 디테일',
+      '슬라이드 클로저',
+      '레터링 로고',
+    ],
+    size_info: ['높이 1.6cm', '폭 6.5cm'],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF242/069F0E18/5IF242_069_F0E18_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '페이턴트 가죽 바렛',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF242/069F0E18/5IF242_069_F0E18_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '페이턴트 가죽 바렛',
+        index: 1,
+      },
+    ],
+    local_image: '5IF242_069_F0E18.jpg',
+    local_detail_images: ['5IF242_069_F0E18_detail_thumbnail.jpg', '5IF242_069_F0E18_detail_2.jpg'],
+  },
+  {
+    id: '5IF181_068_F0002',
+    index: 14,
+    category1: 'accessories',
+    category2: 'hair-accessories',
+    name: '벨벳 스크런치',
+    price: '₩ 550,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EB%B2%A8%EB%B2%B3-%EC%8A%A4%ED%81%AC%EB%9F%B0%EC%B9%98/5IF181_068_F0002',
+    crawled_at: '2025-11-13T17:19:26.786125',
+    subtitle:
+      '클래식한 리본 쉐입과 메탈 레터링 로고의 반항적인 본질이 어우러진 벨벳 스크런치가 모든 룩을 스타일리시하게 완성합니다.',
+    bullet_points: ['제품 코드: 5IF181_068_F0002', '리본 장식', '메탈 레터링 로고'],
+    size_info: ['높이 3cm'],
+    material: '주 소재: 코튼',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF181/068F0002/5IF181_068_F0002_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '벨벳 스크런치',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF181/068F0002/5IF181_068_F0002_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '벨벳 스크런치',
+        index: 1,
+      },
+    ],
+    local_image: '5IF181_068_F0002.jpg',
+    local_detail_images: ['5IF181_068_F0002_detail_thumbnail.jpg', '5IF181_068_F0002_detail_2.jpg'],
+  },
+  {
+    id: '5IF092_069_F0236',
+    index: 15,
+    category1: 'accessories',
+    category2: 'hair-accessories',
+    name: '페이턴트 가죽 헤어 클립',
+    price: '₩ 610,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%ED%8E%98%EC%9D%B4%ED%84%B4%ED%8A%B8-%EA%B0%80%EC%A3%BD-%ED%97%A4%EC%96%B4-%ED%81%B4%EB%A6%BD/5IF092_069_F0236',
+    crawled_at: '2025-11-13T17:19:46.455086',
+    subtitle: '아이코닉한 미우미우 로고가 돋보이는 페이턴트 가죽 헤어 클립입니다.',
+    bullet_points: ['제품 코드: 5IF092_069_F0236', '메탈 레터링 로고'],
+    size_info: ['높이 3cm', '폭 8cm'],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF092/069F0236/5IF092_069_F0236_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '페이턴트 가죽 헤어 클립',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF092/069F0236/5IF092_069_F0236_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '페이턴트 가죽 헤어 클립',
+        index: 1,
+      },
+    ],
+    local_image: '5IF092_069_F0236.jpg',
+    local_detail_images: ['5IF092_069_F0236_detail_thumbnail.jpg', '5IF092_069_F0236_detail_2.jpg'],
+  },
+  {
+    id: '5IH025_069_F0NBL',
+    index: 16,
+    category1: 'accessories',
+    category2: 'hair-accessories',
+    name: '페이턴트 가죽 헤드밴드',
+    price: '₩ 770,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%ED%8E%98%EC%9D%B4%ED%84%B4%ED%8A%B8-%EA%B0%80%EC%A3%BD-%ED%97%A4%EB%93%9C%EB%B0%B4%EB%93%9C/5IH025_069_F0NBL',
+    crawled_at: '2025-11-13T17:20:07.324713',
+    subtitle:
+      '미우미우 컬렉션의 에센셜 아이템 중 하나인 페이턴트 가죽 헤드밴드로, 아이코닉한 느낌을 더하며 디자인을 장식하는 레터링 로고가 돋보입니다.',
+    bullet_points: ['제품 코드: 5IH025_069_F0NBL', '메탈 레터링 로고'],
+    size_info: ['높이 4cm'],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IH/5IH025/069F0NBL/5IH025_069_F0NBL_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '페이턴트 가죽 헤드밴드',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IH/5IH025/069F0NBL/5IH025_069_F0NBL_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '페이턴트 가죽 헤드밴드',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IH/5IH025/069F0NBL/5IH025_069_F0NBL_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '페이턴트 가죽 헤드밴드',
+        index: 2,
+      },
+    ],
+    local_image: '5IH025_069_F0NBL.jpg',
+    local_detail_images: [
+      '5IH025_069_F0NBL_detail_thumbnail.jpg',
+      '5IH025_069_F0NBL_detail_2.jpg',
+      '5IH025_069_F0NBL_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5IF092_069_F0NBL',
+    index: 17,
+    category1: 'accessories',
+    category2: 'hair-accessories',
+    name: '페이턴트 가죽 헤어 클립',
+    price: '₩ 610,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%ED%8E%98%EC%9D%B4%ED%84%B4%ED%8A%B8-%EA%B0%80%EC%A3%BD-%ED%97%A4%EC%96%B4-%ED%81%B4%EB%A6%BD/5IF092_069_F0NBL',
+    crawled_at: '2025-11-13T17:20:27.709761',
+    subtitle: '아이코닉한 미우미우 로고가 돋보이는 페이턴트 가죽 헤어 클립입니다.',
+    bullet_points: ['제품 코드: 5IF092_069_F0NBL', '메탈 레터링 로고'],
+    size_info: ['높이 3cm', '폭 8cm'],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF092/069F0NBL/5IF092_069_F0NBL_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '페이턴트 가죽 헤어 클립',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF092/069F0NBL/5IF092_069_F0NBL_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '페이턴트 가죽 헤어 클립',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF092/069F0NBL/5IF092_069_F0NBL_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '페이턴트 가죽 헤어 클립',
+        index: 2,
+      },
+    ],
+    local_image: '5IF092_069_F0NBL.jpg',
+    local_detail_images: [
+      '5IF092_069_F0NBL_detail_thumbnail.jpg',
+      '5IF092_069_F0NBL_detail_2.jpg',
+      '5IF092_069_F0NBL_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5IH025_069_F0009',
+    index: 18,
+    category1: 'accessories',
+    category2: 'hair-accessories',
+    name: '페이턴트 가죽 헤드밴드',
+    price: '₩ 770,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%ED%8E%98%EC%9D%B4%ED%84%B4%ED%8A%B8-%EA%B0%80%EC%A3%BD-%ED%97%A4%EB%93%9C%EB%B0%B4%EB%93%9C/5IH025_069_F0009',
+    crawled_at: '2025-11-13T17:20:51.152190',
+    subtitle:
+      '미우미우 컬렉션의 에센셜 아이템 중 하나인 페이턴트 가죽 헤드밴드로, 아이코닉한 느낌을 더하며 디자인을 장식하는 레터링 로고가 돋보입니다.',
+    bullet_points: ['제품 코드: 5IH025_069_F0009', '메탈 레터링 로고'],
+    size_info: ['높이 4cm'],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiu_products/5/5IH/5IH025/069F0009/5IH025_069_F0009_SLF.png/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '페이턴트 가죽 헤드밴드',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiu_products/5/5IH/5IH025/069F0009/5IH025_069_F0009_MDL.png/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '페이턴트 가죽 헤드밴드',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiu_products/5/5IH/5IH025/069F0009/5IH025_069_F0009_SLQ.png/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '페이턴트 가죽 헤드밴드',
+        index: 2,
+      },
+    ],
+    local_image: '5IH025_069_F0009.jpg',
+    local_detail_images: [
+      '5IH025_069_F0009_detail_thumbnail.jpg',
+      '5IH025_069_F0009_detail_2.jpg',
+      '5IH025_069_F0009_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5IF092_069_F0009',
+    index: 19,
+    category1: 'accessories',
+    category2: 'hair-accessories',
+    name: '페이턴트 가죽 헤어 클립',
+    price: '₩ 610,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%ED%8E%98%EC%9D%B4%ED%84%B4%ED%8A%B8-%EA%B0%80%EC%A3%BD-%ED%97%A4%EC%96%B4-%ED%81%B4%EB%A6%BD/5IF092_069_F0009',
+    crawled_at: '2025-11-13T17:21:12.640590',
+    subtitle: '아이코닉한 미우미우 로고가 돋보이는 페이턴트 가죽 헤어 클립입니다.',
+    bullet_points: ['제품 코드: 5IF092_069_F0009', '메탈 레터링 로고'],
+    size_info: ['높이 3cm', '폭 8cm'],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF092/069F0009/5IF092_069_F0009_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '페이턴트 가죽 헤어 클립',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF092/069F0009/5IF092_069_F0009_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '페이턴트 가죽 헤어 클립',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF092/069F0009/5IF092_069_F0009_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '페이턴트 가죽 헤어 클립',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF092/069F0009/5IF092_069_F0009_MDR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '페이턴트 가죽 헤어 클립',
+        index: 3,
+      },
+    ],
+    local_image: '5IF092_069_F0009.jpg',
+    local_detail_images: [
+      '5IF092_069_F0009_detail_thumbnail.jpg',
+      '5IF092_069_F0009_detail_2.jpg',
+      '5IF092_069_F0009_detail_3.jpg',
+      '5IF092_069_F0009_detail_4.jpg',
+    ],
+  },
+  {
+    id: '5IH025_069_F0002',
+    index: 20,
+    category1: 'accessories',
+    category2: 'hair-accessories',
+    name: '페이턴트 가죽 헤드밴드',
+    price: '₩ 770,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%ED%8E%98%EC%9D%B4%ED%84%B4%ED%8A%B8-%EA%B0%80%EC%A3%BD-%ED%97%A4%EB%93%9C%EB%B0%B4%EB%93%9C/5IH025_069_F0002',
+    crawled_at: '2025-11-13T17:21:32.960505',
+    subtitle:
+      '미우미우 컬렉션의 에센셜 아이템 중 하나인 페이턴트 가죽 헤드밴드로, 아이코닉한 느낌을 더하며 디자인을 장식하는 레터링 로고가 돋보입니다.',
+    bullet_points: ['제품 코드: 5IH025_069_F0002', '메탈 레터링 로고'],
+    size_info: ['높이 4cm'],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IH/5IH025/069F0002/5IH025_069_F0002_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '페이턴트 가죽 헤드밴드',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IH/5IH025/069F0002/5IH025_069_F0002_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '페이턴트 가죽 헤드밴드',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IH/5IH025/069F0002/5IH025_069_F0002_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '페이턴트 가죽 헤드밴드',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IH/5IH025/069F0002/5IH025_069_F0002_MDR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '페이턴트 가죽 헤드밴드',
+        index: 3,
+      },
+    ],
+    local_image: '5IH025_069_F0002.jpg',
+    local_detail_images: [
+      '5IH025_069_F0002_detail_thumbnail.jpg',
+      '5IH025_069_F0002_detail_2.jpg',
+      '5IH025_069_F0002_detail_3.jpg',
+      '5IH025_069_F0002_detail_4.jpg',
+    ],
+  },
+  {
+    id: '5IF092_069_F0002',
+    index: 21,
+    category1: 'accessories',
+    category2: 'hair-accessories',
+    name: '페이턴트 가죽 헤어 클립',
+    price: '₩ 610,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%ED%8E%98%EC%9D%B4%ED%84%B4%ED%8A%B8-%EA%B0%80%EC%A3%BD-%ED%97%A4%EC%96%B4-%ED%81%B4%EB%A6%BD/5IF092_069_F0002',
+    crawled_at: '2025-11-13T17:21:54.507553',
+    subtitle: '아이코닉한 미우미우 로고가 돋보이는 페이턴트 가죽 헤어 클립입니다.',
+    bullet_points: ['제품 코드: 5IF092_069_F0002', '메탈 레터링 로고'],
+    size_info: ['높이 3cm', '폭 8cm'],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF092/069F0002/5IF092_069_F0002_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '페이턴트 가죽 헤어 클립',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF092/069F0002/5IF092_069_F0002_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '페이턴트 가죽 헤어 클립',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF092/069F0002/5IF092_069_F0002_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '페이턴트 가죽 헤어 클립',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF092/069F0002/5IF092_069_F0002_MDR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '페이턴트 가죽 헤어 클립',
+        index: 3,
+      },
+    ],
+    local_image: '5IF092_069_F0002.jpg',
+    local_detail_images: [
+      '5IF092_069_F0002_detail_thumbnail.jpg',
+      '5IF092_069_F0002_detail_2.jpg',
+      '5IF092_069_F0002_detail_3.jpg',
+      '5IF092_069_F0002_detail_4.jpg',
+    ],
+  },
+  {
+    id: '5IF092_069_F0011',
+    index: 22,
+    category1: 'accessories',
+    category2: 'hair-accessories',
+    name: '페이턴트 가죽 헤어 클립',
+    price: '₩ 610,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%ED%8E%98%EC%9D%B4%ED%84%B4%ED%8A%B8-%EA%B0%80%EC%A3%BD-%ED%97%A4%EC%96%B4-%ED%81%B4%EB%A6%BD/5IF092_069_F0011',
+    crawled_at: '2025-11-13T17:22:20.753882',
+    subtitle: '아이코닉한 미우미우 로고가 돋보이는 페이턴트 가죽 헤어 클립입니다.',
+    bullet_points: ['제품 코드: 5IF092_069_F0011', '메탈 레터링 로고'],
+    size_info: ['높이 3cm', '폭 8cm'],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF092/069F0011/5IF092_069_F0011_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '페이턴트 가죽 헤어 클립',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF092/069F0011/5IF092_069_F0011_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '페이턴트 가죽 헤어 클립',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF092/069F0011/5IF092_069_F0011_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '페이턴트 가죽 헤어 클립',
+        index: 2,
+      },
+    ],
+    local_image: '5IF092_069_F0011.jpg',
+    local_detail_images: [
+      '5IF092_069_F0011_detail_thumbnail.jpg',
+      '5IF092_069_F0011_detail_2.jpg',
+      '5IF092_069_F0011_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5IF092_068_F0002',
+    index: 23,
+    category1: 'accessories',
+    category2: 'hair-accessories',
+    name: '벨벳 헤어 클립',
+    price: '₩ 610,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EB%B2%A8%EB%B2%B3-%ED%97%A4%EC%96%B4-%ED%81%B4%EB%A6%BD/5IF092_068_F0002',
+    crawled_at: '2025-11-13T17:22:43.250800',
+    subtitle:
+      '크리스탈의 미우미우 로고가 돋보이는 헤어 클립으로, 무지개 빛깔의 반짝임을 연출합니다.',
+    bullet_points: ['제품 코드: 5IF092_068_F0002', '인조 크리스털 레터링 로고'],
+    size_info: ['높이 3cm', '폭 8cm'],
+    material: '주 소재: 코튼',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF092/068F0002/5IF092_068_F0002_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '벨벳 헤어 클립',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF092/068F0002/5IF092_068_F0002_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '벨벳 헤어 클립',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF092/068F0002/5IF092_068_F0002_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '벨벳 헤어 클립',
+        index: 2,
+      },
+    ],
+    local_image: '5IF092_068_F0002.jpg',
+    local_detail_images: [
+      '5IF092_068_F0002_detail_thumbnail.jpg',
+      '5IF092_068_F0002_detail_2.jpg',
+      '5IF092_068_F0002_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5IF147_2F6T_F0399',
+    index: 24,
+    category1: 'accessories',
+    category2: 'hair-accessories',
+    name: '에나멜 메탈 헤어 클립',
+    price: '₩ 500,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%97%90%EB%82%98%EB%A9%9C-%EB%A9%94%ED%83%88-%ED%97%A4%EC%96%B4-%ED%81%B4%EB%A6%BD/5IF147_2F6T_F0399',
+    crawled_at: '2025-11-13T17:23:03.671405',
+    subtitle:
+      '눈에 띄는 미우미우 로고로 클립에 아이코닉하고 한눈에 알아볼 수 있는 스타일을 연출하며, 모든 차이를 만들어내는 디테일의 상징이 됩니다.',
+    bullet_points: ['제품 코드: 5IF147_2F6T_F0399', '메탈 및 컬러 에나멜', '눈에 띄는 로고'],
+    size_info: ['높이 2.2cm', '폭 6.2cm'],
+    material: '주 소재: 브라스',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF147/2F6TF0399/5IF147_2F6T_F0399_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '에나멜 메탈 헤어 클립',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF147/2F6TF0399/5IF147_2F6T_F0399_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '에나멜 메탈 헤어 클립',
+        index: 1,
+      },
+    ],
+    local_image: '5IF147_2F6T_F0399.jpg',
+    local_detail_images: [
+      '5IF147_2F6T_F0399_detail_thumbnail.jpg',
+      '5IF147_2F6T_F0399_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5IF147_2F6T_F0009',
+    index: 1,
+    category1: 'accessories',
+    category2: 'hair-accessories',
+    name: '에나멜 메탈 헤어 클립',
+    price: '₩ 500,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF147/2F6TF0009/5IF147_2F6T_F0009_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%97%90%EB%82%98%EB%A9%9C-%EB%A9%94%ED%83%88-%ED%97%A4%EC%96%B4-%ED%81%B4%EB%A6%BD/5IF147_2F6T_F0009',
+    crawled_at: '2025-11-13T17:32:55.072264',
+    subtitle:
+      '눈에 띄는 미우미우 로고로 클립에 아이코닉하고 한눈에 알아볼 수 있는 스타일을 연출하며, 모든 차이를 만들어내는 디테일의 상징이 됩니다.',
+    bullet_points: ['제품 코드: 5IF147_2F6T_F0009', '메탈 및 컬러 에나멜', '눈에 띄는 로고'],
+    size_info: ['높이 2.2cm', '폭 6.2cm'],
+    material: '주 소재: 브라스',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF147/2F6TF0009/5IF147_2F6T_F0009_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '에나멜 메탈 헤어 클립',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF147/2F6TF0009/5IF147_2F6T_F0009_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '에나멜 메탈 헤어 클립',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF147/2F6TF0009/5IF147_2F6T_F0009_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '에나멜 메탈 헤어 클립',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF147/2F6TF0009/5IF147_2F6T_F0009_MDR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '에나멜 메탈 헤어 클립',
+        index: 3,
+      },
+    ],
+    local_image: '5IF147_2F6T_F0009.jpg',
+    local_detail_images: [
+      '5IF147_2F6T_F0009_detail_thumbnail.jpg',
+      '5IF147_2F6T_F0009_detail_2.jpg',
+      '5IF147_2F6T_F0009_detail_3.jpg',
+      '5IF147_2F6T_F0009_detail_4.jpg',
+    ],
+  },
+  {
+    id: '5IF147_2F6T_F0011',
+    index: 2,
+    category1: 'accessories',
+    category2: 'hair-accessories',
+    name: '에나멜 메탈 헤어 클립',
+    price: '₩ 500,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF147/2F6TF0011/5IF147_2F6T_F0011_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%97%90%EB%82%98%EB%A9%9C-%EB%A9%94%ED%83%88-%ED%97%A4%EC%96%B4-%ED%81%B4%EB%A6%BD/5IF147_2F6T_F0011',
+    crawled_at: '2025-11-13T17:33:16.542417',
+    subtitle:
+      '눈에 띄는 미우미우 로고로 클립에 아이코닉하고 한눈에 알아볼 수 있는 스타일을 연출하며, 모든 차이를 만들어내는 디테일의 상징이 됩니다.',
+    bullet_points: ['제품 코드: 5IF147_2F6T_F0011', '메탈 및 컬러 에나멜', '눈에 띄는 로고'],
+    size_info: ['높이 2.2cm', '폭 6.2cm'],
+    material: '주 소재: 브라스',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF147/2F6TF0011/5IF147_2F6T_F0011_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '에나멜 메탈 헤어 클립',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF147/2F6TF0011/5IF147_2F6T_F0011_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '에나멜 메탈 헤어 클립',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF147/2F6TF0011/5IF147_2F6T_F0011_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '에나멜 메탈 헤어 클립',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF147/2F6TF0011/5IF147_2F6T_F0011_MDR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '에나멜 메탈 헤어 클립',
+        index: 3,
+      },
+    ],
+    local_image: '5IF147_2F6T_F0011.jpg',
+    local_detail_images: [
+      '5IF147_2F6T_F0011_detail_thumbnail.jpg',
+      '5IF147_2F6T_F0011_detail_2.jpg',
+      '5IF147_2F6T_F0011_detail_3.jpg',
+      '5IF147_2F6T_F0011_detail_4.jpg',
+    ],
+  },
+  {
+    id: '5IF147_2F6T_F0002',
+    index: 3,
+    category1: 'accessories',
+    category2: 'hair-accessories',
+    name: '에나멜 메탈 헤어 클립',
+    price: '₩ 500,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiu_products/5/5IF/5IF147/2F6TF0002/5IF147_2F6T_F0002_SLF.png/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%97%90%EB%82%98%EB%A9%9C-%EB%A9%94%ED%83%88-%ED%97%A4%EC%96%B4-%ED%81%B4%EB%A6%BD/5IF147_2F6T_F0002',
+    crawled_at: '2025-11-13T17:33:35.762431',
+    subtitle:
+      '눈에 띄는 미우미우 로고로 클립에 아이코닉하고 한눈에 알아볼 수 있는 스타일을 연출하며, 모든 차이를 만들어내는 디테일의 상징이 됩니다.',
+    bullet_points: ['제품 코드: 5IF147_2F6T_F0002', '메탈 및 컬러 에나멜', '눈에 띄는 로고'],
+    size_info: ['높이 2.2cm', '폭 6.2cm'],
+    material: '주 소재: 브라스',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiu_products/5/5IF/5IF147/2F6TF0002/5IF147_2F6T_F0002_SLF.png/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '에나멜 메탈 헤어 클립',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiu_products/5/5IF/5IF147/2F6TF0002/5IF147_2F6T_F0002_SLD.png/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '에나멜 메탈 헤어 클립',
+        index: 1,
+      },
+    ],
+    local_image: '5IF147_2F6T_F0002.jpg',
+    local_detail_images: [
+      '5IF147_2F6T_F0002_detail_thumbnail.jpg',
+      '5IF147_2F6T_F0002_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5IF147_2F6T_F097W',
+    index: 4,
+    category1: 'accessories',
+    category2: 'hair-accessories',
+    name: '에나멜 메탈 헤어 클립',
+    price: '₩ 500,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF147/2F6TF097W/5IF147_2F6T_F097W_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%97%90%EB%82%98%EB%A9%9C-%EB%A9%94%ED%83%88-%ED%97%A4%EC%96%B4-%ED%81%B4%EB%A6%BD/5IF147_2F6T_F097W',
+    crawled_at: '2025-11-13T17:33:58.731665',
+    subtitle:
+      '눈에 띄는 미우미우 로고로 클립에 아이코닉하고 한눈에 알아볼 수 있는 스타일을 연출하며, 모든 차이를 만들어내는 디테일의 상징이 됩니다.',
+    bullet_points: ['제품 코드: 5IF147_2F6T_F097W', '메탈 및 컬러 에나멜', '눈에 띄는 로고'],
+    size_info: ['높이 2.2cm', '폭 6.2cm'],
+    material: '주 소재: 브라스',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF147/2F6TF097W/5IF147_2F6T_F097W_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '에나멜 메탈 헤어 클립',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF147/2F6TF097W/5IF147_2F6T_F097W_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '에나멜 메탈 헤어 클립',
+        index: 1,
+      },
+    ],
+    local_image: '5IF147_2F6T_F097W.jpg',
+    local_detail_images: [
+      '5IF147_2F6T_F097W_detail_thumbnail.jpg',
+      '5IF147_2F6T_F097W_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5IF147_2F6T_F0632',
+    index: 5,
+    category1: 'accessories',
+    category2: 'hair-accessories',
+    name: '에나멜 메탈 헤어 클립',
+    price: '₩ 500,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF147/2F6TF0632/5IF147_2F6T_F0632_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%97%90%EB%82%98%EB%A9%9C-%EB%A9%94%ED%83%88-%ED%97%A4%EC%96%B4-%ED%81%B4%EB%A6%BD/5IF147_2F6T_F0632',
+    crawled_at: '2025-11-13T17:34:20.586628',
+    subtitle:
+      '눈에 띄는 미우미우 로고로 클립에 아이코닉하고 한눈에 알아볼 수 있는 스타일을 연출하며, 모든 차이를 만들어내는 디테일의 상징이 됩니다.',
+    bullet_points: ['제품 코드: 5IF147_2F6T_F0632', '메탈 및 컬러 에나멜', '눈에 띄는 로고'],
+    size_info: ['높이 2.2cm', '폭 6.2cm'],
+    material: '주 소재: 브라스',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF147/2F6TF0632/5IF147_2F6T_F0632_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '에나멜 메탈 헤어 클립',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF147/2F6TF0632/5IF147_2F6T_F0632_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '에나멜 메탈 헤어 클립',
+        index: 1,
+      },
+    ],
+    local_image: '5IF147_2F6T_F0632.jpg',
+    local_detail_images: [
+      '5IF147_2F6T_F0632_detail_thumbnail.jpg',
+      '5IF147_2F6T_F0632_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5IF146_2F6T_F0002',
+    index: 6,
+    category1: 'accessories',
+    category2: 'hair-accessories',
+    name: '에나멜 메탈 헤어 클립',
+    price: '₩ 500,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF146/2F6TF0002/5IF146_2F6T_F0002_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%97%90%EB%82%98%EB%A9%9C-%EB%A9%94%ED%83%88-%ED%97%A4%EC%96%B4-%ED%81%B4%EB%A6%BD/5IF146_2F6T_F0002',
+    crawled_at: '2025-11-13T17:34:42.351920',
+    subtitle:
+      '눈에 띄는 미우미우 로고로 클립에 아이코닉하고 한눈에 알아볼 수 있는 스타일을 연출하며, 모든 차이를 만들어내는 디테일의 상징이 됩니다.',
+    bullet_points: ['제품 코드: 5IF146_2F6T_F0002', '메탈 및 컬러 에나멜', '눈에 띄는 로고'],
+    size_info: ['높이 0.77cm', '폭 6.2cm'],
+    material: '주 소재: 브라스',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF146/2F6TF0002/5IF146_2F6T_F0002_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '에나멜 메탈 헤어 클립',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF146/2F6TF0002/5IF146_2F6T_F0002_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '에나멜 메탈 헤어 클립',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF146/2F6TF0002/5IF146_2F6T_F0002_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '에나멜 메탈 헤어 클립',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF146/2F6TF0002/5IF146_2F6T_F0002_MDR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '에나멜 메탈 헤어 클립',
+        index: 3,
+      },
+    ],
+    local_image: '5IF146_2F6T_F0002.jpg',
+    local_detail_images: [
+      '5IF146_2F6T_F0002_detail_thumbnail.jpg',
+      '5IF146_2F6T_F0002_detail_2.jpg',
+      '5IF146_2F6T_F0002_detail_3.jpg',
+      '5IF146_2F6T_F0002_detail_4.jpg',
+    ],
+  },
+  {
+    id: '5IF146_2F6T_F0009',
+    index: 7,
+    category1: 'accessories',
+    category2: 'hair-accessories',
+    name: '에나멜 메탈 헤어 클립',
+    price: '₩ 500,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF146/2F6TF0009/5IF146_2F6T_F0009_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%97%90%EB%82%98%EB%A9%9C-%EB%A9%94%ED%83%88-%ED%97%A4%EC%96%B4-%ED%81%B4%EB%A6%BD/5IF146_2F6T_F0009',
+    crawled_at: '2025-11-13T17:35:02.761878',
+    subtitle:
+      '눈에 띄는 미우미우 로고로 클립에 아이코닉하고 한눈에 알아볼 수 있는 스타일을 연출하며, 모든 차이를 만들어내는 디테일의 상징이 됩니다.',
+    bullet_points: ['제품 코드: 5IF146_2F6T_F0009', '메탈 및 컬러 에나멜', '눈에 띄는 로고'],
+    size_info: ['높이 0.77cm', '폭 6.2cm'],
+    material: '주 소재: 브라스',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF146/2F6TF0009/5IF146_2F6T_F0009_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '에나멜 메탈 헤어 클립',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF146/2F6TF0009/5IF146_2F6T_F0009_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '에나멜 메탈 헤어 클립',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF146/2F6TF0009/5IF146_2F6T_F0009_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '에나멜 메탈 헤어 클립',
+        index: 2,
+      },
+    ],
+    local_image: '5IF146_2F6T_F0009.jpg',
+    local_detail_images: [
+      '5IF146_2F6T_F0009_detail_thumbnail.jpg',
+      '5IF146_2F6T_F0009_detail_2.jpg',
+      '5IF146_2F6T_F0009_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5IF146_2F6T_F097W',
+    index: 8,
+    category1: 'accessories',
+    category2: 'hair-accessories',
+    name: '에나멜 메탈 헤어 클립',
+    price: '₩ 500,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF146/2F6TF097W/5IF146_2F6T_F097W_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%97%90%EB%82%98%EB%A9%9C-%EB%A9%94%ED%83%88-%ED%97%A4%EC%96%B4-%ED%81%B4%EB%A6%BD/5IF146_2F6T_F097W',
+    crawled_at: '2025-11-13T17:35:25.637352',
+    subtitle:
+      '눈에 띄는 미우미우 로고로 클립에 아이코닉하고 한눈에 알아볼 수 있는 스타일을 연출하며, 모든 차이를 만들어내는 디테일의 상징이 됩니다.',
+    bullet_points: ['제품 코드: 5IF146_2F6T_F097W', '메탈 및 컬러 에나멜', '눈에 띄는 로고'],
+    size_info: ['높이 0.77cm', '폭 6.2cm'],
+    material: '주 소재: 브라스',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF146/2F6TF097W/5IF146_2F6T_F097W_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '에나멜 메탈 헤어 클립',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF146/2F6TF097W/5IF146_2F6T_F097W_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '에나멜 메탈 헤어 클립',
+        index: 1,
+      },
+    ],
+    local_image: '5IF146_2F6T_F097W.jpg',
+    local_detail_images: [
+      '5IF146_2F6T_F097W_detail_thumbnail.jpg',
+      '5IF146_2F6T_F097W_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5IF146_2F6T_F0615',
+    index: 9,
+    category1: 'accessories',
+    category2: 'hair-accessories',
+    name: '에나멜 메탈 헤어 클립',
+    price: '₩ 500,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF146/2F6TF0615/5IF146_2F6T_F0615_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%97%90%EB%82%98%EB%A9%9C-%EB%A9%94%ED%83%88-%ED%97%A4%EC%96%B4-%ED%81%B4%EB%A6%BD/5IF146_2F6T_F0615',
+    crawled_at: '2025-11-13T17:35:56.140488',
+    subtitle:
+      '눈에 띄는 미우미우 로고로 클립에 아이코닉하고 한눈에 알아볼 수 있는 스타일을 연출하며, 모든 차이를 만들어내는 디테일의 상징이 됩니다.',
+    bullet_points: ['제품 코드: 5IF146_2F6T_F0615', '메탈 및 컬러 에나멜', '눈에 띄는 로고'],
+    size_info: ['높이 0.77cm', '폭 6.2cm'],
+    material: '주 소재: 브라스',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF146/2F6TF0615/5IF146_2F6T_F0615_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '에나멜 메탈 헤어 클립',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF146/2F6TF0615/5IF146_2F6T_F0615_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '에나멜 메탈 헤어 클립',
+        index: 1,
+      },
+    ],
+    local_image: '5IF146_2F6T_F0615.jpg',
+    local_detail_images: [
+      '5IF146_2F6T_F0615_detail_thumbnail.jpg',
+      '5IF146_2F6T_F0615_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5IF146_2F6T_F0632',
+    index: 10,
+    category1: 'accessories',
+    category2: 'hair-accessories',
+    name: '에나멜 메탈 헤어 클립',
+    price: '₩ 500,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF146/2F6TF0632/5IF146_2F6T_F0632_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%97%90%EB%82%98%EB%A9%9C-%EB%A9%94%ED%83%88-%ED%97%A4%EC%96%B4-%ED%81%B4%EB%A6%BD/5IF146_2F6T_F0632',
+    crawled_at: '2025-11-13T17:36:17.645092',
+    subtitle:
+      '눈에 띄는 미우미우 로고로 클립에 아이코닉하고 한눈에 알아볼 수 있는 스타일을 연출하며, 모든 차이를 만들어내는 디테일의 상징이 됩니다.',
+    bullet_points: ['제품 코드: 5IF146_2F6T_F0632', '메탈 및 컬러 에나멜', '눈에 띄는 로고'],
+    size_info: ['높이 0.77cm', '폭 6.2cm'],
+    material: '주 소재: 브라스',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF146/2F6TF0632/5IF146_2F6T_F0632_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '에나멜 메탈 헤어 클립',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF146/2F6TF0632/5IF146_2F6T_F0632_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '에나멜 메탈 헤어 클립',
+        index: 1,
+      },
+    ],
+    local_image: '5IF146_2F6T_F0632.jpg',
+    local_detail_images: [
+      '5IF146_2F6T_F0632_detail_thumbnail.jpg',
+      '5IF146_2F6T_F0632_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5IF221_2DTU_F0056',
+    index: 11,
+    category1: 'accessories',
+    category2: 'hair-accessories',
+    name: '메탈 헤어 클립',
+    price: '₩ 820,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF221/2DTUF0056/5IF221_2DTU_F0056_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EB%A9%94%ED%83%88-%ED%97%A4%EC%96%B4-%ED%81%B4%EB%A6%BD-/5IF221_2DTU_F0056',
+    crawled_at: '2025-11-13T17:36:38.962301',
+    subtitle:
+      '상징적인 미우미우 로고가 시선을 사로잡는 세련된 라인의 헤어 클립으로 모든 룩에 포인트를 주는 완벽한 액세서리입니다.',
+    bullet_points: ['제품 코드: 5IF221_2DTU_F0056', '측면 클로저', '눈에 띄는 로고'],
+    size_info: ['폭 8.3cm'],
+    material: '주 소재: 브라스',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF221/2DTUF0056/5IF221_2DTU_F0056_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '메탈 헤어 클립 ',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF221/2DTUF0056/5IF221_2DTU_F0056_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '메탈 헤어 클립 ',
+        index: 1,
+      },
+    ],
+    local_image: '5IF221_2DTU_F0056.jpg',
+    local_detail_images: [
+      '5IF221_2DTU_F0056_detail_thumbnail.jpg',
+      '5IF221_2DTU_F0056_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5IF222_2DTU_F0056',
+    index: 12,
+    category1: 'accessories',
+    category2: 'hair-accessories',
+    name: '메탈 헤어 클립',
+    price: '₩ 730,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF222/2DTUF0056/5IF222_2DTU_F0056_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EB%A9%94%ED%83%88-%ED%97%A4%EC%96%B4-%ED%81%B4%EB%A6%BD-/5IF222_2DTU_F0056',
+    crawled_at: '2025-11-13T17:36:58.448640',
+    subtitle:
+      '상징적인 미우미우 로고가 시선을 사로잡는 세련된 라인의 헤어 클립으로 모든 룩에 포인트를 주는 완벽한 액세서리입니다.',
+    bullet_points: ['제품 코드: 5IF222_2DTU_F0056', '측면 클로저', '눈에 띄는 로고'],
+    size_info: ['폭 5cm'],
+    material: '주 소재: 브라스',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF222/2DTUF0056/5IF222_2DTU_F0056_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '메탈 헤어 클립 ',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF222/2DTUF0056/5IF222_2DTU_F0056_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '메탈 헤어 클립 ',
+        index: 1,
+      },
+    ],
+    local_image: '5IF222_2DTU_F0056.jpg',
+    local_detail_images: [
+      '5IF222_2DTU_F0056_detail_thumbnail.jpg',
+      '5IF222_2DTU_F0056_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5IF219_2DTU_F0056',
+    index: 13,
+    category1: 'accessories',
+    category2: 'hair-accessories',
+    name: '로고 장식 스몰 클로 클립',
+    price: '₩ 690,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EB%A1%9C%EA%B3%A0-%EC%9E%A5%EC%8B%9D-%EC%8A%A4%EB%AA%B0-%ED%81%B4%EB%A1%9C-%ED%81%B4%EB%A6%BD/5IF219_2DTU_F0056',
+    crawled_at: '2025-11-13T17:37:18.146952',
+    subtitle: '상징적인 미우미우 로고가 특징인 스몰 클로 클립으로 심플한 우아함이 돋보입니다.',
+    bullet_points: ['제품 코드: 5IF219_2DTU_F0056', '눈에 띄는 타공 처리 로고'],
+    size_info: ['높이 4.2cm', '폭 5cm'],
+    material: '주 소재: 브라스',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF219/2DTUF0056/5IF219_2DTU_F0056_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '로고 장식 스몰 클로 클립',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF219/2DTUF0056/5IF219_2DTU_F0056_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '로고 장식 스몰 클로 클립',
+        index: 1,
+      },
+    ],
+    local_image: '5IF219_2DTU_F0056.jpg',
+    local_detail_images: [
+      '5IF219_2DTU_F0056_detail_thumbnail.jpg',
+      '5IF219_2DTU_F0056_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5IF173_2F6T_F0615',
+    index: 14,
+    category1: 'accessories',
+    category2: 'hair-accessories',
+    name: '에나멜 메탈 헤어 클립',
+    price: '₩ 670,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%97%90%EB%82%98%EB%A9%9C-%EB%A9%94%ED%83%88-%ED%97%A4%EC%96%B4-%ED%81%B4%EB%A6%BD/5IF173_2F6T_F0615',
+    crawled_at: '2025-11-13T17:37:40.247982',
+    subtitle: '아이코닉한 미우미우 로고가 에나멜 메탈 헤어 클립에 매력을 더합니다.',
+    bullet_points: [
+      '제품 코드: 5IF173_2F6T_F0615',
+      '컬러 에나멜 메탈',
+      '눈에 띄는 로고',
+      '헤어 클립 2개 세트',
+    ],
+    size_info: ['높이 1.65cm', '폭 4cm'],
+    material: '주 소재: 에나멜, 브라스',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF173/2F6TF0615/5IF173_2F6T_F0615_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '에나멜 메탈 헤어 클립',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF173/2F6TF0615/5IF173_2F6T_F0615_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '에나멜 메탈 헤어 클립',
+        index: 1,
+      },
+    ],
+    local_image: '5IF173_2F6T_F0615.jpg',
+    local_detail_images: [
+      '5IF173_2F6T_F0615_detail_thumbnail.jpg',
+      '5IF173_2F6T_F0615_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5IF173_2F6T_F0002',
+    index: 15,
+    category1: 'accessories',
+    category2: 'hair-accessories',
+    name: '에나멜 메탈 헤어 클립',
+    price: '₩ 670,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%97%90%EB%82%98%EB%A9%9C-%EB%A9%94%ED%83%88-%ED%97%A4%EC%96%B4-%ED%81%B4%EB%A6%BD/5IF173_2F6T_F0002',
+    crawled_at: '2025-11-13T17:38:04.799474',
+    subtitle: '아이코닉한 미우미우 로고가 에나멜 메탈 헤어 클립에 매력을 더합니다.',
+    bullet_points: [
+      '제품 코드: 5IF173_2F6T_F0002',
+      '컬러 에나멜 메탈',
+      '눈에 띄는 로고',
+      '헤어 클립 2개 세트',
+    ],
+    size_info: ['높이 1.65cm', '폭 4cm'],
+    material: '주 소재: 에나멜, 브라스',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF173/2F6TF0002/5IF173_2F6T_F0002_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '에나멜 메탈 헤어 클립',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF173/2F6TF0002/5IF173_2F6T_F0002_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '에나멜 메탈 헤어 클립',
+        index: 1,
+      },
+    ],
+    local_image: '5IF173_2F6T_F0002.jpg',
+    local_detail_images: [
+      '5IF173_2F6T_F0002_detail_thumbnail.jpg',
+      '5IF173_2F6T_F0002_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5IF173_2F6T_F0009',
+    index: 16,
+    category1: 'accessories',
+    category2: 'hair-accessories',
+    name: '에나멜 메탈 헤어 클립',
+    price: '₩ 670,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%97%90%EB%82%98%EB%A9%9C-%EB%A9%94%ED%83%88-%ED%97%A4%EC%96%B4-%ED%81%B4%EB%A6%BD/5IF173_2F6T_F0009',
+    crawled_at: '2025-11-13T17:38:30.200908',
+    subtitle: '아이코닉한 미우미우 로고가 에나멜 메탈 헤어 클립에 매력을 더합니다.',
+    bullet_points: [
+      '제품 코드: 5IF173_2F6T_F0009',
+      '컬러 에나멜 메탈',
+      '눈에 띄는 로고',
+      '헤어 클립 2개 세트',
+    ],
+    size_info: ['높이 1.65cm', '폭 4cm'],
+    material: '주 소재: 에나멜, 브라스',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF173/2F6TF0009/5IF173_2F6T_F0009_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '에나멜 메탈 헤어 클립',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IF/5IF173/2F6TF0009/5IF173_2F6T_F0009_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '에나멜 메탈 헤어 클립',
+        index: 1,
+      },
+    ],
+    local_image: '5IF173_2F6T_F0009.jpg',
+    local_detail_images: [
+      '5IF173_2F6T_F0009_detail_thumbnail.jpg',
+      '5IF173_2F6T_F0009_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5IH025_069_F0011',
+    index: 17,
+    category1: 'accessories',
+    category2: 'hair-accessories',
+    name: '페이턴트 가죽 헤드밴드',
+    price: '₩ 770,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%ED%8E%98%EC%9D%B4%ED%84%B4%ED%8A%B8-%EA%B0%80%EC%A3%BD-%ED%97%A4%EB%93%9C%EB%B0%B4%EB%93%9C/5IH025_069_F0011',
+    crawled_at: '2025-11-13T17:38:52.506107',
+    subtitle:
+      '미우미우 컬렉션의 에센셜 아이템 중 하나인 페이턴트 가죽 헤드밴드로, 아이코닉한 느낌을 더하며 디자인을 장식하는 레터링 로고가 돋보입니다.',
+    bullet_points: ['제품 코드: 5IH025_069_F0011', '메탈 레터링 로고'],
+    size_info: ['높이 4cm'],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiu_products/5/5IH/5IH025/069F0011/5IH025_069_F0011_SLF.png/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '페이턴트 가죽 헤드밴드',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiu_products/5/5IH/5IH025/069F0011/5IH025_069_F0011_MDL.png/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '페이턴트 가죽 헤드밴드',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiu_products/5/5IH/5IH025/069F0011/5IH025_069_F0011_SLQ.png/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '페이턴트 가죽 헤드밴드',
+        index: 2,
+      },
+    ],
+    local_image: '5IH025_069_F0011.jpg',
+    local_detail_images: [
+      '5IH025_069_F0011_detail_thumbnail.jpg',
+      '5IH025_069_F0011_detail_2.jpg',
+      '5IH025_069_F0011_detail_3.jpg',
+    ],
+  },
 ];
