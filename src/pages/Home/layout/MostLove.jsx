@@ -7,7 +7,7 @@ const items = [
   { title: '여성 핸드백', imgUrl: 'bags' },
   { title: '여성 구두', imgUrl: 'shoes' },
   { title: '지갑 & 카드홀더', imgUrl: 'wallets' },
-  { title: '악세사리', imgUrl: 'acc' },
+  { title: '악세사리', imgUrl: 'jewellery' },
 ];
 
 const MostLove = () => {
@@ -24,7 +24,7 @@ const MostLove = () => {
           {items.map((el, index) => {
             return (
               <li className="item" category={el.imgUrl} key={index}>
-                <Link>
+                <Link to={`/${el.imgUrl}`}>
                   <div className="item-img">
                     <img
                       src={`/assets/images/static/main/mostLoved/${el.imgUrl}.png`}

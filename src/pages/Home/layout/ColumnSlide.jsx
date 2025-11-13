@@ -2,6 +2,7 @@ import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Mousewheel, Autoplay, Pagination } from 'swiper/modules';
 import '../scss/ColumnSlide.scss';
+import { Link } from 'react-router-dom';
 
 const slideItems = [
   {
@@ -68,8 +69,10 @@ const ColumnSlide = () => {
           className="mySwiper">
           {slideItems.map((el) => {
             return (
-              <SwiperSlide data-alt={el.alt}>
-                <img src={el.imgUrl} alt={el.alt} />
+              <SwiperSlide>
+                <Link data-alt={el.alt} to={`/product/${el.title}`}>
+                  <img src={el.imgUrl} alt={el.alt} />
+                </Link>
               </SwiperSlide>
             );
           })}

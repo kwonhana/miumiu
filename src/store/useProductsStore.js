@@ -5,19 +5,21 @@ const categoryKorMap = {
   wallets: '지갑',
   small: '스몰 지갑',
   card: '카드 지갑',
+
   bags: '가방',
   mini: '미니백',
   topHandles: '토트백',
   shoulder: '숄더백',
-
   hobo: '호보백',
   backpacks: '백팩',
   totes: '토트백',
+
   jewellery: '쥬얼리',
   earrings: '귀걸이',
   necklaces: '목걸이',
   bracelets: '팔찌',
   'rings-and-brooches': '반지/브로치',
+
   shoes: '신발',
   pumps: '펌프스',
   sandals: '샌들',
@@ -25,6 +27,15 @@ const categoryKorMap = {
   sneakers: '스니커즈',
   'boots-and-ankle-boots': '부츠',
   'loafers-and-lace-ups': '로퍼/레이스업',
+
+  accessories: '패션악세사리',
+  eyewear: '아이웨어',
+  pouches: '파우치',
+  hats: '모자',
+  'scarves-and-gloves': '스카프와 장갑',
+  'hair-accessories': '헤어 악세사리',
+  'bag-accessories-and-keychains': '키링',
+  belts: '벨트',
   고객센터: '고객센터',
   이벤트: '이벤트',
 };

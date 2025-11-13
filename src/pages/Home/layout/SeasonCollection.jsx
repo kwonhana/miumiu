@@ -5,20 +5,20 @@ import { useState } from 'react';
 
 const items = [
   {
-    imgUrl: './assets/images/static/main/SeasonCollection/5BA302_US0_F0002_V_OWO.png',
-    alt: '5BA302_US0_F0002_V_OWO',
+    imgUrl: './assets/images/static/main/SeasonCollection/5NE851_068_F0011.png',
+    alt: '5NE851_068_F0011',
   },
   {
-    imgUrl: './assets/images/static/main/SeasonCollection/5BB142_2CS4_F0393_V_OON.png',
-    alt: '5BB142_2CS4_F0393_V_OON',
+    imgUrl: './assets/images/static/main/SeasonCollection/5BB142_2CS4_F0003_V_OON.png',
+    alt: '5BB142_2CS4_F0003_V_OON',
   },
   {
     imgUrl: './assets/images/static/main/SeasonCollection/5BB172_2CRW_F0NBL_V_OOO.png',
     alt: '5BB172_2CRW_F0NBL_V_OOO',
   },
   {
-    imgUrl: './assets/images/static/main/SeasonCollection/5BB182_2IER_F0046_V_MOO.png',
-    alt: '5BB182_2IER_F0046_V_MOO',
+    imgUrl: './assets/images/static/main/SeasonCollection/5MC103_2FPP_F098L.png',
+    alt: '5MC103_2FPP_F098L',
   },
   {
     imgUrl: './assets/images/static/main/SeasonCollection/5BC125_2IDK_F0036_V_OWS.png',

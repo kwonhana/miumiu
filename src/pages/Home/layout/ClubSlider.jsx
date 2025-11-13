@@ -90,7 +90,7 @@ const CulbSlider = () => {
           {clubCard.concat(clubCard).map((c, id) => {
             return (
               <li className="card-box" key={id}>
-                <Link>
+                <Link to={`/product/${c.menu}`}>
                   <img src={c.src} alt={c.alt} />
                   <p className="card-menu">{c.menu}</p>
                   <span className="card-title">{c.title}</span>
@@ -106,7 +106,7 @@ const CulbSlider = () => {
           {clubCard2.concat(clubCard2).map((c, id) => {
             return (
               <li className="card-box" key={id}>
-                <Link>
+                <Link to={`/product/${c.menu}`}>
                   <img src={c.src} alt={c.alt} />
                   <p className="card-menu">{c.menu}</p>
                   <span className="card-title">{c.title}</span>
