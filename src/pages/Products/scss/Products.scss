@@ -1,16 +1,21 @@
-@use '../../../App.scss' as product;
+@use '../../../App.scss' as pd;
 
+h2 {
+  @include pd.font(2.2rem, 500, #000);
+  text-align: center;
+  margin: 0 auto;
+}
 .product-page {
   padding-top: 180px;
   h2 {
-    @include product.font(2.2rem, 500, #000);
+    @include pd.font(2.2rem, 500, #000);
     text-align: center;
     line-height: 140%;
   }
 }
 
 .product-menu {
-  @include product.flex(center, cneter, 0);
+  @include pd.flex(center, cneter, 0);
   padding-top: 30px;
   .item-menu {
     display: grid;
@@ -21,7 +26,7 @@
       background-color: lightseagreen;
     }
     p {
-      @include product.font(1.6rem, 400, #333);
+      @include pd.font(1.6rem, 400, #333);
       padding-top: 12px;
       text-align: center;
     }
@@ -30,5 +35,23 @@
 
 .product-list {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 4px;
+
+  .item {
+    aspect-ratio: 447/595;
+  }
+
+  .product-text-box {
+    padding: 30px;
+
+    h3 {
+      @include pd.font(2.2rem, 400, pd.$base);
+      margin-bottom: 12px;
+    }
+
+    p {
+      @include pd.font(1.8rem, 400, pd.$text-666);
+    }
+  }
 }

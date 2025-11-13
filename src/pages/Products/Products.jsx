@@ -22,19 +22,19 @@ const Products = () => {
     }
   });
 
-  console.log(filtered);
+  console.log(filtered, '보오자');
 
   return (
     <section className="product-page inner">
-      <h2>{}</h2>
+      <h2>{filtered[0].kor}</h2>
       <div className="product-menu">
         <ul className="item-menu"></ul>
       </div>
       <div className="product-list-wrap">
         <ul className="product-list">
           {filtered.map((p) => (
-            <li key={p.id}>
-              <Link>
+            <li className="item" key={p.id}>
+              <Link to={`/product/${p.id}`}>
                 <img
                   src={p.detail_images?.find((img) => img.type === 'thumbnail')?.url}
                   alt={p.name}

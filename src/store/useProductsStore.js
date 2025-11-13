@@ -37,8 +37,12 @@ export const useProductsStore = create((set, get) => ({
     const pull = get().items;
     if (pull.length > 0) return;
 
-    set({ items: products });
-    console.log(products);
+    const enriched = products.map((item) => ({
+      ...item,
+      kor: categoryKorMap[item.category1] || '', // 없는 경우 대비
+    }));
+    set({ items: enriched });
+    console.log(enriched);
   },
 
   // ------ 메뉴 생성 --------

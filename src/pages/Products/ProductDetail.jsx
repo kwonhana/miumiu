@@ -1,28 +1,59 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Button from '../../component/layout/Button';
 import './scss/ProductDetail.scss';
-import { Link } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import { useProductsStore } from '../../store/useProductsStore';
+import ProductSkeleton from './ProductSkeleton';
 
-const ProductDetail = ({ id }) => {
-  // const { id } = useParams();
+const ProductDetail = () => {
+  const { id } = useParams();
+  const { items, onFecthItems } = useProductsStore();
+  //상품을 저장하는 변수
+  const [product, setProduct] = useState(null);
+  //이미지를 저장하는 변수
+  const [mainImage, setMainImage] = useState('');
 
-  const { items } = useProductsStore();
+  useEffect(() => {
+    if (items.length === 0) {
+      onFecthItems();
+    }
+  }, []);
 
-  console.log(items);
+  useEffect(() => {
+    const findItem = items.find((item) => item.id === id);
+    setProduct(findItem);
+  }, [id, items]);
+
+  if (!product) {
+    return <ProductSkeleton />;
+  }
+  console.log(product, 'zzz');
 
   return (
     <section className="ProductDetail-wrap">
       <div className="inner">
         <div className="ProductDetail-top">
-          <div className="top-left"></div>
+          <div className="top-left">
+            <div className="main-image">
+              <img src={`/assets/images/detail/${product.local_detail_images[0]}`} alt="" />
+            </div>
+            <ul className="sub-image">
+              {product.local_detail_images.map((img, index) => {
+                return (
+                  <li key={index}>
+                    <img src={`/assets/images/detail/${img}`} alt={product.name} />
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
           <div className="top-right">
             <p className="title">
-              <span className="tag">태그태그</span>
+              <span className="tag">{product.tags ? product.tags : ''}</span>
               <div className="wish-icon"></div>
             </p>
-            <h3>제목제목</h3>
-            <p className="price">가격</p>
+            <h3>{product.name}</h3>
+            <p className="price">{product.price}</p>
 
             <div className="button-wrap">
               <Button title="장바구니 담기" />
@@ -55,14 +86,55 @@ const ProductDetail = ({ id }) => {
             </div>
           </div>
           <div className="product-info">
-            <div className="image1"></div>
-            <div className="image2"></div>
-            <div className="image3"></div>
-            <div className="image4"></div>
-            <div className="image5"></div>
-            <div className="image6"></div>
-            <div className="image7"></div>
-            <div className="image8"></div>
+            <ul className="info-list">
+              {product.local_detail_images.map((img, index) => {
+                return (
+                  <React.Fragment key={index}>
+                    <li>
+                      <img src={`/assets/images/detail/${img}`} alt={product.name} />
+                    </li>
+
+                    {index === 1 && (
+                      <div className="product-acc-info">
+                        <div className="info">
+                          <h4>{product.name}</h4>
+                          <p>{product.subtitle}</p>
+                        </div>
+                      </div>
+                    )}
+
+                    {index === 3 && (
+                      <div className="product-acc-info flex">
+                        <div className="info">
+                          <h4>사이즈</h4>
+                          <ul>
+                            {product.size_info.map((el, i) => {
+                              return <li key={i}>· {el}</li>;
+                            })}
+                          </ul>
+                        </div>
+
+                        <div className="info">
+                          <h4>소재</h4>
+                          <ul>
+                            <li>· {product.material}</li>
+                          </ul>
+                        </div>
+
+                        <div className="info">
+                          <h4>추가 정보 </h4>
+                          <ul>
+                            {product.bullet_points.map((el, i) => {
+                              return <li key={i}>· {el}</li>;
+                            })}
+                          </ul>
+                        </div>
+                      </div>
+                    )}
+                  </React.Fragment>
+                );
+              })}
+            </ul>
           </div>
         </div>
       </div>

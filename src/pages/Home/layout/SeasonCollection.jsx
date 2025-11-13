@@ -62,11 +62,11 @@ const SeasonCollection = () => {
     <section className="SeasonCollection">
       <div className="topSection">
         <div className="inner">
-          <div className="left-container">
+          <div className="left-container wow animate__animated animate__fadeInLeft">
             <span>season collection</span>
             <h2>miu miu automne</h2>
           </div>
-          <div className="right-container">
+          <div className="right-container wow animate__animated animate__fadeInRight">
             <img src="/assets/images/static/main/SeasonCollection/SeasonCollection.png" alt="" />
           </div>
         </div>

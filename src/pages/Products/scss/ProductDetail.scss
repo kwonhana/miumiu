@@ -3,14 +3,27 @@
 .ProductDetail-wrap {
   width: 100%;
   padding-top: 80px;
+  margin-top: 60px;
 
   .ProductDetail-top {
     @include pd.flex(space-between, center, 4%);
   }
   .top-left {
     width: 55%;
+    height: fit-content;
     aspect-ratio: 1/1;
-    border: 1px solid;
+    position: relative;
+    .sub-image {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      @include pd.flex(start, center, 8px);
+      li {
+        aspect-ratio: 1/1;
+        width: 7.5%;
+        border: 1px solid yellow;
+      }
+    }
   }
 
   .top-right {
@@ -19,7 +32,6 @@
 
     .title {
       @include pd.flex(space-between, start, 0);
-      border: 1px solid red;
       .tag {
         @include pd.font(1.4rem, 400, pd.$text-666);
         line-height: 1;
@@ -98,6 +110,48 @@
             border: 1px solid pd.$base;
             background-color: pd.$base;
             color: #fff;
+          }
+        }
+      }
+    }
+
+    .product-info {
+      .info-list {
+        @include pd.flex(center, center, 160px);
+        flex-direction: column;
+        list-style: none;
+        width: 63%;
+        margin: 0 auto;
+      }
+
+      .product-acc-info {
+        &.flex {
+          display: flex;
+          flex-direction: column;
+          gap: 100px;
+        }
+      }
+      .info {
+        h4 {
+          @include pd.font(2.2rem, 500, pd.$base);
+          text-align: center;
+        }
+        p {
+          margin-top: 20px;
+          @include pd.font(1.6rem, 400, pd.$text-666);
+          text-align: center;
+          word-break: keep-all;
+          line-height: 120%;
+        }
+
+        ul {
+          margin-top: 40px;
+
+          li {
+            @include pd.font(1.6rem, 400, pd.$text-666);
+            text-align: center;
+            word-break: keep-all;
+            line-height: 1.7;
           }
         }
       }
