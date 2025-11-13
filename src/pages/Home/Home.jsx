@@ -32,7 +32,6 @@ const Home = () => {
       <CousLet />
       <BirthdayInput />
       <PhoneInput />
-      <NameInput />
     </main>
   );
 };

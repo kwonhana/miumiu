@@ -1,15 +1,19 @@
 import React, { useEffect, useState } from 'react';
-import './scss/Input.scss';
+import './scss/nameInput.scss';
 
+//TODO 이름 input
 const NameInput = () => {
   const [lastName, setLastName] = useState('');
   const [name, setName] = useState('');
   const [nameStatus, setNameStatus] = useState('');
   const [lastNameStatus, setLastNameStatus] = useState('');
+  const [lastNameTouch, setLastNameTouch] = useState(false);
+  const [nameTouch, setNameTouch] = useState(false);
   const koreanRegex = /^[가-힣]*$/;
-  const validateLastName = () => {
+  const validateLastName = (e) => {
+    if (!lastNameTouch) return;
     if (!lastName) {
-      setLastNameStatus('');
+      setLastNameStatus('failure');
       return;
     }
     if (!koreanRegex.test(lastName)) {
@@ -23,9 +27,10 @@ const NameInput = () => {
       setLastNameStatus('failure');
     }
   };
-  const validateName = () => {
+  const validateName = (e) => {
+    if (!nameTouch) return;
     if (!name) {
-      setNameStatus('');
+      setNameStatus('failure');
       return;
     }
     if (!koreanRegex.test(name)) {
@@ -41,16 +46,15 @@ const NameInput = () => {
   };
   const handleLastNameChange = (e) => {
     const value = e.target.value;
-    if (koreanRegex.test(value) && value.length <= 2) {
-      setLastName(value);
-    }
+    if (!lastNameTouch) setLastNameTouch(true);
+    if (koreanRegex.test(value) && value.length <= 4) setLastName(value);
   };
   const handleNameChange = (e) => {
     const value = e.target.value;
-    if (koreanRegex.test(value) && value.length <= 3) {
-      setName(value);
-    }
+    if (!nameTouch) setNameTouch(true);
+    if (koreanRegex.test(value) && value.length <= 5) setName(value);
   };
+
   useEffect(() => {
     validateLastName();
   }, [lastName]);
@@ -60,9 +64,9 @@ const NameInput = () => {
 
   return (
     <div className="base-input">
+      <span>이름*</span>
       <div className="name-wrap">
-        <span>이름*</span>
-        <div className="inputBox">
+        <div className={`input-box ${lastNameStatus}`}>
           <input
             className="lastName-input"
             type="text"
@@ -77,6 +81,8 @@ const NameInput = () => {
             </div>
           )}
           {lastNameStatus === 'failure' && <div className="info">성을 입력하세요</div>}
+        </div>
+        <div className={`input-box ${nameStatus}`}>
           <input
             className="name-input"
             type="text"

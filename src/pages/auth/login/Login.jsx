@@ -62,7 +62,9 @@ const Login = () => {
                 <Link className="link">비밀번호를 잊으셨나요?</Link>
               </p>
               <p>
-                <Link className="link">회원가입</Link>
+                <Link to="/Join" className="link">
+                  회원가입
+                </Link>
               </p>
             </div>
 

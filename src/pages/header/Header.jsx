@@ -64,7 +64,7 @@ const Header = () => {
               </Link>
             </div>
             <div className="Icon user">
-              <Link>
+              <Link to="/Login">
                 <img src="/assets/icon/UserIcon.svg" alt="user" />
               </Link>
             </div>
