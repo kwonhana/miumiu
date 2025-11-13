@@ -38,119 +38,130 @@ const ProductDetail = () => {
   console.log(product, '상세페이지 상품');
 
   return (
-    <section className="ProductDetail-wrap">
-      <div className="inner">
-        <div className="ProductDetail-top">
-          <div className="top-left">
-            <div className="main-image">
-              <img src={`/assets/images/detail/${mainImage}`} alt="" />
+    <>
+      <section className="ProductDetail-wrap">
+        <div className="inner">
+          <div className="ProductDetail-top">
+            <div className="top-left">
+              <div className="main-image">
+                <img src={`/assets/images/detail/${mainImage}`} alt="" />
+              </div>
+              <ul className="sub-image">
+                {product.local_detail_images.map((img, index) => {
+                  return (
+                    <li key={index} className={mainImage === img ? 'active' : ''}>
+                      <img
+                        src={`/assets/images/detail/${img}`}
+                        onClick={() => setMainImage(img)}
+                        alt={product.name}
+                      />
+                    </li>
+                  );
+                })}
+              </ul>
             </div>
-            <ul className="sub-image">
-              {product.local_detail_images.map((img, index) => {
-                return (
-                  <li key={index} className={mainImage === img ? 'active' : ''}>
-                    <img
-                      src={`/assets/images/detail/${img}`}
-                      onClick={() => setMainImage(img)}
-                      alt={product.name}
-                    />
-                  </li>
-                );
-              })}
-            </ul>
-          </div>
-          <div className="top-right">
-            <p className="title">
-              <span className="tag">{product.tags ? product.tags : ''}</span>
-              <div className="wish-icon"></div>
-            </p>
-            <h3>{product.name}</h3>
-            <p className="price">{product.price}</p>
+            <div className="top-right">
+              <p className="title">
+                <span className="tag">{product.tags ? product.tags : ''}</span>
+                <div className="wish-icon"></div>
+              </p>
+              <h3>{product.name}</h3>
+              <p className="price">{product.price}</p>
 
-            <div className="button-wrap">
-              <Button title="장바구니 담기" />
-              <Button title="구매하기" />
+              <div className="button-wrap">
+                <Button title="장바구니 담기" />
+                <Button title="구매하기" />
+              </div>
             </div>
           </div>
         </div>
         <div className="ProductDetail-bottom">
           <div className="top-nav">
-            <ul>
-              <li>
-                <Link className="link">제품 설명</Link>
-              </li>
-              <li>
-                <Link className="link">제품 상세 정보</Link>
-              </li>
-              <li>
-                <Link className="link">사이즈 가이드</Link>
-              </li>
-              <li>
-                <Link className="link">제품 세부 정보</Link>
-              </li>
-              <li>
-                <Link className="link">매장 찾기</Link>
-              </li>
-            </ul>
-            <div className="button-wrap">
-              <Button title="장바구니 담기" />
-              <Button title="구매하기" />
+            <div className="nav-inner">
+              <ul>
+                <li>
+                  <Link className="link">제품 설명</Link>
+                </li>
+                <li>
+                  <Link className="link">제품 상세 정보</Link>
+                </li>
+                <li>
+                  <Link className="link">사이즈 가이드</Link>
+                </li>
+                <li>
+                  <Link className="link">제품 세부 정보</Link>
+                </li>
+                <li>
+                  <Link className="link">매장 찾기</Link>
+                </li>
+              </ul>
+              <div className="button-wrap">
+                <Button title="장바구니 담기" />
+                <Button title="구매하기" />
+              </div>
             </div>
           </div>
-          <div className="product-info">
-            <ul className="info-list">
-              {product.local_detail_images.map((img, index) => {
-                return (
-                  <React.Fragment key={index}>
-                    <li>
-                      <img src={`/assets/images/detail/${img}`} alt={product.name} />
-                    </li>
+          <div className="inner">
+            <div className="product-info">
+              <ul className="info-list">
+                {product.local_detail_images.map((img, index) => {
+                  return (
+                    <React.Fragment key={index}>
+                      <li>
+                        <img src={`/assets/images/detail/${img}`} alt={product.name} />
+                      </li>
 
-                    {index === 1 && (
-                      <div className="product-acc-info">
-                        <div className="info">
-                          <h4>{product.name}</h4>
-                          <p>{product.subtitle}</p>
+                      {index === 1 && (
+                        <div className="product-acc-info">
+                          <div className="info">
+                            <h4>{product.name}</h4>
+                            <p>{product.subtitle}</p>
+                          </div>
                         </div>
-                      </div>
-                    )}
+                      )}
 
-                    {index === 3 && (
-                      <div className="product-acc-info flex">
-                        <div className="info">
-                          <h4>사이즈</h4>
-                          <ul>
-                            {product.size_info.map((el, i) => {
-                              return <li key={i}>· {el}</li>;
-                            })}
-                          </ul>
-                        </div>
+                      {index === 3 && (
+                        <div className="product-acc-info flex">
+                          <div className="info">
+                            <h4>사이즈</h4>
+                            <ul>
+                              {product.size_info.map((el, i) => {
+                                return <li key={i}>· {el}</li>;
+                              })}
+                            </ul>
+                          </div>
 
-                        <div className="info">
-                          <h4>소재</h4>
-                          <ul>
-                            <li>· {product.material}</li>
-                          </ul>
-                        </div>
+                          <div className="info">
+                            <h4>소재</h4>
+                            <ul>
+                              <li>· {product.material}</li>
+                            </ul>
+                          </div>
 
-                        <div className="info">
-                          <h4>추가 정보 </h4>
-                          <ul>
-                            {product.bullet_points.map((el, i) => {
-                              return <li key={i}>· {el}</li>;
-                            })}
-                          </ul>
+                          <div className="info">
+                            <h4>추가 정보 </h4>
+                            <ul>
+                              {product.bullet_points.map((el, i) => {
+                                return <li key={i}>· {el}</li>;
+                              })}
+                            </ul>
+                          </div>
                         </div>
-                      </div>
-                    )}
-                  </React.Fragment>
-                );
-              })}
-            </ul>
+                      )}
+                    </React.Fragment>
+                  );
+                })}
+              </ul>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+      <section className="RelatedProducts">
+        <h3>관련 제품</h3>
+
+        <div className="products-wrap"></div>
+      </section>
+    </>
   );
 };
 

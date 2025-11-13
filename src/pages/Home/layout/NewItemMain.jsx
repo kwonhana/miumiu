@@ -9,9 +9,13 @@ import ColumnSlide from './ColumnSlide';
 
 const newItemTitle = [
   { item: '보 플래드 백', no: '5BB173_2DU5_F0Z0F_V_OWM', id: '5BB173_2DU5_F0Z0F_V_OWM' },
-  { item: '트릭 가죽 키링', no: '5TL516_2E6Y_F0032', id: '' },
-  { item: '시어링 트래퍼 햇', no: '5HC386_2CSR_F0040', id: '' },
-  { item: '시어링 패치워크 스톨', no: 'MPY055_181P_F0038_S_OOO', id: '' },
+  { item: '트릭 가죽 키링', no: '5TL516_2E6Y_F0032', id: '5TL516_2E6Y_F0032' },
+  { item: '시어링 트래퍼 햇', no: '5HC386_2CSR_F0040', id: '5HC386_2CSR_F0040' },
+  {
+    item: '캔버스 및 가죽 백팩',
+    no: '5BZ043_2IBQ_F04KC_V_OOO_detail_5',
+    id: '5BZ043_2IBQ_F04KC_V_OOO',
+  },
 ];
 
 const NewItemMain = () => {
@@ -39,7 +43,7 @@ const NewItemMain = () => {
                 <div className="gradient-wrap">
                   <span>WHAT'S NEW</span>
                   <h2>{product.item}</h2>
-                  <Link to={`/product/${product.no}`} className="link">
+                  <Link to={`/product/${product.id}`} className="link">
                     구매하기
                   </Link>
                 </div>
