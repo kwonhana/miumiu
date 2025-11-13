@@ -24,10 +24,18 @@ const ProductDetail = () => {
     setProduct(findItem);
   }, [id, items]);
 
+  useEffect(() => {
+    if (product?.local_detail_images?.length > 0) {
+      setMainImage(product.local_detail_images[0]); // 이때 mainImage는 string으로 가정
+    }
+  }, [product]);
+
   if (!product) {
     return <ProductSkeleton />;
   }
-  console.log(product, 'zzz');
+  console.log(setMainImage, mainImage, '이미지');
+
+  console.log(product, '상세페이지 상품');
 
   return (
     <section className="ProductDetail-wrap">
@@ -35,13 +43,17 @@ const ProductDetail = () => {
         <div className="ProductDetail-top">
           <div className="top-left">
             <div className="main-image">
-              <img src={`/assets/images/detail/${product.local_detail_images[0]}`} alt="" />
+              <img src={`/assets/images/detail/${mainImage}`} alt="" />
             </div>
             <ul className="sub-image">
               {product.local_detail_images.map((img, index) => {
                 return (
-                  <li key={index}>
-                    <img src={`/assets/images/detail/${img}`} alt={product.name} />
+                  <li key={index} className={mainImage === img ? 'active' : ''}>
+                    <img
+                      src={`/assets/images/detail/${img}`}
+                      onClick={() => setMainImage(img)}
+                      alt={product.name}
+                    />
                   </li>
                 );
               })}

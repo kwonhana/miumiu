@@ -34084,4 +34084,10645 @@ export const products = [
       'SMU52Y_E5AK_FE06S_C_054_detail_7.jpg',
     ],
   },
+  {
+    id: '5HC378_2CQD_F0031',
+    index: 1,
+    category1: 'accessories',
+    category2: 'hats',
+    name: '모헤어 비니',
+    price: '₩ 660,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC378/2CQDF0031/5HC378_2CQD_F0031_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EB%AA%A8%ED%97%A4%EC%96%B4-%EB%B9%84%EB%8B%88/5HC378_2CQD_F0031',
+    crawled_at: '2025-11-13T16:05:58.784734',
+    subtitle:
+      '한눈에 알아볼 수 있는 아이코닉하고 독특한 개성의 미우미우 인타르시아 로고가 시선을 사로잡는 울 비니입니다.',
+    bullet_points: ['제품 코드: 5HC378_2CQD_F0031', '인타르시아 로고'],
+    size_info: [],
+    material: '주 소재: 폴리아미드, 모헤어, 울',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC378/2CQDF0031/5HC378_2CQD_F0031_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '모헤어 비니',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC378/2CQDF0031/5HC378_2CQD_F0031_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '모헤어 비니',
+        index: 1,
+      },
+    ],
+    local_image: '5HC378_2CQD_F0031.jpg',
+    local_detail_images: [
+      '5HC378_2CQD_F0031_detail_thumbnail.jpg',
+      '5HC378_2CQD_F0031_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5HC378_2CQD_F0018',
+    index: 2,
+    category1: 'accessories',
+    category2: 'hats',
+    name: '모헤어 비니',
+    price: '₩ 660,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC378/2CQDF0018/5HC378_2CQD_F0018_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EB%AA%A8%ED%97%A4%EC%96%B4-%EB%B9%84%EB%8B%88/5HC378_2CQD_F0018',
+    crawled_at: '2025-11-13T16:06:21.189288',
+    subtitle:
+      '한눈에 알아볼 수 있는 아이코닉하고 독특한 개성의 미우미우 인타르시아 로고가 시선을 사로잡는 울 비니입니다.',
+    bullet_points: ['제품 코드: 5HC378_2CQD_F0018', '인타르시아 로고'],
+    size_info: [],
+    material: '주 소재: 폴리아미드, 모헤어, 울',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC378/2CQDF0018/5HC378_2CQD_F0018_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '모헤어 비니',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC378/2CQDF0018/5HC378_2CQD_F0018_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '모헤어 비니',
+        index: 1,
+      },
+    ],
+    local_image: '5HC378_2CQD_F0018.jpg',
+    local_detail_images: [
+      '5HC378_2CQD_F0018_detail_thumbnail.jpg',
+      '5HC378_2CQD_F0018_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5HC369_2IF2_F0D3Z',
+    index: 3,
+    category1: 'accessories',
+    category2: 'hats',
+    name: '플리스 베이스볼 캡',
+    price: '₩ 1,010,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2IF2F0D3Z/5HC369_2IF2_F0D3Z_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%ED%94%8C%EB%A6%AC%EC%8A%A4-%EB%B2%A0%EC%9D%B4%EC%8A%A4%EB%B3%BC-%EC%BA%A1/5HC369_2IF2_F0D3Z',
+    crawled_at: '2025-11-13T16:06:44.619337',
+    subtitle:
+      '미우미우 워드로브의 아이코닉한 소재인 플리스가 이 캡의 부드러운 볼륨과 텍스처를 완성합니다. 체크 패턴과 스포츠웨어에서 영감을 받은 투톤 코드 디테일이 더해져 세련된 개성과 현대적인 감각을 강조합니다.',
+    bullet_points: [
+      '제품 코드: 5HC369_2IF2_F0D3Z',
+      '맞춤 조절형 코드',
+      '슬라이딩 메탈 스토퍼',
+      '코튼 안감',
+      '자수 로고',
+    ],
+    size_info: [],
+    material: '패브릭',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2IF2F0D3Z/5HC369_2IF2_F0D3Z_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '플리스 베이스볼 캡',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2IF2F0D3Z/5HC369_2IF2_F0D3Z_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '플리스 베이스볼 캡',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2IF2F0D3Z/5HC369_2IF2_F0D3Z_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '플리스 베이스볼 캡',
+        index: 2,
+      },
+    ],
+    local_image: '5HC369_2IF2_F0D3Z.jpg',
+    local_detail_images: [
+      '5HC369_2IF2_F0D3Z_detail_thumbnail.jpg',
+      '5HC369_2IF2_F0D3Z_detail_2.jpg',
+      '5HC369_2IF2_F0D3Z_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5HC488_18SI_F0013',
+    index: 4,
+    category1: 'accessories',
+    category2: 'hats',
+    name: '울 모자',
+    price: '₩ 1,100,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC488/18SIF0013/5HC488_18SI_F0013_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url: 'https://www.miumiu.com/kr/ko/p/%EC%9A%B8-%EB%AA%A8%EC%9E%90/5HC488_18SI_F0013',
+    crawled_at: '2025-11-13T16:07:10.634278',
+    subtitle:
+      '이 울 모자의 클래식 페어 아일 패턴은 디자인의 질감과 감싸는 라인을 돋보이게 하며, 폼폼 장식이 세련미를 더합니다.',
+    bullet_points: [
+      '제품 코드: 5HC488_18SI_F0013',
+      '자카드 니트',
+      '귀덮개와 폼폼 타이',
+      '라벨 로고',
+    ],
+    size_info: [],
+    material: '주 소재: 폴리에스터',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC488/18SIF0013/5HC488_18SI_F0013_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 모자',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC488/18SIF0013/5HC488_18SI_F0013_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 모자',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC488/18SIF0013/5HC488_18SI_F0013_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 모자',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC488/18SIF0013/5HC488_18SI_F0013_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 모자',
+        index: 3,
+      },
+    ],
+    local_image: '5HC488_18SI_F0013.jpg',
+    local_detail_images: [
+      '5HC488_18SI_F0013_detail_thumbnail.jpg',
+      '5HC488_18SI_F0013_detail_2.jpg',
+      '5HC488_18SI_F0013_detail_3.jpg',
+      '5HC488_18SI_F0013_detail_4.jpg',
+    ],
+  },
+  {
+    id: '5HC488_18SI_F0028',
+    index: 5,
+    category1: 'accessories',
+    category2: 'hats',
+    name: '울 모자',
+    price: '₩ 1,100,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC488/18SIF0028/5HC488_18SI_F0028_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url: 'https://www.miumiu.com/kr/ko/p/%EC%9A%B8-%EB%AA%A8%EC%9E%90/5HC488_18SI_F0028',
+    crawled_at: '2025-11-13T16:07:35.836672',
+    subtitle:
+      '이 울 모자의 클래식 페어 아일 패턴은 디자인의 질감과 감싸는 라인을 돋보이게 하며, 폼폼 장식이 세련미를 더합니다.',
+    bullet_points: [
+      '제품 코드: 5HC488_18SI_F0028',
+      '자카드 니트',
+      '귀덮개와 폼폼 타이',
+      '라벨 로고',
+    ],
+    size_info: [],
+    material: '주 소재: 폴리에스터',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC488/18SIF0028/5HC488_18SI_F0028_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 모자',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC488/18SIF0028/5HC488_18SI_F0028_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 모자',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC488/18SIF0028/5HC488_18SI_F0028_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 모자',
+        index: 2,
+      },
+    ],
+    local_image: '5HC488_18SI_F0028.jpg',
+    local_detail_images: [
+      '5HC488_18SI_F0028_detail_thumbnail.jpg',
+      '5HC488_18SI_F0028_detail_2.jpg',
+      '5HC488_18SI_F0028_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5HC489_18SI_F0028',
+    index: 6,
+    category1: 'accessories',
+    category2: 'hats',
+    name: '울 모자',
+    price: '₩ 820,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC489/18SIF0028/5HC489_18SI_F0028_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url: 'https://www.miumiu.com/kr/ko/p/%EC%9A%B8-%EB%AA%A8%EC%9E%90/5HC489_18SI_F0028',
+    crawled_at: '2025-11-13T16:07:57.991126',
+    subtitle:
+      '이 울 모자의 클래식 페어 아일 패턴은 깔끔한 라인과 부드러운 질감을 돋보이게 하며, 전통 스타일의 매력을 현대적인 감성과 결합합니다.',
+    bullet_points: ['제품 코드: 5HC489_18SI_F0028', '자카드 니트', '라벨 로고'],
+    size_info: [],
+    material: '주 소재: 순수 울',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC489/18SIF0028/5HC489_18SI_F0028_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 모자',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC489/18SIF0028/5HC489_18SI_F0028_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 모자',
+        index: 1,
+      },
+    ],
+    local_image: '5HC489_18SI_F0028.jpg',
+    local_detail_images: [
+      '5HC489_18SI_F0028_detail_thumbnail.jpg',
+      '5HC489_18SI_F0028_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5HC369_2CWC_F04Z5',
+    index: 7,
+    category1: 'accessories',
+    category2: 'hats',
+    name: '코튼 베이스볼 캡',
+    price: '₩ 840,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2CWCF04Z5/5HC369_2CWC_F04Z5_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%BD%94%ED%8A%BC-%EB%B2%A0%EC%9D%B4%EC%8A%A4%EB%B3%BC-%EC%BA%A1/5HC369_2CWC_F04Z5',
+    crawled_at: '2025-11-13T16:08:22.597783',
+    subtitle:
+      '드릴의 워싱 효과가 대비되는 색상을 돋보이게 하며, 미우미우의 대담하고 스포티한 정신을 구현한 이 베이스볼 캡의 디자인에 캐주얼한 느낌을 더합니다.',
+    bullet_points: ['제품 코드: 5HC369_2CWC_F04Z5', '워싱 데님 처리', '자수 로고'],
+    size_info: [],
+    material: '주 소재: 코튼',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2CWCF04Z5/5HC369_2CWC_F04Z5_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '코튼 베이스볼 캡',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2CWCF04Z5/5HC369_2CWC_F04Z5_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '코튼 베이스볼 캡',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2CWCF04Z5/5HC369_2CWC_F04Z5_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '코튼 베이스볼 캡',
+        index: 2,
+      },
+    ],
+    local_image: '5HC369_2CWC_F04Z5.jpg',
+    local_detail_images: [
+      '5HC369_2CWC_F04Z5_detail_thumbnail.jpg',
+      '5HC369_2CWC_F04Z5_detail_2.jpg',
+      '5HC369_2CWC_F04Z5_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5HC369_2CWC_F04Z6',
+    index: 8,
+    category1: 'accessories',
+    category2: 'hats',
+    name: '코튼 베이스볼 캡',
+    price: '₩ 840,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2CWCF04Z6/5HC369_2CWC_F04Z6_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%BD%94%ED%8A%BC-%EB%B2%A0%EC%9D%B4%EC%8A%A4%EB%B3%BC-%EC%BA%A1/5HC369_2CWC_F04Z6',
+    crawled_at: '2025-11-13T16:08:56.243998',
+    subtitle:
+      '드릴의 워싱 효과가 대비되는 색상을 돋보이게 하며, 미우미우의 대담하고 스포티한 정신을 구현한 이 베이스볼 캡의 디자인에 캐주얼한 느낌을 더합니다.',
+    bullet_points: ['제품 코드: 5HC369_2CWC_F04Z6', '워싱 데님 처리', '자수 로고'],
+    size_info: [],
+    material: '주 소재: 코튼',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2CWCF04Z6/5HC369_2CWC_F04Z6_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '코튼 베이스볼 캡',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2CWCF04Z6/5HC369_2CWC_F04Z6_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '코튼 베이스볼 캡',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2CWCF04Z6/5HC369_2CWC_F04Z6_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '코튼 베이스볼 캡',
+        index: 2,
+      },
+    ],
+    local_image: '5HC369_2CWC_F04Z6.jpg',
+    local_detail_images: [
+      '5HC369_2CWC_F04Z6_detail_thumbnail.jpg',
+      '5HC369_2CWC_F04Z6_detail_2.jpg',
+      '5HC369_2CWC_F04Z6_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5HC369_2CWC_F04ZH',
+    index: 9,
+    category1: 'accessories',
+    category2: 'hats',
+    name: '코튼 베이스볼 캡',
+    price: '₩ 840,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2CWCF04ZH/5HC369_2CWC_F04ZH_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%BD%94%ED%8A%BC-%EB%B2%A0%EC%9D%B4%EC%8A%A4%EB%B3%BC-%EC%BA%A1/5HC369_2CWC_F04ZH',
+    crawled_at: '2025-11-13T16:09:24.536640',
+    subtitle:
+      '드릴의 워싱 효과가 대비되는 색상을 돋보이게 하며, 미우미우의 대담하고 스포티한 정신을 구현한 이 베이스볼 캡의 디자인에 캐주얼한 느낌을 더합니다.',
+    bullet_points: ['제품 코드: 5HC369_2CWC_F04ZH', '워싱 데님 처리', '자수 로고'],
+    size_info: [],
+    material: '주 소재: 코튼',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2CWCF04ZH/5HC369_2CWC_F04ZH_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '코튼 베이스볼 캡',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2CWCF04ZH/5HC369_2CWC_F04ZH_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '코튼 베이스볼 캡',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2CWCF04ZH/5HC369_2CWC_F04ZH_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '코튼 베이스볼 캡',
+        index: 2,
+      },
+    ],
+    local_image: '5HC369_2CWC_F04ZH.jpg',
+    local_detail_images: [
+      '5HC369_2CWC_F04ZH_detail_thumbnail.jpg',
+      '5HC369_2CWC_F04ZH_detail_2.jpg',
+      '5HC369_2CWC_F04ZH_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5HC369_2CWC_F0IX2',
+    index: 10,
+    category1: 'accessories',
+    category2: 'hats',
+    name: '코튼 베이스볼 캡',
+    price: '₩ 840,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2CWCF0IX2/5HC369_2CWC_F0IX2_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%BD%94%ED%8A%BC-%EB%B2%A0%EC%9D%B4%EC%8A%A4%EB%B3%BC-%EC%BA%A1/5HC369_2CWC_F0IX2',
+    crawled_at: '2025-11-13T16:09:57.782403',
+    subtitle:
+      '드릴의 워싱 효과가 대비되는 색상을 돋보이게 하며, 미우미우의 대담하고 스포티한 정신을 구현한 이 베이스볼 캡의 디자인에 캐주얼한 느낌을 더합니다.',
+    bullet_points: ['제품 코드: 5HC369_2CWC_F0IX2', '워싱 데님 처리', '자수 로고'],
+    size_info: [],
+    material: '주 소재: 코튼',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2CWCF0IX2/5HC369_2CWC_F0IX2_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '코튼 베이스볼 캡',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2CWCF0IX2/5HC369_2CWC_F0IX2_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '코튼 베이스볼 캡',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2CWCF0IX2/5HC369_2CWC_F0IX2_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '코튼 베이스볼 캡',
+        index: 2,
+      },
+    ],
+    local_image: '5HC369_2CWC_F0IX2.jpg',
+    local_detail_images: [
+      '5HC369_2CWC_F0IX2_detail_thumbnail.jpg',
+      '5HC369_2CWC_F0IX2_detail_2.jpg',
+      '5HC369_2CWC_F0IX2_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5HC324_2ID1_F0036',
+    index: 11,
+    category1: 'accessories',
+    category2: 'hats',
+    name: '울 모자',
+    price: '₩ 970,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC324/2ID1F0036/5HC324_2ID1_F0036_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url: 'https://www.miumiu.com/kr/ko/p/%EC%9A%B8-%EB%AA%A8%EC%9E%90/5HC324_2ID1_F0036',
+    crawled_at: '2025-11-13T16:10:27.880562',
+    subtitle:
+      '폼폼은 미우미우의 장난스럽고 유행을 타지 않는 정신을 표현하며, 캐주얼 시즌 룩을 위해 제작된 부드러운 울 모자의 세련된 디자인을 완성합니다.',
+    bullet_points: ['제품 코드: 5HC324_2ID1_F0036', '이어머프와 폼폼 레이스', '로고 라벨'],
+    size_info: [],
+    material: '주 소재: 캐시미어 버진 울',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC324/2ID1F0036/5HC324_2ID1_F0036_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 모자',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC324/2ID1F0036/5HC324_2ID1_F0036_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 모자',
+        index: 1,
+      },
+    ],
+    local_image: '5HC324_2ID1_F0036.jpg',
+    local_detail_images: [
+      '5HC324_2ID1_F0036_detail_thumbnail.jpg',
+      '5HC324_2ID1_F0036_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5HC386_2CSR_F0040',
+    index: 12,
+    category1: 'accessories',
+    category2: 'hats',
+    name: '울, 캐시미어, 시어링 트래퍼 햇',
+    price: '₩ 1,100,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC386/2CSRF0040/5HC386_2CSR_F0040_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%9A%B8-%EC%BA%90%EC%8B%9C%EB%AF%B8%EC%96%B4-%EC%8B%9C%EC%96%B4%EB%A7%81-%ED%8A%B8%EB%9E%98%ED%8D%BC-%ED%96%87/5HC386_2CSR_F0040',
+    crawled_at: '2025-11-13T16:10:53.704414',
+    subtitle: '따뜻하고 포근한 룩에 대비되는 로고가 특징인 울, 캐시미어 및 시어링 트래퍼 햇입니다.',
+    bullet_points: ['제품 코드: 5HC386_2CSR_F0040', '이어 플랩', '로고 라벨', '시어링 안감'],
+    size_info: [],
+    material: '주 소재: 폴리에스터',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC386/2CSRF0040/5HC386_2CSR_F0040_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울, 캐시미어, 시어링 트래퍼 햇',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC386/2CSRF0040/5HC386_2CSR_F0040_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울, 캐시미어, 시어링 트래퍼 햇',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC386/2CSRF0040/5HC386_2CSR_F0040_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울, 캐시미어, 시어링 트래퍼 햇',
+        index: 2,
+      },
+    ],
+    local_image: '5HC386_2CSR_F0040.jpg',
+    local_detail_images: [
+      '5HC386_2CSR_F0040_detail_thumbnail.jpg',
+      '5HC386_2CSR_F0040_detail_2.jpg',
+      '5HC386_2CSR_F0040_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5HC432_2IEJ_F073X',
+    index: 13,
+    category1: 'accessories',
+    category2: 'hats',
+    name: '울 및 캐시미어 모자',
+    price: '₩ 820,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%9A%B8-%EB%B0%8F-%EC%BA%90%EC%8B%9C%EB%AF%B8%EC%96%B4-%EB%AA%A8%EC%9E%90/5HC432_2IEJ_F073X',
+    crawled_at: '2025-11-13T16:11:18.559478',
+    subtitle:
+      '부드러운 울과 캐시미어로 제작된 이 모자는 절제된 라인과 컨템포러리한 감각을 결합했습니다. 은은한 컬러와 아이코닉한 대비 로고가 더해져 세련된 매력을 한층 강조합니다.',
+    bullet_points: ['제품 코드: 5HC432_2IEJ_F073X', '레이스 장식으로', '로고 라벨'],
+    size_info: [],
+    material: '주 소재: 재생 폴리에스터',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC432/2IEJF073X/5HC432_2IEJ_F073X_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 및 캐시미어 모자',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC432/2IEJF073X/5HC432_2IEJ_F073X_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 및 캐시미어 모자',
+        index: 1,
+      },
+    ],
+    local_image: '5HC432_2IEJ_F073X.jpg',
+    local_detail_images: [
+      '5HC432_2IEJ_F073X_detail_thumbnail.jpg',
+      '5HC432_2IEJ_F073X_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5HC432_2IEJ_F0637',
+    index: 14,
+    category1: 'accessories',
+    category2: 'hats',
+    name: '울 및 캐시미어 모자',
+    price: '₩ 820,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%9A%B8-%EB%B0%8F-%EC%BA%90%EC%8B%9C%EB%AF%B8%EC%96%B4-%EB%AA%A8%EC%9E%90/5HC432_2IEJ_F0637',
+    crawled_at: '2025-11-13T16:11:40.727842',
+    subtitle:
+      '부드러운 울과 캐시미어로 제작된 이 모자는 절제된 라인과 컨템포러리한 감각을 결합했습니다. 은은한 컬러와 아이코닉한 대비 로고가 더해져 세련된 매력을 한층 강조합니다.',
+    bullet_points: ['제품 코드: 5HC432_2IEJ_F0637', '레이스 장식으로', '로고 라벨'],
+    size_info: [],
+    material: '주 소재: 재생 폴리에스터',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC432/2IEJF0637/5HC432_2IEJ_F0637_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 및 캐시미어 모자',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC432/2IEJF0637/5HC432_2IEJ_F0637_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 및 캐시미어 모자',
+        index: 1,
+      },
+    ],
+    local_image: '5HC432_2IEJ_F0637.jpg',
+    local_detail_images: [
+      '5HC432_2IEJ_F0637_detail_thumbnail.jpg',
+      '5HC432_2IEJ_F0637_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5HC365_2IDY_F0D4O',
+    index: 15,
+    category1: 'accessories',
+    category2: 'hats',
+    name: '플리스 트래퍼 모자',
+    price: '₩ 1,100,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%ED%94%8C%EB%A6%AC%EC%8A%A4-%ED%8A%B8%EB%9E%98%ED%8D%BC-%EB%AA%A8%EC%9E%90/5HC365_2IDY_F0D4O',
+    crawled_at: '2025-11-13T16:12:04.976845',
+    subtitle:
+      '미우미우 워드로브의 아이코닉한 소재인 플리스로 완성된 이 트래퍼 햇은 챙과 귀덮개가 더해진 부드러운 실루엣과 은은한 색조로 클래식한 윈터 무드를 연상시킵니다.',
+    bullet_points: [
+      '제품 코드: 5HC365_2IDY_F0D4O',
+      '가죽 디테일이 있는 코드 레이스',
+      '이어 플랩과 바이저가 있는 제품',
+      '코튼 안감',
+      '자수 로고',
+    ],
+    size_info: [],
+    material: '패브릭',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC365/2IDYF0D4O/5HC365_2IDY_F0D4O_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '플리스 트래퍼 모자',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC365/2IDYF0D4O/5HC365_2IDY_F0D4O_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '플리스 트래퍼 모자',
+        index: 1,
+      },
+    ],
+    local_image: '5HC365_2IDY_F0D4O.jpg',
+    local_detail_images: [
+      '5HC365_2IDY_F0D4O_detail_thumbnail.jpg',
+      '5HC365_2IDY_F0D4O_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5HC272_2IA4_F0TQI',
+    index: 16,
+    category1: 'accessories',
+    category2: 'hats',
+    name: '플래드와 플러시 플리스 캡',
+    price: '₩ 1,070,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%ED%94%8C%EB%9E%98%EB%93%9C%EC%99%80-%ED%94%8C%EB%9F%AC%EC%8B%9C-%ED%94%8C%EB%A6%AC%EC%8A%A4-%EC%BA%A1/5HC272_2IA4_F0TQI',
+    crawled_at: '2025-11-13T16:12:27.149876',
+    subtitle:
+      '스포티하고 다재다능한 소재인 플리스를 퍼 효과로 새롭게 해석한 캡으로, 아이코닉한 플래드 모티프와 어우러져 심플함과 캐주얼한 스타일의 균형을 완성합니다.',
+    bullet_points: ['제품 코드: 5HC272_2IA4_F0TQI', '귀마개', '플러시 플리스 라이닝', '자수 로고'],
+    size_info: [],
+    material: '주 소재: 폴리아미드, 순수 울',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC272/2IA4F0TQI/5HC272_2IA4_F0TQI_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '플래드와 플러시 플리스 캡',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC272/2IA4F0TQI/5HC272_2IA4_F0TQI_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '플래드와 플러시 플리스 캡',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC272/2IA4F0TQI/5HC272_2IA4_F0TQI_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '플래드와 플러시 플리스 캡',
+        index: 2,
+      },
+    ],
+    local_image: '5HC272_2IA4_F0TQI.jpg',
+    local_detail_images: [
+      '5HC272_2IA4_F0TQI_detail_thumbnail.jpg',
+      '5HC272_2IA4_F0TQI_detail_2.jpg',
+      '5HC272_2IA4_F0TQI_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5HC369_2IDY_F0S0O',
+    index: 17,
+    category1: 'accessories',
+    category2: 'hats',
+    name: '플리스 베이스볼 캡',
+    price: '₩ 1,020,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%ED%94%8C%EB%A6%AC%EC%8A%A4-%EB%B2%A0%EC%9D%B4%EC%8A%A4%EB%B3%BC-%EC%BA%A1/5HC369_2IDY_F0S0O',
+    crawled_at: '2025-11-13T16:12:51.229846',
+    subtitle:
+      '플리스는 미우미우 워드로브의 아이코닉한 소재로, 부드러운 색조와 스포츠웨어에서 영감을 받은 투톤 코드가 특징인 이 캡의 부드러운 볼륨과 질감을 정의합니다.',
+    bullet_points: [
+      '제품 코드: 5HC369_2IDY_F0S0O',
+      '슬라이딩 스토퍼가 있는 코드',
+      '코튼 안감',
+      '자수 로고',
+    ],
+    size_info: [],
+    material: '주 소재: 코튼',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2IDYF0S0O/5HC369_2IDY_F0S0O_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '플리스 베이스볼 캡',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2IDYF0S0O/5HC369_2IDY_F0S0O_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '플리스 베이스볼 캡',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2IDYF0S0O/5HC369_2IDY_F0S0O_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '플리스 베이스볼 캡',
+        index: 2,
+      },
+    ],
+    local_image: '5HC369_2IDY_F0S0O.jpg',
+    local_detail_images: [
+      '5HC369_2IDY_F0S0O_detail_thumbnail.jpg',
+      '5HC369_2IDY_F0S0O_detail_2.jpg',
+      '5HC369_2IDY_F0S0O_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5HC369_2IDY_F04PE',
+    index: 18,
+    category1: 'accessories',
+    category2: 'hats',
+    name: '플리스 베이스볼 캡',
+    price: '₩ 1,020,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%ED%94%8C%EB%A6%AC%EC%8A%A4-%EB%B2%A0%EC%9D%B4%EC%8A%A4%EB%B3%BC-%EC%BA%A1/5HC369_2IDY_F04PE',
+    crawled_at: '2025-11-13T16:13:17.454899',
+    subtitle:
+      '플리스는 미우미우 워드로브의 아이코닉한 소재로, 부드러운 색조와 스포츠웨어에서 영감을 받은 투톤 코드가 특징인 이 캡의 부드러운 볼륨과 질감을 정의합니다.',
+    bullet_points: [
+      '제품 코드: 5HC369_2IDY_F04PE',
+      '슬라이딩 스토퍼가 있는 코드',
+      '코튼 안감',
+      '자수 로고',
+    ],
+    size_info: [],
+    material: '주 소재: 코튼',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2IDYF04PE/5HC369_2IDY_F04PE_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '플리스 베이스볼 캡',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2IDYF04PE/5HC369_2IDY_F04PE_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '플리스 베이스볼 캡',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2IDYF04PE/5HC369_2IDY_F04PE_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '플리스 베이스볼 캡',
+        index: 2,
+      },
+    ],
+    local_image: '5HC369_2IDY_F04PE.jpg',
+    local_detail_images: [
+      '5HC369_2IDY_F04PE_detail_thumbnail.jpg',
+      '5HC369_2IDY_F04PE_detail_2.jpg',
+      '5HC369_2IDY_F04PE_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5HC425_2DUF_F0684',
+    index: 19,
+    category1: 'accessories',
+    category2: 'hats',
+    name: '펠트 모자',
+    price: '₩ 890,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%ED%8E%A0%ED%8A%B8-%EB%AA%A8%EC%9E%90/5HC425_2DUF_F0684',
+    crawled_at: '2025-11-13T16:13:41.485623',
+    subtitle:
+      '부드러운 울 펠트로 완성된 클로슈의 우아한 실루엣은 클래식한 컬러와 어우러져 타임리스한 페미닌 우아함을 고스란히 드러냅니다.',
+    bullet_points: ['제품 코드: 5HC425_2DUF_F0684', '로고 라벨'],
+    size_info: [],
+    material: '주 소재: 코튼',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiu_products/5/5HC/5HC425/2DUFF0684/5HC425_2DUF_F0684_SLF.png/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '펠트 모자',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiu_products/5/5HC/5HC425/2DUFF0684/5HC425_2DUF_F0684_SLR.png/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '펠트 모자',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiu_products/5/5HC/5HC425/2DUFF0684/5HC425_2DUF_F0684_MDL.png/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '펠트 모자',
+        index: 2,
+      },
+    ],
+    local_image: '5HC425_2DUF_F0684.jpg',
+    local_detail_images: [
+      '5HC425_2DUF_F0684_detail_thumbnail.jpg',
+      '5HC425_2DUF_F0684_detail_2.jpg',
+      '5HC425_2DUF_F0684_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5HC432_2IEJ_F0244',
+    index: 20,
+    category1: 'accessories',
+    category2: 'hats',
+    name: '울 및 캐시미어 모자',
+    price: '₩ 820,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%9A%B8-%EB%B0%8F-%EC%BA%90%EC%8B%9C%EB%AF%B8%EC%96%B4-%EB%AA%A8%EC%9E%90/5HC432_2IEJ_F0244',
+    crawled_at: '2025-11-13T16:14:02.967627',
+    subtitle:
+      '부드러운 울과 캐시미어로 제작된 이 모자는 절제된 라인과 컨템포러리한 감각을 결합했습니다. 은은한 컬러와 아이코닉한 대비 로고가 더해져 세련된 매력을 한층 강조합니다.',
+    bullet_points: ['제품 코드: 5HC432_2IEJ_F0244', '레이스 장식으로', '로고 라벨'],
+    size_info: [],
+    material: '주 소재: 재생 폴리에스터',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC432/2IEJF0244/5HC432_2IEJ_F0244_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 및 캐시미어 모자',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC432/2IEJF0244/5HC432_2IEJ_F0244_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 및 캐시미어 모자',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC432/2IEJF0244/5HC432_2IEJ_F0244_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 및 캐시미어 모자',
+        index: 2,
+      },
+    ],
+    local_image: '5HC432_2IEJ_F0244.jpg',
+    local_detail_images: [
+      '5HC432_2IEJ_F0244_detail_thumbnail.jpg',
+      '5HC432_2IEJ_F0244_detail_2.jpg',
+      '5HC432_2IEJ_F0244_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5HC179_AF6P_F0201',
+    index: 21,
+    category1: 'accessories',
+    category2: 'hats',
+    name: '나파 가죽 베이스볼 캡',
+    price: '₩ 1,430,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EB%82%98%ED%8C%8C-%EA%B0%80%EC%A3%BD-%EB%B2%A0%EC%9D%B4%EC%8A%A4%EB%B3%BC-%EC%BA%A1/5HC179_AF6P_F0201',
+    crawled_at: '2025-11-13T16:14:26.690931',
+    subtitle:
+      '나파 가죽의 정교한 빈티지 효과 처리가 미우미우의 스포티한 코드를 재해석하며, 에이징된 텍스처와 아이코닉한 엠보싱 로고가 어우러져 매력을 더합니다.',
+    bullet_points: [
+      '제품 코드: 5HC179_AF6P_F0201',
+      '빈티지 효과 처리',
+      '코튼 개버딘 안감',
+      '조절 가능한 레더 백 스트랩',
+      '엠보싱 레터링 로',
+    ],
+    size_info: [],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC179/AF6PF0201/5HC179_AF6P_F0201_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 베이스볼 캡',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC179/AF6PF0201/5HC179_AF6P_F0201_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 베이스볼 캡',
+        index: 1,
+      },
+    ],
+    local_image: '5HC179_AF6P_F0201.jpg',
+    local_detail_images: [
+      '5HC179_AF6P_F0201_detail_thumbnail.jpg',
+      '5HC179_AF6P_F0201_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5HC369_2CUA_F04RA',
+    index: 22,
+    category1: 'accessories',
+    category2: 'hats',
+    name: '벨벳 베이스볼 캡',
+    price: '₩ 1,010,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EB%B2%A8%EB%B2%B3-%EB%B2%A0%EC%9D%B4%EC%8A%A4%EB%B3%BC-%EC%BA%A1/5HC369_2CUA_F04RA',
+    crawled_at: '2025-11-13T16:14:48.782749',
+    subtitle:
+      '캐주얼한 영감과 우아한 요소를 조합하여 클래식한 베이스볼 캡을 벨벳 버전으로 재해석했습니다.',
+    bullet_points: [
+      '제품 코드: 5HC369_2CUA_F04RA',
+      '맞춤 조절형 스트랩과 가죽 엔드 캡',
+      '자수 로고',
+    ],
+    size_info: [],
+    material: '패브릭',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiu_products/5/5HC/5HC369/2CUAF04RA/5HC369_2CUA_F04RA_SLF.png/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '벨벳 베이스볼 캡',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiu_products/5/5HC/5HC369/2CUAF04RA/5HC369_2CUA_F04RA_SLR.png/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '벨벳 베이스볼 캡',
+        index: 1,
+      },
+    ],
+    local_image: '5HC369_2CUA_F04RA.jpg',
+    local_detail_images: [
+      '5HC369_2CUA_F04RA_detail_thumbnail.jpg',
+      '5HC369_2CUA_F04RA_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5HC369_2CUA_F0844',
+    index: 23,
+    category1: 'accessories',
+    category2: 'hats',
+    name: '벨벳 베이스볼 캡',
+    price: '₩ 1,010,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EB%B2%A8%EB%B2%B3-%EB%B2%A0%EC%9D%B4%EC%8A%A4%EB%B3%BC-%EC%BA%A1/5HC369_2CUA_F0844',
+    crawled_at: '2025-11-13T16:15:10.747426',
+    subtitle:
+      '캐주얼한 영감과 우아한 요소를 조합하여 클래식한 베이스볼 캡을 벨벳 버전으로 재해석했습니다.',
+    bullet_points: [
+      '제품 코드: 5HC369_2CUA_F0844',
+      '맞춤 조절형 스트랩과 가죽 엔드 캡',
+      '자수 로고',
+    ],
+    size_info: [],
+    material: '패브릭',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2CUAF0844/5HC369_2CUA_F0844_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '벨벳 베이스볼 캡',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2CUAF0844/5HC369_2CUA_F0844_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '벨벳 베이스볼 캡',
+        index: 1,
+      },
+    ],
+    local_image: '5HC369_2CUA_F0844.jpg',
+    local_detail_images: [
+      '5HC369_2CUA_F0844_detail_thumbnail.jpg',
+      '5HC369_2CUA_F0844_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5HC369_2CUA_F034S',
+    index: 24,
+    category1: 'accessories',
+    category2: 'hats',
+    name: '벨벳 베이스볼 캡',
+    price: '₩ 1,010,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EB%B2%A8%EB%B2%B3-%EB%B2%A0%EC%9D%B4%EC%8A%A4%EB%B3%BC-%EC%BA%A1/5HC369_2CUA_F034S',
+    crawled_at: '2025-11-13T16:15:36.571442',
+    subtitle:
+      '캐주얼한 영감과 우아한 요소를 조합하여 클래식한 베이스볼 캡을 벨벳 버전으로 재해석했습니다.',
+    bullet_points: [
+      '제품 코드: 5HC369_2CUA_F034S',
+      '맞춤 조절형 스트랩과 가죽 엔드 캡',
+      '자수 로고',
+    ],
+    size_info: [],
+    material: '패브릭',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2CUAF034S/5HC369_2CUA_F034S_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '벨벳 베이스볼 캡',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2CUAF034S/5HC369_2CUA_F034S_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '벨벳 베이스볼 캡',
+        index: 1,
+      },
+    ],
+    local_image: '5HC369_2CUA_F034S.jpg',
+    local_detail_images: [
+      '5HC369_2CUA_F034S_detail_thumbnail.jpg',
+      '5HC369_2CUA_F034S_detail_2.jpg',
+    ],
+  },
+
+  {
+    id: '5NE851_AEFX_F0002',
+    index: 1,
+    category1: 'accessories',
+    category2: 'pouches',
+    name: '나파 가죽 파우치',
+    price: '₩ 1,640,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/AEFXF0002/5NE851_AEFX_F0002_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EB%82%98%ED%8C%8C-%EA%B0%80%EC%A3%BD-%ED%8C%8C%EC%9A%B0%EC%B9%98/5NE851_AEFX_F0002',
+    crawled_at: '2025-11-13T15:32:49.468433',
+    subtitle:
+      '컴팩트한 기능성 디자인의 부드러운 나파 가죽 파우치입니다. 숄더 스트랩이 실용적인 디테일을 더하며, 레터링 로고가 아이코닉한 디자인을 완성합니다.',
+    bullet_points: [
+      '제품 코드: 5NE851_AEFX_F0002',
+      '지퍼 클로저',
+      '엠보싱 레터링 로고',
+      '탈부착이 가능한 맞춤 조절형 가죽 숄더 스트랩',
+      '방수 리넨 내부',
+    ],
+    size_info: ['높이 9cm', '폭 22cm', '길이 9cm'],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/AEFXF0002/5NE851_AEFX_F0002_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 파우치',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/AEFXF0002/5NE851_AEFX_F0002_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 파우치',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/AEFXF0002/5NE851_AEFX_F0002_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 파우치',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/AEFXF0002/5NE851_AEFX_F0002_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 파우치',
+        index: 3,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/AEFXF0002/5NE851_AEFX_F0002_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 파우치',
+        index: 4,
+      },
+    ],
+    local_image: '5NE851_AEFX_F0002.jpg',
+    local_detail_images: [
+      '5NE851_AEFX_F0002_detail_thumbnail.jpg',
+      '5NE851_AEFX_F0002_detail_2.jpg',
+      '5NE851_AEFX_F0002_detail_3.jpg',
+      '5NE851_AEFX_F0002_detail_4.jpg',
+      '5NE851_AEFX_F0002_detail_5.jpg',
+    ],
+  },
+  {
+    id: '5NE851_AEFX_F0316',
+    index: 2,
+    category1: 'accessories',
+    category2: 'pouches',
+    name: '나파 가죽 파우치',
+    price: '₩ 1,640,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/AEFXF0316/5NE851_AEFX_F0316_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EB%82%98%ED%8C%8C-%EA%B0%80%EC%A3%BD-%ED%8C%8C%EC%9A%B0%EC%B9%98/5NE851_AEFX_F0316',
+    crawled_at: '2025-11-13T15:33:17.034446',
+    subtitle:
+      '컴팩트한 기능성 디자인의 부드러운 나파 가죽 파우치입니다. 숄더 스트랩이 실용적인 디테일을 더하며, 레터링 로고가 아이코닉한 디자인을 완성합니다.',
+    bullet_points: [
+      '제품 코드: 5NE851_AEFX_F0316',
+      '지퍼 클로저',
+      '엠보싱 레터링 로고',
+      '탈부착이 가능한 맞춤 조절형 가죽 숄더 스트랩',
+      '방수 리넨 내부',
+    ],
+    size_info: ['높이 9cm', '폭 22cm', '길이 9cm'],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/AEFXF0316/5NE851_AEFX_F0316_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 파우치',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/AEFXF0316/5NE851_AEFX_F0316_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 파우치',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/AEFXF0316/5NE851_AEFX_F0316_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 파우치',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/AEFXF0316/5NE851_AEFX_F0316_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 파우치',
+        index: 3,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/AEFXF0316/5NE851_AEFX_F0316_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 파우치',
+        index: 4,
+      },
+    ],
+    local_image: '5NE851_AEFX_F0316.jpg',
+    local_detail_images: [
+      '5NE851_AEFX_F0316_detail_thumbnail.jpg',
+      '5NE851_AEFX_F0316_detail_2.jpg',
+      '5NE851_AEFX_F0316_detail_3.jpg',
+      '5NE851_AEFX_F0316_detail_4.jpg',
+      '5NE851_AEFX_F0316_detail_5.jpg',
+    ],
+  },
+  {
+    id: '5NE851_AEFX_F0NBL',
+    index: 3,
+    category1: 'accessories',
+    category2: 'pouches',
+    name: '나파 가죽 파우치',
+    price: '₩ 1,640,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/AEFXF0NBL/5NE851_AEFX_F0NBL_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EB%82%98%ED%8C%8C-%EA%B0%80%EC%A3%BD-%ED%8C%8C%EC%9A%B0%EC%B9%98/5NE851_AEFX_F0NBL',
+    crawled_at: '2025-11-13T15:33:37.722317',
+    subtitle:
+      '컴팩트한 기능성 디자인의 부드러운 나파 가죽 파우치입니다. 숄더 스트랩이 실용적인 디테일을 더하며, 레터링 로고가 아이코닉한 디자인을 완성합니다.',
+    bullet_points: [
+      '제품 코드: 5NE851_AEFX_F0NBL',
+      '지퍼 클로저',
+      '엠보싱 레터링 로고',
+      '탈부착이 가능한 맞춤 조절형 가죽 숄더 스트랩',
+      '방수 리넨 내부',
+    ],
+    size_info: ['높이 9cm', '폭 22cm', '길이 9cm'],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/AEFXF0NBL/5NE851_AEFX_F0NBL_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 파우치',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/AEFXF0NBL/5NE851_AEFX_F0NBL_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 파우치',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/AEFXF0NBL/5NE851_AEFX_F0NBL_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 파우치',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/AEFXF0NBL/5NE851_AEFX_F0NBL_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 파우치',
+        index: 3,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/AEFXF0NBL/5NE851_AEFX_F0NBL_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 파우치',
+        index: 4,
+      },
+    ],
+    local_image: '5NE851_AEFX_F0NBL.jpg',
+    local_detail_images: [
+      '5NE851_AEFX_F0NBL_detail_thumbnail.jpg',
+      '5NE851_AEFX_F0NBL_detail_2.jpg',
+      '5NE851_AEFX_F0NBL_detail_3.jpg',
+      '5NE851_AEFX_F0NBL_detail_4.jpg',
+      '5NE851_AEFX_F0NBL_detail_5.jpg',
+    ],
+  },
+  {
+    id: '5NE851_ACSS_F0393',
+    index: 4,
+    category1: 'accessories',
+    category2: 'pouches',
+    name: '스웨이드 파우치',
+    price: '₩ 1,640,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/ACSSF0393/5NE851_ACSS_F0393_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%8A%A4%EC%9B%A8%EC%9D%B4%EB%93%9C-%ED%8C%8C%EC%9A%B0%EC%B9%98/5NE851_ACSS_F0393',
+    crawled_at: '2025-11-13T15:33:58.639851',
+    subtitle:
+      '컴팩트한 기능성 디자인의 부드러운 스웨이드 파우치입니다. 숄더 스트랩이 실용적인 디테일을 더하며, 레터링 로고가 아이코닉한 디자인을 완성합니다.',
+    bullet_points: [
+      '제품 코드: 5NE851_ACSS_F0393',
+      '탈부착이 가능한 맞춤 조절형 가죽 숄더 스트랩',
+      '지퍼 클로저',
+      '방수 리넨 안감',
+      '엠보싱 레터링 로고',
+    ],
+    size_info: ['높이 9cm', '폭 22cm', '길이 9cm'],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/ACSSF0393/5NE851_ACSS_F0393_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '스웨이드 파우치',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/ACSSF0393/5NE851_ACSS_F0393_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '스웨이드 파우치',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/ACSSF0393/5NE851_ACSS_F0393_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '스웨이드 파우치',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/ACSSF0393/5NE851_ACSS_F0393_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '스웨이드 파우치',
+        index: 3,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/ACSSF0393/5NE851_ACSS_F0393_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '스웨이드 파우치',
+        index: 4,
+      },
+    ],
+    local_image: '5NE851_ACSS_F0393.jpg',
+    local_detail_images: [
+      '5NE851_ACSS_F0393_detail_thumbnail.jpg',
+      '5NE851_ACSS_F0393_detail_2.jpg',
+      '5NE851_ACSS_F0393_detail_3.jpg',
+      '5NE851_ACSS_F0393_detail_4.jpg',
+      '5NE851_ACSS_F0393_detail_5.jpg',
+    ],
+  },
+  {
+    id: '5NE851_2ICT_F0EDH',
+    index: 22,
+    category1: 'accessories',
+    category2: 'pouches',
+    name: '프린트 가죽 파우치',
+    price: '₩ 2,500,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%ED%94%84%EB%A6%B0%ED%8A%B8-%EA%B0%80%EC%A3%BD-%ED%8C%8C%EC%9A%B0%EC%B9%98/5NE851_2ICT_F0EDH',
+    crawled_at: '2025-11-13T15:40:33.843382',
+    subtitle:
+      '유연하면서도 필수적인 감각을 지닌 이 파우치는 미우미우 워드로브의 젊고 세련된 정신을 담고 있습니다. 애니멀 프린트 버전으로 선보이며, 실험적인 감성과 레트로 무드가 조화롭게 어우러집니다.',
+    bullet_points: [
+      '제품 코드: 5NE851_2ICT_F0EDH',
+      '탈부착이 가능한 맞춤 조절형 가죽 숄더 스트랩',
+      '지퍼 클로저',
+      '라이닝의 코튼 개버딘',
+      '가죽 레터링 로고',
+    ],
+    size_info: ['높이 9cm', '폭 22cm', '길이 9cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/2ICTF0EDH/5NE851_2ICT_F0EDH_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '프린트 가죽 파우치',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/2ICTF0EDH/5NE851_2ICT_F0EDH_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '프린트 가죽 파우치',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/2ICTF0EDH/5NE851_2ICT_F0EDH_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '프린트 가죽 파우치',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/2ICTF0EDH/5NE851_2ICT_F0EDH_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '프린트 가죽 파우치',
+        index: 3,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/2ICTF0EDH/5NE851_2ICT_F0EDH_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '프린트 가죽 파우치',
+        index: 4,
+      },
+    ],
+    local_image: '5NE851_2ICT_F0EDH.jpg',
+    local_detail_images: [
+      '5NE851_2ICT_F0EDH_detail_thumbnail.jpg',
+      '5NE851_2ICT_F0EDH_detail_2.jpg',
+      '5NE851_2ICT_F0EDH_detail_3.jpg',
+      '5NE851_2ICT_F0EDH_detail_4.jpg',
+      '5NE851_2ICT_F0EDH_detail_5.jpg',
+    ],
+  },
+  {
+    id: '5NE851_068_F0002',
+    index: 6,
+    category1: 'accessories',
+    category2: 'pouches',
+    name: '벨벳 파우치',
+    price: '₩ 2,150,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/068F0002/5NE851_068_F0002_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EB%B2%A8%EB%B2%B3-%ED%8C%8C%EC%9A%B0%EC%B9%98/5NE851_068_F0002',
+    crawled_at: '2025-11-13T15:34:47.159010',
+    subtitle:
+      '벨벳의 유행을 타지 않는 매력과 반짝이는 메탈 로고가 이 파우치의 미니멀한 실루엣에 개성을 더해주며, 유쾌하면서도 세련된 분위기를 드러내어 다양한 홀리데이 룩에 완벽하게 어울립니다.',
+    bullet_points: [
+      '제품 코드: 5NE851_068_F0002',
+      '체인 숄더 스트랩',
+      '지퍼 클로저',
+      '코튼 새틴 라이닝',
+      '메탈 레터링 로고',
+    ],
+    size_info: ['높이 9cm', '폭 22cm', '길이 9cm'],
+    material: '주 소재: 코튼',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/068F0002/5NE851_068_F0002_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '벨벳 파우치',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/068F0002/5NE851_068_F0002_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '벨벳 파우치',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/068F0002/5NE851_068_F0002_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '벨벳 파우치',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/068F0002/5NE851_068_F0002_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '벨벳 파우치',
+        index: 3,
+      },
+    ],
+    local_image: '5NE851_068_F0002.jpg',
+    local_detail_images: [
+      '5NE851_068_F0002_detail_thumbnail.jpg',
+      '5NE851_068_F0002_detail_2.jpg',
+      '5NE851_068_F0002_detail_3.jpg',
+      '5NE851_068_F0002_detail_4.jpg',
+    ],
+  },
+  {
+    id: '5NE851_068_F0011',
+    index: 7,
+    category1: 'accessories',
+    category2: 'pouches',
+    name: '벨벳 파우치',
+    price: '₩ 2,150,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/068F0011/5NE851_068_F0011_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EB%B2%A8%EB%B2%B3-%ED%8C%8C%EC%9A%B0%EC%B9%98/5NE851_068_F0011',
+    crawled_at: '2025-11-13T15:35:09.737731',
+    subtitle:
+      '벨벳의 유행을 타지 않는 매력과 반짝이는 메탈 로고가 이 파우치의 미니멀한 실루엣에 개성을 더해주며, 유쾌하면서도 세련된 분위기를 드러내어 다양한 홀리데이 룩에 완벽하게 어울립니다.',
+    bullet_points: [
+      '제품 코드: 5NE851_068_F0011',
+      '체인 숄더 스트랩',
+      '지퍼 클로저',
+      '코튼 새틴 라이닝',
+      '메탈 레터링 로고',
+    ],
+    size_info: ['높이 9cm', '폭 22cm', '길이 9cm'],
+    material: '주 소재: 코튼',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/068F0011/5NE851_068_F0011_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '벨벳 파우치',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/068F0011/5NE851_068_F0011_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '벨벳 파우치',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/068F0011/5NE851_068_F0011_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '벨벳 파우치',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/068F0011/5NE851_068_F0011_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '벨벳 파우치',
+        index: 3,
+      },
+    ],
+    local_image: '5NE851_068_F0011.jpg',
+    local_detail_images: [
+      '5NE851_068_F0011_detail_thumbnail.jpg',
+      '5NE851_068_F0011_detail_2.jpg',
+      '5NE851_068_F0011_detail_3.jpg',
+      '5NE851_068_F0011_detail_4.jpg',
+    ],
+  },
+  {
+    id: '5NF460_AEFX_F0002',
+    index: 8,
+    category1: 'accessories',
+    category2: 'pouches',
+    name: '나파 가죽 미니 백',
+    price: '₩ 1,640,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF460/AEFXF0002/5NF460_AEFX_F0002_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EB%82%98%ED%8C%8C-%EA%B0%80%EC%A3%BD-%EB%AF%B8%EB%8B%88-%EB%B0%B1/5NF460_AEFX_F0002',
+    crawled_at: '2025-11-13T15:35:30.742905',
+    subtitle:
+      '나파 가죽의 부드러운 텍스처가 특징인 미니 백입니다. 맞춤 조절형 숄더 스트랩이 기능적인 디테일을 더하며, 엠보싱 레터링 로고가 아이코닉한 디자인을 완성합니다.',
+    bullet_points: [
+      '제품 코드: 5NF460_AEFX_F0002',
+      '엠보싱 레터링 로고',
+      '내부 포켓 1개',
+      '맞춤 조절형 가죽 숄더 스트랩',
+      '방수 리넨 패브릭 안감',
+    ],
+    size_info: ['높이 17cm', '폭 14cm', '길이 6cm'],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF460/AEFXF0002/5NF460_AEFX_F0002_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 미니 백',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF460/AEFXF0002/5NF460_AEFX_F0002_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 미니 백',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF460/AEFXF0002/5NF460_AEFX_F0002_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 미니 백',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF460/AEFXF0002/5NF460_AEFX_F0002_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 미니 백',
+        index: 3,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF460/AEFXF0002/5NF460_AEFX_F0002_MDLA.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 미니 백',
+        index: 4,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF460/AEFXF0002/5NF460_AEFX_F0002_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 미니 백',
+        index: 5,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF460/AEFXF0002/5NF460_AEFX_F0002_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 미니 백',
+        index: 6,
+      },
+    ],
+    local_image: '5NF460_AEFX_F0002.jpg',
+    local_detail_images: [
+      '5NF460_AEFX_F0002_detail_thumbnail.jpg',
+      '5NF460_AEFX_F0002_detail_2.jpg',
+      '5NF460_AEFX_F0002_detail_3.jpg',
+      '5NF460_AEFX_F0002_detail_4.jpg',
+      '5NF460_AEFX_F0002_detail_5.jpg',
+      '5NF460_AEFX_F0002_detail_6.jpg',
+      '5NF460_AEFX_F0002_detail_7.jpg',
+    ],
+  },
+  {
+    id: '5NF460_AEFX_F0316',
+    index: 9,
+    category1: 'accessories',
+    category2: 'pouches',
+    name: '나파 가죽 미니 백',
+    price: '₩ 1,640,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF460/AEFXF0316/5NF460_AEFX_F0316_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EB%82%98%ED%8C%8C-%EA%B0%80%EC%A3%BD-%EB%AF%B8%EB%8B%88-%EB%B0%B1/5NF460_AEFX_F0316',
+    crawled_at: '2025-11-13T15:35:51.086173',
+    subtitle:
+      '나파 가죽의 부드러운 텍스처가 특징인 미니 백입니다. 맞춤 조절형 숄더 스트랩이 기능적인 디테일을 더하며, 엠보싱 레터링 로고가 아이코닉한 디자인을 완성합니다.',
+    bullet_points: [
+      '제품 코드: 5NF460_AEFX_F0316',
+      '엠보싱 레터링 로고',
+      '내부 포켓 1개',
+      '맞춤 조절형 가죽 숄더 스트랩',
+      '방수 리넨 패브릭 안감',
+    ],
+    size_info: ['높이 17cm', '폭 14cm', '길이 6cm'],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF460/AEFXF0316/5NF460_AEFX_F0316_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 미니 백',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF460/AEFXF0316/5NF460_AEFX_F0316_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 미니 백',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF460/AEFXF0316/5NF460_AEFX_F0316_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 미니 백',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF460/AEFXF0316/5NF460_AEFX_F0316_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 미니 백',
+        index: 3,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF460/AEFXF0316/5NF460_AEFX_F0316_MDLA.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 미니 백',
+        index: 4,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF460/AEFXF0316/5NF460_AEFX_F0316_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 미니 백',
+        index: 5,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF460/AEFXF0316/5NF460_AEFX_F0316_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 미니 백',
+        index: 6,
+      },
+    ],
+    local_image: '5NF460_AEFX_F0316.jpg',
+    local_detail_images: [
+      '5NF460_AEFX_F0316_detail_thumbnail.jpg',
+      '5NF460_AEFX_F0316_detail_2.jpg',
+      '5NF460_AEFX_F0316_detail_3.jpg',
+      '5NF460_AEFX_F0316_detail_4.jpg',
+      '5NF460_AEFX_F0316_detail_5.jpg',
+      '5NF460_AEFX_F0316_detail_6.jpg',
+      '5NF460_AEFX_F0316_detail_7.jpg',
+    ],
+  },
+  {
+    id: '5NF460_AEFX_F0NBL',
+    index: 10,
+    category1: 'accessories',
+    category2: 'pouches',
+    name: '나파 가죽 미니 백',
+    price: '₩ 1,640,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EB%82%98%ED%8C%8C-%EA%B0%80%EC%A3%BD-%EB%AF%B8%EB%8B%88-%EB%B0%B1/5NF460_AEFX_F0NBL',
+    crawled_at: '2025-11-13T15:36:18.285838',
+    subtitle:
+      '나파 가죽의 부드러운 텍스처가 특징인 미니 백입니다. 맞춤 조절형 숄더 스트랩이 기능적인 디테일을 더하며, 엠보싱 레터링 로고가 아이코닉한 디자인을 완성합니다.',
+    bullet_points: [
+      '제품 코드: 5NF460_AEFX_F0NBL',
+      '엠보싱 레터링 로고',
+      '내부 포켓 1개',
+      '맞춤 조절형 가죽 숄더 스트랩',
+      '방수 리넨 패브릭 안감',
+    ],
+    size_info: ['높이 17cm', '폭 14cm', '길이 6cm'],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF460/AEFXF0NBL/5NF460_AEFX_F0NBL_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 미니 백',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF460/AEFXF0NBL/5NF460_AEFX_F0NBL_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 미니 백',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF460/AEFXF0NBL/5NF460_AEFX_F0NBL_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 미니 백',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF460/AEFXF0NBL/5NF460_AEFX_F0NBL_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 미니 백',
+        index: 3,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF460/AEFXF0NBL/5NF460_AEFX_F0NBL_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 미니 백',
+        index: 4,
+      },
+    ],
+    local_image: '5NF460_AEFX_F0NBL.jpg',
+    local_detail_images: [
+      '5NF460_AEFX_F0NBL_detail_thumbnail.jpg',
+      '5NF460_AEFX_F0NBL_detail_2.jpg',
+      '5NF460_AEFX_F0NBL_detail_3.jpg',
+      '5NF460_AEFX_F0NBL_detail_4.jpg',
+      '5NF460_AEFX_F0NBL_detail_5.jpg',
+    ],
+  },
+  {
+    id: '5NF460_ACSS_F0393',
+    index: 11,
+    category1: 'accessories',
+    category2: 'pouches',
+    name: '스웨이드 파우치',
+    price: '₩ 1,640,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%8A%A4%EC%9B%A8%EC%9D%B4%EB%93%9C-%ED%8C%8C%EC%9A%B0%EC%B9%98/5NF460_ACSS_F0393',
+    crawled_at: '2025-11-13T15:36:44.412428',
+    subtitle:
+      '빈티지한 영감과 세련된 디자인으로 실험적인 미우미우 룩의 독특한 요소가 돋보이는 부드러운 스웨이드 파우치입니다.',
+    bullet_points: [
+      '제품 코드: 5NF460_ACSS_F0393',
+      '맞춤 조절형 가죽 숄더 스트랩',
+      '내부 포켓 1개',
+      '경량 방수 코튼 안감',
+      '엠보싱 레터링 로고',
+    ],
+    size_info: ['높이 17cm', '폭 14cm', '길이 6cm'],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF460/ACSSF0393/5NF460_ACSS_F0393_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '스웨이드 파우치',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF460/ACSSF0393/5NF460_ACSS_F0393_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '스웨이드 파우치',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF460/ACSSF0393/5NF460_ACSS_F0393_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '스웨이드 파우치',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF460/ACSSF0393/5NF460_ACSS_F0393_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '스웨이드 파우치',
+        index: 3,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF460/ACSSF0393/5NF460_ACSS_F0393_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '스웨이드 파우치',
+        index: 4,
+      },
+    ],
+    local_image: '5NF460_ACSS_F0393.jpg',
+    local_detail_images: [
+      '5NF460_ACSS_F0393_detail_thumbnail.jpg',
+      '5NF460_ACSS_F0393_detail_2.jpg',
+      '5NF460_ACSS_F0393_detail_3.jpg',
+      '5NF460_ACSS_F0393_detail_4.jpg',
+      '5NF460_ACSS_F0393_detail_5.jpg',
+    ],
+  },
+  {
+    id: '5NF460_ACSS_F0324',
+    index: 12,
+    category1: 'accessories',
+    category2: 'pouches',
+    name: '스웨이드 파우치',
+    price: '₩ 1,640,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%8A%A4%EC%9B%A8%EC%9D%B4%EB%93%9C-%ED%8C%8C%EC%9A%B0%EC%B9%98/5NF460_ACSS_F0324',
+    crawled_at: '2025-11-13T15:37:09.265968',
+    subtitle:
+      '빈티지한 영감과 세련된 디자인으로 실험적인 미우미우 룩의 독특한 요소가 돋보이는 부드러운 스웨이드 파우치입니다.',
+    bullet_points: [
+      '제품 코드: 5NF460_ACSS_F0324',
+      '맞춤 조절형 가죽 숄더 스트랩',
+      '내부 포켓 1개',
+      '경량 방수 코튼 안감',
+      '엠보싱 레터링 로고',
+    ],
+    size_info: ['높이 17cm', '폭 14cm', '길이 6cm'],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF460/ACSSF0324/5NF460_ACSS_F0324_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '스웨이드 파우치',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF460/ACSSF0324/5NF460_ACSS_F0324_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '스웨이드 파우치',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF460/ACSSF0324/5NF460_ACSS_F0324_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '스웨이드 파우치',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF460/ACSSF0324/5NF460_ACSS_F0324_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '스웨이드 파우치',
+        index: 3,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF460/ACSSF0324/5NF460_ACSS_F0324_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '스웨이드 파우치',
+        index: 4,
+      },
+    ],
+    local_image: '5NF460_ACSS_F0324.jpg',
+    local_detail_images: [
+      '5NF460_ACSS_F0324_detail_thumbnail.jpg',
+      '5NF460_ACSS_F0324_detail_2.jpg',
+      '5NF460_ACSS_F0324_detail_3.jpg',
+      '5NF460_ACSS_F0324_detail_4.jpg',
+      '5NF460_ACSS_F0324_detail_5.jpg',
+    ],
+  },
+  {
+    id: '5NE841_AEFX_F0316',
+    index: 13,
+    category1: 'accessories',
+    category2: 'pouches',
+    name: '나파 가죽 파우치',
+    price: '₩ 2,150,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EB%82%98%ED%8C%8C-%EA%B0%80%EC%A3%BD-%ED%8C%8C%EC%9A%B0%EC%B9%98/5NE841_AEFX_F0316',
+    crawled_at: '2025-11-13T15:37:29.034809',
+    subtitle:
+      '컴팩트한 기능성 디자인의 부드러운 나파 가죽 파우치입니다. 숄더 스트랩이 실용적인 디테일을 더하며, 레터링 로고가 아이코닉한 디자인을 완성합니다.',
+    bullet_points: [
+      '제품 코드: 5NE841_AEFX_F0316',
+      '지퍼 클로저',
+      '스냅 후크가 달린 가죽 핸들',
+      '방수 코튼 안감',
+      '엠보싱 로고',
+    ],
+    size_info: ['높이 14cm', '폭 18.5cm', '길이 10cm'],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE841/AEFXF0316/5NE841_AEFX_F0316_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 파우치',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE841/AEFXF0316/5NE841_AEFX_F0316_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 파우치',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE841/AEFXF0316/5NE841_AEFX_F0316_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 파우치',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE841/AEFXF0316/5NE841_AEFX_F0316_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 파우치',
+        index: 3,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE841/AEFXF0316/5NE841_AEFX_F0316_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 파우치',
+        index: 4,
+      },
+    ],
+    local_image: '5NE841_AEFX_F0316.jpg',
+    local_detail_images: [
+      '5NE841_AEFX_F0316_detail_thumbnail.jpg',
+      '5NE841_AEFX_F0316_detail_2.jpg',
+      '5NE841_AEFX_F0316_detail_3.jpg',
+      '5NE841_AEFX_F0316_detail_4.jpg',
+      '5NE841_AEFX_F0316_detail_5.jpg',
+    ],
+  },
+  {
+    id: '5NE841_AEFX_F0NBL',
+    index: 14,
+    category1: 'accessories',
+    category2: 'pouches',
+    name: '나파 가죽 파우치',
+    price: '₩ 2,150,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EB%82%98%ED%8C%8C-%EA%B0%80%EC%A3%BD-%ED%8C%8C%EC%9A%B0%EC%B9%98/5NE841_AEFX_F0NBL',
+    crawled_at: '2025-11-13T15:37:48.601100',
+    subtitle:
+      '컴팩트한 기능성 디자인의 부드러운 나파 가죽 파우치입니다. 숄더 스트랩이 실용적인 디테일을 더하며, 레터링 로고가 아이코닉한 디자인을 완성합니다.',
+    bullet_points: [
+      '제품 코드: 5NE841_AEFX_F0NBL',
+      '지퍼 클로저',
+      '스냅 후크가 달린 가죽 핸들',
+      '방수 코튼 안감',
+      '엠보싱 로고',
+    ],
+    size_info: ['높이 14cm', '폭 18.5cm', '길이 10cm'],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE841/AEFXF0NBL/5NE841_AEFX_F0NBL_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 파우치',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE841/AEFXF0NBL/5NE841_AEFX_F0NBL_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 파우치',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE841/AEFXF0NBL/5NE841_AEFX_F0NBL_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 파우치',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE841/AEFXF0NBL/5NE841_AEFX_F0NBL_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 파우치',
+        index: 3,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE841/AEFXF0NBL/5NE841_AEFX_F0NBL_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 파우치',
+        index: 4,
+      },
+    ],
+    local_image: '5NE841_AEFX_F0NBL.jpg',
+    local_detail_images: [
+      '5NE841_AEFX_F0NBL_detail_thumbnail.jpg',
+      '5NE841_AEFX_F0NBL_detail_2.jpg',
+      '5NE841_AEFX_F0NBL_detail_3.jpg',
+      '5NE841_AEFX_F0NBL_detail_4.jpg',
+      '5NE841_AEFX_F0NBL_detail_5.jpg',
+    ],
+  },
+  {
+    id: '5NR461_2IEE_F0003',
+    index: 15,
+    category1: 'accessories',
+    category2: 'pouches',
+    name: '스웨이드 파우치',
+    price: '₩ 2,400,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%8A%A4%EC%9B%A8%EC%9D%B4%EB%93%9C-%ED%8C%8C%EC%9A%B0%EC%B9%98/5NR461_2IEE_F0003',
+    crawled_at: '2025-11-13T15:38:08.090512',
+    subtitle:
+      '아방뛰르 백에서 영감을 받은 스냅 후크 디테일이 이 스웨이드 파우치 디자인에 적용되어 미우미우 아카이브를 참조하며 아이코닉한 터치로 룩을 완성합니다.',
+    bullet_points: [
+      '제품 코드: 5NR461_2IEE_F0003',
+      '마그네틱 클로저',
+      '맞춤 조절형 가죽 숄더 스트랩',
+      '가벼운 방수 코튼 내부와 카드 슬롯',
+      '엠보싱 레터링 로고',
+    ],
+    size_info: ['높이 19cm', '폭 17cm', '길이 4.5cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NR/5NR461/2IEEF0003/5NR461_2IEE_F0003_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '스웨이드 파우치',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NR/5NR461/2IEEF0003/5NR461_2IEE_F0003_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '스웨이드 파우치',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NR/5NR461/2IEEF0003/5NR461_2IEE_F0003_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '스웨이드 파우치',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NR/5NR461/2IEEF0003/5NR461_2IEE_F0003_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '스웨이드 파우치',
+        index: 3,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NR/5NR461/2IEEF0003/5NR461_2IEE_F0003_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '스웨이드 파우치',
+        index: 4,
+      },
+    ],
+    local_image: '5NR461_2IEE_F0003.jpg',
+    local_detail_images: [
+      '5NR461_2IEE_F0003_detail_thumbnail.jpg',
+      '5NR461_2IEE_F0003_detail_2.jpg',
+      '5NR461_2IEE_F0003_detail_3.jpg',
+      '5NR461_2IEE_F0003_detail_4.jpg',
+      '5NR461_2IEE_F0003_detail_5.jpg',
+    ],
+  },
+  {
+    id: '5NR461_2IEE_F0393',
+    index: 16,
+    category1: 'accessories',
+    category2: 'pouches',
+    name: '스웨이드 파우치',
+    price: '₩ 2,400,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%8A%A4%EC%9B%A8%EC%9D%B4%EB%93%9C-%ED%8C%8C%EC%9A%B0%EC%B9%98/5NR461_2IEE_F0393',
+    crawled_at: '2025-11-13T15:38:27.602761',
+    subtitle:
+      '아방뛰르 백에서 영감을 받은 스냅 후크 디테일이 이 스웨이드 파우치 디자인에 적용되어 미우미우 아카이브를 참조하며 아이코닉한 터치로 룩을 완성합니다.',
+    bullet_points: [
+      '제품 코드: 5NR461_2IEE_F0393',
+      '마그네틱 클로저',
+      '맞춤 조절형 가죽 숄더 스트랩',
+      '가벼운 방수 코튼 내부와 카드 슬롯',
+      '엠보싱 레터링 로고',
+    ],
+    size_info: ['높이 19cm', '폭 17cm', '길이 4.5cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NR/5NR461/2IEEF0393/5NR461_2IEE_F0393_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '스웨이드 파우치',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NR/5NR461/2IEEF0393/5NR461_2IEE_F0393_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '스웨이드 파우치',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NR/5NR461/2IEEF0393/5NR461_2IEE_F0393_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '스웨이드 파우치',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NR/5NR461/2IEEF0393/5NR461_2IEE_F0393_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '스웨이드 파우치',
+        index: 3,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NR/5NR461/2IEEF0393/5NR461_2IEE_F0393_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '스웨이드 파우치',
+        index: 4,
+      },
+    ],
+    local_image: '5NR461_2IEE_F0393.jpg',
+    local_detail_images: [
+      '5NR461_2IEE_F0393_detail_thumbnail.jpg',
+      '5NR461_2IEE_F0393_detail_2.jpg',
+      '5NR461_2IEE_F0393_detail_3.jpg',
+      '5NR461_2IEE_F0393_detail_4.jpg',
+      '5NR461_2IEE_F0393_detail_5.jpg',
+    ],
+  },
+  {
+    id: '5NR461_AEFX_F0316',
+    index: 17,
+    category1: 'accessories',
+    category2: 'pouches',
+    name: '나파 가죽 파우치',
+    price: '₩ 2,400,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EB%82%98%ED%8C%8C-%EA%B0%80%EC%A3%BD-%ED%8C%8C%EC%9A%B0%EC%B9%98/5NR461_AEFX_F0316',
+    crawled_at: '2025-11-13T15:38:47.012844',
+    subtitle:
+      '아방뛰르 백에서 영감을 받은 스냅 훅 디테일이 돋보이는 이 파우치는 미우미우의 아카이브를 재해석한 아이템으로, 아이코닉한 터치를 더해 다양한 룩을 완성합니다.',
+    bullet_points: [
+      '제품 코드: 5NR461_AEFX_F0316',
+      '길이 조절 가능한 가죽 숄더 스트랩',
+      '카드 슬롯이 있는 방수 코튼 안감',
+      '마그네틱 클로저',
+      '엠보싱 레터링 로고',
+    ],
+    size_info: ['높이 19cm', '폭 17cm', '길이 4.5cm'],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NR/5NR461/AEFXF0316/5NR461_AEFX_F0316_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 파우치',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NR/5NR461/AEFXF0316/5NR461_AEFX_F0316_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 파우치',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NR/5NR461/AEFXF0316/5NR461_AEFX_F0316_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 파우치',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NR/5NR461/AEFXF0316/5NR461_AEFX_F0316_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 파우치',
+        index: 3,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NR/5NR461/AEFXF0316/5NR461_AEFX_F0316_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 파우치',
+        index: 4,
+      },
+    ],
+    local_image: '5NR461_AEFX_F0316.jpg',
+    local_detail_images: [
+      '5NR461_AEFX_F0316_detail_thumbnail.jpg',
+      '5NR461_AEFX_F0316_detail_2.jpg',
+      '5NR461_AEFX_F0316_detail_3.jpg',
+      '5NR461_AEFX_F0316_detail_4.jpg',
+      '5NR461_AEFX_F0316_detail_5.jpg',
+    ],
+  },
+  {
+    id: '5NR461_AEFX_F0NBL',
+    index: 18,
+    category1: 'accessories',
+    category2: 'pouches',
+    name: '나파 가죽 파우치',
+    price: '₩ 2,400,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EB%82%98%ED%8C%8C-%EA%B0%80%EC%A3%BD-%ED%8C%8C%EC%9A%B0%EC%B9%98/5NR461_AEFX_F0NBL',
+    crawled_at: '2025-11-13T15:39:07.185374',
+    subtitle:
+      '아방뛰르 백에서 영감을 받은 스냅 훅 디테일이 돋보이는 이 파우치는 미우미우의 아카이브를 재해석한 아이템으로, 아이코닉한 터치를 더해 다양한 룩을 완성합니다.',
+    bullet_points: [
+      '제품 코드: 5NR461_AEFX_F0NBL',
+      '길이 조절 가능한 가죽 숄더 스트랩',
+      '카드 슬롯이 있는 방수 코튼 안감',
+      '마그네틱 클로저',
+      '엠보싱 레터링 로고',
+    ],
+    size_info: ['높이 19cm', '폭 17cm', '길이 4.5cm'],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NR/5NR461/AEFXF0NBL/5NR461_AEFX_F0NBL_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 파우치',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NR/5NR461/AEFXF0NBL/5NR461_AEFX_F0NBL_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 파우치',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NR/5NR461/AEFXF0NBL/5NR461_AEFX_F0NBL_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 파우치',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NR/5NR461/AEFXF0NBL/5NR461_AEFX_F0NBL_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 파우치',
+        index: 3,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NR/5NR461/AEFXF0NBL/5NR461_AEFX_F0NBL_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 파우치',
+        index: 4,
+      },
+    ],
+    local_image: '5NR461_AEFX_F0NBL.jpg',
+    local_detail_images: [
+      '5NR461_AEFX_F0NBL_detail_thumbnail.jpg',
+      '5NR461_AEFX_F0NBL_detail_2.jpg',
+      '5NR461_AEFX_F0NBL_detail_3.jpg',
+      '5NR461_AEFX_F0NBL_detail_4.jpg',
+      '5NR461_AEFX_F0NBL_detail_5.jpg',
+    ],
+  },
+  {
+    id: '5NF460_AF7T_F0036',
+    index: 19,
+    category1: 'accessories',
+    category2: 'pouches',
+    name: '시어링 파우치',
+    price: '₩ 2,300,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%8B%9C%EC%96%B4%EB%A7%81-%ED%8C%8C%EC%9A%B0%EC%B9%98/5NF460_AF7T_F0036',
+    crawled_at: '2025-11-13T15:39:27.264070',
+    subtitle:
+      '부드럽고 유연한 컬리 시어링이 깨끗한 실루엣을 완성하며, 세련되면서도 유 playful 한 감성을 드러냅니다. 캐주얼 룩부터 포멀한 스타일까지 다양하게 어울리는 아이템입니다.',
+    bullet_points: [
+      '제품 코드: 5NF460_AF7T_F0036',
+      '맞춤 조절형 가죽 숄더 스트랩',
+      '코튼 새틴 라이닝',
+      '메탈 로고 레터링',
+    ],
+    size_info: ['높이 17cm', '폭 14cm', '길이 6cm'],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF460/AF7TF0036/5NF460_AF7T_F0036_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '시어링 파우치',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF460/AF7TF0036/5NF460_AF7T_F0036_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '시어링 파우치',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF460/AF7TF0036/5NF460_AF7T_F0036_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '시어링 파우치',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF460/AF7TF0036/5NF460_AF7T_F0036_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '시어링 파우치',
+        index: 3,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF460/AF7TF0036/5NF460_AF7T_F0036_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '시어링 파우치',
+        index: 4,
+      },
+    ],
+    local_image: '5NF460_AF7T_F0036.jpg',
+    local_detail_images: [
+      '5NF460_AF7T_F0036_detail_thumbnail.jpg',
+      '5NF460_AF7T_F0036_detail_2.jpg',
+      '5NF460_AF7T_F0036_detail_3.jpg',
+      '5NF460_AF7T_F0036_detail_4.jpg',
+      '5NF460_AF7T_F0036_detail_5.jpg',
+    ],
+  },
+  {
+    id: '5NE851_AF7T_F0036',
+    index: 20,
+    category1: 'accessories',
+    category2: 'pouches',
+    name: '시어링 파우치',
+    price: '₩ 2,300,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%8B%9C%EC%96%B4%EB%A7%81-%ED%8C%8C%EC%9A%B0%EC%B9%98/5NE851_AF7T_F0036',
+    crawled_at: '2025-11-13T15:39:48.528098',
+    subtitle:
+      '부드럽고 다채로운 컬리 시어링이 깨끗한 실루엣을 이루며, 세련되면서도 유쾌한 무드를 드러냅니다. 캐주얼 룩부터 우아한 스타일까지 다양하게 어울리는 파우치입니다.',
+    bullet_points: [
+      '제품 코드: 5NE851_AF7T_F0036',
+      '맞춤 조절형 탈부착형 가죽 숄더 스트랩',
+      '지퍼 클로저',
+      '코튼 새틴 라이닝',
+      '메탈 로고 레터링',
+    ],
+    size_info: ['높이 9cm', '폭 22cm', '길이 9cm'],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/AF7TF0036/5NE851_AF7T_F0036_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '시어링 파우치',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/AF7TF0036/5NE851_AF7T_F0036_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '시어링 파우치',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/AF7TF0036/5NE851_AF7T_F0036_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '시어링 파우치',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/AF7TF0036/5NE851_AF7T_F0036_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '시어링 파우치',
+        index: 3,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/AF7TF0036/5NE851_AF7T_F0036_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '시어링 파우치',
+        index: 4,
+      },
+    ],
+    local_image: '5NE851_AF7T_F0036.jpg',
+    local_detail_images: [
+      '5NE851_AF7T_F0036_detail_thumbnail.jpg',
+      '5NE851_AF7T_F0036_detail_2.jpg',
+      '5NE851_AF7T_F0036_detail_3.jpg',
+      '5NE851_AF7T_F0036_detail_4.jpg',
+      '5NE851_AF7T_F0036_detail_5.jpg',
+    ],
+  },
+  {
+    id: '5NE851_AF7T_F0304',
+    index: 21,
+    category1: 'accessories',
+    category2: 'pouches',
+    name: '시어링 파우치',
+    price: '₩ 2,300,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%8B%9C%EC%96%B4%EB%A7%81-%ED%8C%8C%EC%9A%B0%EC%B9%98/5NE851_AF7T_F0304',
+    crawled_at: '2025-11-13T15:40:11.590436',
+    subtitle:
+      '부드럽고 다채로운 컬리 시어링이 깨끗한 실루엣을 이루며, 세련되면서도 유쾌한 무드를 드러냅니다. 캐주얼 룩부터 우아한 스타일까지 다양하게 어울리는 파우치입니다.',
+    bullet_points: [
+      '제품 코드: 5NE851_AF7T_F0304',
+      '맞춤 조절형 탈부착형 가죽 숄더 스트랩',
+      '지퍼 클로저',
+      '코튼 새틴 라이닝',
+      '메탈 로고 레터링',
+    ],
+    size_info: ['높이 9cm', '폭 22cm', '길이 9cm'],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/AF7TF0304/5NE851_AF7T_F0304_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '시어링 파우치',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/AF7TF0304/5NE851_AF7T_F0304_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '시어링 파우치',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/AF7TF0304/5NE851_AF7T_F0304_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '시어링 파우치',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/AF7TF0304/5NE851_AF7T_F0304_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '시어링 파우치',
+        index: 3,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/AF7TF0304/5NE851_AF7T_F0304_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '시어링 파우치',
+        index: 4,
+      },
+    ],
+    local_image: '5NE851_AF7T_F0304.jpg',
+    local_detail_images: [
+      '5NE851_AF7T_F0304_detail_thumbnail.jpg',
+      '5NE851_AF7T_F0304_detail_2.jpg',
+      '5NE851_AF7T_F0304_detail_3.jpg',
+      '5NE851_AF7T_F0304_detail_4.jpg',
+      '5NE851_AF7T_F0304_detail_5.jpg',
+    ],
+  },
+  {
+    id: '5NF460_2IFT_F0151',
+    index: 23,
+    category1: 'accessories',
+    category2: 'pouches',
+    name: '송아지 털 파우치',
+    price: '₩ 2,500,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%86%A1%EC%95%84%EC%A7%80-%ED%84%B8-%ED%8C%8C%EC%9A%B0%EC%B9%98/5NF460_2IFT_F0151',
+    crawled_at: '2025-11-13T15:40:53.889010',
+    subtitle:
+      '미우미우 워드로브의 젊고 세련된 감성을 담아낸 이 파우치는 실용적이면서도 필수적인 아이템입니다. 대담한 실험과 레트로 감성의 디테일이 돋보이는 애니멀 프린트 가죽 변형이 특징입니다.',
+    bullet_points: [
+      '제품 코드: 5NF460_2IFT_F0151',
+      '맞춤 조절형 가죽 숄더 스트랩',
+      '코튼 개버딘 안감',
+      '엠보싱 로고 레터링',
+    ],
+    size_info: ['높이 17cm', '폭 14cm', '길이 6cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF460/2IFTF0151/5NF460_2IFT_F0151_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '송아지 털 파우치',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF460/2IFTF0151/5NF460_2IFT_F0151_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '송아지 털 파우치',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF460/2IFTF0151/5NF460_2IFT_F0151_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '송아지 털 파우치',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF460/2IFTF0151/5NF460_2IFT_F0151_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '송아지 털 파우치',
+        index: 3,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF460/2IFTF0151/5NF460_2IFT_F0151_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '송아지 털 파우치',
+        index: 4,
+      },
+    ],
+    local_image: '5NF460_2IFT_F0151.jpg',
+    local_detail_images: [
+      '5NF460_2IFT_F0151_detail_thumbnail.jpg',
+      '5NF460_2IFT_F0151_detail_2.jpg',
+      '5NF460_2IFT_F0151_detail_3.jpg',
+      '5NF460_2IFT_F0151_detail_4.jpg',
+      '5NF460_2IFT_F0151_detail_5.jpg',
+    ],
+  },
+  {
+    id: '5NE851_2IFT_F0151',
+    index: 24,
+    category1: 'accessories',
+    category2: 'pouches',
+    name: '프린트 가죽 파우치',
+    price: '₩ 2,500,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%ED%94%84%EB%A6%B0%ED%8A%B8-%EA%B0%80%EC%A3%BD-%ED%8C%8C%EC%9A%B0%EC%B9%98/5NE851_2IFT_F0151',
+    crawled_at: '2025-11-13T15:41:16.588666',
+    subtitle:
+      '유연하면서도 필수적인 감각을 지닌 이 파우치는 미우미우 워드로브의 젊고 세련된 정신을 담고 있습니다. 애니멀 프린트 버전으로 선보이며, 실험적인 감성과 레트로 무드가 조화롭게 어우러집니다.',
+    bullet_points: [
+      '제품 코드: 5NE851_2IFT_F0151',
+      '맞춤 조절형 탈부착형 가죽 숄더 스트랩',
+      '코튼 개버딘 안감',
+      '지퍼 클로저',
+      '가죽 레터링 로고',
+    ],
+    size_info: ['높이 9cm', '폭 22cm', '길이 9cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/2IFTF0151/5NE851_2IFT_F0151_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '프린트 가죽 파우치',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/2IFTF0151/5NE851_2IFT_F0151_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '프린트 가죽 파우치',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/2IFTF0151/5NE851_2IFT_F0151_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '프린트 가죽 파우치',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/2IFTF0151/5NE851_2IFT_F0151_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '프린트 가죽 파우치',
+        index: 3,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/2IFTF0151/5NE851_2IFT_F0151_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '프린트 가죽 파우치',
+        index: 4,
+      },
+    ],
+    local_image: '5NE851_2IFT_F0151.jpg',
+    local_detail_images: [
+      '5NE851_2IFT_F0151_detail_thumbnail.jpg',
+      '5NE851_2IFT_F0151_detail_2.jpg',
+      '5NE851_2IFT_F0151_detail_3.jpg',
+      '5NE851_2IFT_F0151_detail_4.jpg',
+      '5NE851_2IFT_F0151_detail_5.jpg',
+    ],
+  },
+  {
+    id: '5NF460_2DU5_F0040',
+    index: 25,
+    category1: 'accessories',
+    category2: 'pouches',
+    name: '하운드투스 울 파우치',
+    price: '₩ 1,510,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%ED%95%98%EC%9A%B4%EB%93%9C%ED%88%AC%EC%8A%A4-%EC%9A%B8-%ED%8C%8C%EC%9A%B0%EC%B9%98/5NF460_2DU5_F0040',
+    crawled_at: '2025-11-13T15:41:35.801549',
+    subtitle:
+      '남성복의 상징적인 요소인 클래식한 하운드투스 패턴이 이 파우치에 레트로한 매력을 더하며, 캐주얼 룩과 세련된 스타일 모두에 어울리는 다채롭고 컨템포러리한 감성을 드러냅니다.',
+    bullet_points: [
+      '제품 코드: 5NF460_2DU5_F0040',
+      '맞춤 조절형 가죽 숄더 스트랩',
+      '드릴 코튼 라이닝',
+      '엠보싱 로고 레터링',
+    ],
+    size_info: ['높이 17cm', '폭 14cm', '길이 6cm'],
+    material: '주 소재: 아세테이트 폴리아미드 폴리에스터 버진 울',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF460/2DU5F0040/5NF460_2DU5_F0040_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '하운드투스 울 파우치',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF460/2DU5F0040/5NF460_2DU5_F0040_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '하운드투스 울 파우치',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF460/2DU5F0040/5NF460_2DU5_F0040_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '하운드투스 울 파우치',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF460/2DU5F0040/5NF460_2DU5_F0040_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '하운드투스 울 파우치',
+        index: 3,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF460/2DU5F0040/5NF460_2DU5_F0040_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '하운드투스 울 파우치',
+        index: 4,
+      },
+    ],
+    local_image: '5NF460_2DU5_F0040.jpg',
+    local_detail_images: [
+      '5NF460_2DU5_F0040_detail_thumbnail.jpg',
+      '5NF460_2DU5_F0040_detail_2.jpg',
+      '5NF460_2DU5_F0040_detail_3.jpg',
+      '5NF460_2DU5_F0040_detail_4.jpg',
+      '5NF460_2DU5_F0040_detail_5.jpg',
+    ],
+  },
+  {
+    id: '5NE851_2DU5_F0324',
+    index: 1,
+    category1: 'accessories',
+    category2: 'pouches',
+    name: '하운드투스 울 및 가죽 파우치',
+    price: '₩ 1,510,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/2DU5F0324/5NE851_2DU5_F0324_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%ED%95%98%EC%9A%B4%EB%93%9C%ED%88%AC%EC%8A%A4-%EC%9A%B8-%EB%B0%8F-%EA%B0%80%EC%A3%BD-%ED%8C%8C%EC%9A%B0%EC%B9%98/5NE851_2DU5_F0324',
+    crawled_at: '2025-11-13T15:56:25.354868',
+    subtitle:
+      '남성복의 상징적인 요소인 하운드투스 패턴이 이 파우치에 레트로한 매력을 더합니다. 캐주얼룩과 세련된 스타일 모두에 어울리는 다채롭고 컨템포러리한 감성을 드러냅니다.',
+    bullet_points: [
+      '제품 코드: 5NE851_2DU5_F0324',
+      '맞춤 조절형 탈부착형 가죽 숄더 스트랩',
+      '지퍼 클로저',
+      '드릴 코튼 라이닝',
+      '가죽 레터링 로고',
+    ],
+    size_info: ['높이 9cm', '폭 22cm', '길이 9cm'],
+    material: '주 소재: 아세테이트 폴리아미드 폴리에스터 버진 울',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/2DU5F0324/5NE851_2DU5_F0324_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '하운드투스 울 및 가죽 파우치',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/2DU5F0324/5NE851_2DU5_F0324_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '하운드투스 울 및 가죽 파우치',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/2DU5F0324/5NE851_2DU5_F0324_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '하운드투스 울 및 가죽 파우치',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/2DU5F0324/5NE851_2DU5_F0324_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '하운드투스 울 및 가죽 파우치',
+        index: 3,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/2DU5F0324/5NE851_2DU5_F0324_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '하운드투스 울 및 가죽 파우치',
+        index: 4,
+      },
+    ],
+    local_image: '5NE851_2DU5_F0324.jpg',
+    local_detail_images: [
+      '5NE851_2DU5_F0324_detail_thumbnail.jpg',
+      '5NE851_2DU5_F0324_detail_2.jpg',
+      '5NE851_2DU5_F0324_detail_3.jpg',
+      '5NE851_2DU5_F0324_detail_4.jpg',
+      '5NE851_2DU5_F0324_detail_5.jpg',
+    ],
+  },
+  {
+    id: '5NE851_AF6P_F0201',
+    index: 2,
+    category1: 'accessories',
+    category2: 'pouches',
+    name: '나파 가죽 파우치',
+    price: '₩ 2,150,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/AF6PF0201/5NE851_AF6P_F0201_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EB%82%98%ED%8C%8C-%EA%B0%80%EC%A3%BD-%ED%8C%8C%EC%9A%B0%EC%B9%98/5NE851_AF6P_F0201',
+    crawled_at: '2025-11-13T15:56:44.930737',
+    subtitle:
+      '유니크한 빈티지 가공이 더해진 나파 가죽 파우치. 간결한 디자인과 고급스러운 소재감이 어우러져 다양한 스타일에 자연스럽게 녹아듭니다.',
+    bullet_points: [
+      '제품 코드: 5NE851_AF6P_F0201',
+      '지퍼 클로저',
+      '엠보싱 레터링 로고',
+      '탈부착 및 조절 가능한 가죽 숄더 스트랩',
+      '코튼 새틴 안감',
+    ],
+    size_info: ['높이 9cm', '폭 22cm', '길이 9cm'],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/AF6PF0201/5NE851_AF6P_F0201_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 파우치',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/AF6PF0201/5NE851_AF6P_F0201_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 파우치',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/AF6PF0201/5NE851_AF6P_F0201_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 파우치',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/AF6PF0201/5NE851_AF6P_F0201_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 파우치',
+        index: 3,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/AF6PF0201/5NE851_AF6P_F0201_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 파우치',
+        index: 4,
+      },
+    ],
+    local_image: '5NE851_AF6P_F0201.jpg',
+    local_detail_images: [
+      '5NE851_AF6P_F0201_detail_thumbnail.jpg',
+      '5NE851_AF6P_F0201_detail_2.jpg',
+      '5NE851_AF6P_F0201_detail_3.jpg',
+      '5NE851_AF6P_F0201_detail_4.jpg',
+      '5NE851_AF6P_F0201_detail_5.jpg',
+    ],
+  },
+  {
+    id: '5NE851_ACSS_F0R55',
+    index: 3,
+    category1: 'accessories',
+    category2: 'pouches',
+    name: '스웨이드 파우치',
+    price: '₩ 1,640,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/ACSSF0R55/5NE851_ACSS_F0R55_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%8A%A4%EC%9B%A8%EC%9D%B4%EB%93%9C-%ED%8C%8C%EC%9A%B0%EC%B9%98/5NE851_ACSS_F0R55',
+    crawled_at: '2025-11-13T15:57:04.688121',
+    subtitle:
+      '컴팩트한 기능성 디자인의 부드러운 스웨이드 파우치입니다. 숄더 스트랩이 실용적인 디테일을 더하며, 레터링 로고가 아이코닉한 디자인을 완성합니다.',
+    bullet_points: [
+      '제품 코드: 5NE851_ACSS_F0R55',
+      '탈부착이 가능한 맞춤 조절형 가죽 숄더 스트랩',
+      '지퍼 클로저',
+      '방수 리넨 안감',
+      '엠보싱 레터링 로고',
+    ],
+    size_info: ['높이 9cm', '폭 22cm', '길이 9cm'],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/ACSSF0R55/5NE851_ACSS_F0R55_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '스웨이드 파우치',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/ACSSF0R55/5NE851_ACSS_F0R55_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '스웨이드 파우치',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/ACSSF0R55/5NE851_ACSS_F0R55_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '스웨이드 파우치',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/ACSSF0R55/5NE851_ACSS_F0R55_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '스웨이드 파우치',
+        index: 3,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE851/ACSSF0R55/5NE851_ACSS_F0R55_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '스웨이드 파우치',
+        index: 4,
+      },
+    ],
+    local_image: '5NE851_ACSS_F0R55.jpg',
+    local_detail_images: [
+      '5NE851_ACSS_F0R55_detail_thumbnail.jpg',
+      '5NE851_ACSS_F0R55_detail_2.jpg',
+      '5NE851_ACSS_F0R55_detail_3.jpg',
+      '5NE851_ACSS_F0R55_detail_4.jpg',
+      '5NE851_ACSS_F0R55_detail_5.jpg',
+    ],
+  },
+  {
+    id: '5NF460_AF6P_F0201',
+    index: 4,
+    category1: 'accessories',
+    category2: 'pouches',
+    name: '나파 가죽 파우치',
+    price: '₩ 2,150,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF460/AF6PF0201/5NF460_AF6P_F0201_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EB%82%98%ED%8C%8C-%EA%B0%80%EC%A3%BD-%ED%8C%8C%EC%9A%B0%EC%B9%98/5NF460_AF6P_F0201',
+    crawled_at: '2025-11-13T15:57:25.562670',
+    subtitle:
+      '장인정신 담긴 나파 가죽 파우치로 빈티지 효과가 특징입니다. 엠보싱 로고와 맞춤 조절형 숄더 스트랩으로 활용성과 매력이 돋보입니다.',
+    bullet_points: [
+      '제품 코드: 5NF460_AF6P_F0201',
+      '빈티지 효과 처리',
+      '내부 포켓 1개',
+      '맞춤 조절형 가죽 숄더 스트랩',
+      '코튼 새틴 라이닝',
+      '엠보싱 레터링 로고',
+    ],
+    size_info: ['높이 17cm', '폭 14cm', '길이 6cm'],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF460/AF6PF0201/5NF460_AF6P_F0201_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 파우치',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF460/AF6PF0201/5NF460_AF6P_F0201_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 파우치',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF460/AF6PF0201/5NF460_AF6P_F0201_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 파우치',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF460/AF6PF0201/5NF460_AF6P_F0201_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 파우치',
+        index: 3,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF460/AF6PF0201/5NF460_AF6P_F0201_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 파우치',
+        index: 4,
+      },
+    ],
+    local_image: '5NF460_AF6P_F0201.jpg',
+    local_detail_images: [
+      '5NF460_AF6P_F0201_detail_thumbnail.jpg',
+      '5NF460_AF6P_F0201_detail_2.jpg',
+      '5NF460_AF6P_F0201_detail_3.jpg',
+      '5NF460_AF6P_F0201_detail_4.jpg',
+      '5NF460_AF6P_F0201_detail_5.jpg',
+    ],
+  },
+  {
+    id: '5NF460_ACSS_F0R55',
+    index: 5,
+    category1: 'accessories',
+    category2: 'pouches',
+    name: '스웨이드 파우치',
+    price: '₩ 1,640,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF460/ACSSF0R55/5NF460_ACSS_F0R55_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%8A%A4%EC%9B%A8%EC%9D%B4%EB%93%9C-%ED%8C%8C%EC%9A%B0%EC%B9%98/5NF460_ACSS_F0R55',
+    crawled_at: '2025-11-13T15:57:56.217833',
+    subtitle:
+      '빈티지한 영감과 세련된 디자인으로 실험적인 미우미우 룩의 독특한 요소가 돋보이는 부드러운 스웨이드 파우치입니다.',
+    bullet_points: [
+      '제품 코드: 5NF460_ACSS_F0R55',
+      '맞춤 조절형 가죽 숄더 스트랩',
+      '내부 포켓 1개',
+      '경량 방수 코튼 안감',
+      '엠보싱 레터링 로고',
+    ],
+    size_info: ['높이 17cm', '폭 14cm', '길이 6cm'],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF460/ACSSF0R55/5NF460_ACSS_F0R55_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '스웨이드 파우치',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF460/ACSSF0R55/5NF460_ACSS_F0R55_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '스웨이드 파우치',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF460/ACSSF0R55/5NF460_ACSS_F0R55_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '스웨이드 파우치',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF460/ACSSF0R55/5NF460_ACSS_F0R55_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '스웨이드 파우치',
+        index: 3,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF460/ACSSF0R55/5NF460_ACSS_F0R55_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '스웨이드 파우치',
+        index: 4,
+      },
+    ],
+    local_image: '5NF460_ACSS_F0R55.jpg',
+    local_detail_images: [
+      '5NF460_ACSS_F0R55_detail_thumbnail.jpg',
+      '5NF460_ACSS_F0R55_detail_2.jpg',
+      '5NF460_ACSS_F0R55_detail_3.jpg',
+      '5NF460_ACSS_F0R55_detail_4.jpg',
+      '5NF460_ACSS_F0R55_detail_5.jpg',
+    ],
+  },
+  {
+    id: '5ND022_AFPP_F0002',
+    index: 6,
+    category1: 'accessories',
+    category2: 'pouches',
+    name: '마테라쎄 나파 가죽 파우치',
+    price: '₩ 2,400,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ND/5ND022/AFPPF0002/5ND022_AFPP_F0002_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EB%A7%88%ED%85%8C%EB%9D%BC%EC%8E%84-%EB%82%98%ED%8C%8C-%EA%B0%80%EC%A3%BD-%ED%8C%8C%EC%9A%B0%EC%B9%98/5ND022_AFPP_F0002',
+    crawled_at: '2025-11-13T15:58:15.444642',
+    subtitle:
+      '미우미우 스타일의 상징인 마테라쎄 모티프를 실용적인 파우치 디자인에 재현했습니다. 드로스트링 클로저와 섬세한 마감, 메탈 로고가 고급스러운 감각을 더합니다.',
+    bullet_points: [
+      '제품 코드: 5ND022_AFPP_F0002',
+      '마테라쎄 기법',
+      '가죽 드로스트링 클로저',
+      '코튼 새틴 안감',
+      '메탈 레터링 로고',
+    ],
+    size_info: ['높이 14cm', '폭 16cm', '길이 7.5cm'],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ND/5ND022/AFPPF0002/5ND022_AFPP_F0002_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '마테라쎄 나파 가죽 파우치',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ND/5ND022/AFPPF0002/5ND022_AFPP_F0002_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '마테라쎄 나파 가죽 파우치',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ND/5ND022/AFPPF0002/5ND022_AFPP_F0002_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '마테라쎄 나파 가죽 파우치',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ND/5ND022/AFPPF0002/5ND022_AFPP_F0002_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '마테라쎄 나파 가죽 파우치',
+        index: 3,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ND/5ND022/AFPPF0002/5ND022_AFPP_F0002_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '마테라쎄 나파 가죽 파우치',
+        index: 4,
+      },
+    ],
+    local_image: '5ND022_AFPP_F0002.jpg',
+    local_detail_images: [
+      '5ND022_AFPP_F0002_detail_thumbnail.jpg',
+      '5ND022_AFPP_F0002_detail_2.jpg',
+      '5ND022_AFPP_F0002_detail_3.jpg',
+      '5ND022_AFPP_F0002_detail_4.jpg',
+      '5ND022_AFPP_F0002_detail_5.jpg',
+    ],
+  },
+  {
+    id: '5ND022_AFPP_F0007',
+    index: 7,
+    category1: 'accessories',
+    category2: 'pouches',
+    name: '마테라쎄 나파 가죽 파우치',
+    price: '₩ 2,400,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ND/5ND022/AFPPF0007/5ND022_AFPP_F0007_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EB%A7%88%ED%85%8C%EB%9D%BC%EC%8E%84-%EB%82%98%ED%8C%8C-%EA%B0%80%EC%A3%BD-%ED%8C%8C%EC%9A%B0%EC%B9%98/5ND022_AFPP_F0007',
+    crawled_at: '2025-11-13T15:58:34.574215',
+    subtitle:
+      '미우미우 스타일의 상징인 마테라쎄 모티프를 실용적인 파우치 디자인에 재현했습니다. 드로스트링 클로저와 섬세한 마감, 메탈 로고가 고급스러운 감각을 더합니다.',
+    bullet_points: [
+      '제품 코드: 5ND022_AFPP_F0007',
+      '마테라쎄 기법',
+      '가죽 드로스트링 클로저',
+      '코튼 새틴 안감',
+      '메탈 레터링 로고',
+    ],
+    size_info: ['높이 14cm', '폭 16cm', '길이 7.5cm'],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ND/5ND022/AFPPF0007/5ND022_AFPP_F0007_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '마테라쎄 나파 가죽 파우치',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ND/5ND022/AFPPF0007/5ND022_AFPP_F0007_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '마테라쎄 나파 가죽 파우치',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ND/5ND022/AFPPF0007/5ND022_AFPP_F0007_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '마테라쎄 나파 가죽 파우치',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ND/5ND022/AFPPF0007/5ND022_AFPP_F0007_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '마테라쎄 나파 가죽 파우치',
+        index: 3,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ND/5ND022/AFPPF0007/5ND022_AFPP_F0007_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '마테라쎄 나파 가죽 파우치',
+        index: 4,
+      },
+    ],
+    local_image: '5ND022_AFPP_F0007.jpg',
+    local_detail_images: [
+      '5ND022_AFPP_F0007_detail_thumbnail.jpg',
+      '5ND022_AFPP_F0007_detail_2.jpg',
+      '5ND022_AFPP_F0007_detail_3.jpg',
+      '5ND022_AFPP_F0007_detail_4.jpg',
+      '5ND022_AFPP_F0007_detail_5.jpg',
+    ],
+  },
+  {
+    id: '5ND022_AFPP_F0009',
+    index: 8,
+    category1: 'accessories',
+    category2: 'pouches',
+    name: '마테라쎄 나파 가죽 파우치',
+    price: '₩ 2,400,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ND/5ND022/AFPPF0009/5ND022_AFPP_F0009_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EB%A7%88%ED%85%8C%EB%9D%BC%EC%8E%84-%EB%82%98%ED%8C%8C-%EA%B0%80%EC%A3%BD-%ED%8C%8C%EC%9A%B0%EC%B9%98/5ND022_AFPP_F0009',
+    crawled_at: '2025-11-13T15:58:54.097780',
+    subtitle:
+      '미우미우 스타일의 상징인 마테라쎄 모티프를 실용적인 파우치 디자인에 재현했습니다. 드로스트링 클로저와 섬세한 마감, 메탈 로고가 고급스러운 감각을 더합니다.',
+    bullet_points: [
+      '제품 코드: 5ND022_AFPP_F0009',
+      '마테라쎄 기법',
+      '가죽 드로스트링 클로저',
+      '코튼 새틴 안감',
+      '메탈 레터링 로고',
+    ],
+    size_info: ['높이 14cm', '폭 16cm', '길이 7.5cm'],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ND/5ND022/AFPPF0009/5ND022_AFPP_F0009_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '마테라쎄 나파 가죽 파우치',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ND/5ND022/AFPPF0009/5ND022_AFPP_F0009_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '마테라쎄 나파 가죽 파우치',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ND/5ND022/AFPPF0009/5ND022_AFPP_F0009_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '마테라쎄 나파 가죽 파우치',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ND/5ND022/AFPPF0009/5ND022_AFPP_F0009_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '마테라쎄 나파 가죽 파우치',
+        index: 3,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ND/5ND022/AFPPF0009/5ND022_AFPP_F0009_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '마테라쎄 나파 가죽 파우치',
+        index: 4,
+      },
+    ],
+    local_image: '5ND022_AFPP_F0009.jpg',
+    local_detail_images: [
+      '5ND022_AFPP_F0009_detail_thumbnail.jpg',
+      '5ND022_AFPP_F0009_detail_2.jpg',
+      '5ND022_AFPP_F0009_detail_3.jpg',
+      '5ND022_AFPP_F0009_detail_4.jpg',
+      '5ND022_AFPP_F0009_detail_5.jpg',
+    ],
+  },
+  {
+    id: '5ND022_AFPP_F0236',
+    index: 9,
+    category1: 'accessories',
+    category2: 'pouches',
+    name: '마테라쎄 나파 가죽 파우치',
+    price: '₩ 2,400,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ND/5ND022/AFPPF0236/5ND022_AFPP_F0236_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EB%A7%88%ED%85%8C%EB%9D%BC%EC%8E%84-%EB%82%98%ED%8C%8C-%EA%B0%80%EC%A3%BD-%ED%8C%8C%EC%9A%B0%EC%B9%98/5ND022_AFPP_F0236',
+    crawled_at: '2025-11-13T15:59:13.577770',
+    subtitle:
+      '미우미우 스타일의 상징인 마테라쎄 모티프를 실용적인 파우치 디자인에 재현했습니다. 드로스트링 클로저와 섬세한 마감, 메탈 로고가 고급스러운 감각을 더합니다.',
+    bullet_points: [
+      '제품 코드: 5ND022_AFPP_F0236',
+      '마테라쎄 기법',
+      '가죽 드로스트링 클로저',
+      '코튼 새틴 안감',
+      '메탈 레터링 로고',
+    ],
+    size_info: ['높이 14cm', '폭 16cm', '길이 7.5cm'],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ND/5ND022/AFPPF0236/5ND022_AFPP_F0236_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '마테라쎄 나파 가죽 파우치',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ND/5ND022/AFPPF0236/5ND022_AFPP_F0236_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '마테라쎄 나파 가죽 파우치',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ND/5ND022/AFPPF0236/5ND022_AFPP_F0236_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '마테라쎄 나파 가죽 파우치',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ND/5ND022/AFPPF0236/5ND022_AFPP_F0236_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '마테라쎄 나파 가죽 파우치',
+        index: 3,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ND/5ND022/AFPPF0236/5ND022_AFPP_F0236_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '마테라쎄 나파 가죽 파우치',
+        index: 4,
+      },
+    ],
+    local_image: '5ND022_AFPP_F0236.jpg',
+    local_detail_images: [
+      '5ND022_AFPP_F0236_detail_thumbnail.jpg',
+      '5ND022_AFPP_F0236_detail_2.jpg',
+      '5ND022_AFPP_F0236_detail_3.jpg',
+      '5ND022_AFPP_F0236_detail_4.jpg',
+      '5ND022_AFPP_F0236_detail_5.jpg',
+    ],
+  },
+  {
+    id: '5NE024_AFPP_F0002',
+    index: 10,
+    category1: 'accessories',
+    category2: 'pouches',
+    name: '마테라쎄 나파 가죽 파우치',
+    price: '₩ 2,400,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE024/AFPPF0002/5NE024_AFPP_F0002_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EB%A7%88%ED%85%8C%EB%9D%BC%EC%8E%84-%EB%82%98%ED%8C%8C-%EA%B0%80%EC%A3%BD-%ED%8C%8C%EC%9A%B0%EC%B9%98/5NE024_AFPP_F0002',
+    crawled_at: '2025-11-13T15:59:33.183769',
+    subtitle:
+      '마테라쎄 가공이 돋보이는 컴팩트하고 정제된 디자인의 나파 가죽 파우치. 미우미우 특유의 우아한 장인정신과 아이코닉한 감각이 어우러진 아이템으로, 숄더 스트랩으로 스타일에 다양성을 더합니다.',
+    bullet_points: [
+      '제품 코드: 5NE024_AFPP_F0002',
+      '탈부착 및 길이 조절 가능한 가죽 숄더 스트랩',
+      '지퍼 클로저',
+      '코튼 새틴 안감',
+      '메탈 레터링 로고',
+    ],
+    size_info: ['높이 10cm', '폭 20cm', '길이 4.5cm'],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE024/AFPPF0002/5NE024_AFPP_F0002_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '마테라쎄 나파 가죽 파우치',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE024/AFPPF0002/5NE024_AFPP_F0002_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '마테라쎄 나파 가죽 파우치',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE024/AFPPF0002/5NE024_AFPP_F0002_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '마테라쎄 나파 가죽 파우치',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE024/AFPPF0002/5NE024_AFPP_F0002_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '마테라쎄 나파 가죽 파우치',
+        index: 3,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE024/AFPPF0002/5NE024_AFPP_F0002_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '마테라쎄 나파 가죽 파우치',
+        index: 4,
+      },
+    ],
+    local_image: '5NE024_AFPP_F0002.jpg',
+    local_detail_images: [
+      '5NE024_AFPP_F0002_detail_thumbnail.jpg',
+      '5NE024_AFPP_F0002_detail_2.jpg',
+      '5NE024_AFPP_F0002_detail_3.jpg',
+      '5NE024_AFPP_F0002_detail_4.jpg',
+      '5NE024_AFPP_F0002_detail_5.jpg',
+    ],
+  },
+  {
+    id: '5NE024_AFPP_F0E18',
+    index: 11,
+    category1: 'accessories',
+    category2: 'pouches',
+    name: '마테라쎄 나파 가죽 파우치',
+    price: '₩ 2,400,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE024/AFPPF0E18/5NE024_AFPP_F0E18_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EB%A7%88%ED%85%8C%EB%9D%BC%EC%8E%84-%EB%82%98%ED%8C%8C-%EA%B0%80%EC%A3%BD-%ED%8C%8C%EC%9A%B0%EC%B9%98/5NE024_AFPP_F0E18',
+    crawled_at: '2025-11-13T15:59:55.268926',
+    subtitle:
+      '마테라쎄 가공이 돋보이는 컴팩트하고 정제된 디자인의 나파 가죽 파우치. 미우미우 특유의 우아한 장인정신과 아이코닉한 감각이 어우러진 아이템으로, 숄더 스트랩으로 스타일에 다양성을 더합니다.',
+    bullet_points: [
+      '제품 코드: 5NE024_AFPP_F0E18',
+      '탈부착 및 길이 조절 가능한 가죽 숄더 스트랩',
+      '지퍼 클로저',
+      '코튼 새틴 안감',
+      '메탈 레터링 로고',
+    ],
+    size_info: ['높이 10cm', '폭 20cm', '길이 4.5cm'],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE024/AFPPF0E18/5NE024_AFPP_F0E18_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '마테라쎄 나파 가죽 파우치',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE024/AFPPF0E18/5NE024_AFPP_F0E18_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '마테라쎄 나파 가죽 파우치',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE024/AFPPF0E18/5NE024_AFPP_F0E18_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '마테라쎄 나파 가죽 파우치',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE024/AFPPF0E18/5NE024_AFPP_F0E18_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '마테라쎄 나파 가죽 파우치',
+        index: 3,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE024/AFPPF0E18/5NE024_AFPP_F0E18_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '마테라쎄 나파 가죽 파우치',
+        index: 4,
+      },
+    ],
+    local_image: '5NE024_AFPP_F0E18.jpg',
+    local_detail_images: [
+      '5NE024_AFPP_F0E18_detail_thumbnail.jpg',
+      '5NE024_AFPP_F0E18_detail_2.jpg',
+      '5NE024_AFPP_F0E18_detail_3.jpg',
+      '5NE024_AFPP_F0E18_detail_4.jpg',
+      '5NE024_AFPP_F0E18_detail_5.jpg',
+    ],
+  },
+  {
+    id: '5NE024_AF8W_F0002',
+    index: 12,
+    category1: 'accessories',
+    category2: 'pouches',
+    name: '가죽 파우치',
+    price: '₩ 2,300,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE024/AF8WF0002/5NE024_AF8W_F0002_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%ED%8C%8C%EC%9A%B0%EC%B9%98/5NE024_AF8W_F0002',
+    crawled_at: '2025-11-13T16:00:17.351654',
+    subtitle:
+      '미우미우의 아이코닉한 백에서 영감을 받은 컴팩트하고 정제된 디자인의 가죽 파우치. 가볍게 패딩 처리되어 있으며, 숄더 스트랩을 활용해 우아하면서도 실용적인 스타일링이 가능합니다.',
+    bullet_points: [
+      '제품 코드: 5NE024_AF8W_F0002',
+      '탈부착 및 길이 조절 가능한 가죽 숄더 스트랩',
+      '지퍼 클로저',
+      '코튼 새틴 안감',
+      '가죽 레터링 로고',
+    ],
+    size_info: ['높이 10cm', '폭 20cm', '길이 4.5cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE024/AF8WF0002/5NE024_AF8W_F0002_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 파우치',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE024/AF8WF0002/5NE024_AF8W_F0002_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 파우치',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE024/AF8WF0002/5NE024_AF8W_F0002_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 파우치',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE024/AF8WF0002/5NE024_AF8W_F0002_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 파우치',
+        index: 3,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE024/AF8WF0002/5NE024_AF8W_F0002_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 파우치',
+        index: 4,
+      },
+    ],
+    local_image: '5NE024_AF8W_F0002.jpg',
+    local_detail_images: [
+      '5NE024_AF8W_F0002_detail_thumbnail.jpg',
+      '5NE024_AF8W_F0002_detail_2.jpg',
+      '5NE024_AF8W_F0002_detail_3.jpg',
+      '5NE024_AF8W_F0002_detail_4.jpg',
+      '5NE024_AF8W_F0002_detail_5.jpg',
+    ],
+  },
+  {
+    id: '5NE024_AF8W_F0046',
+    index: 13,
+    category1: 'accessories',
+    category2: 'pouches',
+    name: '가죽 파우치',
+    price: '₩ 2,300,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%ED%8C%8C%EC%9A%B0%EC%B9%98/5NE024_AF8W_F0046',
+    crawled_at: '2025-11-13T16:00:38.976222',
+    subtitle:
+      '미우미우의 아이코닉한 백에서 영감을 받은 컴팩트하고 정제된 디자인의 가죽 파우치. 가볍게 패딩 처리되어 있으며, 숄더 스트랩을 활용해 우아하면서도 실용적인 스타일링이 가능합니다.',
+    bullet_points: [
+      '제품 코드: 5NE024_AF8W_F0046',
+      '탈부착 및 길이 조절 가능한 가죽 숄더 스트랩',
+      '지퍼 클로저',
+      '코튼 새틴 안감',
+      '가죽 레터링 로고',
+    ],
+    size_info: ['높이 10cm', '폭 20cm', '길이 4.5cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE024/AF8WF0046/5NE024_AF8W_F0046_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 파우치',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE024/AF8WF0046/5NE024_AF8W_F0046_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 파우치',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE024/AF8WF0046/5NE024_AF8W_F0046_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 파우치',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE024/AF8WF0046/5NE024_AF8W_F0046_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 파우치',
+        index: 3,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE024/AF8WF0046/5NE024_AF8W_F0046_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 파우치',
+        index: 4,
+      },
+    ],
+    local_image: '5NE024_AF8W_F0046.jpg',
+    local_detail_images: [
+      '5NE024_AF8W_F0046_detail_thumbnail.jpg',
+      '5NE024_AF8W_F0046_detail_2.jpg',
+      '5NE024_AF8W_F0046_detail_3.jpg',
+      '5NE024_AF8W_F0046_detail_4.jpg',
+      '5NE024_AF8W_F0046_detail_5.jpg',
+    ],
+  },
+  {
+    id: '5NE024_AF8W_F0NBL',
+    index: 14,
+    category1: 'accessories',
+    category2: 'pouches',
+    name: '가죽 파우치',
+    price: '₩ 2,300,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%ED%8C%8C%EC%9A%B0%EC%B9%98/5NE024_AF8W_F0NBL',
+    crawled_at: '2025-11-13T16:01:00.243549',
+    subtitle:
+      '미우미우의 아이코닉한 백에서 영감을 받은 컴팩트하고 정제된 디자인의 가죽 파우치. 가볍게 패딩 처리되어 있으며, 숄더 스트랩을 활용해 우아하면서도 실용적인 스타일링이 가능합니다.',
+    bullet_points: [
+      '제품 코드: 5NE024_AF8W_F0NBL',
+      '탈부착 및 길이 조절 가능한 가죽 숄더 스트랩',
+      '지퍼 클로저',
+      '코튼 새틴 안감',
+      '가죽 레터링 로고',
+    ],
+    size_info: ['높이 10cm', '폭 20cm', '길이 4.5cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE024/AF8WF0NBL/5NE024_AF8W_F0NBL_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 파우치',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE024/AF8WF0NBL/5NE024_AF8W_F0NBL_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 파우치',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE024/AF8WF0NBL/5NE024_AF8W_F0NBL_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 파우치',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE024/AF8WF0NBL/5NE024_AF8W_F0NBL_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 파우치',
+        index: 3,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE024/AF8WF0NBL/5NE024_AF8W_F0NBL_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 파우치',
+        index: 4,
+      },
+    ],
+    local_image: '5NE024_AF8W_F0NBL.jpg',
+    local_detail_images: [
+      '5NE024_AF8W_F0NBL_detail_thumbnail.jpg',
+      '5NE024_AF8W_F0NBL_detail_2.jpg',
+      '5NE024_AF8W_F0NBL_detail_3.jpg',
+      '5NE024_AF8W_F0NBL_detail_4.jpg',
+      '5NE024_AF8W_F0NBL_detail_5.jpg',
+    ],
+  },
+  {
+    id: '5NE841_2IFK_F0Q6N',
+    index: 15,
+    category1: 'accessories',
+    category2: 'pouches',
+    name: '체크 울 파우치',
+    price: '₩ 1,740,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%B2%B4%ED%81%AC-%EC%9A%B8-%ED%8C%8C%EC%9A%B0%EC%B9%98/5NE841_2IFK_F0Q6N',
+    crawled_at: '2025-11-13T16:01:21.189366',
+    subtitle:
+      '선명한 컬러가 울 파우치의 플래드 패턴과 텍스처를 새롭게 해석합니다. 대비 컬러 가죽 로고와 투톤 코드 스트랩이 더해져, 미우미우 특유의 실험적인 감각을 담은 다재다능하고 페미닌한 액세서리입니다.',
+    bullet_points: [
+      '제품 코드: 5NE841_2IFK_F0Q6N',
+      '가죽 디테일',
+      '지퍼 클로저',
+      '탈부착형 코드 핸들',
+      '드릴 라이닝',
+      '가죽 레터링 로고',
+    ],
+    size_info: ['높이 14cm', '폭 18.5cm', '길이 10cm'],
+    material: '패브릭',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE841/2IFKF0Q6N/5NE841_2IFK_F0Q6N_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '체크 울 파우치',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE841/2IFKF0Q6N/5NE841_2IFK_F0Q6N_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '체크 울 파우치',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE841/2IFKF0Q6N/5NE841_2IFK_F0Q6N_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '체크 울 파우치',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE841/2IFKF0Q6N/5NE841_2IFK_F0Q6N_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '체크 울 파우치',
+        index: 3,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE841/2IFKF0Q6N/5NE841_2IFK_F0Q6N_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '체크 울 파우치',
+        index: 4,
+      },
+    ],
+    local_image: '5NE841_2IFK_F0Q6N.jpg',
+    local_detail_images: [
+      '5NE841_2IFK_F0Q6N_detail_thumbnail.jpg',
+      '5NE841_2IFK_F0Q6N_detail_2.jpg',
+      '5NE841_2IFK_F0Q6N_detail_3.jpg',
+      '5NE841_2IFK_F0Q6N_detail_4.jpg',
+      '5NE841_2IFK_F0Q6N_detail_5.jpg',
+    ],
+  },
+  {
+    id: '5NE841_2IFK_F0RDS',
+    index: 16,
+    category1: 'accessories',
+    category2: 'pouches',
+    name: '체크 울 파우치',
+    price: '₩ 1,740,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%B2%B4%ED%81%AC-%EC%9A%B8-%ED%8C%8C%EC%9A%B0%EC%B9%98/5NE841_2IFK_F0RDS',
+    crawled_at: '2025-11-13T16:01:44.269184',
+    subtitle:
+      '선명한 컬러가 울 파우치의 플래드 패턴과 텍스처를 새롭게 해석합니다. 대비 컬러 가죽 로고와 투톤 코드 스트랩이 더해져, 미우미우 특유의 실험적인 감각을 담은 다재다능하고 페미닌한 액세서리입니다.',
+    bullet_points: [
+      '제품 코드: 5NE841_2IFK_F0RDS',
+      '가죽 디테일',
+      '지퍼 클로저',
+      '탈부착형 코드 핸들',
+      '드릴 라이닝',
+      '가죽 레터링 로고',
+    ],
+    size_info: ['높이 14cm', '폭 18.5cm', '길이 10cm'],
+    material: '패브릭',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE841/2IFKF0RDS/5NE841_2IFK_F0RDS_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '체크 울 파우치',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE841/2IFKF0RDS/5NE841_2IFK_F0RDS_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '체크 울 파우치',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE841/2IFKF0RDS/5NE841_2IFK_F0RDS_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '체크 울 파우치',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE841/2IFKF0RDS/5NE841_2IFK_F0RDS_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '체크 울 파우치',
+        index: 3,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE841/2IFKF0RDS/5NE841_2IFK_F0RDS_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '체크 울 파우치',
+        index: 4,
+      },
+    ],
+    local_image: '5NE841_2IFK_F0RDS.jpg',
+    local_detail_images: [
+      '5NE841_2IFK_F0RDS_detail_thumbnail.jpg',
+      '5NE841_2IFK_F0RDS_detail_2.jpg',
+      '5NE841_2IFK_F0RDS_detail_3.jpg',
+      '5NE841_2IFK_F0RDS_detail_4.jpg',
+      '5NE841_2IFK_F0RDS_detail_5.jpg',
+    ],
+  },
+  {
+    id: '5NE841_2IFK_F0HDZ',
+    index: 17,
+    category1: 'accessories',
+    category2: 'pouches',
+    name: '체크 울 파우치',
+    price: '₩ 1,740,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%B2%B4%ED%81%AC-%EC%9A%B8-%ED%8C%8C%EC%9A%B0%EC%B9%98/5NE841_2IFK_F0HDZ',
+    crawled_at: '2025-11-13T16:02:11.988725',
+    subtitle:
+      '선명한 컬러가 울 파우치의 플래드 패턴과 텍스처를 새롭게 해석합니다. 대비 컬러 가죽 로고와 투톤 코드 스트랩이 더해져, 미우미우 특유의 실험적인 감각을 담은 다재다능하고 페미닌한 액세서리입니다.',
+    bullet_points: [
+      '제품 코드: 5NE841_2IFK_F0HDZ',
+      '가죽 디테일',
+      '지퍼 클로저',
+      '탈부착형 코드 핸들',
+      '드릴 라이닝',
+      '가죽 레터링 로고',
+    ],
+    size_info: ['높이 14cm', '폭 18.5cm', '길이 10cm'],
+    material: '패브릭',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE841/2IFKF0HDZ/5NE841_2IFK_F0HDZ_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '체크 울 파우치',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE841/2IFKF0HDZ/5NE841_2IFK_F0HDZ_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '체크 울 파우치',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE841/2IFKF0HDZ/5NE841_2IFK_F0HDZ_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '체크 울 파우치',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE841/2IFKF0HDZ/5NE841_2IFK_F0HDZ_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '체크 울 파우치',
+        index: 3,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE841/2IFKF0HDZ/5NE841_2IFK_F0HDZ_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '체크 울 파우치',
+        index: 4,
+      },
+    ],
+    local_image: '5NE841_2IFK_F0HDZ.jpg',
+    local_detail_images: [
+      '5NE841_2IFK_F0HDZ_detail_thumbnail.jpg',
+      '5NE841_2IFK_F0HDZ_detail_2.jpg',
+      '5NE841_2IFK_F0HDZ_detail_3.jpg',
+      '5NE841_2IFK_F0HDZ_detail_4.jpg',
+      '5NE841_2IFK_F0HDZ_detail_5.jpg',
+    ],
+  },
+  {
+    id: '5NE841_2IA7_F04S3',
+    index: 18,
+    category1: 'accessories',
+    category2: 'pouches',
+    name: '개버딘 파우치',
+    price: '₩ 1,580,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%9C%EB%B2%84%EB%94%98-%ED%8C%8C%EC%9A%B0%EC%B9%98/5NE841_2IA7_F04S3',
+    crawled_at: '2025-11-13T16:02:38.680595',
+    subtitle:
+      '개버딘 패브릭과 자수 토널 로고로 세련된 파우치이며, 투톤 우븐 테이프 리스틀릿으로 미우미우 스타일의 아이코닉한 요소를 표현합니다.',
+    bullet_points: [
+      '제품 코드: 5NE841_2IA7_F04S3',
+      '지퍼 클로저',
+      '스냅 후크가 있는 기능성 우븐 테이프 리스틀릿',
+      '기능성 소재 안감',
+      '자수 레터링 로고',
+    ],
+    size_info: ['높이 14cm', '폭 18.5cm', '길이 10cm'],
+    material: '주 소재: 코튼',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE841/2IA7F04S3/5NE841_2IA7_F04S3_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '개버딘 파우치',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE841/2IA7F04S3/5NE841_2IA7_F04S3_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '개버딘 파우치',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE841/2IA7F04S3/5NE841_2IA7_F04S3_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '개버딘 파우치',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE841/2IA7F04S3/5NE841_2IA7_F04S3_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '개버딘 파우치',
+        index: 3,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE841/2IA7F04S3/5NE841_2IA7_F04S3_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '개버딘 파우치',
+        index: 4,
+      },
+    ],
+    local_image: '5NE841_2IA7_F04S3.jpg',
+    local_detail_images: [
+      '5NE841_2IA7_F04S3_detail_thumbnail.jpg',
+      '5NE841_2IA7_F04S3_detail_2.jpg',
+      '5NE841_2IA7_F04S3_detail_3.jpg',
+      '5NE841_2IA7_F04S3_detail_4.jpg',
+      '5NE841_2IA7_F04S3_detail_5.jpg',
+    ],
+  },
+  {
+    id: '5NE841_2IA7_F0Q1K',
+    index: 19,
+    category1: 'accessories',
+    category2: 'pouches',
+    name: '개버딘 파우치',
+    price: '₩ 1,580,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%9C%EB%B2%84%EB%94%98-%ED%8C%8C%EC%9A%B0%EC%B9%98/5NE841_2IA7_F0Q1K',
+    crawled_at: '2025-11-13T16:02:59.962204',
+    subtitle:
+      '개버딘 패브릭과 자수 토널 로고로 세련된 파우치이며, 투톤 우븐 테이프 리스틀릿으로 미우미우 스타일의 아이코닉한 요소를 표현합니다.',
+    bullet_points: [
+      '제품 코드: 5NE841_2IA7_F0Q1K',
+      '지퍼 클로저',
+      '스냅 후크가 있는 기능성 우븐 테이프 리스틀릿',
+      '기능성 소재 안감',
+      '자수 레터링 로고',
+    ],
+    size_info: ['높이 14cm', '폭 18.5cm', '길이 10cm'],
+    material: '주 소재: 코튼',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE841/2IA7F0Q1K/5NE841_2IA7_F0Q1K_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '개버딘 파우치',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE841/2IA7F0Q1K/5NE841_2IA7_F0Q1K_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '개버딘 파우치',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE841/2IA7F0Q1K/5NE841_2IA7_F0Q1K_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '개버딘 파우치',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE841/2IA7F0Q1K/5NE841_2IA7_F0Q1K_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '개버딘 파우치',
+        index: 3,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE841/2IA7F0Q1K/5NE841_2IA7_F0Q1K_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '개버딘 파우치',
+        index: 4,
+      },
+    ],
+    local_image: '5NE841_2IA7_F0Q1K.jpg',
+    local_detail_images: [
+      '5NE841_2IA7_F0Q1K_detail_thumbnail.jpg',
+      '5NE841_2IA7_F0Q1K_detail_2.jpg',
+      '5NE841_2IA7_F0Q1K_detail_3.jpg',
+      '5NE841_2IA7_F0Q1K_detail_4.jpg',
+      '5NE841_2IA7_F0Q1K_detail_5.jpg',
+    ],
+  },
+  {
+    id: '5NE841_2IA7_F04GM',
+    index: 20,
+    category1: 'accessories',
+    category2: 'pouches',
+    name: '개버딘 파우치',
+    price: '₩ 1,580,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%9C%EB%B2%84%EB%94%98-%ED%8C%8C%EC%9A%B0%EC%B9%98/5NE841_2IA7_F04GM',
+    crawled_at: '2025-11-13T16:03:20.817241',
+    subtitle:
+      '개버딘 패브릭과 자수 토널 로고로 세련된 파우치이며, 투톤 우븐 테이프 리스틀릿으로 미우미우 스타일의 아이코닉한 요소를 표현합니다.',
+    bullet_points: [
+      '제품 코드: 5NE841_2IA7_F04GM',
+      '지퍼 클로저',
+      '스냅 후크가 있는 기능성 우븐 테이프 리스틀릿',
+      '기능성 소재 안감',
+      '자수 레터링 로고',
+    ],
+    size_info: ['높이 14cm', '폭 18.5cm', '길이 10cm'],
+    material: '주 소재: 코튼',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE841/2IA7F04GM/5NE841_2IA7_F04GM_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '개버딘 파우치',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE841/2IA7F04GM/5NE841_2IA7_F04GM_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '개버딘 파우치',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE841/2IA7F04GM/5NE841_2IA7_F04GM_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '개버딘 파우치',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE841/2IA7F04GM/5NE841_2IA7_F04GM_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '개버딘 파우치',
+        index: 3,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE841/2IA7F04GM/5NE841_2IA7_F04GM_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '개버딘 파우치',
+        index: 4,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE841/2IA7F04GM/5NE841_2IA7_F04GM_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '개버딘 파우치',
+        index: 5,
+      },
+    ],
+    local_image: '5NE841_2IA7_F04GM.jpg',
+    local_detail_images: [
+      '5NE841_2IA7_F04GM_detail_thumbnail.jpg',
+      '5NE841_2IA7_F04GM_detail_2.jpg',
+      '5NE841_2IA7_F04GM_detail_3.jpg',
+      '5NE841_2IA7_F04GM_detail_4.jpg',
+      '5NE841_2IA7_F04GM_detail_5.jpg',
+      '5NE841_2IA7_F04GM_detail_6.jpg',
+    ],
+  },
+  {
+    id: '5NE841_2IA7_F0C42',
+    index: 21,
+    category1: 'accessories',
+    category2: 'pouches',
+    name: '개버딘 파우치',
+    price: '₩ 1,580,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%9C%EB%B2%84%EB%94%98-%ED%8C%8C%EC%9A%B0%EC%B9%98/5NE841_2IA7_F0C42',
+    crawled_at: '2025-11-13T16:03:49.362042',
+    subtitle:
+      '개버딘 패브릭과 자수 토널 로고로 세련된 파우치이며, 투톤 우븐 테이프 리스틀릿으로 미우미우 스타일의 아이코닉한 요소를 표현합니다.',
+    bullet_points: [
+      '제품 코드: 5NE841_2IA7_F0C42',
+      '지퍼 클로저',
+      '스냅 후크가 있는 기능성 우븐 테이프 리스틀릿',
+      '기능성 소재 안감',
+      '자수 레터링 로고',
+    ],
+    size_info: ['높이 14cm', '폭 18.5cm', '길이 10cm'],
+    material: '주 소재: 코튼',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE841/2IA7F0C42/5NE841_2IA7_F0C42_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '개버딘 파우치',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE841/2IA7F0C42/5NE841_2IA7_F0C42_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '개버딘 파우치',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE841/2IA7F0C42/5NE841_2IA7_F0C42_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '개버딘 파우치',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE841/2IA7F0C42/5NE841_2IA7_F0C42_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '개버딘 파우치',
+        index: 3,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE841/2IA7F0C42/5NE841_2IA7_F0C42_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '개버딘 파우치',
+        index: 4,
+      },
+    ],
+    local_image: '5NE841_2IA7_F0C42.jpg',
+    local_detail_images: [
+      '5NE841_2IA7_F0C42_detail_thumbnail.jpg',
+      '5NE841_2IA7_F0C42_detail_2.jpg',
+      '5NE841_2IA7_F0C42_detail_3.jpg',
+      '5NE841_2IA7_F0C42_detail_4.jpg',
+      '5NE841_2IA7_F0C42_detail_5.jpg',
+    ],
+  },
+  {
+    id: '5NF462_2IFL_F04YL',
+    index: 22,
+    category1: 'accessories',
+    category2: 'pouches',
+    name: '가죽 파우치',
+    price: '₩ 1,860,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%ED%8C%8C%EC%9A%B0%EC%B9%98/5NF462_2IFL_F04YL',
+    crawled_at: '2025-11-13T16:04:12.010716',
+    subtitle:
+      '세미 글로시한 송아지 가죽의 부드러운 그레인과 스웨이드의 정교한 텍스처가 대비를 이루며, 다재다능한 파우치 디자인에 개성을 더합니다. 컬러와 소재의 강렬한 조화가 세련된 매력을 완성합니다.',
+    bullet_points: [
+      '제품 코드: 5NF462_2IFL_F04YL',
+      '마그네틱 클로저',
+      '카드 슬롯 1개',
+      '조절 가능한 가죽 숄더 스트랩',
+      '카드 슬롯이 있는 코튼 개버딘 인테리어',
+      '가죽 레터링 로고',
+    ],
+    size_info: ['높이 9.5cm', '폭 18cm', '길이 7cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF462/2IFLF04YL/5NF462_2IFL_F04YL_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 파우치',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF462/2IFLF04YL/5NF462_2IFL_F04YL_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 파우치',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF462/2IFLF04YL/5NF462_2IFL_F04YL_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 파우치',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF462/2IFLF04YL/5NF462_2IFL_F04YL_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 파우치',
+        index: 3,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF462/2IFLF04YL/5NF462_2IFL_F04YL_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 파우치',
+        index: 4,
+      },
+    ],
+    local_image: '5NF462_2IFL_F04YL.jpg',
+    local_detail_images: [
+      '5NF462_2IFL_F04YL_detail_thumbnail.jpg',
+      '5NF462_2IFL_F04YL_detail_2.jpg',
+      '5NF462_2IFL_F04YL_detail_3.jpg',
+      '5NF462_2IFL_F04YL_detail_4.jpg',
+      '5NF462_2IFL_F04YL_detail_5.jpg',
+    ],
+  },
+  {
+    id: '5NF462_2IFL_F04YM',
+    index: 23,
+    category1: 'accessories',
+    category2: 'pouches',
+    name: '가죽 파우치',
+    price: '₩ 1,860,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%ED%8C%8C%EC%9A%B0%EC%B9%98/5NF462_2IFL_F04YM',
+    crawled_at: '2025-11-13T16:04:41.824228',
+    subtitle:
+      '세미 글로시한 송아지 가죽의 부드러운 그레인과 스웨이드의 정교한 텍스처가 대비를 이루며, 다재다능한 파우치 디자인에 개성을 더합니다. 컬러와 소재의 강렬한 조화가 세련된 매력을 완성합니다.',
+    bullet_points: [
+      '제품 코드: 5NF462_2IFL_F04YM',
+      '마그네틱 클로저',
+      '카드 슬롯 1개',
+      '조절 가능한 가죽 숄더 스트랩',
+      '카드 슬롯이 있는 코튼 개버딘 인테리어',
+      '가죽 레터링 로고',
+    ],
+    size_info: ['높이 9.5cm', '폭 18cm', '길이 7cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF462/2IFLF04YM/5NF462_2IFL_F04YM_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 파우치',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF462/2IFLF04YM/5NF462_2IFL_F04YM_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 파우치',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF462/2IFLF04YM/5NF462_2IFL_F04YM_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 파우치',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF462/2IFLF04YM/5NF462_2IFL_F04YM_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 파우치',
+        index: 3,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF462/2IFLF04YM/5NF462_2IFL_F04YM_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 파우치',
+        index: 4,
+      },
+    ],
+    local_image: '5NF462_2IFL_F04YM.jpg',
+    local_detail_images: [
+      '5NF462_2IFL_F04YM_detail_thumbnail.jpg',
+      '5NF462_2IFL_F04YM_detail_2.jpg',
+      '5NF462_2IFL_F04YM_detail_3.jpg',
+      '5NF462_2IFL_F04YM_detail_4.jpg',
+      '5NF462_2IFL_F04YM_detail_5.jpg',
+    ],
+  },
+  {
+    id: '5NF462_2IFL_F0ZKS',
+    index: 24,
+    category1: 'accessories',
+    category2: 'pouches',
+    name: '가죽 파우치',
+    price: '₩ 1,860,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%ED%8C%8C%EC%9A%B0%EC%B9%98/5NF462_2IFL_F0ZKS',
+    crawled_at: '2025-11-13T16:05:02.505855',
+    subtitle:
+      '세미 글로시한 송아지 가죽의 부드러운 그레인과 스웨이드의 정교한 텍스처가 대비를 이루며, 다재다능한 파우치 디자인에 개성을 더합니다. 컬러와 소재의 강렬한 조화가 세련된 매력을 완성합니다.',
+    bullet_points: [
+      '제품 코드: 5NF462_2IFL_F0ZKS',
+      '마그네틱 클로저',
+      '카드 슬롯 1개',
+      '조절 가능한 가죽 숄더 스트랩',
+      '카드 슬롯이 있는 코튼 개버딘 인테리어',
+      '가죽 레터링 로고',
+    ],
+    size_info: ['높이 9.5cm', '폭 18cm', '길이 7cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF462/2IFLF0ZKS/5NF462_2IFL_F0ZKS_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 파우치',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF462/2IFLF0ZKS/5NF462_2IFL_F0ZKS_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 파우치',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF462/2IFLF0ZKS/5NF462_2IFL_F0ZKS_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 파우치',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF462/2IFLF0ZKS/5NF462_2IFL_F0ZKS_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 파우치',
+        index: 3,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF462/2IFLF0ZKS/5NF462_2IFL_F0ZKS_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 파우치',
+        index: 4,
+      },
+    ],
+    local_image: '5NF462_2IFL_F0ZKS.jpg',
+    local_detail_images: [
+      '5NF462_2IFL_F0ZKS_detail_thumbnail.jpg',
+      '5NF462_2IFL_F0ZKS_detail_2.jpg',
+      '5NF462_2IFL_F0ZKS_detail_3.jpg',
+      '5NF462_2IFL_F0ZKS_detail_4.jpg',
+      '5NF462_2IFL_F0ZKS_detail_5.jpg',
+    ],
+  },
+  {
+    id: '5NR036_2F8W_F0002',
+    index: 1,
+    category1: 'accessories',
+    category2: 'pouches',
+    name: '가죽 마이크로 보 백',
+    price: '₩ 1,620,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NR/5NR036/2F8WF0002/5NR036_2F8W_F0002_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C-%EB%B3%B4-%EB%B0%B1/5NR036_2F8W_F0002',
+    crawled_at: '2025-11-13T16:15:20.875268',
+    subtitle:
+      '고급스러운 소재와 유쾌하면서도 세련된 스타일의 가죽 마이크로 보 백입니다. 숄더 스트랩을 부착하여 단독으로 사용하거나 다른 핸드백에 부착하여 활용할 수 있는 백으로 아이코닉한 엠보싱 레터링 로고 장식이 디자인을 완성합니다.',
+    bullet_points: [
+      '제품 코드: 5NR036_2F8W_F0002',
+      '지퍼 클로저',
+      '엠보싱 처리 레터링 로고',
+      '탈부착형 가죽 스트랩',
+      '코튼 새틴 라이닝',
+    ],
+    size_info: ['높이 7cm', '폭 11cm', '길이 4cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NR/5NR036/2F8WF0002/5NR036_2F8W_F0002_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 보 백',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NR/5NR036/2F8WF0002/5NR036_2F8W_F0002_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 보 백',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NR/5NR036/2F8WF0002/5NR036_2F8W_F0002_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 보 백',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NR/5NR036/2F8WF0002/5NR036_2F8W_F0002_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 보 백',
+        index: 3,
+      },
+    ],
+    local_image: '5NR036_2F8W_F0002.jpg',
+    local_detail_images: [
+      '5NR036_2F8W_F0002_detail_thumbnail.jpg',
+      '5NR036_2F8W_F0002_detail_2.jpg',
+      '5NR036_2F8W_F0002_detail_3.jpg',
+      '5NR036_2F8W_F0002_detail_4.jpg',
+    ],
+  },
+  {
+    id: '5NR036_AF8W_F0046',
+    index: 2,
+    category1: 'accessories',
+    category2: 'pouches',
+    name: '가죽 마이크로 보 백',
+    price: '₩ 1,620,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NR/5NR036/AF8WF0046/5NR036_AF8W_F0046_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C-%EB%B3%B4-%EB%B0%B1/5NR036_AF8W_F0046',
+    crawled_at: '2025-11-13T16:15:41.886258',
+    subtitle:
+      '보 컬렉션의 시그니처 감성을 담아낸 마이크로 사이즈 레더 백은 다양한 액세서리나 트릭과 함께 스타일링하면 가방에 경쾌하면서도 세련된 감각을 더해줍니다.',
+    bullet_points: [
+      '제품 코드: 5NR036_AF8W_F0046',
+      '가죽 레이스업 클로저',
+      '지퍼 클로저',
+      '엠보싱 레터링 로고',
+      '코튼 새틴 안감',
+    ],
+    size_info: ['높이 7cm', '폭 11cm', '길이 4cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NR/5NR036/AF8WF0046/5NR036_AF8W_F0046_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 보 백',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NR/5NR036/AF8WF0046/5NR036_AF8W_F0046_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 보 백',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NR/5NR036/AF8WF0046/5NR036_AF8W_F0046_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 보 백',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NR/5NR036/AF8WF0046/5NR036_AF8W_F0046_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 보 백',
+        index: 3,
+      },
+    ],
+    local_image: '5NR036_AF8W_F0046.jpg',
+    local_detail_images: [
+      '5NR036_AF8W_F0046_detail_thumbnail.jpg',
+      '5NR036_AF8W_F0046_detail_2.jpg',
+      '5NR036_AF8W_F0046_detail_3.jpg',
+      '5NR036_AF8W_F0046_detail_4.jpg',
+    ],
+  },
+  {
+    id: '5NR036_AF8W_F0NBL',
+    index: 3,
+    category1: 'accessories',
+    category2: 'pouches',
+    name: '가죽 마이크로 보 백',
+    price: '₩ 1,620,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NR/5NR036/AF8WF0NBL/5NR036_AF8W_F0NBL_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C-%EB%B3%B4-%EB%B0%B1/5NR036_AF8W_F0NBL',
+    crawled_at: '2025-11-13T16:16:01.654474',
+    subtitle:
+      '보 컬렉션의 시그니처 감성을 담아낸 마이크로 사이즈 레더 백은 다양한 액세서리나 트릭과 함께 스타일링하면 가방에 경쾌하면서도 세련된 감각을 더해줍니다.',
+    bullet_points: [
+      '제품 코드: 5NR036_AF8W_F0NBL',
+      '가죽 레이스업 클로저',
+      '지퍼 클로저',
+      '엠보싱 레터링 로고',
+      '코튼 새틴 안감',
+    ],
+    size_info: ['높이 7cm', '폭 11cm', '길이 4cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NR/5NR036/AF8WF0NBL/5NR036_AF8W_F0NBL_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 보 백',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NR/5NR036/AF8WF0NBL/5NR036_AF8W_F0NBL_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 보 백',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NR/5NR036/AF8WF0NBL/5NR036_AF8W_F0NBL_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 보 백',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NR/5NR036/AF8WF0NBL/5NR036_AF8W_F0NBL_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 보 백',
+        index: 3,
+      },
+    ],
+    local_image: '5NR036_AF8W_F0NBL.jpg',
+    local_detail_images: [
+      '5NR036_AF8W_F0NBL_detail_thumbnail.jpg',
+      '5NR036_AF8W_F0NBL_detail_2.jpg',
+      '5NR036_AF8W_F0NBL_detail_3.jpg',
+      '5NR036_AF8W_F0NBL_detail_4.jpg',
+    ],
+  },
+  {
+    id: '5NF460_AF7T_F0304',
+    index: 4,
+    category1: 'accessories',
+    category2: 'pouches',
+    name: '시어링 파우치',
+    price: '₩ 2,300,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF460/AF7TF0304/5NF460_AF7T_F0304_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%8B%9C%EC%96%B4%EB%A7%81-%ED%8C%8C%EC%9A%B0%EC%B9%98/5NF460_AF7T_F0304',
+    crawled_at: '2025-11-13T16:16:23.745859',
+    subtitle:
+      '부드럽고 유연한 컬리 시어링이 깨끗한 실루엣을 완성하며, 세련되면서도 유 playful 한 감성을 드러냅니다. 캐주얼 룩부터 포멀한 스타일까지 다양하게 어울리는 아이템입니다.',
+    bullet_points: [
+      '제품 코드: 5NF460_AF7T_F0304',
+      '맞춤 조절형 가죽 숄더 스트랩',
+      '코튼 새틴 라이닝',
+      '메탈 로고 레터링',
+    ],
+    size_info: ['높이 17cm', '폭 14cm', '길이 6cm'],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF460/AF7TF0304/5NF460_AF7T_F0304_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '시어링 파우치',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF460/AF7TF0304/5NF460_AF7T_F0304_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '시어링 파우치',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF460/AF7TF0304/5NF460_AF7T_F0304_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '시어링 파우치',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF460/AF7TF0304/5NF460_AF7T_F0304_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '시어링 파우치',
+        index: 3,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NF/5NF460/AF7TF0304/5NF460_AF7T_F0304_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '시어링 파우치',
+        index: 4,
+      },
+    ],
+    local_image: '5NF460_AF7T_F0304.jpg',
+    local_detail_images: [
+      '5NF460_AF7T_F0304_detail_thumbnail.jpg',
+      '5NF460_AF7T_F0304_detail_2.jpg',
+      '5NF460_AF7T_F0304_detail_3.jpg',
+      '5NF460_AF7T_F0304_detail_4.jpg',
+      '5NF460_AF7T_F0304_detail_5.jpg',
+    ],
+  },
+  {
+    id: '5NE841_2IFO_F0NTG',
+    index: 5,
+    category1: 'accessories',
+    category2: 'pouches',
+    name: '가죽 파우치',
+    price: '₩ 2,300,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE841/2IFOF0NTG/5NE841_2IFO_F0NTG_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%ED%8C%8C%EC%9A%B0%EC%B9%98/5NE841_2IFO_F0NTG',
+    crawled_at: '2025-11-13T16:16:44.743477',
+    subtitle:
+      '나파 가죽의 빈티지 처리로 이 파우치의 단순한 특성을 재해석합니다. 다양하고 현대적인 액세서리는 엠보싱 가죽 로고와 코드 스트랩으로 돋보이며, 미우미우의 스포티한 실험 정신을 표현합니다.',
+    bullet_points: [
+      '제품 코드: 5NE841_2IFO_F0NTG',
+      '빈티지 룩 처리',
+      '스냅 후크가 있는 테크니컬 코드 핸들',
+      '지퍼 클로저',
+      '코튼 새틴 내부',
+      '엠보싱 레터링 로고',
+    ],
+    size_info: ['높이 14cm', '폭 18.5cm', '길이 10cm'],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE841/2IFOF0NTG/5NE841_2IFO_F0NTG_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 파우치',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE841/2IFOF0NTG/5NE841_2IFO_F0NTG_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 파우치',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE841/2IFOF0NTG/5NE841_2IFO_F0NTG_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 파우치',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE841/2IFOF0NTG/5NE841_2IFO_F0NTG_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 파우치',
+        index: 3,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE841/2IFOF0NTG/5NE841_2IFO_F0NTG_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 파우치',
+        index: 4,
+      },
+    ],
+    local_image: '5NE841_2IFO_F0NTG.jpg',
+    local_detail_images: [
+      '5NE841_2IFO_F0NTG_detail_thumbnail.jpg',
+      '5NE841_2IFO_F0NTG_detail_2.jpg',
+      '5NE841_2IFO_F0NTG_detail_3.jpg',
+      '5NE841_2IFO_F0NTG_detail_4.jpg',
+      '5NE841_2IFO_F0NTG_detail_5.jpg',
+    ],
+  },
+  {
+    id: '5NE841_2IEE_F0393',
+    index: 6,
+    category1: 'accessories',
+    category2: 'pouches',
+    name: '스웨이드 파우치',
+    price: '₩ 2,150,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE841/2IEEF0393/5NE841_2IEE_F0393_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%8A%A4%EC%9B%A8%EC%9D%B4%EB%93%9C-%ED%8C%8C%EC%9A%B0%EC%B9%98/5NE841_2IEE_F0393',
+    crawled_at: '2025-11-13T16:17:07.845836',
+    subtitle:
+      '컴팩트한 기능성 디자인의 부드러운 스웨이드 파우치입니다. 숄더 스트랩이 실용적인 디테일을 더하며, 레터링 로고가 아이코닉한 디자인을 완성합니다.',
+    bullet_points: [
+      '제품 코드: 5NE841_2IEE_F0393',
+      '지퍼 클로저',
+      '스냅 후크가 있는 가죽 핸들',
+      '가벼운 방수 코튼 내부',
+      '엠보싱 로고',
+    ],
+    size_info: ['높이 14cm', '폭 18.5cm', '길이 10cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE841/2IEEF0393/5NE841_2IEE_F0393_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '스웨이드 파우치',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE841/2IEEF0393/5NE841_2IEE_F0393_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '스웨이드 파우치',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE841/2IEEF0393/5NE841_2IEE_F0393_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '스웨이드 파우치',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE841/2IEEF0393/5NE841_2IEE_F0393_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '스웨이드 파우치',
+        index: 3,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE841/2IEEF0393/5NE841_2IEE_F0393_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '스웨이드 파우치',
+        index: 4,
+      },
+    ],
+    local_image: '5NE841_2IEE_F0393.jpg',
+    local_detail_images: [
+      '5NE841_2IEE_F0393_detail_thumbnail.jpg',
+      '5NE841_2IEE_F0393_detail_2.jpg',
+      '5NE841_2IEE_F0393_detail_3.jpg',
+      '5NE841_2IEE_F0393_detail_4.jpg',
+      '5NE841_2IEE_F0393_detail_5.jpg',
+    ],
+  },
+  {
+    id: '5NE841_2IG4_F05AJ',
+    index: 7,
+    category1: 'accessories',
+    category2: 'pouches',
+    name: '코듀로이 파우치',
+    price: '₩ 1,740,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE841/2IG4F05AJ/5NE841_2IG4_F05AJ_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%BD%94%EB%93%80%EB%A1%9C%EC%9D%B4-%ED%8C%8C%EC%9A%B0%EC%B9%98/5NE841_2IG4_F05AJ',
+    crawled_at: '2025-11-13T16:17:29.244794',
+    subtitle:
+      '코듀로이 텍스처와 가죽 로고가 이 파우치에 세련된 우아함을 더합니다. 미우미우 스타일의 시그니처인 투톤 리본 핸들로 아이코닉한 매력을 선사합니다.',
+    bullet_points: [
+      '제품 코드: 5NE841_2IG4_F05AJ',
+      '지퍼 클로저',
+      '스냅 후크가 있는 테크니컬 우븐 테이프 리스틀릿',
+      '패브릭 안감',
+      '가죽 레터링 로고',
+    ],
+    size_info: ['높이 14cm', '폭 18.5cm', '길이 10cm'],
+    material: '주 소재: 코튼',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE841/2IG4F05AJ/5NE841_2IG4_F05AJ_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '코듀로이 파우치',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE841/2IG4F05AJ/5NE841_2IG4_F05AJ_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '코듀로이 파우치',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE841/2IG4F05AJ/5NE841_2IG4_F05AJ_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '코듀로이 파우치',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE841/2IG4F05AJ/5NE841_2IG4_F05AJ_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '코듀로이 파우치',
+        index: 3,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE841/2IG4F05AJ/5NE841_2IG4_F05AJ_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '코듀로이 파우치',
+        index: 4,
+      },
+    ],
+    local_image: '5NE841_2IG4_F05AJ.jpg',
+    local_detail_images: [
+      '5NE841_2IG4_F05AJ_detail_thumbnail.jpg',
+      '5NE841_2IG4_F05AJ_detail_2.jpg',
+      '5NE841_2IG4_F05AJ_detail_3.jpg',
+      '5NE841_2IG4_F05AJ_detail_4.jpg',
+      '5NE841_2IG4_F05AJ_detail_5.jpg',
+    ],
+  },
+  {
+    id: '5NE841_2IG4_F0A32',
+    index: 8,
+    category1: 'accessories',
+    category2: 'pouches',
+    name: '코듀로이 파우치',
+    price: '₩ 1,740,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE841/2IG4F0A32/5NE841_2IG4_F0A32_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%BD%94%EB%93%80%EB%A1%9C%EC%9D%B4-%ED%8C%8C%EC%9A%B0%EC%B9%98/5NE841_2IG4_F0A32',
+    crawled_at: '2025-11-13T16:17:49.362374',
+    subtitle:
+      '코듀로이 텍스처와 가죽 로고가 이 파우치에 세련된 우아함을 더합니다. 미우미우 스타일의 시그니처인 투톤 리본 핸들로 아이코닉한 매력을 선사합니다.',
+    bullet_points: [
+      '제품 코드: 5NE841_2IG4_F0A32',
+      '지퍼 클로저',
+      '스냅 후크가 있는 테크니컬 우븐 테이프 리스틀릿',
+      '패브릭 안감',
+      '가죽 레터링 로고',
+    ],
+    size_info: ['높이 14cm', '폭 18.5cm', '길이 10cm'],
+    material: '주 소재: 코튼',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE841/2IG4F0A32/5NE841_2IG4_F0A32_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '코듀로이 파우치',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE841/2IG4F0A32/5NE841_2IG4_F0A32_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '코듀로이 파우치',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE841/2IG4F0A32/5NE841_2IG4_F0A32_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '코듀로이 파우치',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE841/2IG4F0A32/5NE841_2IG4_F0A32_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '코듀로이 파우치',
+        index: 3,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE841/2IG4F0A32/5NE841_2IG4_F0A32_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '코듀로이 파우치',
+        index: 4,
+      },
+    ],
+    local_image: '5NE841_2IG4_F0A32.jpg',
+    local_detail_images: [
+      '5NE841_2IG4_F0A32_detail_thumbnail.jpg',
+      '5NE841_2IG4_F0A32_detail_2.jpg',
+      '5NE841_2IG4_F0A32_detail_3.jpg',
+      '5NE841_2IG4_F0A32_detail_4.jpg',
+      '5NE841_2IG4_F0A32_detail_5.jpg',
+    ],
+  },
+  {
+    id: '5HC378_2CQD_F0031',
+    index: 1,
+    category1: 'accessories',
+    category2: 'hats',
+    name: '모헤어 비니',
+    price: '₩ 660,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC378/2CQDF0031/5HC378_2CQD_F0031_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EB%AA%A8%ED%97%A4%EC%96%B4-%EB%B9%84%EB%8B%88/5HC378_2CQD_F0031',
+    crawled_at: '2025-11-13T16:46:20.305934',
+    subtitle:
+      '한눈에 알아볼 수 있는 아이코닉하고 독특한 개성의 미우미우 인타르시아 로고가 시선을 사로잡는 울 비니입니다.',
+    bullet_points: ['제품 코드: 5HC378_2CQD_F0031', '인타르시아 로고'],
+    size_info: [],
+    material: '주 소재: 폴리아미드, 모헤어, 울',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC378/2CQDF0031/5HC378_2CQD_F0031_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '모헤어 비니',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC378/2CQDF0031/5HC378_2CQD_F0031_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '모헤어 비니',
+        index: 1,
+      },
+    ],
+    local_image: '5HC378_2CQD_F0031.jpg',
+    local_detail_images: [
+      '5HC378_2CQD_F0031_detail_thumbnail.jpg',
+      '5HC378_2CQD_F0031_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5HC378_2CQD_F0018',
+    index: 2,
+    category1: 'accessories',
+    category2: 'hats',
+    name: '모헤어 비니',
+    price: '₩ 660,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC378/2CQDF0018/5HC378_2CQD_F0018_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EB%AA%A8%ED%97%A4%EC%96%B4-%EB%B9%84%EB%8B%88/5HC378_2CQD_F0018',
+    crawled_at: '2025-11-13T16:46:41.439373',
+    subtitle:
+      '한눈에 알아볼 수 있는 아이코닉하고 독특한 개성의 미우미우 인타르시아 로고가 시선을 사로잡는 울 비니입니다.',
+    bullet_points: ['제품 코드: 5HC378_2CQD_F0018', '인타르시아 로고'],
+    size_info: [],
+    material: '주 소재: 폴리아미드, 모헤어, 울',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC378/2CQDF0018/5HC378_2CQD_F0018_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '모헤어 비니',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC378/2CQDF0018/5HC378_2CQD_F0018_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '모헤어 비니',
+        index: 1,
+      },
+    ],
+    local_image: '5HC378_2CQD_F0018.jpg',
+    local_detail_images: [
+      '5HC378_2CQD_F0018_detail_thumbnail.jpg',
+      '5HC378_2CQD_F0018_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5HC369_2IF2_F0D3Z',
+    index: 3,
+    category1: 'accessories',
+    category2: 'hats',
+    name: '플리스 베이스볼 캡',
+    price: '₩ 1,010,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2IF2F0D3Z/5HC369_2IF2_F0D3Z_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%ED%94%8C%EB%A6%AC%EC%8A%A4-%EB%B2%A0%EC%9D%B4%EC%8A%A4%EB%B3%BC-%EC%BA%A1/5HC369_2IF2_F0D3Z',
+    crawled_at: '2025-11-13T16:47:04.852657',
+    subtitle:
+      '미우미우 워드로브의 아이코닉한 소재인 플리스가 이 캡의 부드러운 볼륨과 텍스처를 완성합니다. 체크 패턴과 스포츠웨어에서 영감을 받은 투톤 코드 디테일이 더해져 세련된 개성과 현대적인 감각을 강조합니다.',
+    bullet_points: [
+      '제품 코드: 5HC369_2IF2_F0D3Z',
+      '맞춤 조절형 코드',
+      '슬라이딩 메탈 스토퍼',
+      '코튼 안감',
+      '자수 로고',
+    ],
+    size_info: [],
+    material: '패브릭',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2IF2F0D3Z/5HC369_2IF2_F0D3Z_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '플리스 베이스볼 캡',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2IF2F0D3Z/5HC369_2IF2_F0D3Z_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '플리스 베이스볼 캡',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2IF2F0D3Z/5HC369_2IF2_F0D3Z_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '플리스 베이스볼 캡',
+        index: 2,
+      },
+    ],
+    local_image: '5HC369_2IF2_F0D3Z.jpg',
+    local_detail_images: [
+      '5HC369_2IF2_F0D3Z_detail_thumbnail.jpg',
+      '5HC369_2IF2_F0D3Z_detail_2.jpg',
+      '5HC369_2IF2_F0D3Z_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5HC488_18SI_F0013',
+    index: 4,
+    category1: 'accessories',
+    category2: 'hats',
+    name: '울 모자',
+    price: '₩ 1,100,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC488/18SIF0013/5HC488_18SI_F0013_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url: 'https://www.miumiu.com/kr/ko/p/%EC%9A%B8-%EB%AA%A8%EC%9E%90/5HC488_18SI_F0013',
+    crawled_at: '2025-11-13T16:47:25.391143',
+    subtitle:
+      '이 울 모자의 클래식 페어 아일 패턴은 디자인의 질감과 감싸는 라인을 돋보이게 하며, 폼폼 장식이 세련미를 더합니다.',
+    bullet_points: [
+      '제품 코드: 5HC488_18SI_F0013',
+      '자카드 니트',
+      '귀덮개와 폼폼 타이',
+      '라벨 로고',
+    ],
+    size_info: [],
+    material: '주 소재: 폴리에스터',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC488/18SIF0013/5HC488_18SI_F0013_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 모자',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC488/18SIF0013/5HC488_18SI_F0013_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 모자',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC488/18SIF0013/5HC488_18SI_F0013_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 모자',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC488/18SIF0013/5HC488_18SI_F0013_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 모자',
+        index: 3,
+      },
+    ],
+    local_image: '5HC488_18SI_F0013.jpg',
+    local_detail_images: [
+      '5HC488_18SI_F0013_detail_thumbnail.jpg',
+      '5HC488_18SI_F0013_detail_2.jpg',
+      '5HC488_18SI_F0013_detail_3.jpg',
+      '5HC488_18SI_F0013_detail_4.jpg',
+    ],
+  },
+  {
+    id: '5HC488_18SI_F0028',
+    index: 5,
+    category1: 'accessories',
+    category2: 'hats',
+    name: '울 모자',
+    price: '₩ 1,100,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC488/18SIF0028/5HC488_18SI_F0028_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url: 'https://www.miumiu.com/kr/ko/p/%EC%9A%B8-%EB%AA%A8%EC%9E%90/5HC488_18SI_F0028',
+    crawled_at: '2025-11-13T16:47:46.550800',
+    subtitle:
+      '이 울 모자의 클래식 페어 아일 패턴은 디자인의 질감과 감싸는 라인을 돋보이게 하며, 폼폼 장식이 세련미를 더합니다.',
+    bullet_points: [
+      '제품 코드: 5HC488_18SI_F0028',
+      '자카드 니트',
+      '귀덮개와 폼폼 타이',
+      '라벨 로고',
+    ],
+    size_info: [],
+    material: '주 소재: 폴리에스터',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC488/18SIF0028/5HC488_18SI_F0028_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 모자',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC488/18SIF0028/5HC488_18SI_F0028_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 모자',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC488/18SIF0028/5HC488_18SI_F0028_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 모자',
+        index: 2,
+      },
+    ],
+    local_image: '5HC488_18SI_F0028.jpg',
+    local_detail_images: [
+      '5HC488_18SI_F0028_detail_thumbnail.jpg',
+      '5HC488_18SI_F0028_detail_2.jpg',
+      '5HC488_18SI_F0028_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5HC489_18SI_F0028',
+    index: 6,
+    category1: 'accessories',
+    category2: 'hats',
+    name: '울 모자',
+    price: '₩ 820,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC489/18SIF0028/5HC489_18SI_F0028_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url: 'https://www.miumiu.com/kr/ko/p/%EC%9A%B8-%EB%AA%A8%EC%9E%90/5HC489_18SI_F0028',
+    crawled_at: '2025-11-13T16:48:07.789580',
+    subtitle:
+      '이 울 모자의 클래식 페어 아일 패턴은 깔끔한 라인과 부드러운 질감을 돋보이게 하며, 전통 스타일의 매력을 현대적인 감성과 결합합니다.',
+    bullet_points: ['제품 코드: 5HC489_18SI_F0028', '자카드 니트', '라벨 로고'],
+    size_info: [],
+    material: '주 소재: 순수 울',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC489/18SIF0028/5HC489_18SI_F0028_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 모자',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC489/18SIF0028/5HC489_18SI_F0028_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 모자',
+        index: 1,
+      },
+    ],
+    local_image: '5HC489_18SI_F0028.jpg',
+    local_detail_images: [
+      '5HC489_18SI_F0028_detail_thumbnail.jpg',
+      '5HC489_18SI_F0028_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5HC369_2CWC_F04Z5',
+    index: 7,
+    category1: 'accessories',
+    category2: 'hats',
+    name: '코튼 베이스볼 캡',
+    price: '₩ 840,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2CWCF04Z5/5HC369_2CWC_F04Z5_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%BD%94%ED%8A%BC-%EB%B2%A0%EC%9D%B4%EC%8A%A4%EB%B3%BC-%EC%BA%A1/5HC369_2CWC_F04Z5',
+    crawled_at: '2025-11-13T16:48:29.118188',
+    subtitle:
+      '드릴의 워싱 효과가 대비되는 색상을 돋보이게 하며, 미우미우의 대담하고 스포티한 정신을 구현한 이 베이스볼 캡의 디자인에 캐주얼한 느낌을 더합니다.',
+    bullet_points: ['제품 코드: 5HC369_2CWC_F04Z5', '워싱 데님 처리', '자수 로고'],
+    size_info: [],
+    material: '주 소재: 코튼',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2CWCF04Z5/5HC369_2CWC_F04Z5_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '코튼 베이스볼 캡',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2CWCF04Z5/5HC369_2CWC_F04Z5_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '코튼 베이스볼 캡',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2CWCF04Z5/5HC369_2CWC_F04Z5_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '코튼 베이스볼 캡',
+        index: 2,
+      },
+    ],
+    local_image: '5HC369_2CWC_F04Z5.jpg',
+    local_detail_images: [
+      '5HC369_2CWC_F04Z5_detail_thumbnail.jpg',
+      '5HC369_2CWC_F04Z5_detail_2.jpg',
+      '5HC369_2CWC_F04Z5_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5HC369_2CWC_F04Z6',
+    index: 8,
+    category1: 'accessories',
+    category2: 'hats',
+    name: '코튼 베이스볼 캡',
+    price: '₩ 840,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2CWCF04Z6/5HC369_2CWC_F04Z6_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%BD%94%ED%8A%BC-%EB%B2%A0%EC%9D%B4%EC%8A%A4%EB%B3%BC-%EC%BA%A1/5HC369_2CWC_F04Z6',
+    crawled_at: '2025-11-13T16:48:51.069369',
+    subtitle:
+      '드릴의 워싱 효과가 대비되는 색상을 돋보이게 하며, 미우미우의 대담하고 스포티한 정신을 구현한 이 베이스볼 캡의 디자인에 캐주얼한 느낌을 더합니다.',
+    bullet_points: ['제품 코드: 5HC369_2CWC_F04Z6', '워싱 데님 처리', '자수 로고'],
+    size_info: [],
+    material: '주 소재: 코튼',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2CWCF04Z6/5HC369_2CWC_F04Z6_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '코튼 베이스볼 캡',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2CWCF04Z6/5HC369_2CWC_F04Z6_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '코튼 베이스볼 캡',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2CWCF04Z6/5HC369_2CWC_F04Z6_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '코튼 베이스볼 캡',
+        index: 2,
+      },
+    ],
+    local_image: '5HC369_2CWC_F04Z6.jpg',
+    local_detail_images: [
+      '5HC369_2CWC_F04Z6_detail_thumbnail.jpg',
+      '5HC369_2CWC_F04Z6_detail_2.jpg',
+      '5HC369_2CWC_F04Z6_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5HC369_2CWC_F04ZH',
+    index: 9,
+    category1: 'accessories',
+    category2: 'hats',
+    name: '코튼 베이스볼 캡',
+    price: '₩ 840,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2CWCF04ZH/5HC369_2CWC_F04ZH_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%BD%94%ED%8A%BC-%EB%B2%A0%EC%9D%B4%EC%8A%A4%EB%B3%BC-%EC%BA%A1/5HC369_2CWC_F04ZH',
+    crawled_at: '2025-11-13T16:49:12.000206',
+    subtitle:
+      '드릴의 워싱 효과가 대비되는 색상을 돋보이게 하며, 미우미우의 대담하고 스포티한 정신을 구현한 이 베이스볼 캡의 디자인에 캐주얼한 느낌을 더합니다.',
+    bullet_points: ['제품 코드: 5HC369_2CWC_F04ZH', '워싱 데님 처리', '자수 로고'],
+    size_info: [],
+    material: '주 소재: 코튼',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2CWCF04ZH/5HC369_2CWC_F04ZH_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '코튼 베이스볼 캡',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2CWCF04ZH/5HC369_2CWC_F04ZH_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '코튼 베이스볼 캡',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2CWCF04ZH/5HC369_2CWC_F04ZH_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '코튼 베이스볼 캡',
+        index: 2,
+      },
+    ],
+    local_image: '5HC369_2CWC_F04ZH.jpg',
+    local_detail_images: [
+      '5HC369_2CWC_F04ZH_detail_thumbnail.jpg',
+      '5HC369_2CWC_F04ZH_detail_2.jpg',
+      '5HC369_2CWC_F04ZH_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5HC369_2CWC_F0IX2',
+    index: 10,
+    category1: 'accessories',
+    category2: 'hats',
+    name: '코튼 베이스볼 캡',
+    price: '₩ 840,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2CWCF0IX2/5HC369_2CWC_F0IX2_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%BD%94%ED%8A%BC-%EB%B2%A0%EC%9D%B4%EC%8A%A4%EB%B3%BC-%EC%BA%A1/5HC369_2CWC_F0IX2',
+    crawled_at: '2025-11-13T16:49:32.131918',
+    subtitle:
+      '드릴의 워싱 효과가 대비되는 색상을 돋보이게 하며, 미우미우의 대담하고 스포티한 정신을 구현한 이 베이스볼 캡의 디자인에 캐주얼한 느낌을 더합니다.',
+    bullet_points: ['제품 코드: 5HC369_2CWC_F0IX2', '워싱 데님 처리', '자수 로고'],
+    size_info: [],
+    material: '주 소재: 코튼',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2CWCF0IX2/5HC369_2CWC_F0IX2_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '코튼 베이스볼 캡',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2CWCF0IX2/5HC369_2CWC_F0IX2_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '코튼 베이스볼 캡',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2CWCF0IX2/5HC369_2CWC_F0IX2_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '코튼 베이스볼 캡',
+        index: 2,
+      },
+    ],
+    local_image: '5HC369_2CWC_F0IX2.jpg',
+    local_detail_images: [
+      '5HC369_2CWC_F0IX2_detail_thumbnail.jpg',
+      '5HC369_2CWC_F0IX2_detail_2.jpg',
+      '5HC369_2CWC_F0IX2_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5HC324_2ID1_F0036',
+    index: 11,
+    category1: 'accessories',
+    category2: 'hats',
+    name: '울 모자',
+    price: '₩ 970,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC324/2ID1F0036/5HC324_2ID1_F0036_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url: 'https://www.miumiu.com/kr/ko/p/%EC%9A%B8-%EB%AA%A8%EC%9E%90/5HC324_2ID1_F0036',
+    crawled_at: '2025-11-13T16:49:53.109904',
+    subtitle:
+      '폼폼은 미우미우의 장난스럽고 유행을 타지 않는 정신을 표현하며, 캐주얼 시즌 룩을 위해 제작된 부드러운 울 모자의 세련된 디자인을 완성합니다.',
+    bullet_points: ['제품 코드: 5HC324_2ID1_F0036', '이어머프와 폼폼 레이스', '로고 라벨'],
+    size_info: [],
+    material: '주 소재: 캐시미어 버진 울',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC324/2ID1F0036/5HC324_2ID1_F0036_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 모자',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC324/2ID1F0036/5HC324_2ID1_F0036_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 모자',
+        index: 1,
+      },
+    ],
+    local_image: '5HC324_2ID1_F0036.jpg',
+    local_detail_images: [
+      '5HC324_2ID1_F0036_detail_thumbnail.jpg',
+      '5HC324_2ID1_F0036_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5HC386_2CSR_F0040',
+    index: 12,
+    category1: 'accessories',
+    category2: 'hats',
+    name: '울, 캐시미어, 시어링 트래퍼 햇',
+    price: '₩ 1,100,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC386/2CSRF0040/5HC386_2CSR_F0040_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%9A%B8-%EC%BA%90%EC%8B%9C%EB%AF%B8%EC%96%B4-%EC%8B%9C%EC%96%B4%EB%A7%81-%ED%8A%B8%EB%9E%98%ED%8D%BC-%ED%96%87/5HC386_2CSR_F0040',
+    crawled_at: '2025-11-13T16:50:13.714984',
+    subtitle: '따뜻하고 포근한 룩에 대비되는 로고가 특징인 울, 캐시미어 및 시어링 트래퍼 햇입니다.',
+    bullet_points: ['제품 코드: 5HC386_2CSR_F0040', '이어 플랩', '로고 라벨', '시어링 안감'],
+    size_info: [],
+    material: '주 소재: 폴리에스터',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC386/2CSRF0040/5HC386_2CSR_F0040_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울, 캐시미어, 시어링 트래퍼 햇',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC386/2CSRF0040/5HC386_2CSR_F0040_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울, 캐시미어, 시어링 트래퍼 햇',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC386/2CSRF0040/5HC386_2CSR_F0040_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울, 캐시미어, 시어링 트래퍼 햇',
+        index: 2,
+      },
+    ],
+    local_image: '5HC386_2CSR_F0040.jpg',
+    local_detail_images: [
+      '5HC386_2CSR_F0040_detail_thumbnail.jpg',
+      '5HC386_2CSR_F0040_detail_2.jpg',
+      '5HC386_2CSR_F0040_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5HC432_2IEJ_F073X',
+    index: 13,
+    category1: 'accessories',
+    category2: 'hats',
+    name: '울 및 캐시미어 모자',
+    price: '₩ 820,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%9A%B8-%EB%B0%8F-%EC%BA%90%EC%8B%9C%EB%AF%B8%EC%96%B4-%EB%AA%A8%EC%9E%90/5HC432_2IEJ_F073X',
+    crawled_at: '2025-11-13T16:50:37.018866',
+    subtitle:
+      '부드러운 울과 캐시미어로 제작된 이 모자는 절제된 라인과 컨템포러리한 감각을 결합했습니다. 은은한 컬러와 아이코닉한 대비 로고가 더해져 세련된 매력을 한층 강조합니다.',
+    bullet_points: ['제품 코드: 5HC432_2IEJ_F073X', '레이스 장식으로', '로고 라벨'],
+    size_info: [],
+    material: '주 소재: 재생 폴리에스터',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC432/2IEJF073X/5HC432_2IEJ_F073X_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 및 캐시미어 모자',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC432/2IEJF073X/5HC432_2IEJ_F073X_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 및 캐시미어 모자',
+        index: 1,
+      },
+    ],
+    local_image: '5HC432_2IEJ_F073X.jpg',
+    local_detail_images: [
+      '5HC432_2IEJ_F073X_detail_thumbnail.jpg',
+      '5HC432_2IEJ_F073X_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5HC432_2IEJ_F0637',
+    index: 14,
+    category1: 'accessories',
+    category2: 'hats',
+    name: '울 및 캐시미어 모자',
+    price: '₩ 820,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%9A%B8-%EB%B0%8F-%EC%BA%90%EC%8B%9C%EB%AF%B8%EC%96%B4-%EB%AA%A8%EC%9E%90/5HC432_2IEJ_F0637',
+    crawled_at: '2025-11-13T16:50:59.113682',
+    subtitle:
+      '부드러운 울과 캐시미어로 제작된 이 모자는 절제된 라인과 컨템포러리한 감각을 결합했습니다. 은은한 컬러와 아이코닉한 대비 로고가 더해져 세련된 매력을 한층 강조합니다.',
+    bullet_points: ['제품 코드: 5HC432_2IEJ_F0637', '레이스 장식으로', '로고 라벨'],
+    size_info: [],
+    material: '주 소재: 재생 폴리에스터',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC432/2IEJF0637/5HC432_2IEJ_F0637_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 및 캐시미어 모자',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC432/2IEJF0637/5HC432_2IEJ_F0637_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 및 캐시미어 모자',
+        index: 1,
+      },
+    ],
+    local_image: '5HC432_2IEJ_F0637.jpg',
+    local_detail_images: [
+      '5HC432_2IEJ_F0637_detail_thumbnail.jpg',
+      '5HC432_2IEJ_F0637_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5HC365_2IDY_F0D4O',
+    index: 15,
+    category1: 'accessories',
+    category2: 'hats',
+    name: '플리스 트래퍼 모자',
+    price: '₩ 1,100,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%ED%94%8C%EB%A6%AC%EC%8A%A4-%ED%8A%B8%EB%9E%98%ED%8D%BC-%EB%AA%A8%EC%9E%90/5HC365_2IDY_F0D4O',
+    crawled_at: '2025-11-13T16:51:20.176115',
+    subtitle:
+      '미우미우 워드로브의 아이코닉한 소재인 플리스로 완성된 이 트래퍼 햇은 챙과 귀덮개가 더해진 부드러운 실루엣과 은은한 색조로 클래식한 윈터 무드를 연상시킵니다.',
+    bullet_points: [
+      '제품 코드: 5HC365_2IDY_F0D4O',
+      '가죽 디테일이 있는 코드 레이스',
+      '이어 플랩과 바이저가 있는 제품',
+      '코튼 안감',
+      '자수 로고',
+    ],
+    size_info: [],
+    material: '패브릭',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC365/2IDYF0D4O/5HC365_2IDY_F0D4O_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '플리스 트래퍼 모자',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC365/2IDYF0D4O/5HC365_2IDY_F0D4O_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '플리스 트래퍼 모자',
+        index: 1,
+      },
+    ],
+    local_image: '5HC365_2IDY_F0D4O.jpg',
+    local_detail_images: [
+      '5HC365_2IDY_F0D4O_detail_thumbnail.jpg',
+      '5HC365_2IDY_F0D4O_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5HC272_2IA4_F0TQI',
+    index: 16,
+    category1: 'accessories',
+    category2: 'hats',
+    name: '플래드와 플러시 플리스 캡',
+    price: '₩ 1,070,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%ED%94%8C%EB%9E%98%EB%93%9C%EC%99%80-%ED%94%8C%EB%9F%AC%EC%8B%9C-%ED%94%8C%EB%A6%AC%EC%8A%A4-%EC%BA%A1/5HC272_2IA4_F0TQI',
+    crawled_at: '2025-11-13T16:51:43.885073',
+    subtitle:
+      '스포티하고 다재다능한 소재인 플리스를 퍼 효과로 새롭게 해석한 캡으로, 아이코닉한 플래드 모티프와 어우러져 심플함과 캐주얼한 스타일의 균형을 완성합니다.',
+    bullet_points: ['제품 코드: 5HC272_2IA4_F0TQI', '귀마개', '플러시 플리스 라이닝', '자수 로고'],
+    size_info: [],
+    material: '주 소재: 폴리아미드, 순수 울',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC272/2IA4F0TQI/5HC272_2IA4_F0TQI_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '플래드와 플러시 플리스 캡',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC272/2IA4F0TQI/5HC272_2IA4_F0TQI_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '플래드와 플러시 플리스 캡',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC272/2IA4F0TQI/5HC272_2IA4_F0TQI_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '플래드와 플러시 플리스 캡',
+        index: 2,
+      },
+    ],
+    local_image: '5HC272_2IA4_F0TQI.jpg',
+    local_detail_images: [
+      '5HC272_2IA4_F0TQI_detail_thumbnail.jpg',
+      '5HC272_2IA4_F0TQI_detail_2.jpg',
+      '5HC272_2IA4_F0TQI_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5HC369_2IDY_F0S0O',
+    index: 17,
+    category1: 'accessories',
+    category2: 'hats',
+    name: '플리스 베이스볼 캡',
+    price: '₩ 1,020,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%ED%94%8C%EB%A6%AC%EC%8A%A4-%EB%B2%A0%EC%9D%B4%EC%8A%A4%EB%B3%BC-%EC%BA%A1/5HC369_2IDY_F0S0O',
+    crawled_at: '2025-11-13T16:52:12.097273',
+    subtitle:
+      '플리스는 미우미우 워드로브의 아이코닉한 소재로, 부드러운 색조와 스포츠웨어에서 영감을 받은 투톤 코드가 특징인 이 캡의 부드러운 볼륨과 질감을 정의합니다.',
+    bullet_points: [
+      '제품 코드: 5HC369_2IDY_F0S0O',
+      '슬라이딩 스토퍼가 있는 코드',
+      '코튼 안감',
+      '자수 로고',
+    ],
+    size_info: [],
+    material: '주 소재: 코튼',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2IDYF0S0O/5HC369_2IDY_F0S0O_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '플리스 베이스볼 캡',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2IDYF0S0O/5HC369_2IDY_F0S0O_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '플리스 베이스볼 캡',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2IDYF0S0O/5HC369_2IDY_F0S0O_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '플리스 베이스볼 캡',
+        index: 2,
+      },
+    ],
+    local_image: '5HC369_2IDY_F0S0O.jpg',
+    local_detail_images: [
+      '5HC369_2IDY_F0S0O_detail_thumbnail.jpg',
+      '5HC369_2IDY_F0S0O_detail_2.jpg',
+      '5HC369_2IDY_F0S0O_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5HC369_2IDY_F04PE',
+    index: 18,
+    category1: 'accessories',
+    category2: 'hats',
+    name: '플리스 베이스볼 캡',
+    price: '₩ 1,020,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%ED%94%8C%EB%A6%AC%EC%8A%A4-%EB%B2%A0%EC%9D%B4%EC%8A%A4%EB%B3%BC-%EC%BA%A1/5HC369_2IDY_F04PE',
+    crawled_at: '2025-11-13T16:52:44.880095',
+    subtitle:
+      '플리스는 미우미우 워드로브의 아이코닉한 소재로, 부드러운 색조와 스포츠웨어에서 영감을 받은 투톤 코드가 특징인 이 캡의 부드러운 볼륨과 질감을 정의합니다.',
+    bullet_points: [
+      '제품 코드: 5HC369_2IDY_F04PE',
+      '슬라이딩 스토퍼가 있는 코드',
+      '코튼 안감',
+      '자수 로고',
+    ],
+    size_info: [],
+    material: '주 소재: 코튼',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2IDYF04PE/5HC369_2IDY_F04PE_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '플리스 베이스볼 캡',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2IDYF04PE/5HC369_2IDY_F04PE_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '플리스 베이스볼 캡',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2IDYF04PE/5HC369_2IDY_F04PE_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '플리스 베이스볼 캡',
+        index: 2,
+      },
+    ],
+    local_image: '5HC369_2IDY_F04PE.jpg',
+    local_detail_images: [
+      '5HC369_2IDY_F04PE_detail_thumbnail.jpg',
+      '5HC369_2IDY_F04PE_detail_2.jpg',
+      '5HC369_2IDY_F04PE_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5HC425_2DUF_F0684',
+    index: 19,
+    category1: 'accessories',
+    category2: 'hats',
+    name: '펠트 모자',
+    price: '₩ 890,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%ED%8E%A0%ED%8A%B8-%EB%AA%A8%EC%9E%90/5HC425_2DUF_F0684',
+    crawled_at: '2025-11-13T16:53:05.636498',
+    subtitle:
+      '부드러운 울 펠트로 완성된 클로슈의 우아한 실루엣은 클래식한 컬러와 어우러져 타임리스한 페미닌 우아함을 고스란히 드러냅니다.',
+    bullet_points: ['제품 코드: 5HC425_2DUF_F0684', '로고 라벨'],
+    size_info: [],
+    material: '주 소재: 코튼',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiu_products/5/5HC/5HC425/2DUFF0684/5HC425_2DUF_F0684_SLF.png/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '펠트 모자',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiu_products/5/5HC/5HC425/2DUFF0684/5HC425_2DUF_F0684_SLR.png/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '펠트 모자',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiu_products/5/5HC/5HC425/2DUFF0684/5HC425_2DUF_F0684_MDL.png/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '펠트 모자',
+        index: 2,
+      },
+    ],
+    local_image: '5HC425_2DUF_F0684.jpg',
+    local_detail_images: [
+      '5HC425_2DUF_F0684_detail_thumbnail.jpg',
+      '5HC425_2DUF_F0684_detail_2.jpg',
+      '5HC425_2DUF_F0684_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5HC432_2IEJ_F0244',
+    index: 20,
+    category1: 'accessories',
+    category2: 'hats',
+    name: '울 및 캐시미어 모자',
+    price: '₩ 820,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%9A%B8-%EB%B0%8F-%EC%BA%90%EC%8B%9C%EB%AF%B8%EC%96%B4-%EB%AA%A8%EC%9E%90/5HC432_2IEJ_F0244',
+    crawled_at: '2025-11-13T16:53:26.310059',
+    subtitle:
+      '부드러운 울과 캐시미어로 제작된 이 모자는 절제된 라인과 컨템포러리한 감각을 결합했습니다. 은은한 컬러와 아이코닉한 대비 로고가 더해져 세련된 매력을 한층 강조합니다.',
+    bullet_points: ['제품 코드: 5HC432_2IEJ_F0244', '레이스 장식으로', '로고 라벨'],
+    size_info: [],
+    material: '주 소재: 재생 폴리에스터',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC432/2IEJF0244/5HC432_2IEJ_F0244_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 및 캐시미어 모자',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC432/2IEJF0244/5HC432_2IEJ_F0244_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 및 캐시미어 모자',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC432/2IEJF0244/5HC432_2IEJ_F0244_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 및 캐시미어 모자',
+        index: 2,
+      },
+    ],
+    local_image: '5HC432_2IEJ_F0244.jpg',
+    local_detail_images: [
+      '5HC432_2IEJ_F0244_detail_thumbnail.jpg',
+      '5HC432_2IEJ_F0244_detail_2.jpg',
+      '5HC432_2IEJ_F0244_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5HC179_AF6P_F0201',
+    index: 21,
+    category1: 'accessories',
+    category2: 'hats',
+    name: '나파 가죽 베이스볼 캡',
+    price: '₩ 1,430,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EB%82%98%ED%8C%8C-%EA%B0%80%EC%A3%BD-%EB%B2%A0%EC%9D%B4%EC%8A%A4%EB%B3%BC-%EC%BA%A1/5HC179_AF6P_F0201',
+    crawled_at: '2025-11-13T16:53:52.292044',
+    subtitle:
+      '나파 가죽의 정교한 빈티지 효과 처리가 미우미우의 스포티한 코드를 재해석하며, 에이징된 텍스처와 아이코닉한 엠보싱 로고가 어우러져 매력을 더합니다.',
+    bullet_points: [
+      '제품 코드: 5HC179_AF6P_F0201',
+      '빈티지 효과 처리',
+      '코튼 개버딘 안감',
+      '조절 가능한 레더 백 스트랩',
+      '엠보싱 레터링 로',
+    ],
+    size_info: [],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC179/AF6PF0201/5HC179_AF6P_F0201_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 베이스볼 캡',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC179/AF6PF0201/5HC179_AF6P_F0201_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 베이스볼 캡',
+        index: 1,
+      },
+    ],
+    local_image: '5HC179_AF6P_F0201.jpg',
+    local_detail_images: [
+      '5HC179_AF6P_F0201_detail_thumbnail.jpg',
+      '5HC179_AF6P_F0201_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5HC369_2CUA_F04RA',
+    index: 22,
+    category1: 'accessories',
+    category2: 'hats',
+    name: '벨벳 베이스볼 캡',
+    price: '₩ 1,010,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EB%B2%A8%EB%B2%B3-%EB%B2%A0%EC%9D%B4%EC%8A%A4%EB%B3%BC-%EC%BA%A1/5HC369_2CUA_F04RA',
+    crawled_at: '2025-11-13T16:54:15.097524',
+    subtitle:
+      '캐주얼한 영감과 우아한 요소를 조합하여 클래식한 베이스볼 캡을 벨벳 버전으로 재해석했습니다.',
+    bullet_points: [
+      '제품 코드: 5HC369_2CUA_F04RA',
+      '맞춤 조절형 스트랩과 가죽 엔드 캡',
+      '자수 로고',
+    ],
+    size_info: [],
+    material: '패브릭',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiu_products/5/5HC/5HC369/2CUAF04RA/5HC369_2CUA_F04RA_SLF.png/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '벨벳 베이스볼 캡',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiu_products/5/5HC/5HC369/2CUAF04RA/5HC369_2CUA_F04RA_SLR.png/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '벨벳 베이스볼 캡',
+        index: 1,
+      },
+    ],
+    local_image: '5HC369_2CUA_F04RA.jpg',
+    local_detail_images: [
+      '5HC369_2CUA_F04RA_detail_thumbnail.jpg',
+      '5HC369_2CUA_F04RA_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5HC369_2CUA_F0844',
+    index: 23,
+    category1: 'accessories',
+    category2: 'hats',
+    name: '벨벳 베이스볼 캡',
+    price: '₩ 1,010,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EB%B2%A8%EB%B2%B3-%EB%B2%A0%EC%9D%B4%EC%8A%A4%EB%B3%BC-%EC%BA%A1/5HC369_2CUA_F0844',
+    crawled_at: '2025-11-13T16:54:36.255207',
+    subtitle:
+      '캐주얼한 영감과 우아한 요소를 조합하여 클래식한 베이스볼 캡을 벨벳 버전으로 재해석했습니다.',
+    bullet_points: [
+      '제품 코드: 5HC369_2CUA_F0844',
+      '맞춤 조절형 스트랩과 가죽 엔드 캡',
+      '자수 로고',
+    ],
+    size_info: [],
+    material: '패브릭',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2CUAF0844/5HC369_2CUA_F0844_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '벨벳 베이스볼 캡',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2CUAF0844/5HC369_2CUA_F0844_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '벨벳 베이스볼 캡',
+        index: 1,
+      },
+    ],
+    local_image: '5HC369_2CUA_F0844.jpg',
+    local_detail_images: [
+      '5HC369_2CUA_F0844_detail_thumbnail.jpg',
+      '5HC369_2CUA_F0844_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5HC369_2CUA_F034S',
+    index: 24,
+    category1: 'accessories',
+    category2: 'hats',
+    name: '벨벳 베이스볼 캡',
+    price: '₩ 1,010,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EB%B2%A8%EB%B2%B3-%EB%B2%A0%EC%9D%B4%EC%8A%A4%EB%B3%BC-%EC%BA%A1/5HC369_2CUA_F034S',
+    crawled_at: '2025-11-13T16:54:59.924424',
+    subtitle:
+      '캐주얼한 영감과 우아한 요소를 조합하여 클래식한 베이스볼 캡을 벨벳 버전으로 재해석했습니다.',
+    bullet_points: [
+      '제품 코드: 5HC369_2CUA_F034S',
+      '맞춤 조절형 스트랩과 가죽 엔드 캡',
+      '자수 로고',
+    ],
+    size_info: [],
+    material: '패브릭',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2CUAF034S/5HC369_2CUA_F034S_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '벨벳 베이스볼 캡',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2CUAF034S/5HC369_2CUA_F034S_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '벨벳 베이스볼 캡',
+        index: 1,
+      },
+    ],
+    local_image: '5HC369_2CUA_F034S.jpg',
+    local_detail_images: [
+      '5HC369_2CUA_F034S_detail_thumbnail.jpg',
+      '5HC369_2CUA_F034S_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5CC536_2ICT_F0EDH',
+    index: 24,
+    category1: 'accessories',
+    category2: 'belts',
+    name: '프린트 가죽 벨트',
+    price: '₩ 1,010,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%ED%94%84%EB%A6%B0%ED%8A%B8-%EA%B0%80%EC%A3%BD-%EB%B2%A8%ED%8A%B8/5CC536_2ICT_F0EDH',
+    crawled_at: '2025-11-13T15:22:42.381703',
+    subtitle:
+      '미니멀한 디자인에 애니멀 프린트 특유의 대담함을 더해, 어떤 룩에도 독특하고 예상치 못한 포인트를 선사하는 액세서리입니다.',
+    bullet_points: ['제품 코드: 5CC536_2ICT_F0EDH', '메탈 버클', '벨트 루프에 레이저 로고'],
+    size_info: ['높이 3.5cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5CC/5CC536/2ICTF0EDH/5CC536_2ICT_F0EDH_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '프린트 가죽 벨트',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5CC/5CC536/2ICTF0EDH/5CC536_2ICT_F0EDH_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '프린트 가죽 벨트',
+        index: 1,
+      },
+    ],
+    local_image: '5CC536_2ICT_F0EDH.jpg',
+    local_detail_images: [
+      '5CC536_2ICT_F0EDH_detail_thumbnail.jpg',
+      '5CC536_2ICT_F0EDH_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5CC536_2F6P_F0201',
+    index: 2,
+    category1: 'accessories',
+    category2: 'belts',
+    name: '나파 가죽 벨트',
+    price: '₩ 960,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5CC/5CC536/2F6PF0201/5CC536_2F6P_F0201_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EB%82%98%ED%8C%8C-%EA%B0%80%EC%A3%BD-%EB%B2%A8%ED%8A%B8/5CC536_2F6P_F0201',
+    crawled_at: '2025-11-13T15:14:49.683190',
+    subtitle: '빈티지한 효과로 새롭게 변화를 준 나파 가죽 벨트입니다.',
+    bullet_points: ['제품 코드: 5CC536_2F6P_F0201', '메탈 버클', '벨트 루프에 레이저 각인 로고'],
+    size_info: ['높이 3.5cm'],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5CC/5CC536/2F6PF0201/5CC536_2F6P_F0201_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 벨트',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5CC/5CC536/2F6PF0201/5CC536_2F6P_F0201_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 벨트',
+        index: 1,
+      },
+    ],
+    local_image: '5CC536_2F6P_F0201.jpg',
+    local_detail_images: [
+      '5CC536_2F6P_F0201_detail_thumbnail.jpg',
+      '5CC536_2F6P_F0201_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5CC536_2CSS_F0393',
+    index: 3,
+    category1: 'accessories',
+    category2: 'belts',
+    name: '스웨이드 벨트',
+    price: '₩ 870,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5CC/5CC536/2CSSF0393/5CC536_2CSS_F0393_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%8A%A4%EC%9B%A8%EC%9D%B4%EB%93%9C-%EB%B2%A8%ED%8A%B8/5CC536_2CSS_F0393',
+    crawled_at: '2025-11-13T15:15:12.456744',
+    subtitle:
+      '미니멀한 디자인과 미우미우 각인 로고 버클이 특징인 스웨이드 벨트로 심플하거나 세련된 스타일링에 적합합니다.',
+    bullet_points: ['제품 코드: 5CC536_2CSS_F0393', '메탈 버클', '메탈 로고 버클'],
+    size_info: ['높이 3.5cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5CC/5CC536/2CSSF0393/5CC536_2CSS_F0393_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '스웨이드 벨트',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5CC/5CC536/2CSSF0393/5CC536_2CSS_F0393_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '스웨이드 벨트',
+        index: 1,
+      },
+    ],
+    local_image: '5CC536_2CSS_F0393.jpg',
+    local_detail_images: [
+      '5CC536_2CSS_F0393_detail_thumbnail.jpg',
+      '5CC536_2CSS_F0393_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5CC536_2CSS_F0316',
+    index: 4,
+    category1: 'accessories',
+    category2: 'belts',
+    name: '스웨이드 벨트',
+    price: '₩ 870,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5CC/5CC536/2CSSF0316/5CC536_2CSS_F0316_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%8A%A4%EC%9B%A8%EC%9D%B4%EB%93%9C-%EB%B2%A8%ED%8A%B8/5CC536_2CSS_F0316',
+    crawled_at: '2025-11-13T15:15:32.434909',
+    subtitle:
+      '미니멀한 디자인과 미우미우 각인 로고 버클이 특징인 스웨이드 벨트로 심플하거나 세련된 스타일링에 적합합니다.',
+    bullet_points: ['제품 코드: 5CC536_2CSS_F0316', '메탈 버클', '메탈 로고 버클'],
+    size_info: ['높이 3.5cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5CC/5CC536/2CSSF0316/5CC536_2CSS_F0316_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '스웨이드 벨트',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5CC/5CC536/2CSSF0316/5CC536_2CSS_F0316_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '스웨이드 벨트',
+        index: 1,
+      },
+    ],
+    local_image: '5CC536_2CSS_F0316.jpg',
+    local_detail_images: [
+      '5CC536_2CSS_F0316_detail_thumbnail.jpg',
+      '5CC536_2CSS_F0316_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5CC536_2AIX_F0005',
+    index: 5,
+    category1: 'accessories',
+    category2: 'belts',
+    name: '가죽 벨트',
+    price: '₩ 870,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5CC/5CC536/2AIXF0005/5CC536_2AIX_F0005_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%EB%B2%A8%ED%8A%B8/5CC536_2AIX_F0005',
+    crawled_at: '2025-11-13T15:15:55.718735',
+    subtitle:
+      '벨트 루프에 장식된 미우미우 로고가 돋보이는 우아하고 미니멀한 디자인의 가죽 벨트입니다.',
+    bullet_points: ['제품 코드: 5CC536_2AIX_F0005', '메탈 버클', '벨트 루프에 레이저 각인 로고'],
+    size_info: ['높이 3.5cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5CC/5CC536/2AIXF0005/5CC536_2AIX_F0005_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 벨트',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5CC/5CC536/2AIXF0005/5CC536_2AIX_F0005_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 벨트',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5CC/5CC536/2AIXF0005/5CC536_2AIX_F0005_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 벨트',
+        index: 2,
+      },
+    ],
+    local_image: '5CC536_2AIX_F0005.jpg',
+    local_detail_images: [
+      '5CC536_2AIX_F0005_detail_thumbnail.jpg',
+      '5CC536_2AIX_F0005_detail_2.jpg',
+      '5CC536_2AIX_F0005_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5CC536_2AIX_F0038',
+    index: 6,
+    category1: 'accessories',
+    category2: 'belts',
+    name: '가죽 벨트',
+    price: '₩ 870,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5CC/5CC536/2AIXF0038/5CC536_2AIX_F0038_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%EB%B2%A8%ED%8A%B8/5CC536_2AIX_F0038',
+    crawled_at: '2025-11-13T15:16:17.076182',
+    subtitle:
+      '벨트 루프에 장식된 미우미우 로고가 돋보이는 우아하고 미니멀한 디자인의 가죽 벨트입니다.',
+    bullet_points: ['제품 코드: 5CC536_2AIX_F0038', '메탈 버클', '벨트 루프에 레이저 각인 로고'],
+    size_info: ['높이 3.5cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5CC/5CC536/2AIXF0038/5CC536_2AIX_F0038_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 벨트',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5CC/5CC536/2AIXF0038/5CC536_2AIX_F0038_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 벨트',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5CC/5CC536/2AIXF0038/5CC536_2AIX_F0038_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 벨트',
+        index: 2,
+      },
+    ],
+    local_image: '5CC536_2AIX_F0038.jpg',
+    local_detail_images: [
+      '5CC536_2AIX_F0038_detail_thumbnail.jpg',
+      '5CC536_2AIX_F0038_detail_2.jpg',
+      '5CC536_2AIX_F0038_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5CC536_2AIX_F0002',
+    index: 7,
+    category1: 'accessories',
+    category2: 'belts',
+    name: '가죽 벨트',
+    price: '₩ 870,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5CC/5CC536/2AIXF0002/5CC536_2AIX_F0002_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%EB%B2%A8%ED%8A%B8/5CC536_2AIX_F0002',
+    crawled_at: '2025-11-13T15:16:37.570981',
+    subtitle:
+      '벨트 루프에 장식된 미우미우 로고가 돋보이는 우아하고 미니멀한 디자인의 가죽 벨트입니다.',
+    bullet_points: ['제품 코드: 5CC536_2AIX_F0002', '메탈 버클', '벨트 루프에 레이저 각인 로고'],
+    size_info: ['높이 3.5cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5CC/5CC536/2AIXF0002/5CC536_2AIX_F0002_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 벨트',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5CC/5CC536/2AIXF0002/5CC536_2AIX_F0002_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 벨트',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5CC/5CC536/2AIXF0002/5CC536_2AIX_F0002_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 벨트',
+        index: 2,
+      },
+    ],
+    local_image: '5CC536_2AIX_F0002.jpg',
+    local_detail_images: [
+      '5CC536_2AIX_F0002_detail_thumbnail.jpg',
+      '5CC536_2AIX_F0002_detail_2.jpg',
+      '5CC536_2AIX_F0002_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5CC545_EFX_F0002',
+    index: 8,
+    category1: 'accessories',
+    category2: 'belts',
+    name: '나파 가죽 벨트',
+    price: '₩ 940,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5CC/5CC545/EFXF0002/5CC545_EFX_F0002_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EB%82%98%ED%8C%8C-%EA%B0%80%EC%A3%BD-%EB%B2%A8%ED%8A%B8/5CC545_EFX_F0002',
+    crawled_at: '2025-11-13T15:16:57.015356',
+    subtitle:
+      '메탈 버클에 장식된 미우미우 로고가 돋보이는 우아하고 미니멀한 디자인의 나파 가죽 벨트입니다.',
+    bullet_points: ['제품 코드: 5CC545_EFX_F0002', '로고 장식의 메탈 버클'],
+    size_info: ['높이 3cm'],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5CC/5CC545/EFXF0002/5CC545_EFX_F0002_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 벨트',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5CC/5CC545/EFXF0002/5CC545_EFX_F0002_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 벨트',
+        index: 1,
+      },
+    ],
+    local_image: '5CC545_EFX_F0002.jpg',
+    local_detail_images: ['5CC545_EFX_F0002_detail_thumbnail.jpg', '5CC545_EFX_F0002_detail_2.jpg'],
+  },
+  {
+    id: '5CC545_EFX_F0316',
+    index: 9,
+    category1: 'accessories',
+    category2: 'belts',
+    name: '나파 가죽 벨트',
+    price: '₩ 940,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5CC/5CC545/EFXF0316/5CC545_EFX_F0316_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EB%82%98%ED%8C%8C-%EA%B0%80%EC%A3%BD-%EB%B2%A8%ED%8A%B8/5CC545_EFX_F0316',
+    crawled_at: '2025-11-13T15:17:18.893729',
+    subtitle:
+      '메탈 버클에 장식된 미우미우 로고가 돋보이는 우아하고 미니멀한 디자인의 나파 가죽 벨트입니다.',
+    bullet_points: ['제품 코드: 5CC545_EFX_F0316', '로고 장식의 메탈 버클'],
+    size_info: ['높이 3cm'],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5CC/5CC545/EFXF0316/5CC545_EFX_F0316_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 벨트',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5CC/5CC545/EFXF0316/5CC545_EFX_F0316_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 벨트',
+        index: 1,
+      },
+    ],
+    local_image: '5CC545_EFX_F0316.jpg',
+    local_detail_images: ['5CC545_EFX_F0316_detail_thumbnail.jpg', '5CC545_EFX_F0316_detail_2.jpg'],
+  },
+  {
+    id: '5CC700_2AMP_F0362',
+    index: 10,
+    category1: 'accessories',
+    category2: 'belts',
+    name: '에이어스 가죽 벨트',
+    price: '₩ 1,340,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%97%90%EC%9D%B4%EC%96%B4%EC%8A%A4-%EA%B0%80%EC%A3%BD-%EB%B2%A8%ED%8A%B8/5CC700_2AMP_F0362',
+    crawled_at: '2025-11-13T15:17:39.870798',
+    subtitle:
+      '빛나는 텍스처가 돋보이는 에이어스 가죽은 현대적인 대담함을 드러내며, 벨트의 간결한 라인에 개성과 우아함을 더합니다.',
+    bullet_points: [
+      '제품 코드: 5CC700_2AMP_F0362',
+      '아일릿 장식으로',
+      '메탈 버클',
+      '버클에 보이는 로고',
+    ],
+    size_info: ['높이 1.8cm'],
+    material: '주 소재: 퍼프 얼굴 물뱀 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5CC/5CC700/2AMPF0362/5CC700_2AMP_F0362_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '에이어스 가죽 벨트',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5CC/5CC700/2AMPF0362/5CC700_2AMP_F0362_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '에이어스 가죽 벨트',
+        index: 1,
+      },
+    ],
+    local_image: '5CC700_2AMP_F0362.jpg',
+    local_detail_images: [
+      '5CC700_2AMP_F0362_detail_thumbnail.jpg',
+      '5CC700_2AMP_F0362_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5CC699_2IES_F0046',
+    index: 11,
+    category1: 'accessories',
+    category2: 'belts',
+    name: '가죽 벨트',
+    price: '₩ 930,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%EB%B2%A8%ED%8A%B8/5CC699_2IES_F0046',
+    crawled_at: '2025-11-13T15:18:02.536908',
+    subtitle:
+      '앤티크 효과가 가미된 부드러운 레더 벨트는 골드 버클 장식으로 완성되어, 과거의 코드를 실험적으로 풀어낸 미우미우 특유의 감각을 보여줍니다. 컨템포러리함과 레트로 무드의 대비가 디테일 속에서 드러납니다.',
+    bullet_points: [
+      '제품 코드: 5CC699_2IES_F0046',
+      '앤티크 효과의 수공예품',
+      '아일릿 장식',
+      '메탈 버클',
+      '버클에 보이는 로고',
+    ],
+    size_info: ['높이 2.5cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5CC/5CC699/2IESF0046/5CC699_2IES_F0046_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 벨트',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5CC/5CC699/2IESF0046/5CC699_2IES_F0046_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 벨트',
+        index: 1,
+      },
+    ],
+    local_image: '5CC699_2IES_F0046.jpg',
+    local_detail_images: [
+      '5CC699_2IES_F0046_detail_thumbnail.jpg',
+      '5CC699_2IES_F0046_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5CC536_2IFM_F0316',
+    index: 12,
+    category1: 'accessories',
+    category2: 'belts',
+    name: '가죽 패치워크 벨트',
+    price: '₩ 960,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%ED%8C%A8%EC%B9%98%EC%9B%8C%ED%81%AC-%EB%B2%A8%ED%8A%B8/5CC536_2IFM_F0316',
+    crawled_at: '2025-11-13T15:18:23.709268',
+    subtitle:
+      '아이코닉한 미우미우 가죽로 완성된 패치워크 모티프가 70년대의 무드를 담아냅니다. 컬러 대비와 고급스러운 텍스처가 장난스러운 개성을 드러내며, 룩에 세련된 포인트를 더합니다.',
+    bullet_points: [
+      '제품 코드: 5CC536_2IFM_F0316',
+      '패치워크 모티프',
+      '메탈 버클',
+      '메탈 루프 로고 각인',
+    ],
+    size_info: ['높이 3.5cm'],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5CC/5CC536/2IFMF0316/5CC536_2IFM_F0316_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 패치워크 벨트',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5CC/5CC536/2IFMF0316/5CC536_2IFM_F0316_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 패치워크 벨트',
+        index: 1,
+      },
+    ],
+    local_image: '5CC536_2IFM_F0316.jpg',
+    local_detail_images: [
+      '5CC536_2IFM_F0316_detail_thumbnail.jpg',
+      '5CC536_2IFM_F0316_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5CC565_2AIX_F098L',
+    index: 13,
+    category1: 'accessories',
+    category2: 'belts',
+    name: '가죽 벨트',
+    price: '₩ 870,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%EB%B2%A8%ED%8A%B8/5CC565_2AIX_F098L',
+    crawled_at: '2025-11-13T15:18:45.585791',
+    subtitle:
+      '버클의 미우미우 로고가 아이코닉하고 독특한 감성으로 시선을 사로잡는 가죽 벨트입니다.',
+    bullet_points: ['제품 코드: 5CC565_2AIX_F098L', '메탈 로고 버클'],
+    size_info: ['높이 2.5cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5CC/5CC565/2AIXF098L/5CC565_2AIX_F098L_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 벨트',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5CC/5CC565/2AIXF098L/5CC565_2AIX_F098L_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 벨트',
+        index: 1,
+      },
+    ],
+    local_image: '5CC565_2AIX_F098L.jpg',
+    local_detail_images: [
+      '5CC565_2AIX_F098L_detail_thumbnail.jpg',
+      '5CC565_2AIX_F098L_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5CC699_2HIL_F0002',
+    index: 14,
+    category1: 'accessories',
+    category2: 'belts',
+    name: '가죽 벨트',
+    price: '₩ 870,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%EB%B2%A8%ED%8A%B8/5CC699_2HIL_F0002',
+    crawled_at: '2025-11-13T15:19:08.019034',
+    subtitle:
+      '심플한 스타일링부터 정제된 룩까지 모두 어울리는 가죽 벨트로, 미니멀한 디자인과 미우미우 로고가 새겨진 골드 톤 버클이 특징입니다.',
+    bullet_points: [
+      '제품 코드: 5CC699_2HIL_F0002',
+      '메탈 버클',
+      '벨트 루프 포함',
+      '버클에 음각 로고',
+    ],
+    size_info: ['높이 2.5cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5CC/5CC699/2HILF0002/5CC699_2HIL_F0002_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 벨트',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5CC/5CC699/2HILF0002/5CC699_2HIL_F0002_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 벨트',
+        index: 1,
+      },
+    ],
+    local_image: '5CC699_2HIL_F0002.jpg',
+    local_detail_images: [
+      '5CC699_2HIL_F0002_detail_thumbnail.jpg',
+      '5CC699_2HIL_F0002_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5CC565_2AIX_F0005',
+    index: 15,
+    category1: 'accessories',
+    category2: 'belts',
+    name: '가죽 벨트',
+    price: '₩ 870,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%EB%B2%A8%ED%8A%B8/5CC565_2AIX_F0005',
+    crawled_at: '2025-11-13T15:19:32.705350',
+    subtitle:
+      '버클의 미우미우 로고가 아이코닉하고 독특한 감성으로 시선을 사로잡는 가죽 벨트입니다.',
+    bullet_points: ['제품 코드: 5CC565_2AIX_F0005', '메탈 로고 버클'],
+    size_info: ['높이 2.5cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5CC/5CC565/2AIXF0005/5CC565_2AIX_F0005_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 벨트',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5CC/5CC565/2AIXF0005/5CC565_2AIX_F0005_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 벨트',
+        index: 1,
+      },
+    ],
+    local_image: '5CC565_2AIX_F0005.jpg',
+    local_detail_images: [
+      '5CC565_2AIX_F0005_detail_thumbnail.jpg',
+      '5CC565_2AIX_F0005_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5CC536_2AIX_F098L',
+    index: 16,
+    category1: 'accessories',
+    category2: 'belts',
+    name: '가죽 벨트',
+    price: '₩ 870,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%EB%B2%A8%ED%8A%B8/5CC536_2AIX_F098L',
+    crawled_at: '2025-11-13T15:19:52.271145',
+    subtitle:
+      '벨트 루프에 장식된 미우미우 로고가 돋보이는 우아하고 미니멀한 디자인의 가죽 벨트입니다.',
+    bullet_points: ['제품 코드: 5CC536_2AIX_F098L', '메탈 버클', '벨트 루프에 레이저 각인 로고'],
+    size_info: ['높이 3.5cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5CC/5CC536/2AIXF098L/5CC536_2AIX_F098L_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 벨트',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5CC/5CC536/2AIXF098L/5CC536_2AIX_F098L_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 벨트',
+        index: 1,
+      },
+    ],
+    local_image: '5CC536_2AIX_F098L.jpg',
+    local_detail_images: [
+      '5CC536_2AIX_F098L_detail_thumbnail.jpg',
+      '5CC536_2AIX_F098L_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5CC536_2AIX_F0NBL',
+    index: 17,
+    category1: 'accessories',
+    category2: 'belts',
+    name: '가죽 벨트',
+    price: '₩ 870,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%EB%B2%A8%ED%8A%B8/5CC536_2AIX_F0NBL',
+    crawled_at: '2025-11-13T15:20:13.264493',
+    subtitle:
+      '벨트 루프에 장식된 미우미우 로고가 돋보이는 우아하고 미니멀한 디자인의 가죽 벨트입니다.',
+    bullet_points: ['제품 코드: 5CC536_2AIX_F0NBL', '메탈 버클', '벨트 루프에 레이저 각인 로고'],
+    size_info: ['높이 3.5cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5CC/5CC536/2AIXF0NBL/5CC536_2AIX_F0NBL_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 벨트',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5CC/5CC536/2AIXF0NBL/5CC536_2AIX_F0NBL_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 벨트',
+        index: 1,
+      },
+    ],
+    local_image: '5CC536_2AIX_F0NBL.jpg',
+    local_detail_images: [
+      '5CC536_2AIX_F0NBL_detail_thumbnail.jpg',
+      '5CC536_2AIX_F0NBL_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5CC669_2CS8_F04KZ',
+    index: 18,
+    category1: 'accessories',
+    category2: 'belts',
+    name: '크리스털 장식 메탈 벨트',
+    price: '₩ 2,150,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%ED%81%AC%EB%A6%AC%EC%8A%A4%ED%84%B8-%EC%9E%A5%EC%8B%9D-%EB%A9%94%ED%83%88-%EB%B2%A8%ED%8A%B8/5CC669_2CS8_F04KZ',
+    crawled_at: '2025-11-13T15:20:34.895785',
+    subtitle:
+      '미우미우 스타일의 상징인 반항적이고 빈티지한 매력을 담은 크리스털 장식 플로럴 요소가 돋보이는 메탈 벨트입니다. 레이어드 스타일링에 적합합니다.',
+    bullet_points: [
+      '제품 코드: 5CC669_2CS8_F04KZ',
+      '인조 크리스털 장식 주얼리 메탈 버클',
+      '각인 로고 메달',
+      'M 사이즈(106cm)로 출시',
+    ],
+    size_info: [],
+    material: '주 소재: 브라스',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5CC/5CC669/2CS8F04KZ/5CC669_2CS8_F04KZ_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '크리스털 장식 메탈 벨트',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5CC/5CC669/2CS8F04KZ/5CC669_2CS8_F04KZ_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '크리스털 장식 메탈 벨트',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5CC/5CC669/2CS8F04KZ/5CC669_2CS8_F04KZ_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '크리스털 장식 메탈 벨트',
+        index: 2,
+      },
+    ],
+    local_image: '5CC669_2CS8_F04KZ.jpg',
+    local_detail_images: [
+      '5CC669_2CS8_F04KZ_detail_thumbnail.jpg',
+      '5CC669_2CS8_F04KZ_detail_2.jpg',
+      '5CC669_2CS8_F04KZ_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5CC663_2IB5_F0002',
+    index: 19,
+    category1: 'accessories',
+    category2: 'belts',
+    name: '가죽 벨트',
+    price: '₩ 980,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%EB%B2%A8%ED%8A%B8/5CC663_2IB5_F0002',
+    crawled_at: '2025-11-13T15:20:56.509068',
+    subtitle:
+      '미니멀한 디자인과 미우미우 각인 로고 골드톤 버클이 특징인 가죽 벨트로 심플하거나 세련된 스타일링에 적합합니다.',
+    bullet_points: ['제품 코드: 5CC663_2IB5_F0002', '메탈 버클', '각인 로고 버클'],
+    size_info: ['높이 3.5cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5CC/5CC663/2IB5F0002/5CC663_2IB5_F0002_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 벨트',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5CC/5CC663/2IB5F0002/5CC663_2IB5_F0002_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 벨트',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5CC/5CC663/2IB5F0002/5CC663_2IB5_F0002_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 벨트',
+        index: 2,
+      },
+    ],
+    local_image: '5CC663_2IB5_F0002.jpg',
+    local_detail_images: [
+      '5CC663_2IB5_F0002_detail_thumbnail.jpg',
+      '5CC663_2IB5_F0002_detail_2.jpg',
+      '5CC663_2IB5_F0002_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5CC663_2IB5_F098L',
+    index: 20,
+    category1: 'accessories',
+    category2: 'belts',
+    name: '가죽 벨트',
+    price: '₩ 980,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%EB%B2%A8%ED%8A%B8/5CC663_2IB5_F098L',
+    crawled_at: '2025-11-13T15:21:17.260301',
+    subtitle:
+      '미니멀한 디자인과 미우미우 각인 로고 골드톤 버클이 특징인 가죽 벨트로 심플하거나 세련된 스타일링에 적합합니다.',
+    bullet_points: ['제품 코드: 5CC663_2IB5_F098L', '메탈 버클', '각인 로고 버클'],
+    size_info: ['높이 3.5cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5CC/5CC663/2IB5F098L/5CC663_2IB5_F098L_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 벨트',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5CC/5CC663/2IB5F098L/5CC663_2IB5_F098L_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 벨트',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5CC/5CC663/2IB5F098L/5CC663_2IB5_F098L_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 벨트',
+        index: 2,
+      },
+    ],
+    local_image: '5CC663_2IB5_F098L.jpg',
+    local_detail_images: [
+      '5CC663_2IB5_F098L_detail_thumbnail.jpg',
+      '5CC663_2IB5_F098L_detail_2.jpg',
+      '5CC663_2IB5_F098L_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5CC682_2IBW_F0NBL',
+    index: 21,
+    category1: 'accessories',
+    category2: 'belts',
+    name: '가죽 및 메탈 벨트',
+    price: '₩ 1,600,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%EB%B0%8F-%EB%A9%94%ED%83%88-%EB%B2%A8%ED%8A%B8/5CC682_2IBW_F0NBL',
+    crawled_at: '2025-11-13T15:21:38.666783',
+    subtitle:
+      '미우미우의 아이코닉한 디자인을 상징하는 반항적이고 빈티지한 매력의 메탈 및 가죽 벨트로 레이어드 스타일링에 적합합니다.',
+    bullet_points: ['제품 코드: 5CC682_2IBW_F0NBL', '메탈 버클', '버클의 눈에 띄는 로고'],
+    size_info: ['높이 3.3cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5CC/5CC682/2IBWF0NBL/5CC682_2IBW_F0NBL_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 및 메탈 벨트',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5CC/5CC682/2IBWF0NBL/5CC682_2IBW_F0NBL_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 및 메탈 벨트',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5CC/5CC682/2IBWF0NBL/5CC682_2IBW_F0NBL_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 및 메탈 벨트',
+        index: 2,
+      },
+    ],
+    local_image: '5CC682_2IBW_F0NBL.jpg',
+    local_detail_images: [
+      '5CC682_2IBW_F0NBL_detail_thumbnail.jpg',
+      '5CC682_2IBW_F0NBL_detail_2.jpg',
+      '5CC682_2IBW_F0NBL_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5CC682_2IBW_F0002',
+    index: 22,
+    category1: 'accessories',
+    category2: 'belts',
+    name: '가죽 및 메탈 벨트',
+    price: '₩ 1,600,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%EB%B0%8F-%EB%A9%94%ED%83%88-%EB%B2%A8%ED%8A%B8/5CC682_2IBW_F0002',
+    crawled_at: '2025-11-13T15:22:00.518880',
+    subtitle:
+      '미우미우의 아이코닉한 디자인을 상징하는 반항적이고 빈티지한 매력의 메탈 및 가죽 벨트로 레이어드 스타일링에 적합합니다.',
+    bullet_points: ['제품 코드: 5CC682_2IBW_F0002', '메탈 버클', '버클의 눈에 띄는 로고'],
+    size_info: ['높이 3.3cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5CC/5CC682/2IBWF0002/5CC682_2IBW_F0002_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 및 메탈 벨트',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5CC/5CC682/2IBWF0002/5CC682_2IBW_F0002_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 및 메탈 벨트',
+        index: 1,
+      },
+    ],
+    local_image: '5CC682_2IBW_F0002.jpg',
+    local_detail_images: [
+      '5CC682_2IBW_F0002_detail_thumbnail.jpg',
+      '5CC682_2IBW_F0002_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5CC680_2IB7_F0002',
+    index: 23,
+    category1: 'accessories',
+    category2: 'belts',
+    name: '가죽 및 메탈 벨트',
+    price: '₩ 2,400,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%EB%B0%8F-%EB%A9%94%ED%83%88-%EB%B2%A8%ED%8A%B8/5CC680_2IB7_F0002',
+    crawled_at: '2025-11-13T15:22:22.013983',
+    subtitle:
+      '미우미우의 아이코닉한 디자인을 상징하는 반항적이고 빈티지한 매력의 메탈 및 가죽 벨트로 레이어드 스타일링에 적합합니다.',
+    bullet_points: ['제품 코드: 5CC680_2IB7_F0002', '메탈 버클', '각인 로고 버클'],
+    size_info: ['높이 2.5cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5CC/5CC680/2IB7F0002/5CC680_2IB7_F0002_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 및 메탈 벨트',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5CC/5CC680/2IB7F0002/5CC680_2IB7_F0002_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 및 메탈 벨트',
+        index: 1,
+      },
+    ],
+    local_image: '5CC680_2IB7_F0002.jpg',
+    local_detail_images: [
+      '5CC680_2IB7_F0002_detail_thumbnail.jpg',
+      '5CC680_2IB7_F0002_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5CC691_2IFT_F0151',
+    index: 25,
+    category1: 'accessories',
+    category2: 'belts',
+    name: '프린트 가죽 벨트',
+    price: '₩ 1,140,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%ED%94%84%EB%A6%B0%ED%8A%B8-%EA%B0%80%EC%A3%BD-%EB%B2%A8%ED%8A%B8/5CC691_2IFT_F0151',
+    crawled_at: '2025-11-13T15:23:03.056305',
+    subtitle:
+      '미니멀한 디자인에 애니멀 프린트 특유의 대담함을 더해, 어떤 룩에도 독특하고 예상치 못한 포인트를 선사하는 액세서리입니다.',
+    bullet_points: ['제품 코드: 5CC691_2IFT_F0151', '메탈 버클', '각인 로고 버클'],
+    size_info: ['높이 2.5cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5CC/5CC691/2IFTF0151/5CC691_2IFT_F0151_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '프린트 가죽 벨트',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5CC/5CC691/2IFTF0151/5CC691_2IFT_F0151_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '프린트 가죽 벨트',
+        index: 1,
+      },
+    ],
+    local_image: '5CC691_2IFT_F0151.jpg',
+    local_detail_images: [
+      '5CC691_2IFT_F0151_detail_thumbnail.jpg',
+      '5CC691_2IFT_F0151_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5CC689_3AP6_F0002',
+    index: 1,
+    category1: 'accessories',
+    category2: 'belts',
+    name: '가죽 벨트',
+    price: '₩ 1,030,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5CC/5CC689/3AP6F0002/5CC689_3AP6_F0002_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%EB%B2%A8%ED%8A%B8/5CC689_3AP6_F0002',
+    crawled_at: '2025-11-13T15:30:54.756175',
+    subtitle:
+      '세련되고 정제된 스타일링에 이상적인 이 가죽 벨트는 특별한 버클과 벨트 루프의 D-링 디테일이 특징으로, 액세서리나 트릭을 더해 감각적인 포인트를 완성합니다.',
+    bullet_points: [
+      '제품 코드: 5CC689_3AP6_F0002',
+      '가죽으로 덮인 버클',
+      '벨트 루프에 메탈 D-링이 있습니다.',
+      '엠보싱 로고',
+    ],
+    size_info: ['높이 2.5cm'],
+    material: '주 소재: 버팔로 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5CC/5CC689/3AP6F0002/5CC689_3AP6_F0002_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 벨트',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5CC/5CC689/3AP6F0002/5CC689_3AP6_F0002_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 벨트',
+        index: 1,
+      },
+    ],
+    local_image: '5CC689_3AP6_F0002.jpg',
+    local_detail_images: [
+      '5CC689_3AP6_F0002_detail_thumbnail.jpg',
+      '5CC689_3AP6_F0002_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5IS114_2FLQ_F0Q07',
+    index: 1,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '가죽 핀휠 브로치',
+    price: '₩ 340,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IS/5IS114/2FLQF0Q07/5IS114_2FLQ_F0Q07_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%ED%95%80%ED%9C%A0-%EB%B8%8C%EB%A1%9C%EC%B9%98/5IS114_2FLQ_F0Q07',
+    crawled_at: '2025-11-13T15:39:06.238309',
+    subtitle:
+      '미우미우의 과감하고 유쾌한 개성을 담은 메탈 로고 장식의 투톤 가죽 핀휠 브로치로 스니커즈와 백의 디자인에 포인트를 더해 독특한 스타일을 연출합니다.',
+    bullet_points: ['제품 코드: 5IS114_2FLQ_F0Q07', '후면 핀 클로저', '눈에 띄는 각인 로고'],
+    size_info: ['높이 4cm', '폭 4cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IS/5IS114/2FLQF0Q07/5IS114_2FLQ_F0Q07_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 핀휠 브로치',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IS/5IS114/2FLQF0Q07/5IS114_2FLQ_F0Q07_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 핀휠 브로치',
+        index: 1,
+      },
+    ],
+    local_image: '5IS114_2FLQ_F0Q07.jpg',
+    local_detail_images: [
+      '5IS114_2FLQ_F0Q07_detail_thumbnail.jpg',
+      '5IS114_2FLQ_F0Q07_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5IS114_2FLQ_F044Q',
+    index: 2,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '가죽 핀휠 브로치',
+    price: '₩ 340,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IS/5IS114/2FLQF044Q/5IS114_2FLQ_F044Q_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%ED%95%80%ED%9C%A0-%EB%B8%8C%EB%A1%9C%EC%B9%98/5IS114_2FLQ_F044Q',
+    crawled_at: '2025-11-13T15:39:29.704606',
+    subtitle:
+      '미우미우의 과감하고 유쾌한 개성을 담은 메탈 로고 장식의 투톤 가죽 핀휠 브로치로 스니커즈와 백의 디자인에 포인트를 더해 독특한 스타일을 연출합니다.',
+    bullet_points: ['제품 코드: 5IS114_2FLQ_F044Q', '후면 핀 클로저', '눈에 띄는 각인 로고'],
+    size_info: ['높이 4cm', '폭 4cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IS/5IS114/2FLQF044Q/5IS114_2FLQ_F044Q_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 핀휠 브로치',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IS/5IS114/2FLQF044Q/5IS114_2FLQ_F044Q_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 핀휠 브로치',
+        index: 1,
+      },
+    ],
+    local_image: '5IS114_2FLQ_F044Q.jpg',
+    local_detail_images: [
+      '5IS114_2FLQ_F044Q_detail_thumbnail.jpg',
+      '5IS114_2FLQ_F044Q_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5IS114_2FLQ_F0V4C',
+    index: 3,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '가죽 핀휠 브로치',
+    price: '₩ 340,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IS/5IS114/2FLQF0V4C/5IS114_2FLQ_F0V4C_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%ED%95%80%ED%9C%A0-%EB%B8%8C%EB%A1%9C%EC%B9%98/5IS114_2FLQ_F0V4C',
+    crawled_at: '2025-11-13T15:39:51.435203',
+    subtitle:
+      '미우미우의 과감하고 유쾌한 개성을 담은 메탈 로고 장식의 투톤 가죽 핀휠 브로치로 스니커즈와 백의 디자인에 포인트를 더해 독특한 스타일을 연출합니다.',
+    bullet_points: ['제품 코드: 5IS114_2FLQ_F0V4C', '후면 핀 클로저', '눈에 띄는 각인 로고'],
+    size_info: ['높이 4cm', '폭 4cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IS/5IS114/2FLQF0V4C/5IS114_2FLQ_F0V4C_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 핀휠 브로치',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IS/5IS114/2FLQF0V4C/5IS114_2FLQ_F0V4C_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 핀휠 브로치',
+        index: 1,
+      },
+    ],
+    local_image: '5IS114_2FLQ_F0V4C.jpg',
+    local_detail_images: [
+      '5IS114_2FLQ_F0V4C_detail_thumbnail.jpg',
+      '5IS114_2FLQ_F0V4C_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5IS114_2FLQ_F0D9K',
+    index: 4,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '가죽 핀휠 브로치',
+    price: '₩ 340,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IS/5IS114/2FLQF0D9K/5IS114_2FLQ_F0D9K_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%ED%95%80%ED%9C%A0-%EB%B8%8C%EB%A1%9C%EC%B9%98/5IS114_2FLQ_F0D9K',
+    crawled_at: '2025-11-13T15:40:15.724771',
+    subtitle:
+      '미우미우의 과감하고 유쾌한 개성을 담은 메탈 로고 장식의 투톤 가죽 핀휠 브로치로 스니커즈와 백의 디자인에 포인트를 더해 독특한 스타일을 연출합니다.',
+    bullet_points: ['제품 코드: 5IS114_2FLQ_F0D9K', '후면 핀 클로저', '눈에 띄는 각인 로고'],
+    size_info: ['높이 4cm', '폭 4cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IS/5IS114/2FLQF0D9K/5IS114_2FLQ_F0D9K_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 핀휠 브로치',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IS/5IS114/2FLQF0D9K/5IS114_2FLQ_F0D9K_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 핀휠 브로치',
+        index: 1,
+      },
+    ],
+    local_image: '5IS114_2FLQ_F0D9K.jpg',
+    local_detail_images: [
+      '5IS114_2FLQ_F0D9K_detail_thumbnail.jpg',
+      '5IS114_2FLQ_F0D9K_detail_2.jpg',
+    ],
+  },
+  {
+    id: 'UNKNOWN_5',
+    index: 5,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '제품 5',
+    price: '가격 없음',
+    image_url: '',
+    product_url: '',
+    crawled_at: '2025-11-13T15:40:43.964740',
+  },
+  {
+    id: '5BZ042_AF6P_F0201_V_OOO',
+    index: 6,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '가죽 백팩',
+    price: '₩ 5,500,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5BZ/5BZ042/AF6PF0201/5BZ042_AF6P_F0201_V_OOO_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%EB%B0%B1%ED%8C%A9/5BZ042_AF6P_F0201_V_OOO',
+    crawled_at: '2025-11-13T15:40:49.363873',
+    subtitle:
+      '스쿨 기어에서 영감을 받아 디자인된 백팩으로, 빈티지 가죽의 매력과 장인적 디테일이 어우러집니다. 멀티 포켓 디자인이 세련된 미학과 캐주얼한 기능성을 동시에 드러냅니다.',
+    bullet_points: [
+      '제품 코드: 5BZ042_AF6P_F0201_V_OOO',
+      '가죽 핸들',
+      '프론트 지퍼 포켓',
+      '버클 장식 사이드 플랩 포켓',
+      '골드 톤 하드웨어',
+      '버클 장식 플랩 클로저',
+      '플랩 가죽 레터링 로고',
+      '코튼 새틴 안감 및 지퍼 포켓',
+    ],
+    size_info: ['높이 29.5cm', '폭 25cm', '길이 12.5cm'],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5BZ/5BZ042/AF6PF0201/5BZ042_AF6P_F0201_V_OOO_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 백팩',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5BZ/5BZ042/AF6PF0201/5BZ042_AF6P_F0201_V_OOO_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 백팩',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5BZ/5BZ042/AF6PF0201/5BZ042_AF6P_F0201_V_OOO_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 백팩',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5BZ/5BZ042/AF6PF0201/5BZ042_AF6P_F0201_V_OOO_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 백팩',
+        index: 3,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5BZ/5BZ042/AF6PF0201/5BZ042_AF6P_F0201_V_OOO_MDLA.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 백팩',
+        index: 4,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5BZ/5BZ042/AF6PF0201/5BZ042_AF6P_F0201_V_OOO_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 백팩',
+        index: 5,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5BZ/5BZ042/AF6PF0201/5BZ042_AF6P_F0201_V_OOO_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 백팩',
+        index: 6,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5BZ/5BZ042/AF6PF0201/5BZ042_AF6P_F0201_V_OOO_MDR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 백팩',
+        index: 7,
+      },
+    ],
+    local_image: '5BZ042_AF6P_F0201_V_OOO.jpg',
+    local_detail_images: [
+      '5BZ042_AF6P_F0201_V_OOO_detail_thumbnail.jpg',
+      '5BZ042_AF6P_F0201_V_OOO_detail_2.jpg',
+      '5BZ042_AF6P_F0201_V_OOO_detail_3.jpg',
+      '5BZ042_AF6P_F0201_V_OOO_detail_4.jpg',
+      '5BZ042_AF6P_F0201_V_OOO_detail_5.jpg',
+      '5BZ042_AF6P_F0201_V_OOO_detail_6.jpg',
+      '5BZ042_AF6P_F0201_V_OOO_detail_7.jpg',
+      '5BZ042_AF6P_F0201_V_OOO_detail_8.jpg',
+    ],
+  },
+  {
+    id: '5TT281_2FLQ_F04YR',
+    index: 7,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '가죽 마이크로 트릭',
+    price: '₩ 340,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C-%ED%8A%B8%EB%A6%AD/5TT281_2FLQ_F04YR',
+    crawled_at: '2025-11-13T15:41:11.443867',
+    subtitle:
+      '미우미우의 장난스러운 매력이 살아 있는 마이크로 트릭입니다. 스니커즈와 백에 세련된 디테일을 더해, 독창적인 스타일링 조합을 완성합니다.',
+    bullet_points: ['제품 코드: 5TT281_2FLQ_F04YR', '가죽 및 메탈', '스냅 후크', '로고 각인 노출'],
+    size_info: [],
+    material: '주 소재: 브라스',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TT/5TT281/2FLQF04YR/5TT281_2FLQ_F04YR_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TT/5TT281/2FLQF04YR/5TT281_2FLQ_F04YR_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+        index: 1,
+      },
+    ],
+    local_image: '5TT281_2FLQ_F04YR.jpg',
+    local_detail_images: [
+      '5TT281_2FLQ_F04YR_detail_thumbnail.jpg',
+      '5TT281_2FLQ_F04YR_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5ID010_2FLQ_F0F5C',
+    index: 8,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '가죽 마이크로 트릭',
+    price: '₩ 340,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C-%ED%8A%B8%EB%A6%AD/5ID010_2FLQ_F0F5C',
+    crawled_at: '2025-11-13T15:41:34.834522',
+    subtitle:
+      '미우미우의 우아하고 유쾌한 개성을 담은 플라워 영감의 마이크로 트릭으로 스니커즈와 백의 디자인에 포인트를 더해 유니크한 스타일을 연출합니다.',
+    bullet_points: [
+      '제품 코드: 5ID010_2FLQ_F0F5C',
+      '왁스 처리된 코튼 코드',
+      '각인 로고 메탈 디테일',
+      '탈부착형 메탈 스냅 후크',
+    ],
+    size_info: [],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID010/2FLQF0F5C/5ID010_2FLQ_F0F5C_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID010/2FLQF0F5C/5ID010_2FLQ_F0F5C_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+        index: 1,
+      },
+    ],
+    local_image: '5ID010_2FLQ_F0F5C.jpg',
+    local_detail_images: [
+      '5ID010_2FLQ_F0F5C_detail_thumbnail.jpg',
+      '5ID010_2FLQ_F0F5C_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5TL498_2IGI_F0002',
+    index: 9,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '가죽 트릭',
+    price: '₩ 640,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%ED%8A%B8%EB%A6%AD/5TL498_2IGI_F0002',
+    crawled_at: '2025-11-13T15:41:59.236710',
+    subtitle:
+      '트릭의 플로럴 디자인은 대담한 메탈 스터드와 결합되어 가방과 액세서리를 더욱 돋보이게 하는 강렬한 대비를 만들어냅니다. 미우미우 로고가 아이코닉한 느낌을 더해줍니다.',
+    bullet_points: [
+      '제품 코드: 5TL498_2IGI_F0002',
+      '가죽 스트랩 포함',
+      '메탈 스터드 장식으로',
+      '메탈 레터링 로고',
+    ],
+    size_info: ['높이 6cm', '폭 5cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL498/2IGIF0002/5TL498_2IGI_F0002_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 트릭',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL498/2IGIF0002/5TL498_2IGI_F0002_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 트릭',
+        index: 1,
+      },
+    ],
+    local_image: '5TL498_2IGI_F0002.jpg',
+    local_detail_images: [
+      '5TL498_2IGI_F0002_detail_thumbnail.jpg',
+      '5TL498_2IGI_F0002_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5TL516_2IGI_F0002',
+    index: 10,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '가죽 키링 트릭',
+    price: '₩ 640,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%ED%82%A4%EB%A7%81-%ED%8A%B8%EB%A6%AD/5TL516_2IGI_F0002',
+    crawled_at: '2025-11-13T15:42:21.686570',
+    subtitle:
+      '이 키링 트릭의 플로럴 디자인은 대담한 메탈 스터드와 결합되어 가방과 액세서리를 더욱 돋보이게 하는 강렬한 대비를 만들어냅니다. 미우미우 로고가 아이코닉한 느낌을 더해줍니다.',
+    bullet_points: ['제품 코드: 5TL516_2IGI_F0002', '메탈 링', '메탈 레터링 로고'],
+    size_info: [],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL516/2IGIF0002/5TL516_2IGI_F0002_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 키링 트릭',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL516/2IGIF0002/5TL516_2IGI_F0002_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 키링 트릭',
+        index: 1,
+      },
+    ],
+    local_image: '5TL516_2IGI_F0002.jpg',
+    local_detail_images: [
+      '5TL516_2IGI_F0002_detail_thumbnail.jpg',
+      '5TL516_2IGI_F0002_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5TL570_2CQS_F04ZJ',
+    index: 11,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '가죽 트릭',
+    price: '₩ 640,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%ED%8A%B8%EB%A6%AD/5TL570_2CQS_F04ZJ',
+    crawled_at: '2025-11-13T15:42:43.695067',
+    subtitle:
+      '종이접기에서 영감을 받은 플로럴 디자인의 트릭은 가방과 액세서리에 섬세한 포인트를 더해주며, 메탈 로고 디테일이 장인의 정교한 기술을 강조합니다.',
+    bullet_points: ['제품 코드: 5TL570_2CQS_F04ZJ', '가죽 스트랩 포함', '로고 인그레이빙 메달'],
+    size_info: [],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL570/2CQSF04ZJ/5TL570_2CQS_F04ZJ_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 트릭',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL570/2CQSF04ZJ/5TL570_2CQS_F04ZJ_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 트릭',
+        index: 1,
+      },
+    ],
+    local_image: '5TL570_2CQS_F04ZJ.jpg',
+    local_detail_images: [
+      '5TL570_2CQS_F04ZJ_detail_thumbnail.jpg',
+      '5TL570_2CQS_F04ZJ_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5TT282_2FLQ_F0NMD',
+    index: 12,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '가죽 플로럴 브로치',
+    price: '₩ 340,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%ED%94%8C%EB%A1%9C%EB%9F%B4-%EB%B8%8C%EB%A1%9C%EC%B9%98/5TT282_2FLQ_F0NMD',
+    crawled_at: '2025-11-13T15:43:05.948961',
+    subtitle:
+      '플로럴 모티프에서 영감을 받은 브로치로, 미우미우의 대담하고 장난스러운 매력이 담겨 있습니다. 메탈 로고 디테일이 더해져 스니커즈와 백의 실루엣을 한층 풍성하게 하며, 개성적인 스타일을 연출합니다.',
+    bullet_points: [
+      '제품 코드: 5TT282_2FLQ_F0NMD',
+      '가죽 및 메탈',
+      '후면 핀 장식',
+      '로고 각인 노출',
+    ],
+    size_info: ['높이 2.5cm', '폭 3.5cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TT/5TT282/2FLQF0NMD/5TT282_2FLQ_F0NMD_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 플로럴 브로치',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TT/5TT282/2FLQF0NMD/5TT282_2FLQ_F0NMD_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 플로럴 브로치',
+        index: 1,
+      },
+    ],
+    local_image: '5TT282_2FLQ_F0NMD.jpg',
+    local_detail_images: [
+      '5TT282_2FLQ_F0NMD_detail_thumbnail.jpg',
+      '5TT282_2FLQ_F0NMD_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5TT282_2FLQ_F0MI4',
+    index: 13,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '가죽 플로럴 브로치',
+    price: '₩ 340,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%ED%94%8C%EB%A1%9C%EB%9F%B4-%EB%B8%8C%EB%A1%9C%EC%B9%98/5TT282_2FLQ_F0MI4',
+    crawled_at: '2025-11-13T15:43:27.745615',
+    subtitle:
+      '플로럴 모티프에서 영감을 받은 브로치로, 미우미우의 대담하고 장난스러운 매력이 담겨 있습니다. 메탈 로고 디테일이 더해져 스니커즈와 백의 실루엣을 한층 풍성하게 하며, 개성적인 스타일을 연출합니다.',
+    bullet_points: [
+      '제품 코드: 5TT282_2FLQ_F0MI4',
+      '가죽 및 메탈',
+      '후면 핀 장식',
+      '로고 각인 노출',
+    ],
+    size_info: ['높이 2.5cm', '폭 3.5cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TT/5TT282/2FLQF0MI4/5TT282_2FLQ_F0MI4_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 플로럴 브로치',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TT/5TT282/2FLQF0MI4/5TT282_2FLQ_F0MI4_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 플로럴 브로치',
+        index: 1,
+      },
+    ],
+    local_image: '5TT282_2FLQ_F0MI4.jpg',
+    local_detail_images: [
+      '5TT282_2FLQ_F0MI4_detail_thumbnail.jpg',
+      '5TT282_2FLQ_F0MI4_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5IS116_2F6T_F0L76',
+    index: 14,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '에나멜 메탈 로고 브로치',
+    price: '₩ 280,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%97%90%EB%82%98%EB%A9%9C-%EB%A9%94%ED%83%88-%EB%A1%9C%EA%B3%A0-%EB%B8%8C%EB%A1%9C%EC%B9%98/5IS116_2F6T_F0L76',
+    crawled_at: '2025-11-13T15:43:49.204266',
+    subtitle:
+      '미우미우의 아이코닉한 로고가 시선을 사로잡는 투톤 에나멜 메탈 브로치로 스니커즈 및 액세서리와 함께 착용하면 새로운 조합과 유쾌한 스타일링을 연출할 수 있습니다.',
+    bullet_points: ['제품 코드: 5IS116_2F6T_F0L76', '후면 핀 클로저', '눈에 띄는 각인 로고'],
+    size_info: ['폭 1.5cm'],
+    material: '주 소재: 브라스',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IS/5IS116/2F6TF0L76/5IS116_2F6T_F0L76_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '에나멜 메탈 로고 브로치',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IS/5IS116/2F6TF0L76/5IS116_2F6T_F0L76_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '에나멜 메탈 로고 브로치',
+        index: 1,
+      },
+    ],
+    local_image: '5IS116_2F6T_F0L76.jpg',
+    local_detail_images: [
+      '5IS116_2F6T_F0L76_detail_thumbnail.jpg',
+      '5IS116_2F6T_F0L76_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5IS116_2F6T_F0011',
+    index: 15,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '에나멜 메탈 로고 브로치',
+    price: '₩ 280,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%97%90%EB%82%98%EB%A9%9C-%EB%A9%94%ED%83%88-%EB%A1%9C%EA%B3%A0-%EB%B8%8C%EB%A1%9C%EC%B9%98/5IS116_2F6T_F0011',
+    crawled_at: '2025-11-13T15:44:10.140723',
+    subtitle:
+      '미우미우의 아이코닉한 로고가 시선을 사로잡는 투톤 에나멜 메탈 브로치로 스니커즈 및 액세서리와 함께 착용하면 새로운 조합과 유쾌한 스타일링을 연출할 수 있습니다.',
+    bullet_points: ['제품 코드: 5IS116_2F6T_F0011', '후면 핀 클로저', '눈에 띄는 각인 로고'],
+    size_info: ['폭 1.5cm'],
+    material: '주 소재: 브라스',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IS/5IS116/2F6TF0011/5IS116_2F6T_F0011_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '에나멜 메탈 로고 브로치',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IS/5IS116/2F6TF0011/5IS116_2F6T_F0011_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '에나멜 메탈 로고 브로치',
+        index: 1,
+      },
+    ],
+    local_image: '5IS116_2F6T_F0011.jpg',
+    local_detail_images: [
+      '5IS116_2F6T_F0011_detail_thumbnail.jpg',
+      '5IS116_2F6T_F0011_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5IS116_2F6T_F0009',
+    index: 16,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '에나멜 메탈 로고 브로치',
+    price: '₩ 280,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%97%90%EB%82%98%EB%A9%9C-%EB%A9%94%ED%83%88-%EB%A1%9C%EA%B3%A0-%EB%B8%8C%EB%A1%9C%EC%B9%98/5IS116_2F6T_F0009',
+    crawled_at: '2025-11-13T15:44:34.109164',
+    subtitle:
+      '미우미우의 아이코닉한 로고가 시선을 사로잡는 투톤 에나멜 메탈 브로치로 스니커즈 및 액세서리와 함께 착용하면 새로운 조합과 유쾌한 스타일링을 연출할 수 있습니다.',
+    bullet_points: ['제품 코드: 5IS116_2F6T_F0009', '후면 핀 클로저', '눈에 띄는 각인 로고'],
+    size_info: ['폭 1.5cm'],
+    material: '주 소재: 브라스',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IS/5IS116/2F6TF0009/5IS116_2F6T_F0009_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '에나멜 메탈 로고 브로치',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IS/5IS116/2F6TF0009/5IS116_2F6T_F0009_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '에나멜 메탈 로고 브로치',
+        index: 1,
+      },
+    ],
+    local_image: '5IS116_2F6T_F0009.jpg',
+    local_detail_images: [
+      '5IS116_2F6T_F0009_detail_thumbnail.jpg',
+      '5IS116_2F6T_F0009_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5TT279_2IEI_F0VJS',
+    index: 17,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '울 및 캐시미어 트릭',
+    price: '₩ 750,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%9A%B8-%EB%B0%8F-%EC%BA%90%EC%8B%9C%EB%AF%B8%EC%96%B4-%ED%8A%B8%EB%A6%AD/5TT279_2IEI_F0VJS',
+    crawled_at: '2025-11-13T15:44:55.003541',
+    subtitle:
+      '미우미우 워드로브의 아이코닉한 요소를 재해석한 울과 캐시미어 트릭으로, 스카프의 매력을 연상시키는 디자인이 이번 시즌 백에 독특하고 세련된 포인트를 더합니다.',
+    bullet_points: ['제품 코드: 5TT279_2IEI_F0VJS', '크로셰 효과', '로고 라벨'],
+    size_info: ['높이 3.5cm', '폭 60cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TT/5TT279/2IEIF0VJS/5TT279_2IEI_F0VJS_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 및 캐시미어 트릭',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TT/5TT279/2IEIF0VJS/5TT279_2IEI_F0VJS_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 및 캐시미어 트릭',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TT/5TT279/2IEIF0VJS/5TT279_2IEI_F0VJS_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 및 캐시미어 트릭',
+        index: 2,
+      },
+    ],
+    local_image: '5TT279_2IEI_F0VJS.jpg',
+    local_detail_images: [
+      '5TT279_2IEI_F0VJS_detail_thumbnail.jpg',
+      '5TT279_2IEI_F0VJS_detail_2.jpg',
+      '5TT279_2IEI_F0VJS_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5TT279_2IEI_F0X46',
+    index: 18,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '울 및 캐시미어 트릭',
+    price: '₩ 750,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%9A%B8-%EB%B0%8F-%EC%BA%90%EC%8B%9C%EB%AF%B8%EC%96%B4-%ED%8A%B8%EB%A6%AD/5TT279_2IEI_F0X46',
+    crawled_at: '2025-11-13T15:45:26.337305',
+    subtitle:
+      '미우미우 워드로브의 아이코닉한 요소를 재해석한 울과 캐시미어 트릭으로, 스카프의 매력을 연상시키는 디자인이 이번 시즌 백에 독특하고 세련된 포인트를 더합니다.',
+    bullet_points: ['제품 코드: 5TT279_2IEI_F0X46', '크로셰 효과', '로고 라벨'],
+    size_info: ['높이 3.5cm', '폭 60cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TT/5TT279/2IEIF0X46/5TT279_2IEI_F0X46_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 및 캐시미어 트릭',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TT/5TT279/2IEIF0X46/5TT279_2IEI_F0X46_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 및 캐시미어 트릭',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TT/5TT279/2IEIF0X46/5TT279_2IEI_F0X46_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '울 및 캐시미어 트릭',
+        index: 2,
+      },
+    ],
+    local_image: '5TT279_2IEI_F0X46.jpg',
+    local_detail_images: [
+      '5TT279_2IEI_F0X46_detail_thumbnail.jpg',
+      '5TT279_2IEI_F0X46_detail_2.jpg',
+      '5TT279_2IEI_F0X46_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5TL603_2IGC_F0N57',
+    index: 19,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '가죽 트릭',
+    price: '₩ 820,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%ED%8A%B8%EB%A6%AD/5TL603_2IGC_F0N57',
+    crawled_at: '2025-11-13T15:45:53.497473',
+    subtitle:
+      '빈티지 처리된 가죽 트릭은 부드러운 선을 통해 섬세한 플로럴 모티프를 재해석하여 미우미우 백에 현대적이고 독특한 디테일을 더합니다.',
+    bullet_points: ['제품 코드: 5TL603_2IGC_F0N57', '가죽 레이스', '각인 로고 메달'],
+    size_info: [],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL603/2IGCF0N57/5TL603_2IGC_F0N57_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 트릭',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL603/2IGCF0N57/5TL603_2IGC_F0N57_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 트릭',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL603/2IGCF0N57/5TL603_2IGC_F0N57_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 트릭',
+        index: 2,
+      },
+    ],
+    local_image: '5TL603_2IGC_F0N57.jpg',
+    local_detail_images: [
+      '5TL603_2IGC_F0N57_detail_thumbnail.jpg',
+      '5TL603_2IGC_F0N57_detail_2.jpg',
+      '5TL603_2IGC_F0N57_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5TL603_2IGC_F0Y5T',
+    index: 20,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '가죽 트릭',
+    price: '₩ 820,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%ED%8A%B8%EB%A6%AD/5TL603_2IGC_F0Y5T',
+    crawled_at: '2025-11-13T15:46:17.097289',
+    subtitle:
+      '빈티지 처리된 가죽 트릭은 부드러운 선을 통해 섬세한 플로럴 모티프를 재해석하여 미우미우 백에 현대적이고 독특한 디테일을 더합니다.',
+    bullet_points: ['제품 코드: 5TL603_2IGC_F0Y5T', '가죽 레이스', '각인 로고 메달'],
+    size_info: [],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL603/2IGCF0Y5T/5TL603_2IGC_F0Y5T_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 트릭',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL603/2IGCF0Y5T/5TL603_2IGC_F0Y5T_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 트릭',
+        index: 1,
+      },
+    ],
+    local_image: '5TL603_2IGC_F0Y5T.jpg',
+    local_detail_images: [
+      '5TL603_2IGC_F0Y5T_detail_thumbnail.jpg',
+      '5TL603_2IGC_F0Y5T_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5TL498_2IA1_F04R5',
+    index: 21,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '시어링 및 나파 가죽 트릭',
+    price: '₩ 620,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%8B%9C%EC%96%B4%EB%A7%81-%EB%B0%8F-%EB%82%98%ED%8C%8C-%EA%B0%80%EC%A3%BD-%ED%8A%B8%EB%A6%AD/5TL498_2IA1_F04R5',
+    crawled_at: '2025-11-13T15:46:39.917416',
+    subtitle:
+      '이 트릭의 장난스러운 플로럴 디자인은 미우미우의 세련된 실험 정신을 해석하여 가죽과 시어링과 결합되어 가방과 액세서리에 독특한 매력을 더합니다.',
+    bullet_points: ['제품 코드: 5TL498_2IA1_F04R5', '가죽 레이스', '메탈 레터링 로고'],
+    size_info: ['높이 6cm', '폭 5cm'],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL498/2IA1F04R5/5TL498_2IA1_F04R5_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '시어링 및 나파 가죽 트릭',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL498/2IA1F04R5/5TL498_2IA1_F04R5_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '시어링 및 나파 가죽 트릭',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL498/2IA1F04R5/5TL498_2IA1_F04R5_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '시어링 및 나파 가죽 트릭',
+        index: 2,
+      },
+    ],
+    local_image: '5TL498_2IA1_F04R5.jpg',
+    local_detail_images: [
+      '5TL498_2IA1_F04R5_detail_thumbnail.jpg',
+      '5TL498_2IA1_F04R5_detail_2.jpg',
+      '5TL498_2IA1_F04R5_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5TL498_2IA1_F0WP9',
+    index: 22,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '시어링 및 나파 가죽 트릭',
+    price: '₩ 620,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%8B%9C%EC%96%B4%EB%A7%81-%EB%B0%8F-%EB%82%98%ED%8C%8C-%EA%B0%80%EC%A3%BD-%ED%8A%B8%EB%A6%AD/5TL498_2IA1_F0WP9',
+    crawled_at: '2025-11-13T15:47:00.890372',
+    subtitle:
+      '이 트릭의 장난스러운 플로럴 디자인은 미우미우의 세련된 실험 정신을 해석하여 가죽과 시어링과 결합되어 가방과 액세서리에 독특한 매력을 더합니다.',
+    bullet_points: ['제품 코드: 5TL498_2IA1_F0WP9', '가죽 레이스', '메탈 레터링 로고'],
+    size_info: ['높이 6cm', '폭 5cm'],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL498/2IA1F0WP9/5TL498_2IA1_F0WP9_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '시어링 및 나파 가죽 트릭',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL498/2IA1F0WP9/5TL498_2IA1_F0WP9_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '시어링 및 나파 가죽 트릭',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL498/2IA1F0WP9/5TL498_2IA1_F0WP9_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '시어링 및 나파 가죽 트릭',
+        index: 2,
+      },
+    ],
+    local_image: '5TL498_2IA1_F0WP9.jpg',
+    local_detail_images: [
+      '5TL498_2IA1_F0WP9_detail_thumbnail.jpg',
+      '5TL498_2IA1_F0WP9_detail_2.jpg',
+      '5TL498_2IA1_F0WP9_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5TL516_2E6Y_F0NBL',
+    index: 23,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '트릭 가죽 키링',
+    price: '₩ 610,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%ED%8A%B8%EB%A6%AD-%EA%B0%80%EC%A3%BD-%ED%82%A4%EB%A7%81/5TL516_2E6Y_F0NBL',
+    crawled_at: '2025-11-13T15:47:24.679694',
+    subtitle:
+      '유쾌하고 독특한 스타일로 함께 매치되는 액세서리를 더욱 돋보이게 하는 가죽 트릭입니다. 아이코닉한 레터링 로고가 디자인을 완성합니다.',
+    bullet_points: ['제품 코드: 5TL516_2E6Y_F0NBL', '링 포함', '로고 프린트 디테일'],
+    size_info: [],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL516/2E6YF0NBL/5TL516_2E6Y_F0NBL_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '트릭 가죽 키링',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL516/2E6YF0NBL/5TL516_2E6Y_F0NBL_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '트릭 가죽 키링',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL516/2E6YF0NBL/5TL516_2E6Y_F0NBL_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '트릭 가죽 키링',
+        index: 2,
+      },
+    ],
+    local_image: '5TL516_2E6Y_F0NBL.jpg',
+    local_detail_images: [
+      '5TL516_2E6Y_F0NBL_detail_thumbnail.jpg',
+      '5TL516_2E6Y_F0NBL_detail_2.jpg',
+      '5TL516_2E6Y_F0NBL_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5TL516_2E6Y_F0032',
+    index: 24,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '트릭 가죽 키링',
+    price: '₩ 610,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%ED%8A%B8%EB%A6%AD-%EA%B0%80%EC%A3%BD-%ED%82%A4%EB%A7%81/5TL516_2E6Y_F0032',
+    crawled_at: '2025-11-13T15:47:44.734265',
+    subtitle:
+      '유쾌하고 독특한 스타일로 함께 매치되는 액세서리를 더욱 돋보이게 하는 가죽 트릭입니다. 아이코닉한 레터링 로고가 디자인을 완성합니다.',
+    bullet_points: ['제품 코드: 5TL516_2E6Y_F0032', '링 포함', '로고 프린트 디테일'],
+    size_info: [],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL516/2E6YF0032/5TL516_2E6Y_F0032_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '트릭 가죽 키링',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL516/2E6YF0032/5TL516_2E6Y_F0032_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '트릭 가죽 키링',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL516/2E6YF0032/5TL516_2E6Y_F0032_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '트릭 가죽 키링',
+        index: 2,
+      },
+    ],
+    local_image: '5TL516_2E6Y_F0032.jpg',
+    local_detail_images: [
+      '5TL516_2E6Y_F0032_detail_thumbnail.jpg',
+      '5TL516_2E6Y_F0032_detail_2.jpg',
+      '5TL516_2E6Y_F0032_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5TL516_2E6Y_F0009',
+    index: 25,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '트릭 가죽 키링',
+    price: '₩ 610,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%ED%8A%B8%EB%A6%AD-%EA%B0%80%EC%A3%BD-%ED%82%A4%EB%A7%81/5TL516_2E6Y_F0009',
+    crawled_at: '2025-11-13T15:48:04.705182',
+    subtitle:
+      '유쾌하고 독특한 스타일로 함께 매치되는 액세서리를 더욱 돋보이게 하는 가죽 트릭입니다. 아이코닉한 레터링 로고가 디자인을 완성합니다.',
+    bullet_points: ['제품 코드: 5TL516_2E6Y_F0009', '링 포함', '로고 프린트 디테일'],
+    size_info: [],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL516/2E6YF0009/5TL516_2E6Y_F0009_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '트릭 가죽 키링',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL516/2E6YF0009/5TL516_2E6Y_F0009_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '트릭 가죽 키링',
+        index: 1,
+      },
+    ],
+    local_image: '5TL516_2E6Y_F0009.jpg',
+    local_detail_images: [
+      '5TL516_2E6Y_F0009_detail_thumbnail.jpg',
+      '5TL516_2E6Y_F0009_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5TL516_2E6Y_F0L76',
+    index: 26,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '트릭 가죽 키링',
+    price: '₩ 610,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%ED%8A%B8%EB%A6%AD-%EA%B0%80%EC%A3%BD-%ED%82%A4%EB%A7%81/5TL516_2E6Y_F0L76',
+    crawled_at: '2025-11-13T15:48:37.622090',
+    subtitle:
+      '유쾌하고 독특한 스타일로 함께 매치되는 액세서리를 더욱 돋보이게 하는 가죽 트릭입니다. 아이코닉한 레터링 로고가 디자인을 완성합니다.',
+    bullet_points: ['제품 코드: 5TL516_2E6Y_F0L76', '링 포함', '로고 프린트 디테일'],
+    size_info: [],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL516/2E6YF0L76/5TL516_2E6Y_F0L76_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '트릭 가죽 키링',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL516/2E6YF0L76/5TL516_2E6Y_F0L76_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '트릭 가죽 키링',
+        index: 1,
+      },
+    ],
+    local_image: '5TL516_2E6Y_F0L76.jpg',
+    local_detail_images: [
+      '5TL516_2E6Y_F0L76_detail_thumbnail.jpg',
+      '5TL516_2E6Y_F0L76_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5TL516_2E6Y_F0011',
+    index: 1,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '트릭 가죽 키링',
+    price: '₩ 610,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL516/2E6YF0011/5TL516_2E6Y_F0011_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%ED%8A%B8%EB%A6%AD-%EA%B0%80%EC%A3%BD-%ED%82%A4%EB%A7%81/5TL516_2E6Y_F0011',
+    crawled_at: '2025-11-13T15:54:21.366345',
+    subtitle:
+      '유쾌하고 독특한 스타일로 함께 매치되는 액세서리를 더욱 돋보이게 하는 가죽 트릭입니다. 아이코닉한 레터링 로고가 디자인을 완성합니다.',
+    bullet_points: ['제품 코드: 5TL516_2E6Y_F0011', '링 포함', '로고 프린트 디테일'],
+    size_info: [],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL516/2E6YF0011/5TL516_2E6Y_F0011_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '트릭 가죽 키링',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL516/2E6YF0011/5TL516_2E6Y_F0011_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '트릭 가죽 키링',
+        index: 1,
+      },
+    ],
+    local_image: '5TL516_2E6Y_F0011.jpg',
+    local_detail_images: [
+      '5TL516_2E6Y_F0011_detail_thumbnail.jpg',
+      '5TL516_2E6Y_F0011_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5TL516_2CQS_F04P4',
+    index: 2,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '가죽 트릭',
+    price: '₩ 640,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL516/2CQSF04P4/5TL516_2CQS_F04P4_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%ED%8A%B8%EB%A6%AD/5TL516_2CQS_F04P4',
+    crawled_at: '2025-11-13T15:55:00.386312',
+    subtitle:
+      '가방에 독특하고 유쾌한 디테일을 더하는 가죽 트릭입니다. 아이코닉한 메탈 로고로 디자인이 완성됩니다.',
+    bullet_points: ['제품 코드: 5TL516_2CQS_F04P4', '키링 포함', '메탈 레터링 로고'],
+    size_info: ['높이 0.5cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL516/2CQSF04P4/5TL516_2CQS_F04P4_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 트릭',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL516/2CQSF04P4/5TL516_2CQS_F04P4_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 트릭',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL516/2CQSF04P4/5TL516_2CQS_F04P4_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 트릭',
+        index: 2,
+      },
+    ],
+    local_image: '5TL516_2CQS_F04P4.jpg',
+    local_detail_images: [
+      '5TL516_2CQS_F04P4_detail_thumbnail.jpg',
+      '5TL516_2CQS_F04P4_detail_2.jpg',
+      '5TL516_2CQS_F04P4_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5TL516_2CQS_F03Z6',
+    index: 3,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '가죽 트릭',
+    price: '₩ 640,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL516/2CQSF03Z6/5TL516_2CQS_F03Z6_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%ED%8A%B8%EB%A6%AD/5TL516_2CQS_F03Z6',
+    crawled_at: '2025-11-13T15:55:23.458107',
+    subtitle:
+      '가방에 독특하고 유쾌한 디테일을 더하는 가죽 트릭입니다. 아이코닉한 메탈 로고로 디자인이 완성됩니다.',
+    bullet_points: ['제품 코드: 5TL516_2CQS_F03Z6', '키링 포함', '메탈 레터링 로고'],
+    size_info: ['높이 0.5cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL516/2CQSF03Z6/5TL516_2CQS_F03Z6_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 트릭',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL516/2CQSF03Z6/5TL516_2CQS_F03Z6_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 트릭',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL516/2CQSF03Z6/5TL516_2CQS_F03Z6_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 트릭',
+        index: 2,
+      },
+    ],
+    local_image: '5TL516_2CQS_F03Z6.jpg',
+    local_detail_images: [
+      '5TL516_2CQS_F03Z6_detail_thumbnail.jpg',
+      '5TL516_2CQS_F03Z6_detail_2.jpg',
+      '5TL516_2CQS_F03Z6_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5TL570_2CQS_F0J22',
+    index: 4,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '가죽 트릭',
+    price: '₩ 640,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL570/2CQSF0J22/5TL570_2CQS_F0J22_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%ED%8A%B8%EB%A6%AD/5TL570_2CQS_F0J22',
+    crawled_at: '2025-11-13T15:55:44.958319',
+    subtitle:
+      '종이접기에서 영감을 받은 플로럴 디자인의 트릭은 가방과 액세서리에 섬세한 포인트를 더해주며, 메탈 로고 디테일이 장인의 정교한 기술을 강조합니다.',
+    bullet_points: ['제품 코드: 5TL570_2CQS_F0J22', '가죽 스트랩 포함', '로고 인그레이빙 메달'],
+    size_info: [],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL570/2CQSF0J22/5TL570_2CQS_F0J22_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 트릭',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL570/2CQSF0J22/5TL570_2CQS_F0J22_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 트릭',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL570/2CQSF0J22/5TL570_2CQS_F0J22_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 트릭',
+        index: 2,
+      },
+    ],
+    local_image: '5TL570_2CQS_F0J22.jpg',
+    local_detail_images: [
+      '5TL570_2CQS_F0J22_detail_thumbnail.jpg',
+      '5TL570_2CQS_F0J22_detail_2.jpg',
+      '5TL570_2CQS_F0J22_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5TL570_2CQS_F03YH',
+    index: 5,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '가죽 트릭',
+    price: '₩ 640,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL570/2CQSF03YH/5TL570_2CQS_F03YH_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%ED%8A%B8%EB%A6%AD/5TL570_2CQS_F03YH',
+    crawled_at: '2025-11-13T15:56:06.617955',
+    subtitle:
+      '종이접기에서 영감을 받은 플로럴 디자인의 트릭은 가방과 액세서리에 섬세한 포인트를 더해주며, 메탈 로고 디테일이 장인의 정교한 기술을 강조합니다.',
+    bullet_points: ['제품 코드: 5TL570_2CQS_F03YH', '가죽 스트랩 포함', '로고 인그레이빙 메달'],
+    size_info: [],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL570/2CQSF03YH/5TL570_2CQS_F03YH_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 트릭',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL570/2CQSF03YH/5TL570_2CQS_F03YH_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 트릭',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL570/2CQSF03YH/5TL570_2CQS_F03YH_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 트릭',
+        index: 2,
+      },
+    ],
+    local_image: '5TL570_2CQS_F03YH.jpg',
+    local_detail_images: [
+      '5TL570_2CQS_F03YH_detail_thumbnail.jpg',
+      '5TL570_2CQS_F03YH_detail_2.jpg',
+      '5TL570_2CQS_F03YH_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5TL574_2IEQ_F0C1U',
+    index: 6,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '메탈 및 가죽 키링 트릭',
+    price: '₩ 820,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL574/2IEQF0C1U/5TL574_2IEQ_F0C1U_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EB%A9%94%ED%83%88-%EB%B0%8F-%EA%B0%80%EC%A3%BD-%ED%82%A4%EB%A7%81-%ED%8A%B8%EB%A6%AD/5TL574_2IEQ_F0C1U',
+    crawled_at: '2025-11-13T15:56:32.242692',
+    subtitle:
+      '메탈과 가죽으로 제작된 이 키링 트릭은 패션쇼 디테일에서 영감을 받아 현대적인 세련미를 표현하며, 빛과 간결한 매력을 결합합니다.',
+    bullet_points: ['제품 코드: 5TL574_2IEQ_F0C1U', '스플릿 링', '가죽 스트랩', '각인 로고 메달'],
+    size_info: [],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL574/2IEQF0C1U/5TL574_2IEQ_F0C1U_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '메탈 및 가죽 키링 트릭',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL574/2IEQF0C1U/5TL574_2IEQ_F0C1U_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '메탈 및 가죽 키링 트릭',
+        index: 1,
+      },
+    ],
+    local_image: '5TL574_2IEQ_F0C1U.jpg',
+    local_detail_images: [
+      '5TL574_2IEQ_F0C1U_detail_thumbnail.jpg',
+      '5TL574_2IEQ_F0C1U_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5TL569_2ID8_F0007',
+    index: 7,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '가죽 키링 트릭',
+    price: '₩ 890,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL569/2ID8F0007/5TL569_2ID8_F0007_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%ED%82%A4%EB%A7%81-%ED%8A%B8%EB%A6%AD/5TL569_2ID8_F0007',
+    crawled_at: '2025-11-13T15:56:56.737721',
+    subtitle:
+      '미우미우 워드로브의 시그니처 요소들을 재해석한 이 가죽 트릭은 아이코닉한 야구 모자에서 영감을 받아 유쾌하고 개성 있는 스타일을 완성합니다.',
+    bullet_points: [
+      '제품 코드: 5TL569_2ID8_F0007',
+      '가죽 스트랩 포함',
+      '링 포함',
+      '스트랩에 핫스탬핑 로고',
+    ],
+    size_info: [],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL569/2ID8F0007/5TL569_2ID8_F0007_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 키링 트릭',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL569/2ID8F0007/5TL569_2ID8_F0007_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 키링 트릭',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL569/2ID8F0007/5TL569_2ID8_F0007_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 키링 트릭',
+        index: 2,
+      },
+    ],
+    local_image: '5TL569_2ID8_F0007.jpg',
+    local_detail_images: [
+      '5TL569_2ID8_F0007_detail_thumbnail.jpg',
+      '5TL569_2ID8_F0007_detail_2.jpg',
+      '5TL569_2ID8_F0007_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5TL529_2CUI_F0237',
+    index: 8,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '가죽 키체인 트릭',
+    price: '₩ 890,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL529/2CUIF0237/5TL529_2CUI_F0237_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%ED%82%A4%EC%B2%B4%EC%9D%B8-%ED%8A%B8%EB%A6%AD/5TL529_2CUI_F0237',
+    crawled_at: '2025-11-13T15:57:18.971033',
+    subtitle:
+      '미우미우 룩의 특별한 요소가 백에 어울리는 고급 액세서리로 재탄생해 유쾌하고 개성 넘치는 조합을 연출합니다. 클래식한 포플린 셔츠에서 영감을 받은 가죽 트릭은 백 디자인에 독특함을 더합니다.',
+    bullet_points: ['제품 코드: 5TL529_2CUI_F0237', '스플릿 링', '후면 거울', '로고 프린트 디테일'],
+    size_info: ['높이 11.8cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL529/2CUIF0237/5TL529_2CUI_F0237_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 키체인 트릭',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL529/2CUIF0237/5TL529_2CUI_F0237_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 키체인 트릭',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL529/2CUIF0237/5TL529_2CUI_F0237_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 키체인 트릭',
+        index: 2,
+      },
+    ],
+    local_image: '5TL529_2CUI_F0237.jpg',
+    local_detail_images: [
+      '5TL529_2CUI_F0237_detail_thumbnail.jpg',
+      '5TL529_2CUI_F0237_detail_2.jpg',
+      '5TL529_2CUI_F0237_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5TL531_2CUK_F0065',
+    index: 9,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '가죽 키체인 트릭',
+    price: '₩ 890,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL531/2CUKF0065/5TL531_2CUK_F0065_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%ED%82%A4%EC%B2%B4%EC%9D%B8-%ED%8A%B8%EB%A6%AD/5TL531_2CUK_F0065',
+    crawled_at: '2025-11-13T15:57:48.432671',
+    subtitle:
+      '미우미우 룩의 특별한 요소가 백에 어울리는 고급 액세서리로 재탄생해 유쾌하고 개성 넘치는 조합을 연출합니다. 아이코닉한 미우미우 미니 스커트에서 영감을 받은 가죽 트릭은 백 디자인에 독특함을 더합니다.',
+    bullet_points: ['제품 코드: 5TL531_2CUK_F0065', '스플릿 링', '후면 거울', '눈에 띄는 로고'],
+    size_info: ['폭 9.7cm'],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL531/2CUKF0065/5TL531_2CUK_F0065_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 키체인 트릭',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL531/2CUKF0065/5TL531_2CUK_F0065_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 키체인 트릭',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL531/2CUKF0065/5TL531_2CUK_F0065_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 키체인 트릭',
+        index: 2,
+      },
+    ],
+    local_image: '5TL531_2CUK_F0065.jpg',
+    local_detail_images: [
+      '5TL531_2CUK_F0065_detail_thumbnail.jpg',
+      '5TL531_2CUK_F0065_detail_2.jpg',
+      '5TL531_2CUK_F0065_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5TL533_2CUM_F0NZ2',
+    index: 10,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '미우 발레 가죽 키체인 트릭',
+    price: '₩ 890,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL533/2CUMF0NZ2/5TL533_2CUM_F0NZ2_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EB%AF%B8%EC%9A%B0-%EB%B0%9C%EB%A0%88-%EA%B0%80%EC%A3%BD-%ED%82%A4%EC%B2%B4%EC%9D%B8-%ED%8A%B8%EB%A6%AD/5TL533_2CUM_F0NZ2',
+    crawled_at: '2025-11-13T15:58:14.265286',
+    subtitle:
+      '미우미우 룩의 특별한 요소가 백에 어울리는 고급 액세서리로 재탄생해 유쾌하고 개성 넘치는 조합을 연출합니다. 잘 알려진 미우 발레 슈즈에서 영감을 받은 가죽 트릭은 백 디자인에 독특함을 더합니다.',
+    bullet_points: ['제품 코드: 5TL533_2CUM_F0NZ2', '스플릿 링', '후면 거울', '눈에 띄는 로고'],
+    size_info: ['높이 10.4cm', '폭 9.7cm'],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL533/2CUMF0NZ2/5TL533_2CUM_F0NZ2_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '미우 발레 가죽 키체인 트릭',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL533/2CUMF0NZ2/5TL533_2CUM_F0NZ2_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '미우 발레 가죽 키체인 트릭',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL533/2CUMF0NZ2/5TL533_2CUM_F0NZ2_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '미우 발레 가죽 키체인 트릭',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL533/2CUMF0NZ2/5TL533_2CUM_F0NZ2_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '미우 발레 가죽 키체인 트릭',
+        index: 3,
+      },
+    ],
+    local_image: '5TL533_2CUM_F0NZ2.jpg',
+    local_detail_images: [
+      '5TL533_2CUM_F0NZ2_detail_thumbnail.jpg',
+      '5TL533_2CUM_F0NZ2_detail_2.jpg',
+      '5TL533_2CUM_F0NZ2_detail_3.jpg',
+      '5TL533_2CUM_F0NZ2_detail_4.jpg',
+    ],
+  },
+  {
+    id: '5TL510_2IFO_F0NTG',
+    index: 11,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '가죽, 코드 및 금속 키링 트릭',
+    price: '₩ 930,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL510/2IFOF0NTG/5TL510_2IFO_F0NTG_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%EC%BD%94%EB%93%9C-%EB%B0%8F-%EA%B8%88%EC%86%8D-%ED%82%A4%EB%A7%81-%ED%8A%B8%EB%A6%AD/5TL510_2IFO_F0NTG',
+    crawled_at: '2025-11-13T15:58:36.517867',
+    subtitle:
+      '가죽, 코드, 메탈을 조합해 미우미우 특유의 컨템포러리 감각을 담아낸 키링 트릭입니다. 투톤 코드와 메탈 로고 디테일이 더해져 다재다능하면서도 아이코닉한 매력을 드러냅니다.',
+    bullet_points: ['제품 코드: 5TL510_2IFO_F0NTG', '스냅 후크 및 링 장식', '디테일 로고 펀칭'],
+    size_info: ['폭 57cm'],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL510/2IFOF0NTG/5TL510_2IFO_F0NTG_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽, 코드 및 금속 키링 트릭',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL510/2IFOF0NTG/5TL510_2IFO_F0NTG_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽, 코드 및 금속 키링 트릭',
+        index: 1,
+      },
+    ],
+    local_image: '5TL510_2IFO_F0NTG.jpg',
+    local_detail_images: [
+      '5TL510_2IFO_F0NTG_detail_thumbnail.jpg',
+      '5TL510_2IFO_F0NTG_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5TL510_ACRT_F0Q7Z',
+    index: 12,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '가죽, 코드 및 메탈 트릭 키링',
+    price: '₩ 890,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL510/ACRTF0Q7Z/5TL510_ACRT_F0Q7Z_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%EC%BD%94%EB%93%9C-%EB%B0%8F-%EB%A9%94%ED%83%88-%ED%8A%B8%EB%A6%AD-%ED%82%A4%EB%A7%81/5TL510_ACRT_F0Q7Z',
+    crawled_at: '2025-11-13T15:58:57.654154',
+    subtitle:
+      '고품질 소재와 미우미우의 현대적인 스타일이 조화를 이루는 트릭입니다. 투톤 코드와 메탈 로고 디테일이 활용성과 아이코닉한 개성을 더합니다.',
+    bullet_points: ['제품 코드: 5TL510_ACRT_F0Q7Z', '스냅 후크와 링 부착', '타공 처리 로고 디테일'],
+    size_info: ['폭 57cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL510/ACRTF0Q7Z/5TL510_ACRT_F0Q7Z_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽, 코드 및 메탈 트릭 키링',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL510/ACRTF0Q7Z/5TL510_ACRT_F0Q7Z_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽, 코드 및 메탈 트릭 키링',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL510/ACRTF0Q7Z/5TL510_ACRT_F0Q7Z_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽, 코드 및 메탈 트릭 키링',
+        index: 2,
+      },
+    ],
+    local_image: '5TL510_ACRT_F0Q7Z.jpg',
+    local_detail_images: [
+      '5TL510_ACRT_F0Q7Z_detail_thumbnail.jpg',
+      '5TL510_ACRT_F0Q7Z_detail_2.jpg',
+      '5TL510_ACRT_F0Q7Z_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5TL510_ACRT_F04D2',
+    index: 13,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '가죽, 코드 및 메탈 트릭 키링',
+    price: '₩ 890,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%EC%BD%94%EB%93%9C-%EB%B0%8F-%EB%A9%94%ED%83%88-%ED%8A%B8%EB%A6%AD-%ED%82%A4%EB%A7%81/5TL510_ACRT_F04D2',
+    crawled_at: '2025-11-13T15:59:21.192620',
+    subtitle:
+      '고품질 소재와 미우미우의 현대적인 스타일이 조화를 이루는 트릭입니다. 투톤 코드와 메탈 로고 디테일이 활용성과 아이코닉한 개성을 더합니다.',
+    bullet_points: ['제품 코드: 5TL510_ACRT_F04D2', '스냅 후크와 링 부착', '타공 처리 로고 디테일'],
+    size_info: ['폭 57cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL510/ACRTF04D2/5TL510_ACRT_F04D2_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽, 코드 및 메탈 트릭 키링',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL510/ACRTF04D2/5TL510_ACRT_F04D2_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽, 코드 및 메탈 트릭 키링',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL510/ACRTF04D2/5TL510_ACRT_F04D2_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽, 코드 및 메탈 트릭 키링',
+        index: 2,
+      },
+    ],
+    local_image: '5TL510_ACRT_F04D2.jpg',
+    local_detail_images: [
+      '5TL510_ACRT_F04D2_detail_thumbnail.jpg',
+      '5TL510_ACRT_F04D2_detail_2.jpg',
+      '5TL510_ACRT_F04D2_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5TL510_ACRT_F0G52',
+    index: 14,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '가죽, 코드 및 메탈 트릭 키링',
+    price: '₩ 890,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%EC%BD%94%EB%93%9C-%EB%B0%8F-%EB%A9%94%ED%83%88-%ED%8A%B8%EB%A6%AD-%ED%82%A4%EB%A7%81/5TL510_ACRT_F0G52',
+    crawled_at: '2025-11-13T15:59:43.968860',
+    subtitle:
+      '고품질 소재와 미우미우의 현대적인 스타일이 조화를 이루는 트릭입니다. 투톤 코드와 메탈 로고 디테일이 활용성과 아이코닉한 개성을 더합니다.',
+    bullet_points: ['제품 코드: 5TL510_ACRT_F0G52', '스냅 후크와 링 부착', '타공 처리 로고 디테일'],
+    size_info: ['폭 57cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL510/ACRTF0G52/5TL510_ACRT_F0G52_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽, 코드 및 메탈 트릭 키링',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL510/ACRTF0G52/5TL510_ACRT_F0G52_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽, 코드 및 메탈 트릭 키링',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL510/ACRTF0G52/5TL510_ACRT_F0G52_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽, 코드 및 메탈 트릭 키링',
+        index: 2,
+      },
+    ],
+    local_image: '5TL510_ACRT_F0G52.jpg',
+    local_detail_images: [
+      '5TL510_ACRT_F0G52_detail_thumbnail.jpg',
+      '5TL510_ACRT_F0G52_detail_2.jpg',
+      '5TL510_ACRT_F0G52_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5TL510_ACRT_F04Q8',
+    index: 15,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '가죽, 코드 및 메탈 트릭 키링',
+    price: '₩ 890,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%EC%BD%94%EB%93%9C-%EB%B0%8F-%EB%A9%94%ED%83%88-%ED%8A%B8%EB%A6%AD-%ED%82%A4%EB%A7%81/5TL510_ACRT_F04Q8',
+    crawled_at: '2025-11-13T16:00:10.095725',
+    subtitle:
+      '고품질 소재와 미우미우의 현대적인 스타일이 조화를 이루는 트릭입니다. 투톤 코드와 메탈 로고 디테일이 활용성과 아이코닉한 개성을 더합니다.',
+    bullet_points: ['제품 코드: 5TL510_ACRT_F04Q8', '스냅 후크와 링 부착', '타공 처리 로고 디테일'],
+    size_info: ['폭 57cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL510/ACRTF04Q8/5TL510_ACRT_F04Q8_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽, 코드 및 메탈 트릭 키링',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL510/ACRTF04Q8/5TL510_ACRT_F04Q8_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽, 코드 및 메탈 트릭 키링',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL510/ACRTF04Q8/5TL510_ACRT_F04Q8_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽, 코드 및 메탈 트릭 키링',
+        index: 2,
+      },
+    ],
+    local_image: '5TL510_ACRT_F04Q8.jpg',
+    local_detail_images: [
+      '5TL510_ACRT_F04Q8_detail_thumbnail.jpg',
+      '5TL510_ACRT_F04Q8_detail_2.jpg',
+      '5TL510_ACRT_F04Q8_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5TL515_2IDW_F0NP5',
+    index: 16,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '가죽 트릭',
+    price: '₩ 1,030,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%ED%8A%B8%EB%A6%AD/5TL515_2IDW_F0NP5',
+    crawled_at: '2025-11-13T16:00:33.353019',
+    subtitle:
+      '태슬 참과 미니 파우치에 새겨진 로고가 특징인 가죽 트릭은 미우미우의 위트 있는 감성을 담아냅니다.',
+    bullet_points: [
+      '제품 코드: 5TL515_2IDW_F0NP5',
+      '미니 파우치 포함',
+      '스냅 클로저',
+      '참 디테일이 있는 길이 조절 가능한 가죽 넥 스트랩',
+      '엠보싱 레터링 로고',
+    ],
+    size_info: ['높이 5.5cm', '폭 7cm', '길이 3.1cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL515/2IDWF0NP5/5TL515_2IDW_F0NP5_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 트릭',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL515/2IDWF0NP5/5TL515_2IDW_F0NP5_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 트릭',
+        index: 1,
+      },
+    ],
+    local_image: '5TL515_2IDW_F0NP5.jpg',
+    local_detail_images: [
+      '5TL515_2IDW_F0NP5_detail_thumbnail.jpg',
+      '5TL515_2IDW_F0NP5_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5TL515_2IDW_F04MV',
+    index: 17,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '가죽 트릭',
+    price: '₩ 1,030,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%ED%8A%B8%EB%A6%AD/5TL515_2IDW_F04MV',
+    crawled_at: '2025-11-13T16:00:54.115509',
+    subtitle:
+      '태슬 참과 미니 파우치에 새겨진 로고가 특징인 가죽 트릭은 미우미우의 위트 있는 감성을 담아냅니다.',
+    bullet_points: [
+      '제품 코드: 5TL515_2IDW_F04MV',
+      '미니 파우치 포함',
+      '스냅 클로저',
+      '참 디테일이 있는 길이 조절 가능한 가죽 넥 스트랩',
+      '엠보싱 레터링 로고',
+    ],
+    size_info: ['높이 5.5cm', '폭 7cm', '길이 3.1cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL515/2IDWF04MV/5TL515_2IDW_F04MV_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 트릭',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL515/2IDWF04MV/5TL515_2IDW_F04MV_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 트릭',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL515/2IDWF04MV/5TL515_2IDW_F04MV_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 트릭',
+        index: 2,
+      },
+    ],
+    local_image: '5TL515_2IDW_F04MV.jpg',
+    local_detail_images: [
+      '5TL515_2IDW_F04MV_detail_thumbnail.jpg',
+      '5TL515_2IDW_F04MV_detail_2.jpg',
+      '5TL515_2IDW_F04MV_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5TL515_ACRT_F04Q8',
+    index: 18,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '가죽 코드 및 트릭',
+    price: '₩ 930,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%EC%BD%94%EB%93%9C-%EB%B0%8F-%ED%8A%B8%EB%A6%AD/5TL515_ACRT_F04Q8',
+    crawled_at: '2025-11-13T16:01:17.216105',
+    subtitle:
+      '유쾌하고 독특한 스타일로 함께 매치되는 액세서리를 더욱 돋보이게 하는 가죽 및 코드 트릭입니다. 미니 파우치의 레터링 로고가 아이코닉한 감각으로 디자인을 완성합니다.',
+    bullet_points: [
+      '제품 코드: 5TL515_ACRT_F04Q8',
+      '미니 파우치',
+      '메탈 버클 클로저',
+      '메탈 레터링 로고',
+      '미니 파우치 사이즈: 가로 7cm - 세로 5.5cm - 두께 3.1cm',
+    ],
+    size_info: ['높이 5.5cm', '폭 7cm', '길이 3.1cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL515/ACRTF04Q8/5TL515_ACRT_F04Q8_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 코드 및 트릭',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL515/ACRTF04Q8/5TL515_ACRT_F04Q8_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 코드 및 트릭',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL515/ACRTF04Q8/5TL515_ACRT_F04Q8_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 코드 및 트릭',
+        index: 2,
+      },
+    ],
+    local_image: '5TL515_ACRT_F04Q8.jpg',
+    local_detail_images: [
+      '5TL515_ACRT_F04Q8_detail_thumbnail.jpg',
+      '5TL515_ACRT_F04Q8_detail_2.jpg',
+      '5TL515_ACRT_F04Q8_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5TL515_ACRT_F0G52',
+    index: 19,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '가죽 코드 및 트릭',
+    price: '₩ 930,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%EC%BD%94%EB%93%9C-%EB%B0%8F-%ED%8A%B8%EB%A6%AD/5TL515_ACRT_F0G52',
+    crawled_at: '2025-11-13T16:01:38.867967',
+    subtitle:
+      '유쾌하고 독특한 스타일로 함께 매치되는 액세서리를 더욱 돋보이게 하는 가죽 및 코드 트릭입니다. 미니 파우치의 레터링 로고가 아이코닉한 감각으로 디자인을 완성합니다.',
+    bullet_points: [
+      '제품 코드: 5TL515_ACRT_F0G52',
+      '미니 파우치',
+      '메탈 버클 클로저',
+      '메탈 레터링 로고',
+      '미니 파우치 사이즈: 가로 7cm - 세로 5.5cm - 두께 3.1cm',
+    ],
+    size_info: ['높이 5.5cm', '폭 7cm', '길이 3.1cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL515/ACRTF0G52/5TL515_ACRT_F0G52_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 코드 및 트릭',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL515/ACRTF0G52/5TL515_ACRT_F0G52_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 코드 및 트릭',
+        index: 1,
+      },
+    ],
+    local_image: '5TL515_ACRT_F0G52.jpg',
+    local_detail_images: [
+      '5TL515_ACRT_F0G52_detail_thumbnail.jpg',
+      '5TL515_ACRT_F0G52_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5TL515_ACRT_F04BU',
+    index: 20,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '가죽 코드 및 트릭',
+    price: '₩ 930,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%EC%BD%94%EB%93%9C-%EB%B0%8F-%ED%8A%B8%EB%A6%AD/5TL515_ACRT_F04BU',
+    crawled_at: '2025-11-13T16:02:00.988815',
+    subtitle:
+      '유쾌하고 독특한 스타일로 함께 매치되는 액세서리를 더욱 돋보이게 하는 가죽 및 코드 트릭입니다. 미니 파우치의 레터링 로고가 아이코닉한 감각으로 디자인을 완성합니다.',
+    bullet_points: [
+      '제품 코드: 5TL515_ACRT_F04BU',
+      '미니 파우치',
+      '메탈 버클 클로저',
+      '메탈 레터링 로고',
+      '미니 파우치 사이즈: 가로 7cm - 세로 5.5cm - 두께 3.1cm',
+    ],
+    size_info: ['높이 5.5cm', '폭 7cm', '길이 3.1cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL515/ACRTF04BU/5TL515_ACRT_F04BU_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 코드 및 트릭',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL515/ACRTF04BU/5TL515_ACRT_F04BU_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 코드 및 트릭',
+        index: 1,
+      },
+    ],
+    local_image: '5TL515_ACRT_F04BU.jpg',
+    local_detail_images: [
+      '5TL515_ACRT_F04BU_detail_thumbnail.jpg',
+      '5TL515_ACRT_F04BU_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5ID008_2FLQ_F0976',
+    index: 21,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '가죽 마이크로 트릭',
+    price: '₩ 370,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C-%ED%8A%B8%EB%A6%AD/5ID008_2FLQ_F0976',
+    crawled_at: '2025-11-13T16:02:20.968786',
+    subtitle:
+      '미우미우의 과감하고 유쾌한 개성을 담은 나무 로고 장식의 부드러운 가죽 소재 마이크로 트릭으로 스니커즈와 백의 디자인에 포인트를 더해 새로운 스타일을 연출합니다.',
+    bullet_points: [
+      '제품 코드: 5ID008_2FLQ_F0976',
+      '왁스 처리된 코튼 코드',
+      '나무 디테일',
+      '디테일에 각인 로고',
+      '탈부착형 메탈 스냅 후크',
+    ],
+    size_info: [],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID008/2FLQF0976/5ID008_2FLQ_F0976_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID008/2FLQF0976/5ID008_2FLQ_F0976_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID008/2FLQF0976/5ID008_2FLQ_F0976_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+        index: 2,
+      },
+    ],
+    local_image: '5ID008_2FLQ_F0976.jpg',
+    local_detail_images: [
+      '5ID008_2FLQ_F0976_detail_thumbnail.jpg',
+      '5ID008_2FLQ_F0976_detail_2.jpg',
+      '5ID008_2FLQ_F0976_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5ID008_2FLQ_F0NP5',
+    index: 22,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '가죽 마이크로 트릭',
+    price: '₩ 370,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C-%ED%8A%B8%EB%A6%AD/5ID008_2FLQ_F0NP5',
+    crawled_at: '2025-11-13T16:02:41.910395',
+    subtitle:
+      '미우미우의 과감하고 유쾌한 개성을 담은 나무 로고 장식의 부드러운 가죽 소재 마이크로 트릭으로 스니커즈와 백의 디자인에 포인트를 더해 새로운 스타일을 연출합니다.',
+    bullet_points: [
+      '제품 코드: 5ID008_2FLQ_F0NP5',
+      '왁스 처리된 코튼 코드',
+      '나무 디테일',
+      '디테일에 각인 로고',
+      '탈부착형 메탈 스냅 후크',
+    ],
+    size_info: [],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID008/2FLQF0NP5/5ID008_2FLQ_F0NP5_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID008/2FLQF0NP5/5ID008_2FLQ_F0NP5_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID008/2FLQF0NP5/5ID008_2FLQ_F0NP5_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+        index: 2,
+      },
+    ],
+    local_image: '5ID008_2FLQ_F0NP5.jpg',
+    local_detail_images: [
+      '5ID008_2FLQ_F0NP5_detail_thumbnail.jpg',
+      '5ID008_2FLQ_F0NP5_detail_2.jpg',
+      '5ID008_2FLQ_F0NP5_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5ID008_2FLQ_F0X63',
+    index: 23,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '가죽 마이크로 트릭',
+    price: '₩ 370,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C-%ED%8A%B8%EB%A6%AD/5ID008_2FLQ_F0X63',
+    crawled_at: '2025-11-13T16:03:06.233123',
+    subtitle:
+      '미우미우의 과감하고 유쾌한 개성을 담은 나무 로고 장식의 부드러운 가죽 소재 마이크로 트릭으로 스니커즈와 백의 디자인에 포인트를 더해 새로운 스타일을 연출합니다.',
+    bullet_points: [
+      '제품 코드: 5ID008_2FLQ_F0X63',
+      '왁스 처리된 코튼 코드',
+      '나무 디테일',
+      '디테일에 각인 로고',
+      '탈부착형 메탈 스냅 후크',
+    ],
+    size_info: [],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID008/2FLQF0X63/5ID008_2FLQ_F0X63_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID008/2FLQF0X63/5ID008_2FLQ_F0X63_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID008/2FLQF0X63/5ID008_2FLQ_F0X63_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+        index: 2,
+      },
+    ],
+    local_image: '5ID008_2FLQ_F0X63.jpg',
+    local_detail_images: [
+      '5ID008_2FLQ_F0X63_detail_thumbnail.jpg',
+      '5ID008_2FLQ_F0X63_detail_2.jpg',
+      '5ID008_2FLQ_F0X63_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5ID008_2FLQ_F04MV',
+    index: 24,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '가죽 마이크로 트릭',
+    price: '₩ 370,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C-%ED%8A%B8%EB%A6%AD/5ID008_2FLQ_F04MV',
+    crawled_at: '2025-11-13T16:03:27.903985',
+    subtitle:
+      '미우미우의 과감하고 유쾌한 개성을 담은 나무 로고 장식의 부드러운 가죽 소재 마이크로 트릭으로 스니커즈와 백의 디자인에 포인트를 더해 새로운 스타일을 연출합니다.',
+    bullet_points: [
+      '제품 코드: 5ID008_2FLQ_F04MV',
+      '왁스 처리된 코튼 코드',
+      '나무 디테일',
+      '디테일에 각인 로고',
+      '탈부착형 메탈 스냅 후크',
+    ],
+    size_info: [],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID008/2FLQF04MV/5ID008_2FLQ_F04MV_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID008/2FLQF04MV/5ID008_2FLQ_F04MV_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID008/2FLQF04MV/5ID008_2FLQ_F04MV_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+        index: 2,
+      },
+    ],
+    local_image: '5ID008_2FLQ_F04MV.jpg',
+    local_detail_images: [
+      '5ID008_2FLQ_F04MV_detail_thumbnail.jpg',
+      '5ID008_2FLQ_F04MV_detail_2.jpg',
+      '5ID008_2FLQ_F04MV_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5ID008_2FLQ_F0VJS',
+    index: 1,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '가죽 마이크로 트릭',
+    price: '₩ 370,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID008/2FLQF0VJS/5ID008_2FLQ_F0VJS_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C-%ED%8A%B8%EB%A6%AD/5ID008_2FLQ_F0VJS',
+    crawled_at: '2025-11-13T16:13:11.399682',
+    subtitle:
+      '미우미우의 과감하고 유쾌한 개성을 담은 나무 로고 장식의 부드러운 가죽 소재 마이크로 트릭으로 스니커즈와 백의 디자인에 포인트를 더해 새로운 스타일을 연출합니다.',
+    bullet_points: [
+      '제품 코드: 5ID008_2FLQ_F0VJS',
+      '왁스 처리된 코튼 코드',
+      '나무 디테일',
+      '디테일에 각인 로고',
+      '탈부착형 메탈 스냅 후크',
+    ],
+    size_info: [],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID008/2FLQF0VJS/5ID008_2FLQ_F0VJS_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID008/2FLQF0VJS/5ID008_2FLQ_F0VJS_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID008/2FLQF0VJS/5ID008_2FLQ_F0VJS_SLDA.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+        index: 2,
+      },
+    ],
+    local_image: '5ID008_2FLQ_F0VJS.jpg',
+    local_detail_images: [
+      '5ID008_2FLQ_F0VJS_detail_thumbnail.jpg',
+      '5ID008_2FLQ_F0VJS_detail_2.jpg',
+      '5ID008_2FLQ_F0VJS_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5ID007_2FLQ_F0009',
+    index: 2,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '가죽 마이크로 트릭',
+    price: '₩ 340,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID007/2FLQF0009/5ID007_2FLQ_F0009_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C-%ED%8A%B8%EB%A6%AD/5ID007_2FLQ_F0009',
+    crawled_at: '2025-11-13T16:13:41.420088',
+    subtitle:
+      '미우미우의 과감하고 유쾌한 개성을 담은 나무 로고 장식의 부드러운 가죽 소재 마이크로 트릭으로 스니커즈와 백의 디자인에 포인트를 더해 새로운 스타일을 연출합니다.',
+    bullet_points: [
+      '제품 코드: 5ID007_2FLQ_F0009',
+      '왁스 처리된 코튼 코드',
+      '나무 디테일',
+      '디테일에 각인 로고',
+      '탈부착형 메탈 스냅 후크',
+    ],
+    size_info: [],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID007/2FLQF0009/5ID007_2FLQ_F0009_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID007/2FLQF0009/5ID007_2FLQ_F0009_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID007/2FLQF0009/5ID007_2FLQ_F0009_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+        index: 2,
+      },
+    ],
+    local_image: '5ID007_2FLQ_F0009.jpg',
+    local_detail_images: [
+      '5ID007_2FLQ_F0009_detail_thumbnail.jpg',
+      '5ID007_2FLQ_F0009_detail_2.jpg',
+      '5ID007_2FLQ_F0009_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5ID007_2FLQ_F0011',
+    index: 3,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '가죽 마이크로 트릭',
+    price: '₩ 340,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID007/2FLQF0011/5ID007_2FLQ_F0011_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C-%ED%8A%B8%EB%A6%AD/5ID007_2FLQ_F0011',
+    crawled_at: '2025-11-13T16:14:07.956039',
+    subtitle:
+      '미우미우의 과감하고 유쾌한 개성을 담은 나무 로고 장식의 부드러운 가죽 소재 마이크로 트릭으로 스니커즈와 백의 디자인에 포인트를 더해 새로운 스타일을 연출합니다.',
+    bullet_points: [
+      '제품 코드: 5ID007_2FLQ_F0011',
+      '왁스 처리된 코튼 코드',
+      '나무 디테일',
+      '디테일에 각인 로고',
+      '탈부착형 메탈 스냅 후크',
+    ],
+    size_info: [],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID007/2FLQF0011/5ID007_2FLQ_F0011_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID007/2FLQF0011/5ID007_2FLQ_F0011_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID007/2FLQF0011/5ID007_2FLQ_F0011_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+        index: 2,
+      },
+    ],
+    local_image: '5ID007_2FLQ_F0011.jpg',
+    local_detail_images: [
+      '5ID007_2FLQ_F0011_detail_thumbnail.jpg',
+      '5ID007_2FLQ_F0011_detail_2.jpg',
+      '5ID007_2FLQ_F0011_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5ID007_2FLQ_F0016',
+    index: 4,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '가죽 마이크로 트릭',
+    price: '₩ 340,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID007/2FLQF0016/5ID007_2FLQ_F0016_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C-%ED%8A%B8%EB%A6%AD/5ID007_2FLQ_F0016',
+    crawled_at: '2025-11-13T16:14:30.516584',
+    subtitle:
+      '미우미우의 과감하고 유쾌한 개성을 담은 나무 로고 장식의 부드러운 가죽 소재 마이크로 트릭으로 스니커즈와 백의 디자인에 포인트를 더해 새로운 스타일을 연출합니다.',
+    bullet_points: [
+      '제품 코드: 5ID007_2FLQ_F0016',
+      '왁스 처리된 코튼 코드',
+      '나무 디테일',
+      '디테일에 각인 로고',
+      '탈부착형 메탈 스냅 후크',
+    ],
+    size_info: [],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID007/2FLQF0016/5ID007_2FLQ_F0016_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID007/2FLQF0016/5ID007_2FLQ_F0016_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID007/2FLQF0016/5ID007_2FLQ_F0016_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+        index: 2,
+      },
+    ],
+    local_image: '5ID007_2FLQ_F0016.jpg',
+    local_detail_images: [
+      '5ID007_2FLQ_F0016_detail_thumbnail.jpg',
+      '5ID007_2FLQ_F0016_detail_2.jpg',
+      '5ID007_2FLQ_F0016_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5ID007_2FLQ_F0L76',
+    index: 5,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '가죽 마이크로 트릭',
+    price: '₩ 340,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID007/2FLQF0L76/5ID007_2FLQ_F0L76_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C-%ED%8A%B8%EB%A6%AD/5ID007_2FLQ_F0L76',
+    crawled_at: '2025-11-13T16:14:53.747144',
+    subtitle:
+      '미우미우의 과감하고 유쾌한 개성을 담은 나무 로고 장식의 부드러운 가죽 소재 마이크로 트릭으로 스니커즈와 백의 디자인에 포인트를 더해 새로운 스타일을 연출합니다.',
+    bullet_points: [
+      '제품 코드: 5ID007_2FLQ_F0L76',
+      '왁스 처리된 코튼 코드',
+      '나무 디테일',
+      '디테일에 각인 로고',
+      '탈부착형 메탈 스냅 후크',
+    ],
+    size_info: [],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID007/2FLQF0L76/5ID007_2FLQ_F0L76_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID007/2FLQF0L76/5ID007_2FLQ_F0L76_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID007/2FLQF0L76/5ID007_2FLQ_F0L76_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+        index: 2,
+      },
+    ],
+    local_image: '5ID007_2FLQ_F0L76.jpg',
+    local_detail_images: [
+      '5ID007_2FLQ_F0L76_detail_thumbnail.jpg',
+      '5ID007_2FLQ_F0L76_detail_2.jpg',
+      '5ID007_2FLQ_F0L76_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5ID007_2FLQ_F0R55',
+    index: 6,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '가죽 마이크로 트릭',
+    price: '₩ 340,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID007/2FLQF0R55/5ID007_2FLQ_F0R55_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C-%ED%8A%B8%EB%A6%AD/5ID007_2FLQ_F0R55',
+    crawled_at: '2025-11-13T16:15:21.028285',
+    subtitle:
+      '미우미우의 과감하고 유쾌한 개성을 담은 나무 로고 장식의 부드러운 가죽 소재 마이크로 트릭으로 스니커즈와 백의 디자인에 포인트를 더해 새로운 스타일을 연출합니다.',
+    bullet_points: [
+      '제품 코드: 5ID007_2FLQ_F0R55',
+      '왁스 처리된 코튼 코드',
+      '나무 디테일',
+      '디테일에 각인 로고',
+      '탈부착형 메탈 스냅 후크',
+    ],
+    size_info: [],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID007/2FLQF0R55/5ID007_2FLQ_F0R55_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID007/2FLQF0R55/5ID007_2FLQ_F0R55_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID007/2FLQF0R55/5ID007_2FLQ_F0R55_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+        index: 2,
+      },
+    ],
+    local_image: '5ID007_2FLQ_F0R55.jpg',
+    local_detail_images: [
+      '5ID007_2FLQ_F0R55_detail_thumbnail.jpg',
+      '5ID007_2FLQ_F0R55_detail_2.jpg',
+      '5ID007_2FLQ_F0R55_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5ID007_2FLQ_F0046',
+    index: 7,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '가죽 마이크로 트릭',
+    price: '₩ 340,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID007/2FLQF0046/5ID007_2FLQ_F0046_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C-%ED%8A%B8%EB%A6%AD/5ID007_2FLQ_F0046',
+    crawled_at: '2025-11-13T16:15:43.228216',
+    subtitle:
+      '미우미우의 과감하고 유쾌한 개성을 담은 나무 로고 장식의 부드러운 가죽 소재 마이크로 트릭으로 스니커즈와 백의 디자인에 포인트를 더해 새로운 스타일을 연출합니다.',
+    bullet_points: [
+      '제품 코드: 5ID007_2FLQ_F0046',
+      '왁스 처리된 코튼 코드',
+      '나무 디테일',
+      '디테일에 각인 로고',
+      '탈부착형 메탈 스냅 후크',
+    ],
+    size_info: [],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID007/2FLQF0046/5ID007_2FLQ_F0046_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID007/2FLQF0046/5ID007_2FLQ_F0046_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID007/2FLQF0046/5ID007_2FLQ_F0046_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+        index: 2,
+      },
+    ],
+    local_image: '5ID007_2FLQ_F0046.jpg',
+    local_detail_images: [
+      '5ID007_2FLQ_F0046_detail_thumbnail.jpg',
+      '5ID007_2FLQ_F0046_detail_2.jpg',
+      '5ID007_2FLQ_F0046_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5ID007_2FLQ_F0637',
+    index: 8,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '가죽 마이크로 트릭',
+    price: '₩ 340,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID007/2FLQF0637/5ID007_2FLQ_F0637_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C-%ED%8A%B8%EB%A6%AD/5ID007_2FLQ_F0637',
+    crawled_at: '2025-11-13T16:16:12.454831',
+    subtitle:
+      '미우미우의 과감하고 유쾌한 개성을 담은 나무 로고 장식의 부드러운 가죽 소재 마이크로 트릭으로 스니커즈와 백의 디자인에 포인트를 더해 새로운 스타일을 연출합니다.',
+    bullet_points: [
+      '제품 코드: 5ID007_2FLQ_F0637',
+      '왁스 처리된 코튼 코드',
+      '나무 디테일',
+      '디테일에 각인 로고',
+      '탈부착형 메탈 스냅 후크',
+    ],
+    size_info: [],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID007/2FLQF0637/5ID007_2FLQ_F0637_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID007/2FLQF0637/5ID007_2FLQ_F0637_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID007/2FLQF0637/5ID007_2FLQ_F0637_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+        index: 2,
+      },
+    ],
+    local_image: '5ID007_2FLQ_F0637.jpg',
+    local_detail_images: [
+      '5ID007_2FLQ_F0637_detail_thumbnail.jpg',
+      '5ID007_2FLQ_F0637_detail_2.jpg',
+      '5ID007_2FLQ_F0637_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5ID007_2FLQ_F0049',
+    index: 9,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '가죽 마이크로 트릭',
+    price: '₩ 340,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID007/2FLQF0049/5ID007_2FLQ_F0049_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C-%ED%8A%B8%EB%A6%AD/5ID007_2FLQ_F0049',
+    crawled_at: '2025-11-13T16:16:34.814535',
+    subtitle:
+      '미우미우의 과감하고 유쾌한 개성을 담은 나무 로고 장식의 부드러운 가죽 소재 마이크로 트릭으로 스니커즈와 백의 디자인에 포인트를 더해 새로운 스타일을 연출합니다.',
+    bullet_points: [
+      '제품 코드: 5ID007_2FLQ_F0049',
+      '왁스 처리된 코튼 코드',
+      '나무 디테일',
+      '디테일에 각인 로고',
+      '탈부착형 메탈 스냅 후크',
+    ],
+    size_info: [],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID007/2FLQF0049/5ID007_2FLQ_F0049_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID007/2FLQF0049/5ID007_2FLQ_F0049_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID007/2FLQF0049/5ID007_2FLQ_F0049_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+        index: 2,
+      },
+    ],
+    local_image: '5ID007_2FLQ_F0049.jpg',
+    local_detail_images: [
+      '5ID007_2FLQ_F0049_detail_thumbnail.jpg',
+      '5ID007_2FLQ_F0049_detail_2.jpg',
+      '5ID007_2FLQ_F0049_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5ID007_2FLQ_F0029',
+    index: 10,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '가죽 마이크로 트릭',
+    price: '₩ 340,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID007/2FLQF0029/5ID007_2FLQ_F0029_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C-%ED%8A%B8%EB%A6%AD/5ID007_2FLQ_F0029',
+    crawled_at: '2025-11-13T16:16:58.051320',
+    subtitle:
+      '미우미우의 과감하고 유쾌한 개성을 담은 나무 로고 장식의 부드러운 가죽 소재 마이크로 트릭으로 스니커즈와 백의 디자인에 포인트를 더해 새로운 스타일을 연출합니다.',
+    bullet_points: [
+      '제품 코드: 5ID007_2FLQ_F0029',
+      '왁스 처리된 코튼 코드',
+      '나무 디테일',
+      '디테일에 각인 로고',
+      '탈부착형 메탈 스냅 후크',
+    ],
+    size_info: [],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID007/2FLQF0029/5ID007_2FLQ_F0029_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID007/2FLQF0029/5ID007_2FLQ_F0029_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID007/2FLQF0029/5ID007_2FLQ_F0029_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+        index: 2,
+      },
+    ],
+    local_image: '5ID007_2FLQ_F0029.jpg',
+    local_detail_images: [
+      '5ID007_2FLQ_F0029_detail_thumbnail.jpg',
+      '5ID007_2FLQ_F0029_detail_2.jpg',
+      '5ID007_2FLQ_F0029_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5ID010_2FLQ_F0Z9N',
+    index: 11,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '가죽 마이크로 트릭',
+    price: '₩ 340,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID010/2FLQF0Z9N/5ID010_2FLQ_F0Z9N_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C-%ED%8A%B8%EB%A6%AD/5ID010_2FLQ_F0Z9N',
+    crawled_at: '2025-11-13T16:17:21.012212',
+    subtitle:
+      '미우미우의 우아하고 유쾌한 개성을 담은 플라워 영감의 마이크로 트릭으로 스니커즈와 백의 디자인에 포인트를 더해 유니크한 스타일을 연출합니다.',
+    bullet_points: [
+      '제품 코드: 5ID010_2FLQ_F0Z9N',
+      '왁스 처리된 코튼 코드',
+      '각인 로고 메탈 디테일',
+      '탈부착형 메탈 스냅 후크',
+    ],
+    size_info: [],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID010/2FLQF0Z9N/5ID010_2FLQ_F0Z9N_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID010/2FLQF0Z9N/5ID010_2FLQ_F0Z9N_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID010/2FLQF0Z9N/5ID010_2FLQ_F0Z9N_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+        index: 2,
+      },
+    ],
+    local_image: '5ID010_2FLQ_F0Z9N.jpg',
+    local_detail_images: [
+      '5ID010_2FLQ_F0Z9N_detail_thumbnail.jpg',
+      '5ID010_2FLQ_F0Z9N_detail_2.jpg',
+      '5ID010_2FLQ_F0Z9N_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5ID010_2FLQ_F0P26',
+    index: 12,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '가죽 마이크로 트릭',
+    price: '₩ 340,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID010/2FLQF0P26/5ID010_2FLQ_F0P26_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C-%ED%8A%B8%EB%A6%AD/5ID010_2FLQ_F0P26',
+    crawled_at: '2025-11-13T16:17:44.767076',
+    subtitle:
+      '미우미우의 우아하고 유쾌한 개성을 담은 플라워 영감의 마이크로 트릭으로 스니커즈와 백의 디자인에 포인트를 더해 유니크한 스타일을 연출합니다.',
+    bullet_points: [
+      '제품 코드: 5ID010_2FLQ_F0P26',
+      '왁스 처리된 코튼 코드',
+      '각인 로고 메탈 디테일',
+      '탈부착형 메탈 스냅 후크',
+    ],
+    size_info: [],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID010/2FLQF0P26/5ID010_2FLQ_F0P26_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID010/2FLQF0P26/5ID010_2FLQ_F0P26_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID010/2FLQF0P26/5ID010_2FLQ_F0P26_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+        index: 2,
+      },
+    ],
+    local_image: '5ID010_2FLQ_F0P26.jpg',
+    local_detail_images: [
+      '5ID010_2FLQ_F0P26_detail_thumbnail.jpg',
+      '5ID010_2FLQ_F0P26_detail_2.jpg',
+      '5ID010_2FLQ_F0P26_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5ID010_2FLQ_F0NP5',
+    index: 13,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '가죽 마이크로 트릭',
+    price: '₩ 340,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C-%ED%8A%B8%EB%A6%AD/5ID010_2FLQ_F0NP5',
+    crawled_at: '2025-11-13T16:18:07.983579',
+    subtitle:
+      '미우미우의 우아하고 유쾌한 개성을 담은 플라워 영감의 마이크로 트릭으로 스니커즈와 백의 디자인에 포인트를 더해 유니크한 스타일을 연출합니다.',
+    bullet_points: [
+      '제품 코드: 5ID010_2FLQ_F0NP5',
+      '왁스 처리된 코튼 코드',
+      '각인 로고 메탈 디테일',
+      '탈부착형 메탈 스냅 후크',
+    ],
+    size_info: [],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID010/2FLQF0NP5/5ID010_2FLQ_F0NP5_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID010/2FLQF0NP5/5ID010_2FLQ_F0NP5_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID010/2FLQF0NP5/5ID010_2FLQ_F0NP5_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+        index: 2,
+      },
+    ],
+    local_image: '5ID010_2FLQ_F0NP5.jpg',
+    local_detail_images: [
+      '5ID010_2FLQ_F0NP5_detail_thumbnail.jpg',
+      '5ID010_2FLQ_F0NP5_detail_2.jpg',
+      '5ID010_2FLQ_F0NP5_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5ID010_2FLQ_F0LKZ',
+    index: 14,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '가죽 마이크로 트릭',
+    price: '₩ 340,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C-%ED%8A%B8%EB%A6%AD/5ID010_2FLQ_F0LKZ',
+    crawled_at: '2025-11-13T16:18:29.831649',
+    subtitle:
+      '미우미우의 우아하고 유쾌한 개성을 담은 플라워 영감의 마이크로 트릭으로 스니커즈와 백의 디자인에 포인트를 더해 유니크한 스타일을 연출합니다.',
+    bullet_points: [
+      '제품 코드: 5ID010_2FLQ_F0LKZ',
+      '왁스 처리된 코튼 코드',
+      '각인 로고 메탈 디테일',
+      '탈부착형 메탈 스냅 후크',
+    ],
+    size_info: [],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID010/2FLQF0LKZ/5ID010_2FLQ_F0LKZ_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID010/2FLQF0LKZ/5ID010_2FLQ_F0LKZ_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID010/2FLQF0LKZ/5ID010_2FLQ_F0LKZ_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID010/2FLQF0LKZ/5ID010_2FLQ_F0LKZ_SLDA.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+        index: 3,
+      },
+    ],
+    local_image: '5ID010_2FLQ_F0LKZ.jpg',
+    local_detail_images: [
+      '5ID010_2FLQ_F0LKZ_detail_thumbnail.jpg',
+      '5ID010_2FLQ_F0LKZ_detail_2.jpg',
+      '5ID010_2FLQ_F0LKZ_detail_3.jpg',
+      '5ID010_2FLQ_F0LKZ_detail_4.jpg',
+    ],
+  },
+  {
+    id: '5ID010_2FLQ_F04QX',
+    index: 15,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '가죽 마이크로 트릭',
+    price: '₩ 340,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C-%ED%8A%B8%EB%A6%AD/5ID010_2FLQ_F04QX',
+    crawled_at: '2025-11-13T16:18:58.664317',
+    subtitle:
+      '미우미우의 우아하고 유쾌한 개성을 담은 플라워 영감의 마이크로 트릭으로 스니커즈와 백의 디자인에 포인트를 더해 유니크한 스타일을 연출합니다.',
+    bullet_points: [
+      '제품 코드: 5ID010_2FLQ_F04QX',
+      '왁스 처리된 코튼 코드',
+      '각인 로고 메탈 디테일',
+      '탈부착형 메탈 스냅 후크',
+    ],
+    size_info: [],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID010/2FLQF04QX/5ID010_2FLQ_F04QX_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID010/2FLQF04QX/5ID010_2FLQ_F04QX_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID010/2FLQF04QX/5ID010_2FLQ_F04QX_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+        index: 2,
+      },
+    ],
+    local_image: '5ID010_2FLQ_F04QX.jpg',
+    local_detail_images: [
+      '5ID010_2FLQ_F04QX_detail_thumbnail.jpg',
+      '5ID010_2FLQ_F04QX_detail_2.jpg',
+      '5ID010_2FLQ_F04QX_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5ID016_2FLQ_F03XH',
+    index: 16,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '가죽 마이크로 트릭',
+    price: '₩ 340,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C-%ED%8A%B8%EB%A6%AD/5ID016_2FLQ_F03XH',
+    crawled_at: '2025-11-13T16:19:32.555823',
+    subtitle:
+      '플라워에서 영감을 받은 디자인으로 완성된 마이크로 트릭은 미우미우의 우아하고 유쾌한 무드를 담고 있습니다. 스니커즈나 백에 스타일리시하게 매치되어 나만의 감각적인 룩을 완성해 줍니다.',
+    bullet_points: ['제품 코드: 5ID016_2FLQ_F03XH', '메탈 스냅 고리', '디테일에 로고 각인'],
+    size_info: ['높이 3cm', '폭 3cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID016/2FLQF03XH/5ID016_2FLQ_F03XH_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID016/2FLQF03XH/5ID016_2FLQ_F03XH_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID016/2FLQF03XH/5ID016_2FLQ_F03XH_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+        index: 2,
+      },
+    ],
+    local_image: '5ID016_2FLQ_F03XH.jpg',
+    local_detail_images: [
+      '5ID016_2FLQ_F03XH_detail_thumbnail.jpg',
+      '5ID016_2FLQ_F03XH_detail_2.jpg',
+      '5ID016_2FLQ_F03XH_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5ID016_2FLQ_F0N13',
+    index: 17,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '가죽 마이크로 트릭',
+    price: '₩ 340,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C-%ED%8A%B8%EB%A6%AD/5ID016_2FLQ_F0N13',
+    crawled_at: '2025-11-13T16:19:55.211815',
+    subtitle:
+      '플라워에서 영감을 받은 디자인으로 완성된 마이크로 트릭은 미우미우의 우아하고 유쾌한 무드를 담고 있습니다. 스니커즈나 백에 스타일리시하게 매치되어 나만의 감각적인 룩을 완성해 줍니다.',
+    bullet_points: ['제품 코드: 5ID016_2FLQ_F0N13', '메탈 스냅 고리', '디테일에 로고 각인'],
+    size_info: ['높이 3cm', '폭 3cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID016/2FLQF0N13/5ID016_2FLQ_F0N13_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID016/2FLQF0N13/5ID016_2FLQ_F0N13_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID016/2FLQF0N13/5ID016_2FLQ_F0N13_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+        index: 2,
+      },
+    ],
+    local_image: '5ID016_2FLQ_F0N13.jpg',
+    local_detail_images: [
+      '5ID016_2FLQ_F0N13_detail_thumbnail.jpg',
+      '5ID016_2FLQ_F0N13_detail_2.jpg',
+      '5ID016_2FLQ_F0N13_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5ID016_2FLQ_F0WK7',
+    index: 18,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '가죽 마이크로 트릭',
+    price: '₩ 340,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C-%ED%8A%B8%EB%A6%AD/5ID016_2FLQ_F0WK7',
+    crawled_at: '2025-11-13T16:20:17.603462',
+    subtitle:
+      '플라워에서 영감을 받은 디자인으로 완성된 마이크로 트릭은 미우미우의 우아하고 유쾌한 무드를 담고 있습니다. 스니커즈나 백에 스타일리시하게 매치되어 나만의 감각적인 룩을 완성해 줍니다.',
+    bullet_points: ['제품 코드: 5ID016_2FLQ_F0WK7', '메탈 스냅 고리', '디테일에 로고 각인'],
+    size_info: ['높이 3cm', '폭 3cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID016/2FLQF0WK7/5ID016_2FLQ_F0WK7_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID016/2FLQF0WK7/5ID016_2FLQ_F0WK7_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID016/2FLQF0WK7/5ID016_2FLQ_F0WK7_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+        index: 2,
+      },
+    ],
+    local_image: '5ID016_2FLQ_F0WK7.jpg',
+    local_detail_images: [
+      '5ID016_2FLQ_F0WK7_detail_thumbnail.jpg',
+      '5ID016_2FLQ_F0WK7_detail_2.jpg',
+      '5ID016_2FLQ_F0WK7_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5ID016_2FLQ_F0EH7',
+    index: 19,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '가죽 마이크로 트릭',
+    price: '₩ 340,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C-%ED%8A%B8%EB%A6%AD/5ID016_2FLQ_F0EH7',
+    crawled_at: '2025-11-13T16:20:47.622227',
+    subtitle:
+      '플라워에서 영감을 받은 디자인으로 완성된 마이크로 트릭은 미우미우의 우아하고 유쾌한 무드를 담고 있습니다. 스니커즈나 백에 스타일리시하게 매치되어 나만의 감각적인 룩을 완성해 줍니다.',
+    bullet_points: ['제품 코드: 5ID016_2FLQ_F0EH7', '메탈 스냅 고리', '디테일에 로고 각인'],
+    size_info: ['높이 3cm', '폭 3cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID016/2FLQF0EH7/5ID016_2FLQ_F0EH7_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID016/2FLQF0EH7/5ID016_2FLQ_F0EH7_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID016/2FLQF0EH7/5ID016_2FLQ_F0EH7_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+        index: 2,
+      },
+    ],
+    local_image: '5ID016_2FLQ_F0EH7.jpg',
+    local_detail_images: [
+      '5ID016_2FLQ_F0EH7_detail_thumbnail.jpg',
+      '5ID016_2FLQ_F0EH7_detail_2.jpg',
+      '5ID016_2FLQ_F0EH7_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5IS114_2FLQ_F0Y1T',
+    index: 20,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '가죽 핀휠 브로치',
+    price: '₩ 340,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%ED%95%80%ED%9C%A0-%EB%B8%8C%EB%A1%9C%EC%B9%98/5IS114_2FLQ_F0Y1T',
+    crawled_at: '2025-11-13T16:21:09.269404',
+    subtitle:
+      '미우미우의 과감하고 유쾌한 개성을 담은 메탈 로고 장식의 투톤 가죽 핀휠 브로치로 스니커즈와 백의 디자인에 포인트를 더해 독특한 스타일을 연출합니다.',
+    bullet_points: ['제품 코드: 5IS114_2FLQ_F0Y1T', '후면 핀 클로저', '눈에 띄는 각인 로고'],
+    size_info: ['높이 4cm', '폭 4cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IS/5IS114/2FLQF0Y1T/5IS114_2FLQ_F0Y1T_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 핀휠 브로치',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IS/5IS114/2FLQF0Y1T/5IS114_2FLQ_F0Y1T_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 핀휠 브로치',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IS/5IS114/2FLQF0Y1T/5IS114_2FLQ_F0Y1T_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 핀휠 브로치',
+        index: 2,
+      },
+    ],
+    local_image: '5IS114_2FLQ_F0Y1T.jpg',
+    local_detail_images: [
+      '5IS114_2FLQ_F0Y1T_detail_thumbnail.jpg',
+      '5IS114_2FLQ_F0Y1T_detail_2.jpg',
+      '5IS114_2FLQ_F0Y1T_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5IS114_2FLQ_F031W',
+    index: 21,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '가죽 핀휠 브로치',
+    price: '₩ 340,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%ED%95%80%ED%9C%A0-%EB%B8%8C%EB%A1%9C%EC%B9%98/5IS114_2FLQ_F031W',
+    crawled_at: '2025-11-13T16:21:32.462722',
+    subtitle:
+      '미우미우의 과감하고 유쾌한 개성을 담은 메탈 로고 장식의 투톤 가죽 핀휠 브로치로 스니커즈와 백의 디자인에 포인트를 더해 독특한 스타일을 연출합니다.',
+    bullet_points: ['제품 코드: 5IS114_2FLQ_F031W', '후면 핀 클로저', '눈에 띄는 각인 로고'],
+    size_info: ['높이 4cm', '폭 4cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IS/5IS114/2FLQF031W/5IS114_2FLQ_F031W_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 핀휠 브로치',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IS/5IS114/2FLQF031W/5IS114_2FLQ_F031W_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 핀휠 브로치',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IS/5IS114/2FLQF031W/5IS114_2FLQ_F031W_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 핀휠 브로치',
+        index: 2,
+      },
+    ],
+    local_image: '5IS114_2FLQ_F031W.jpg',
+    local_detail_images: [
+      '5IS114_2FLQ_F031W_detail_thumbnail.jpg',
+      '5IS114_2FLQ_F031W_detail_2.jpg',
+      '5IS114_2FLQ_F031W_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5IS114_2FLQ_F0976',
+    index: 22,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '가죽 핀휠 브로치',
+    price: '₩ 340,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%ED%95%80%ED%9C%A0-%EB%B8%8C%EB%A1%9C%EC%B9%98/5IS114_2FLQ_F0976',
+    crawled_at: '2025-11-13T16:21:58.855367',
+    subtitle:
+      '미우미우의 과감하고 유쾌한 개성을 담은 메탈 로고 장식의 투톤 가죽 핀휠 브로치로 스니커즈와 백의 디자인에 포인트를 더해 독특한 스타일을 연출합니다.',
+    bullet_points: ['제품 코드: 5IS114_2FLQ_F0976', '후면 핀 클로저', '눈에 띄는 각인 로고'],
+    size_info: ['높이 4cm', '폭 4cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IS/5IS114/2FLQF0976/5IS114_2FLQ_F0976_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 핀휠 브로치',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IS/5IS114/2FLQF0976/5IS114_2FLQ_F0976_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 핀휠 브로치',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IS/5IS114/2FLQF0976/5IS114_2FLQ_F0976_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 핀휠 브로치',
+        index: 2,
+      },
+    ],
+    local_image: '5IS114_2FLQ_F0976.jpg',
+    local_detail_images: [
+      '5IS114_2FLQ_F0976_detail_thumbnail.jpg',
+      '5IS114_2FLQ_F0976_detail_2.jpg',
+      '5IS114_2FLQ_F0976_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5IS114_2FLQ_F0X63',
+    index: 23,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '가죽 핀휠 브로치',
+    price: '₩ 340,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%ED%95%80%ED%9C%A0-%EB%B8%8C%EB%A1%9C%EC%B9%98/5IS114_2FLQ_F0X63',
+    crawled_at: '2025-11-13T16:22:21.765797',
+    subtitle:
+      '미우미우의 과감하고 유쾌한 개성을 담은 메탈 로고 장식의 투톤 가죽 핀휠 브로치로 스니커즈와 백의 디자인에 포인트를 더해 독특한 스타일을 연출합니다.',
+    bullet_points: ['제품 코드: 5IS114_2FLQ_F0X63', '후면 핀 클로저', '눈에 띄는 각인 로고'],
+    size_info: ['높이 4cm', '폭 4cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IS/5IS114/2FLQF0X63/5IS114_2FLQ_F0X63_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 핀휠 브로치',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IS/5IS114/2FLQF0X63/5IS114_2FLQ_F0X63_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 핀휠 브로치',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5IS/5IS114/2FLQF0X63/5IS114_2FLQ_F0X63_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 핀휠 브로치',
+        index: 2,
+      },
+    ],
+    local_image: '5IS114_2FLQ_F0X63.jpg',
+    local_detail_images: [
+      '5IS114_2FLQ_F0X63_detail_thumbnail.jpg',
+      '5IS114_2FLQ_F0X63_detail_2.jpg',
+      '5IS114_2FLQ_F0X63_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5ID015_2DTU_F0056',
+    index: 24,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '로고 장식 주사위 참',
+    price: '₩ 215,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EB%A1%9C%EA%B3%A0-%EC%9E%A5%EC%8B%9D-%EC%A3%BC%EC%82%AC%EC%9C%84-%EC%B0%B8/5ID015_2DTU_F0056',
+    crawled_at: '2025-11-13T16:22:45.897710',
+    subtitle:
+      '로고 장식의 주사위 쉐입 참은 미우미우 스니커즈의 트릭과 슈레이스 스타일에 포인트를 주어 룩에 아이코닉한 감성을 더합니다.',
+    bullet_points: ['제품 코드: 5ID015_2DTU_F0056', '눈에 띄는 각인 로고'],
+    size_info: ['높이 1.2cm', '폭 1.2cm'],
+    material: '주 소재: 브라스',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID015/2DTUF0056/5ID015_2DTU_F0056_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '로고 장식 주사위 참',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID015/2DTUF0056/5ID015_2DTU_F0056_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '로고 장식 주사위 참',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID015/2DTUF0056/5ID015_2DTU_F0056_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '로고 장식 주사위 참',
+        index: 2,
+      },
+    ],
+    local_image: '5ID015_2DTU_F0056.jpg',
+    local_detail_images: [
+      '5ID015_2DTU_F0056_detail_thumbnail.jpg',
+      '5ID015_2DTU_F0056_detail_2.jpg',
+      '5ID015_2DTU_F0056_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5TL550_2IC3_F0HC7',
+    index: 1,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '나파 가죽 트릭',
+    price: '₩ 750,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL550/2IC3F0HC7/5TL550_2IC3_F0HC7_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EB%82%98%ED%8C%8C-%EA%B0%80%EC%A3%BD-%ED%8A%B8%EB%A6%AD/5TL550_2IC3_F0HC7',
+    crawled_at: '2025-11-13T16:28:52.007766',
+    subtitle:
+      '섬세한 여름 무드를 담아낸 플로럴 트릭으로 부드러운 나파 가죽과 태슬 디테일, 정교한 마감이 어우러져 미우미우 백에 생기 넘치는 우아함을 더합니다.',
+    bullet_points: ['제품 코드: 5TL550_2IC3_F0HC7', '꽃 디테일 및 가죽 스트랩', '각인된 로고'],
+    size_info: ['높이 12.5cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL550/2IC3F0HC7/5TL550_2IC3_F0HC7_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 트릭',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL550/2IC3F0HC7/5TL550_2IC3_F0HC7_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 트릭',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL550/2IC3F0HC7/5TL550_2IC3_F0HC7_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 트릭',
+        index: 2,
+      },
+    ],
+    local_image: '5TL550_2IC3_F0HC7.jpg',
+    local_detail_images: [
+      '5TL550_2IC3_F0HC7_detail_thumbnail.jpg',
+      '5TL550_2IC3_F0HC7_detail_2.jpg',
+      '5TL550_2IC3_F0HC7_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5TL550_2IC3_F04JD',
+    index: 2,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '나파 가죽 트릭',
+    price: '₩ 750,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL550/2IC3F04JD/5TL550_2IC3_F04JD_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EB%82%98%ED%8C%8C-%EA%B0%80%EC%A3%BD-%ED%8A%B8%EB%A6%AD/5TL550_2IC3_F04JD',
+    crawled_at: '2025-11-13T16:29:20.584352',
+    subtitle:
+      '섬세한 여름 무드를 담아낸 플로럴 트릭으로 부드러운 나파 가죽과 태슬 디테일, 정교한 마감이 어우러져 미우미우 백에 생기 넘치는 우아함을 더합니다.',
+    bullet_points: ['제품 코드: 5TL550_2IC3_F04JD', '꽃 디테일 및 가죽 스트랩', '각인된 로고'],
+    size_info: ['높이 12.5cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL550/2IC3F04JD/5TL550_2IC3_F04JD_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 트릭',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL550/2IC3F04JD/5TL550_2IC3_F04JD_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 트릭',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL550/2IC3F04JD/5TL550_2IC3_F04JD_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '나파 가죽 트릭',
+        index: 2,
+      },
+    ],
+    local_image: '5TL550_2IC3_F04JD.jpg',
+    local_detail_images: [
+      '5TL550_2IC3_F04JD_detail_thumbnail.jpg',
+      '5TL550_2IC3_F04JD_detail_2.jpg',
+      '5TL550_2IC3_F04JD_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5TL498_2CQS_F03YH',
+    index: 3,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '가죽 트릭',
+    price: '₩ 610,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL498/2CQSF03YH/5TL498_2CQS_F03YH_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%ED%8A%B8%EB%A6%AD/5TL498_2CQS_F03YH',
+    crawled_at: '2025-11-13T16:29:44.563937',
+    subtitle:
+      '독특한 스타일로 함께 매치한 액세서리를 더욱 돋보이게 하는 경쾌하고 유쾌한 디자인의 가죽 트릭입니다. 아이코닉한 메탈 레터링 로고로 룩이 완성됩니다.',
+    bullet_points: ['제품 코드: 5TL498_2CQS_F03YH', '메탈 레터링 로고'],
+    size_info: ['높이 6cm', '폭 5cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL498/2CQSF03YH/5TL498_2CQS_F03YH_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 트릭',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL498/2CQSF03YH/5TL498_2CQS_F03YH_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 트릭',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL498/2CQSF03YH/5TL498_2CQS_F03YH_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 트릭',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL498/2CQSF03YH/5TL498_2CQS_F03YH_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 트릭',
+        index: 3,
+      },
+    ],
+    local_image: '5TL498_2CQS_F03YH.jpg',
+    local_detail_images: [
+      '5TL498_2CQS_F03YH_detail_thumbnail.jpg',
+      '5TL498_2CQS_F03YH_detail_2.jpg',
+      '5TL498_2CQS_F03YH_detail_3.jpg',
+      '5TL498_2CQS_F03YH_detail_4.jpg',
+    ],
+  },
+  {
+    id: '5TL498_2CQS_F0J22',
+    index: 4,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '가죽 트릭',
+    price: '₩ 610,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL498/2CQSF0J22/5TL498_2CQS_F0J22_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%ED%8A%B8%EB%A6%AD/5TL498_2CQS_F0J22',
+    crawled_at: '2025-11-13T16:30:05.377546',
+    subtitle:
+      '독특한 스타일로 함께 매치한 액세서리를 더욱 돋보이게 하는 경쾌하고 유쾌한 디자인의 가죽 트릭입니다. 아이코닉한 메탈 레터링 로고로 룩이 완성됩니다.',
+    bullet_points: ['제품 코드: 5TL498_2CQS_F0J22', '메탈 레터링 로고'],
+    size_info: ['높이 6cm', '폭 5cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL498/2CQSF0J22/5TL498_2CQS_F0J22_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 트릭',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL498/2CQSF0J22/5TL498_2CQS_F0J22_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 트릭',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL498/2CQSF0J22/5TL498_2CQS_F0J22_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 트릭',
+        index: 2,
+      },
+    ],
+    local_image: '5TL498_2CQS_F0J22.jpg',
+    local_detail_images: [
+      '5TL498_2CQS_F0J22_detail_thumbnail.jpg',
+      '5TL498_2CQS_F0J22_detail_2.jpg',
+      '5TL498_2CQS_F0J22_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5TL498_2CQS_F04AI',
+    index: 5,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '가죽 트릭',
+    price: '₩ 610,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL498/2CQSF04AI/5TL498_2CQS_F04AI_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%ED%8A%B8%EB%A6%AD/5TL498_2CQS_F04AI',
+    crawled_at: '2025-11-13T16:30:31.580517',
+    subtitle:
+      '독특한 스타일로 함께 매치한 액세서리를 더욱 돋보이게 하는 경쾌하고 유쾌한 디자인의 가죽 트릭입니다. 아이코닉한 메탈 레터링 로고로 룩이 완성됩니다.',
+    bullet_points: ['제품 코드: 5TL498_2CQS_F04AI', '메탈 레터링 로고'],
+    size_info: ['높이 6cm', '폭 5cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL498/2CQSF04AI/5TL498_2CQS_F04AI_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 트릭',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL498/2CQSF04AI/5TL498_2CQS_F04AI_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 트릭',
+        index: 1,
+      },
+    ],
+    local_image: '5TL498_2CQS_F04AI.jpg',
+    local_detail_images: [
+      '5TL498_2CQS_F04AI_detail_thumbnail.jpg',
+      '5TL498_2CQS_F04AI_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5TT280_2IE7_F087A',
+    index: 6,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '기술적 원사 트릭',
+    price: '₩ 1,250,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TT/5TT280/2IE7F087A/5TT280_2IE7_F087A_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B8%B0%EC%88%A0%EC%A0%81-%EC%9B%90%EC%82%AC-%ED%8A%B8%EB%A6%AD/5TT280_2IE7_F087A',
+    crawled_at: '2025-11-13T16:31:01.332851',
+    subtitle:
+      '아이코닉한 아카이브 룩에서 영감을 받은 테크니컬 얀 트릭입니다. 크로셰 효과가 돋보이며, 미우미우 백에 독창적인 조합을 더해 장인정신을 강조합니다.',
+    bullet_points: [
+      '제품 코드: 5TT280_2IE7_F087A',
+      '크로셰 효과',
+      '가죽 스트랩',
+      '로고 각인 메달',
+      '스트랩 길이: 15cm / 트릭 높이: 18cm / 트릭 너비: 7–8cm',
+    ],
+    size_info: [],
+    material: '패브릭/가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TT/5TT280/2IE7F087A/5TT280_2IE7_F087A_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '기술적 원사 트릭',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TT/5TT280/2IE7F087A/5TT280_2IE7_F087A_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '기술적 원사 트릭',
+        index: 1,
+      },
+    ],
+    local_image: '5TT280_2IE7_F087A.jpg',
+    local_detail_images: [
+      '5TT280_2IE7_F087A_detail_thumbnail.jpg',
+      '5TT280_2IE7_F087A_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5TT260_2CWW_F052N',
+    index: 7,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '기능성 원사 트릭',
+    price: '₩ 1,250,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TT/5TT260/2CWWF052N/5TT260_2CWW_F052N_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B8%B0%EB%8A%A5%EC%84%B1-%EC%9B%90%EC%82%AC-%ED%8A%B8%EB%A6%AD/5TT260_2CWW_F052N',
+    crawled_at: '2025-11-13T16:31:24.345457',
+    subtitle:
+      '미우미우 백에 개성을 더하는 크로셰 효과의 기능성 원사 트릭은 아이코닉한 아카이브 룩으로 시선을 사로잡으며, 독창적인 스타일 조합으로 장인정신이 돋보입니다.',
+    bullet_points: ['제품 코드: 5TT260_2CWW_F052N', '크로셰 효과', '가죽 스트랩', '각인 로고 메달'],
+    size_info: ['높이 19cm'],
+    material: '주 소재: 재생 폴리에스터',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TT/5TT260/2CWWF052N/5TT260_2CWW_F052N_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '기능성 원사 트릭',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TT/5TT260/2CWWF052N/5TT260_2CWW_F052N_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '기능성 원사 트릭',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TT/5TT260/2CWWF052N/5TT260_2CWW_F052N_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '기능성 원사 트릭',
+        index: 2,
+      },
+    ],
+    local_image: '5TT260_2CWW_F052N.jpg',
+    local_detail_images: [
+      '5TT260_2CWW_F052N_detail_thumbnail.jpg',
+      '5TT260_2CWW_F052N_detail_2.jpg',
+      '5TT260_2CWW_F052N_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5TT213_2CU2_F0G5R',
+    index: 8,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '기능성 원사 트릭',
+    price: '₩ 1,250,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TT/5TT213/2CU2F0G5R/5TT213_2CU2_F0G5R_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B8%B0%EB%8A%A5%EC%84%B1-%EC%9B%90%EC%82%AC-%ED%8A%B8%EB%A6%AD/5TT213_2CU2_F0G5R',
+    crawled_at: '2025-11-13T16:31:55.987953',
+    subtitle:
+      '미우미우 백에 개성을 더하는 크로셰 효과의 기능성 원사 트릭은 아이코닉한 아카이브 룩으로 시선을 사로잡으며, 독창적인 스타일의 조합으로 장인정신이 돋보입니다.',
+    bullet_points: [
+      '제품 코드: 5TT213_2CU2_F0G5R',
+      '크로셰 효과',
+      '가죽 스트랩',
+      '각인 로고 메달',
+      '스트랩 길이: 15cm - 트릭 높이: 18 cm - 트릭 너비: 7~8cm',
+    ],
+    size_info: [],
+    material: '주 소재: 재생 폴리에스터',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TT/5TT213/2CU2F0G5R/5TT213_2CU2_F0G5R_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '기능성 원사 트릭',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TT/5TT213/2CU2F0G5R/5TT213_2CU2_F0G5R_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '기능성 원사 트릭',
+        index: 1,
+      },
+    ],
+    local_image: '5TT213_2CU2_F0G5R.jpg',
+    local_detail_images: [
+      '5TT213_2CU2_F0G5R_detail_thumbnail.jpg',
+      '5TT213_2CU2_F0G5R_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5TT214_2CU3_F0KIV',
+    index: 9,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '기능성 원사 트릭',
+    price: '₩ 1,250,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TT/5TT214/2CU3F0KIV/5TT214_2CU3_F0KIV_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B8%B0%EB%8A%A5%EC%84%B1-%EC%9B%90%EC%82%AC-%ED%8A%B8%EB%A6%AD/5TT214_2CU3_F0KIV',
+    crawled_at: '2025-11-13T16:32:26.192362',
+    subtitle:
+      '미우미우 백에 개성을 더하는 크로셰 효과의 기능성 원사 트릭은 아이코닉한 아카이브 룩으로 시선을 사로잡으며, 독창적인 스타일의 조합으로 장인정신이 돋보입니다.',
+    bullet_points: [
+      '제품 코드: 5TT214_2CU3_F0KIV',
+      '크로셰 효과',
+      '가죽 스트랩',
+      '각인 로고 메달',
+      '스트랩 길이: 15cm - 트릭 높이: 18 cm - 트릭 너비: 7~8cm',
+    ],
+    size_info: ['높이 19cm'],
+    material: '주 소재: 재생 폴리에스터',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TT/5TT214/2CU3F0KIV/5TT214_2CU3_F0KIV_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '기능성 원사 트릭',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TT/5TT214/2CU3F0KIV/5TT214_2CU3_F0KIV_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '기능성 원사 트릭',
+        index: 1,
+      },
+    ],
+    local_image: '5TT214_2CU3_F0KIV.jpg',
+    local_detail_images: [
+      '5TT214_2CU3_F0KIV_detail_thumbnail.jpg',
+      '5TT214_2CU3_F0KIV_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5TT215_2CU4_F022X',
+    index: 10,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '기능성 원사 트릭',
+    price: '₩ 1,250,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TT/5TT215/2CU4F022X/5TT215_2CU4_F022X_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B8%B0%EB%8A%A5%EC%84%B1-%EC%9B%90%EC%82%AC-%ED%8A%B8%EB%A6%AD/5TT215_2CU4_F022X',
+    crawled_at: '2025-11-13T16:32:53.396843',
+    subtitle:
+      '미우미우 백에 개성을 더하는 크로셰 효과의 기능성 원사 트릭은 아이코닉한 아카이브 룩으로 시선을 사로잡으며, 독창적인 스타일의 조합으로 장인정신이 돋보입니다.',
+    bullet_points: [
+      '제품 코드: 5TT215_2CU4_F022X',
+      '크로셰 효과',
+      '가죽 스트랩',
+      '각인 로고 메달',
+      '스트랩 길이: 15cm - 트릭 높이: 18 cm - 트릭 너비: 7~8cm',
+    ],
+    size_info: ['높이 19cm'],
+    material: '주 소재: 재생 폴리에스터',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TT/5TT215/2CU4F022X/5TT215_2CU4_F022X_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '기능성 원사 트릭',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TT/5TT215/2CU4F022X/5TT215_2CU4_F022X_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '기능성 원사 트릭',
+        index: 1,
+      },
+    ],
+    local_image: '5TT215_2CU4_F022X.jpg',
+    local_detail_images: [
+      '5TT215_2CU4_F022X_detail_thumbnail.jpg',
+      '5TT215_2CU4_F022X_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5TT217_2CU6_F0HZR',
+    index: 11,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '기능성 원사 트릭',
+    price: '₩ 1,250,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TT/5TT217/2CU6F0HZR/5TT217_2CU6_F0HZR_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B8%B0%EB%8A%A5%EC%84%B1-%EC%9B%90%EC%82%AC-%ED%8A%B8%EB%A6%AD/5TT217_2CU6_F0HZR',
+    crawled_at: '2025-11-13T16:33:25.891486',
+    subtitle:
+      '미우미우 백에 개성을 더하는 크로셰 효과의 기능성 원사 트릭은 아이코닉한 아카이브 룩으로 시선을 사로잡으며, 독창적인 스타일의 조합으로 장인정신이 돋보입니다.',
+    bullet_points: [
+      '제품 코드: 5TT217_2CU6_F0HZR',
+      '크로셰 효과',
+      '가죽 스트랩',
+      '각인 로고 메달',
+      '스트랩 길이: 15cm - 트릭 높이: 18 cm - 트릭 너비: 7~8cm',
+    ],
+    size_info: [],
+    material: '주 소재: 재생 폴리에스터',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TT/5TT217/2CU6F0HZR/5TT217_2CU6_F0HZR_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '기능성 원사 트릭',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TT/5TT217/2CU6F0HZR/5TT217_2CU6_F0HZR_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '기능성 원사 트릭',
+        index: 1,
+      },
+    ],
+    local_image: '5TT217_2CU6_F0HZR.jpg',
+    local_detail_images: [
+      '5TT217_2CU6_F0HZR_detail_thumbnail.jpg',
+      '5TT217_2CU6_F0HZR_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5TT218_2CU7_F0P27',
+    index: 12,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '기능성 원사 트릭',
+    price: '₩ 1,250,000',
+    image_url:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TT/5TT218/2CU7F0P27/5TT218_2CU7_F0P27_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B8%B0%EB%8A%A5%EC%84%B1-%EC%9B%90%EC%82%AC-%ED%8A%B8%EB%A6%AD/5TT218_2CU7_F0P27',
+    crawled_at: '2025-11-13T16:33:53.449858',
+    subtitle:
+      '미우미우 백에 개성을 더하는 크로셰 효과의 기능성 원사 트릭은 아이코닉한 아카이브 룩으로 시선을 사로잡으며, 독창적인 스타일의 조합으로 장인정신이 돋보입니다.',
+    bullet_points: [
+      '제품 코드: 5TT218_2CU7_F0P27',
+      '크로셰 효과',
+      '가죽 스트랩',
+      '각인 로고 메달',
+      '스트랩 길이: 15cm - 트릭 높이: 18 cm - 트릭 너비: 7~8cm',
+    ],
+    size_info: ['높이 19cm'],
+    material: '주 소재: 재생 폴리에스터',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TT/5TT218/2CU7F0P27/5TT218_2CU7_F0P27_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '기능성 원사 트릭',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TT/5TT218/2CU7F0P27/5TT218_2CU7_F0P27_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '기능성 원사 트릭',
+        index: 1,
+      },
+    ],
+    local_image: '5TT218_2CU7_F0P27.jpg',
+    local_detail_images: [
+      '5TT218_2CU7_F0P27_detail_thumbnail.jpg',
+      '5TT218_2CU7_F0P27_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5TY109_2IFM_F0316',
+    index: 13,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '가죽 패치워크 숄더 스트랩',
+    price: '₩ 1,160,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%ED%8C%A8%EC%B9%98%EC%9B%8C%ED%81%AC-%EC%88%84%EB%8D%94-%EC%8A%A4%ED%8A%B8%EB%9E%A9/5TY109_2IFM_F0316',
+    crawled_at: '2025-11-13T16:34:25.042405',
+    subtitle:
+      '미우미우의 아이코닉한 가죽로 완성된 패치워크 모티프가 70년대의 무드를 불러일으킵니다. 컬러 대비와 정교한 텍스처가 어우러져 장난스러운 매력을 반영하며, 가방과 룩에 대담한 포인트를 더합니다.',
+    bullet_points: [
+      '제품 코드: 5TY109_2IFM_F0316',
+      '패치워크 모티프',
+      '조절 및 탈착 가능한 숄더 스트랩',
+      'D링 및 스냅 후크 장식',
+      '길이: 100cm',
+      '트릭 장식 부착 가능',
+    ],
+    size_info: ['높이 3cm', '폭 100cm'],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TY/5TY109/2IFMF0316/5TY109_2IFM_F0316_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 패치워크 숄더 스트랩',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TY/5TY109/2IFMF0316/5TY109_2IFM_F0316_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 패치워크 숄더 스트랩',
+        index: 1,
+      },
+    ],
+    local_image: '5TY109_2IFM_F0316.jpg',
+    local_detail_images: [
+      '5TY109_2IFM_F0316_detail_thumbnail.jpg',
+      '5TY109_2IFM_F0316_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5NR036_2F8W_F0002',
+    index: 14,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '가죽 마이크로 보 백',
+    price: '₩ 1,620,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C-%EB%B3%B4-%EB%B0%B1/5NR036_2F8W_F0002',
+    crawled_at: '2025-11-13T16:34:50.511444',
+    subtitle:
+      '고급스러운 소재와 유쾌하면서도 세련된 스타일의 가죽 마이크로 보 백입니다. 숄더 스트랩을 부착하여 단독으로 사용하거나 다른 핸드백에 부착하여 활용할 수 있는 백으로 아이코닉한 엠보싱 레터링 로고 장식이 디자인을 완성합니다.',
+    bullet_points: [
+      '제품 코드: 5NR036_2F8W_F0002',
+      '지퍼 클로저',
+      '엠보싱 처리 레터링 로고',
+      '탈부착형 가죽 스트랩',
+      '코튼 새틴 라이닝',
+    ],
+    size_info: ['높이 7cm', '폭 11cm', '길이 4cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NR/5NR036/2F8WF0002/5NR036_2F8W_F0002_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 보 백',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NR/5NR036/2F8WF0002/5NR036_2F8W_F0002_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 보 백',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NR/5NR036/2F8WF0002/5NR036_2F8W_F0002_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 보 백',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NR/5NR036/2F8WF0002/5NR036_2F8W_F0002_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 보 백',
+        index: 3,
+      },
+    ],
+    local_image: '5NR036_2F8W_F0002.jpg',
+    local_detail_images: [
+      '5NR036_2F8W_F0002_detail_thumbnail.jpg',
+      '5NR036_2F8W_F0002_detail_2.jpg',
+      '5NR036_2F8W_F0002_detail_3.jpg',
+      '5NR036_2F8W_F0002_detail_4.jpg',
+    ],
+  },
+  {
+    id: '5NR036_AF8W_F0NBL',
+    index: 15,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '가죽 마이크로 보 백',
+    price: '₩ 1,620,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C-%EB%B3%B4-%EB%B0%B1/5NR036_AF8W_F0NBL',
+    crawled_at: '2025-11-13T16:35:15.393757',
+    subtitle:
+      '보 컬렉션의 시그니처 감성을 담아낸 마이크로 사이즈 레더 백은 다양한 액세서리나 트릭과 함께 스타일링하면 가방에 경쾌하면서도 세련된 감각을 더해줍니다.',
+    bullet_points: [
+      '제품 코드: 5NR036_AF8W_F0NBL',
+      '가죽 레이스업 클로저',
+      '지퍼 클로저',
+      '엠보싱 레터링 로고',
+      '코튼 새틴 안감',
+    ],
+    size_info: ['높이 7cm', '폭 11cm', '길이 4cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NR/5NR036/AF8WF0NBL/5NR036_AF8W_F0NBL_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 보 백',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NR/5NR036/AF8WF0NBL/5NR036_AF8W_F0NBL_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 보 백',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NR/5NR036/AF8WF0NBL/5NR036_AF8W_F0NBL_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 보 백',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NR/5NR036/AF8WF0NBL/5NR036_AF8W_F0NBL_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 보 백',
+        index: 3,
+      },
+    ],
+    local_image: '5NR036_AF8W_F0NBL.jpg',
+    local_detail_images: [
+      '5NR036_AF8W_F0NBL_detail_thumbnail.jpg',
+      '5NR036_AF8W_F0NBL_detail_2.jpg',
+      '5NR036_AF8W_F0NBL_detail_3.jpg',
+      '5NR036_AF8W_F0NBL_detail_4.jpg',
+    ],
+  },
+  {
+    id: '5NR036_AF8W_F0046',
+    index: 16,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '가죽 마이크로 보 백',
+    price: '₩ 1,620,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C-%EB%B3%B4-%EB%B0%B1/5NR036_AF8W_F0046',
+    crawled_at: '2025-11-13T16:35:40.406145',
+    subtitle:
+      '보 컬렉션의 시그니처 감성을 담아낸 마이크로 사이즈 레더 백은 다양한 액세서리나 트릭과 함께 스타일링하면 가방에 경쾌하면서도 세련된 감각을 더해줍니다.',
+    bullet_points: [
+      '제품 코드: 5NR036_AF8W_F0046',
+      '가죽 레이스업 클로저',
+      '지퍼 클로저',
+      '엠보싱 레터링 로고',
+      '코튼 새틴 안감',
+    ],
+    size_info: ['높이 7cm', '폭 11cm', '길이 4cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NR/5NR036/AF8WF0046/5NR036_AF8W_F0046_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 보 백',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NR/5NR036/AF8WF0046/5NR036_AF8W_F0046_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 보 백',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NR/5NR036/AF8WF0046/5NR036_AF8W_F0046_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 보 백',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NR/5NR036/AF8WF0046/5NR036_AF8W_F0046_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 보 백',
+        index: 3,
+      },
+    ],
+    local_image: '5NR036_AF8W_F0046.jpg',
+    local_detail_images: [
+      '5NR036_AF8W_F0046_detail_thumbnail.jpg',
+      '5NR036_AF8W_F0046_detail_2.jpg',
+      '5NR036_AF8W_F0046_detail_3.jpg',
+      '5NR036_AF8W_F0046_detail_4.jpg',
+    ],
+  },
+  {
+    id: '5NR019_2FPP_F0002',
+    index: 17,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '완더 마테라쎄 나파 가죽 마이크로 호보백',
+    price: '₩ 1,640,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EC%99%84%EB%8D%94-%EB%A7%88%ED%85%8C%EB%9D%BC%EC%8E%84-%EB%82%98%ED%8C%8C-%EA%B0%80%EC%A3%BD-%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C-%ED%98%B8%EB%B3%B4%EB%B0%B1/5NR019_2FPP_F0002',
+    crawled_at: '2025-11-13T16:36:10.177561',
+    subtitle:
+      '정교한 마테라쎄 제작 기법을 통해 마이크로 호보백에 입체적인 텍스처 및 매우 세련된 효과를 줍니다. 아이코닉하며 한눈에 알아볼 수 있는 전면 레터링 로고로 정교한 모티프와 대비되어 돋보입니다. 세련된 미니 파우치는 단독으로 사용하거나 핸드백 액세서리로 활용할 수 있습니다.',
+    bullet_points: [
+      '제품 코드: 5NR019_2FPP_F0002',
+      '마테라쎄 제작 기법',
+      '지퍼 클로저',
+      '메탈 레터링 로고',
+      '탈부착이 가능한 맞춤 조절형 가죽 숄더 스트랩',
+      '코튼 새틴 라이닝',
+    ],
+    size_info: ['높이 9.5cm', '폭 12cm'],
+    material: '주 소재: 양가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NR/5NR019/2FPPF0002/5NR019_2FPP_F0002_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '완더 마테라쎄 나파 가죽 마이크로 호보백',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NR/5NR019/2FPPF0002/5NR019_2FPP_F0002_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '완더 마테라쎄 나파 가죽 마이크로 호보백',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NR/5NR019/2FPPF0002/5NR019_2FPP_F0002_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '완더 마테라쎄 나파 가죽 마이크로 호보백',
+        index: 2,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NR/5NR019/2FPPF0002/5NR019_2FPP_F0002_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '완더 마테라쎄 나파 가죽 마이크로 호보백',
+        index: 3,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NR/5NR019/2FPPF0002/5NR019_2FPP_F0002_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '완더 마테라쎄 나파 가죽 마이크로 호보백',
+        index: 4,
+      },
+    ],
+    local_image: '5NR019_2FPP_F0002.jpg',
+    local_detail_images: [
+      '5NR019_2FPP_F0002_detail_thumbnail.jpg',
+      '5NR019_2FPP_F0002_detail_2.jpg',
+      '5NR019_2FPP_F0002_detail_3.jpg',
+      '5NR019_2FPP_F0002_detail_4.jpg',
+      '5NR019_2FPP_F0002_detail_5.jpg',
+    ],
+  },
+  {
+    id: '5ID016_2FLQ_F0Q07',
+    index: 18,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '가죽 마이크로 트릭',
+    price: '₩ 340,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C-%ED%8A%B8%EB%A6%AD/5ID016_2FLQ_F0Q07',
+    crawled_at: '2025-11-13T16:36:39.624201',
+    subtitle:
+      '플라워에서 영감을 받은 디자인으로 완성된 마이크로 트릭은 미우미우의 우아하고 유쾌한 무드를 담고 있습니다. 스니커즈나 백에 스타일리시하게 매치되어 나만의 감각적인 룩을 완성해 줍니다.',
+    bullet_points: ['제품 코드: 5ID016_2FLQ_F0Q07', '메탈 스냅 고리', '디테일에 로고 각인'],
+    size_info: ['높이 3cm', '폭 3cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID016/2FLQF0Q07/5ID016_2FLQ_F0Q07_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ID/5ID016/2FLQF0Q07/5ID016_2FLQ_F0Q07_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 마이크로 트릭',
+        index: 1,
+      },
+    ],
+    local_image: '5ID016_2FLQ_F0Q07.jpg',
+    local_detail_images: [
+      '5ID016_2FLQ_F0Q07_detail_thumbnail.jpg',
+      '5ID016_2FLQ_F0Q07_detail_2.jpg',
+    ],
+  },
+  {
+    id: '5TL601_2IGE_F0037',
+    index: 19,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '가죽 키링 트릭',
+    price: '₩ 890,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%ED%82%A4%EB%A7%81-%ED%8A%B8%EB%A6%AD/5TL601_2IGE_F0037',
+    crawled_at: '2025-11-13T16:37:04.832421',
+    subtitle:
+      '미우미우 워드로브의 아이코닉한 요소들이 생동감 있고 개인적인 조합을 만들어내기 위해 소중한 디테일로 변형됩니다. 아이코닉한 스트라이프 폴로 셔츠에서 영감을 받은 이 키링 트릭은 가방과 액세서리에 아이러니한 우아함을 더합니다.',
+    bullet_points: [
+      '제품 코드: 5TL601_2IGE_F0037',
+      '가죽 스트랩 및 메탈 링',
+      '후면 미러',
+      '로고 라벨',
+    ],
+    size_info: ['높이 12cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL601/2IGEF0037/5TL601_2IGE_F0037_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 키링 트릭',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL601/2IGEF0037/5TL601_2IGE_F0037_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 키링 트릭',
+        index: 1,
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL601/2IGEF0037/5TL601_2IGE_F0037_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 키링 트릭',
+        index: 2,
+      },
+    ],
+    local_image: '5TL601_2IGE_F0037.jpg',
+    local_detail_images: [
+      '5TL601_2IGE_F0037_detail_thumbnail.jpg',
+      '5TL601_2IGE_F0037_detail_2.jpg',
+      '5TL601_2IGE_F0037_detail_3.jpg',
+    ],
+  },
+  {
+    id: '5TT282_2FLQ_F0976',
+    index: 20,
+    category1: 'accessories',
+    category2: 'bag-accessories-and-keychains',
+    name: '가죽 플로럴 브로치',
+    price: '₩ 340,000',
+    image_url:
+      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
+    product_url:
+      'https://www.miumiu.com/kr/ko/p/%EA%B0%80%EC%A3%BD-%ED%94%8C%EB%A1%9C%EB%9F%B4-%EB%B8%8C%EB%A1%9C%EC%B9%98/5TT282_2FLQ_F0976',
+    crawled_at: '2025-11-13T16:37:32.524554',
+    subtitle:
+      '플로럴 모티프에서 영감을 받은 브로치로, 미우미우의 대담하고 장난스러운 매력이 담겨 있습니다. 메탈 로고 디테일이 더해져 스니커즈와 백의 실루엣을 한층 풍성하게 하며, 개성적인 스타일을 연출합니다.',
+    bullet_points: [
+      '제품 코드: 5TT282_2FLQ_F0976',
+      '가죽 및 메탈',
+      '후면 핀 장식',
+      '로고 각인 노출',
+    ],
+    size_info: ['높이 2.5cm', '폭 3.5cm'],
+    material: '주 소재: 송아지 가죽',
+    detail_images: [
+      {
+        type: 'thumbnail',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TT/5TT282/2FLQF0976/5TT282_2FLQ_F0976_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 플로럴 브로치',
+      },
+      {
+        type: 'sub',
+        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TT/5TT282/2FLQF0976/5TT282_2FLQ_F0976_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+        alt: '가죽 플로럴 브로치',
+        index: 1,
+      },
+    ],
+    local_image: '5TT282_2FLQ_F0976.jpg',
+    local_detail_images: [
+      '5TT282_2FLQ_F0976_detail_thumbnail.jpg',
+      '5TT282_2FLQ_F0976_detail_2.jpg',
+    ],
+  },
 ];
