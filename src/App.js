@@ -49,7 +49,7 @@ function App() {
         <Route path="shipping" element={<Shipping />} />
         <Route path="/:category1" element={<Products />} />
         <Route path="/:category1/:category2" element={<Products />} />
-        <Route path="/:category1/:tags" element={<Products />} />
+        <Route path="/:category1/tag/:tags" element={<Products />} />
         <Route path="productdetail" element={<ProductDetail />} />
       </Routes>
       <Footer />

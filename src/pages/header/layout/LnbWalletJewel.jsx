@@ -2,12 +2,15 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../scss/lnbSub.scss';
 
-const wallets = [{ alt: '반지갑' }, { alt: '카드홀더' }];
+const wallets = [
+  { alt: 'small', alt2: '반지갑' },
+  { alt: 'card', alt2: '카드 홀더' },
+];
 const jewels = [
-  { alt: '반지 및 브로치', src: '/assets/images/lnb/jewel-ring.jpg' },
-  { alt: '목걸이', src: '/assets/images/lnb/jewel-neck.jpg' },
-  { alt: '팔찌', src: '/assets/images/lnb/jewel-arm.jpg' },
-  { alt: '이어링', src: '/assets/images/lnb/jewel-earing.jpg' },
+  { alt: 'rings-and-brooches', alt2: '반지 및 브로치', src: '/assets/images/lnb/jewel-ring.jpg' },
+  { alt: 'necklaces', alt2: '목걸이', src: '/assets/images/lnb/jewel-neck.jpg' },
+  { alt: 'bracelets', alt2: '팔찌', src: '/assets/images/lnb/jewel-arm.jpg' },
+  { alt: 'earrings', alt2: '이어링', src: '/assets/images/lnb/jewel-earing.jpg' },
 ];
 const LnbWalletJewel = ({ isActive }) => {
   return (
@@ -19,7 +22,7 @@ const LnbWalletJewel = ({ isActive }) => {
             <ul className="lnb-sub-menus">
               {wallets.map((wallet) => (
                 <li className="lnb-menuList" key={wallet.alt}>
-                  <Link to={`/${wallet.alt}`}>{wallet.alt}</Link>
+                  <Link to={`/wallets/${wallet.alt}`}>{wallet.alt2}</Link>
                 </li>
               ))}
             </ul>
@@ -38,7 +41,7 @@ const LnbWalletJewel = ({ isActive }) => {
             <ul className="lnb-sub-menus">
               {jewels.map((jewel) => (
                 <li className="lnb-menuList" key={jewel.alt}>
-                  <Link to={`/${jewel.alt}`}>{jewel.alt}</Link>
+                  <Link to={`/jewellery/${jewel.alt}`}>{jewel.alt2}</Link>
                 </li>
               ))}
             </ul>

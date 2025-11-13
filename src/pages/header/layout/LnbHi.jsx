@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom';
 import '../scss/lnbHi.scss';
 
 const colections = [
-  { key: 'MIU MIU AUTOMNE', label: 'MIU MIU AUTOMNE' },
-  { key: 'NEW BALANCE X MIU MIU', label: 'NEW BALANCE X MIU MIU' },
-  { key: 'MIU MIU CUSTOM STUDIO', label: 'MIU MIU CUSTOM STUDIO' },
-  { key: 'MIU MIU UPCYCLED', label: 'MIU MIU UPCYCLED' },
-  { key: 'MIU CLOSET', label: 'MIU CLOSET' },
+  { key: 'MIUMIUAUTOMNE', label: 'MIU MIU AUTOMNE' },
+  { key: 'NEWBALANCEXMIUMIU', label: 'NEW BALANCE X MIU MIU' },
+  { key: 'MIUMIUCUSTOMSTUDIO', label: 'MIU MIU CUSTOM STUDIO' },
+  { key: 'MIUMIUUPCYCLED', label: 'MIU MIU UPCYCLED' },
+  { key: 'CLOSET', label: 'MIU CLOSET' },
   { key: '기프트', label: '기프트' },
   { key: '향수', label: '향수' },
 ];

@@ -5525,7 +5525,7 @@ export const products = [
     category1: 'bags',
     category2: 'mini',
     name: '아이비 가죽 핸드백',
-    tags: '아이비',
+    tags: 'ivy',
     price: '₩ 2,500,000',
     subtitle:
       '아이비 백은 클래식한 토트를 핸드백 실루엣으로 재해석한 디자인으로, 부드러운 광택의 송아지 가죽과 세련된 톤온톤 디테일이 더해져 실용적인 우아함과 다재다능한 매력을 동시에 선사합니다.',
@@ -5599,7 +5599,7 @@ export const products = [
     category1: 'bags',
     category2: 'mini',
     name: '아이비 가죽 핸드백',
-    tags: '아이비',
+    tags: 'ivy',
     price: '₩ 2,500,000',
     subtitle:
       '아이비 백은 클래식한 토트를 핸드백 실루엣으로 재해석한 디자인으로, 부드러운 광택의 송아지 가죽과 세련된 톤온톤 디테일이 더해져 실용적인 우아함과 다재다능한 매력을 동시에 선사합니다.',
@@ -5673,7 +5673,7 @@ export const products = [
     category1: 'bags',
     category2: 'mini',
     name: '아이비 가죽 핸드백',
-    tags: '아이비',
+    tags: 'ivy',
     price: '₩ 2,400,000',
     subtitle:
       '아이비 가죽 백은 메탈 디테일과 대비되는 스티치로 클래식한 스타일을 더욱 돋보이게 합니다. 토널 미우미우 레터링 로고가 한눈에 알아볼 수 있는 아이코닉한 감각으로 스타일을 완성합니다.',
@@ -5750,7 +5750,7 @@ export const products = [
     category1: 'bags',
     category2: 'mini',
     name: '아이비 가죽 핸드백',
-    tags: '아이비',
+    tags: 'ivy',
     price: '₩ 3,400,000',
     subtitle:
       '메탈 디테일과 한눈에 알아볼 수 있는 아이코닉 미우미우 레터링 로고로 클래식한 스타일이 더욱 돋보이는 아이비 가죽 백입니다.',
@@ -5814,7 +5814,7 @@ export const products = [
     category1: 'bags',
     category2: 'mini',
     name: '아방뛰르 미니 나파 가죽 백',
-    tags: '아방뛰르',
+    tags: 'abang',
     price: '₩ 4,400,000',
     subtitle:
       '세련되고 우아한 실루엣을 자랑하는 아방뛰르 미니 나파 가죽 백입니다. 유행을 타지 않는 디자인에 독창적인 비율과 양각 로고가 절제된 특성을 부여합니다.',
@@ -5897,7 +5897,7 @@ export const products = [
     category1: 'bags',
     category2: 'mini',
     name: '아방뛰르 미니 나파 가죽 백',
-    tags: '아방뛰르',
+    tags: 'abang',
     price: '₩ 4,400,000',
     subtitle:
       '세련되고 우아한 실루엣을 자랑하는 아방뛰르 미니 나파 가죽 백입니다. 유행을 타지 않는 디자인에 독창적인 비율과 양각 로고가 절제된 특성을 부여합니다.',
@@ -5959,7 +5959,7 @@ export const products = [
     category1: 'bags',
     category2: 'mini',
     name: '아방뛰르 미니 나파 가죽 백',
-    tags: '아방뛰르',
+    tags: 'abang',
     price: '₩ 4,400,000',
     subtitle:
       '세련되고 우아한 실루엣을 자랑하는 아방뛰르 미니 나파 가죽 백입니다. 유행을 타지 않는 디자인에 독창적인 비율과 양각 로고가 절제된 특성을 부여합니다.',
@@ -6042,7 +6042,7 @@ export const products = [
     category1: 'bags',
     category2: 'mini',
     name: '아르카디 마테라쎄 나파 가죽 미니 백',
-    tags: '아르카디',
+    tags: 'arcadie',
     price: '₩ 3,500,000',
     subtitle:
       '클래식한 디자인을 정교한 마테라쎄 장인정신으로 재해석한 탑 핸들 백으로, 입체적인 텍스처와 매우 세련된 효과를 연출합니다. 메탈 하드웨어의 마감을 반영한 전면 레터링 로고가 아이코닉하고 한눈에 알아볼 수 있는 감각으로 정교한 장인정신과 대비를 이루어 더욱 돋보입니다. 미니 사이즈의 역동적이고 우아한 라인과 탈부착이 가능한 맞춤 조절형 숄더 스트랩으로 활용도 높고 기능적이며 모던한 백이 완성됩니다.',
@@ -6105,7 +6105,7 @@ export const products = [
     category1: 'bags',
     category2: 'mini',
     name: '아르카디 마테라쎄 나파 가죽 미니 백',
-    tags: '아르카디',
+    tags: 'arcadie',
     price: '₩ 3,500,000',
     subtitle:
       '클래식한 디자인을 정교한 마테라쎄 장인정신으로 재해석한 탑 핸들 백으로, 입체적인 텍스처와 매우 세련된 효과를 연출합니다. 메탈 하드웨어의 마감을 반영한 전면 레터링 로고가 아이코닉하고 한눈에 알아볼 수 있는 감각으로 정교한 장인정신과 대비를 이루어 더욱 돋보입니다. 미니 사이즈의 역동적이고 우아한 라인과 탈부착이 가능한 맞춤 조절형 숄더 스트랩으로 활용도 높고 기능적이며 모던한 백이 완성됩니다.',
@@ -6168,7 +6168,7 @@ export const products = [
     category1: 'bags',
     category2: 'mini',
     name: '아르카디 마테라쎄 나파 가죽 미니 백',
-    tags: '아르카디',
+    tags: 'arcadie',
     price: '₩ 3,500,000',
     subtitle:
       '클래식한 디자인을 정교한 마테라쎄 장인정신으로 재해석한 탑 핸들 백으로, 입체적인 텍스처와 매우 세련된 효과를 연출합니다. 메탈 하드웨어의 마감을 반영한 전면 레터링 로고가 아이코닉하고 한눈에 알아볼 수 있는 감각으로 정교한 장인정신과 대비를 이루어 더욱 돋보입니다. 미니 사이즈의 역동적이고 우아한 라인과 탈부착이 가능한 맞춤 조절형 숄더 스트랩으로 활용도 높고 기능적이며 모던한 백이 완성됩니다.',
@@ -6252,7 +6252,7 @@ export const products = [
     category1: 'bags',
     category2: 'mini',
     name: '아르카디 마테라쎄 나파 가죽 미니 백',
-    tags: '아르카디',
+    tags: 'arcadie',
     price: '₩ 3,500,000',
     subtitle:
       '클래식한 디자인을 정교한 마테라쎄 장인정신으로 재해석한 탑 핸들 백으로, 입체적인 텍스처와 매우 세련된 효과를 연출합니다. 메탈 하드웨어의 마감을 반영한 전면 레터링 로고가 아이코닉하고 한눈에 알아볼 수 있는 감각으로 정교한 장인정신과 대비를 이루어 더욱 돋보입니다. 미니 사이즈의 역동적이고 우아한 라인과 탈부착이 가능한 맞춤 조절형 숄더 스트랩으로 활용도 높고 기능적이며 모던한 백이 완성됩니다.',
@@ -6329,7 +6329,7 @@ export const products = [
     category1: 'bags',
     category2: 'mini',
     name: '아르카디 가죽 미니 백',
-    tags: '아르카디',
+    tags: 'arcadie',
     price: '₩ 3,350,000',
     subtitle:
       '아르카디 가죽 미니 백은 현실에 대한 반응을 특정 쉐입으로 해석하는 수단으로서의 패션 개념을 표현합니다. 가벼운 패딩으로 백에 볼륨감을 더하고 코스모폴리탄 스타일을 완성합니다. 하드웨어와 같은 컬러의 레터링 로고는 기능과 장식의 경계를 넘어 탑 핸들 백의 아이코닉한 아름다움과 개성을 표현합니다.',
@@ -6405,7 +6405,7 @@ export const products = [
     category1: 'bags',
     category2: 'mini',
     name: '아르카디 가죽 미니 백',
-    tags: '아르카디',
+    tags: 'arcadie',
     price: '₩ 3,350,000',
     subtitle:
       '아르카디 가죽 미니 백은 현실에 대한 반응을 특정 쉐입으로 해석하는 수단으로서의 패션 개념을 표현합니다. 가벼운 패딩으로 백에 볼륨감을 더하고 코스모폴리탄 스타일을 완성합니다. 하드웨어와 같은 컬러의 레터링 로고는 기능과 장식의 경계를 넘어 탑 핸들 백의 아이코닉한 아름다움과 개성을 표현합니다.',
@@ -6467,7 +6467,7 @@ export const products = [
     category1: 'bags',
     category2: 'mini',
     name: '아르카디 가죽 미니 백',
-    tags: '아르카디',
+    tags: 'arcadie',
     price: '₩ 3,350,000',
     subtitle:
       '아르카디 가죽 미니 백은 현실에 대한 반응을 특정 쉐입으로 해석하는 수단으로서의 패션 개념을 표현합니다. 가벼운 패딩으로 백에 볼륨감을 더하고 코스모폴리탄 스타일을 완성합니다. 하드웨어와 같은 컬러의 레터링 로고는 기능과 장식의 경계를 넘어 탑 핸들 백의 아이코닉한 아름다움과 개성을 표현합니다.',
@@ -6529,7 +6529,7 @@ export const products = [
     category1: 'bags',
     category2: 'mini',
     name: '아르카디 가죽 미니 백',
-    tags: '아르카디',
+    tags: 'arcadie',
     price: '₩ 3,350,000',
     subtitle:
       '아르카디 가죽 미니 백은 현실에 대한 반응을 특정 쉐입으로 해석하는 수단으로서의 패션 개념을 표현합니다. 가벼운 패딩으로 백에 볼륨감을 더하고 코스모폴리탄 스타일을 완성합니다. 하드웨어와 같은 컬러의 레터링 로고는 기능과 장식의 경계를 넘어 탑 핸들 백의 아이코닉한 아름다움과 개성을 표현합니다.',
@@ -6605,7 +6605,7 @@ export const products = [
     category1: 'bags',
     category2: 'mini',
     name: '아르카디 가죽 미니 백',
-    tags: '아르카디',
+    tags: 'arcadie',
     price: '₩ 3,350,000',
     subtitle:
       '아르카디 가죽 미니 백은 현실에 대한 반응을 특정 쉐입으로 해석하는 수단으로서의 패션 개념을 표현합니다. 가벼운 패딩으로 백에 볼륨감을 더하고 코스모폴리탄 스타일을 완성합니다. 하드웨어와 같은 컬러의 레터링 로고는 기능과 장식의 경계를 넘어 탑 핸들 백의 아이코닉한 아름다움과 개성을 표현합니다.',
@@ -10705,7 +10705,7 @@ export const products = [
     category1: 'shoes',
     category2: 'sandals',
     name: '루슈 나파 가죽 피셔맨 샌들',
-    tags: '루슈',
+    tags: 'ruches',
     price: '₩ 1,580,000',
     subtitle:
       '부드러운 나파 가죽의 경량 구조가 돋보이는 피셔맨 샌들은 버클과 골드 엠보싱 로고의 루싱 디테일로 유니크함을 더했습니다.',
@@ -11063,7 +11063,7 @@ export const products = [
     category1: 'shoes',
     category2: 'sandals',
     name: '루슈 나파 가죽 피셔맨 샌들',
-    tags: '루슈',
+    tags: 'ruches',
     price: '₩ 1,580,000',
     subtitle:
       '부드러운 나파 가죽의 경량 구조가 돋보이는 피셔맨 샌들은 버클과 골드 엠보싱 로고의 루싱 디테일로 유니크함을 더했습니다.',
@@ -11319,6 +11319,7 @@ export const products = [
     category1: 'shoes',
     category2: 'ballerinas',
     name: '시어링 발레리나',
+    tags: 'miu-ballet',
     price: '₩ 1,690,000',
     subtitle:
       '클래식한 스타일에 부드럽고 볼륨감 있는 시어링 소재로 풍성함을 더한 발레 플랫입니다. 버클로 대비를 연출해 세련된 스타일이 더욱 돋보입니다.',
@@ -11370,7 +11371,7 @@ export const products = [
     category1: 'shoes',
     category2: 'ballerinas',
     name: '가죽 발레리나',
-    tags: '발레리나',
+    tags: 'miu-ballet',
     price: '₩ 1,420,000',
     subtitle:
       '아이코닉하고 로맨틱하며 활용성이 좋은 가죽 발레리나로, 오리지널 디자인과 코스모폴리탄 스타일을 결합했습니다. 로고로 장식한 엘라스틱 밴드와 보우가 클래식하면서도 모던한 여성적인 디테일을 더합니다.',
@@ -11588,7 +11589,7 @@ export const products = [
     category1: 'shoes',
     category2: 'ballerinas',
     name: '루슈 나파 가죽 발레리나',
-    tags: '루슈',
+    tags: 'ruches',
     price: '₩ 1,510,000',
     subtitle:
       '나파 가죽의 특수 빈티지 처리와 대비를 이루는 독특한 골드톤 로고가 돋보이는 빈티지 무드의 가벼운 발레리나 플랫입니다.',
@@ -11641,7 +11642,7 @@ export const products = [
     category1: 'shoes',
     category2: 'ballerinas',
     name: '루슈 나파 가죽 발레리나',
-    tags: '루슈',
+    tags: 'ruches',
     price: '₩ 1,510,000',
     subtitle:
       '나파 가죽의 특수 빈티지 처리와 대비를 이루는 독특한 골드톤 로고가 돋보이는 빈티지 무드의 가벼운 발레리나 플랫입니다.',
@@ -11906,7 +11907,7 @@ export const products = [
     category1: 'shoes',
     category2: 'ballerinas',
     name: '루슈 스웨이드 발레리나',
-    tags: '루슈',
+    tags: 'ruches',
     price: '₩ 1,510,000',
     subtitle:
       '부드러운 스웨이드와 셔링 디테일이 어우러진 루슈 발레리나는 미우미우 코드의 유연함을 감각적으로 풀어냅니다.',
@@ -12008,7 +12009,7 @@ export const products = [
     category1: 'shoes',
     category2: 'ballerinas',
     name: '새틴 발레리나',
-    tags: '발레리나',
+    tags: 'miu-ballet',
     price: '₩ 1,420,000',
     subtitle:
       '2022년 가을/겨울 쇼에서 선보인 미우미우 컬렉션의 아이코닉하고 독특한 스타일의 발레리나 슈즈로, 새틴 소재를 사용한 독창적인 디자인에 보우, 로고 장식 엘라스틱 밴드 등 여성스러운 디테일로 장식했습니다.',
@@ -12067,7 +12068,7 @@ export const products = [
     category1: 'shoes',
     category2: 'ballerinas',
     name: '새틴 발레리나',
-    tags: '발레리나',
+    tags: 'miu-ballet',
     price: '₩ 1,420,000',
     subtitle:
       '2022년 가을/겨울 쇼에서 선보인 미우미우 컬렉션의 아이코닉하고 독특한 스타일의 발레리나 슈즈로, 새틴 소재를 사용한 독창적인 디자인에 보우, 로고 장식 엘라스틱 밴드 등 여성스러운 디테일로 장식했습니다.',
@@ -12119,7 +12120,7 @@ export const products = [
     category1: 'shoes',
     category2: 'ballerinas',
     name: '새틴 발레리나',
-    tags: '발레리나',
+    tags: 'miu-ballet',
     price: '₩ 1,420,000',
     subtitle:
       '2022년 가을/겨울 쇼에서 선보인 미우미우 컬렉션의 아이코닉하고 독특한 스타일의 발레리나 슈즈로, 새틴 소재를 사용한 독창적인 디자인에 보우, 로고 장식 엘라스틱 밴드 등 여성스러운 디테일로 장식했습니다.',
@@ -12185,7 +12186,7 @@ export const products = [
     category1: 'shoes',
     category2: 'ballerinas',
     name: '가죽 발레리나',
-    tags: '발레리나',
+    tags: 'miu-ballet',
     price: '₩ 1,420,000',
     subtitle:
       '아이코닉하고 로맨틱하며 활용성이 좋은 가죽 발레리나로, 오리지널 디자인과 코스모폴리탄 스타일을 결합했습니다. 로고로 장식한 엘라스틱 밴드와 보우가 클래식하면서도 모던한 여성적인 디테일을 더합니다.',
@@ -12251,7 +12252,7 @@ export const products = [
     category1: 'shoes',
     category2: 'ballerinas',
     name: '플리스 발레리나',
-    tags: '발레리나',
+    tags: 'miu-ballet',
     price: '₩ 1,420,000',
     subtitle:
       '미우미우 워드로브의 상징적인 소재인 플리스가 아이코닉한 발레리나 플랫의 형태로 구현되어, 의상의 미학을 연상시키며 새로운 비형식적 우아함을 선보입니다.',
@@ -13665,7 +13666,7 @@ export const products = [
     category1: 'shoes',
     category2: 'boots-and-ankle-boots',
     name: '루슈 나파 가죽 부츠',
-    tags: '루슈',
+    tags: 'ruches',
     price: '₩ 2,850,000',
     subtitle:
       '부츠 실루엣은 루체 로퍼의 미학을 재해석하여 패션쇼의 참조를 떠올리게 하는 예상치 못한 변화를 선사하며, 빈티지 느낌의 나파 가죽의 섬세한 터치로 표현된 부드러운 구조를 강조합니다.',
@@ -14357,7 +14358,7 @@ export const products = [
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
     name: '루슈 나파 가죽 로퍼',
-    tags: '루슈',
+    tags: 'ruches',
     price: '₩ 1,510,000',
     subtitle:
       '우아한 빈티지 감성을 담은 가볍고 활용도 높은 라인의 나파 가죽 로퍼입니다. 캐주얼한 룩에도 잘 어울리는 로퍼 디자인은 골든 엠보싱 로고 디테일로 더욱 돋보입니다.',
@@ -14424,7 +14425,7 @@ export const products = [
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
     name: '루슈 나파 가죽 로퍼',
-    tags: '루슈',
+    tags: 'ruches',
     price: '₩ 1,510,000',
     subtitle:
       '우아한 빈티지 감성을 담은 가볍고 활용도 높은 라인의 나파 가죽 로퍼입니다. 캐주얼한 룩에도 잘 어울리는 로퍼 디자인은 골든 엠보싱 로고 디테일로 더욱 돋보입니다.',
@@ -14484,7 +14485,7 @@ export const products = [
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
     name: '루슈 스웨이드 로퍼',
-    tags: '루슈',
+    tags: 'ruches',
     price: '₩ 1,510,000',
     subtitle:
       '강렬한 컬러감의 스웨이드 소재로 재해석된 로퍼는 미우미우 특유의 우아하고 가벼운 감성을 그대로 담아냅니다. 실루엣의 유연함과 섬세한 셔링 디테일이 어우러져, 클래식하면서도 현대적인 스타일을 완성합니다.',
@@ -14537,7 +14538,7 @@ export const products = [
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
     name: '루슈 스웨이드 로퍼',
-    tags: '루슈',
+    tags: 'ruches',
     price: '₩ 1,580,000',
     subtitle:
       '울트라 라이트 디자인의 루슈 로퍼는 시어링 안감 디테일로 새롭게 해석되어, 세련된 품격과 활용성을 동시에 담아냅니다.',
@@ -14590,7 +14591,7 @@ export const products = [
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
     name: '루슈 스웨이드 로퍼',
-    tags: '루슈',
+    tags: 'ruches',
     price: '₩ 1,580,000',
     subtitle:
       '울트라 라이트 디자인의 루슈 로퍼는 시어링 안감 디테일로 새롭게 해석되어, 세련된 품격과 활용성을 동시에 담아냅니다.',
@@ -14708,6 +14709,7 @@ export const products = [
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
     name: '스웨이드 뮬',
+    tags: 'penny-loafers',
     price: '₩ 1,580,000',
     subtitle:
       '클래식 로퍼에서 영감을 받은 스웨이드 뮬로, 에이프런의 스트랩에 ‘페니’를 끼워 넣어 ‘페니 로퍼’라는 이름이 탄생했습니다. 시어링 안감으로 포근함을 더합니다.',
@@ -14768,6 +14770,7 @@ export const products = [
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
     name: '스웨이드 뮬',
+    tags: 'penny-loafers',
     price: '₩ 1,580,000',
     subtitle:
       '클래식 로퍼에서 영감을 받은 스웨이드 뮬로, 에이프런의 스트랩에 ‘페니’를 끼워 넣어 ‘페니 로퍼’라는 이름이 탄생했습니다. 시어링 안감으로 포근함을 더합니다.',
@@ -15005,6 +15008,7 @@ export const products = [
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
     name: '브러쉬드 가죽 페니 로퍼',
+    tags: 'penny-loafers',
     price: '₩ 1,660,000',
     subtitle:
       '50년대에 로퍼는 미국 프렙스쿨과 대학 학생들이 착용하는 교복의 일부였습니다. 교복 착용에 불만을 느끼던 학생들은 가죽 밴드 슬롯에 반짝이는 페니 동전을 끼우기 시작했고, 이것이 ‘페니 로퍼’라는 이름을 탄생시켰습니다. 미우미우에서는 전통의 대명사이자 시대를 초월하는 슈즈를 브러쉬드 가죽 버전으로 업데이트하여 선보입니다.',
@@ -15057,6 +15061,7 @@ export const products = [
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
     name: '브러쉬드 가죽 페니 로퍼',
+    tags: 'penny-loafers',
     price: '₩ 1,660,000',
     subtitle:
       '50년대에 로퍼는 미국 프렙스쿨과 대학 학생들이 착용하는 교복의 일부였습니다. 교복 착용에 불만을 느끼던 학생들은 가죽 밴드 슬롯에 반짝이는 페니 동전을 끼우기 시작했고, 이것이 ‘페니 로퍼’라는 이름을 탄생시켰습니다. 미우미우에서는 전통의 대명사이자 시대를 초월하는 슈즈를 브러쉬드 가죽 버전으로 업데이트하여 선보입니다.',
@@ -15123,6 +15128,7 @@ export const products = [
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
     name: '가죽 페니 로퍼',
+    tags: 'penny-loafers',
     price: '₩ 1,660,000',
     subtitle:
       '1950년대에는 로퍼가 미국 대학생 교복의 일부였습니다. 교복에 반대하던 학생들이 가죽 스트랩의 슬롯에 페니 동전을 끼우기 시작하면서 "페니 로퍼"라는 이름이 시작되었습니다. 유행을 타지 않는 전통과도 같은 이 신발이 미우미우의 새로운 컬렉션에서 과감한 버전으로 새롭게 선보입니다.',
@@ -15182,6 +15188,7 @@ export const products = [
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
     name: '가죽 페니 로퍼',
+    tags: 'penny-loafers',
     price: '₩ 1,660,000',
     subtitle:
       '1950년대에는 로퍼가 미국 대학생 교복의 일부였습니다. 교복에 반대하던 학생들이 가죽 스트랩의 슬롯에 페니 동전을 끼우기 시작하면서 "페니 로퍼"라는 이름이 시작되었습니다. 유행을 타지 않는 전통과도 같은 이 신발이 미우미우의 새로운 컬렉션에서 과감한 버전으로 새롭게 선보입니다.',
@@ -15241,6 +15248,7 @@ export const products = [
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
     name: '빈티지 효과 가죽 페니 로퍼',
+    tags: 'penny-loafers',
     price: '₩ 1,660,000',
     subtitle:
       '50년대에 로퍼는 미국 프렙스쿨과 대학 학생들이 착용하는 교복의 일부였습니다. 교복 착용에 불만을 느끼던 학생들은 가죽 밴드 슬롯에 반짝이는 페니 동전을 끼우기 시작했고, 이것이 ‘페니 로퍼’라는 이름을 탄생시켰습니다. 미우미우에서는 전통의 대명사이자 시대를 초월하는 슈즈를 빈티지 버전으로 업데이트하여 선보입니다.',
@@ -15308,6 +15316,7 @@ export const products = [
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
     name: '브러쉬드 가죽 로퍼',
+    tags: 'penny-loafers',
     price: '₩ 1,690,000',
     subtitle:
       '50년대에 로퍼는 미국 프렙스쿨과 대학생들이 착용하는 교복의 일부였습니다. 교복을 입어야 하는 것에 불만을 느끼던 학생들은 가죽 밴드의 슬롯에 반짝이는 페니 동전을 끼우기 시작했고, 이것이 ‘페니 로퍼’라는 이름을 탄생시켰습니다. 미우미우는 새로운 컬렉션에서 전통의 대명사이자 시대를 초월하는 슈즈를 브러쉬드 가죽 버전으로 재해석하여 선보입니다.',
@@ -15899,7 +15908,7 @@ export const products = [
     category1: 'shoes',
     category2: 'sneakers',
     name: '플룸 스웨이드 스니커즈',
-    tags: '플룸',
+    tags: 'plume',
     price: '₩ 1,340,000',
     subtitle:
       '정교한 장인정신과 소재가 매우 가볍고 세련된 디자인과 만난 새로운 미우미우 스웨이드 스니커즈입니다. 텅과 후면의 아이코닉한 로고가 시선을 사로잡습니다.',
@@ -15954,7 +15963,7 @@ export const products = [
     category1: 'shoes',
     category2: 'sneakers',
     name: '플룸 스웨이드 스니커즈',
-    tags: '플룸',
+    tags: 'plume',
     price: '₩ 1,340,000',
     subtitle:
       '정교한 장인정신과 소재가 매우 가볍고 세련된 디자인과 만난 새로운 미우미우 스웨이드 스니커즈입니다. 텅과 후면의 아이코닉한 로고가 시선을 사로잡습니다.',
@@ -16009,7 +16018,7 @@ export const products = [
     category1: 'shoes',
     category2: 'sneakers',
     name: '플룸 스웨이드 스니커즈',
-    tags: '플룸',
+    tags: 'plume',
     price: '₩ 1,340,000',
     subtitle:
       '정교한 장인정신과 소재가 매우 가볍고 세련된 디자인과 만난 새로운 미우미우 스웨이드 스니커즈입니다. 텅과 후면의 아이코닉한 로고가 시선을 사로잡습니다.',
@@ -16064,7 +16073,7 @@ export const products = [
     category1: 'shoes',
     category2: 'sneakers',
     name: '김나지움 기능성 소재 및 스웨이드 스니커즈',
-    tags: '김나지움',
+    tags: 'gymnasium',
     price: '₩ 1,510,000',
     subtitle:
       '기능성 소재와 스웨이드의 초경량 구조로 캐주얼한 요소와 스포츠 레퍼런스가 조화를 이루는 스니커즈입니다. 멀티컬러 밴드와 로고 엠보싱 솔이 미우미우의 스포티하고 시크한 개성을 강조합니다.',
@@ -16123,7 +16132,7 @@ export const products = [
     category1: 'shoes',
     category2: 'sneakers',
     name: '김나지움 기능성 소재 및 스웨이드 스니커즈',
-    tags: '김나지움',
+    tags: 'gymnasium',
     price: '₩ 1,510,000',
     subtitle:
       '기능성 소재와 스웨이드의 초경량 구조로 캐주얼한 요소와 스포츠 레퍼런스가 조화를 이루는 스니커즈입니다. 멀티컬러 밴드와 로고 엠보싱 솔이 미우미우의 스포티하고 시크한 개성을 강조합니다.',
@@ -16407,7 +16416,7 @@ export const products = [
     category1: 'shoes',
     category2: 'sneakers',
     name: '미우미우 김나지움 에이어스 가죽 스니커즈',
-    tags: '김나지움',
+    tags: 'gymnasium',
     price: '₩ 1,870,000',
     subtitle:
       '런웨이 무드에서 영감을 받아 울트라 라이트 실루엣의 김나지움 스니커즈를 재해석했습니다. 스포티한 테크니컬 패브릭과 고급스러운 에이어스 가죽를 대담한 파이톤 프린트로 결합해 강렬한 컬러 블록 디자인을 완성했습니다.',
@@ -16468,7 +16477,7 @@ export const products = [
     category1: 'shoes',
     category2: 'sneakers',
     name: '미우미우 김나지움 에이어스 가죽 스니커즈',
-    tags: '김나지움',
+    tags: 'gymnasium',
     price: '₩ 1,870,000',
     subtitle:
       '런웨이 무드에서 영감을 받아 울트라 라이트 실루엣의 김나지움 스니커즈를 재해석했습니다. 스포티한 테크니컬 패브릭과 고급스러운 에이어스 가죽를 대담한 파이톤 프린트로 결합해 강렬한 컬러 블록 디자인을 완성했습니다.',
@@ -16529,7 +16538,7 @@ export const products = [
     category1: 'shoes',
     category2: 'sneakers',
     name: '미우미우 김나지움 에이어스 가죽 스니커즈',
-    tags: '김나지움',
+    tags: 'gymnasium',
     price: '₩ 1,870,000',
     subtitle:
       '런웨이 무드에서 영감을 받아 울트라 라이트 실루엣의 김나지움 스니커즈를 재해석했습니다. 스포티한 테크니컬 패브릭과 고급스러운 에이어스 가죽를 대담한 파이톤 프린트로 결합해 강렬한 컬러 블록 디자인을 완성했습니다.',
@@ -16597,7 +16606,7 @@ export const products = [
     category1: 'shoes',
     category2: 'sneakers',
     name: '미우미우 김나지움 에이어스 가죽 스니커즈',
-    tags: '김나지움',
+    tags: 'gymnasium',
     price: '₩ 1,870,000',
     subtitle:
       '런웨이 무드에서 영감을 받아 울트라 라이트 실루엣의 김나지움 스니커즈를 재해석했습니다. 스포티한 테크니컬 패브릭과 고급스러운 에이어스 가죽를 대담한 파이톤 프린트로 결합해 강렬한 컬러 블록 디자인을 완성했습니다.',
@@ -16665,7 +16674,7 @@ export const products = [
     category1: 'shoes',
     category2: 'sneakers',
     name: '미우미우 김나지움 에이어스 가죽 스니커즈',
-    tags: '김나지움',
+    tags: 'gymnasium',
     price: '₩ 1,870,000',
     subtitle:
       '런웨이 무드에서 영감을 받아 울트라 라이트 실루엣의 김나지움 스니커즈를 재해석했습니다. 스포티한 테크니컬 패브릭과 고급스러운 에이어스 가죽를 대담한 파이톤 프린트로 결합해 강렬한 컬러 블록 디자인을 완성했습니다.',
@@ -16860,7 +16869,7 @@ export const products = [
     category1: 'shoes',
     category2: 'sneakers',
     name: '김나지움 기능성 소재 및 스웨이드 복서 부츠',
-    tags: '김나지움',
+    tags: 'gymnasium',
     price: '₩ 2,050,000',
     subtitle:
       '기능성 소재의 초경량 복서 부츠 디자인과 스포츠 레퍼런스로 우아한 미우미우 유니폼에 과감함을 더해 런웨이 스니커즈를 재해석한 스타일을 선보입니다.',
@@ -16914,7 +16923,7 @@ export const products = [
     category1: 'shoes',
     category2: 'sneakers',
     name: '김나지움 기능성 소재 및 스웨이드 복서 부츠',
-    tags: '김나지움',
+    tags: 'gymnasium',
     price: '₩ 2,050,000',
     subtitle:
       '기능성 소재의 초경량 복서 부츠 디자인과 스포츠 레퍼런스로 우아한 미우미우 유니폼에 과감함을 더해 런웨이 스니커즈를 재해석한 스타일을 선보입니다.',
@@ -17292,7 +17301,7 @@ export const products = [
     category1: 'shoes',
     category2: 'sneakers',
     name: '플룸 스웨이드 스니커즈',
-    tags: '플룸',
+    tags: 'plume',
     price: '₩ 1,340,000',
     subtitle:
       '정교한 장인정신과 소재가 매우 가볍고 세련된 디자인과 만난 새로운 미우미우 스웨이드 스니커즈입니다. 텅과 후면의 아이코닉한 로고가 시선을 사로잡습니다.',
@@ -17408,7 +17417,7 @@ export const products = [
     category1: 'shoes',
     category2: 'sneakers',
     name: '플룸 나파 가죽 스니커즈',
-    tags: '플룸',
+    tags: 'plume',
     price: '₩ 1,340,000',
     subtitle:
       '텅과 힐 칼라의 아이코닉한 로고가 특징인 세련되고 활용도 높은 초경량 나파 가죽 스니커즈입니다.',
@@ -18181,7 +18190,7 @@ export const products = [
     category1: 'shoes',
     category2: 'sneakers',
     name: '김나지움 기능성 소재 및 스웨이드 스니커즈',
-    tags: '김나지움',
+    tags: 'gymnasium',
     price: '₩ 1,510,000',
     subtitle:
       '기능성 소재와 스웨이드의 초경량 구조로 캐주얼한 요소와 스포츠 레퍼런스가 조화를 이루는 스니커즈입니다. 멀티컬러 밴드와 로고 엠보싱 솔이 미우미우의 스포티하고 시크한 개성을 강조합니다.',
@@ -18292,7 +18301,7 @@ export const products = [
     category1: 'shoes',
     category2: 'sneakers',
     name: '김나지움 기능성 소재 및 스웨이드 복서 부츠',
-    tags: '김나지움',
+    tags: 'gymnasium',
     price: '₩ 2,050,000',
     subtitle:
       '기능성 소재의 초경량 복서 부츠 디자인과 스포츠 레퍼런스로 우아한 미우미우 유니폼에 과감함을 더해 런웨이 스니커즈를 재해석한 스타일을 선보입니다.',
@@ -18413,7 +18422,7 @@ export const products = [
     category1: 'bags',
     category2: 'topHandles',
     name: '아르카디 가죽 백',
-    tags: '아르카디',
+    tags: 'arcadie',
     price: '₩ 4,250,000',
     subtitle:
       '아르카디 가죽 백은 현실에 대한 반응을 물리적인 형태로 해석하는 수단으로써의 패션이라는 개념을 표현합니다. 가벼운 패딩으로 가방의 볼륨감을 더하고 코스모폴리탄 스타일이 완성됩니다. 장식과 기능의 경계를 넘어 사용되는 메탈 하드웨어의 마감을 반영한 레터링 로고로 탑 핸들 백의 아이코닉한 아름다움이 표현됩니다.',
@@ -18476,7 +18485,7 @@ export const products = [
     category1: 'bags',
     category2: 'topHandles',
     name: '아르카디 가죽 백',
-    tags: '아르카디',
+    tags: 'arcadie',
     price: '₩ 4,250,000',
     subtitle:
       '아르카디 가죽 백은 현실에 대한 반응을 물리적인 형태로 해석하는 수단으로써의 패션이라는 개념을 표현합니다. 가벼운 패딩으로 가방의 볼륨감을 더하고 코스모폴리탄 스타일이 완성됩니다. 장식과 기능의 경계를 넘어 사용되는 메탈 하드웨어의 마감을 반영한 레터링 로고로 탑 핸들 백의 아이코닉한 아름다움이 표현됩니다.',
@@ -18553,7 +18562,7 @@ export const products = [
     category1: 'bags',
     category2: 'topHandles',
     name: '아르카디 가죽 백',
-    tags: '아르카디',
+    tags: 'arcadie',
     price: '₩ 4,250,000',
     subtitle:
       '아르카디 가죽 백은 현실에 대한 반응을 물리적인 형태로 해석하는 수단으로써의 패션이라는 개념을 표현합니다. 가벼운 패딩으로 가방의 볼륨감을 더하고 코스모폴리탄 스타일이 완성됩니다. 장식과 기능의 경계를 넘어 사용되는 메탈 하드웨어의 마감을 반영한 레터링 로고로 탑 핸들 백의 아이코닉한 아름다움이 표현됩니다.',
@@ -18637,7 +18646,7 @@ export const products = [
     category1: 'bags',
     category2: 'topHandles',
     name: '아르카디 가죽 백',
-    tags: '아르카디',
+    tags: 'arcadie',
     price: '₩ 4,250,000',
     subtitle:
       '아르카디 가죽 백은 현실에 대한 반응을 물리적인 형태로 해석하는 수단으로써의 패션이라는 개념을 표현합니다. 가벼운 패딩으로 가방의 볼륨감을 더하고 코스모폴리탄 스타일이 완성됩니다. 장식과 기능의 경계를 넘어 사용되는 메탈 하드웨어의 마감을 반영한 레터링 로고로 탑 핸들 백의 아이코닉한 아름다움이 표현됩니다.',
@@ -18700,7 +18709,7 @@ export const products = [
     category1: 'bags',
     category2: 'topHandles',
     name: '아르카디 가죽 백',
-    tags: '아르카디',
+    tags: 'arcadie',
     price: '₩ 4,250,000',
     subtitle:
       '아르카디 가죽 백은 현실에 대한 반응을 물리적인 형태로 해석하는 수단으로써의 패션이라는 개념을 표현합니다. 가벼운 패딩으로 가방의 볼륨감을 더하고 코스모폴리탄 스타일이 완성됩니다. 장식과 기능의 경계를 넘어 사용되는 메탈 하드웨어의 마감을 반영한 레터링 로고로 탑 핸들 백의 아이코닉한 아름다움이 표현됩니다.',
@@ -18763,7 +18772,7 @@ export const products = [
     category1: 'bags',
     category2: 'topHandles',
     name: '아르카디 가죽 백',
-    tags: '아르카디',
+    tags: 'arcadie',
     price: '₩ 4,250,000',
     subtitle:
       '아르카디 가죽 백은 현실에 대한 반응을 물리적인 형태로 해석하는 수단으로써의 패션이라는 개념을 표현합니다. 가벼운 패딩으로 가방의 볼륨감을 더하고 코스모폴리탄 스타일이 완성됩니다. 장식과 기능의 경계를 넘어 사용되는 메탈 하드웨어의 마감을 반영한 레터링 로고로 탑 핸들 백의 아이코닉한 아름다움이 표현됩니다.',
@@ -18826,7 +18835,7 @@ export const products = [
     category1: 'bags',
     category2: 'topHandles',
     name: '아르카디 가죽 백',
-    tags: '아르카디',
+    tags: 'arcadie',
     price: '₩ 4,250,000',
     subtitle:
       '아르카디 가죽 백은 현실에 대한 반응을 물리적인 형태로 해석하는 수단으로써의 패션이라는 개념을 표현합니다. 가벼운 패딩으로 가방의 볼륨감을 더하고 코스모폴리탄 스타일이 완성됩니다. 장식과 기능의 경계를 넘어 사용되는 메탈 하드웨어의 마감을 반영한 레터링 로고로 탑 핸들 백의 아이코닉한 아름다움이 표현됩니다.',
@@ -18910,7 +18919,7 @@ export const products = [
     category1: 'bags',
     category2: 'topHandles',
     name: '아르카디 가죽 백',
-    tags: '아르카디',
+    tags: 'arcadie',
     price: '₩ 4,800,000',
     subtitle:
       '아르카디 가죽 백은 현실에 대한 반응을 특정 쉐입으로 해석하는 수단으로서의 패션 개념을 표현합니다. 가벼운 패딩으로 백에 볼륨감을 더하고 코스모폴리탄 스타일을 완성합니다. 레터링 로고는 기능과 장식의 경계를 넘어 탑 핸들 백의 아이코닉한 아름다움을 표현합니다.',
@@ -18994,7 +19003,7 @@ export const products = [
     category1: 'bags',
     category2: 'topHandles',
     name: '아르카디 가죽 백',
-    tags: '아르카디',
+    tags: 'arcadie',
     price: '₩ 4,800,000',
     subtitle:
       '아르카디 가죽 백은 현실에 대한 반응을 특정 쉐입으로 해석하는 수단으로서의 패션 개념을 표현합니다. 가벼운 패딩으로 백에 볼륨감을 더하고 코스모폴리탄 스타일을 완성합니다. 레터링 로고는 기능과 장식의 경계를 넘어 탑 핸들 백의 아이코닉한 아름다움을 표현합니다.',
@@ -19071,7 +19080,7 @@ export const products = [
     category1: 'bags',
     category2: 'topHandles',
     name: '아르카디 가죽 백',
-    tags: '아르카디',
+    tags: 'arcadie',
     price: '₩ 4,800,000',
     subtitle:
       '아르카디 가죽 백은 현실에 대한 반응을 특정 쉐입으로 해석하는 수단으로서의 패션 개념을 표현합니다. 가벼운 패딩으로 백에 볼륨감을 더하고 코스모폴리탄 스타일을 완성합니다. 레터링 로고는 기능과 장식의 경계를 넘어 탑 핸들 백의 아이코닉한 아름다움을 표현합니다.',
@@ -19155,7 +19164,7 @@ export const products = [
     category1: 'bags',
     category2: 'topHandles',
     name: '아르카디 마테라쎄 나파 가죽 백',
-    tags: '아르카디',
+    tags: 'arcadie',
     price: '₩ 4,300,000',
     subtitle:
       '고급스러운 마테라쎄 장인정신과 탑 핸들 백의 클래식한 디자인이 만나 입체적이고 매우 세련된 효과를 연출합니다. 하드웨어의 다양한 메탈 마감을 반영한 전면 레터링 로고는 아이코닉하고 한눈에 알아볼 수 있는 감각으로 장인 솜씨로 완성된 모티프와 대비를 이뤄 더욱 돋보입니다. 역동적이고 우아한 라인과 길이 조절이 가능한 탈부착형 숄더 스트랩으로 활용도 높고 기능적이며 모던한 백이 완성됩니다.',
@@ -19233,7 +19242,7 @@ export const products = [
     category1: 'bags',
     category2: 'topHandles',
     name: '아르카디 마테라쎄 나파 가죽 백',
-    tags: '아르카디',
+    tags: 'arcadie',
     price: '₩ 4,300,000',
     subtitle:
       '고급스러운 마테라쎄 장인정신과 탑 핸들 백의 클래식한 디자인이 만나 입체적이고 매우 세련된 효과를 연출합니다. 하드웨어의 다양한 메탈 마감을 반영한 전면 레터링 로고는 아이코닉하고 한눈에 알아볼 수 있는 감각으로 장인 솜씨로 완성된 모티프와 대비를 이뤄 더욱 돋보입니다. 역동적이고 우아한 라인과 길이 조절이 가능한 탈부착형 숄더 스트랩으로 활용도 높고 기능적이며 모던한 백이 완성됩니다.',
@@ -19318,7 +19327,7 @@ export const products = [
     category1: 'bags',
     category2: 'topHandles',
     name: '아르카디 마테라쎄 나파 가죽 백',
-    tags: '아르카디',
+    tags: 'arcadie',
     price: '₩ 4,300,000',
     subtitle:
       '고급스러운 마테라쎄 장인정신과 탑 핸들 백의 클래식한 디자인이 만나 입체적이고 매우 세련된 효과를 연출합니다. 하드웨어의 다양한 메탈 마감을 반영한 전면 레터링 로고는 아이코닉하고 한눈에 알아볼 수 있는 감각으로 장인 솜씨로 완성된 모티프와 대비를 이뤄 더욱 돋보입니다. 역동적이고 우아한 라인과 길이 조절이 가능한 탈부착형 숄더 스트랩으로 활용도 높고 기능적이며 모던한 백이 완성됩니다.',
@@ -19382,7 +19391,7 @@ export const products = [
     category1: 'bags',
     category2: 'topHandles',
     name: '아르카디 마테라쎄 나파 가죽 백',
-    tags: '아르카디',
+    tags: 'arcadie',
     price: '₩ 4,300,000',
     subtitle:
       '고급스러운 마테라쎄 장인정신과 탑 핸들 백의 클래식한 디자인이 만나 입체적이고 매우 세련된 효과를 연출합니다. 하드웨어의 다양한 메탈 마감을 반영한 전면 레터링 로고는 아이코닉하고 한눈에 알아볼 수 있는 감각으로 장인 솜씨로 완성된 모티프와 대비를 이뤄 더욱 돋보입니다. 역동적이고 우아한 라인과 길이 조절이 가능한 탈부착형 숄더 스트랩으로 활용도 높고 기능적이며 모던한 백이 완성됩니다.',
@@ -19446,7 +19455,7 @@ export const products = [
     category1: 'bags',
     category2: 'topHandles',
     name: '아르카디 마테라쎄 나파 가죽 백',
-    tags: '아르카디',
+    tags: 'arcadie',
     price: '₩ 4,300,000',
     subtitle:
       '고급스러운 마테라쎄 장인정신과 탑 핸들 백의 클래식한 디자인이 만나 입체적이고 매우 세련된 효과를 연출합니다. 하드웨어의 다양한 메탈 마감을 반영한 전면 레터링 로고는 아이코닉하고 한눈에 알아볼 수 있는 감각으로 장인 솜씨로 완성된 모티프와 대비를 이뤄 더욱 돋보입니다. 역동적이고 우아한 라인과 길이 조절이 가능한 탈부착형 숄더 스트랩으로 활용도 높고 기능적이며 모던한 백이 완성됩니다.',
@@ -19510,7 +19519,7 @@ export const products = [
     category1: 'bags',
     category2: 'topHandles',
     name: '아르카디 마테라쎄 나파 가죽 백',
-    tags: '아르카디',
+    tags: 'arcadie',
     price: '₩ 4,300,000',
     subtitle:
       '고급스러운 마테라쎄 장인정신과 탑 핸들 백의 클래식한 디자인이 만나 입체적이고 매우 세련된 효과를 연출합니다. 하드웨어의 다양한 메탈 마감을 반영한 전면 레터링 로고는 아이코닉하고 한눈에 알아볼 수 있는 감각으로 장인 솜씨로 완성된 모티프와 대비를 이뤄 더욱 돋보입니다. 역동적이고 우아한 라인과 길이 조절이 가능한 탈부착형 숄더 스트랩으로 활용도 높고 기능적이며 모던한 백이 완성됩니다.',
@@ -19588,7 +19597,7 @@ export const products = [
     category1: 'bags',
     category2: 'topHandles',
     name: '아르카디 마테라쎄 나파 가죽 백',
-    tags: '아르카디',
+    tags: 'arcadie',
     price: '₩ 4,550,000',
     subtitle:
       '빈티지 가공 처리된 나파 가죽의 텍스처가 정교한 마테라쎄 디테일을 새롭게 해석하며, 미우미우의 실험적 감성과 빈티지-컨템포러리 믹스를 상징하는 탑 핸들 디자인에 새로운 개성을 부여합니다.',
@@ -19651,7 +19660,7 @@ export const products = [
     category1: 'bags',
     category2: 'topHandles',
     name: '아르카디 마테라쎄 나파 가죽 백',
-    tags: '아르카디',
+    tags: 'arcadie',
     price: '₩ 4,300,000',
     subtitle:
       '고급스러운 마테라쎄 장인정신과 탑 핸들 백의 클래식한 디자인이 만나 입체적이고 매우 세련된 효과를 연출합니다. 하드웨어의 다양한 메탈 마감을 반영한 전면 레터링 로고는 아이코닉하고 한눈에 알아볼 수 있는 감각으로 장인 솜씨로 완성된 모티프와 대비를 이뤄 더욱 돋보입니다. 역동적이고 우아한 라인과 길이 조절이 가능한 탈부착형 숄더 스트랩으로 활용도 높고 기능적이며 모던한 백이 완성됩니다.',
@@ -19736,7 +19745,7 @@ export const products = [
     category1: 'bags',
     category2: 'topHandles',
     name: '아르카디 마테라쎄 나파 가죽 백',
-    tags: '아르카디',
+    tags: 'arcadie',
     price: '₩ 4,300,000',
     subtitle:
       '고급스러운 마테라쎄 장인정신과 탑 핸들 백의 클래식한 디자인이 만나 입체적이고 매우 세련된 효과를 연출합니다. 하드웨어의 다양한 메탈 마감을 반영한 전면 레터링 로고는 아이코닉하고 한눈에 알아볼 수 있는 감각으로 장인 솜씨로 완성된 모티프와 대비를 이뤄 더욱 돋보입니다. 역동적이고 우아한 라인과 길이 조절이 가능한 탈부착형 숄더 스트랩으로 활용도 높고 기능적이며 모던한 백이 완성됩니다.',
@@ -19814,7 +19823,7 @@ export const products = [
     category1: 'bags',
     category2: 'topHandles',
     name: '아르카디 마테라쎄 나파 가죽 백',
-    tags: '아르카디',
+    tags: 'arcadie',
     price: '₩ 4,300,000',
     subtitle:
       '고급스러운 마테라쎄 장인정신과 탑 핸들 백의 클래식한 디자인이 만나 입체적이고 매우 세련된 효과를 연출합니다. 하드웨어의 다양한 메탈 마감을 반영한 전면 레터링 로고는 아이코닉하고 한눈에 알아볼 수 있는 감각으로 장인 솜씨로 완성된 모티프와 대비를 이뤄 더욱 돋보입니다. 역동적이고 우아한 라인과 길이 조절이 가능한 탈부착형 숄더 스트랩으로 활용도 높고 기능적이며 모던한 백이 완성됩니다.',
@@ -19892,7 +19901,7 @@ export const products = [
     category1: 'bags',
     category2: 'topHandles',
     name: '아르카디 마테라쎄 스웨이드 백',
-    tags: '아르카디',
+    tags: 'arcadie',
     price: '₩ 4,650,000',
     subtitle:
       '스웨이드 소재의 부드러운 촉감과 과감한 컬러로 포인트를 주어 활용도 높고 세련된 아이코닉 룩이 돋보이는 탑 핸들 디자인의 아르카디 백입니다.',
@@ -19956,7 +19965,7 @@ export const products = [
     category1: 'bags',
     category2: 'topHandles',
     name: '아르카디 마테라쎄 스웨이드 백',
-    tags: '아르카디',
+    tags: 'arcadie',
     price: '₩ 4,650,000',
     subtitle:
       '스웨이드 소재의 부드러운 촉감과 과감한 컬러로 포인트를 주어 활용도 높고 세련된 아이코닉 룩이 돋보이는 탑 핸들 디자인의 아르카디 백입니다.',
@@ -20020,7 +20029,7 @@ export const products = [
     category1: 'bags',
     category2: 'topHandles',
     name: '아르카디 패딩 스웨이드 탑 핸들 백',
-    tags: '아르카디',
+    tags: 'arcadie',
     price: '₩ 4,350,000',
     subtitle:
       '아르카디 스웨이드 백은 현실에 대한 반응을 특정 쉐입으로 해석하는 수단으로서의 패션 개념을 표현합니다. 가벼운 패딩으로 백에 볼륨감을 더하고 코스모폴리탄 스타일을 완성합니다. 하드웨어와 같은 컬러의 레터링 로고는 기능과 장식의 경계를 넘어 탑 핸들 백의 아이코닉한 아름다움과 개성을 표현합니다.',
@@ -20096,7 +20105,7 @@ export const products = [
     category1: 'bags',
     category2: 'topHandles',
     name: '아르카디 패딩 스웨이드 탑 핸들 백',
-    tags: '아르카디',
+    tags: 'arcadie',
     price: '₩ 4,350,000',
     subtitle:
       '아르카디 스웨이드 백은 현실에 대한 반응을 특정 쉐입으로 해석하는 수단으로서의 패션 개념을 표현합니다. 가벼운 패딩으로 백에 볼륨감을 더하고 코스모폴리탄 스타일을 완성합니다. 하드웨어와 같은 컬러의 레터링 로고는 기능과 장식의 경계를 넘어 탑 핸들 백의 아이코닉한 아름다움과 개성을 표현합니다.',
@@ -20401,7 +20410,7 @@ export const products = [
     category1: 'bags',
     category2: 'mini',
     name: '완더 마테라쎄 나파 가죽 호보 미니 백',
-    tags: '완더',
+    tags: 'wander',
     price: '₩ 3,000,000',
     subtitle:
       '완더 마테라쎄 나파 가죽 백의 미니 버전은 정교한 장인 제작 기법으로 만들어내는 입체적인 효과가 특징입니다. 레트로의 영감과 현대적인 우아함이 어우러진 호보 모양은 모던한 여성성의 새로운 동의어가 되었습니다.',
@@ -20476,7 +20485,7 @@ export const products = [
     category1: 'bags',
     category2: 'mini',
     name: '완더 마테라쎄 나파 가죽 호보 미니 백',
-    tags: '완더',
+    tags: 'wander',
     price: '₩ 3,000,000',
     subtitle:
       '완더 마테라쎄 나파 가죽 백의 미니 버전은 정교한 장인 제작 기법으로 만들어내는 입체적인 효과가 특징입니다. 레트로의 영감과 현대적인 우아함이 어우러진 호보 모양은 모던한 여성성의 새로운 동의어가 되었습니다.',
@@ -20551,7 +20560,7 @@ export const products = [
     category1: 'bags',
     category2: 'mini',
     name: '완더 마테라쎄 나파 가죽 호보 미니 백',
-    tags: '완더',
+    tags: 'wander',
     price: '₩ 3,000,000',
     subtitle:
       '완더 마테라쎄 나파 가죽 백의 미니 버전은 정교한 장인 제작 기법으로 만들어내는 입체적인 효과가 특징입니다. 레트로의 영감과 현대적인 우아함이 어우러진 호보 모양은 모던한 여성성의 새로운 동의어가 되었습니다.',
@@ -20612,7 +20621,7 @@ export const products = [
     category1: 'bags',
     category2: 'mini',
     name: '완더 마테라쎄 나파 가죽 호보 미니 백',
-    tags: '완더',
+    tags: 'wander',
     price: '₩ 3,000,000',
     subtitle:
       '완더 마테라쎄 나파 가죽 백의 미니 버전은 정교한 장인 제작 기법으로 만들어내는 입체적인 효과가 특징입니다. 레트로의 영감과 현대적인 우아함이 어우러진 호보 모양은 모던한 여성성의 새로운 동의어가 되었습니다.',
@@ -20687,7 +20696,7 @@ export const products = [
     category1: 'bags',
     category2: 'mini',
     name: '완더 마테라쎄 나파 가죽 호보 미니 백',
-    tags: '완더',
+    tags: 'wander',
     price: '₩ 3,000,000',
     subtitle:
       '완더 마테라쎄 나파 가죽 백의 미니 버전은 정교한 장인 제작 기법으로 만들어내는 입체적인 효과가 특징입니다. 레트로의 영감과 현대적인 우아함이 어우러진 호보 모양은 모던한 여성성의 새로운 동의어가 되었습니다.',
@@ -22119,7 +22128,7 @@ export const products = [
     category1: 'bags',
     category2: 'hobo',
     name: '나파 가죽 포켓 백',
-    tags: '나파',
+    tags: 'pocket',
     price: '₩ 4,450,000',
     subtitle:
       '현대적이고 매혹적인 코스모폴리탄 디자인이 돋보이는 나파 가죽 포켓 백입니다. 여러 개의 포켓으로 기능성과 장식성을 제공하고, 레터링 로고로 장식하여 아이코닉하고 독특한 분위기를 더했습니다. 골드 톤 하드웨어가 반짝이는 터치로 디자인을 완성합니다.',
@@ -22201,7 +22210,7 @@ export const products = [
     category1: 'bags',
     category2: 'hobo',
     name: '나파 가죽 포켓 백',
-    tags: '나파',
+    tags: 'pocket',
     price: '₩ 4,450,000',
     subtitle:
       '현대적이고 매혹적인 코스모폴리탄 디자인이 돋보이는 나파 가죽 포켓 백입니다. 여러 개의 포켓으로 기능성과 장식성을 제공하고, 레터링 로고로 장식하여 아이코닉하고 독특한 분위기를 더했습니다. 골드 톤 하드웨어가 반짝이는 터치로 디자인을 완성합니다.',
@@ -22276,7 +22285,7 @@ export const products = [
     category1: 'bags',
     category2: 'hobo',
     name: '나파 가죽 포켓 백',
-    tags: '나파',
+    tags: 'pocket',
     price: '₩ 4,800,000',
     subtitle:
       '포켓 백의 멀티 포켓 디자인은 미우미우만의 정제된 실용성을 상징합니다. 부드러운 나파 가죽과 새롭게 조정된 실루엣이 조화를 이루며 유니크한 디테일로 존재감을 드러냅니다.',
@@ -22352,7 +22361,7 @@ export const products = [
     category1: 'bags',
     category2: 'hobo',
     name: '나파 가죽 포켓 백',
-    tags: '나파',
+    tags: 'pocket',
     price: '₩ 4,800,000',
     subtitle:
       '여러 개의 포켓으로 구성된 포켓 백은 현대적인 디자인과 뛰어난 실용성을 결합하며, 빈티지 가공 처리된 나파 가죽과 레터링 로고 디테일이 독특한 아이코닉 스타일을 완성합니다.',
@@ -22421,7 +22430,7 @@ export const products = [
     category1: 'bags',
     category2: 'hobo',
     name: '나파 가죽 포켓 백',
-    tags: '나파',
+    tags: 'pocket',
     price: '₩ 5,600,000',
     subtitle:
       '멀티 포켓 디자인이 돋보이는 포켓 백은 미우미우 스타일의 정제된 실용성을 표현합니다. 부드러운 가죽과 재구성된 실루엣, 유니크한 디테일이 어우러져 독창적인 매력을 완성합니다.',
@@ -22497,6 +22506,7 @@ export const products = [
     category1: 'bags',
     category2: 'hobo',
     name: '가죽 포켓 백',
+    tags: 'pocket',
     price: '₩ 5,300,000',
     subtitle:
       '포켓 백 특유의 멀티 포켓 디자인이 정교한 실용미를 선사하며, 푹신한 가죽 디테일과 새로운 볼륨감으로 모던한 감각을 더합니다.',
@@ -22558,7 +22568,7 @@ export const products = [
     category1: 'bags',
     category2: 'hobo',
     name: '나파 가죽 포켓 백',
-    tags: '나파',
+    tags: 'pocket',
     price: '₩ 5,600,000',
     subtitle:
       '독창적인 멀티 포켓 구조가 특징인 포켓 백은 미우미우 스타일 특유의 정제된 실용성을 담아내며, 부드러운 나파 가죽 버전에 새로운 볼륨감과 디테일을 더해 차별화된 매력을 선사합니다.',
@@ -22640,7 +22650,7 @@ export const products = [
     category1: 'bags',
     category2: 'shoulder',
     name: '나파 가죽 탑 핸들 백',
-    tags: '나파',
+    tags: 'pocket',
     price: '₩ 5,800,000',
     subtitle:
       '포켓 백의 아이코닉한 실루엣을 확대하여 재해석한 탑 핸들 스타일은 빈티지 가공 처리된 나파 가죽과 다중 포켓 디자인이 어우러져 실용성과 독창성이 돋보입니다.',
@@ -22722,7 +22732,7 @@ export const products = [
     category1: 'bags',
     category2: 'shoulder',
     name: '나파 가죽 포켓 탑핸들 백',
-    tags: '나파',
+    tags: 'pocket',
     price: '₩ 5,450,000',
     subtitle:
       '미우미우의 시그니처 포켓 백을 탑 핸들 형태로 재해석한 디자인입니다. 넓어진 실루엣과 정교한 마감, 다양한 포켓 구성이 어우러져 유니크하면서도 실용적인 매력을 전달합니다.',
@@ -22784,7 +22794,7 @@ export const products = [
     category1: 'bags',
     category2: 'shoulder',
     name: '나파 가죽 포켓 탑핸들 백',
-    tags: '나파',
+    tags: 'pocket',
     price: '₩ 5,800,000',
     subtitle:
       '탑 핸들 실루엣으로 재해석된 포켓 백은 넉넉한 비율과 정교한 가죽 마감이 특징입니다. 실용성과 감각적인 멀티 포켓 디테일이 어우러진, 다재다능한 스타일을 완성합니다.',
@@ -22846,6 +22856,7 @@ export const products = [
     category1: 'bags',
     category2: 'shoulder',
     name: '가죽 보 백',
+    tags: 'beau',
     price: '₩ 4,850,000',
     subtitle:
       '레트로 영감과 현대적인 감각이 조화를 이룬 보 백입니다. 독특한 탑 핸들 디자인과 트릭 디테일로 기능성과 개성이 더욱 돋보입니다.',
@@ -22920,6 +22931,7 @@ export const products = [
     category1: 'bags',
     category2: 'shoulder',
     name: '가죽 보 백',
+    tags: 'beau',
     price: '₩ 4,850,000',
     subtitle:
       '레트로 영감과 현대적인 감각이 조화를 이룬 보 백입니다. 독특한 탑 핸들 디자인과 트릭 디테일로 기능성과 개성이 더욱 돋보입니다.',
@@ -22994,6 +23006,7 @@ export const products = [
     category1: 'bags',
     category2: 'shoulder',
     name: '가죽 보 백',
+    tags: 'beau',
     price: '₩ 4,850,000',
     subtitle:
       '레트로 영감과 현대적인 감각이 조화를 이룬 보 백입니다. 독특한 탑 핸들 디자인과 트릭 디테일로 기능성과 개성이 더욱 돋보입니다.',
@@ -23075,6 +23088,7 @@ export const products = [
     category1: 'bags',
     category2: 'shoulder',
     name: '가죽 보 백',
+    tags: 'beau',
     price: '₩ 4,850,000',
     subtitle:
       '레트로 영감과 현대적인 감각이 조화를 이룬 보 백입니다. 독특한 탑 핸들 디자인과 트릭 디테일로 기능성과 개성이 더욱 돋보입니다.',
@@ -23224,7 +23238,7 @@ export const products = [
     category1: 'bags',
     category2: 'hobo',
     name: '완더 마테라쎄 스웨이드 백',
-    tags: '완더',
+    tags: 'wander',
     price: '₩ 4,100,000',
     subtitle:
       '완더 백의 호보 쉐입을 스웨이드 버전으로 재해석하여 아이코닉한 스타일의 빈티지한 본질에 부드럽고 세련된 감성을 더했습니다.',
@@ -23284,7 +23298,7 @@ export const products = [
     category1: 'bags',
     category2: 'hobo',
     name: '완더 마테라쎄 스웨이드 백',
-    tags: '완더',
+    tags: 'wander',
     price: '₩ 4,100,000',
     subtitle:
       '완더 백의 호보 쉐입을 스웨이드 버전으로 재해석하여 아이코닉한 스타일의 빈티지한 본질에 부드럽고 세련된 감성을 더했습니다.',
@@ -23344,7 +23358,7 @@ export const products = [
     category1: 'bags',
     category2: 'hobo',
     name: '완더 마테라쎄 스웨이드 백',
-    tags: '완더',
+    tags: 'wander',
     price: '₩ 4,100,000',
     subtitle:
       '완더 백의 호보 쉐입을 스웨이드 버전으로 재해석하여 아이코닉한 스타일의 빈티지한 본질에 부드럽고 세련된 감성을 더했습니다.',
@@ -23404,7 +23418,7 @@ export const products = [
     category1: 'bags',
     category2: 'hobo',
     name: '완더 마테라쎄 스웨이드 백',
-    tags: '완더',
+    tags: 'wander',
     price: '₩ 4,100,000',
     subtitle:
       '완더 백의 호보 쉐입을 스웨이드 버전으로 재해석하여 아이코닉한 스타일의 빈티지한 본질에 부드럽고 세련된 감성을 더했습니다.',
@@ -23485,7 +23499,7 @@ export const products = [
     category1: 'bags',
     category2: 'hobo',
     name: '완더 시어링 백',
-    tags: '완더',
+    tags: 'wander',
     price: '₩ 4,150,000',
     subtitle:
       '아이코닉한 완더백 실루엣이 계절적 영감을 받아, 부드러운 스웨이드와 시어링의 세련되고 모던한 대비를 통해 재해석되었습니다. 캐주얼한 스타일은 물론 우아한 룩에도 완벽하게 어울립니다.',
@@ -23558,7 +23572,7 @@ export const products = [
     category1: 'bags',
     category2: 'hobo',
     name: '완더 시어링 백',
-    tags: '완더',
+    tags: 'wander',
     price: '₩ 4,150,000',
     subtitle:
       '아이코닉한 완더백 실루엣이 계절적 영감을 받아, 가볍고 부드러운 컬리 시어링으로 재해석되었습니다. 장난스러우면서도 세련된 감각을 담아, 캐주얼한 스타일과 우아한 룩 모두에 이상적인 아이템입니다.',
@@ -23618,7 +23632,7 @@ export const products = [
     category1: 'bags',
     category2: 'hobo',
     name: '완더 시어링 호보 백',
-    tags: '완더',
+    tags: 'wander',
     price: '₩ 4,150,000',
     subtitle:
       '시즌마다 새롭게 재해석되는 완더 백은 미우미우 컬렉션의 주인공입니다. 시어링 소재의 백으로 매우 부드러운 외양, 메탈 하드웨어와 동일하게 마감한 레터링 로고가 특징입니다. 레트로 영감과 현대적인 우아함을 조합한 호보 쉐입은 모던한 여성스러움의 새로운 동의어가 되었습니다.',
@@ -23699,7 +23713,7 @@ export const products = [
     category1: 'bags',
     category2: 'hobo',
     name: '완더 시어링 호보 백',
-    tags: '완더',
+    tags: 'wander',
     price: '₩ 4,150,000',
     subtitle:
       '시즌마다 새롭게 재해석되는 완더 백은 미우미우 컬렉션의 주인공입니다. 시어링 소재의 백으로 매우 부드러운 외양, 메탈 하드웨어와 동일하게 마감한 레터링 로고가 특징입니다. 레트로 영감과 현대적인 우아함을 조합한 호보 쉐입은 모던한 여성스러움의 새로운 동의어가 되었습니다.',
@@ -23780,7 +23794,7 @@ export const products = [
     category1: 'bags',
     category2: 'hobo',
     name: '완더 마테라쎄 나파 가죽 호보 백',
-    tags: '완더',
+    tags: 'wander',
     price: '₩ 3,900,000',
     subtitle:
       '완더 백은 시즌마다 재해석되어 미우미우 컬렉션의 아이코닉한 액세서리가 되었습니다. 정교한 장인정신으로 완성된 세련되고 입체적인 효과가 특징인 마테라쎄 나파 가죽 소재 백입니다. 레트로 감성과 현대적인 우아함을 조합한 호보 스타일은 모던한 여성스러움의 대명사가 되었습니다.',
@@ -23857,7 +23871,7 @@ export const products = [
     category1: 'bags',
     category2: 'hobo',
     name: '완더 마테라쎄 나파 가죽 호보 백',
-    tags: '완더',
+    tags: 'wander',
     price: '₩ 3,900,000',
     subtitle:
       '완더 백은 시즌마다 재해석되어 미우미우 컬렉션의 아이코닉한 액세서리가 되었습니다. 정교한 장인정신으로 완성된 세련되고 입체적인 효과가 특징인 마테라쎄 나파 가죽 소재 백입니다. 레트로 감성과 현대적인 우아함을 조합한 호보 스타일은 모던한 여성스러움의 대명사가 되었습니다.',
@@ -23934,7 +23948,7 @@ export const products = [
     category1: 'bags',
     category2: 'hobo',
     name: '완더 마테라쎄 나파 가죽 백',
-    tags: '완더',
+    tags: 'wander',
     price: '₩ 4,150,000',
     subtitle:
       '빈티지 텍스처의 마테라쎄 나파 가죽으로 새롭게 해석된 완더 백은 미우미우 특유의 세련된 장인정신과 아이코닉한 다재다능함을 기념하는 독특한 디테일이 돋보입니다.',
@@ -24009,7 +24023,7 @@ export const products = [
     category1: 'bags',
     category2: 'hobo',
     name: '완더 마테라쎄 나파 가죽 호보 백',
-    tags: '완더',
+    tags: 'wander',
     price: '₩ 3,900,000',
     subtitle:
       '완더 백은 시즌마다 재해석되어 미우미우 컬렉션의 아이코닉한 액세서리가 되었습니다. 정교한 장인정신으로 완성된 세련되고 입체적인 효과가 특징인 마테라쎄 나파 가죽 소재 백입니다. 레트로 감성과 현대적인 우아함을 조합한 호보 스타일은 모던한 여성스러움의 대명사가 되었습니다.',
@@ -24086,7 +24100,7 @@ export const products = [
     category1: 'bags',
     category2: 'hobo',
     name: '완더 마테라쎄 나파 가죽 호보 백',
-    tags: '완더',
+    tags: 'wander',
     price: '₩ 3,900,000',
     subtitle:
       '완더 백은 시즌마다 재해석되어 미우미우 컬렉션의 아이코닉한 액세서리가 되었습니다. 정교한 장인정신으로 완성된 세련되고 입체적인 효과가 특징인 마테라쎄 나파 가죽 소재 백입니다. 레트로 감성과 현대적인 우아함을 조합한 호보 스타일은 모던한 여성스러움의 대명사가 되었습니다.',
@@ -24163,7 +24177,7 @@ export const products = [
     category1: 'bags',
     category2: 'hobo',
     name: '완더 마테라쎄 나파 가죽 호보 백',
-    tags: '완더',
+    tags: 'wander',
     price: '₩ 3,900,000',
     subtitle:
       '완더 백은 시즌마다 재해석되어 미우미우 컬렉션의 아이코닉한 액세서리가 되었습니다. 정교한 장인정신으로 완성된 세련되고 입체적인 효과가 특징인 마테라쎄 나파 가죽 소재 백입니다. 레트로 감성과 현대적인 우아함을 조합한 호보 스타일은 모던한 여성스러움의 대명사가 되었습니다.',
@@ -24247,7 +24261,7 @@ export const products = [
     category1: 'bags',
     category2: 'hobo',
     name: '완더 마테라쎄 나파 가죽 호보 백',
-    tags: '완더',
+    tags: 'wander',
     price: '₩ 3,900,000',
     subtitle:
       '완더 백은 시즌마다 재해석되어 미우미우 컬렉션의 아이코닉한 액세서리가 되었습니다. 정교한 장인정신으로 완성된 세련되고 입체적인 효과가 특징인 마테라쎄 나파 가죽 소재 백입니다. 레트로 감성과 현대적인 우아함을 조합한 호보 스타일은 모던한 여성스러움의 대명사가 되었습니다.',
@@ -24324,7 +24338,7 @@ export const products = [
     category1: 'bags',
     category2: 'hobo',
     name: '완더 마테라쎄 나파 가죽 호보 백',
-    tags: '완더',
+    tags: 'wander',
     price: '₩ 3,900,000',
     subtitle:
       '완더 백은 시즌마다 재해석되어 미우미우 컬렉션의 아이코닉한 액세서리가 되었습니다. 정교한 장인정신으로 완성된 세련되고 입체적인 효과가 특징인 마테라쎄 나파 가죽 소재 백입니다. 레트로 감성과 현대적인 우아함을 조합한 호보 스타일은 모던한 여성스러움의 대명사가 되었습니다.',
@@ -24408,7 +24422,7 @@ export const products = [
     category1: 'bags',
     category2: 'hobo',
     name: '완더 마테라쎄 나파 가죽 호보 백',
-    tags: '완더',
+    tags: 'wander',
     price: '₩ 3,900,000',
     subtitle:
       '완더 백은 시즌마다 재해석되어 미우미우 컬렉션의 아이코닉한 액세서리가 되었습니다. 정교한 장인정신으로 완성된 세련되고 입체적인 효과가 특징인 마테라쎄 나파 가죽 소재 백입니다. 레트로 감성과 현대적인 우아함을 조합한 호보 스타일은 모던한 여성스러움의 대명사가 되었습니다.',
@@ -24471,7 +24485,7 @@ export const products = [
     category1: 'bags',
     category2: 'hobo',
     name: '완더 마테라쎄 나파 가죽 호보 백',
-    tags: '완더',
+    tags: 'wander',
     price: '₩ 3,900,000',
     subtitle:
       '완더 백은 시즌마다 재해석되어 미우미우 컬렉션의 아이코닉한 액세서리가 되었습니다. 정교한 장인정신으로 완성된 세련되고 입체적인 효과가 특징인 마테라쎄 나파 가죽 소재 백입니다. 레트로 감성과 현대적인 우아함을 조합한 호보 스타일은 모던한 여성스러움의 대명사가 되었습니다.',
@@ -24534,7 +24548,7 @@ export const products = [
     category1: 'bags',
     category2: 'hobo',
     name: '완더 마테라쎄 나파 가죽 호보 백',
-    tags: '완더',
+    tags: 'wander',
     price: '₩ 3,900,000',
     subtitle:
       '완더 백은 시즌마다 재해석되어 미우미우 컬렉션의 아이코닉한 액세서리가 되었습니다. 정교한 장인정신으로 완성된 세련되고 입체적인 효과가 특징인 마테라쎄 나파 가죽 소재 백입니다. 레트로 감성과 현대적인 우아함을 조합한 호보 스타일은 모던한 여성스러움의 대명사가 되었습니다.',
@@ -24618,7 +24632,7 @@ export const products = [
     category1: 'bags',
     category2: 'hobo',
     name: '완더 마테라쎄 나파 가죽 호보 백',
-    tags: '완더',
+    tags: 'wander',
     price: '₩ 3,900,000',
     subtitle:
       '완더 백은 시즌마다 재해석되어 미우미우 컬렉션의 아이코닉한 액세서리가 되었습니다. 정교한 장인정신으로 완성된 세련되고 입체적인 효과가 특징인 마테라쎄 나파 가죽 소재 백입니다. 레트로 감성과 현대적인 우아함을 조합한 호보 스타일은 모던한 여성스러움의 대명사가 되었습니다.',
@@ -24681,7 +24695,7 @@ export const products = [
     category1: 'bags',
     category2: 'hobo',
     name: '완더 마테라쎄 나파 가죽 호보 백',
-    tags: '완더',
+    tags: 'wander',
     price: '₩ 3,900,000',
     subtitle:
       '완더 백은 시즌마다 재해석되어 미우미우 컬렉션의 아이코닉한 액세서리가 되었습니다. 정교한 장인정신으로 완성된 세련되고 입체적인 효과가 특징인 마테라쎄 나파 가죽 소재 백입니다. 레트로 감성과 현대적인 우아함을 조합한 호보 스타일은 모던한 여성스러움의 대명사가 되었습니다.',
@@ -24744,7 +24758,7 @@ export const products = [
     category1: 'bags',
     category2: 'hobo',
     name: '완더 마테라쎄 나파 가죽 호보 백',
-    tags: '완더',
+    tags: 'wander',
     price: '₩ 4,300,000',
     subtitle:
       '마테라쎄 나파 가죽으로 제작한 컴팩트한 라인의 새로운 완더 백으로, 고급스러운 마테라쎄 모티프로 정교하고 질감이 느껴지는 입체적인 효과를 연출했습니다. 골드 톤 하드웨어와 같은 마감을 사용한 매혹적인 메탈 로고는 누구나 한눈에 알아볼 수 있는 상징적이고 반짝이는 터치로 정교한 제작 기법과 대비를 이룹니다. 매끈한 라인과 탈부착형 숄더 스트랩이 우아하면서 역동적인 실루엣을 강조합니다.',
@@ -24826,7 +24840,7 @@ export const products = [
     category1: 'bags',
     category2: 'hobo',
     name: '완더 마테라쎄 나파 가죽 호보 백',
-    tags: '완더',
+    tags: 'wander',
     price: '₩ 4,300,000',
     subtitle:
       '마테라쎄 나파 가죽으로 제작한 컴팩트한 라인의 새로운 완더 백으로, 고급스러운 마테라쎄 모티프로 정교하고 질감이 느껴지는 입체적인 효과를 연출했습니다. 골드 톤 하드웨어와 같은 마감을 사용한 매혹적인 메탈 로고는 누구나 한눈에 알아볼 수 있는 상징적이고 반짝이는 터치로 정교한 제작 기법과 대비를 이룹니다. 매끈한 라인과 탈부착형 숄더 스트랩이 우아하면서 역동적인 실루엣을 강조합니다.',
@@ -24887,7 +24901,7 @@ export const products = [
     category1: 'bags',
     category2: 'hobo',
     name: '완더 마테라쎄 나파 가죽 호보 백',
-    tags: '완더',
+    tags: 'wander',
     price: '₩ 4,300,000',
     subtitle:
       '마테라쎄 나파 가죽으로 제작한 컴팩트한 라인의 새로운 완더 백으로, 고급스러운 마테라쎄 모티프로 정교하고 질감이 느껴지는 입체적인 효과를 연출했습니다. 골드 톤 하드웨어와 같은 마감을 사용한 매혹적인 메탈 로고는 누구나 한눈에 알아볼 수 있는 상징적이고 반짝이는 터치로 정교한 제작 기법과 대비를 이룹니다. 매끈한 라인과 탈부착형 숄더 스트랩이 우아하면서 역동적인 실루엣을 강조합니다.',
@@ -26643,7 +26657,7 @@ export const products = [
     category1: 'bags',
     category2: 'totes',
     name: '아이비 가죽 백',
-    tags: '아이비',
+    tags: 'ivy',
     price: '₩ 3,100,000',
     subtitle:
       '아이비 백은 클래식 토트를 실용적이면서도 다재다능한 우아함으로 재해석합니다. 은은한 광택의 가죽이 세련된 마감 디테일과 아이코닉한 톤온톤 레터링 로고와 어우러져 미우미우 특유의 감각을 드러냅니다.',
@@ -26723,7 +26737,7 @@ export const products = [
     category1: 'bags',
     category2: 'totes',
     name: '아이비 가죽 백',
-    tags: '아이비',
+    tags: 'ivy',
     price: '₩ 3,100,000',
     subtitle:
       '아이비 백은 클래식 토트를 실용적이면서도 다재다능한 우아함으로 재해석합니다. 은은한 광택의 가죽이 세련된 마감 디테일과 아이코닉한 톤온톤 레터링 로고와 어우러져 미우미우 특유의 감각을 드러냅니다.',
@@ -26803,7 +26817,7 @@ export const products = [
     category1: 'bags',
     category2: 'totes',
     name: '아이비 가죽 백',
-    tags: '아이비',
+    tags: 'ivy',
     price: '₩ 3,750,000',
     subtitle:
       '아이비 백은 토트를 더욱 컴팩트하고 실용적인 버전으로 재해석한 디자인으로, 일상적인 룩에 완벽하게 어울립니다. 부드러운 송아지 가죽의 은은한 광택과 절제된 톤온톤 디테일이 세련된 감각을 더합니다.',
@@ -26876,7 +26890,7 @@ export const products = [
     category1: 'bags',
     category2: 'totes',
     name: '아이비 스웨이드 백',
-    tags: '아이비',
+    tags: 'ivy',
     price: '₩ 3,100,000',
     subtitle:
       '스웨이드의 부드러운 촉감이 컬러에 깊이감을 더해 유행을 타지 않는 스타일의 아이비 백이 더욱 돋보입니다. 아이코닉한 토널 가죽 레터링 로고로 디자인이 완성됩니다.',
@@ -26935,7 +26949,7 @@ export const products = [
     category1: 'bags',
     category2: 'totes',
     name: '아이비 스웨이드 백',
-    tags: '아이비',
+    tags: 'ivy',
     price: '₩ 3,100,000',
     subtitle:
       '스웨이드의 부드러운 촉감이 컬러에 깊이감을 더해 유행을 타지 않는 스타일의 아이비 백이 더욱 돋보입니다. 아이코닉한 토널 가죽 레터링 로고로 디자인이 완성됩니다.',
@@ -26994,7 +27008,7 @@ export const products = [
     category1: 'bags',
     category2: 'totes',
     name: '아이비 코듀로이 백',
-    tags: '아이비',
+    tags: 'ivy',
     price: '₩ 2,600,000',
     subtitle:
       '아이비 백은 다재다능하고 미니멀한 디자인에 우아한 코듀로이와 고급 레더 디테일을 더해, 장인적인 매력과 현대적인 아이코닉함이 균형을 이루는 스타일을 완성합니다.',
@@ -27053,7 +27067,7 @@ export const products = [
     category1: 'bags',
     category2: 'totes',
     name: '아이비 코듀로이 백',
-    tags: '아이비',
+    tags: 'ivy',
     price: '₩ 2,600,000',
     subtitle:
       '아이비 백은 다재다능하고 미니멀한 디자인에 우아한 코듀로이와 고급 레더 디테일을 더해, 장인적인 매력과 현대적인 아이코닉함이 균형을 이루는 스타일을 완성합니다.',
@@ -27112,7 +27126,7 @@ export const products = [
     category1: 'bags',
     category2: 'totes',
     name: '아이비 코듀로이 쇼핑 백',
-    tags: '아이비',
+    tags: 'ivy',
     price: '₩ 3,450,000',
     subtitle:
       '코듀로이의 독특한 텍스처가 유행을 타지 않는 디자인의 아이비 백에 레트로한 매력을 더합니다. 아이코닉한 토널 레터링 로고가 스타일을 완성합니다.',
@@ -27171,7 +27185,7 @@ export const products = [
     category1: 'bags',
     category2: 'totes',
     name: '아이비 코듀로이 쇼핑 백',
-    tags: '아이비',
+    tags: 'ivy',
     price: '₩ 3,450,000',
     subtitle:
       '코듀로이의 독특한 텍스처가 유행을 타지 않는 디자인의 아이비 백에 레트로한 매력을 더합니다. 아이코닉한 토널 레터링 로고가 스타일을 완성합니다.',
@@ -27230,7 +27244,7 @@ export const products = [
     category1: 'bags',
     category2: 'totes',
     name: '아이비 플래드 및 시어링 백',
-    tags: '아이비',
+    tags: 'ivy',
     price: '₩ 3,450,000',
     subtitle:
       '기능적인 매력을 지닌 아이비 백은 브리티시 체크 울과 부드러운 시어링의 조화를 통해 전통과 현대의 감각을 균형 있게 담아내며, 우아한 실루엣을 한층 돋보이게 합니다.',
@@ -27290,7 +27304,7 @@ export const products = [
     category1: 'bags',
     category2: 'totes',
     name: '아이비 가죽 백',
-    tags: '아이비',
+    tags: 'ivy',
     price: '₩ 3,350,000',
     subtitle:
       '아이비 백의 미니멀하고 다재다능한 디자인은 정교한 빈티지 가공 나파 가죽과 만나 장인의 감성을 재해석하며, 대담한 스타일링에 컨템포러리한 페미닌 무드를 더합니다.',
@@ -27349,7 +27363,7 @@ export const products = [
     category1: 'bags',
     category2: 'totes',
     name: '아이비 가죽 백',
-    tags: '아이비',
+    tags: 'ivy',
     price: '₩ 2,950,000',
     subtitle:
       '메탈 디테일과 한눈에 알아볼 수 있는 아이코닉 미우미우 레터링 로고로 클래식한 스타일이 돋보이는 아이비 가죽 백입니다.',
@@ -27429,7 +27443,7 @@ export const products = [
     category1: 'bags',
     category2: 'totes',
     name: '아이비 가죽 백',
-    tags: '아이비',
+    tags: 'ivy',
     price: '₩ 2,950,000',
     subtitle:
       '메탈 디테일과 한눈에 알아볼 수 있는 아이코닉 미우미우 레터링 로고로 클래식한 스타일이 돋보이는 아이비 가죽 백입니다.',
@@ -27509,7 +27523,7 @@ export const products = [
     category1: 'bags',
     category2: 'totes',
     name: '아이비 가죽 백',
-    tags: '아이비',
+    tags: 'ivy',
     price: '₩ 2,950,000',
     subtitle:
       '메탈 디테일과 한눈에 알아볼 수 있는 아이코닉 미우미우 레터링 로고로 클래식한 스타일이 돋보이는 아이비 가죽 백입니다.',
@@ -27589,7 +27603,7 @@ export const products = [
     category1: 'bags',
     category2: 'totes',
     name: '아이비 가죽 백',
-    tags: '아이비',
+    tags: 'ivy',
     price: '₩ 2,950,000',
     subtitle:
       '메탈 디테일과 한눈에 알아볼 수 있는 아이코닉 미우미우 레터링 로고로 클래식한 스타일이 돋보이는 아이비 가죽 백입니다.',
@@ -27669,7 +27683,7 @@ export const products = [
     category1: 'bags',
     category2: 'totes',
     name: '아이비 가죽 패치워크 백',
-    tags: '아이비',
+    tags: 'ivy',
     price: '₩ 4,250,000',
     subtitle:
       '패치 장식으로 포인트를 준 은은한 빈티지 스타일과 모던한 애티튜드가 특징인 아이비 토트백입니다. 레터링 로고가 아이코닉한 시그니처 디자인을 완성합니다.',
@@ -27728,7 +27742,7 @@ export const products = [
     category1: 'bags',
     category2: 'totes',
     name: '아이비 가죽 패치워크 백',
-    tags: '아이비',
+    tags: 'ivy',
     price: '₩ 4,250,000',
     subtitle:
       '패치 장식으로 포인트를 준 은은한 빈티지 스타일과 모던한 애티튜드가 특징인 아이비 토트백입니다. 레터링 로고가 아이코닉한 시그니처 디자인을 완성합니다.',
@@ -27787,7 +27801,7 @@ export const products = [
     category1: 'bags',
     category2: 'totes',
     name: '아이비 가죽 패치워크 백',
-    tags: '아이비',
+    tags: 'ivy',
     price: '₩ 4,250,000',
     subtitle:
       '패치 장식으로 포인트를 준 은은한 빈티지 스타일과 모던한 애티튜드가 특징인 아이비 토트백입니다. 레터링 로고가 아이코닉한 시그니처 디자인을 완성합니다.',
@@ -27860,7 +27874,7 @@ export const products = [
     category1: 'bags',
     category2: 'totes',
     name: '아이비 가죽 백',
-    tags: '아이비',
+    tags: 'ivy',
     price: '₩ 3,100,000',
     subtitle:
       '미니멀한 라인, 현대적인 스타일, 부드러운 가죽이 어우러진 아이비 백. 전면의 레터링 로고가 세련된 디자인에 아이코닉한 포인트를 더합니다.',
@@ -27934,7 +27948,7 @@ export const products = [
     category1: 'bags',
     category2: 'totes',
     name: '아이비 가죽 백',
-    tags: '아이비',
+    tags: 'ivy',
     price: '₩ 3,100,000',
     subtitle:
       '미니멀한 라인, 현대적인 스타일, 부드러운 가죽이 어우러진 아이비 백. 전면의 레터링 로고가 세련된 디자인에 아이코닉한 포인트를 더합니다.',
@@ -28015,7 +28029,7 @@ export const products = [
     category1: 'bags',
     category2: 'totes',
     name: '아이비 가죽 백',
-    tags: '아이비',
+    tags: 'ivy',
     price: '₩ 3,100,000',
     subtitle:
       '아이비 백은 클래식한 토트를 실용적인 우아함과 다재다능한 감각으로 재해석한 디자인입니다. 부드러운 광택의 송아지 가죽과 톤온톤 디테일이 더해져, 세련된 일상 룩에 완벽하게 어울립니다.',
@@ -28096,7 +28110,7 @@ export const products = [
     category1: 'bags',
     category2: 'totes',
     name: '아이비 가죽 백',
-    tags: '아이비',
+    tags: 'ivy',
     price: '₩ 3,100,000',
     subtitle:
       '아이비 백은 클래식한 토트를 실용적인 우아함과 다재다능한 감각으로 재해석한 디자인입니다. 부드러운 광택의 송아지 가죽과 톤온톤 디테일이 더해져, 세련된 일상 룩에 완벽하게 어울립니다.',
@@ -28170,7 +28184,7 @@ export const products = [
     category1: 'bags',
     category2: 'totes',
     name: '아이비 가죽 핸드백',
-    tags: '아이비',
+    tags: 'ivy',
     price: '₩ 2,500,000',
     subtitle:
       '아이비 백은 클래식한 토트를 핸드백 실루엣으로 재해석한 디자인으로, 부드러운 광택의 송아지 가죽과 세련된 톤온톤 디테일이 더해져 실용적인 우아함과 다재다능한 매력을 동시에 선사합니다.',
@@ -28244,7 +28258,7 @@ export const products = [
     category1: 'bags',
     category2: 'totes',
     name: '아이비 가죽 핸드백',
-    tags: '아이비',
+    tags: 'ivy',
     price: '₩ 2,500,000',
     subtitle:
       '아이비 백은 클래식한 토트를 핸드백 실루엣으로 재해석한 디자인으로, 부드러운 광택의 송아지 가죽과 세련된 톤온톤 디테일이 더해져 실용적인 우아함과 다재다능한 매력을 동시에 선사합니다.',
@@ -28318,7 +28332,7 @@ export const products = [
     category1: 'bags',
     category2: 'totes',
     name: '아이비 가죽 핸드백',
-    tags: '아이비',
+    tags: 'ivy',
     price: '₩ 2,500,000',
     subtitle:
       '아이비 백은 클래식한 토트를 핸드백 실루엣으로 재해석한 디자인으로, 부드러운 광택의 송아지 가죽과 세련된 톤온톤 디테일이 더해져 실용적인 우아함과 다재다능한 매력을 동시에 선사합니다.',
@@ -28399,7 +28413,7 @@ export const products = [
     category1: 'bags',
     category2: 'totes',
     name: '아이비 가죽 핸드백',
-    tags: '아이비',
+    tags: 'ivy',
     price: '₩ 2,400,000',
     subtitle:
       '아이비 가죽 백은 메탈 디테일과 대비되는 스티치로 클래식한 스타일을 더욱 돋보이게 합니다. 토널 미우미우 레터링 로고가 한눈에 알아볼 수 있는 아이코닉한 감각으로 스타일을 완성합니다.',
@@ -28476,7 +28490,7 @@ export const products = [
     category1: 'bags',
     category2: 'totes',
     name: '아이비 가죽 핸드백',
-    tags: '아이비',
+    tags: 'ivy',
     price: '₩ 3,400,000',
     subtitle:
       '메탈 디테일과 한눈에 알아볼 수 있는 아이코닉 미우미우 레터링 로고로 클래식한 스타일이 더욱 돋보이는 아이비 가죽 백입니다.',
@@ -28671,7 +28685,7 @@ export const products = [
     category1: 'bags',
     category2: 'totes',
     name: '아이비 스팽글 메쉬 백',
-    tags: '아이비',
+    tags: 'ivy',
     price: '₩ 4,300,000',
     subtitle:
       '독특한 메쉬 패턴과 반짝이는 스팽클로 재해석된 아이비 백으로 과감하고 우아한 매력의 홀리데이 룩에 완벽하게 어울립니다.',
@@ -28731,7 +28745,7 @@ export const products = [
     category1: 'bags',
     category2: 'totes',
     name: '아이비 코듀로이 핸드백',
-    tags: '아이비',
+    tags: 'ivy',
     price: '₩ 2,750,000',
     subtitle:
       '코듀로이의 독특한 텍스처가 유행을 타지 않는 디자인의 아이비 백에 레트로한 매력을 더합니다. 아이코닉한 토널 레터링 로고가 스타일을 완성합니다.',
@@ -28808,7 +28822,7 @@ export const products = [
     category1: 'bags',
     category2: 'totes',
     name: '아이비 코듀로이 핸드백',
-    tags: '아이비',
+    tags: 'ivy',
     price: '₩ 2,750,000',
     subtitle:
       '코듀로이의 독특한 텍스처가 유행을 타지 않는 디자인의 아이비 백에 레트로한 매력을 더합니다. 아이코닉한 토널 레터링 로고가 스타일을 완성합니다.',
@@ -28885,7 +28899,7 @@ export const products = [
     category1: 'bags',
     category2: 'totes',
     name: '아이비 코듀로이 핸드백',
-    tags: '아이비',
+    tags: 'ivy',
     price: '₩ 2,750,000',
     subtitle:
       '코듀로이의 독특한 텍스처가 유행을 타지 않는 디자인의 아이비 백에 레트로한 매력을 더합니다. 아이코닉한 토널 레터링 로고가 스타일을 완성합니다.',
@@ -29869,7 +29883,7 @@ export const products = [
     category1: 'bags',
     category2: 'hobo',
     name: '완더 마테라쎄 나파 가죽 호보 백',
-    tags: '완더',
+    tags: 'wander',
     price: '₩ 4,300,000',
     subtitle:
       '마테라쎄 나파 가죽으로 제작한 컴팩트한 라인의 새로운 완더 백으로, 고급스러운 마테라쎄 모티프로 정교하고 질감이 느껴지는 입체적인 효과를 연출했습니다. 골드 톤 하드웨어와 같은 마감을 사용한 매혹적인 메탈 로고는 누구나 한눈에 알아볼 수 있는 상징적이고 반짝이는 터치로 정교한 제작 기법과 대비를 이룹니다. 매끈한 라인과 탈부착형 숄더 스트랩이 우아하면서 역동적인 실루엣을 강조합니다.',
@@ -29930,7 +29944,7 @@ export const products = [
     category1: 'bags',
     category2: 'hobo',
     name: '완더 마테라쎄 스웨이드 백',
-    tags: '완더',
+    tags: 'wander',
     price: '₩ 5,100,000',
     subtitle:
       '엑스트라 라지 크기로 활용도 높은 새로운 캐주얼 애티튜드를 더한 부드러운 스웨이드 버전의 아이코닉한 완더 백으로 특별한 마테라쎄 모티프가 시선을 사로잡습니다.',
@@ -30010,7 +30024,7 @@ export const products = [
     category1: 'bags',
     category2: 'hobo',
     name: '완더 마테라쎄 스웨이드 백',
-    tags: '완더',
+    tags: 'wander',
     price: '₩ 5,100,000',
     subtitle:
       '엑스트라 라지 크기로 활용도 높은 새로운 캐주얼 애티튜드를 더한 부드러운 스웨이드 버전의 아이코닉한 완더 백으로 특별한 마테라쎄 모티프가 시선을 사로잡습니다.',
@@ -30069,7 +30083,7 @@ export const products = [
     category1: 'bags',
     category2: 'hobo',
     name: '완더 마테라쎄 스웨이드 백',
-    tags: '완더',
+    tags: 'wander',
     price: '₩ 5,100,000',
     subtitle:
       '엑스트라 라지 크기로 활용도 높은 새로운 캐주얼 애티튜드를 더한 부드러운 스웨이드 버전의 아이코닉한 완더 백으로 특별한 마테라쎄 모티프가 시선을 사로잡습니다.',
@@ -30128,7 +30142,7 @@ export const products = [
     category1: 'bags',
     category2: 'shoulder',
     name: '아방뛰르 나파 가죽 백',
-    tags: '아방뛰르',
+    tags: 'abang',
     price: '₩ 4,450,000',
     subtitle:
       '2009년의 아이코닉한 디자인에서 영감을 받은 아방뛰르 백에 독특한 쉐입을 재해석한 숄더백 버전이 추가되어 활용성과 유행을 타지 않는 특징이 더욱 돋보입니다.',
@@ -30188,7 +30202,7 @@ export const products = [
     category1: 'bags',
     category2: 'shoulder',
     name: '아방뛰르 나파 가죽 백',
-    tags: '아방뛰르',
+    tags: 'abang',
     price: '₩ 4,450,000',
     subtitle:
       '2009년의 아이코닉한 디자인에서 영감을 받은 아방뛰르 백에 독특한 쉐입을 재해석한 숄더백 버전이 추가되어 활용성과 유행을 타지 않는 특징이 더욱 돋보입니다.',
@@ -30248,7 +30262,7 @@ export const products = [
     category1: 'bags',
     category2: 'shoulder',
     name: '아방뛰르 나파 가죽 백',
-    tags: '아방뛰르',
+    tags: 'abang',
     price: '₩ 4,450,000',
     subtitle:
       '2009년의 아이코닉한 디자인에서 영감을 받은 아방뛰르 백에 독특한 쉐입을 재해석한 숄더백 버전이 추가되어 활용성과 유행을 타지 않는 특징이 더욱 돋보입니다.',
@@ -30308,7 +30322,7 @@ export const products = [
     category1: 'bags',
     category2: 'hobo',
     name: '아방뛰르 시어링 백',
-    tags: '아방뛰르',
+    tags: 'abang',
     price: '₩ 4,700,000',
     subtitle:
       '부드러운 스웨이드와 풍성한 시어링이 어우러져 아방뛰르백의 라인을 돋보이게 하며, 매력적인 시즌 영감을 드러내고 다재다능하고 현대적인 형태의 아이콘의 독특한 디테일을 강조합니다.',
@@ -30440,7 +30454,7 @@ export const products = [
     category1: 'bags',
     category2: 'hobo',
     name: '아방뛰르 나파 가죽 백',
-    tags: '아방뛰르',
+    tags: 'abang',
     price: '₩ 4,000,000',
     subtitle:
       '2009년의 아이코닉한 디자인에서 영감을 받은 아방뛰르 백에 독특한 쉐입을 재해석한 숄더백 버전이 추가되어 활용성과 유행을 타지 않는 특징이 더욱 돋보입니다.',
@@ -30514,7 +30528,7 @@ export const products = [
     category1: 'bags',
     category2: 'hobo',
     name: '아방뛰르 나파 가죽 백',
-    tags: '아방뛰르',
+    tags: 'abang',
     price: '₩ 4,000,000',
     subtitle:
       '2009년의 아이코닉한 디자인에서 영감을 받은 아방뛰르 백에 독특한 쉐입을 재해석한 숄더백 버전이 추가되어 활용성과 유행을 타지 않는 특징이 더욱 돋보입니다.',
@@ -30595,7 +30609,7 @@ export const products = [
     category1: 'bags',
     category2: 'hobo',
     name: '아방뛰르 나파 가죽 백',
-    tags: '아방뛰르',
+    tags: 'abang',
     price: '₩ 4,000,000',
     subtitle:
       '2009년의 아이코닉한 디자인에서 영감을 받은 아방뛰르 백에 독특한 쉐입을 재해석한 숄더백 버전이 추가되어 활용성과 유행을 타지 않는 특징이 더욱 돋보입니다.',
@@ -30773,6 +30787,7 @@ export const products = [
     category1: 'bags',
     category2: 'shoulder',
     name: '보 플래드 백',
+    tags: 'beau',
     tags: '보',
     price: '₩ 4,150,000',
     subtitle:
@@ -31038,6 +31053,7 @@ export const products = [
     category1: 'bags',
     category2: 'shoulder',
     name: '스웨이드 보 백',
+    tags: 'beau',
     price: '₩ 5,300,000',
     subtitle:
       '롱 핸들, 부드러운 감촉, 스웨이드의 벨벳 같은 촉감 등의 디테일로 코스모폴리탄 무드를 연출하는 보 백입니다. 아이코닉한 레터링 로고가 디자인을 완성합니다.',
@@ -31098,6 +31114,7 @@ export const products = [
     category1: 'bags',
     category2: 'shoulder',
     name: '스웨이드 보 백',
+    tags: 'beau',
     price: '₩ 5,300,000',
     subtitle:
       '롱 핸들, 부드러운 감촉, 스웨이드의 벨벳 같은 촉감 등의 디테일로 코스모폴리탄 무드를 연출하는 보 백입니다. 아이코닉한 레터링 로고가 디자인을 완성합니다.',
@@ -31179,6 +31196,7 @@ export const products = [
     category1: 'bags',
     category2: 'shoulder',
     name: '스웨이드 보 백',
+    tags: 'beau',
     price: '₩ 5,300,000',
     subtitle:
       '롱 핸들, 부드러운 감촉, 스웨이드의 벨벳 같은 촉감 등의 디테일로 코스모폴리탄 무드를 연출하는 보 백입니다. 아이코닉한 레터링 로고가 디자인을 완성합니다.',
@@ -31253,6 +31271,7 @@ export const products = [
     category1: 'bags',
     category2: 'shoulder',
     name: '스웨이드 보 백',
+    tags: 'beau',
     price: '₩ 5,300,000',
     subtitle:
       '롱 핸들, 부드러운 감촉, 스웨이드의 벨벳 같은 촉감 등의 디테일로 코스모폴리탄 무드를 연출하는 보 백입니다. 아이코닉한 레터링 로고가 디자인을 완성합니다.',
@@ -31313,6 +31332,7 @@ export const products = [
     category1: 'bags',
     category2: 'shoulder',
     name: '스웨이드 보 백',
+    tags: 'beau',
     price: '₩ 5,300,000',
     subtitle:
       '롱 핸들, 부드러운 감촉, 스웨이드의 벨벳 같은 촉감 등의 디테일로 코스모폴리탄 무드를 연출하는 보 백입니다. 아이코닉한 레터링 로고가 디자인을 완성합니다.',
@@ -31462,6 +31482,7 @@ export const products = [
     category1: 'bags',
     category2: 'shoulder',
     name: '가죽 보 백',
+    tags: 'beau',
     price: '₩ 5,000,000',
     subtitle:
       '보 백의 부드럽고 매끄러운 가죽에 골드톤 하드웨어와 같은 뉘앙스와 디테일이 시선을 사로잡으며, 엠보싱 레터링 로고가 아이코닉한 디자인을 완성합니다.',
@@ -31542,6 +31563,7 @@ export const products = [
     category1: 'bags',
     category2: 'shoulder',
     name: '가죽 보 백',
+    tags: 'beau',
     price: '₩ 5,000,000',
     subtitle:
       '보 백의 부드럽고 매끄러운 가죽에 골드톤 하드웨어와 같은 뉘앙스와 디테일이 시선을 사로잡으며, 엠보싱 레터링 로고가 아이코닉한 디자인을 완성합니다.',
@@ -31622,6 +31644,7 @@ export const products = [
     category1: 'bags',
     category2: 'shoulder',
     name: '가죽 보 백',
+    tags: 'beau',
     price: '₩ 5,000,000',
     subtitle:
       '보 백의 부드럽고 매끄러운 가죽에 골드톤 하드웨어와 같은 뉘앙스와 디테일이 시선을 사로잡으며, 엠보싱 레터링 로고가 아이코닉한 디자인을 완성합니다.',
@@ -31702,6 +31725,7 @@ export const products = [
     category1: 'bags',
     category2: 'shoulder',
     name: '가죽 보 백',
+    tags: 'beau',
     price: '₩ 5,000,000',
     subtitle:
       '보 백의 부드럽고 매끄러운 가죽에 골드톤 하드웨어와 같은 뉘앙스와 디테일이 시선을 사로잡으며, 엠보싱 레터링 로고가 아이코닉한 디자인을 완성합니다.',
@@ -31782,6 +31806,7 @@ export const products = [
     category1: 'bags',
     category2: 'shoulder',
     name: '프린트 가죽 보 백',
+    tags: 'beau',
     price: '₩ 5,700,000',
     subtitle:
       '보 백의 세련되고 유려한 실루엣이 애니멀 프린트와 독특한 텍스처로 한층 돋보입니다. 아이코닉한 디자인을 대담하고 현대적인 감성으로 재해석했습니다.',
