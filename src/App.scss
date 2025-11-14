@@ -192,7 +192,7 @@ $skeleton: #eaeaea;
 
 //TODO 공통화
 .hidden {
-  display: none;
+  display: none !important;
 }
 
 main {

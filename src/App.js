@@ -23,6 +23,10 @@ import ProductDetail from './pages/Products/ProductDetail';
 import { useProductsStore } from './store/useProductsStore';
 import { useEffect } from 'react';
 import Local from './pages/customer/Local';
+import ProductBanner from './pages/Products/layout/ProductBanner';
+import ProductDetailNav from './pages/Products/layout/ProductDetailNav';
+import AllProducts from './pages/Products/AllProducts';
+import ProductFilterWrap from './pages/Products/layout/ProductFilterWrap';
 
 function App() {
   const { onFecthItems, onMakeMenu } = useProductsStore();
@@ -35,6 +39,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
+        {/* auth */}
         <Route path="login" element={<Login />} />
         <Route path="join" element={<Join />} />
         <Route path="maypage" element={<Mypage />} />
@@ -53,6 +58,10 @@ function App() {
         <Route path="/:category1/tag/:tags" element={<Products />} />
         <Route path="/product/:id" element={<ProductDetail />} />
         <Route path="local" element={<Local />} />
+        <Route path="ProductBanner" element={<ProductBanner />} />
+        <Route path="ProductDetailNav" element={<ProductDetailNav />} />
+        <Route path="AllProducts" element={<AllProducts />} />
+        <Route path="ProductFilterWrap" element={<ProductFilterWrap />} />
       </Routes>
       <Footer />
     </>

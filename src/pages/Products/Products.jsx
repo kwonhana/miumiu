@@ -3,6 +3,7 @@ import { Link, useParams } from 'react-router-dom';
 import './scss/Products.scss';
 import CousLet from '../Home/layout/CouLet';
 import { useEffect } from 'react';
+import './scss/ProductBanner.scss';
 
 const Products = () => {
   const { category1, category2, tags } = useParams();
