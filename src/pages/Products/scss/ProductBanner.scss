@@ -1,0 +1,20 @@
+@use '../../../App.scss' as pd;
+
+.ProductBanner {
+  margin-top: 80px;
+  width: 100%;
+  aspect-ratio: 1920/700;
+  background: url('../../../../public/assets/images/static/product/ProductBanner.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  @include pd.flex(center, center, 20px);
+  flex-direction: column;
+
+  span {
+    @include pd.font(2.4rem, 600, #fff);
+  }
+  h2 {
+    @include pd.font(6rem, 700, #fff);
+    font-family: 'Libre Baskerville';
+  }
+}
