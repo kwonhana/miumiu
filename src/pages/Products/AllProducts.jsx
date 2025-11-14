@@ -18,7 +18,7 @@ const AllProducts = () => {
       <ProductBanner />
       <ProductDetailNav />
       <ProductFilterWrap
-        collection={collection.map((item) => item.neme)}
+        collection={collection.map((item) => item.name)}
         fabric={fabric.map((item) => item.fabric)}
       />
       <div></div>;
