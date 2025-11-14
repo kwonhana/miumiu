@@ -6,11 +6,12 @@ h2 {
   margin: 0 auto;
 }
 .product-page {
-  padding-top: 180px;
+  padding-top: 80px;
   h2 {
     @include pd.font(2.2rem, 500, #000);
     text-align: center;
     line-height: 140%;
+    margin-bottom: 5rem;
   }
 }
 
@@ -18,17 +19,13 @@ h2 {
   @include pd.flex(center, cneter, 0);
   padding-top: 30px;
   .item-menu {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    display: flex;
     gap: 2.4rem;
-    div {
-      aspect-ratio: 5/6;
-      background-color: lightseagreen;
-    }
-    p {
+    li {
       @include pd.font(1.6rem, 400, #333);
       padding-top: 12px;
       text-align: center;
+      aspect-ratio: 212/177;
     }
   }
 }
@@ -40,6 +37,10 @@ h2 {
 
   .item {
     aspect-ratio: 447/595;
+  }
+
+  .item:hover {
+    border: 1px solid pd.$base;
   }
 
   .product-text-box {

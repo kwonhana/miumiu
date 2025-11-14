@@ -1,35 +1,25 @@
 import { useProductsStore } from '../../store/useProductsStore';
 import { Link, useParams } from 'react-router-dom';
 import './scss/Products.scss';
+import CousLet from '../Home/layout/CouLet';
+import { useEffect } from 'react';
 
 const Products = () => {
   const { category1, category2, tags } = useParams();
-  const { items } = useProductsStore();
 
-  const filtered = items.filter((item) => {
-    if (category1 && category2 && tags) {
-      return item.category1 === category1 && item.category2 === category2 && item.tags === tags;
-    } else if (category1 && category2) {
-      return item.category1 === category1 && item.category2 === category2;
-    } else if (category1 && tags) {
-      return item.category1 === category1 && item.tags === tags;
-    } else if (category1) {
-      return item.category1 === category1;
-    } else if (tags) {
-      return item.tags === tags;
-    } else {
-      return true;
-    }
-  });
+  const { filtered, onFecthItems, onCategorys } = useProductsStore();
 
-  console.log(filtered, '보오자');
+  useEffect(() => {
+    onFecthItems(); // 상품 불러오기
+  }, []);
+
+  useEffect(() => {
+    onCategorys(category1, category2, tags); // URL 변경 → 필터링 실행
+  }, [category1, category2, tags]);
 
   return (
     <section className="product-page inner">
-      <h2>{filtered[0].kor}</h2>
-      <div className="product-menu">
-        <ul className="item-menu"></ul>
-      </div>
+      <h2></h2>
       <div className="product-list-wrap">
         <ul className="product-list">
           {filtered.map((p) => (
@@ -48,6 +38,7 @@ const Products = () => {
           ))}
         </ul>
       </div>
+      <CousLet />
     </section>
   );
 };

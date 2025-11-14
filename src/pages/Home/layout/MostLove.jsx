@@ -2,13 +2,7 @@ import React, { useEffect } from 'react';
 import WOW from 'wowjs';
 import '../scss/MostLove.scss';
 import { Link } from 'react-router-dom';
-
-const items = [
-  { title: '여성 핸드백', imgUrl: 'bags' },
-  { title: '여성 구두', imgUrl: 'shoes' },
-  { title: '지갑 & 카드홀더', imgUrl: 'wallets' },
-  { title: '악세사리', imgUrl: 'jewellery' },
-];
+import { items } from '../../../store/data';
 
 const MostLove = () => {
   useEffect(() => {

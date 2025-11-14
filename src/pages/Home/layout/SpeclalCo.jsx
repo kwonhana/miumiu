@@ -1,10 +1,6 @@
 import React from 'react';
 import '../scss/speclalCo.scss';
-
-const speclal = [
-  { title1: 'MIU MIU', title2: 'CUSTOM STUDIO', imgUrl: 'Custom' },
-  { title1: 'MIU CLOSET', imgUrl: 'Closet' },
-];
+import { speclal } from '../../../store/data';
 
 const SpeclalCo = () => {
   return (

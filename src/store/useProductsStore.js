@@ -1,48 +1,11 @@
 import { create } from 'zustand';
 import { products } from '../api/products';
-
-const categoryKorMap = {
-  wallets: '지갑',
-  small: '스몰 지갑',
-  card: '카드 지갑',
-
-  bags: '가방',
-  mini: '미니백',
-  topHandles: '토트백',
-  shoulder: '숄더백',
-  hobo: '호보백',
-  backpacks: '백팩',
-  totes: '토트백',
-
-  jewellery: '쥬얼리',
-  earrings: '귀걸이',
-  necklaces: '목걸이',
-  bracelets: '팔찌',
-  'rings-and-brooches': '반지/브로치',
-
-  shoes: '신발',
-  pumps: '펌프스',
-  sandals: '샌들',
-  ballerinas: '플랫슈즈',
-  sneakers: '스니커즈',
-  'boots-and-ankle-boots': '부츠',
-  'loafers-and-lace-ups': '로퍼/레이스업',
-
-  accessories: '패션악세사리',
-  eyewear: '아이웨어',
-  pouches: '파우치',
-  hats: '모자',
-  'scarves-and-gloves': '스카프와 장갑',
-  'hair-accessories': '헤어 악세사리',
-  'bag-accessories-and-keychains': '키링',
-  belts: '벨트',
-  고객센터: '고객센터',
-  이벤트: '이벤트',
-};
+import { categoryKorMap } from './data';
 
 export const useProductsStore = create((set, get) => ({
-  // ------ 상품 --------
+  // -------- 상품 ----------
   items: [],
+  filtered: [],
 
   onFecthItems: async () => {
     const pull = get().items;
@@ -50,21 +13,40 @@ export const useProductsStore = create((set, get) => ({
 
     const enriched = products.map((item) => ({
       ...item,
-      kor: categoryKorMap[item.category1] || '', // 없는 경우 대비
+      kor: categoryKorMap[item.category1] || '',
+      // detail_images가 없으면 빈 배열로 초기화
+      detail_images: Array.isArray(item.detail_images) ? item.detail_images : [],
+      tags: item.tags || '',
+      tags2: item.tags2 || '',
     }));
     set({ items: enriched });
-    console.log(enriched);
+    console.log('Fetched items:', enriched);
   },
 
-  // ------ 메뉴 생성 --------
+  onCategorys: (category1, category2, tags) => {
+    const items = get().items;
+    const filtered = items.filter((item) => {
+      if (category1 && category2) {
+        return item.category1 === category1 && item.category2 === category2;
+      } else if (category1 && tags) {
+        return item.category1 === category1 && item.tags === tags;
+      } else {
+        return true;
+      }
+    });
+    set({ filtered });
+    console.log('Filtered items:', filtered);
+    return filtered; // 필요시 반환
+  },
+
+  // -------- 메뉴 생성 ----------
   menu: [],
 
   onMakeMenu: () => {
     const menuList = [];
     const item1 = get().items;
-    console.log('아이템1', item1);
 
-    item1.forEach(({ category1, category2, tags, id }) => {
+    item1.forEach(({ category1, category2, tags, tags2, id, detail_images }) => {
       // ---- 메인 메뉴 ----
       let mainMenu = menuList.find((m) => m.name === category1);
       if (!mainMenu) {
@@ -72,20 +54,54 @@ export const useProductsStore = create((set, get) => ({
           name: category1,
           link: `/${category1}`,
           subMenu: [],
-          kor: categoryKorMap[category1],
-          tag: tags,
+          iconic: [],
+          kor: categoryKorMap[category1] || '',
+          tag: tags || '',
           id: id,
         };
         menuList.push(mainMenu);
-        console.log('메인메뉴', mainMenu);
       }
-      // -----서브 메뉴 -----
-      let hasMenu = mainMenu.subMenu.find((s) => s.name === category2);
-      if (!hasMenu && category2) {
-        mainMenu.subMenu.push({ name: category2, link: `/${category1}/${category2}`, tag: tags });
+
+      // ---- 서브 메뉴 (category2) ----
+      if (category2) {
+        const hasSubMenu = mainMenu.subMenu.find((s) => s.name === category2);
+        if (!hasSubMenu) {
+          mainMenu.subMenu.push({
+            name: category2,
+            link: `/${category1}/${category2}`,
+            tag: tags || '',
+            imgUrl:
+              Array.isArray(detail_images) && detail_images.length > 0 ? detail_images[0].url : '',
+            kor2: categoryKorMap[category2] || '',
+          });
+        }
+      }
+
+      // ---- 서브 메뉴 (tags) ----
+      if (tags) {
+        const iMenu = mainMenu.subMenu.find((i) => i.name === tags);
+        if (!iMenu) {
+          mainMenu.subMenu.push({
+            name: tags,
+            link: `/${category1}/tag/${tags}`,
+            iTag: tags2 || '',
+            imgUrl:
+              Array.isArray(detail_images) && detail_images.length > 0 ? detail_images[0].url : '',
+          });
+        }
       }
     });
+
     set({ menu: menuList });
-    console.log(menuList);
+    console.log('Menu list:', menuList);
   },
 }));
+
+// 카테1 카테 2
+// 카테 2 태그 따로 분류해서 모아두기
+
+//카테1
+//카테1 카테2
+//카테1 태그 :태그
+//카테1 카테2 태그 :태그
+//카테1 태그 :태그 카테2

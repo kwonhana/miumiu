@@ -6,17 +6,7 @@ import { Link } from 'react-router-dom';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination } from 'swiper/modules';
 import ColumnSlide from './ColumnSlide';
-
-const newItemTitle = [
-  { item: '보 플래드 백', no: '5BB173_2DU5_F0Z0F_V_OWM', id: '5BB173_2DU5_F0Z0F_V_OWM' },
-  { item: '트릭 가죽 키링', no: '5TL516_2E6Y_F0032', id: '5TL516_2E6Y_F0032' },
-  { item: '시어링 트래퍼 햇', no: '5HC386_2CSR_F0040', id: '5HC386_2CSR_F0040' },
-  {
-    item: '캔버스 및 가죽 백팩',
-    no: '5BZ043_2IBQ_F04KC_V_OOO_detail_5',
-    id: '5BZ043_2IBQ_F04KC_V_OOO',
-  },
-];
+import { newItemTitle } from '../../../store/data';
 
 const NewItemMain = () => {
   return (
