@@ -1,0 +1,96 @@
+@use '../../../App.scss' as pd;
+
+.ProductFilterWrap {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 9999;
+  background: rgba(175, 175, 175, 0.5);
+  backdrop-filter: blur(20px);
+  @include pd.flex(end, start, 0);
+  .container {
+    background: #fff;
+    width: 38%;
+    height: 100%;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    overflow: hidden;
+  }
+
+  .filter-top {
+    padding: 30px;
+    @include pd.flex(space-between, center, auto);
+    flex-shrink: 0;
+
+    h3 {
+      text-align: start;
+      @include pd.font(2.2rem, 600, pd.$base);
+    }
+
+    .icon {
+      width: 28px;
+      aspect-ratio: 1/1;
+      background: url('../../../../public/assets/icon/close.png');
+      background-position: center;
+      background-repeat: no-repeat;
+      cursor: pointer;
+    }
+  }
+
+  .filter-bottom {
+    padding: 0 8%;
+    height: calc(100vh - 300px);
+    overflow: auto;
+    margin-bottom: 30px;
+    overflow: auto;
+    overscroll-behavior ul {
+      cursor: pointer;
+      p {
+        padding: 28px 0;
+        @include pd.font(2rem, 00, pd.$base);
+        @include pd.flex(space-between, center, null);
+
+        &::after {
+          content: '';
+          width: 24px;
+          aspect-ratio: 1/1;
+          display: inline-block;
+          background: url('../../../../public//assets//icon/arrow.png');
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          transition: transform 0.3s ease-in-out;
+        }
+
+        &.active {
+          &::after {
+            transform: rotate(-180deg);
+          }
+        }
+      }
+    }
+
+    li {
+      padding: 20px 3%;
+
+      &:hover {
+        background: pd.$line-f4;
+      }
+      label {
+        @include pd.flex(start, center, 10px);
+        @include pd.font(1.8rem, 400, pd.$text-333);
+      }
+
+      input[type='checkbox'] {
+        border: 1px solid pd.$line-ddd;
+        width: 20px;
+        aspect-ratio: 1/1;
+        border-radius: 4px;
+      }
+    }
+  }
+}
