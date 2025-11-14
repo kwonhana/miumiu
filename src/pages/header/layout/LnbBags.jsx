@@ -1,22 +1,7 @@
 import '../scss/lnbSub.scss';
 import { Link } from 'react-router-dom';
+import { bags, iconicBags } from '../../../store/data';
 
-const bags = [
-  { alt: '백팩', alt2: 'backpacks' },
-  { alt: '미니백', alt2: 'mini' },
-  { alt: '호보백', alt2: 'hobo' },
-  { alt: '탑핸들', alt2: 'topHandles' },
-  { alt: '토트백', alt2: 'totes' },
-  { alt: '숄더백', alt2: 'shoulder' },
-];
-const iconicBags = [
-  { alt: '완더', alt2: 'wander', src: '/assets/images/lnb/bags-wander.jpg' },
-  { alt: '아르카디', alt2: 'arcadie', src: '/assets/images/lnb/bags-arcadi.jpg' },
-  { alt: '포켓', alt2: 'pocket', src: '/assets/images/lnb/bags-pocket.jpg' },
-  { alt: '보', alt2: 'beau', src: '/assets/images/lnb/bags-vo.jpg' },
-  { alt: '아방뛰르', alt2: 'abang' },
-  { alt: '아이비', alt2: 'ivy' },
-];
 const LnbBags = ({ isActive }) => {
   return (
     <div className={`lnb-box ${isActive ? '' : 'hidden'}`}>
