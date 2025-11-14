@@ -22,6 +22,7 @@ import Products from './pages/Products/Products';
 import ProductDetail from './pages/Products/ProductDetail';
 import { useProductsStore } from './store/useProductsStore';
 import { useEffect } from 'react';
+import Local from './pages/customer/Local';
 
 function App() {
   const { onFecthItems, onMakeMenu } = useProductsStore();
@@ -51,6 +52,7 @@ function App() {
         <Route path="/:category1/:category2" element={<Products />} />
         <Route path="/:category1/tag/:tags" element={<Products />} />
         <Route path="/product/:id" element={<ProductDetail />} />
+        <Route path="local" element={<Local />} />
       </Routes>
       <Footer />
     </>

@@ -12,6 +12,9 @@ import SpeclalCo from './layout/SpeclalCo';
 import BirthdayInput from '../../component/input/BirthdayInput';
 import PhoneInput from '../../component/input/PhoneInput';
 import NameInput from '../../component/input/NameInput';
+import Spinner from '../../component/layout/Spinner';
+import Textinput from '../../component/input/Textinput';
+import DropBox from '../../component/input/DropBox';
 
 const Home = () => {
   return (
@@ -32,6 +35,8 @@ const Home = () => {
       <CousLet />
       <BirthdayInput />
       <PhoneInput />
+      <Textinput />
+      <DropBox />
     </main>
   );
 };

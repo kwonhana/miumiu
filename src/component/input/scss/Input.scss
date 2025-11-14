@@ -55,11 +55,11 @@
     @include input.font(1.4rem, 400, input.$base);
 
     &::placeholder {
-      @include input.font(1.4rem, 400, input.$text-666);
+      @include input.font(1.4rem, 400, input.$text-bbb);
     }
 
     &:focus::placeholder {
-      color: input.$text-bbb;
+      color: #fff;
     }
   }
 
@@ -161,7 +161,7 @@
     padding: 16px 40px 16px 16px;
     @include input.font(1.4rem, 400, input.$base);
     &::placeholder {
-      @include input.font(1.4rem, 400, input.$text-666);
+      @include input.font(1.4rem, 400, input.$text-bbb);
     }
     &:focus::placeholder {
       color: #fff;
@@ -196,5 +196,59 @@
   input[type='number'] {
     appearance: textfield;
     -moz-appearance: textfield;
+  }
+}
+
+// TODO DropBox
+
+.base-input {
+  position: relative;
+  .dropBox-top {
+    height: auto;
+    border: 1px solid input.$line;
+    border-radius: 4px;
+    padding: 16px 40px 16px 16px;
+    @include input.font(1.4rem, 400, input.$text-bbb);
+    cursor: pointer;
+
+    &.active {
+      border: 1px solid input.$base;
+      @include input.font(1.4rem, 400, input.$base);
+    }
+
+    &::after {
+      position: absolute;
+      right: 16px;
+      content: '';
+      width: 18px;
+      aspect-ratio: 1/1;
+      display: inline-block;
+      background: url('../../../../public/assets/icon/arrow.png');
+    }
+  }
+
+  .dropBox-bottom {
+    background-color: #fff;
+    position: absolute;
+    top: 60px;
+    width: 100%;
+    border: 1px solid input.$line;
+    border-radius: 4px;
+    padding: 16px 0;
+    @include input.font(1.4rem, 400, input.$text-bbb);
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 9;
+
+    li {
+      border-bottom: 1px solid input.$skeleton;
+      @include input.font(1.4rem, 400, input.$text-333);
+      padding: 16px;
+      cursor: pointer;
+
+      &:hover {
+        background: input.$line-f4;
+      }
+    }
   }
 }
