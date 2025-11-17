@@ -2,7 +2,6 @@ import './scss/Products.scss';
 import CousLet from '../Home/layout/CouLet';
 
 import { categoryKorMap } from '../../store/data';
-import ProductCard from './layout/ProductCard';
 import ProductBanner from './layout/ProductBanner';
 
 const Products = () => {
