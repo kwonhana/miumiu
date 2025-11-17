@@ -14,7 +14,7 @@ export const categoryKorMap = [
   { kor: '스카프와 장갑', eng: 'Scarves & Gloves' },
   { kor: '스니커즈', eng: 'Sneakers' },
   { kor: '스몰 지갑', eng: 'Small Wallets' },
-  { kor: '쥬얼리', eng: 'Jewelry' },
+  { kor: '쥬얼리', eng: 'Jewellery' },
   { kor: '아이웨어', eng: 'Eyewear' },
   { kor: '악세사리', eng: 'Accessories' },
   { kor: '아이코닉', eng: 'Iconic' },
@@ -30,6 +30,7 @@ export const categoryKorMap = [
   { kor: '호보백', eng: 'Hobo Bags' },
   { kor: '지갑', eng: 'Wallets' },
   { kor: '샌들', eng: 'Sandals' },
+  { kor: '슈즈', eng: 'Shoes' },
 ];
 
 // TODO LnbBag.jsx 데이터

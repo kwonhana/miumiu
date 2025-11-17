@@ -39,6 +39,38 @@ export const useProductsStore = create((set, get) => ({
     return filtered; // 필요시 반환
   },
 
+  onCateOnly: (category1, category2) => {
+    const items = get().items;
+    const filterCate = items.filter((item) => {
+      if (category1 && category2) {
+        return item.category1 === category1 && item.category2 === category2;
+      } else if (category1) {
+        return item.category1 === category1;
+      } else {
+        return true;
+      }
+    });
+    set({ filterCate });
+    console.log('filterCate items:', filterCate);
+    return filterCate;
+  },
+
+  onCateTag: (category2, tags) => {
+    const items = get().items;
+    const cateTags = items.filter((item) => {
+      if (category2 && tags) {
+        return item.category2 === category2 && item.tags === tags;
+      } else if (tags) {
+        return item.tags === tags;
+      } else {
+        return true;
+      }
+    });
+    set({ cateTags });
+    console.log('cateTags items:', cateTags);
+    return cateTags;
+  },
+
   // -------- 메뉴 생성 ----------
   menu: [],
 
