@@ -8,13 +8,36 @@ const Local = () => {
   const [map, setMap] = useState(null);
   const [markers, setMarkers] = useState([]);
   const [what, setWhat] = useState(1);
+  const inputRef = useRef(null);
+  const [searchKeyword, setSearchKeyword] = useState('');
+
+  //TODO input 검색창 값 가지고와서 소문자로 확인
+  useEffect(() => {
+    const inputEl = inputRef.current?.querySelector('input');
+    if (!inputEl) return;
+
+    const handleInput = (e) => {
+      setSearchKeyword(e.target.value.toLowerCase()); //
+    };
+
+    inputEl.addEventListener('input', handleInput);
+    return () => {
+      inputEl.removeEventListener('input', handleInput);
+    };
+  }, []);
+
+  const filteredLocations = locations.filter(
+    (loc) =>
+      loc.name.toLowerCase().includes(searchKeyword) ||
+      loc.address.toLowerCase().includes(searchKeyword)
+  );
 
   const handleLocation = (el) => {
     setWhat(el.id);
     addMarker(el);
   };
   //TODO kakak map API
-  // Kakao Maps API 스크립트 로드
+  //TODO  Kakao Maps API 스크립트 로드
   useEffect(() => {
     const script = document.createElement('script');
     script.src = `//dapi.kakao.com/v2/maps/sdk.js?appkey=8484dc80b747823a0fb84c1e74ae6123&autoload=false`;
@@ -47,11 +70,9 @@ const Local = () => {
 
     // 기존 마커 제거
     markers.forEach((marker) => marker.setMap(null));
-
-    // 여기가 문제! locations가 아니라 location을 사용해야 합니다
     const markerPosition = new window.kakao.maps.LatLng(location.lat, location.lng);
 
-    // 커스텀 마커 이미지 (선택사항)
+    // 커스텀 마커 이미지 추가
     const imageSrc = '/assets/images/static/map/mapPin_black.png';
     const imageSize = new window.kakao.maps.Size(40, 50);
     const imageOption = { offset: new window.kakao.maps.Point(20, 50) };
@@ -89,16 +110,16 @@ const Local = () => {
     const dayCode = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'][now.getDay()];
     const todayStr = now.toISOString().split('T')[0];
 
-    //휴무일 여부 체크
+    //TODO 매장 휴무일 여부 체크
     if (store.closedDays?.includes(dayCode)) {
       return false;
     }
 
-    //휴무일 여부 체크
+    //TODO 매장 휴무일 여부 체크
     const nowTime = now.getHours() * 60 + now.getMinutes();
     if (store.closedDates?.includes(todayStr)) return false;
 
-    //시간 날짜 가지고 와서 분 단위로 환산
+    //TODO시간 날짜 가지고 와서 분 단위로 환산
     const todayHours = store.openHours?.[dayCode];
     if (!todayHours) return false;
 
@@ -109,19 +130,20 @@ const Local = () => {
 
     return nowTime >= openTime && nowTime <= closeTime;
   };
-  console.log(setMarkers, markers, '뭐냐');
 
   return (
     <section className="Local-wrap">
       <div className="sidebar">
-        <h2>구매가능 매장 찾기</h2>
-        <div className="location-buttons">
-          <div className="input-wrap">
+        <div className="fixed-wrap">
+          <h2>구매가능 매장 찾기</h2>
+          <div className="input-wrap" ref={inputRef}>
             <Textinput title="korea" />
           </div>
+        </div>
 
+        <div className="location-buttons">
           <div className="location-btn-wrap">
-            {locations.map((location) => (
+            {filteredLocations.map((location) => (
               <button
                 key={location.id}
                 className={` location-btn ${location.id === what ? 'active' : ''} `}

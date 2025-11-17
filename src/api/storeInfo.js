@@ -127,8 +127,8 @@ export const locations = [
   {
     id: 8,
     name: 'Korea Busan Haeundae',
-    lat: 35.169,
-    lng: 129.124,
+    lat: 35.17089,
+    lng: 129.130674,
     address: '부산광역시 해운대구 센텀남대로 35 신세계백화점센텀시티점 1F',
     tel: '51 744 7557',
     openHours: {

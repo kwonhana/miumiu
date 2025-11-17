@@ -1,6 +1,7 @@
 @use '../../../App.scss' as map;
 
 .Local-wrap {
+  overflow: hidden;
   .map-wrap {
     width: 100vw;
     height: 100vh;
@@ -17,28 +18,35 @@
     width: 30%;
     aspect-ratio: 566/880;
     position: absolute;
-    top: 80px;
+    top: 0px;
+    padding-top: 80px;
     right: 0;
     z-index: 10;
     background: #fff;
-    max-height: calc(100vh - 80px);
+    height: 100vh;
     overflow-y: auto;
 
-    h2 {
-      text-align: start;
-      padding: 40px 40px 30px 40px;
-    }
+    .fixed-wrap {
+      position: sticky;
+      top: 0;
+      background-color: #fff;
+      z-index: 1;
+      padding-bottom: 40px;
+      h2 {
+        text-align: start;
+        padding: 40px 40px 30px 40px;
+      }
+      .input-wrap {
+        padding: 0 40px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
 
-    .input-wrap {
-      padding: 0 40px;
-      display: flex;
-      flex-direction: column;
-      gap: 8px;
-
-      input {
-        width: 100%;
-        &:disabled {
-          background-color: map.$line-f4;
+        input {
+          width: 100%;
+          &:disabled {
+            background-color: map.$line-f4;
+          }
         }
       }
     }
@@ -47,32 +55,18 @@
       @include map.flex(start, start, 0);
       flex-direction: column;
       width: 100%;
-      padding: 40px;
       position: relative;
-
-      &::before {
-        content: '';
-        border-top: 1px solid map.$line-f4;
-        top: 0;
-        left: 0;
-        width: 100%;
-        position: absolute;
-        top: 0;
-      }
 
       .location-btn {
         width: 100%;
         @include map.flex(start, start, 0);
         flex-direction: column;
         border-bottom: 1px solid map.$line-f4;
-        padding: 30px 0;
+
+        padding: 30px 40px;
 
         &.active {
           background: map.$line-f4;
-        }
-
-        &:first-child {
-          padding-top: 0;
         }
 
         .location-name {
