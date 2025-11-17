@@ -7,6 +7,7 @@ export const useProductsStore = create((set, get) => ({
   items: [],
   filtered: [],
 
+  //TODO API 또는 products 데이터에서 상품 정보를 불러와 상태에 저장 (items)
   onFecthItems: async () => {
     const pull = get().items;
     if (pull.length > 0) return;
@@ -23,6 +24,7 @@ export const useProductsStore = create((set, get) => ({
     console.log('Fetched items:', enriched);
   },
 
+  //TODO 카테고리 1, 2 또는 태그를 기준으로 items를 필터링해 filtered에 저장
   onCategorys: (category1, category2, tags) => {
     const items = get().items;
     const filtered = items.filter((item) => {
@@ -39,6 +41,7 @@ export const useProductsStore = create((set, get) => ({
     return filtered; // 필요시 반환
   },
 
+  //TODO 카테고리 기반 필터링 (filterCate에 저장)
   onCateOnly: (category1, category2) => {
     const items = get().items;
     const filterCate = items.filter((item) => {
@@ -55,6 +58,7 @@ export const useProductsStore = create((set, get) => ({
     return filterCate;
   },
 
+  //TODO 카테고리2 + 태그로 상품 필터링 (cateTags에 저장)
   onCateTag: (category2, tags) => {
     const items = get().items;
     const cateTags = items.filter((item) => {
@@ -74,6 +78,7 @@ export const useProductsStore = create((set, get) => ({
   // -------- 메뉴 생성 ----------
   menu: [],
 
+  //TODO 상품 데이터로부터 메뉴 구조 (menu) 생성
   onMakeMenu: () => {
     const menuList = [];
     const item1 = get().items;
