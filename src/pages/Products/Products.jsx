@@ -1,8 +1,11 @@
 import './scss/Products.scss';
 import CousLet from '../Home/layout/CouLet';
-
 import { categoryKorMap } from '../../store/data';
 import ProductBanner from './layout/ProductBanner';
+import { useEffect } from 'react';
+import { useParams } from 'react-router-dom';
+import { useProductsStore } from '../../store/useProductsStore';
+import ProductList from './layout/ProductList';
 
 const Products = () => {
   const { category1, category2, tags } = useParams();
