@@ -56,6 +56,8 @@ function App() {
         <Route path="/:category1" element={<Products />} />
         <Route path="/:category1/:category2" element={<Products />} />
         <Route path="/:category1/tag/:tags" element={<Products />} />
+        <Route path="/:category1/:category2/tag/:tags" element={<Products />} />
+        <Route path="/:category1/tag/:tags/:category2" element={<Products />} />
         <Route path="/product/:id" element={<ProductDetail />} />
         <Route path="local" element={<Local />} />
         <Route path="ProductBanner" element={<ProductBanner />} />

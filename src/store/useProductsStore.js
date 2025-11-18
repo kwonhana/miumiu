@@ -3,11 +3,10 @@ import { products } from '../api/products';
 import { categoryKorMap } from './data';
 
 export const useProductsStore = create((set, get) => ({
-  // -------- 상품 ----------
+  // TODO-------- 상품 ----------
   items: [],
   filtered: [],
 
-  //TODO API 또는 products 데이터에서 상품 정보를 불러와 상태에 저장 (items)
   onFecthItems: async () => {
     const pull = get().items;
     if (pull.length > 0) return;
@@ -24,67 +23,87 @@ export const useProductsStore = create((set, get) => ({
     console.log('Fetched items:', enriched);
   },
 
-  //TODO 카테고리 1, 2 또는 태그를 기준으로 items를 필터링해 filtered에 저장
-  onCategorys: (category1, category2, tags) => {
-    const items = get().items;
-    const filtered = items.filter((item) => {
-      if (category1 && category2) {
-        return item.category1 === category1 && item.category2 === category2;
-      } else if (category1 && tags) {
-        return item.category1 === category1 && item.tags === tags;
-      } else {
-        return true;
-      }
-    });
-    set({ filtered });
-    console.log('Filtered items:', filtered);
-    return filtered; // 필요시 반환
-  },
-
-  //TODO 카테고리 기반 필터링 (filterCate에 저장)
+  //TODO 카테고리1 + 카테고리2 상품 필터링 (filtered에 저장)
   onCateOnly: (category1, category2) => {
     const items = get().items;
-    const filterCate = items.filter((item) => {
-      if (category1 && category2) {
+    let filtered = items;
+
+    if (category1 && category2) {
+      filtered = items.filter((item) => {
         return item.category1 === category1 && item.category2 === category2;
-      } else if (category1) {
+      });
+    } else if (category1) {
+      filtered = items.filter((item) => {
         return item.category1 === category1;
-      } else {
-        return true;
-      }
-    });
-    set({ filterCate });
-    console.log('filterCate items:', filterCate);
-    return filterCate;
+      });
+    }
+
+    set({ filtered });
+    console.log('onCateOnly 필터됨:', filtered);
+    return filtered;
   },
 
-  //TODO 카테고리2 + 태그로 상품 필터링 (cateTags에 저장)
-  onCateTag: (category2, tags) => {
+  //TODO 카테고리1 + 태그로 상품 필터링 (filtered에 저장)
+  onCateTag: (category1, tags) => {
     const items = get().items;
-    const cateTags = items.filter((item) => {
-      if (category2 && tags) {
-        return item.category2 === category2 && item.tags === tags;
-      } else if (tags) {
+    let filtered = items;
+
+    if (category1 && tags) {
+      filtered = items.filter((item) => {
+        return item.category1 === category1 && item.tags === tags;
+      });
+    } else if (tags) {
+      filtered = items.filter((item) => {
         return item.tags === tags;
-      } else {
-        return true;
-      }
-    });
-    set({ cateTags });
-    console.log('cateTags items:', cateTags);
-    return cateTags;
+      });
+    }
+
+    set({ filtered });
+    console.log('onCateTag 필터됨:', filtered);
+    return filtered;
   },
 
-  // -------- 메뉴 생성 ----------
+  // TODO 카테고리 1만 상품
+  onCate1: (category1) => {
+    const items = get().items;
+    let filtered = items;
+
+    if (category1) {
+      filtered = items.filter((item) => {
+        return item.category1 === category1;
+      });
+    }
+
+    set({ filtered });
+    console.log('onCate1 필터됨:', filtered);
+    return filtered;
+  },
+
+  // TODO 태그만 상품
+  onTags: (tags) => {
+    const items = get().items;
+    let filtered = items;
+
+    if (tags) {
+      filtered = items.filter((item) => {
+        return item.tags === tags;
+      });
+    }
+
+    set({ filtered });
+    console.log('onTags 필터됨:', filtered);
+    return filtered;
+  },
+
+  // TODO-------- 메뉴 생성 ----------
   menu: [],
 
-  //TODO 상품 데이터로부터 메뉴 구조 (menu) 생성
   onMakeMenu: () => {
     const menuList = [];
     const item1 = get().items;
 
     item1.forEach(({ category1, category2, tags, tags2, id, detail_images }) => {
-      // ---- 메인 메뉴 ----
+      // TODO---- 메인 메뉴 ----
       let mainMenu = menuList.find((m) => m.name === category1);
       if (!mainMenu) {
         mainMenu = {
@@ -99,7 +118,7 @@ export const useProductsStore = create((set, get) => ({
         menuList.push(mainMenu);
       }
 
-      // ---- 서브 메뉴 (category2) ----
+      // TODO---- 서브 메뉴 (category2) ----
       if (category2) {
         const hasSubMenu = mainMenu.subMenu.find((s) => s.name === category2);
         if (!hasSubMenu) {
@@ -114,7 +133,7 @@ export const useProductsStore = create((set, get) => ({
         }
       }
 
-      // ---- 서브 메뉴 (tags) ----
+      // TODO---- 서브 메뉴 (tags) ----
       if (tags) {
         const iMenu = mainMenu.subMenu.find((i) => i.name === tags);
         if (!iMenu) {
@@ -133,12 +152,3 @@ export const useProductsStore = create((set, get) => ({
     console.log('Menu list:', menuList);
   },
 }));
-
-// 카테1 카테 2
-// 카테 2 태그 따로 분류해서 모아두기
-
-//카테1
-//카테1 카테2
-//카테1 태그 :태그
-//카테1 카테2 태그 :태그
-//카테1 태그 :태그 카테2
