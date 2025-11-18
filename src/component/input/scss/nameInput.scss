@@ -14,11 +14,11 @@
       @include input.font(1.4rem, 400, input.$base);
 
       &::placeholder {
-        @include input.font(1.4rem, 400, input.$text-666);
+        @include input.font(1.4rem, 400, input.$text-bbb);
       }
 
       &:focus::placeholder {
-        color: input.$text-bbb;
+        color: #fff;
       }
     }
 

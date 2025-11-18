@@ -56,7 +56,6 @@ const BirthdayInput = () => {
     // 성공 success
     // 실패 failure
     <div className={`base-input birthday ${inputClass}`}>
-      <p>생년월일*</p>
       <input
         type="text"
         placeholder="생년월일을 입력해주세요"

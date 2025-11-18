@@ -27,6 +27,7 @@ import ProductBanner from './pages/Products/layout/ProductBanner';
 import ProductDetailNav from './pages/Products/layout/ProductDetailNav';
 import AllProducts from './pages/Products/AllProducts';
 import ProductFilterWrap from './pages/Products/layout/ProductFilterWrap';
+import SearchResult from './pages/Products/SearchResult';
 
 function App() {
   const { onFecthItems, onMakeMenu } = useProductsStore();
@@ -42,7 +43,7 @@ function App() {
         {/* auth */}
         <Route path="login" element={<Login />} />
         <Route path="join" element={<Join />} />
-        <Route path="maypage" element={<Mypage />} />
+        <Route path="mypage" element={<Mypage />} />
         <Route path="oauthredirect" element={<OAuthRedirect />} />
         <Route path="resetid" element={<ResetID />} />
         <Route path="resetpassword" element={<ResetPassword />} />
@@ -53,6 +54,7 @@ function App() {
         <Route path="ordersummary" element={<OrderSummary />} />
         <Route path="payment" element={<Payment />} />
         <Route path="shipping" element={<Shipping />} />
+        <Route path="searchResult" element={<SearchResult />} />
         <Route path="/:category1" element={<Products />} />
         <Route path="/:category1/:category2" element={<Products />} />
         <Route path="/:category1/tag/:tags" element={<Products />} />

@@ -30,7 +30,6 @@ const PhoneInput = () => {
     // 성공 success
     // 실패 failure
     <div className={`base-input phone ${inputClass}`}>
-      <p>전화번호*</p>
       <input
         type="text"
         value={value}

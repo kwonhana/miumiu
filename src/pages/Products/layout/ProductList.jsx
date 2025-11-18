@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Link, useParams } from 'react-router-dom';
+import { Link, useParams, useSearchParams } from 'react-router-dom';
 import { useProductsStore } from '../../../store/useProductsStore';
 
 const ProductList = () => {
@@ -8,8 +8,8 @@ const ProductList = () => {
   const { filtered, onFecthItems, onCateOnly, onCateTag, onCate1 } = useProductsStore();
 
   useEffect(() => {
-    onFecthItems(); // 상품 불러오기
-  }, []);
+    onFecthItems();
+  }, [onFecthItems]);
 
   useEffect(() => {
     if (category1 && category2 && tags) {
@@ -29,7 +29,14 @@ const ProductList = () => {
       {filtered.map((p) => (
         <li className="item" key={p.id}>
           <Link to={`/product/${p.id}`}>
-            <img src={`/assets/images/detail/${p.local_detail_images?.[0]}`} alt={p.name} />
+            <img
+              src={
+                p.local_detail_images?.[0]
+                  ? `/assets/images/detail/${p.local_detail_images[0]}`
+                  : '/assets/images/default-product-image.png'
+              }
+              alt={p.name}
+            />
             <div className="product-text-box">
               <h3>{p.name}</h3>
               <p>{p.price}</p>

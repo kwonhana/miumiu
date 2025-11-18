@@ -93,5 +93,22 @@
         font-weight: 500;
       }
     }
+    .no-result-container {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+    }
+    .no-result-text {
+      font-size: 2rem;
+      font-weight: 500;
+    }
+    .no-result-subtext {
+      font-size: 1.4rem;
+      font-weight: 400;
+      color: main.$text-666;
+    }
   }
 }

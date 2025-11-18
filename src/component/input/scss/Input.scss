@@ -19,7 +19,7 @@
   aspect-ratio: 14/16;
   display: inline-block;
   position: absolute;
-  right: 16px;
+  right: 1.6rem;
   top: 50%;
   transform: translateY(-50%);
   background-image: url('../../../../public/assets/icon/input-password.png');
@@ -46,12 +46,12 @@
 
 //TODO input 디자인
 .base-input {
-  display: inline-block;
-
+  display: block;
   input {
     border: 1px solid input.$line;
     border-radius: 4px;
     padding: 16px 40px 16px 16px;
+    width: 100%;
     @include input.font(1.4rem, 400, input.$base);
 
     &::placeholder {
@@ -81,6 +81,9 @@
       margin-top: 8px;
       @include input.font(1.2rem, 400, #ff0000);
     }
+    .hint {
+      display: none;
+    }
   }
 
   &.success {
@@ -92,6 +95,9 @@
 
     .icon {
       @include iconSuccess();
+    }
+    .hint {
+      display: none;
     }
   }
 }
@@ -175,7 +181,7 @@
 //TODO 생일
 .birthday {
   position: relative;
-  width: fit-content;
+  width: 100%;
 
   &.success {
     .icon {
@@ -190,6 +196,7 @@
   input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
+    justify-content: center;
   }
 
   /* Firefox */

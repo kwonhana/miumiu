@@ -64,7 +64,7 @@ const NameInput = () => {
 
   return (
     <div className="base-input">
-      <span>이름*</span>
+      <p>이름*</p>
       <div className="name-wrap">
         <div className={`input-box ${lastNameStatus}`}>
           <input
