@@ -18,7 +18,7 @@ import OrderComplete from './pages/Checkout/OrderComplete/OrderComplete';
 import OrderSummary from './pages/Checkout/OrderSummary/OrderSummary';
 import Payment from './pages/Checkout/Payment/Payment';
 import { Shipping } from './pages/Checkout/Shipping/Shipping';
-import Products from './pages/Products/Products';
+// import Products from './pages/Products/Products';
 import ProductDetail from './pages/Products/ProductDetail';
 import { useProductsStore } from './store/useProductsStore';
 import { useEffect } from 'react';
@@ -28,13 +28,15 @@ import ProductDetailNav from './pages/Products/layout/ProductDetailNav';
 import AllProducts from './pages/Products/AllProducts';
 import ProductFilterWrap from './pages/Products/layout/ProductFilterWrap';
 import SearchResult from './pages/Products/SearchResult';
+import Category1 from './pages/Products/Category1';
+import Category2 from './pages/Products/Category2';
 
 function App() {
-  const { onFecthItems, onMakeMenu } = useProductsStore();
+  const { onFetchItems, onMakeMenu } = useProductsStore();
   useEffect(() => {
-    onFecthItems();
+    onFetchItems();
     onMakeMenu();
-  }, [onFecthItems, onMakeMenu]);
+  }, [onFetchItems, onMakeMenu]);
   return (
     <>
       <Header />
@@ -55,11 +57,13 @@ function App() {
         <Route path="payment" element={<Payment />} />
         <Route path="shipping" element={<Shipping />} />
         <Route path="searchResult" element={<SearchResult />} />
-        <Route path="/:category1" element={<Products />} />
+        {/* <Route path="/:category1" element={<Products />} />
         <Route path="/:category1/:category2" element={<Products />} />
         <Route path="/:category1/tag/:tags" element={<Products />} />
         <Route path="/:category1/:category2/tag/:tags" element={<Products />} />
-        <Route path="/:category1/tag/:tags/:category2" element={<Products />} />
+        <Route path="/:category1/tag/:tags/:category2" element={<Products />} /> */}
+        <Route path="/:category1" element={<Category1 />} />
+        <Route path="/:category1/:category2" element={<Category2 />} />
         <Route path="/product/:id" element={<ProductDetail />} />
         <Route path="local" element={<Local />} />
         <Route path="ProductBanner" element={<ProductBanner />} />

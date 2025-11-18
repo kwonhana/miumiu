@@ -1,15 +1,16 @@
 import React, { useEffect } from 'react';
 import { Link, useParams, useSearchParams } from 'react-router-dom';
 import { useProductsStore } from '../../../store/useProductsStore';
+import '../scss/ProductList.scss';
 
 const ProductList = () => {
   const { category1, category2, tags } = useParams();
 
-  const { filtered, onFecthItems, onCateOnly, onCateTag, onCate1 } = useProductsStore();
+  const { filtered, onFetchItems, onCateOnly, onCateTag, onCate1 } = useProductsStore();
 
   useEffect(() => {
-    onFecthItems();
-  }, [onFecthItems]);
+    onFetchItems();
+  }, [onFetchItems]);
 
   useEffect(() => {
     if (category1 && category2 && tags) {
@@ -26,23 +27,32 @@ const ProductList = () => {
 
   return (
     <ul className="product-list">
-      {filtered.map((p) => (
-        <li className="item" key={p.id}>
-          <Link to={`/product/${p.id}`}>
-            <img
-              src={
-                p.local_detail_images?.[0]
-                  ? `/assets/images/detail/${p.local_detail_images[0]}`
-                  : '/assets/images/default-product-image.png'
-              }
-              alt={p.name}
-            />
-            <div className="product-text-box">
-              <h3>{p.name}</h3>
-              <p>{p.price}</p>
-            </div>
-          </Link>
-        </li>
+      {filtered.map((p, index) => (
+        <React.Fragment key={index}>
+          <li className="item" key={p.id}>
+            <Link to={`/product/${p.id}`}>
+              <img
+                src={
+                  p.local_detail_images?.[0]
+                    ? `/assets/images/detail/${p.local_detail_images[0]}`
+                    : '/assets/images/default-product-image.png'
+                }
+                alt={p.name}
+              />
+              <div className="product-text-box">
+                <h3>{p.name}</h3>
+                <p>{p.price}</p>
+              </div>
+            </Link>
+          </li>
+
+          {[3].includes(index) && (
+            <>
+              <div className="banner1">베너11</div>
+              <div className="banner2">베너22</div>
+            </>
+          )}
+        </React.Fragment>
       ))}
     </ul>
   );

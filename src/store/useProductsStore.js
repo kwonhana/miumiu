@@ -7,7 +7,7 @@ export const useProductsStore = create((set, get) => ({
   items: [],
   filtered: [],
 
-  onFecthItems: async () => {
+  onFetchItems: async () => {
     const pull = get().items;
     if (pull.length > 0) return;
 

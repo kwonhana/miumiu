@@ -9,10 +9,10 @@ import ProductList from './layout/ProductList';
 
 const Products = () => {
   const { category1, category2, tags } = useParams();
-  const { onFecthItems, onCateOnly, onCateTag, onCate1 } = useProductsStore();
+  const { onFetchItems, onCateOnly, onCateTag, onCate1 } = useProductsStore();
 
   useEffect(() => {
-    onFecthItems(); // 상품 불러오기
+    onFetchItems(); // 상품 불러오기
   }, []);
 
   useEffect(() => {
@@ -33,7 +33,7 @@ const Products = () => {
     else if (category1 && !category2 && !tags) {
       onCate1(category1);
     }
-  }, [category1, category2, tags, onFecthItems, onCateOnly, onCateTag, onCate1]);
+  }, [category1, category2, tags, onFetchItems, onCateOnly, onCateTag, onCate1]);
 
   const categoryName =
     categoryKorMap.find(

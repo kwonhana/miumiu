@@ -9,7 +9,7 @@ import ProductShoesSize from './layout/ProductShoesSize';
 
 const ProductDetail = () => {
   const { id } = useParams();
-  const { items, onFecthItems } = useProductsStore();
+  const { items, onFetchItems } = useProductsStore();
   //상품을 저장하는 변수
   const [product, setProduct] = useState(null);
   //이미지를 저장하는 변수
@@ -20,7 +20,7 @@ const ProductDetail = () => {
   //TODO 데이터 존재 여부 확인하여 데이터 가지고 오기
   useEffect(() => {
     if (items.length === 0) {
-      onFecthItems();
+      onFetchItems();
     }
   }, []);
 

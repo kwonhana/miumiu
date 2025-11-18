@@ -7,12 +7,12 @@ import './scss/Products.scss';
 const SearchResult = () => {
   const [searchParams] = useSearchParams();
   const query = searchParams.get('q');
-  const { filtered, onSearch, onFecthItems } = useProductsStore();
+  const { filtered, onSearch, onFetchItems } = useProductsStore();
   const { currentSearchQuery, setCurrentSearchQuery } = useSearchState();
 
   useEffect(() => {
-    onFecthItems();
-  }, [onFecthItems]);
+    onFetchItems();
+  }, [onFetchItems]);
   useEffect(() => {
     if (query) {
       onSearch(query);
