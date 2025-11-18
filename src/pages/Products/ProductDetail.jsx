@@ -5,6 +5,7 @@ import { useParams } from 'react-router-dom';
 import { useProductsStore } from '../../store/useProductsStore';
 import ProductSkeleton from './layout/ProductSkeleton';
 import ProductDetailNav from './layout/ProductDetailNav';
+import ProductShoesSize from './layout/ProductShoesSize';
 
 const ProductDetail = () => {
   const { id } = useParams();
@@ -143,6 +144,7 @@ const ProductDetail = () => {
                   );
                 })}
               </ul>
+              {product.category1 === 'shoes' && <ProductShoesSize />}
             </div>
           </div>
         </div>
