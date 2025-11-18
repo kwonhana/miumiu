@@ -13,29 +13,43 @@ const ProductDetail = () => {
   const [product, setProduct] = useState(null);
   //이미지를 저장하는 변수
   const [mainImage, setMainImage] = useState('');
+  // TODO 연관 아이템
+  const [relatedProducts, setRelatedProducts] = useState([]);
 
+  //TODO 데이터 존재 여부 확인하여 데이터 가지고 오기
   useEffect(() => {
     if (items.length === 0) {
       onFecthItems();
     }
   }, []);
 
+  //TODO 불러와질 상품 찾기
   useEffect(() => {
     const findItem = items.find((item) => item.id === id);
     setProduct(findItem);
   }, [id, items]);
 
+  //TODO 메인 이미지 찾기
   useEffect(() => {
     if (product?.local_detail_images?.length > 0) {
       setMainImage(product.local_detail_images[0]); // 이때 mainImage는 string으로 가정
     }
   }, [product]);
 
+  //TODO 연관 상품 4개 추출
+  useEffect(() => {
+    if (product) {
+      const related = items
+        .filter((item) => item.id !== product.id && item.category2 === product.category2)
+        .slice(0, 4);
+
+      setRelatedProducts(related);
+    }
+  }, [product, items]);
+
   if (!product) {
     return <ProductSkeleton />;
   }
-  console.log(setMainImage, mainImage, '이미지');
-
   console.log(product, '상세페이지 상품');
 
   return (
@@ -135,8 +149,12 @@ const ProductDetail = () => {
       </section>
       <section className="RelatedProducts">
         <h3>관련 제품</h3>
-
-        <div className="products-wrap"></div>
+        <div className="products-wrap">
+          {relatedProducts.map((item) => {
+            // return
+            // 상품 추가해주시면 됩니다.
+          })}
+        </div>
       </section>
     </>
   );
