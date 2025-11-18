@@ -4,6 +4,8 @@ export const products = [
     index: 1,
     category1: 'wallets',
     category2: 'small',
+    categoryKor1: '지갑',
+    categoryKor2: '반지갑',
     name: '가죽 반지갑',
     price: '₩ 820,000',
     subtitle:
@@ -59,6 +61,8 @@ export const products = [
     index: 2,
     category1: 'wallets',
     category2: 'small',
+    categoryKor1: '지갑',
+    categoryKor2: '반지갑',
     name: '가죽 반지갑',
     price: '₩ 820,000',
     subtitle:
@@ -114,6 +118,8 @@ export const products = [
     index: 3,
     category1: 'wallets',
     category2: 'small',
+    categoryKor1: '지갑',
+    categoryKor2: '반지갑',
     name: '가죽 반지갑',
     price: '₩ 820,000',
     subtitle:
@@ -169,6 +175,8 @@ export const products = [
     index: 4,
     category1: 'wallets',
     category2: 'small',
+    categoryKor1: '지갑',
+    categoryKor2: '반지갑',
     name: '가죽 도큐먼트 홀더',
     price: '₩ 1,160,000',
     subtitle:
@@ -230,6 +238,8 @@ export const products = [
     index: 5,
     category1: 'wallets',
     category2: 'small',
+    categoryKor1: '지갑',
+    categoryKor2: '반지갑',
     name: '가죽 도큐먼트 홀더',
     price: '₩ 1,160,000',
     subtitle:
@@ -291,6 +301,8 @@ export const products = [
     index: 6,
     category1: 'wallets',
     category2: 'small',
+    categoryKor1: '지갑',
+    categoryKor2: '반지갑',
     name: '가죽 도큐먼트 홀더',
     price: '₩ 1,160,000',
     subtitle:
@@ -352,6 +364,8 @@ export const products = [
     index: 7,
     category1: 'wallets',
     category2: 'small',
+    categoryKor1: '지갑',
+    categoryKor2: '반지갑',
     name: '가죽 카드 홀더',
     price: '₩ 1,010,000',
     subtitle:
@@ -413,6 +427,8 @@ export const products = [
     index: 8,
     category1: 'wallets',
     category2: 'small',
+    categoryKor1: '지갑',
+    categoryKor2: '반지갑',
     name: '가죽 카드 홀더',
     price: '₩ 1,010,000',
     subtitle:
@@ -474,6 +490,8 @@ export const products = [
     index: 9,
     category1: 'wallets',
     category2: 'small',
+    categoryKor1: '지갑',
+    categoryKor2: '반지갑',
     name: '가죽 카드 홀더',
     price: '₩ 1,010,000',
     subtitle:
@@ -535,6 +553,8 @@ export const products = [
     index: 10,
     category1: 'wallets',
     category2: 'small',
+    categoryKor1: '지갑',
+    categoryKor2: '반지갑',
     name: '작은 가죽 패치워크 지갑',
     price: '₩ 1,070,000',
     subtitle:
@@ -590,6 +610,8 @@ export const products = [
     index: 11,
     category1: 'wallets',
     category2: 'small',
+    categoryKor1: '지갑',
+    categoryKor2: '반지갑',
     name: '스몰 나파 가죽 지갑',
     price: '₩ 960,000',
     subtitle:
@@ -644,6 +666,8 @@ export const products = [
     index: 12,
     category1: 'wallets',
     category2: 'small',
+    categoryKor1: '지갑',
+    categoryKor2: '반지갑',
     name: '스몰 나파 가죽 지갑',
     price: '₩ 960,000',
     subtitle:
@@ -698,6 +722,8 @@ export const products = [
     index: 13,
     category1: 'wallets',
     category2: 'small',
+    categoryKor1: '지갑',
+    categoryKor2: '반지갑',
     name: '스몰 나파 가죽 지갑',
     price: '₩ 960,000',
     subtitle:
@@ -752,6 +778,8 @@ export const products = [
     index: 14,
     category1: 'wallets',
     category2: 'small',
+    categoryKor1: '지갑',
+    categoryKor2: '반지갑',
     name: '스몰 나파 가죽 지갑',
     price: '₩ 960,000',
     subtitle:
@@ -807,6 +835,8 @@ export const products = [
     index: 15,
     category1: 'wallets',
     category2: 'small',
+    categoryKor1: '지갑',
+    categoryKor2: '반지갑',
     name: '소형 나파 가죽 지갑',
     price: '₩ 1,090,000',
     subtitle:
@@ -861,6 +891,8 @@ export const products = [
     index: 16,
     category1: 'wallets',
     category2: 'small',
+    categoryKor1: '지갑',
+    categoryKor2: '반지갑',
     name: '가죽 반지갑',
     price: '₩ 820,000',
     subtitle:
@@ -916,6 +948,8 @@ export const products = [
     index: 17,
     category1: 'wallets',
     category2: 'small',
+    categoryKor1: '지갑',
+    categoryKor2: '반지갑',
     name: '가죽 반지갑',
     price: '₩ 820,000',
     subtitle:
@@ -971,6 +1005,8 @@ export const products = [
     index: 18,
     category1: 'wallets',
     category2: 'small',
+    categoryKor1: '지갑',
+    categoryKor2: '반지갑',
     name: '가죽 반지갑',
     price: '₩ 850,000',
     subtitle:
@@ -1024,6 +1060,8 @@ export const products = [
     index: 19,
     category1: 'wallets',
     category2: 'small',
+    categoryKor1: '지갑',
+    categoryKor2: '반지갑',
     name: '가죽 반지갑',
     price: '₩ 850,000',
     subtitle:
@@ -1077,6 +1115,8 @@ export const products = [
     index: 20,
     category1: 'wallets',
     category2: 'small',
+    categoryKor1: '지갑',
+    categoryKor2: '반지갑',
     name: '소형 에어즈 가죽 지갑',
     price: '₩ 1,160,000',
     subtitle:
@@ -1130,6 +1170,8 @@ export const products = [
     index: 21,
     category1: 'wallets',
     category2: 'small',
+    categoryKor1: '지갑',
+    categoryKor2: '반지갑',
     name: '마테라쎄 나파 가죽 반지갑',
     price: '₩ 930,000',
     subtitle:
@@ -1192,6 +1234,8 @@ export const products = [
     index: 22,
     category1: 'wallets',
     category2: 'small',
+    categoryKor1: '지갑',
+    categoryKor2: '반지갑',
     name: '스몰 마테라쎄 나파 가죽 지갑',
     price: '₩ 900,000',
     subtitle:
@@ -1247,6 +1291,8 @@ export const products = [
     index: 23,
     category1: 'wallets',
     category2: 'small',
+    categoryKor1: '지갑',
+    categoryKor2: '반지갑',
     name: '스몰 마테라쎄 나파 가죽 지갑',
     price: '₩ 1,140,000',
     subtitle:
@@ -1301,6 +1347,8 @@ export const products = [
     index: 24,
     category1: 'wallets',
     category2: 'small',
+    categoryKor1: '지갑',
+    categoryKor2: '반지갑',
     name: '마테라쎄 나파 가죽 동전 지갑',
     price: '₩ 930,000',
     subtitle:
@@ -1354,6 +1402,8 @@ export const products = [
     index: 1,
     category1: 'wallets',
     category2: 'small',
+    categoryKor1: '지갑',
+    categoryKor2: '반지갑',
     name: '마테라쎄 나파 가죽 반지갑',
     price: '₩ 930,000',
     subtitle:
@@ -1409,6 +1459,8 @@ export const products = [
     index: 2,
     category1: 'wallets',
     category2: 'small',
+    categoryKor1: '지갑',
+    categoryKor2: '반지갑',
     name: '마테라쎄 나파 가죽 반지갑',
     price: '₩ 930,000',
     subtitle:
@@ -1464,6 +1516,8 @@ export const products = [
     index: 3,
     category1: 'wallets',
     category2: 'small',
+    categoryKor1: '지갑',
+    categoryKor2: '반지갑',
     name: '스몰 마테라쎄 나파 가죽 지갑',
     price: '₩ 900,000',
     subtitle:
@@ -1519,6 +1573,8 @@ export const products = [
     index: 4,
     category1: 'wallets',
     category2: 'small',
+    categoryKor1: '지갑',
+    categoryKor2: '반지갑',
     name: '스몰 마테라쎄 나파 가죽 지갑',
     price: '₩ 960,000',
     subtitle:
@@ -1574,6 +1630,8 @@ export const products = [
     index: 5,
     category1: 'wallets',
     category2: 'small',
+    categoryKor1: '지갑',
+    categoryKor2: '반지갑',
     name: '마테라쎄 나파 가죽 반지갑',
     price: '₩ 930,000',
     subtitle:
@@ -1629,6 +1687,8 @@ export const products = [
     index: 6,
     category1: 'wallets',
     category2: 'small',
+    categoryKor1: '지갑',
+    categoryKor2: '반지갑',
     name: '스몰 마테라쎄 나파 가죽 지갑',
     price: '₩ 900,000',
     subtitle:
@@ -1684,6 +1744,8 @@ export const products = [
     index: 7,
     category1: 'wallets',
     category2: 'small',
+    categoryKor1: '지갑',
+    categoryKor2: '반지갑',
     name: '마테라쎄 나파 가죽 반지갑',
     price: '₩ 930,000',
     subtitle:
@@ -1739,6 +1801,8 @@ export const products = [
     index: 8,
     category1: 'wallets',
     category2: 'small',
+    categoryKor1: '지갑',
+    categoryKor2: '반지갑',
     name: '스몰 마테라쎄 나파 가죽 지갑',
     price: '₩ 900,000',
     subtitle:
@@ -1794,6 +1858,8 @@ export const products = [
     index: 9,
     category1: 'wallets',
     category2: 'small',
+    categoryKor1: '지갑',
+    categoryKor2: '반지갑',
     name: '마테라쎄 나파 가죽 반지갑',
     price: '₩ 930,000',
     subtitle:
@@ -1849,6 +1915,8 @@ export const products = [
     index: 10,
     category1: 'wallets',
     category2: 'small',
+    categoryKor1: '지갑',
+    categoryKor2: '반지갑',
     name: '마테라쎄 나파 가죽 반지갑',
     price: '₩ 930,000',
     subtitle:
@@ -1904,6 +1972,8 @@ export const products = [
     index: 11,
     category1: 'wallets',
     category2: 'small',
+    categoryKor1: '지갑',
+    categoryKor2: '반지갑',
     name: '마테라쎄 나파 가죽 반지갑',
     price: '₩ 930,000',
     subtitle:
@@ -1959,6 +2029,8 @@ export const products = [
     index: 12,
     category1: 'wallets',
     category2: 'small',
+    categoryKor1: '지갑',
+    categoryKor2: '반지갑',
     name: '마테라쎄 나파 가죽 반지갑',
     price: '₩ 930,000',
     subtitle:
@@ -2014,6 +2086,8 @@ export const products = [
     index: 13,
     category1: 'wallets',
     category2: 'small',
+    categoryKor1: '지갑',
+    categoryKor2: '반지갑',
     name: '마테라쎄 나파 가죽 반지갑',
     price: '₩ 930,000',
     subtitle:
@@ -2069,6 +2143,8 @@ export const products = [
     index: 14,
     category1: 'wallets',
     category2: 'small',
+    categoryKor1: '지갑',
+    categoryKor2: '반지갑',
     name: '스몰 마테라쎄 나파 가죽 지갑',
     price: '₩ 900,000',
     subtitle:
@@ -2124,6 +2200,8 @@ export const products = [
     index: 15,
     category1: 'wallets',
     category2: 'small',
+    categoryKor1: '지갑',
+    categoryKor2: '반지갑',
     name: '마테라쎄 나파 가죽 반지갑',
     price: '₩ 930,000',
     subtitle:
@@ -2179,6 +2257,8 @@ export const products = [
     index: 16,
     category1: 'wallets',
     category2: 'small',
+    categoryKor1: '지갑',
+    categoryKor2: '반지갑',
     name: '마테라쎄 나파 가죽 동전 지갑',
     price: '₩ 930,000',
     subtitle:
@@ -2232,6 +2312,8 @@ export const products = [
     index: 17,
     category1: 'wallets',
     category2: 'small',
+    categoryKor1: '지갑',
+    categoryKor2: '반지갑',
     name: '마테라쎄 나파 가죽 반지갑',
     price: '₩ 930,000',
     subtitle:
@@ -2287,6 +2369,8 @@ export const products = [
     index: 18,
     category1: 'wallets',
     category2: 'small',
+    categoryKor1: '지갑',
+    categoryKor2: '반지갑',
     name: '스몰 마테라쎄 나파 가죽 지갑',
     price: '₩ 900,000',
     subtitle:
@@ -2342,6 +2426,8 @@ export const products = [
     index: 19,
     category1: 'wallets',
     category2: 'small',
+    categoryKor1: '지갑',
+    categoryKor2: '반지갑',
     name: '마테라쎄 나파 가죽 반지갑',
     price: '₩ 930,000',
     subtitle:
@@ -2397,6 +2483,8 @@ export const products = [
     index: 20,
     category1: 'wallets',
     category2: 'small',
+    categoryKor1: '지갑',
+    categoryKor2: '반지갑',
     name: '스몰 마테라쎄 나파 가죽 지갑',
     price: '₩ 900,000',
     subtitle:
@@ -2452,6 +2540,8 @@ export const products = [
     index: 21,
     category1: 'wallets',
     category2: 'small',
+    categoryKor1: '지갑',
+    categoryKor2: '반지갑',
     name: '마테라쎄 나파 가죽 동전 지갑',
     price: '₩ 930,000',
     subtitle:
@@ -2505,6 +2595,8 @@ export const products = [
     index: 22,
     category1: 'wallets',
     category2: 'small',
+    categoryKor1: '지갑',
+    categoryKor2: '반지갑',
     name: '스몰 마테라쎄 나파 가죽 지갑',
     price: '₩ 900,000',
     subtitle:
@@ -2560,6 +2652,8 @@ export const products = [
     index: 23,
     category1: 'wallets',
     category2: 'small',
+    categoryKor1: '지갑',
+    categoryKor2: '반지갑',
     name: '마테라쎄 나파 가죽 반지갑',
     price: '₩ 930,000',
     subtitle:
@@ -2622,6 +2716,8 @@ export const products = [
     index: 24,
     category1: 'wallets',
     category2: 'small',
+    categoryKor1: '지갑',
+    categoryKor2: '반지갑',
     name: '가죽 반지갑',
     price: '₩ 850,000',
     subtitle:
@@ -2675,6 +2771,8 @@ export const products = [
     index: 1,
     category1: 'wallets',
     category2: 'card',
+    categoryKor1: '지갑',
+    categoryKor2: '카드 지갑',
     name: '마테라쎄 나파 가죽 카드 홀더',
     price: '₩ 590,000',
     subtitle:
@@ -2719,6 +2817,8 @@ export const products = [
     index: 2,
     category1: 'wallets',
     category2: 'card',
+    categoryKor1: '지갑',
+    categoryKor2: '카드 지갑',
     name: '마테라쎄 나파 가죽 카드 홀더',
     price: '₩ 690,000',
     subtitle:
@@ -2772,6 +2872,8 @@ export const products = [
     index: 3,
     category1: 'wallets',
     category2: 'card',
+    categoryKor1: '지갑',
+    categoryKor2: '카드 지갑',
     name: '마테라쎄 나파 가죽 카드 홀더',
     price: '₩ 590,000',
     subtitle:
@@ -2816,6 +2918,8 @@ export const products = [
     index: 4,
     category1: 'wallets',
     category2: 'card',
+    categoryKor1: '지갑',
+    categoryKor2: '카드 지갑',
     name: '가죽 파우치 카드 홀더',
     price: '₩ 620,000',
     subtitle:
@@ -2868,6 +2972,8 @@ export const products = [
     index: 5,
     category1: 'wallets',
     category2: 'card',
+    categoryKor1: '지갑',
+    categoryKor2: '카드 지갑',
     name: '마테라쎄 나파 가죽 카드 홀더',
     price: '₩ 590,000',
     subtitle:
@@ -2912,6 +3018,8 @@ export const products = [
     index: 6,
     category1: 'wallets',
     category2: 'card',
+    categoryKor1: '지갑',
+    categoryKor2: '카드 지갑',
     name: '마테라쎄 나파 가죽 카드 홀더',
     price: '₩ 690,000',
     subtitle:
@@ -2965,6 +3073,8 @@ export const products = [
     index: 7,
     category1: 'wallets',
     category2: 'card',
+    categoryKor1: '지갑',
+    categoryKor2: '카드 지갑',
     name: '가죽 파우치 카드 홀더',
     price: '₩ 620,000',
     subtitle:
@@ -3017,6 +3127,8 @@ export const products = [
     index: 8,
     category1: 'wallets',
     category2: 'card',
+    categoryKor1: '지갑',
+    categoryKor2: '카드 지갑',
     name: '가죽 파우치 카드 홀더',
     price: '₩ 620,000',
     subtitle:
@@ -3069,6 +3181,8 @@ export const products = [
     index: 9,
     category1: 'wallets',
     category2: 'card',
+    categoryKor1: '지갑',
+    categoryKor2: '카드 지갑',
     name: '가죽 파우치 카드 홀더',
     price: '₩ 620,000',
     subtitle:
@@ -3121,6 +3235,8 @@ export const products = [
     index: 10,
     category1: 'wallets',
     category2: 'card',
+    categoryKor1: '지갑',
+    categoryKor2: '카드 지갑',
     name: '가죽 카드 지갑',
     price: '₩ 490,000',
     subtitle:
@@ -3164,6 +3280,8 @@ export const products = [
     index: 11,
     category1: 'wallets',
     category2: 'card',
+    categoryKor1: '지갑',
+    categoryKor2: '카드 지갑',
     name: '가죽 카드 지갑',
     price: '₩ 490,000',
     subtitle:
@@ -3207,6 +3325,8 @@ export const products = [
     index: 12,
     category1: 'wallets',
     category2: 'card',
+    categoryKor1: '지갑',
+    categoryKor2: '카드 지갑',
     name: '가죽 카드 지갑',
     price: '₩ 490,000',
     subtitle:
@@ -3250,6 +3370,8 @@ export const products = [
     index: 13,
     category1: 'wallets',
     category2: 'card',
+    categoryKor1: '지갑',
+    categoryKor2: '카드 지갑',
     name: '가죽 카드 지갑',
     price: '₩ 520,000',
     subtitle:
@@ -3303,6 +3425,8 @@ export const products = [
     index: 14,
     category1: 'wallets',
     category2: 'card',
+    categoryKor1: '지갑',
+    categoryKor2: '카드 지갑',
     name: '가죽 카드 지갑',
     price: '₩ 520,000',
     subtitle:
@@ -3356,6 +3480,8 @@ export const products = [
     index: 15,
     category1: 'wallets',
     category2: 'card',
+    categoryKor1: '지갑',
+    categoryKor2: '카드 지갑',
     name: '가죽 카드 지갑',
     price: '₩ 520,000',
     subtitle:
@@ -3409,6 +3535,8 @@ export const products = [
     index: 16,
     category1: 'wallets',
     category2: 'card',
+    categoryKor1: '지갑',
+    categoryKor2: '카드 지갑',
     name: '가죽 패치워크 파우치 카드 홀더',
     price: '₩ 850,000',
     subtitle:
@@ -3462,6 +3590,8 @@ export const products = [
     index: 17,
     category1: 'wallets',
     category2: 'card',
+    categoryKor1: '지갑',
+    categoryKor2: '카드 지갑',
     name: '가죽 패치워크 카드 홀더',
     price: '₩ 680,000',
     subtitle:
@@ -3506,6 +3636,8 @@ export const products = [
     index: 18,
     category1: 'wallets',
     category2: 'card',
+    categoryKor1: '지갑',
+    categoryKor2: '카드 지갑',
     name: '나파 가죽 카드 홀더',
     tags: '나파',
     price: '₩ 750,000',
@@ -3552,6 +3684,8 @@ export const products = [
     index: 19,
     category1: 'wallets',
     category2: 'card',
+    categoryKor1: '지갑',
+    categoryKor2: '카드 지갑',
     name: '나파 가죽 카드 지갑',
     tags: '나파',
     price: '₩ 750,000',
@@ -3599,6 +3733,8 @@ export const products = [
     index: 20,
     category1: 'wallets',
     category2: 'card',
+    categoryKor1: '지갑',
+    categoryKor2: '카드 지갑',
     name: '나파 가죽 엔벨롭 카드 홀더',
     tags: '나파',
     price: '₩ 660,000',
@@ -3652,6 +3788,8 @@ export const products = [
     index: 21,
     category1: 'wallets',
     category2: 'card',
+    categoryKor1: '지갑',
+    categoryKor2: '카드 지갑',
     name: '나파 가죽 엔벨롭 카드 홀더',
     tags: '나파',
     price: '₩ 660,000',
@@ -3705,6 +3843,8 @@ export const products = [
     index: 22,
     category1: 'wallets',
     category2: 'card',
+    categoryKor1: '지갑',
+    categoryKor2: '카드 지갑',
     name: '가죽 카드 홀더',
     price: '₩ 800,000',
     subtitle:
@@ -3757,6 +3897,8 @@ export const products = [
     index: 23,
     category1: 'wallets',
     category2: 'card',
+    categoryKor1: '지갑',
+    categoryKor2: '카드 지갑',
     name: '가죽 카드 홀더',
     price: '₩ 800,000',
     subtitle:
@@ -3809,6 +3951,8 @@ export const products = [
     index: 24,
     category1: 'wallets',
     category2: 'card',
+    categoryKor1: '지갑',
+    categoryKor2: '카드 지갑',
     name: '마테라쎄 나파 가죽 카드 홀더',
     price: '₩ 750,000',
     subtitle:
@@ -3856,6 +4000,8 @@ export const products = [
     index: 1,
     category1: 'wallets',
     category2: 'card',
+    categoryKor1: '지갑',
+    categoryKor2: '카드 지갑',
     name: '마테라쎄 나파 가죽 카드 홀더',
     price: '₩ 660,000',
     subtitle:
@@ -3903,6 +4049,8 @@ export const products = [
     index: 2,
     category1: 'wallets',
     category2: 'card',
+    categoryKor1: '지갑',
+    categoryKor2: '카드 지갑',
     name: '마테라쎄 나파 가죽 카드 홀더',
     price: '₩ 690,000',
     subtitle:
@@ -3956,6 +4104,8 @@ export const products = [
     index: 3,
     category1: 'wallets',
     category2: 'card',
+    categoryKor1: '지갑',
+    categoryKor2: '카드 지갑',
     name: '마테라쎄 나파 가죽 카드 홀더',
     price: '₩ 630,000',
     subtitle:
@@ -4000,6 +4150,8 @@ export const products = [
     index: 4,
     category1: 'wallets',
     category2: 'card',
+    categoryKor1: '지갑',
+    categoryKor2: '카드 지갑',
     name: '마테라쎄 나파 가죽 카드 홀더',
     price: '₩ 590,000',
     subtitle:
@@ -4044,6 +4196,8 @@ export const products = [
     index: 5,
     category1: 'wallets',
     category2: 'card',
+    categoryKor1: '지갑',
+    categoryKor2: '카드 지갑',
     name: '마테라쎄 나파 가죽 카드 홀더',
     price: '₩ 590,000',
     subtitle:
@@ -4088,6 +4242,8 @@ export const products = [
     index: 6,
     category1: 'wallets',
     category2: 'card',
+    categoryKor1: '지갑',
+    categoryKor2: '카드 지갑',
     name: '마테라쎄 나파 가죽 카드 홀더',
     price: '₩ 590,000',
     subtitle:
@@ -4132,6 +4288,8 @@ export const products = [
     index: 7,
     category1: 'wallets',
     category2: 'card',
+    categoryKor1: '지갑',
+    categoryKor2: '카드 지갑',
     name: '마테라쎄 나파 가죽 카드 홀더',
     price: '₩ 590,000',
     subtitle:
@@ -4176,6 +4334,8 @@ export const products = [
     index: 8,
     category1: 'wallets',
     category2: 'card',
+    categoryKor1: '지갑',
+    categoryKor2: '카드 지갑',
     name: '마테라세 나파 가죽 카드 지갑',
     price: '₩ 750,000',
     subtitle:
@@ -4223,6 +4383,8 @@ export const products = [
     index: 9,
     category1: 'wallets',
     category2: 'card',
+    categoryKor1: '지갑',
+    categoryKor2: '카드 지갑',
     name: '마테라쎄 나파 가죽 카드 홀더',
     price: '₩ 590,000',
     subtitle:
@@ -4276,6 +4438,8 @@ export const products = [
     index: 10,
     category1: 'wallets',
     category2: 'card',
+    categoryKor1: '지갑',
+    categoryKor2: '카드 지갑',
     name: '마테라세 나파 가죽 카드 지갑',
     price: '₩ 750,000',
     subtitle:
@@ -4322,6 +4486,8 @@ export const products = [
     index: 11,
     category1: 'wallets',
     category2: 'card',
+    categoryKor1: '지갑',
+    categoryKor2: '카드 지갑',
     name: '마테라세 나파 가죽 카드 지갑',
     price: '₩ 750,000',
     subtitle:
@@ -4366,6 +4532,8 @@ export const products = [
     index: 12,
     category1: 'wallets',
     category2: 'card',
+    categoryKor1: '지갑',
+    categoryKor2: '카드 지갑',
     name: '마테라쎄 나파 가죽 카드 홀더',
     price: '₩ 690,000',
     subtitle:
@@ -4413,6 +4581,8 @@ export const products = [
     index: 13,
     category1: 'wallets',
     category2: 'card',
+    categoryKor1: '지갑',
+    categoryKor2: '카드 지갑',
     name: '마테라쎄 나파 가죽 카드 홀더',
     price: '₩ 590,000',
     subtitle:
@@ -4459,6 +4629,8 @@ export const products = [
     index: 14,
     category1: 'wallets',
     category2: 'card',
+    categoryKor1: '지갑',
+    categoryKor2: '카드 지갑',
     name: '마테라쎄 나파 가죽 카드 홀더',
     price: '₩ 750,000',
     subtitle:
@@ -4503,6 +4675,8 @@ export const products = [
     index: 15,
     category1: 'wallets',
     category2: 'card',
+    categoryKor1: '지갑',
+    categoryKor2: '카드 지갑',
     name: '마테라쎄 나파 가죽 카드 홀더',
     price: '₩ 690,000',
     subtitle:
@@ -4547,6 +4721,8 @@ export const products = [
     index: 16,
     category1: 'wallets',
     category2: 'card',
+    categoryKor1: '지갑',
+    categoryKor2: '카드 지갑',
     name: '마테라쎄 나파 가죽 카드 홀더',
     price: '₩ 590,000',
     subtitle:
@@ -4600,6 +4776,8 @@ export const products = [
     index: 17,
     category1: 'wallets',
     category2: 'card',
+    categoryKor1: '지갑',
+    categoryKor2: '카드 지갑',
     name: '마테라쎄 나파 가죽 카드 홀더',
     price: '₩ 590,000',
     subtitle:
@@ -4653,6 +4831,8 @@ export const products = [
     index: 18,
     category1: 'wallets',
     category2: 'card',
+    categoryKor1: '지갑',
+    categoryKor2: '카드 지갑',
     name: '마테라쎄 나파 가죽 카드 홀더',
     price: '₩ 690,000',
     subtitle:
@@ -4697,6 +4877,8 @@ export const products = [
     index: 19,
     category1: 'wallets',
     category2: 'card',
+    categoryKor1: '지갑',
+    categoryKor2: '카드 지갑',
     name: '마테라세 나파 가죽 카드 지갑',
     price: '₩ 750,000',
     subtitle:
@@ -4748,6 +4930,8 @@ export const products = [
     index: 20,
     category1: 'wallets',
     category2: 'card',
+    categoryKor1: '지갑',
+    categoryKor2: '카드 지갑',
     name: '마테라쎄 나파 가죽 카드 홀더',
     price: '₩ 590,000',
     subtitle:
@@ -4794,6 +4978,8 @@ export const products = [
     index: 21,
     category1: 'wallets',
     category2: 'card',
+    categoryKor1: '지갑',
+    categoryKor2: '카드 지갑',
     name: '마테라쎄 나파 가죽 카드 홀더',
     price: '₩ 590,000',
     subtitle:
@@ -4841,6 +5027,8 @@ export const products = [
     index: 22,
     category1: 'wallets',
     category2: 'card',
+    categoryKor1: '지갑',
+    categoryKor2: '카드 지갑',
     name: '마테라쎄 나파 가죽 카드 홀더',
     price: '₩ 690,000',
     subtitle:
@@ -4884,6 +5072,8 @@ export const products = [
     index: 1,
     category1: 'wallets',
     category2: 'card',
+    categoryKor1: '지갑',
+    categoryKor2: '카드 지갑',
     name: '가죽 카드 지갑',
     price: '₩ 490,000',
     subtitle:
@@ -4927,6 +5117,8 @@ export const products = [
     index: 2,
     category1: 'wallets',
     category2: 'card',
+    categoryKor1: '지갑',
+    categoryKor2: '카드 지갑',
     name: '마테라쎄 나파 가죽 카드 홀더',
     price: '₩ 690,000',
     subtitle:
@@ -4973,6 +5165,8 @@ export const products = [
     index: 3,
     category1: 'wallets',
     category2: 'card',
+    categoryKor1: '지갑',
+    categoryKor2: '카드 지갑',
     name: '나파 가죽 엔벨롭 카드 홀더',
     tags: '나파',
     price: '₩ 660,000',
@@ -5026,6 +5220,8 @@ export const products = [
     index: 1,
     category1: 'bags',
     category2: 'mini',
+    categoryKor1: '가방',
+    categoryKor2: '미니백',
     name: '가죽 파우치',
     price: '₩ 1,860,000',
     subtitle:
@@ -5085,6 +5281,8 @@ export const products = [
     index: 2,
     category1: 'bags',
     category2: 'mini',
+    categoryKor1: '가방',
+    categoryKor2: '미니백',
     name: '나파 가죽 미니 백',
     tags: '나파',
     price: '₩ 1,640,000',
@@ -5158,6 +5356,8 @@ export const products = [
     index: 3,
     category1: 'bags',
     category2: 'mini',
+    categoryKor1: '가방',
+    categoryKor2: '미니백',
     name: '나파 가죽 미니 백',
     tags: '나파',
     price: '₩ 1,640,000',
@@ -5217,6 +5417,8 @@ export const products = [
     index: 4,
     category1: 'bags',
     category2: 'mini',
+    categoryKor1: '가방',
+    categoryKor2: '미니백',
     name: '나파 가죽 미니 백',
     tags: '나파',
     price: '₩ 1,640,000',
@@ -5290,6 +5492,8 @@ export const products = [
     index: 5,
     category1: 'bags',
     category2: 'mini',
+    categoryKor1: '가방',
+    categoryKor2: '미니백',
     name: '나파 가죽 파우치',
     tags: '나파',
     price: '₩ 2,150,000',
@@ -5350,6 +5554,8 @@ export const products = [
     index: 6,
     category1: 'bags',
     category2: 'mini',
+    categoryKor1: '가방',
+    categoryKor2: '미니백',
     name: '스웨이드 파우치',
     price: '₩ 1,640,000',
     subtitle:
@@ -5408,6 +5614,8 @@ export const products = [
     index: 7,
     category1: 'bags',
     category2: 'mini',
+    categoryKor1: '가방',
+    categoryKor2: '미니백',
     name: '스웨이드 파우치',
     price: '₩ 1,640,000',
     subtitle:
@@ -5466,6 +5674,8 @@ export const products = [
     index: 8,
     category1: 'bags',
     category2: 'mini',
+    categoryKor1: '가방',
+    categoryKor2: '미니백',
     name: '스웨이드 파우치',
     price: '₩ 1,640,000',
     subtitle:
@@ -5524,6 +5734,8 @@ export const products = [
     index: 9,
     category1: 'bags',
     category2: 'mini',
+    categoryKor1: '가방',
+    categoryKor2: '미니백',
     name: '아이비 가죽 핸드백',
     tags: 'ivy',
     tags2: 'iconic',
@@ -5599,6 +5811,8 @@ export const products = [
     index: 10,
     category1: 'bags',
     category2: 'mini',
+    categoryKor1: '가방',
+    categoryKor2: '미니백',
     name: '아이비 가죽 핸드백',
     tags: 'ivy',
     tags2: 'iconic',
@@ -5674,6 +5888,8 @@ export const products = [
     index: 11,
     category1: 'bags',
     category2: 'mini',
+    categoryKor1: '가방',
+    categoryKor2: '미니백',
     name: '아이비 가죽 핸드백',
     tags: 'ivy',
     tags2: 'iconic',
@@ -5752,6 +5968,8 @@ export const products = [
     index: 12,
     category1: 'bags',
     category2: 'mini',
+    categoryKor1: '가방',
+    categoryKor2: '미니백',
     name: '아이비 가죽 핸드백',
     tags: 'ivy',
     tags2: 'iconic',
@@ -5817,6 +6035,8 @@ export const products = [
     index: 13,
     category1: 'bags',
     category2: 'mini',
+    categoryKor1: '가방',
+    categoryKor2: '미니백',
     name: '아방뛰르 미니 나파 가죽 백',
     tags: 'abang',
     tags2: 'iconic',
@@ -5901,6 +6121,8 @@ export const products = [
     index: 14,
     category1: 'bags',
     category2: 'mini',
+    categoryKor1: '가방',
+    categoryKor2: '미니백',
     name: '아방뛰르 미니 나파 가죽 백',
     tags: 'abang',
     tags2: 'iconic',
@@ -5964,6 +6186,8 @@ export const products = [
     index: 15,
     category1: 'bags',
     category2: 'mini',
+    categoryKor1: '가방',
+    categoryKor2: '미니백',
     name: '아방뛰르 미니 나파 가죽 백',
     tags: 'abang',
     tags2: 'iconic',
@@ -6048,6 +6272,8 @@ export const products = [
     index: 16,
     category1: 'bags',
     category2: 'mini',
+    categoryKor1: '가방',
+    categoryKor2: '미니백',
     name: '아르카디 마테라쎄 나파 가죽 미니 백',
     tags: 'arcadie',
     tags2: 'iconic',
@@ -6112,6 +6338,8 @@ export const products = [
     index: 17,
     category1: 'bags',
     category2: 'mini',
+    categoryKor1: '가방',
+    categoryKor2: '미니백',
     name: '아르카디 마테라쎄 나파 가죽 미니 백',
     tags: 'arcadie',
     tags2: 'iconic',
@@ -6176,6 +6404,8 @@ export const products = [
     index: 18,
     category1: 'bags',
     category2: 'mini',
+    categoryKor1: '가방',
+    categoryKor2: '미니백',
     name: '아르카디 마테라쎄 나파 가죽 미니 백',
     tags: 'arcadie',
     tags2: 'iconic',
@@ -6261,6 +6491,8 @@ export const products = [
     index: 19,
     category1: 'bags',
     category2: 'mini',
+    categoryKor1: '가방',
+    categoryKor2: '미니백',
     name: '아르카디 마테라쎄 나파 가죽 미니 백',
     tags: 'arcadie',
     tags2: 'iconic',
@@ -6339,6 +6571,8 @@ export const products = [
     index: 20,
     category1: 'bags',
     category2: 'mini',
+    categoryKor1: '가방',
+    categoryKor2: '미니백',
     name: '아르카디 가죽 미니 백',
     tags: 'arcadie',
     tags2: 'iconic',
@@ -6416,6 +6650,8 @@ export const products = [
     index: 21,
     category1: 'bags',
     category2: 'mini',
+    categoryKor1: '가방',
+    categoryKor2: '미니백',
     name: '아르카디 가죽 미니 백',
     tags: 'arcadie',
     tags2: 'iconic',
@@ -6479,6 +6715,8 @@ export const products = [
     index: 22,
     category1: 'bags',
     category2: 'mini',
+    categoryKor1: '가방',
+    categoryKor2: '미니백',
     name: '아르카디 가죽 미니 백',
     tags: 'arcadie',
     tags2: 'iconic',
@@ -6542,6 +6780,8 @@ export const products = [
     index: 23,
     category1: 'bags',
     category2: 'mini',
+    categoryKor1: '가방',
+    categoryKor2: '미니백',
     name: '아르카디 가죽 미니 백',
     tags: 'arcadie',
     tags2: 'iconic',
@@ -6619,6 +6859,8 @@ export const products = [
     index: 24,
     category1: 'bags',
     category2: 'mini',
+    categoryKor1: '가방',
+    categoryKor2: '미니백',
     name: '아르카디 가죽 미니 백',
     tags: 'arcadie',
     tags2: 'iconic',
@@ -6703,6 +6945,8 @@ export const products = [
     index: 1,
     category1: 'jewellery',
     category2: 'earrings',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '귀걸이',
     name: '크리스털 장식 메탈 이어링',
     price: '₩ 1,250,000',
     subtitle:
@@ -6741,6 +6985,8 @@ export const products = [
     index: 2,
     category1: 'jewellery',
     category2: 'earrings',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '귀걸이',
     name: '메탈 보우 귀걸이',
     price: '₩ 1,030,000',
     subtitle:
@@ -6791,6 +7037,8 @@ export const products = [
     index: 3,
     category1: 'jewellery',
     category2: 'earrings',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '귀걸이',
     name: '메탈 귀걸이',
     price: '₩ 1,030,000',
     subtitle:
@@ -6827,6 +7075,8 @@ export const products = [
     index: 4,
     category1: 'jewellery',
     category2: 'earrings',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '귀걸이',
     name: '크리스털 장식 메탈 귀걸이',
     price: '₩ 1,000,000',
     subtitle:
@@ -6858,6 +7108,8 @@ export const products = [
     index: 5,
     category1: 'jewellery',
     category2: 'earrings',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '귀걸이',
     name: '에나멜 메탈 이어링',
     price: '₩ 1,100,000',
     subtitle:
@@ -6894,6 +7146,8 @@ export const products = [
     index: 6,
     category1: 'jewellery',
     category2: 'earrings',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '귀걸이',
     name: '에나멜 메탈 이어링',
     price: '₩ 1,100,000',
     subtitle:
@@ -6930,6 +7184,8 @@ export const products = [
     index: 7,
     category1: 'jewellery',
     category2: 'earrings',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '귀걸이',
     name: '에나멜 메탈 이어링',
     price: '₩ 1,100,000',
     subtitle:
@@ -6966,6 +7222,8 @@ export const products = [
     index: 8,
     category1: 'jewellery',
     category2: 'earrings',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '귀걸이',
     name: '에나멜 메탈 이어링',
     price: '₩ 1,100,000',
     subtitle:
@@ -7002,6 +7260,8 @@ export const products = [
     index: 9,
     category1: 'jewellery',
     category2: 'earrings',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '귀걸이',
     name: '에나멜 메탈 이어링',
     price: '₩ 1,100,000',
     subtitle:
@@ -7038,6 +7298,8 @@ export const products = [
     index: 10,
     category1: 'jewellery',
     category2: 'earrings',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '귀걸이',
     name: '에나멜 메탈 이어링',
     price: '₩ 850,000',
     subtitle:
@@ -7074,6 +7336,8 @@ export const products = [
     index: 11,
     category1: 'jewellery',
     category2: 'earrings',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '귀걸이',
     name: '에나멜 메탈 이어링',
     price: '₩ 850,000',
     subtitle:
@@ -7110,6 +7374,8 @@ export const products = [
     index: 12,
     category1: 'jewellery',
     category2: 'earrings',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '귀걸이',
     name: '에나멜 메탈 이어링',
     price: '₩ 850,000',
     subtitle:
@@ -7146,6 +7412,8 @@ export const products = [
     index: 13,
     category1: 'jewellery',
     category2: 'earrings',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '귀걸이',
     name: '메탈 이어링',
     price: '₩ 850,000',
     subtitle:
@@ -7177,6 +7445,8 @@ export const products = [
     index: 14,
     category1: 'jewellery',
     category2: 'earrings',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '귀걸이',
     name: '에나멜 메탈 이어링',
     price: '₩ 850,000',
     subtitle:
@@ -7208,6 +7478,8 @@ export const products = [
     index: 15,
     category1: 'jewellery',
     category2: 'earrings',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '귀걸이',
     name: '메탈 및 가죽 이어링',
     price: '₩ 1,100,000',
     subtitle:
@@ -7250,6 +7522,8 @@ export const products = [
     index: 16,
     category1: 'jewellery',
     category2: 'earrings',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '귀걸이',
     name: '메탈 및 가죽 이어링',
     price: '₩ 850,000',
     subtitle:
@@ -7286,6 +7560,8 @@ export const products = [
     index: 17,
     category1: 'jewellery',
     category2: 'earrings',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '귀걸이',
     name: '메탈 및 가죽 이어링',
     price: '₩ 850,000',
     subtitle:
@@ -7322,6 +7598,8 @@ export const products = [
     index: 18,
     category1: 'jewellery',
     category2: 'earrings',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '귀걸이',
     name: '에나멜 메탈 귀걸이',
     price: '₩ 490,000',
     subtitle:
@@ -7365,6 +7643,8 @@ export const products = [
     index: 19,
     category1: 'jewellery',
     category2: 'earrings',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '귀걸이',
     name: '에나멜 메탈 귀걸이',
     price: '₩ 490,000',
     subtitle:
@@ -7408,6 +7688,8 @@ export const products = [
     index: 20,
     category1: 'jewellery',
     category2: 'earrings',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '귀걸이',
     name: '에나멜 메탈 귀걸이',
     price: '₩ 490,000',
     subtitle:
@@ -7451,6 +7733,8 @@ export const products = [
     index: 21,
     category1: 'jewellery',
     category2: 'earrings',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '귀걸이',
     name: '에나멜 메탈 귀걸이',
     price: '₩ 490,000',
     subtitle:
@@ -7501,6 +7785,8 @@ export const products = [
     index: 22,
     category1: 'jewellery',
     category2: 'earrings',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '귀걸이',
     name: '에나멜 메탈 귀걸이',
     price: '₩ 490,000',
     subtitle:
@@ -7537,6 +7823,8 @@ export const products = [
     index: 23,
     category1: 'jewellery',
     category2: 'earrings',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '귀걸이',
     name: '에나멜 메탈 귀걸이',
     price: '₩ 490,000',
     subtitle:
@@ -7573,6 +7861,8 @@ export const products = [
     index: 24,
     category1: 'jewellery',
     category2: 'earrings',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '귀걸이',
     name: '에나멜 메탈 귀걸이',
     price: '₩ 490,000',
     subtitle:
@@ -7609,6 +7899,8 @@ export const products = [
     index: 1,
     category1: 'jewellery',
     category2: 'necklaces',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '목걸이',
     name: '메탈 목걸이',
     price: '₩ 800,000',
     subtitle:
@@ -7646,6 +7938,8 @@ export const products = [
     index: 2,
     category1: 'jewellery',
     category2: 'necklaces',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '목걸이',
     name: '메탈 목걸이',
     price: '₩ 800,000',
     subtitle:
@@ -7683,6 +7977,8 @@ export const products = [
     index: 3,
     category1: 'jewellery',
     category2: 'necklaces',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '목걸이',
     name: '메탈 및 가죽 목걸이',
     price: '₩ 1,570,000',
     subtitle:
@@ -7714,6 +8010,8 @@ export const products = [
     index: 4,
     category1: 'jewellery',
     category2: 'necklaces',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '목걸이',
     name: '메탈 및 가죽 목걸이',
     price: '₩ 1,690,000',
     subtitle:
@@ -7758,6 +8056,8 @@ export const products = [
     index: 5,
     category1: 'jewellery',
     category2: 'necklaces',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '목걸이',
     name: '메탈 목걸이',
     price: '₩ 1,000,000',
     subtitle:
@@ -7794,6 +8094,8 @@ export const products = [
     index: 6,
     category1: 'jewellery',
     category2: 'necklaces',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '목걸이',
     name: '메탈 목걸이',
     price: '₩ 1,000,000',
     subtitle:
@@ -7830,6 +8132,8 @@ export const products = [
     index: 7,
     category1: 'jewellery',
     category2: 'necklaces',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '목걸이',
     name: '메탈 목걸이',
     price: '₩ 1,000,000',
     subtitle:
@@ -7866,6 +8170,8 @@ export const products = [
     index: 8,
     category1: 'jewellery',
     category2: 'necklaces',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '목걸이',
     name: '메탈 목걸이',
     price: '₩ 1,100,000',
     subtitle:
@@ -7902,6 +8208,8 @@ export const products = [
     index: 9,
     category1: 'jewellery',
     category2: 'necklaces',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '목걸이',
     name: '메탈 목걸이',
     price: '₩ 1,100,000',
     subtitle:
@@ -7938,6 +8246,8 @@ export const products = [
     index: 10,
     category1: 'jewellery',
     category2: 'necklaces',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '목걸이',
     name: '메탈 목걸이',
     price: '₩ 1,100,000',
     subtitle:
@@ -7974,6 +8284,8 @@ export const products = [
     index: 11,
     category1: 'jewellery',
     category2: 'necklaces',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '목걸이',
     name: '메탈 목걸이',
     price: '₩ 1,100,000',
     subtitle:
@@ -8010,6 +8322,8 @@ export const products = [
     index: 12,
     category1: 'jewellery',
     category2: 'necklaces',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '목걸이',
     name: '메탈 목걸이',
     price: '₩ 1,000,000',
     subtitle:
@@ -8046,6 +8360,8 @@ export const products = [
     index: 13,
     category1: 'jewellery',
     category2: 'necklaces',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '목걸이',
     name: '메탈 목걸이',
     price: '₩ 1,000,000',
     subtitle:
@@ -8082,6 +8398,8 @@ export const products = [
     index: 14,
     category1: 'jewellery',
     category2: 'necklaces',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '목걸이',
     name: '메탈 및 가죽 목걸이',
     price: '₩ 2,600,000',
     subtitle:
@@ -8118,6 +8436,8 @@ export const products = [
     index: 15,
     category1: 'jewellery',
     category2: 'necklaces',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '목걸이',
     name: '메탈 및 가죽 목걸이',
     price: '₩ 2,600,000',
     subtitle:
@@ -8154,6 +8474,8 @@ export const products = [
     index: 16,
     category1: 'jewellery',
     category2: 'necklaces',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '목걸이',
     name: '가죽 초커',
     price: '₩ 930,000',
     subtitle:
@@ -8191,6 +8513,8 @@ export const products = [
     index: 17,
     category1: 'jewellery',
     category2: 'necklaces',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '목걸이',
     name: '가죽 초커',
     price: '₩ 930,000',
     subtitle:
@@ -8228,6 +8552,8 @@ export const products = [
     index: 18,
     category1: 'jewellery',
     category2: 'necklaces',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '목걸이',
     name: '로고 목걸이',
     price: '₩ 890,000',
     subtitle:
@@ -8264,6 +8590,8 @@ export const products = [
     index: 19,
     category1: 'jewellery',
     category2: 'necklaces',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '목걸이',
     name: '메탈 목걸이',
     price: '₩ 710,000',
     subtitle: '아이코닉한 미우미우 로고가 메탈 목걸이의 세련된 라인을 더욱 돋보이게 합니다.',
@@ -8299,6 +8627,8 @@ export const products = [
     index: 20,
     category1: 'jewellery',
     category2: 'necklaces',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '목걸이',
     name: '메탈 목걸이',
     price: '₩ 710,000',
     subtitle: '아이코닉한 미우미우 로고가 메탈 목걸이의 세련된 라인을 더욱 돋보이게 합니다.',
@@ -8334,6 +8664,8 @@ export const products = [
     index: 21,
     category1: 'jewellery',
     category2: 'necklaces',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '목걸이',
     name: '메탈 목걸이',
     price: '₩ 710,000',
     subtitle: '아이코닉한 미우미우 로고가 메탈 목걸이의 세련된 라인을 더욱 돋보이게 합니다.',
@@ -8369,6 +8701,8 @@ export const products = [
     index: 22,
     category1: 'jewellery',
     category2: 'necklaces',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '목걸이',
     name: '메탈 목걸이',
     price: '₩ 710,000',
     subtitle: '아이코닉한 미우미우 로고가 메탈 목걸이의 세련된 라인을 더욱 돋보이게 합니다.',
@@ -8404,6 +8738,8 @@ export const products = [
     index: 23,
     category1: 'jewellery',
     category2: 'necklaces',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '목걸이',
     name: '인조 진주 장식 메탈 목걸이',
     price: '₩ 1,390,000',
     subtitle: '우아한 진주가 돋보이는 섬세한 디자인으로 시대를 초월하는 매력의 목걸이입니다.',
@@ -8440,6 +8776,8 @@ export const products = [
     index: 24,
     category1: 'jewellery',
     category2: 'necklaces',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '목걸이',
     name: '진주 및 메탈 초커',
     price: '₩ 1,250,000',
     subtitle:
@@ -8478,6 +8816,8 @@ export const products = [
     index: 1,
     category1: 'jewellery',
     category2: 'bracelets',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '팔찌',
     name: '가죽 팔찌',
     price: '₩ 500,000',
     subtitle:
@@ -8514,6 +8854,8 @@ export const products = [
     index: 2,
     category1: 'jewellery',
     category2: 'bracelets',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '팔찌',
     name: '가죽 팔찌',
     price: '₩ 500,000',
     subtitle:
@@ -8550,6 +8892,8 @@ export const products = [
     index: 3,
     category1: 'jewellery',
     category2: 'bracelets',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '팔찌',
     name: '가죽 팔찌',
     price: '₩ 500,000',
     subtitle:
@@ -8586,6 +8930,8 @@ export const products = [
     index: 4,
     category1: 'jewellery',
     category2: 'bracelets',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '팔찌',
     name: '가죽 팔찌',
     price: '₩ 500,000',
     subtitle:
@@ -8622,6 +8968,8 @@ export const products = [
     index: 5,
     category1: 'jewellery',
     category2: 'bracelets',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '팔찌',
     name: '메탈 팔찌',
     price: '₩ 680,000',
     subtitle:
@@ -8658,6 +9006,8 @@ export const products = [
     index: 6,
     category1: 'jewellery',
     category2: 'bracelets',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '팔찌',
     name: '메탈 팔찌',
     price: '₩ 680,000',
     subtitle:
@@ -8694,6 +9044,8 @@ export const products = [
     index: 7,
     category1: 'jewellery',
     category2: 'bracelets',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '팔찌',
     name: '메탈 및 가죽 팔찌',
     price: '₩ 870,000',
     subtitle:
@@ -8725,6 +9077,8 @@ export const products = [
     index: 8,
     category1: 'jewellery',
     category2: 'bracelets',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '팔찌',
     name: '메탈 및 가죽 팔찌',
     price: '₩ 980,000',
     subtitle:
@@ -8768,6 +9122,8 @@ export const products = [
     index: 9,
     category1: 'jewellery',
     category2: 'bracelets',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '팔찌',
     name: '메탈 및 가죽 팔찌',
     price: '₩ 1,210,000',
     subtitle:
@@ -8818,6 +9174,8 @@ export const products = [
     index: 10,
     category1: 'jewellery',
     category2: 'bracelets',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '팔찌',
     name: '크리스털 장식 메탈 팔찌',
     price: '₩ 1,070,000',
     subtitle:
@@ -8849,6 +9207,8 @@ export const products = [
     index: 11,
     category1: 'jewellery',
     category2: 'bracelets',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '팔찌',
     name: '나파 가죽 버클 팔찌',
     tags: '나파',
     price: '₩ 660,000',
@@ -8901,6 +9261,8 @@ export const products = [
     index: 12,
     category1: 'jewellery',
     category2: 'bracelets',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '팔찌',
     name: '가죽 및 메탈 팔찌',
     price: '₩ 1,500,000',
     subtitle:
@@ -8944,6 +9306,8 @@ export const products = [
     index: 13,
     category1: 'jewellery',
     category2: 'bracelets',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '팔찌',
     name: '버클 장식 가죽 팔찌',
     tags: '버클',
     price: '₩ 660,000',
@@ -8988,6 +9352,8 @@ export const products = [
     index: 14,
     category1: 'jewellery',
     category2: 'bracelets',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '팔찌',
     name: '버클 장식 가죽 팔찌',
     tags: '버클',
     price: '₩ 660,000',
@@ -9032,6 +9398,8 @@ export const products = [
     index: 15,
     category1: 'jewellery',
     category2: 'bracelets',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '팔찌',
     name: '에나멜 메탈 팔찌',
     price: '₩ 640,000',
     subtitle:
@@ -9063,6 +9431,8 @@ export const products = [
     index: 16,
     category1: 'jewellery',
     category2: 'bracelets',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '팔찌',
     name: '메탈 및 진주 팔찌',
     price: '₩ 850,000',
     subtitle:
@@ -9107,6 +9477,8 @@ export const products = [
     index: 17,
     category1: 'jewellery',
     category2: 'bracelets',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '팔찌',
     name: '코드 팔찌',
     price: '₩ 460,000',
     subtitle:
@@ -9152,6 +9524,8 @@ export const products = [
     index: 18,
     category1: 'jewellery',
     category2: 'bracelets',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '팔찌',
     name: '메탈 팔찌',
     price: '₩ 680,000',
     subtitle:
@@ -9188,6 +9562,8 @@ export const products = [
     index: 1,
     category1: 'jewellery',
     category2: 'rings-and-brooches',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '반지 및 브로치',
     name: '메탈 보 브로치',
     price: '₩ 980,000',
     subtitle:
@@ -9226,6 +9602,8 @@ export const products = [
     index: 2,
     category1: 'jewellery',
     category2: 'rings-and-brooches',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '반지 및 브로치',
     name: '메탈 브로치',
     price: '₩ 980,000',
     subtitle:
@@ -9264,6 +9642,8 @@ export const products = [
     index: 3,
     category1: 'jewellery',
     category2: 'rings-and-brooches',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '반지 및 브로치',
     name: '크리스털 장식 메탈 브로치',
     price: '₩ 1,030,000',
     subtitle:
@@ -9307,6 +9687,8 @@ export const products = [
     index: 4,
     category1: 'jewellery',
     category2: 'rings-and-brooches',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '반지 및 브로치',
     name: '크리스털이 장식된 메탈 브로치',
     price: '₩ 1,030,000',
     subtitle:
@@ -9350,6 +9732,8 @@ export const products = [
     index: 5,
     category1: 'jewellery',
     category2: 'rings-and-brooches',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '반지 및 브로치',
     name: '크리스털 장식의 메탈 링',
     price: '₩ 680,000',
     subtitle:
@@ -9385,6 +9769,8 @@ export const products = [
     index: 6,
     category1: 'jewellery',
     category2: 'rings-and-brooches',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '반지 및 브로치',
     name: '메탈 링',
     price: '₩ 680,000',
     subtitle:
@@ -9420,6 +9806,8 @@ export const products = [
     index: 1,
     category1: 'jewellery',
     category2: 'earrings',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '귀걸이',
     name: '에나멜 메탈 이어링',
     price: '₩ 640,000',
     subtitle:
@@ -9470,6 +9858,8 @@ export const products = [
     index: 2,
     category1: 'jewellery',
     category2: 'earrings',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '귀걸이',
     name: '에나멜 메탈 이어링',
     price: '₩ 640,000',
     subtitle:
@@ -9520,6 +9910,8 @@ export const products = [
     index: 3,
     category1: 'jewellery',
     category2: 'earrings',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '귀걸이',
     name: '에나멜 메탈 이어링 세트',
     price: '₩ 670,000',
     subtitle:
@@ -9563,6 +9955,8 @@ export const products = [
     index: 4,
     category1: 'jewellery',
     category2: 'earrings',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '귀걸이',
     name: '에나멜 메탈 이어링 세트',
     price: '₩ 670,000',
     subtitle:
@@ -9606,6 +10000,8 @@ export const products = [
     index: 5,
     category1: 'jewellery',
     category2: 'earrings',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '귀걸이',
     name: '에나멜 메탈 귀걸이',
     price: '₩ 490,000',
     subtitle:
@@ -9642,6 +10038,8 @@ export const products = [
     index: 6,
     category1: 'jewellery',
     category2: 'earrings',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '귀걸이',
     name: '에나멜 메탈 귀걸이',
     price: '₩ 490,000',
     subtitle:
@@ -9678,6 +10076,8 @@ export const products = [
     index: 7,
     category1: 'jewellery',
     category2: 'earrings',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '귀걸이',
     name: '에나멜 메탈 귀걸이',
     price: '₩ 490,000',
     subtitle:
@@ -9721,6 +10121,8 @@ export const products = [
     index: 8,
     category1: 'jewellery',
     category2: 'earrings',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '귀걸이',
     name: '에나멜 메탈 귀걸이',
     price: '₩ 490,000',
     subtitle:
@@ -9764,6 +10166,8 @@ export const products = [
     index: 9,
     category1: 'jewellery',
     category2: 'earrings',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '귀걸이',
     name: '미우 로고 귀걸이',
     price: '₩ 660,000',
     subtitle:
@@ -9808,6 +10212,8 @@ export const products = [
     index: 10,
     category1: 'jewellery',
     category2: 'earrings',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '귀걸이',
     name: '크리스털 장식 메탈 귀걸이',
     price: '₩ 850,000',
     subtitle:
@@ -9851,6 +10257,8 @@ export const products = [
     index: 11,
     category1: 'jewellery',
     category2: 'earrings',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '귀걸이',
     name: '크리스털 장식 메탈 귀걸이',
     price: '₩ 690,000',
     subtitle:
@@ -9894,6 +10302,8 @@ export const products = [
     index: 12,
     category1: 'jewellery',
     category2: 'earrings',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '귀걸이',
     name: '크리스털 장식 펜던트 이어링',
     price: '₩ 960,000',
     subtitle:
@@ -9939,6 +10349,8 @@ export const products = [
     index: 13,
     category1: 'jewellery',
     category2: 'earrings',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '귀걸이',
     name: '메탈 및 인조 진주 이어링',
     price: '₩ 660,000',
     subtitle:
@@ -9975,6 +10387,8 @@ export const products = [
     index: 14,
     category1: 'jewellery',
     category2: 'earrings',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '귀걸이',
     name: '에나멜 메탈 귀걸이',
     price: '₩ 490,000',
     subtitle:
@@ -10011,6 +10425,8 @@ export const products = [
     index: 15,
     category1: 'jewellery',
     category2: 'earrings',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '귀걸이',
     name: '에나멜 메탈 이어링',
     price: '₩ 1,100,000',
     subtitle:
@@ -10047,6 +10463,8 @@ export const products = [
     index: 1,
     category1: 'jewellery',
     category2: 'necklaces',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '목걸이',
     name: '크리스털 네크리스',
     price: '₩ 1,100,000',
     subtitle:
@@ -10091,6 +10509,8 @@ export const products = [
     index: 2,
     category1: 'jewellery',
     category2: 'necklaces',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '목걸이',
     name: '크리스털 장식 메탈 목걸이',
     price: '₩ 1,570,000',
     subtitle:
@@ -10142,6 +10562,8 @@ export const products = [
     index: 3,
     category1: 'jewellery',
     category2: 'necklaces',
+    categoryKor1: '패션주얼리',
+    categoryKor2: '목걸이',
     name: '크리스털 장식 메탈 목걸이',
     price: '₩ 1,570,000',
     subtitle:
@@ -10173,6 +10595,8 @@ export const products = [
     index: 1,
     category1: 'shoes',
     category2: 'pumps',
+    categoryKor1: '신발',
+    categoryKor2: '펌프스',
     name: '가죽 펌프스',
     price: '₩ 1,660,000',
     subtitle:
@@ -10230,7 +10654,10 @@ export const products = [
     index: 2,
     category1: 'shoes',
     category2: 'pumps',
+    categoryKor1: '신발',
+    categoryKor2: '펌프스',
     name: '에이어스 가죽 펌프스',
+
     price: '₩ 1,960,000',
     subtitle:
       '에이어스 가죽의 대담한 매력이 레트로 여성미를 재해석한 펌프스로, 자카드 로고 라벨이 유니크한 터치를 더해 아이덴티티를 정의합니다.',
@@ -10280,7 +10707,10 @@ export const products = [
     index: 3,
     category1: 'shoes',
     category2: 'pumps',
+    categoryKor1: '신발',
+    categoryKor2: '펌프스',
     name: '엘랑 나파 가죽 펌프스',
+
     tags: '엘랑',
     price: '₩ 1,580,000',
     subtitle:
@@ -10331,7 +10761,10 @@ export const products = [
     index: 4,
     category1: 'shoes',
     category2: 'pumps',
+    categoryKor1: '신발',
+    categoryKor2: '펌프스',
     name: '엘랑 나파 가죽 펌프스',
+
     tags: '엘랑',
     price: '₩ 1,580,000',
     subtitle:
@@ -10396,7 +10829,10 @@ export const products = [
     index: 5,
     category1: 'shoes',
     category2: 'pumps',
+    categoryKor1: '신발',
+    categoryKor2: '펌프스',
     name: '엘랑 나파 가죽 펌프스',
+
     tags: '엘랑',
     price: '₩ 1,580,000',
     subtitle:
@@ -10454,7 +10890,10 @@ export const products = [
     index: 6,
     category1: 'shoes',
     category2: 'pumps',
+    categoryKor1: '신발',
+    categoryKor2: '펌프스',
     name: '버클 장식 페이턴트 가죽 슬링백 펌프스',
+
     tags: '버클',
     price: '₩ 1,710,000',
     subtitle:
@@ -10506,7 +10945,10 @@ export const products = [
     index: 7,
     category1: 'shoes',
     category2: 'pumps',
+    categoryKor1: '신발',
+    categoryKor2: '펌프스',
     name: '버클 장식 페이턴트 가죽 슬링백 펌프스',
+
     tags: '버클',
     price: '₩ 1,710,000',
     subtitle:
@@ -10558,7 +11000,10 @@ export const products = [
     index: 8,
     category1: 'shoes',
     category2: 'pumps',
+    categoryKor1: '신발',
+    categoryKor2: '펌프스',
     name: '버클 장식 페이턴트 가죽 슬링백 펌프스',
+
     tags: '버클',
     price: '₩ 1,710,000',
     subtitle:
@@ -10610,7 +11055,10 @@ export const products = [
     index: 9,
     category1: 'shoes',
     category2: 'pumps',
+    categoryKor1: '신발',
+    categoryKor2: '펌프스',
     name: '버클 장식의 브러쉬드 가죽 슬링백',
+
     tags: '버클',
     price: '₩ 1,760,000',
     subtitle:
@@ -10669,7 +11117,10 @@ export const products = [
     index: 10,
     category1: 'shoes',
     category2: 'pumps',
+    categoryKor1: '신발',
+    categoryKor2: '펌프스',
     name: '스트랩 장식 페이턴트 가죽 슬링백 펌프스',
+
     price: '₩ 1,710,000',
     subtitle:
       '우아한 페이턴트 가죽과 구조적인 스트랩 디테일이 조화를 이루는 슬링백 펌프스로, 미우미우만의 감각적인 페미닌 무드를 드러냅니다.',
@@ -10720,6 +11171,8 @@ export const products = [
     index: 1,
     category1: 'shoes',
     category2: 'sandals',
+    categoryKor1: '신발',
+    categoryKor2: '샌들',
     name: '루슈 나파 가죽 피셔맨 샌들',
     tags: 'ruches',
     tags2: 'iconic',
@@ -10774,6 +11227,8 @@ export const products = [
     index: 2,
     category1: 'shoes',
     category2: 'sandals',
+    categoryKor1: '신발',
+    categoryKor2: '샌들',
     name: '마테라쎄 나파 가죽 슬라이드',
     price: '₩ 1,730,000',
     subtitle:
@@ -10824,6 +11279,8 @@ export const products = [
     index: 3,
     category1: 'shoes',
     category2: 'sandals',
+    categoryKor1: '신발',
+    categoryKor2: '샌들',
     name: '마테라쎄 나파 가죽 스포츠 샌들',
     price: '₩ 1,760,000',
     subtitle:
@@ -10875,6 +11332,8 @@ export const products = [
     index: 4,
     category1: 'shoes',
     category2: 'sandals',
+    categoryKor1: '신발',
+    categoryKor2: '샌들',
     name: '마테라쎄 나파 가죽 스포츠 샌들',
     price: '₩ 1,760,000',
     subtitle:
@@ -10926,6 +11385,8 @@ export const products = [
     index: 5,
     category1: 'shoes',
     category2: 'sandals',
+    categoryKor1: '신발',
+    categoryKor2: '샌들',
     name: '마테라쎄 나파 가죽 슬라이드',
     price: '₩ 1,460,000',
     subtitle:
@@ -10977,6 +11438,8 @@ export const products = [
     index: 6,
     category1: 'shoes',
     category2: 'sandals',
+    categoryKor1: '신발',
+    categoryKor2: '샌들',
     name: '마테라쎄 나파 가죽 슬라이드',
     price: '₩ 1,460,000',
     subtitle:
@@ -11028,6 +11491,8 @@ export const products = [
     index: 7,
     category1: 'shoes',
     category2: 'sandals',
+    categoryKor1: '신발',
+    categoryKor2: '샌들',
     name: '마테라쎄 나파 가죽 슬라이드',
     price: '₩ 1,460,000',
     subtitle:
@@ -11079,6 +11544,8 @@ export const products = [
     index: 8,
     category1: 'shoes',
     category2: 'sandals',
+    categoryKor1: '신발',
+    categoryKor2: '샌들',
     name: '루슈 나파 가죽 피셔맨 샌들',
     tags: 'ruches',
     tags2: 'iconic',
@@ -11133,6 +11600,8 @@ export const products = [
     index: 9,
     category1: 'shoes',
     category2: 'sandals',
+    categoryKor1: '신발',
+    categoryKor2: '샌들',
     name: '마테라쎄 나파 가죽 슬라이드',
     price: '₩ 1,690,000',
     subtitle:
@@ -11184,6 +11653,8 @@ export const products = [
     index: 10,
     category1: 'shoes',
     category2: 'sandals',
+    categoryKor1: '신발',
+    categoryKor2: '샌들',
     name: '마테라쎄 나파 가죽 슬라이드',
     price: '₩ 1,690,000',
     subtitle:
@@ -11235,6 +11706,8 @@ export const products = [
     index: 11,
     category1: 'shoes',
     category2: 'sandals',
+    categoryKor1: '신발',
+    categoryKor2: '샌들',
     name: '캔버스 및 가죽 슬라이드',
     price: '₩ 1,410,000',
     subtitle:
@@ -11285,6 +11758,8 @@ export const products = [
     index: 12,
     category1: 'shoes',
     category2: 'sandals',
+    categoryKor1: '신발',
+    categoryKor2: '샌들',
     name: '캔버스 슬라이드',
     price: '₩ 1,510,000',
     subtitle:
@@ -11336,6 +11811,8 @@ export const products = [
     index: 1,
     category1: 'shoes',
     category2: 'ballerinas',
+    categoryKor1: '신발',
+    categoryKor2: '플랫슈즈',
     name: '시어링 발레리나',
     tags: 'miu-ballet',
     tags2: 'iconic',
@@ -11389,6 +11866,8 @@ export const products = [
     index: 2,
     category1: 'shoes',
     category2: 'ballerinas',
+    categoryKor1: '신발',
+    categoryKor2: '플랫슈즈',
     name: '가죽 발레리나',
     tags: 'miu-ballet',
     tags2: 'iconic',
@@ -11449,6 +11928,8 @@ export const products = [
     index: 12,
     category1: 'shoes',
     category2: 'sneakers',
+    categoryKor1: '신발',
+    categoryKor2: '스니커즈',
     name: '타이어 기능성 소재 및 스웨이드 발레리나',
     tags: '타이어',
     price: '₩ 1,410,000',
@@ -11502,6 +11983,8 @@ export const products = [
     index: 13,
     category1: 'shoes',
     category2: 'sneakers',
+    categoryKor1: '신발',
+    categoryKor2: '스니커즈',
     name: '타이어 기능성 소재 및 스웨이드 발레리나',
     tags: '타이어',
     price: '₩ 1,410,000',
@@ -11555,6 +12038,8 @@ export const products = [
     index: 14,
     category1: 'shoes',
     category2: 'sneakers',
+    categoryKor1: '신발',
+    categoryKor2: '스니커즈',
     name: '타이어 기능성 소재 및 스웨이드 발레리나',
     tags: '타이어',
     price: '₩ 1,410,000',
@@ -11608,6 +12093,8 @@ export const products = [
     index: 6,
     category1: 'shoes',
     category2: 'ballerinas',
+    categoryKor1: '신발',
+    categoryKor2: '플랫슈즈',
     name: '루슈 나파 가죽 발레리나',
     tags: 'ruches',
     tags2: 'iconic',
@@ -11662,6 +12149,8 @@ export const products = [
     index: 7,
     category1: 'shoes',
     category2: 'ballerinas',
+    categoryKor1: '신발',
+    categoryKor2: '플랫슈즈',
     name: '루슈 나파 가죽 발레리나',
     tags: 'ruches',
     tags2: 'iconic',
@@ -11716,6 +12205,8 @@ export const products = [
     index: 8,
     category1: 'shoes',
     category2: 'ballerinas',
+    categoryKor1: '신발',
+    categoryKor2: '플랫슈즈',
     name: '엘랑 나파 가죽 발레리나 슈즈',
     tags: '엘랑',
     price: '₩ 1,460,000',
@@ -11769,6 +12260,8 @@ export const products = [
     index: 9,
     category1: 'shoes',
     category2: 'ballerinas',
+    categoryKor1: '신발',
+    categoryKor2: '플랫슈즈',
     name: '엘랑 나파 가죽 발레리나 슈즈',
     tags: '엘랑',
     price: '₩ 1,460,000',
@@ -11822,6 +12315,8 @@ export const products = [
     index: 10,
     category1: 'shoes',
     category2: 'ballerinas',
+    categoryKor1: '신발',
+    categoryKor2: '플랫슈즈',
     name: '엘랑 나파 가죽 발레리나 슈즈',
     tags: '엘랑',
     price: '₩ 1,460,000',
@@ -11875,6 +12370,8 @@ export const products = [
     index: 11,
     category1: 'shoes',
     category2: 'ballerinas',
+    categoryKor1: '신발',
+    categoryKor2: '플랫슈즈',
     name: '엘랑 나파 가죽 발레리나 슈즈',
     tags: '엘랑',
     price: '₩ 1,460,000',
@@ -11928,6 +12425,8 @@ export const products = [
     index: 12,
     category1: 'shoes',
     category2: 'ballerinas',
+    categoryKor1: '신발',
+    categoryKor2: '플랫슈즈',
     name: '루슈 스웨이드 발레리나',
     tags: 'ruches',
     tags2: 'iconic',
@@ -11981,6 +12480,8 @@ export const products = [
     index: 13,
     category1: 'shoes',
     category2: 'ballerinas',
+    categoryKor1: '신발',
+    categoryKor2: '플랫슈즈',
     name: '기능성 소재 및 스웨이드 플룸 발레리나',
     price: '₩ 1,280,000',
     subtitle:
@@ -12031,6 +12532,8 @@ export const products = [
     index: 14,
     category1: 'shoes',
     category2: 'ballerinas',
+    categoryKor1: '신발',
+    categoryKor2: '플랫슈즈',
     name: '새틴 발레리나',
     tags: 'miu-ballet',
     tags2: 'iconic',
@@ -12091,6 +12594,8 @@ export const products = [
     index: 15,
     category1: 'shoes',
     category2: 'ballerinas',
+    categoryKor1: '신발',
+    categoryKor2: '플랫슈즈',
     name: '새틴 발레리나',
     tags: 'miu-ballet',
     tags2: 'iconic',
@@ -12144,6 +12649,8 @@ export const products = [
     index: 16,
     category1: 'shoes',
     category2: 'ballerinas',
+    categoryKor1: '신발',
+    categoryKor2: '플랫슈즈',
     name: '새틴 발레리나',
     tags: 'miu-ballet',
     tags2: 'iconic',
@@ -12211,6 +12718,8 @@ export const products = [
     index: 17,
     category1: 'shoes',
     category2: 'ballerinas',
+    categoryKor1: '신발',
+    categoryKor2: '플랫슈즈',
     name: '가죽 발레리나',
     tags: 'miu-ballet',
     tags2: 'iconic',
@@ -12278,6 +12787,8 @@ export const products = [
     index: 18,
     category1: 'shoes',
     category2: 'ballerinas',
+    categoryKor1: '신발',
+    categoryKor2: '플랫슈즈',
     name: '플리스 발레리나',
     tags: 'miu-ballet',
     tags2: 'iconic',
@@ -12338,6 +12849,8 @@ export const products = [
     index: 19,
     category1: 'shoes',
     category2: 'ballerinas',
+    categoryKor1: '신발',
+    categoryKor2: '플랫슈즈',
     name: '엘랑 나파 가죽 발레리나 슈즈',
     tags: '엘랑',
     price: '₩ 1,460,000',
@@ -12391,6 +12904,8 @@ export const products = [
     index: 1,
     category1: 'shoes',
     category2: 'boots-and-ankle-boots',
+    categoryKor1: '신발',
+    categoryKor2: '부츠',
     name: '가죽 부츠',
     tags: 'winter-shoes',
     tags2: 'iconic',
@@ -12453,6 +12968,8 @@ export const products = [
     index: 2,
     category1: 'shoes',
     category2: 'boots-and-ankle-boots',
+    categoryKor1: '신발',
+    categoryKor2: '부츠',
     name: '가죽 부츠',
     tags: 'winter-shoes',
     tags2: 'iconic',
@@ -12509,6 +13026,8 @@ export const products = [
     index: 3,
     category1: 'shoes',
     category2: 'boots-and-ankle-boots',
+    categoryKor1: '신발',
+    categoryKor2: '부츠',
     name: '가죽 부츠',
     tags: '바이커',
     price: '₩ 2,750,000',
@@ -12563,6 +13082,8 @@ export const products = [
     index: 4,
     category1: 'shoes',
     category2: 'boots-and-ankle-boots',
+    categoryKor1: '신발',
+    categoryKor2: '부츠',
     name: '가죽 부츠',
     tags: 'winter-shoes',
     tags2: 'iconic',
@@ -12635,6 +13156,8 @@ export const products = [
     index: 5,
     category1: 'shoes',
     category2: 'boots-and-ankle-boots',
+    categoryKor1: '신발',
+    categoryKor2: '부츠',
     name: '가죽 부츠',
     tags: 'winter-shoes',
     tags2: 'iconic',
@@ -12707,6 +13230,8 @@ export const products = [
     index: 6,
     category1: 'shoes',
     category2: 'boots-and-ankle-boots',
+    categoryKor1: '신발',
+    categoryKor2: '부츠',
     name: '가죽 레이스 부티',
     tags: 'winter-shoes',
     tags2: 'iconic',
@@ -12772,6 +13297,8 @@ export const products = [
     index: 7,
     category1: 'shoes',
     category2: 'boots-and-ankle-boots',
+    categoryKor1: '신발',
+    categoryKor2: '부츠',
     name: '가죽 레이스 부티',
     tags: 'winter-shoes',
     tags2: 'iconic',
@@ -12837,6 +13364,8 @@ export const products = [
     index: 8,
     category1: 'shoes',
     category2: 'boots-and-ankle-boots',
+    categoryKor1: '신발',
+    categoryKor2: '부츠',
     name: '스웨이드 및 시어링 부티',
     tags: 'winter-shoes',
     tags2: 'iconic',
@@ -12892,6 +13421,8 @@ export const products = [
     index: 9,
     category1: 'shoes',
     category2: 'boots-and-ankle-boots',
+    categoryKor1: '신발',
+    categoryKor2: '부츠',
     name: '울 및 시어링 슬립온 부티',
     tags: 'winter-shoes',
     tags2: 'iconic',
@@ -12947,6 +13478,8 @@ export const products = [
     index: 10,
     category1: 'shoes',
     category2: 'boots-and-ankle-boots',
+    categoryKor1: '신발',
+    categoryKor2: '부츠',
     name: '스웨이드 및 시어링 슬립온 부티',
     tags: 'winter-shoes',
     tags2: 'iconic',
@@ -13003,6 +13536,8 @@ export const products = [
     index: 11,
     category1: 'shoes',
     category2: 'boots-and-ankle-boots',
+    categoryKor1: '신발',
+    categoryKor2: '부츠',
     name: '스웨이드 및 시어링 슬립온 부티',
     tags: 'winter-shoes',
     tags2: 'iconic',
@@ -13058,6 +13593,8 @@ export const products = [
     index: 12,
     category1: 'shoes',
     category2: 'boots-and-ankle-boots',
+    categoryKor1: '신발',
+    categoryKor2: '부츠',
     name: '가죽 부티',
     tags: 'winter-shoes',
     tags2: 'iconic',
@@ -13114,6 +13651,8 @@ export const products = [
     index: 13,
     category1: 'shoes',
     category2: 'boots-and-ankle-boots',
+    categoryKor1: '신발',
+    categoryKor2: '부츠',
     name: '퓨메 가죽 부티',
     price: '₩ 2,050,000',
     subtitle:
@@ -13170,6 +13709,8 @@ export const products = [
     index: 14,
     category1: 'shoes',
     category2: 'boots-and-ankle-boots',
+    categoryKor1: '신발',
+    categoryKor2: '부츠',
     name: '퓨메 송아지 가죽 앵클 부츠',
     tags: 'winter-shoes',
     tags2: 'iconic',
@@ -13228,6 +13769,8 @@ export const products = [
     index: 15,
     category1: 'shoes',
     category2: 'boots-and-ankle-boots',
+    categoryKor1: '신발',
+    categoryKor2: '부츠',
     name: '가죽 부티',
     tags: 'winter-shoes',
     tags2: 'iconic',
@@ -13284,6 +13827,8 @@ export const products = [
     index: 16,
     category1: 'shoes',
     category2: 'boots-and-ankle-boots',
+    categoryKor1: '신발',
+    categoryKor2: '부츠',
     name: '나파 가죽 부티',
     tags: '나파',
     price: '₩ 2,250,000',
@@ -13339,6 +13884,8 @@ export const products = [
     index: 17,
     category1: 'shoes',
     category2: 'boots-and-ankle-boots',
+    categoryKor1: '신발',
+    categoryKor2: '부츠',
     name: '스웨이드 부츠',
     price: '₩ 3,550,000',
     subtitle:
@@ -13406,6 +13953,8 @@ export const products = [
     index: 18,
     category1: 'shoes',
     category2: 'boots-and-ankle-boots',
+    categoryKor1: '신발',
+    categoryKor2: '부츠',
     name: '가죽 부츠',
     tags: 'winter-shoes',
     tags2: 'iconic',
@@ -13468,6 +14017,8 @@ export const products = [
     index: 19,
     category1: 'shoes',
     category2: 'boots-and-ankle-boots',
+    categoryKor1: '신발',
+    categoryKor2: '부츠',
     name: '가죽 부츠',
     tags: 'winter-shoes',
     tags2: 'iconic',
@@ -13530,6 +14081,8 @@ export const products = [
     index: 20,
     category1: 'shoes',
     category2: 'boots-and-ankle-boots',
+    categoryKor1: '신발',
+    categoryKor2: '부츠',
     name: '스웨이드 및 시어링 미드 카프 부츠',
     tags: 'winter-shoes',
     tags2: 'iconic',
@@ -13585,6 +14138,8 @@ export const products = [
     index: 21,
     category1: 'shoes',
     category2: 'boots-and-ankle-boots',
+    categoryKor1: '신발',
+    categoryKor2: '부츠',
     name: '버클 장식 나파 가죽 부츠',
     tags: '버클',
     price: '₩ 3,300,000',
@@ -13655,6 +14210,8 @@ export const products = [
     index: 22,
     category1: 'shoes',
     category2: 'boots-and-ankle-boots',
+    categoryKor1: '신발',
+    categoryKor2: '부츠',
     name: '버클 장식 나파 가죽 부츠',
     tags: '버클',
     price: '₩ 3,300,000',
@@ -13725,6 +14282,8 @@ export const products = [
     index: 23,
     category1: 'shoes',
     category2: 'boots-and-ankle-boots',
+    categoryKor1: '신발',
+    categoryKor2: '부츠',
     name: '루슈 나파 가죽 부츠',
     tags: 'ruches',
     tags2: 'iconic',
@@ -13780,6 +14339,7 @@ export const products = [
     index: 1,
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
+    categoryKor1: '신발',
     name: '스트랩 가죽 로퍼',
     price: '₩ 1,580,000',
     subtitle:
@@ -13847,6 +14407,7 @@ export const products = [
     index: 2,
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
+    categoryKor1: '신발',
     name: '스트랩 가죽 로퍼',
     price: '₩ 1,580,000',
     subtitle:
@@ -13914,6 +14475,7 @@ export const products = [
     index: 3,
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
+    categoryKor1: '신발',
     name: '버팔로 가죽 로퍼',
     price: '₩ 1,530,000',
     subtitle:
@@ -13973,6 +14535,7 @@ export const products = [
     index: 4,
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
+    categoryKor1: '신발',
     name: '스웨이드 로퍼',
     price: '₩ 1,530,000',
     subtitle:
@@ -14025,6 +14588,7 @@ export const products = [
     index: 5,
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
+    categoryKor1: '신발',
     name: '스웨이드 로퍼',
     price: '₩ 1,530,000',
     subtitle:
@@ -14077,6 +14641,7 @@ export const products = [
     index: 6,
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
+    categoryKor1: '신발',
     name: '폴리시드 가죽 테슬 로퍼',
     price: '₩ 1,690,000',
     subtitle:
@@ -14130,6 +14695,7 @@ export const products = [
     index: 7,
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
+    categoryKor1: '신발',
     name: '폴리시드 가죽 테슬 로퍼',
     price: '₩ 1,690,000',
     subtitle:
@@ -14183,6 +14749,7 @@ export const products = [
     index: 8,
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
+    categoryKor1: '신발',
     name: '가죽 브로그 슈즈',
     price: '₩ 1,690,000',
     subtitle:
@@ -14245,6 +14812,7 @@ export const products = [
     index: 9,
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
+    categoryKor1: '신발',
     name: '송아지 가죽 버클 브로그 슈즈',
     price: '₩ 1,640,000',
     subtitle:
@@ -14298,6 +14866,7 @@ export const products = [
     index: 10,
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
+    categoryKor1: '신발',
     name: '가죽 로퍼',
     price: '₩ 1,760,000',
     subtitle:
@@ -14351,6 +14920,7 @@ export const products = [
     index: 11,
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
+    categoryKor1: '신발',
     name: '가죽 로퍼',
     price: '₩ 1,760,000',
     subtitle:
@@ -14418,6 +14988,7 @@ export const products = [
     index: 12,
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
+    categoryKor1: '신발',
     name: '루슈 나파 가죽 로퍼',
     tags: 'ruches',
     tags2: 'iconic',
@@ -14486,6 +15057,7 @@ export const products = [
     index: 13,
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
+    categoryKor1: '신발',
     name: '루슈 나파 가죽 로퍼',
     tags: 'ruches',
     tags2: 'iconic',
@@ -14547,6 +15119,7 @@ export const products = [
     index: 14,
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
+    categoryKor1: '신발',
     name: '루슈 스웨이드 로퍼',
     tags: 'ruches',
     tags2: 'iconic',
@@ -14601,6 +15174,7 @@ export const products = [
     index: 15,
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
+    categoryKor1: '신발',
     name: '루슈 스웨이드 로퍼',
     tags: 'ruches',
     tags2: 'iconic',
@@ -14655,6 +15229,7 @@ export const products = [
     index: 16,
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
+    categoryKor1: '신발',
     name: '루슈 스웨이드 로퍼',
     tags: 'ruches',
     tags2: 'iconic',
@@ -14716,6 +15291,7 @@ export const products = [
     index: 17,
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
+    categoryKor1: '신발',
     name: '스웨이드 클로그',
     tags: 'winter-shoes',
     tags2: 'iconic',
@@ -14776,6 +15352,7 @@ export const products = [
     index: 18,
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
+    categoryKor1: '신발',
     name: '스웨이드 뮬',
     tags: 'penny-loafers',
     tags2: 'iconic',
@@ -14838,6 +15415,7 @@ export const products = [
     index: 19,
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
+    categoryKor1: '신발',
     name: '스웨이드 뮬',
     tags: 'penny-loafers',
     tags2: 'iconic',
@@ -14900,6 +15478,7 @@ export const products = [
     index: 20,
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
+    categoryKor1: '신발',
     name: '가죽 및 송치 가죽 레이스업 슈즈',
     tags: 'winter-shoes',
     tags2: 'iconic',
@@ -14956,6 +15535,7 @@ export const products = [
     index: 21,
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
+    categoryKor1: '신발',
     name: '레이스 퓌메 가죽 슈즈',
     tags: 'winter-shoes',
     tags2: 'iconic',
@@ -15019,6 +15599,7 @@ export const products = [
     index: 22,
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
+    categoryKor1: '신발',
     name: '가죽 레이스업 슈즈',
     tags: 'winter-shoes',
     tags2: 'iconic',
@@ -15083,6 +15664,7 @@ export const products = [
     index: 23,
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
+    categoryKor1: '신발',
     name: '브러쉬드 가죽 페니 로퍼',
     tags: 'penny-loafers',
     tags2: 'iconic',
@@ -15137,6 +15719,7 @@ export const products = [
     index: 24,
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
+    categoryKor1: '신발',
     name: '브러쉬드 가죽 페니 로퍼',
     tags: 'penny-loafers',
     tags2: 'iconic',
@@ -15205,6 +15788,7 @@ export const products = [
     index: 1,
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
+    categoryKor1: '신발',
     name: '가죽 페니 로퍼',
     tags: 'penny-loafers',
     tags2: 'iconic',
@@ -15266,6 +15850,7 @@ export const products = [
     index: 2,
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
+    categoryKor1: '신발',
     name: '가죽 페니 로퍼',
     tags: 'penny-loafers',
     tags2: 'iconic',
@@ -15327,6 +15912,7 @@ export const products = [
     index: 3,
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
+    categoryKor1: '신발',
     name: '빈티지 효과 가죽 페니 로퍼',
     tags: 'penny-loafers',
     tags2: 'iconic',
@@ -15396,6 +15982,7 @@ export const products = [
     index: 4,
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
+    categoryKor1: '신발',
     name: '브러쉬드 가죽 로퍼',
     tags: 'penny-loafers',
     tags2: 'iconic',
@@ -15451,6 +16038,7 @@ export const products = [
     index: 5,
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
+    categoryKor1: '신발',
     name: '데코 송아지 가죽 로퍼',
     price: '₩ 1,690,000',
     subtitle:
@@ -15511,6 +16099,7 @@ export const products = [
     index: 6,
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
+    categoryKor1: '신발',
     name: '스웨이드 가죽 뮬',
     tags: '보트',
     price: '₩ 1,410,000',
@@ -15562,6 +16151,7 @@ export const products = [
     index: 7,
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
+    categoryKor1: '신발',
     name: '스웨이드 태슬 로퍼',
     tags: '보트',
     price: '₩ 1,510,000',
@@ -15623,6 +16213,7 @@ export const products = [
     index: 8,
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
+    categoryKor1: '신발',
     name: '안감 없는 페이드 스웨이드 로퍼',
     tags: '보트',
     price: '₩ 1,410,000',
@@ -15675,6 +16266,7 @@ export const products = [
     index: 9,
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
+    categoryKor1: '신발',
     name: '안감 없는 블리치드 가죽 보트 슈즈',
     tags: '보트',
     price: '₩ 1,410,000',
@@ -15727,6 +16319,7 @@ export const products = [
     index: 10,
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
+    categoryKor1: '신발',
     name: '안감 없는 블리치드 가죽 보트 슈즈',
     tags: '보트',
     price: '₩ 1,410,000',
@@ -15786,6 +16379,8 @@ export const products = [
     index: 1,
     category1: 'shoes',
     category2: 'sneakers',
+    categoryKor1: '신발',
+    categoryKor2: '스니커즈',
     name: '뉴발란스 스웨이드 및 메쉬 스니커즈',
     price: '₩ 1,690,000',
     subtitle:
@@ -15856,6 +16451,8 @@ export const products = [
     index: 2,
     category1: 'shoes',
     category2: 'sneakers',
+    categoryKor1: '신발',
+    categoryKor2: '스니커즈',
     name: '뉴발란스 X 미우미우 스웨이드 및 메쉬 스니커즈',
     price: '₩ 1,690,000',
     subtitle:
@@ -15926,6 +16523,8 @@ export const products = [
     index: 3,
     category1: 'shoes',
     category2: 'sneakers',
+    categoryKor1: '신발',
+    categoryKor2: '스니커즈',
     name: '뉴발란스 X 미우미우 스웨이드 및 메쉬 스니커즈',
     price: '₩ 1,690,000',
     subtitle:
@@ -15989,6 +16588,8 @@ export const products = [
     index: 4,
     category1: 'shoes',
     category2: 'sneakers',
+    categoryKor1: '신발',
+    categoryKor2: '스니커즈',
     name: '플룸 스웨이드 스니커즈',
     tags: 'plume',
     tags2: 'iconic',
@@ -16045,6 +16646,8 @@ export const products = [
     index: 5,
     category1: 'shoes',
     category2: 'sneakers',
+    categoryKor1: '신발',
+    categoryKor2: '스니커즈',
     name: '플룸 스웨이드 스니커즈',
     tags: 'plume',
     tags2: 'iconic',
@@ -16101,6 +16704,8 @@ export const products = [
     index: 6,
     category1: 'shoes',
     category2: 'sneakers',
+    categoryKor1: '신발',
+    categoryKor2: '스니커즈',
     name: '플룸 스웨이드 스니커즈',
     tags: 'plume',
     tags2: 'iconic',
@@ -16157,6 +16762,8 @@ export const products = [
     index: 7,
     category1: 'shoes',
     category2: 'sneakers',
+    categoryKor1: '신발',
+    categoryKor2: '스니커즈',
     name: '김나지움 기능성 소재 및 스웨이드 스니커즈',
     tags: 'gymnasium',
     tags2: 'iconic',
@@ -16217,6 +16824,8 @@ export const products = [
     index: 8,
     category1: 'shoes',
     category2: 'sneakers',
+    categoryKor1: '신발',
+    categoryKor2: '스니커즈',
     name: '김나지움 기능성 소재 및 스웨이드 스니커즈',
     tags: 'gymnasium',
     tags2: 'iconic',
@@ -16277,6 +16886,8 @@ export const products = [
     index: 9,
     category1: 'shoes',
     category2: 'sneakers',
+    categoryKor1: '신발',
+    categoryKor2: '스니커즈',
     name: '타이어 기능성 소재 및 스웨이드 스니커즈',
     tags: '타이어',
     price: '₩ 1,530,000',
@@ -16339,6 +16950,8 @@ export const products = [
     index: 10,
     category1: 'shoes',
     category2: 'sneakers',
+    categoryKor1: '신발',
+    categoryKor2: '스니커즈',
     name: '타이어 기능성 소재 및 스웨이드 스니커즈',
     tags: '타이어',
     price: '₩ 1,530,000',
@@ -16394,6 +17007,8 @@ export const products = [
     index: 11,
     category1: 'shoes',
     category2: 'sneakers',
+    categoryKor1: '신발',
+    categoryKor2: '스니커즈',
     name: '타이어 기능성 소재 및 스웨이드 스니커즈',
     tags: '타이어',
     price: '₩ 1,530,000',
@@ -16449,6 +17064,8 @@ export const products = [
     index: 15,
     category1: 'shoes',
     category2: 'sneakers',
+    categoryKor1: '신발',
+    categoryKor2: '스니커즈',
     name: '송아지 가죽 브로그 슈즈',
     price: '₩ 1,640,000',
     subtitle:
@@ -16502,6 +17119,8 @@ export const products = [
     index: 16,
     category1: 'shoes',
     category2: 'sneakers',
+    categoryKor1: '신발',
+    categoryKor2: '스니커즈',
     name: '미우미우 김나지움 에이어스 가죽 스니커즈',
     tags: 'gymnasium',
     tags2: 'iconic',
@@ -16564,6 +17183,8 @@ export const products = [
     index: 17,
     category1: 'shoes',
     category2: 'sneakers',
+    categoryKor1: '신발',
+    categoryKor2: '스니커즈',
     name: '미우미우 김나지움 에이어스 가죽 스니커즈',
     tags: 'gymnasium',
     tags2: 'iconic',
@@ -16626,6 +17247,8 @@ export const products = [
     index: 18,
     category1: 'shoes',
     category2: 'sneakers',
+    categoryKor1: '신발',
+    categoryKor2: '스니커즈',
     name: '미우미우 김나지움 에이어스 가죽 스니커즈',
     tags: 'gymnasium',
     tags2: 'iconic',
@@ -16695,6 +17318,8 @@ export const products = [
     index: 19,
     category1: 'shoes',
     category2: 'sneakers',
+    categoryKor1: '신발',
+    categoryKor2: '스니커즈',
     name: '미우미우 김나지움 에이어스 가죽 스니커즈',
     tags: 'gymnasium',
     tags2: 'iconic',
@@ -16764,6 +17389,8 @@ export const products = [
     index: 20,
     category1: 'shoes',
     category2: 'sneakers',
+    categoryKor1: '신발',
+    categoryKor2: '스니커즈',
     name: '미우미우 김나지움 에이어스 가죽 스니커즈',
     tags: 'gymnasium',
     tags2: 'iconic',
@@ -16833,6 +17460,8 @@ export const products = [
     index: 21,
     category1: 'shoes',
     category2: 'sneakers',
+    categoryKor1: '신발',
+    categoryKor2: '스니커즈',
     name: '버클 장식 가죽 스니커즈',
     tags: '버클',
     price: '₩ 1,710,000',
@@ -16893,6 +17522,8 @@ export const products = [
     index: 22,
     category1: 'shoes',
     category2: 'sneakers',
+    categoryKor1: '신발',
+    categoryKor2: '스니커즈',
     name: '버클 장식 가죽 스니커즈',
     tags: '버클',
     price: '₩ 1,710,000',
@@ -16960,6 +17591,8 @@ export const products = [
     index: 23,
     category1: 'shoes',
     category2: 'sneakers',
+    categoryKor1: '신발',
+    categoryKor2: '스니커즈',
     name: '김나지움 기능성 소재 및 스웨이드 복서 부츠',
     tags: 'gymnasium',
     tags2: 'iconic',
@@ -17015,6 +17648,8 @@ export const products = [
     index: 24,
     category1: 'shoes',
     category2: 'sneakers',
+    categoryKor1: '신발',
+    categoryKor2: '스니커즈',
     name: '김나지움 기능성 소재 및 스웨이드 복서 부츠',
     tags: 'gymnasium',
     tags2: 'iconic',
@@ -17070,6 +17705,8 @@ export const products = [
     index: 1,
     category1: 'shoes',
     category2: 'sneakers',
+    categoryKor1: '신발',
+    categoryKor2: '스니커즈',
     name: '테크니컬 패브릭 스니커즈',
     price: '₩ 1,340,000',
     subtitle:
@@ -17123,6 +17760,8 @@ export const products = [
     index: 2,
     category1: 'shoes',
     category2: 'sneakers',
+    categoryKor1: '신발',
+    categoryKor2: '스니커즈',
     name: '테크니컬 패브릭 스니커즈',
     price: '₩ 1,340,000',
     subtitle:
@@ -17176,6 +17815,8 @@ export const products = [
     index: 3,
     category1: 'shoes',
     category2: 'sneakers',
+    categoryKor1: '신발',
+    categoryKor2: '스니커즈',
     name: '테크니컬 패브릭 스니커즈',
     price: '₩ 1,340,000',
     subtitle:
@@ -17229,6 +17870,8 @@ export const products = [
     index: 4,
     category1: 'shoes',
     category2: 'sneakers',
+    categoryKor1: '신발',
+    categoryKor2: '스니커즈',
     name: '타이어 기능성 소재 및 스웨이드 스니커즈',
     tags: '타이어',
     price: '₩ 1,530,000',
@@ -17284,6 +17927,8 @@ export const products = [
     index: 5,
     category1: 'shoes',
     category2: 'sneakers',
+    categoryKor1: '신발',
+    categoryKor2: '스니커즈',
     name: '타이어 기능성 소재 및 스웨이드 스니커즈',
     tags: '타이어',
     price: '₩ 1,530,000',
@@ -17339,6 +17984,8 @@ export const products = [
     index: 6,
     category1: 'shoes',
     category2: 'sneakers',
+    categoryKor1: '신발',
+    categoryKor2: '스니커즈',
     name: '타이어 기능성 소재 및 스웨이드 스니커즈',
     tags: '타이어',
     price: '₩ 1,530,000',
@@ -17394,6 +18041,8 @@ export const products = [
     index: 7,
     category1: 'shoes',
     category2: 'sneakers',
+    categoryKor1: '신발',
+    categoryKor2: '스니커즈',
     name: '플룸 스웨이드 스니커즈',
     tags: 'plume',
     tags2: 'iconic',
@@ -17457,6 +18106,8 @@ export const products = [
     index: 8,
     category1: 'shoes',
     category2: 'sneakers',
+    categoryKor1: '신발',
+    categoryKor2: '스니커즈',
     name: '기능성 소재 및 스웨이드 플룸 스니커즈',
     price: '₩ 1,340,000',
     subtitle:
@@ -17511,6 +18162,8 @@ export const products = [
     index: 9,
     category1: 'shoes',
     category2: 'sneakers',
+    categoryKor1: '신발',
+    categoryKor2: '스니커즈',
     name: '플룸 나파 가죽 스니커즈',
     tags: 'plume',
     tags2: 'iconic',
@@ -17567,6 +18220,8 @@ export const products = [
     index: 10,
     category1: 'shoes',
     category2: 'sneakers',
+    categoryKor1: '신발',
+    categoryKor2: '스니커즈',
     name: '가죽 스니커즈',
     price: '₩ 1,440,000',
     subtitle:
@@ -17620,6 +18275,8 @@ export const products = [
     index: 11,
     category1: 'shoes',
     category2: 'sneakers',
+    categoryKor1: '신발',
+    categoryKor2: '스니커즈',
     name: '가죽 스니커즈',
     price: '₩ 1,440,000',
     subtitle:
@@ -17673,6 +18330,8 @@ export const products = [
     index: 12,
     category1: 'shoes',
     category2: 'sneakers',
+    categoryKor1: '신발',
+    categoryKor2: '스니커즈',
     name: '가죽 스니커즈',
     price: '₩ 1,440,000',
     subtitle:
@@ -17726,6 +18385,8 @@ export const products = [
     index: 13,
     category1: 'shoes',
     category2: 'sneakers',
+    categoryKor1: '신발',
+    categoryKor2: '스니커즈',
     name: '스웨이드와 시어링 스니커즈',
     tags: 'winter-shoes',
     tags2: 'iconic',
@@ -17782,6 +18443,8 @@ export const products = [
     index: 14,
     category1: 'shoes',
     category2: 'sneakers',
+    categoryKor1: '신발',
+    categoryKor2: '스니커즈',
     name: '스웨이드와 시어링 스니커즈',
     tags: 'winter-shoes',
     tags2: 'iconic',
@@ -17838,6 +18501,8 @@ export const products = [
     index: 15,
     category1: 'shoes',
     category2: 'sneakers',
+    categoryKor1: '신발',
+    categoryKor2: '스니커즈',
     name: '로고 장식 데님 스니커즈',
     price: '₩ 1,420,000',
     subtitle:
@@ -17890,6 +18555,8 @@ export const products = [
     index: 16,
     category1: 'shoes',
     category2: 'sneakers',
+    categoryKor1: '신발',
+    categoryKor2: '스니커즈',
     name: '로고 장식 데님 스니커즈',
     price: '₩ 1,420,000',
     subtitle:
@@ -17942,6 +18609,8 @@ export const products = [
     index: 17,
     category1: 'shoes',
     category2: 'sneakers',
+    categoryKor1: '신발',
+    categoryKor2: '스니커즈',
     name: '데님 스니커즈 뮬',
     price: '₩ 1,350,000',
     subtitle:
@@ -17994,6 +18663,8 @@ export const products = [
     index: 18,
     category1: 'shoes',
     category2: 'sneakers',
+    categoryKor1: '신발',
+    categoryKor2: '스니커즈',
     name: '데님 스니커즈 뮬',
     price: '₩ 1,350,000',
     subtitle:
@@ -18046,6 +18717,8 @@ export const products = [
     index: 19,
     category1: 'shoes',
     category2: 'sneakers',
+    categoryKor1: '신발',
+    categoryKor2: '스니커즈',
     name: 'New Balance X Miu Miu 530 SL 테코 송아지 가죽 스니커즈',
     tags: 'New Balance',
     price: '₩ 1,690,000',
@@ -18103,6 +18776,8 @@ export const products = [
     index: 20,
     category1: 'shoes',
     category2: 'sneakers',
+    categoryKor1: '신발',
+    categoryKor2: '스니커즈',
     name: 'New Balance X Miu Miu 530 SL 테코 송아지 가죽 스니커즈',
     tags: 'New Balance',
     price: '₩ 1,690,000',
@@ -18160,6 +18835,8 @@ export const products = [
     index: 21,
     category1: 'shoes',
     category2: 'sneakers',
+    categoryKor1: '신발',
+    categoryKor2: '스니커즈',
     name: 'New Balance X Miu Miu 530 SL 가죽 스니커즈',
     tags: 'New Balance',
     price: '₩ 1,690,000',
@@ -18233,6 +18910,8 @@ export const products = [
     index: 22,
     category1: 'shoes',
     category2: 'sneakers',
+    categoryKor1: '신발',
+    categoryKor2: '스니커즈',
     name: 'New Balance X Miu Miu 530 SL 블리치드 가죽 스니커즈',
     tags: 'New Balance',
     price: '₩ 1,760,000',
@@ -18289,6 +18968,8 @@ export const products = [
     index: 23,
     category1: 'shoes',
     category2: 'sneakers',
+    categoryKor1: '신발',
+    categoryKor2: '스니커즈',
     name: '김나지움 기능성 소재 및 스웨이드 스니커즈',
     tags: 'gymnasium',
     tags2: 'iconic',
@@ -18349,6 +19030,8 @@ export const products = [
     index: 24,
     category1: 'shoes',
     category2: 'sneakers',
+    categoryKor1: '신발',
+    categoryKor2: '스니커즈',
     name: '로고 장식 데님 스니커즈',
     price: '₩ 1,420,000',
     subtitle:
@@ -18401,6 +19084,8 @@ export const products = [
     index: 1,
     category1: 'shoes',
     category2: 'sneakers',
+    categoryKor1: '신발',
+    categoryKor2: '스니커즈',
     name: '김나지움 기능성 소재 및 스웨이드 복서 부츠',
     tags: 'gymnasium',
     tags2: 'iconic',
@@ -18470,6 +19155,8 @@ export const products = [
     index: 2,
     category1: 'shoes',
     category2: 'sneakers',
+    categoryKor1: '신발',
+    categoryKor2: '스니커즈',
     name: '송아지 가죽 버클 브로그 슈즈',
     price: '₩ 1,640,000',
     subtitle:
@@ -18523,6 +19210,8 @@ export const products = [
     index: 1,
     category1: 'bags',
     category2: 'topHandles',
+    categoryKor1: '가방',
+    categoryKor2: '탑핸들',
     name: '아르카디 가죽 백',
     tags: 'arcadie',
     tags2: 'iconic',
@@ -18587,6 +19276,8 @@ export const products = [
     index: 2,
     category1: 'bags',
     category2: 'topHandles',
+    categoryKor1: '가방',
+    categoryKor2: '탑핸들',
     name: '아르카디 가죽 백',
     tags: 'arcadie',
     tags2: 'iconic',
@@ -18665,6 +19356,8 @@ export const products = [
     index: 3,
     category1: 'bags',
     category2: 'topHandles',
+    categoryKor1: '가방',
+    categoryKor2: '탑핸들',
     name: '아르카디 가죽 백',
     tags: 'arcadie',
     tags2: 'iconic',
@@ -18750,6 +19443,8 @@ export const products = [
     index: 4,
     category1: 'bags',
     category2: 'topHandles',
+    categoryKor1: '가방',
+    categoryKor2: '탑핸들',
     name: '아르카디 가죽 백',
     tags: 'arcadie',
     tags2: 'iconic',
@@ -18814,6 +19509,8 @@ export const products = [
     index: 5,
     category1: 'bags',
     category2: 'topHandles',
+    categoryKor1: '가방',
+    categoryKor2: '탑핸들',
     name: '아르카디 가죽 백',
     tags: 'arcadie',
     tags2: 'iconic',
@@ -18878,6 +19575,8 @@ export const products = [
     index: 6,
     category1: 'bags',
     category2: 'topHandles',
+    categoryKor1: '가방',
+    categoryKor2: '탑핸들',
     name: '아르카디 가죽 백',
     tags: 'arcadie',
     tags2: 'iconic',
@@ -18942,6 +19641,8 @@ export const products = [
     index: 7,
     category1: 'bags',
     category2: 'topHandles',
+    categoryKor1: '가방',
+    categoryKor2: '탑핸들',
     name: '아르카디 가죽 백',
     tags: 'arcadie',
     tags2: 'iconic',
@@ -19027,6 +19728,8 @@ export const products = [
     index: 8,
     category1: 'bags',
     category2: 'topHandles',
+    categoryKor1: '가방',
+    categoryKor2: '탑핸들',
     name: '아르카디 가죽 백',
     tags: 'arcadie',
     tags2: 'iconic',
@@ -19112,6 +19815,8 @@ export const products = [
     index: 9,
     category1: 'bags',
     category2: 'topHandles',
+    categoryKor1: '가방',
+    categoryKor2: '탑핸들',
     name: '아르카디 가죽 백',
     tags: 'arcadie',
     tags2: 'iconic',
@@ -19190,6 +19895,8 @@ export const products = [
     index: 10,
     category1: 'bags',
     category2: 'topHandles',
+    categoryKor1: '가방',
+    categoryKor2: '탑핸들',
     name: '아르카디 가죽 백',
     tags: 'arcadie',
     tags2: 'iconic',
@@ -19275,6 +19982,8 @@ export const products = [
     index: 11,
     category1: 'bags',
     category2: 'topHandles',
+    categoryKor1: '가방',
+    categoryKor2: '탑핸들',
     name: '아르카디 마테라쎄 나파 가죽 백',
     tags: 'arcadie',
     tags2: 'iconic',
@@ -19354,6 +20063,8 @@ export const products = [
     index: 12,
     category1: 'bags',
     category2: 'topHandles',
+    categoryKor1: '가방',
+    categoryKor2: '탑핸들',
     name: '아르카디 마테라쎄 나파 가죽 백',
     tags: 'arcadie',
     tags2: 'iconic',
@@ -19440,6 +20151,8 @@ export const products = [
     index: 13,
     category1: 'bags',
     category2: 'topHandles',
+    categoryKor1: '가방',
+    categoryKor2: '탑핸들',
     name: '아르카디 마테라쎄 나파 가죽 백',
     tags: 'arcadie',
     tags2: 'iconic',
@@ -19505,6 +20218,8 @@ export const products = [
     index: 14,
     category1: 'bags',
     category2: 'topHandles',
+    categoryKor1: '가방',
+    categoryKor2: '탑핸들',
     name: '아르카디 마테라쎄 나파 가죽 백',
     tags: 'arcadie',
     tags2: 'iconic',
@@ -19570,6 +20285,8 @@ export const products = [
     index: 15,
     category1: 'bags',
     category2: 'topHandles',
+    categoryKor1: '가방',
+    categoryKor2: '탑핸들',
     name: '아르카디 마테라쎄 나파 가죽 백',
     tags: 'arcadie',
     tags2: 'iconic',
@@ -19635,6 +20352,8 @@ export const products = [
     index: 16,
     category1: 'bags',
     category2: 'topHandles',
+    categoryKor1: '가방',
+    categoryKor2: '탑핸들',
     name: '아르카디 마테라쎄 나파 가죽 백',
     tags: 'arcadie',
     tags2: 'iconic',
@@ -19714,6 +20433,8 @@ export const products = [
     index: 17,
     category1: 'bags',
     category2: 'topHandles',
+    categoryKor1: '가방',
+    categoryKor2: '탑핸들',
     name: '아르카디 마테라쎄 나파 가죽 백',
     tags: 'arcadie',
     tags2: 'iconic',
@@ -19778,6 +20499,8 @@ export const products = [
     index: 18,
     category1: 'bags',
     category2: 'topHandles',
+    categoryKor1: '가방',
+    categoryKor2: '탑핸들',
     name: '아르카디 마테라쎄 나파 가죽 백',
     tags: 'arcadie',
     tags2: 'iconic',
@@ -19864,6 +20587,8 @@ export const products = [
     index: 19,
     category1: 'bags',
     category2: 'topHandles',
+    categoryKor1: '가방',
+    categoryKor2: '탑핸들',
     name: '아르카디 마테라쎄 나파 가죽 백',
     tags: 'arcadie',
     tags2: 'iconic',
@@ -19943,6 +20668,8 @@ export const products = [
     index: 20,
     category1: 'bags',
     category2: 'topHandles',
+    categoryKor1: '가방',
+    categoryKor2: '탑핸들',
     name: '아르카디 마테라쎄 나파 가죽 백',
     tags: 'arcadie',
     tags2: 'iconic',
@@ -20022,6 +20749,8 @@ export const products = [
     index: 21,
     category1: 'bags',
     category2: 'topHandles',
+    categoryKor1: '가방',
+    categoryKor2: '탑핸들',
     name: '아르카디 마테라쎄 스웨이드 백',
     tags: 'arcadie',
     tags2: 'iconic',
@@ -20087,6 +20816,8 @@ export const products = [
     index: 22,
     category1: 'bags',
     category2: 'topHandles',
+    categoryKor1: '가방',
+    categoryKor2: '탑핸들',
     name: '아르카디 마테라쎄 스웨이드 백',
     tags: 'arcadie',
     tags2: 'iconic',
@@ -20152,6 +20883,8 @@ export const products = [
     index: 23,
     category1: 'bags',
     category2: 'topHandles',
+    categoryKor1: '가방',
+    categoryKor2: '탑핸들',
     name: '아르카디 패딩 스웨이드 탑 핸들 백',
     tags: 'arcadie',
     tags2: 'iconic',
@@ -20229,6 +20962,8 @@ export const products = [
     index: 24,
     category1: 'bags',
     category2: 'topHandles',
+    categoryKor1: '가방',
+    categoryKor2: '탑핸들',
     name: '아르카디 패딩 스웨이드 탑 핸들 백',
     tags: 'arcadie',
     tags2: 'iconic',
@@ -20292,6 +21027,8 @@ export const products = [
     index: 2,
     category1: 'bags',
     category2: 'shoulder',
+    categoryKor1: '가방',
+    categoryKor2: '숄더백',
     name: '가죽 클러치',
     price: '₩ 3,600,000',
     subtitle:
@@ -20373,6 +21110,8 @@ export const products = [
     index: 1,
     category1: 'bags',
     category2: 'shoulder',
+    categoryKor1: '가방',
+    categoryKor2: '숄더백',
     name: '가죽 클러치',
     price: '₩ 3,600,000',
     subtitle:
@@ -20454,6 +21193,8 @@ export const products = [
     index: 3,
     category1: 'bags',
     category2: 'shoulder',
+    categoryKor1: '가방',
+    categoryKor2: '숄더백',
     name: '가죽 클러치',
     price: '₩ 3,600,000',
     subtitle:
@@ -20535,6 +21276,8 @@ export const products = [
     index: 4,
     category1: 'bags',
     category2: 'mini',
+    categoryKor1: '가방',
+    categoryKor2: '미니백',
     name: '완더 마테라쎄 나파 가죽 호보 미니 백',
     tags: 'wander',
     tags2: 'iconic',
@@ -20611,6 +21354,8 @@ export const products = [
     index: 5,
     category1: 'bags',
     category2: 'mini',
+    categoryKor1: '가방',
+    categoryKor2: '미니백',
     name: '완더 마테라쎄 나파 가죽 호보 미니 백',
     tags: 'wander',
     tags2: 'iconic',
@@ -20687,6 +21432,8 @@ export const products = [
     index: 6,
     category1: 'bags',
     category2: 'mini',
+    categoryKor1: '가방',
+    categoryKor2: '미니백',
     name: '완더 마테라쎄 나파 가죽 호보 미니 백',
     tags: 'wander',
     tags2: 'iconic',
@@ -20749,6 +21496,8 @@ export const products = [
     index: 7,
     category1: 'bags',
     category2: 'mini',
+    categoryKor1: '가방',
+    categoryKor2: '미니백',
     name: '완더 마테라쎄 나파 가죽 호보 미니 백',
     tags: 'wander',
     tags2: 'iconic',
@@ -20825,6 +21574,8 @@ export const products = [
     index: 8,
     category1: 'bags',
     category2: 'mini',
+    categoryKor1: '가방',
+    categoryKor2: '미니백',
     name: '완더 마테라쎄 나파 가죽 호보 미니 백',
     tags: 'wander',
     tags2: 'iconic',
@@ -20901,6 +21652,8 @@ export const products = [
     index: 9,
     category1: 'bags',
     category2: 'mini',
+    categoryKor1: '가방',
+    categoryKor2: '미니백',
     name: '마테라쎄 나파 가죽 파우치',
     price: '₩ 3,200,000',
     subtitle:
@@ -20962,6 +21715,8 @@ export const products = [
     index: 10,
     category1: 'bags',
     category2: 'mini',
+    categoryKor1: '가방',
+    categoryKor2: '미니백',
     name: '마테라쎄 나파 가죽 파우치',
     price: '₩ 2,950,000',
     subtitle:
@@ -21042,6 +21797,8 @@ export const products = [
     index: 11,
     category1: 'bags',
     category2: 'mini',
+    categoryKor1: '가방',
+    categoryKor2: '미니백',
     name: '마테라쎄 나파 가죽 파우치',
     price: '₩ 2,950,000',
     subtitle:
@@ -21122,6 +21879,8 @@ export const products = [
     index: 12,
     category1: 'bags',
     category2: 'mini',
+    categoryKor1: '가방',
+    categoryKor2: '미니백',
     name: '마테라쎄 나파 가죽 파우치',
     price: '₩ 2,950,000',
     subtitle:
@@ -21181,6 +21940,8 @@ export const products = [
     index: 13,
     category1: 'bags',
     category2: 'mini',
+    categoryKor1: '가방',
+    categoryKor2: '미니백',
     name: '마테라쎄 나파 가죽 파우치',
     price: '₩ 2,950,000',
     subtitle:
@@ -21261,6 +22022,8 @@ export const products = [
     index: 14,
     category1: 'bags',
     category2: 'mini',
+    categoryKor1: '가방',
+    categoryKor2: '미니백',
     name: '마테라쎄 나파 가죽 파우치',
     price: '₩ 2,400,000',
     subtitle:
@@ -21319,6 +22082,8 @@ export const products = [
     index: 15,
     category1: 'bags',
     category2: 'mini',
+    categoryKor1: '가방',
+    categoryKor2: '미니백',
     name: '마테라쎄 나파 가죽 파우치',
     price: '₩ 2,400,000',
     subtitle:
@@ -21377,6 +22142,8 @@ export const products = [
     index: 16,
     category1: 'bags',
     category2: 'mini',
+    categoryKor1: '가방',
+    categoryKor2: '미니백',
     name: '마테라쎄 나파 가죽 파우치',
     price: '₩ 2,400,000',
     subtitle:
@@ -21435,6 +22202,8 @@ export const products = [
     index: 17,
     category1: 'bags',
     category2: 'mini',
+    categoryKor1: '가방',
+    categoryKor2: '미니백',
     name: '마테라쎄 나파 가죽 파우치',
     price: '₩ 2,400,000',
     subtitle:
@@ -21493,6 +22262,8 @@ export const products = [
     index: 18,
     category1: 'bags',
     category2: 'mini',
+    categoryKor1: '가방',
+    categoryKor2: '미니백',
     name: '마테라쎄 나파 가죽 파우치',
     price: '₩ 2,400,000',
     subtitle:
@@ -21551,6 +22322,8 @@ export const products = [
     index: 19,
     category1: 'bags',
     category2: 'mini',
+    categoryKor1: '가방',
+    categoryKor2: '미니백',
     name: '마테라쎄 나파 가죽 파우치',
     price: '₩ 2,400,000',
     subtitle:
@@ -21609,6 +22382,8 @@ export const products = [
     index: 20,
     category1: 'bags',
     category2: 'mini',
+    categoryKor1: '가방',
+    categoryKor2: '미니백',
     name: '가죽 파우치',
     price: '₩ 2,300,000',
     subtitle:
@@ -21667,6 +22442,8 @@ export const products = [
     index: 21,
     category1: 'bags',
     category2: 'mini',
+    categoryKor1: '가방',
+    categoryKor2: '미니백',
     name: '가죽 파우치',
     price: '₩ 2,300,000',
     subtitle:
@@ -21725,6 +22502,8 @@ export const products = [
     index: 22,
     category1: 'bags',
     category2: 'mini',
+    categoryKor1: '가방',
+    categoryKor2: '미니백',
     name: '가죽 파우치',
     price: '₩ 2,300,000',
     subtitle:
@@ -21783,6 +22562,8 @@ export const products = [
     index: 23,
     category1: 'bags',
     category2: 'mini',
+    categoryKor1: '가방',
+    categoryKor2: '미니백',
     name: '나파 가죽 파우치',
     tags: '나파',
     price: '₩ 2,150,000',
@@ -21842,6 +22623,8 @@ export const products = [
     index: 24,
     category1: 'bags',
     category2: 'mini',
+    categoryKor1: '가방',
+    categoryKor2: '미니백',
     name: '나파 가죽 파우치',
     tags: '나파',
     price: '₩ 2,150,000',
@@ -21901,6 +22684,8 @@ export const products = [
     index: 4,
     category1: 'bags',
     category2: 'shoulder',
+    categoryKor1: '가방',
+    categoryKor2: '숄더백',
     name: '마테라쎄 나파 가죽 클러치',
     price: '₩ 4,150,000',
     subtitle:
@@ -21961,6 +22746,8 @@ export const products = [
     index: 5,
     category1: 'bags',
     category2: 'shoulder',
+    categoryKor1: '가방',
+    categoryKor2: '숄더백',
     name: '마테라쎄 나파 가죽 클러치',
     price: '₩ 4,150,000',
     subtitle:
@@ -22021,6 +22808,8 @@ export const products = [
     index: 6,
     category1: 'bags',
     category2: 'shoulder',
+    categoryKor1: '가방',
+    categoryKor2: '숄더백',
     name: '마테라쎄 나파 가죽 클러치',
     price: '₩ 4,150,000',
     subtitle:
@@ -22081,6 +22870,8 @@ export const products = [
     index: 7,
     category1: 'bags',
     category2: 'hobo',
+    categoryKor1: '가방',
+    categoryKor2: '호보백',
     name: '가죽 백',
     price: '₩ 4,300,000',
     subtitle:
@@ -22140,6 +22931,8 @@ export const products = [
     index: 5,
     category1: 'bags',
     category2: 'hobo',
+    categoryKor1: '가방',
+    categoryKor2: '호보백',
     name: '가죽 백',
     price: '₩ 4,900,000',
     subtitle:
@@ -22199,6 +22992,8 @@ export const products = [
     index: 6,
     category1: 'bags',
     category2: 'hobo',
+    categoryKor1: '가방',
+    categoryKor2: '호보백',
     name: '가죽 백',
     price: '₩ 4,900,000',
     subtitle:
@@ -22258,6 +23053,8 @@ export const products = [
     index: 10,
     category1: 'bags',
     category2: 'hobo',
+    categoryKor1: '가방',
+    categoryKor2: '호보백',
     name: '나파 가죽 포켓 백',
     tags: 'pocket',
     tags2: 'iconic',
@@ -22341,6 +23138,8 @@ export const products = [
     index: 11,
     category1: 'bags',
     category2: 'hobo',
+    categoryKor1: '가방',
+    categoryKor2: '호보백',
     name: '나파 가죽 포켓 백',
     tags: 'pocket',
     tags2: 'iconic',
@@ -22417,6 +23216,8 @@ export const products = [
     index: 8,
     category1: 'bags',
     category2: 'hobo',
+    categoryKor1: '가방',
+    categoryKor2: '호보백',
     name: '나파 가죽 포켓 백',
     tags: 'pocket',
     tags2: 'iconic',
@@ -22494,6 +23295,8 @@ export const products = [
     index: 9,
     category1: 'bags',
     category2: 'hobo',
+    categoryKor1: '가방',
+    categoryKor2: '호보백',
     name: '나파 가죽 포켓 백',
     tags: 'pocket',
     tags2: 'iconic',
@@ -22564,6 +23367,8 @@ export const products = [
     index: 13,
     category1: 'bags',
     category2: 'hobo',
+    categoryKor1: '가방',
+    categoryKor2: '호보백',
     name: '나파 가죽 포켓 백',
     tags: 'pocket',
     tags2: 'iconic',
@@ -22641,6 +23446,8 @@ export const products = [
     index: 14,
     category1: 'bags',
     category2: 'hobo',
+    categoryKor1: '가방',
+    categoryKor2: '호보백',
     name: '가죽 포켓 백',
     tags: 'pocket',
     tags2: 'iconic',
@@ -22704,6 +23511,8 @@ export const products = [
     index: 12,
     category1: 'bags',
     category2: 'hobo',
+    categoryKor1: '가방',
+    categoryKor2: '호보백',
     name: '나파 가죽 포켓 백',
     tags: 'pocket',
     tags2: 'iconic',
@@ -22787,6 +23596,8 @@ export const products = [
     index: 17,
     category1: 'bags',
     category2: 'shoulder',
+    categoryKor1: '가방',
+    categoryKor2: '숄더백',
     name: '나파 가죽 탑 핸들 백',
     tags: 'pocket',
     tags2: 'iconic',
@@ -22870,6 +23681,8 @@ export const products = [
     index: 18,
     category1: 'bags',
     category2: 'shoulder',
+    categoryKor1: '가방',
+    categoryKor2: '숄더백',
     name: '나파 가죽 포켓 탑핸들 백',
     tags: 'pocket',
     tags2: 'iconic',
@@ -22933,6 +23746,8 @@ export const products = [
     index: 19,
     category1: 'bags',
     category2: 'shoulder',
+    categoryKor1: '가방',
+    categoryKor2: '숄더백',
     name: '나파 가죽 포켓 탑핸들 백',
     tags: 'pocket',
     tags2: 'iconic',
@@ -22996,6 +23811,8 @@ export const products = [
     index: 20,
     category1: 'bags',
     category2: 'shoulder',
+    categoryKor1: '가방',
+    categoryKor2: '숄더백',
     name: '가죽 보 백',
     tags: 'beau',
     tags2: 'iconic',
@@ -23072,6 +23889,8 @@ export const products = [
     index: 21,
     category1: 'bags',
     category2: 'shoulder',
+    categoryKor1: '가방',
+    categoryKor2: '숄더백',
     name: '가죽 보 백',
     tags: 'beau',
     tags2: 'iconic',
@@ -23148,6 +23967,8 @@ export const products = [
     index: 22,
     category1: 'bags',
     category2: 'shoulder',
+    categoryKor1: '가방',
+    categoryKor2: '숄더백',
     name: '가죽 보 백',
     tags: 'beau',
     tags2: 'iconic',
@@ -23231,6 +24052,8 @@ export const products = [
     index: 23,
     category1: 'bags',
     category2: 'shoulder',
+    categoryKor1: '가방',
+    categoryKor2: '숄더백',
     name: '가죽 보 백',
     tags: 'beau',
     tags2: 'iconic',
@@ -23307,6 +24130,8 @@ export const products = [
     index: 24,
     category1: 'bags',
     category2: 'shoulder',
+    categoryKor1: '가방',
+    categoryKor2: '숄더백',
     name: '보 나파 가죽 백',
     tags: 'beau',
     tags2: 'iconic',
@@ -23383,6 +24208,8 @@ export const products = [
     index: 1,
     category1: 'bags',
     category2: 'hobo',
+    categoryKor1: '가방',
+    categoryKor2: '호보백',
     name: '완더 마테라쎄 스웨이드 백',
     tags: 'wander',
     tags2: 'iconic',
@@ -23444,6 +24271,8 @@ export const products = [
     index: 2,
     category1: 'bags',
     category2: 'hobo',
+    categoryKor1: '가방',
+    categoryKor2: '호보백',
     name: '완더 마테라쎄 스웨이드 백',
     tags: 'wander',
     tags2: 'iconic',
@@ -23505,6 +24334,8 @@ export const products = [
     index: 3,
     category1: 'bags',
     category2: 'hobo',
+    categoryKor1: '가방',
+    categoryKor2: '호보백',
     name: '완더 마테라쎄 스웨이드 백',
     tags: 'wander',
     tags2: 'iconic',
@@ -23566,6 +24397,8 @@ export const products = [
     index: 4,
     category1: 'bags',
     category2: 'hobo',
+    categoryKor1: '가방',
+    categoryKor2: '호보백',
     name: '완더 마테라쎄 스웨이드 백',
     tags: 'wander',
     tags2: 'iconic',
@@ -23648,6 +24481,8 @@ export const products = [
     index: 5,
     category1: 'bags',
     category2: 'hobo',
+    categoryKor1: '가방',
+    categoryKor2: '호보백',
     name: '완더 시어링 백',
     tags: 'wander',
     tags2: 'iconic',
@@ -23722,6 +24557,8 @@ export const products = [
     index: 6,
     category1: 'bags',
     category2: 'hobo',
+    categoryKor1: '가방',
+    categoryKor2: '호보백',
     name: '완더 시어링 백',
     tags: 'wander',
     tags2: 'iconic',
@@ -23783,6 +24620,8 @@ export const products = [
     index: 7,
     category1: 'bags',
     category2: 'hobo',
+    categoryKor1: '가방',
+    categoryKor2: '호보백',
     name: '완더 시어링 호보 백',
     tags: 'wander',
     tags2: 'iconic',
@@ -23865,6 +24704,8 @@ export const products = [
     index: 8,
     category1: 'bags',
     category2: 'hobo',
+    categoryKor1: '가방',
+    categoryKor2: '호보백',
     name: '완더 시어링 호보 백',
     tags: 'wander',
     tags2: 'iconic',
@@ -23947,6 +24788,8 @@ export const products = [
     index: 9,
     category1: 'bags',
     category2: 'hobo',
+    categoryKor1: '가방',
+    categoryKor2: '호보백',
     name: '완더 마테라쎄 나파 가죽 호보 백',
     tags: 'wander',
     tags2: 'iconic',
@@ -24025,6 +24868,8 @@ export const products = [
     index: 10,
     category1: 'bags',
     category2: 'hobo',
+    categoryKor1: '가방',
+    categoryKor2: '호보백',
     name: '완더 마테라쎄 나파 가죽 호보 백',
     tags: 'wander',
     tags2: 'iconic',
@@ -24103,6 +24948,8 @@ export const products = [
     index: 11,
     category1: 'bags',
     category2: 'hobo',
+    categoryKor1: '가방',
+    categoryKor2: '호보백',
     name: '완더 마테라쎄 나파 가죽 백',
     tags: 'wander',
     tags2: 'iconic',
@@ -24179,6 +25026,8 @@ export const products = [
     index: 12,
     category1: 'bags',
     category2: 'hobo',
+    categoryKor1: '가방',
+    categoryKor2: '호보백',
     name: '완더 마테라쎄 나파 가죽 호보 백',
     tags: 'wander',
     tags2: 'iconic',
@@ -24257,6 +25106,8 @@ export const products = [
     index: 13,
     category1: 'bags',
     category2: 'hobo',
+    categoryKor1: '가방',
+    categoryKor2: '호보백',
     name: '완더 마테라쎄 나파 가죽 호보 백',
     tags: 'wander',
     tags2: 'iconic',
@@ -24335,6 +25186,8 @@ export const products = [
     index: 14,
     category1: 'bags',
     category2: 'hobo',
+    categoryKor1: '가방',
+    categoryKor2: '호보백',
     name: '완더 마테라쎄 나파 가죽 호보 백',
     tags: 'wander',
     tags2: 'iconic',
@@ -24420,6 +25273,8 @@ export const products = [
     index: 15,
     category1: 'bags',
     category2: 'hobo',
+    categoryKor1: '가방',
+    categoryKor2: '호보백',
     name: '완더 마테라쎄 나파 가죽 호보 백',
     tags: 'wander',
     tags2: 'iconic',
@@ -24498,6 +25353,8 @@ export const products = [
     index: 16,
     category1: 'bags',
     category2: 'hobo',
+    categoryKor1: '가방',
+    categoryKor2: '호보백',
     name: '완더 마테라쎄 나파 가죽 호보 백',
     tags: 'wander',
     tags2: 'iconic',
@@ -24583,6 +25440,8 @@ export const products = [
     index: 17,
     category1: 'bags',
     category2: 'hobo',
+    categoryKor1: '가방',
+    categoryKor2: '호보백',
     name: '완더 마테라쎄 나파 가죽 호보 백',
     tags: 'wander',
     tags2: 'iconic',
@@ -24647,6 +25506,8 @@ export const products = [
     index: 18,
     category1: 'bags',
     category2: 'hobo',
+    categoryKor1: '가방',
+    categoryKor2: '호보백',
     name: '완더 마테라쎄 나파 가죽 호보 백',
     tags: 'wander',
     tags2: 'iconic',
@@ -24711,6 +25572,8 @@ export const products = [
     index: 19,
     category1: 'bags',
     category2: 'hobo',
+    categoryKor1: '가방',
+    categoryKor2: '호보백',
     name: '완더 마테라쎄 나파 가죽 호보 백',
     tags: 'wander',
     tags2: 'iconic',
@@ -24796,6 +25659,8 @@ export const products = [
     index: 20,
     category1: 'bags',
     category2: 'hobo',
+    categoryKor1: '가방',
+    categoryKor2: '호보백',
     name: '완더 마테라쎄 나파 가죽 호보 백',
     tags: 'wander',
     tags2: 'iconic',
@@ -24860,6 +25725,8 @@ export const products = [
     index: 21,
     category1: 'bags',
     category2: 'hobo',
+    categoryKor1: '가방',
+    categoryKor2: '호보백',
     name: '완더 마테라쎄 나파 가죽 호보 백',
     tags: 'wander',
     tags2: 'iconic',
@@ -24924,6 +25791,8 @@ export const products = [
     index: 22,
     category1: 'bags',
     category2: 'hobo',
+    categoryKor1: '가방',
+    categoryKor2: '호보백',
     name: '완더 마테라쎄 나파 가죽 호보 백',
     tags: 'wander',
     tags2: 'iconic',
@@ -25007,6 +25876,8 @@ export const products = [
     index: 23,
     category1: 'bags',
     category2: 'hobo',
+    categoryKor1: '가방',
+    categoryKor2: '호보백',
     name: '완더 마테라쎄 나파 가죽 호보 백',
     tags: 'wander',
     tags2: 'iconic',
@@ -25069,6 +25940,8 @@ export const products = [
     index: 24,
     category1: 'bags',
     category2: 'hobo',
+    categoryKor1: '가방',
+    categoryKor2: '호보백',
     name: '완더 마테라쎄 나파 가죽 호보 백',
     tags: 'wander',
     tags2: 'iconic',
@@ -25152,6 +26025,8 @@ export const products = [
     index: 8,
     category1: 'bags',
     category2: 'backpacks',
+    categoryKor1: '가방',
+    categoryKor2: '백팩',
     name: '프린트 가죽 백팩',
     price: '₩ 5,700,000',
     subtitle:
@@ -25235,6 +26110,8 @@ export const products = [
     index: 2,
     category1: 'bags',
     category2: 'backpacks',
+    categoryKor1: '가방',
+    categoryKor2: '백팩',
     name: '코듀로이 백팩',
     price: '₩ 3,500,000',
     subtitle:
@@ -25310,6 +26187,8 @@ export const products = [
     index: 3,
     category1: 'bags',
     category2: 'backpacks',
+    categoryKor1: '가방',
+    categoryKor2: '백팩',
     name: '코듀로이 백팩',
     price: '₩ 3,000,000',
     subtitle:
@@ -25385,6 +26264,8 @@ export const products = [
     index: 4,
     category1: 'bags',
     category2: 'backpacks',
+    categoryKor1: '가방',
+    categoryKor2: '백팩',
     name: '코듀로이 백팩',
     price: '₩ 3,500,000',
     subtitle:
@@ -25460,6 +26341,8 @@ export const products = [
     index: 5,
     category1: 'bags',
     category2: 'backpacks',
+    categoryKor1: '가방',
+    categoryKor2: '백팩',
     name: '코듀로이 백팩',
     price: '₩ 3,000,000',
     subtitle:
@@ -25535,6 +26418,8 @@ export const products = [
     index: 6,
     category1: 'bags',
     category2: 'backpacks',
+    categoryKor1: '가방',
+    categoryKor2: '백팩',
     name: '코듀로이 백팩',
     price: '₩ 3,500,000',
     subtitle:
@@ -25596,6 +26481,8 @@ export const products = [
     index: 7,
     category1: 'bags',
     category2: 'backpacks',
+    categoryKor1: '가방',
+    categoryKor2: '백팩',
     name: '코듀로이 백팩',
     price: '₩ 3,000,000',
     subtitle:
@@ -25657,6 +26544,8 @@ export const products = [
     index: 9,
     category1: 'bags',
     category2: 'backpacks',
+    categoryKor1: '가방',
+    categoryKor2: '백팩',
     name: '모헤어 백팩',
     price: '₩ 5,500,000',
     subtitle:
@@ -25732,6 +26621,8 @@ export const products = [
     index: 10,
     category1: 'bags',
     category2: 'backpacks',
+    categoryKor1: '가방',
+    categoryKor2: '백팩',
     name: '가죽 백팩',
     price: '₩ 5,500,000',
     subtitle:
@@ -25800,6 +26691,8 @@ export const products = [
     index: 11,
     category1: 'bags',
     category2: 'backpacks',
+    categoryKor1: '가방',
+    categoryKor2: '백팩',
     name: '가죽 백팩',
     price: '₩ 5,500,000',
     subtitle:
@@ -25882,6 +26775,8 @@ export const products = [
     index: 12,
     category1: 'bags',
     category2: 'backpacks',
+    categoryKor1: '가방',
+    categoryKor2: '백팩',
     name: '가죽 백팩',
     price: '₩ 5,050,000',
     subtitle:
@@ -25950,6 +26845,8 @@ export const products = [
     index: 13,
     category1: 'bags',
     category2: 'backpacks',
+    categoryKor1: '가방',
+    categoryKor2: '백팩',
     name: '가죽 백팩',
     price: '₩ 4,900,000',
     subtitle:
@@ -26033,6 +26930,8 @@ export const products = [
     index: 14,
     category1: 'bags',
     category2: 'backpacks',
+    categoryKor1: '가방',
+    categoryKor2: '백팩',
     name: '가죽 백팩',
     price: '₩ 4,500,000',
     subtitle:
@@ -26115,6 +27014,8 @@ export const products = [
     index: 15,
     category1: 'bags',
     category2: 'backpacks',
+    categoryKor1: '가방',
+    categoryKor2: '백팩',
     name: '가죽 백팩',
     price: '₩ 4,900,000',
     subtitle:
@@ -26198,6 +27099,8 @@ export const products = [
     index: 16,
     category1: 'bags',
     category2: 'backpacks',
+    categoryKor1: '가방',
+    categoryKor2: '백팩',
     name: '가죽 백팩',
     price: '₩ 4,500,000',
     subtitle:
@@ -26280,6 +27183,8 @@ export const products = [
     index: 17,
     category1: 'bags',
     category2: 'backpacks',
+    categoryKor1: '가방',
+    categoryKor2: '백팩',
     name: '가죽 백팩',
     price: '₩ 4,700,000',
     subtitle:
@@ -26341,6 +27246,8 @@ export const products = [
     index: 19,
     category1: 'bags',
     category2: 'backpacks',
+    categoryKor1: '가방',
+    categoryKor2: '백팩',
     name: '가죽 백팩',
     price: '₩ 4,500,000',
     subtitle:
@@ -26402,6 +27309,8 @@ export const products = [
     index: 20,
     category1: 'bags',
     category2: 'backpacks',
+    categoryKor1: '가방',
+    categoryKor2: '백팩',
     name: '가죽 미니백팩',
     price: '₩ 3,200,000',
     subtitle:
@@ -26462,6 +27371,8 @@ export const products = [
     index: 21,
     category1: 'bags',
     category2: 'backpacks',
+    categoryKor1: '가방',
+    categoryKor2: '백팩',
     name: '가죽 미니백팩',
     price: '₩ 3,200,000',
     subtitle:
@@ -26522,6 +27433,8 @@ export const products = [
     index: 22,
     category1: 'bags',
     category2: 'backpacks',
+    categoryKor1: '가방',
+    categoryKor2: '백팩',
     name: '가죽 미니백팩',
     price: '₩ 3,200,000',
     subtitle:
@@ -26582,6 +27495,8 @@ export const products = [
     index: 23,
     category1: 'bags',
     category2: 'backpacks',
+    categoryKor1: '가방',
+    categoryKor2: '백팩',
     name: '가죽 미니백팩',
     price: '₩ 3,200,000',
     subtitle:
@@ -26643,6 +27558,8 @@ export const products = [
     index: 24,
     category1: 'bags',
     category2: 'backpacks',
+    categoryKor1: '가방',
+    categoryKor2: '백팩',
     name: '플래드 및 가죽 백팩',
     price: '₩ 3,750,000',
     subtitle:
@@ -26704,6 +27621,8 @@ export const products = [
     index: 25,
     category1: 'bags',
     category2: 'backpacks',
+    categoryKor1: '가방',
+    categoryKor2: '백팩',
     name: '플래드 및 가죽 백팩',
     price: '₩ 3,200,000',
     subtitle:
@@ -26765,6 +27684,8 @@ export const products = [
     index: 26,
     category1: 'bags',
     category2: 'backpacks',
+    categoryKor1: '가방',
+    categoryKor2: '백팩',
     name: '플래드 및 가죽 백팩',
     price: '₩ 3,750,000',
     subtitle:
@@ -26826,6 +27747,8 @@ export const products = [
     index: 1,
     category1: 'bags',
     category2: 'totes',
+    categoryKor1: '가방',
+    categoryKor2: '토트백',
     name: '아이비 가죽 백',
     tags: '아이비',
     price: '₩ 3,100,000',
@@ -26906,6 +27829,8 @@ export const products = [
     index: 2,
     category1: 'bags',
     category2: 'totes',
+    categoryKor1: '가방',
+    categoryKor2: '토트백',
     name: '아이비 가죽 백',
     tags: 'ivy',
     tags2: 'iconic',
@@ -26987,6 +27912,8 @@ export const products = [
     index: 3,
     category1: 'bags',
     category2: 'totes',
+    categoryKor1: '가방',
+    categoryKor2: '토트백',
     name: '아이비 가죽 백',
     tags: 'ivy',
     tags2: 'iconic',
@@ -27061,6 +27988,8 @@ export const products = [
     index: 4,
     category1: 'bags',
     category2: 'totes',
+    categoryKor1: '가방',
+    categoryKor2: '토트백',
     name: '아이비 스웨이드 백',
     tags: 'ivy',
     tags2: 'iconic',
@@ -27121,6 +28050,8 @@ export const products = [
     index: 5,
     category1: 'bags',
     category2: 'totes',
+    categoryKor1: '가방',
+    categoryKor2: '토트백',
     name: '아이비 스웨이드 백',
     tags: 'ivy',
     tags2: 'iconic',
@@ -27181,6 +28112,8 @@ export const products = [
     index: 6,
     category1: 'bags',
     category2: 'totes',
+    categoryKor1: '가방',
+    categoryKor2: '토트백',
     name: '아이비 코듀로이 백',
     tags: 'ivy',
     tags2: 'iconic',
@@ -27241,6 +28174,8 @@ export const products = [
     index: 7,
     category1: 'bags',
     category2: 'totes',
+    categoryKor1: '가방',
+    categoryKor2: '토트백',
     name: '아이비 코듀로이 백',
     tags: 'ivy',
     tags2: 'iconic',
@@ -27301,6 +28236,8 @@ export const products = [
     index: 8,
     category1: 'bags',
     category2: 'totes',
+    categoryKor1: '가방',
+    categoryKor2: '토트백',
     name: '아이비 코듀로이 쇼핑 백',
     tags: 'ivy',
     tags2: 'iconic',
@@ -27361,6 +28298,8 @@ export const products = [
     index: 9,
     category1: 'bags',
     category2: 'totes',
+    categoryKor1: '가방',
+    categoryKor2: '토트백',
     name: '아이비 코듀로이 쇼핑 백',
     tags: 'ivy',
     tags2: 'iconic',
@@ -27421,6 +28360,8 @@ export const products = [
     index: 10,
     category1: 'bags',
     category2: 'totes',
+    categoryKor1: '가방',
+    categoryKor2: '토트백',
     name: '아이비 플래드 및 시어링 백',
     tags: 'ivy',
     tags2: 'iconic',
@@ -27482,6 +28423,8 @@ export const products = [
     index: 11,
     category1: 'bags',
     category2: 'totes',
+    categoryKor1: '가방',
+    categoryKor2: '토트백',
     name: '아이비 가죽 백',
     tags: 'ivy',
     tags2: 'iconic',
@@ -27542,6 +28485,8 @@ export const products = [
     index: 12,
     category1: 'bags',
     category2: 'totes',
+    categoryKor1: '가방',
+    categoryKor2: '토트백',
     name: '아이비 가죽 백',
     tags: 'ivy',
     tags2: 'iconic',
@@ -27623,6 +28568,8 @@ export const products = [
     index: 13,
     category1: 'bags',
     category2: 'totes',
+    categoryKor1: '가방',
+    categoryKor2: '토트백',
     name: '아이비 가죽 백',
     tags: 'ivy',
     tags2: 'iconic',
@@ -27704,6 +28651,8 @@ export const products = [
     index: 14,
     category1: 'bags',
     category2: 'totes',
+    categoryKor1: '가방',
+    categoryKor2: '토트백',
     name: '아이비 가죽 백',
     tags: 'ivy',
     tags2: 'iconic',
@@ -27785,6 +28734,8 @@ export const products = [
     index: 15,
     category1: 'bags',
     category2: 'totes',
+    categoryKor1: '가방',
+    categoryKor2: '토트백',
     name: '아이비 가죽 백',
     tags: 'ivy',
     tags2: 'iconic',
@@ -27866,6 +28817,8 @@ export const products = [
     index: 16,
     category1: 'bags',
     category2: 'totes',
+    categoryKor1: '가방',
+    categoryKor2: '토트백',
     name: '아이비 가죽 패치워크 백',
     tags: 'ivy',
     tags2: 'iconic',
@@ -27926,6 +28879,8 @@ export const products = [
     index: 17,
     category1: 'bags',
     category2: 'totes',
+    categoryKor1: '가방',
+    categoryKor2: '토트백',
     name: '아이비 가죽 패치워크 백',
     tags: 'ivy',
     tags2: 'iconic',
@@ -27986,6 +28941,8 @@ export const products = [
     index: 18,
     category1: 'bags',
     category2: 'totes',
+    categoryKor1: '가방',
+    categoryKor2: '토트백',
     name: '아이비 가죽 패치워크 백',
     tags: 'ivy',
     tags2: 'iconic',
@@ -28060,6 +29017,8 @@ export const products = [
     index: 19,
     category1: 'bags',
     category2: 'totes',
+    categoryKor1: '가방',
+    categoryKor2: '토트백',
     name: '아이비 가죽 백',
     tags: 'ivy',
     tags2: 'iconic',
@@ -28135,6 +29094,8 @@ export const products = [
     index: 20,
     category1: 'bags',
     category2: 'totes',
+    categoryKor1: '가방',
+    categoryKor2: '토트백',
     name: '아이비 가죽 백',
     tags: 'ivy',
     tags2: 'iconic',
@@ -28217,6 +29178,8 @@ export const products = [
     index: 21,
     category1: 'bags',
     category2: 'totes',
+    categoryKor1: '가방',
+    categoryKor2: '토트백',
     name: '아이비 가죽 백',
     tags: 'ivy',
     tags2: 'iconic',
@@ -28299,6 +29262,8 @@ export const products = [
     index: 22,
     category1: 'bags',
     category2: 'totes',
+    categoryKor1: '가방',
+    categoryKor2: '토트백',
     name: '아이비 가죽 백',
     tags: 'ivy',
     tags2: 'iconic',
@@ -28374,6 +29339,8 @@ export const products = [
     index: 23,
     category1: 'bags',
     category2: 'totes',
+    categoryKor1: '가방',
+    categoryKor2: '토트백',
     name: '아이비 가죽 핸드백',
     tags: 'ivy',
     tags2: 'iconic',
@@ -28449,6 +29416,8 @@ export const products = [
     index: 24,
     category1: 'bags',
     category2: 'totes',
+    categoryKor1: '가방',
+    categoryKor2: '토트백',
     name: '아이비 가죽 핸드백',
     tags: 'ivy',
     tags2: 'iconic',
@@ -28524,6 +29493,8 @@ export const products = [
     index: 1,
     category1: 'bags',
     category2: 'totes',
+    categoryKor1: '가방',
+    categoryKor2: '토트백',
     name: '아이비 가죽 핸드백',
     tags: 'ivy',
     tags2: 'iconic',
@@ -28606,6 +29577,8 @@ export const products = [
     index: 2,
     category1: 'bags',
     category2: 'totes',
+    categoryKor1: '가방',
+    categoryKor2: '토트백',
     name: '아이비 가죽 핸드백',
     tags: 'ivy',
     tags2: 'iconic',
@@ -28684,6 +29657,8 @@ export const products = [
     index: 3,
     category1: 'bags',
     category2: 'totes',
+    categoryKor1: '가방',
+    categoryKor2: '토트백',
     name: '아이비 가죽 핸드백',
     tags: 'ivy',
     tags2: 'iconic',
@@ -28749,6 +29724,8 @@ export const products = [
     index: 4,
     category1: 'bags',
     category2: 'totes',
+    categoryKor1: '가방',
+    categoryKor2: '토트백',
     name: '캔버스 및 가죽 아이비 백',
     price: '₩ 2,250,000',
     subtitle:
@@ -28822,6 +29799,8 @@ export const products = [
     index: 5,
     category1: 'bags',
     category2: 'totes',
+    categoryKor1: '가방',
+    categoryKor2: '토트백',
     name: '캔버스 및 가죽 아이비 백',
     price: '₩ 2,600,000',
     subtitle:
@@ -28880,6 +29859,8 @@ export const products = [
     index: 6,
     category1: 'bags',
     category2: 'totes',
+    categoryKor1: '가방',
+    categoryKor2: '토트백',
     name: '아이비 스팽글 메쉬 백',
     tags: 'ivy',
     tags2: 'iconic',
@@ -28941,6 +29922,8 @@ export const products = [
     index: 7,
     category1: 'bags',
     category2: 'totes',
+    categoryKor1: '가방',
+    categoryKor2: '토트백',
     name: '아이비 코듀로이 핸드백',
     tags: 'ivy',
     tags2: 'iconic',
@@ -29019,6 +30002,8 @@ export const products = [
     index: 8,
     category1: 'bags',
     category2: 'totes',
+    categoryKor1: '가방',
+    categoryKor2: '토트백',
     name: '아이비 코듀로이 핸드백',
     tags: 'ivy',
     tags2: 'iconic',
@@ -29097,6 +30082,8 @@ export const products = [
     index: 9,
     category1: 'bags',
     category2: 'totes',
+    categoryKor1: '가방',
+    categoryKor2: '토트백',
     name: '아이비 코듀로이 핸드백',
     tags: 'ivy',
     tags2: 'iconic',
@@ -29175,6 +30162,8 @@ export const products = [
     index: 1,
     category1: 'bags',
     category2: 'backpacks',
+    categoryKor1: '가방',
+    categoryKor2: '백팩',
     name: '플래드 및 가죽 백팩',
     price: '₩ 3,200,000',
     subtitle:
@@ -29236,6 +30225,8 @@ export const products = [
     index: 2,
     category1: 'bags',
     category2: 'backpacks',
+    categoryKor1: '가방',
+    categoryKor2: '백팩',
     name: '캔버스 및 가죽 백팩',
     price: '₩ 3,300,000',
     subtitle:
@@ -29298,6 +30289,8 @@ export const products = [
     index: 3,
     category1: 'bags',
     category2: 'backpacks',
+    categoryKor1: '가방',
+    categoryKor2: '백팩',
     name: '캔버스 및 가죽 백팩',
     price: '₩ 2,850,000',
     subtitle:
@@ -29360,6 +30353,8 @@ export const products = [
     index: 4,
     category1: 'bags',
     category2: 'backpacks',
+    categoryKor1: '가방',
+    categoryKor2: '백팩',
     name: '캔버스 및 가죽 백팩',
     price: '₩ 3,300,000',
     subtitle:
@@ -29443,6 +30438,8 @@ export const products = [
     index: 5,
     category1: 'bags',
     category2: 'backpacks',
+    categoryKor1: '가방',
+    categoryKor2: '백팩',
     name: '캔버스 및 가죽 백팩',
     price: '₩ 2,850,000',
     subtitle:
@@ -29505,6 +30502,8 @@ export const products = [
     index: 6,
     category1: 'bags',
     category2: 'backpacks',
+    categoryKor1: '가방',
+    categoryKor2: '백팩',
     name: '캔버스 및 가죽 백팩',
     price: '₩ 3,300,000',
     subtitle:
@@ -29574,6 +30573,8 @@ export const products = [
     index: 7,
     category1: 'bags',
     category2: 'backpacks',
+    categoryKor1: '가방',
+    categoryKor2: '백팩',
     name: '캔버스 및 가죽 백팩',
     price: '₩ 2,850,000',
     subtitle:
@@ -29650,6 +30651,8 @@ export const products = [
     index: 8,
     category1: 'bags',
     category2: 'backpacks',
+    categoryKor1: '가방',
+    categoryKor2: '백팩',
     name: '캔버스 및 가죽 백팩',
     price: '₩ 3,300,000',
     subtitle:
@@ -29726,6 +30729,8 @@ export const products = [
     index: 9,
     category1: 'bags',
     category2: 'backpacks',
+    categoryKor1: '가방',
+    categoryKor2: '백팩',
     name: '캔버스 및 가죽 백팩',
     price: '₩ 2,850,000',
     subtitle:
@@ -29802,6 +30807,8 @@ export const products = [
     index: 10,
     category1: 'bags',
     category2: 'backpacks',
+    categoryKor1: '가방',
+    categoryKor2: '백팩',
     name: '캔버스 및 가죽 백팩',
     price: '₩ 3,300,000',
     subtitle:
@@ -29885,6 +30892,8 @@ export const products = [
     index: 11,
     category1: 'bags',
     category2: 'backpacks',
+    categoryKor1: '가방',
+    categoryKor2: '백팩',
     name: '캔버스 및 가죽 백팩',
     price: '₩ 2,850,000',
     subtitle:
@@ -29961,6 +30970,8 @@ export const products = [
     index: 12,
     category1: 'bags',
     category2: 'backpacks',
+    categoryKor1: '가방',
+    categoryKor2: '백팩',
     name: '캔버스 및 가죽 백팩',
     price: '₩ 3,300,000',
     subtitle:
@@ -30021,6 +31032,8 @@ export const products = [
     index: 13,
     category1: 'bags',
     category2: 'backpacks',
+    categoryKor1: '가방',
+    categoryKor2: '백팩',
     name: '플래드 및 가죽 백팩',
     price: '₩ 3,200,000',
     subtitle:
@@ -30082,6 +31095,8 @@ export const products = [
     index: 1,
     category1: 'bags',
     category2: 'hobo',
+    categoryKor1: '가방',
+    categoryKor2: '호보백',
     name: '완더 마테라쎄 나파 가죽 호보 백',
     tags: 'wander',
     tags2: 'iconic',
@@ -30144,6 +31159,8 @@ export const products = [
     index: 2,
     category1: 'bags',
     category2: 'hobo',
+    categoryKor1: '가방',
+    categoryKor2: '호보백',
     name: '완더 마테라쎄 스웨이드 백',
     tags: 'wander',
     tags2: 'iconic',
@@ -30225,6 +31242,8 @@ export const products = [
     index: 3,
     category1: 'bags',
     category2: 'hobo',
+    categoryKor1: '가방',
+    categoryKor2: '호보백',
     name: '완더 마테라쎄 스웨이드 백',
     tags: 'wander',
     tags2: 'iconic',
@@ -30285,6 +31304,8 @@ export const products = [
     index: 4,
     category1: 'bags',
     category2: 'hobo',
+    categoryKor1: '가방',
+    categoryKor2: '호보백',
     name: '완더 마테라쎄 스웨이드 백',
     tags: 'wander',
     tags2: 'iconic',
@@ -30345,6 +31366,8 @@ export const products = [
     index: 22,
     category1: 'bags',
     category2: 'shoulder',
+    categoryKor1: '가방',
+    categoryKor2: '숄더백',
     name: '아방뛰르 나파 가죽 백',
     tags: 'abang',
     tags2: 'iconic',
@@ -30406,6 +31429,8 @@ export const products = [
     index: 23,
     category1: 'bags',
     category2: 'shoulder',
+    categoryKor1: '가방',
+    categoryKor2: '숄더백',
     name: '아방뛰르 나파 가죽 백',
     tags: 'abang',
     tags2: 'iconic',
@@ -30467,6 +31492,8 @@ export const products = [
     index: 24,
     category1: 'bags',
     category2: 'shoulder',
+    categoryKor1: '가방',
+    categoryKor2: '숄더백',
     name: '아방뛰르 나파 가죽 백',
     tags: 'abang',
     tags2: 'iconic',
@@ -30528,6 +31555,8 @@ export const products = [
     index: 18,
     category1: 'bags',
     category2: 'hobo',
+    categoryKor1: '가방',
+    categoryKor2: '호보백',
     name: '아방뛰르 시어링 백',
     tags: 'abang',
     tags2: 'iconic',
@@ -30588,6 +31617,8 @@ export const products = [
     index: 19,
     category1: 'bags',
     category2: 'hobo',
+    categoryKor1: '가방',
+    categoryKor2: '호보백',
     name: '스웨이드 아방뛰르 백',
     price: '₩ 4,600,000',
     subtitle:
@@ -30661,6 +31692,8 @@ export const products = [
     index: 20,
     category1: 'bags',
     category2: 'hobo',
+    categoryKor1: '가방',
+    categoryKor2: '호보백',
     name: '아방뛰르 나파 가죽 백',
     tags: 'abang',
     tags2: 'iconic',
@@ -30736,6 +31769,8 @@ export const products = [
     index: 21,
     category1: 'bags',
     category2: 'hobo',
+    categoryKor1: '가방',
+    categoryKor2: '호보백',
     name: '아방뛰르 나파 가죽 백',
     tags: 'abang',
     tags2: 'iconic',
@@ -30818,6 +31853,8 @@ export const products = [
     index: 22,
     category1: 'bags',
     category2: 'hobo',
+    categoryKor1: '가방',
+    categoryKor2: '호보백',
     name: '아방뛰르 나파 가죽 백',
     tags: 'abang',
     tags2: 'iconic',
@@ -30879,6 +31916,8 @@ export const products = [
     index: 23,
     category1: 'bags',
     category2: 'hobo',
+    categoryKor1: '가방',
+    categoryKor2: '호보백',
     name: '스웨이드 아방뛰르 백',
     price: '₩ 4,150,000',
     subtitle:
@@ -30938,6 +31977,8 @@ export const products = [
     index: 24,
     category1: 'bags',
     category2: 'hobo',
+    categoryKor1: '가방',
+    categoryKor2: '호보백',
     name: '스웨이드 아방뛰르 백',
     price: '₩ 4,150,000',
     subtitle:
@@ -30997,6 +32038,8 @@ export const products = [
     index: 1,
     category1: 'bags',
     category2: 'shoulder',
+    categoryKor1: '가방',
+    categoryKor2: '숄더백',
     name: '보 플래드 백',
     tags: 'beau',
     tags2: 'iconic',
@@ -31072,6 +32115,8 @@ export const products = [
     index: 2,
     category1: 'bags',
     category2: 'shoulder',
+    categoryKor1: '가방',
+    categoryKor2: '숄더백',
     name: '가죽 디테일의 보 타탄 탑 핸들 백',
     price: '₩ 4,450,000',
     subtitle:
@@ -31145,6 +32190,8 @@ export const products = [
     index: 3,
     category1: 'bags',
     category2: 'shoulder',
+    categoryKor1: '가방',
+    categoryKor2: '숄더백',
     name: '코듀로이 탑 핸들 보 백',
     price: '₩ 4,450,000',
     subtitle:
@@ -31204,6 +32251,8 @@ export const products = [
     index: 4,
     category1: 'bags',
     category2: 'shoulder',
+    categoryKor1: '가방',
+    categoryKor2: '숄더백',
     name: '코듀로이 탑 핸들 보 백',
     price: '₩ 4,450,000',
     subtitle:
@@ -31263,6 +32312,8 @@ export const products = [
     index: 5,
     category1: 'bags',
     category2: 'shoulder',
+    categoryKor1: '가방',
+    categoryKor2: '숄더백',
     name: '스웨이드 보 백',
     tags: 'beau',
     tags2: 'iconic',
@@ -31325,6 +32376,8 @@ export const products = [
     index: 6,
     category1: 'bags',
     category2: 'shoulder',
+    categoryKor1: '가방',
+    categoryKor2: '숄더백',
     name: '스웨이드 보 백',
     tags: 'beau',
     tags2: 'iconic',
@@ -31408,6 +32461,8 @@ export const products = [
     index: 7,
     category1: 'bags',
     category2: 'shoulder',
+    categoryKor1: '가방',
+    categoryKor2: '숄더백',
     name: '스웨이드 보 백',
     tags: 'beau',
     tags2: 'iconic',
@@ -31484,6 +32539,8 @@ export const products = [
     index: 8,
     category1: 'bags',
     category2: 'shoulder',
+    categoryKor1: '가방',
+    categoryKor2: '숄더백',
     name: '스웨이드 보 백',
     tags: 'beau',
     tags2: 'iconic',
@@ -31546,6 +32603,8 @@ export const products = [
     index: 9,
     category1: 'bags',
     category2: 'shoulder',
+    categoryKor1: '가방',
+    categoryKor2: '숄더백',
     name: '스웨이드 보 백',
     tags: 'beau',
     tags2: 'iconic',
@@ -31622,6 +32681,8 @@ export const products = [
     index: 10,
     category1: 'bags',
     category2: 'shoulder',
+    categoryKor1: '가방',
+    categoryKor2: '숄더백',
     name: '보 나파 가죽 백',
     tags: '보',
     price: '₩ 5,400,000',
@@ -31697,6 +32758,8 @@ export const products = [
     index: 11,
     category1: 'bags',
     category2: 'shoulder',
+    categoryKor1: '가방',
+    categoryKor2: '숄더백',
     name: '가죽 보 백',
     tags: 'beau',
     tags2: 'iconic',
@@ -31779,6 +32842,8 @@ export const products = [
     index: 12,
     category1: 'bags',
     category2: 'shoulder',
+    categoryKor1: '가방',
+    categoryKor2: '숄더백',
     name: '가죽 보 백',
     tags: 'beau',
     tags2: 'iconic',
@@ -31861,6 +32926,8 @@ export const products = [
     index: 13,
     category1: 'bags',
     category2: 'shoulder',
+    categoryKor1: '가방',
+    categoryKor2: '숄더백',
     name: '가죽 보 백',
     tags: 'beau',
     tags2: 'iconic',
@@ -31943,6 +33010,8 @@ export const products = [
     index: 14,
     category1: 'bags',
     category2: 'shoulder',
+    categoryKor1: '가방',
+    categoryKor2: '숄더백',
     name: '가죽 보 백',
     tags: 'beau',
     tags2: 'iconic',
@@ -32025,6 +33094,8 @@ export const products = [
     index: 15,
     category1: 'bags',
     category2: 'shoulder',
+    categoryKor1: '가방',
+    categoryKor2: '숄더백',
     name: '프린트 가죽 보 백',
     tags: 'beau',
     tags2: 'iconic',
@@ -32084,6 +33155,8 @@ export const products = [
     index: 16,
     category1: 'bags',
     category2: 'shoulder',
+    categoryKor1: '가방',
+    categoryKor2: '숄더백',
     name: '보 가죽 탑 핸들 백',
     tags: '보',
     price: '₩ 4,700,000',
@@ -32165,6 +33238,8 @@ export const products = [
     index: 17,
     category1: 'bags',
     category2: 'shoulder',
+    categoryKor1: '가방',
+    categoryKor2: '숄더백',
     name: '보 가죽 탑 핸들 백',
     tags: '보',
     price: '₩ 4,700,000',
@@ -32239,6 +33314,8 @@ export const products = [
     index: 18,
     category1: 'bags',
     category2: 'shoulder',
+    categoryKor1: '가방',
+    categoryKor2: '숄더백',
     name: '보 가죽 탑 핸들 백',
     tags: '보',
     price: '₩ 4,700,000',
@@ -32320,6 +33397,8 @@ export const products = [
     index: 19,
     category1: 'bags',
     category2: 'shoulder',
+    categoryKor1: '가방',
+    categoryKor2: '숄더백',
     name: '보 가죽 탑 핸들 백',
     tags: '보',
     price: '₩ 4,700,000',
@@ -32380,6 +33459,8 @@ export const products = [
     index: 20,
     category1: 'bags',
     category2: 'shoulder',
+    categoryKor1: '가방',
+    categoryKor2: '숄더백',
     name: '시어링 탑 핸들 보 백',
     price: '₩ 5,100,000',
     subtitle:
@@ -32454,6 +33535,8 @@ export const products = [
     index: 21,
     category1: 'bags',
     category2: 'shoulder',
+    categoryKor1: '가방',
+    categoryKor2: '숄더백',
     name: '시어링 탑 핸들 보 백',
     price: '₩ 5,600,000',
     subtitle:
@@ -32513,7 +33596,11 @@ export const products = [
     id: 'SMUB01_E26E_FE10R_C_A058',
     index: 1,
     category1: 'accessories',
+
     category2: 'eyewear',
+    categoryKor1: '액세서리',
+    categoryKor2: '아이웨어',
+
     name: '제품 1',
     price: '가격 없음',
     image_url: '/content/dam/miumiu/2025/006_e-commerce/10/co_28_10/eyewear/banner_MB.jpg',
@@ -32584,7 +33671,11 @@ export const products = [
     id: 'SMUB07_E16K_FE04O_C_A054',
     index: 2,
     category1: 'accessories',
+
     category2: 'eyewear',
+    categoryKor1: '액세서리',
+    categoryKor2: '아이웨어',
+
     name: '브데트 선글라스',
     price: '₩ 640,000',
     image_url:
@@ -32657,7 +33748,11 @@ export const products = [
     id: 'SMUB07_S14L_FE08N_C_A054',
     index: 3,
     category1: 'accessories',
+
     category2: 'eyewear',
+    categoryKor1: '액세서리',
+    categoryKor2: '아이웨어',
+
     name: '브데트 선글라스',
     price: '₩ 640,000',
     image_url:
@@ -32732,7 +33827,11 @@ export const products = [
     id: 'SMUB07_S16K_FE08N_C_A054',
     index: 4,
     category1: 'accessories',
+
     category2: 'eyewear',
+    categoryKor1: '액세서리',
+    categoryKor2: '아이웨어',
+
     name: '브데트 선글라스',
     price: '₩ 640,000',
     image_url:
@@ -32792,7 +33891,11 @@ export const products = [
     id: 'SMUB07_E21I_FE80Q_C_A054',
     index: 5,
     category1: 'accessories',
+
     category2: 'eyewear',
+    categoryKor1: '액세서리',
+    categoryKor2: '아이웨어',
+
     name: '브데트 선글라스',
     price: '₩ 640,000',
     image_url:
@@ -32853,7 +33956,11 @@ export const products = [
     id: 'SMUB01_S16K_FE08N_C_A058',
     index: 6,
     category1: 'accessories',
+
     category2: 'eyewear',
+    categoryKor1: '액세서리',
+    categoryKor2: '아이웨어',
+
     name: '미우 리가드 선글라스',
     price: '₩ 610,000',
     image_url:
@@ -32926,7 +34033,11 @@ export const products = [
     id: 'SMU04Z_SVAU_FE08N_C_A050',
     index: 7,
     category1: 'accessories',
+
     category2: 'eyewear',
+    categoryKor1: '액세서리',
+    categoryKor2: '아이웨어',
+
     name: '미우 리가드 선글라스',
     price: '₩ 610,000',
     image_url:
@@ -33001,7 +34112,11 @@ export const products = [
     id: 'SMU04Z_E14L_F04I0_C_A050',
     index: 8,
     category1: 'accessories',
+
     category2: 'eyewear',
+    categoryKor1: '액세서리',
+    categoryKor2: '아이웨어',
+
     name: '미우 리가드 선글라스',
     price: '₩ 610,000',
     image_url:
@@ -33075,7 +34190,11 @@ export const products = [
     id: 'SMU11Z_S14L_FE08N_C_A052',
     index: 9,
     category1: 'accessories',
+
     category2: 'eyewear',
+    categoryKor1: '액세서리',
+    categoryKor2: '아이웨어',
+
     name: '미우 리가드 선글라스',
     price: '₩ 610,000',
     image_url:
@@ -33150,7 +34269,11 @@ export const products = [
     id: 'SMU11Z_E21C_FE40O_C_A052',
     index: 10,
     category1: 'accessories',
+
     category2: 'eyewear',
+    categoryKor1: '액세서리',
+    categoryKor2: '아이웨어',
+
     name: '미우 리가드 선글라스',
     price: '₩ 610,000',
     image_url:
@@ -33224,7 +34347,11 @@ export const products = [
     id: 'SMUB03_E14L_FE20I_C_A053',
     index: 11,
     category1: 'accessories',
+
     category2: 'eyewear',
+    categoryKor1: '액세서리',
+    categoryKor2: '아이웨어',
+
     name: '미우 리가드 선글라스',
     price: '₩ 610,000',
     image_url:
@@ -33296,7 +34423,11 @@ export const products = [
     id: 'SMUB03_E16K_FE90Q_C_A053',
     index: 12,
     category1: 'accessories',
+
     category2: 'eyewear',
+    categoryKor1: '액세서리',
+    categoryKor2: '아이웨어',
+
     name: '미우 리가드 선글라스',
     price: '₩ 610,000',
     image_url:
@@ -33368,7 +34499,11 @@ export const products = [
     id: 'SMUB50_E5AK_FE20I_C_052',
     index: 13,
     category1: 'accessories',
+
     category2: 'eyewear',
+    categoryKor1: '액세서리',
+    categoryKor2: '아이웨어',
+
     name: '미우미우 아이웨어 컬렉션 선글라스',
     price: '₩ 640,000',
     image_url:
@@ -33426,7 +34561,11 @@ export const products = [
     id: 'SMUB50_S5AK_FE08N_C_052',
     index: 14,
     category1: 'accessories',
+
     category2: 'eyewear',
+    categoryKor1: '액세서리',
+    categoryKor2: '아이웨어',
+
     name: '미우미우 아이웨어 컬렉션 선글라스',
     price: '₩ 640,000',
     image_url:
@@ -33499,7 +34638,11 @@ export const products = [
     id: 'SMUB50_E26C_FE09Z_C_052',
     index: 15,
     category1: 'accessories',
+
     category2: 'eyewear',
+    categoryKor1: '액세서리',
+    categoryKor2: '아이웨어',
+
     name: '미우미우 아이웨어 컬렉션 선글라스',
     price: '₩ 640,000',
     image_url:
@@ -33571,7 +34714,11 @@ export const products = [
     id: 'SMUA54_E26C_FE09Z_C_051',
     index: 16,
     category1: 'accessories',
+
     category2: 'eyewear',
+    categoryKor1: '액세서리',
+    categoryKor2: '아이웨어',
+
     name: '미우미우 로고 선글라스',
     price: '₩ 640,000',
     image_url:
@@ -33644,7 +34791,11 @@ export const products = [
     id: 'SMUA54_E1BC_FE90Q_C_051',
     index: 17,
     category1: 'accessories',
+
     category2: 'eyewear',
+    categoryKor1: '액세서리',
+    categoryKor2: '아이웨어',
+
     name: '미우미우 선글라스',
     price: '₩ 640,000',
     image_url:
@@ -33717,7 +34868,11 @@ export const products = [
     id: 'SMUA54_EZVN_FE10R_C_051',
     index: 18,
     category1: 'accessories',
+
     category2: 'eyewear',
+    categoryKor1: '액세서리',
+    categoryKor2: '아이웨어',
+
     name: '미우미우 로고 선글라스',
     price: '₩ 640,000',
     image_url:
@@ -33790,7 +34945,11 @@ export const products = [
     id: 'SMUA54_EZVN_FE70O_C_051',
     index: 19,
     category1: 'accessories',
+
     category2: 'eyewear',
+    categoryKor1: '액세서리',
+    categoryKor2: '아이웨어',
+
     name: '미우미우 로고 선글라스',
     price: '₩ 640,000',
     image_url:
@@ -33863,7 +35022,11 @@ export const products = [
     id: 'SMUA54_EZVN_FE80O_C_051',
     index: 20,
     category1: 'accessories',
+
     category2: 'eyewear',
+    categoryKor1: '액세서리',
+    categoryKor2: '아이웨어',
+
     name: '미우미우 로고 선글라스',
     price: '₩ 640,000',
     image_url:
@@ -33936,7 +35099,11 @@ export const products = [
     id: 'SMUA54_S5AK_FE08N_C_051',
     index: 21,
     category1: 'accessories',
+
     category2: 'eyewear',
+    categoryKor1: '액세서리',
+    categoryKor2: '아이웨어',
+
     name: '미우미우 로고 선글라스',
     price: '₩ 640,000',
     image_url:
@@ -34010,7 +35177,11 @@ export const products = [
     id: 'SMU52Y_M1BC_FE10F_C_054',
     index: 22,
     category1: 'accessories',
+
     category2: 'eyewear',
+    categoryKor1: '액세서리',
+    categoryKor2: '아이웨어',
+
     name: '미우미우 로고 선글라스',
     price: '₩ 640,000',
     image_url:
@@ -34083,7 +35254,11 @@ export const products = [
     id: 'SMU52Y_EZVN_FE10R_C_054',
     index: 23,
     category1: 'accessories',
+
     category2: 'eyewear',
+    categoryKor1: '액세서리',
+    categoryKor2: '아이웨어',
+
     name: '미우미우 로고 선글라스',
     price: '₩ 640,000',
     image_url:
@@ -34156,7 +35331,11 @@ export const products = [
     id: 'SMU52Y_EZVN_FE20F_C_054',
     index: 24,
     category1: 'accessories',
+
     category2: 'eyewear',
+    categoryKor1: '액세서리',
+    categoryKor2: '아이웨어',
+
     name: '미우미우 로고 선글라스',
     price: '₩ 640,000',
     image_url:
@@ -34229,7 +35408,11 @@ export const products = [
     id: 'SMU52Y_E5AK_FE06S_C_054',
     index: 25,
     category1: 'accessories',
+
     category2: 'eyewear',
+    categoryKor1: '액세서리',
+    categoryKor2: '아이웨어',
+
     name: '미우미우 로고 선글라스',
     price: '₩ 640,000',
     image_url:
@@ -34309,7 +35492,10 @@ export const products = [
     id: '5HC378_2CQD_F0031',
     index: 1,
     category1: 'accessories',
+
     category2: 'hats',
+    categoryKor1: '액세서리',
+    categoryKor2: '모자',
     name: '모헤어 비니',
     price: '₩ 660,000',
     image_url:
@@ -34345,7 +35531,10 @@ export const products = [
     id: '5HC378_2CQD_F0018',
     index: 2,
     category1: 'accessories',
+
     category2: 'hats',
+    categoryKor1: '액세서리',
+    categoryKor2: '모자',
     name: '모헤어 비니',
     price: '₩ 660,000',
     image_url:
@@ -34381,7 +35570,10 @@ export const products = [
     id: '5HC369_2IF2_F0D3Z',
     index: 3,
     category1: 'accessories',
+
     category2: 'hats',
+    categoryKor1: '액세서리',
+    categoryKor2: '모자',
     name: '플리스 베이스볼 캡',
     price: '₩ 1,010,000',
     image_url:
@@ -34430,7 +35622,10 @@ export const products = [
     id: '5HC488_18SI_F0013',
     index: 4,
     category1: 'accessories',
+
     category2: 'hats',
+    categoryKor1: '액세서리',
+    categoryKor2: '모자',
     name: '울 모자',
     price: '₩ 1,100,000',
     image_url:
@@ -34484,7 +35679,10 @@ export const products = [
     id: '5HC488_18SI_F0028',
     index: 5,
     category1: 'accessories',
+
     category2: 'hats',
+    categoryKor1: '액세서리',
+    categoryKor2: '모자',
     name: '울 모자',
     price: '₩ 1,100,000',
     image_url:
@@ -34531,7 +35729,10 @@ export const products = [
     id: '5HC489_18SI_F0028',
     index: 6,
     category1: 'accessories',
+
     category2: 'hats',
+    categoryKor1: '액세서리',
+    categoryKor2: '모자',
     name: '울 모자',
     price: '₩ 820,000',
     image_url:
@@ -34566,7 +35767,10 @@ export const products = [
     id: '5HC369_2CWC_F04Z5',
     index: 7,
     category1: 'accessories',
+
     category2: 'hats',
+    categoryKor1: '액세서리',
+    categoryKor2: '모자',
     name: '코튼 베이스볼 캡',
     price: '₩ 840,000',
     image_url:
@@ -34609,7 +35813,10 @@ export const products = [
     id: '5HC369_2CWC_F04Z6',
     index: 8,
     category1: 'accessories',
+
     category2: 'hats',
+    categoryKor1: '액세서리',
+    categoryKor2: '모자',
     name: '코튼 베이스볼 캡',
     price: '₩ 840,000',
     image_url:
@@ -34652,7 +35859,10 @@ export const products = [
     id: '5HC369_2CWC_F04ZH',
     index: 9,
     category1: 'accessories',
+
     category2: 'hats',
+    categoryKor1: '액세서리',
+    categoryKor2: '모자',
     name: '코튼 베이스볼 캡',
     price: '₩ 840,000',
     image_url:
@@ -34695,7 +35905,10 @@ export const products = [
     id: '5HC369_2CWC_F0IX2',
     index: 10,
     category1: 'accessories',
+
     category2: 'hats',
+    categoryKor1: '액세서리',
+    categoryKor2: '모자',
     name: '코튼 베이스볼 캡',
     price: '₩ 840,000',
     image_url:
@@ -34738,7 +35951,10 @@ export const products = [
     id: '5HC324_2ID1_F0036',
     index: 11,
     category1: 'accessories',
+
     category2: 'hats',
+    categoryKor1: '액세서리',
+    categoryKor2: '모자',
     name: '울 모자',
     price: '₩ 970,000',
     image_url:
@@ -34773,7 +35989,10 @@ export const products = [
     id: '5HC386_2CSR_F0040',
     index: 12,
     category1: 'accessories',
+
     category2: 'hats',
+    categoryKor1: '액세서리',
+    categoryKor2: '모자',
     name: '울, 캐시미어, 시어링 트래퍼 햇',
     price: '₩ 1,100,000',
     image_url:
@@ -34815,7 +36034,10 @@ export const products = [
     id: '5HC432_2IEJ_F073X',
     index: 13,
     category1: 'accessories',
+
     category2: 'hats',
+    categoryKor1: '액세서리',
+    categoryKor2: '모자',
     name: '울 및 캐시미어 모자',
     price: '₩ 820,000',
     image_url:
@@ -34851,7 +36073,10 @@ export const products = [
     id: '5HC432_2IEJ_F0637',
     index: 14,
     category1: 'accessories',
+
     category2: 'hats',
+    categoryKor1: '액세서리',
+    categoryKor2: '모자',
     name: '울 및 캐시미어 모자',
     price: '₩ 820,000',
     image_url:
@@ -34887,7 +36112,10 @@ export const products = [
     id: '5HC365_2IDY_F0D4O',
     index: 15,
     category1: 'accessories',
+
     category2: 'hats',
+    categoryKor1: '액세서리',
+    categoryKor2: '모자',
     name: '플리스 트래퍼 모자',
     price: '₩ 1,100,000',
     image_url:
@@ -34929,7 +36157,10 @@ export const products = [
     id: '5HC272_2IA4_F0TQI',
     index: 16,
     category1: 'accessories',
+
     category2: 'hats',
+    categoryKor1: '액세서리',
+    categoryKor2: '모자',
     name: '플래드와 플러시 플리스 캡',
     price: '₩ 1,070,000',
     image_url:
@@ -34972,7 +36203,10 @@ export const products = [
     id: '5HC369_2IDY_F0S0O',
     index: 17,
     category1: 'accessories',
+
     category2: 'hats',
+    categoryKor1: '액세서리',
+    categoryKor2: '모자',
     name: '플리스 베이스볼 캡',
     price: '₩ 1,020,000',
     image_url:
@@ -35020,7 +36254,10 @@ export const products = [
     id: '5HC369_2IDY_F04PE',
     index: 18,
     category1: 'accessories',
+
     category2: 'hats',
+    categoryKor1: '액세서리',
+    categoryKor2: '모자',
     name: '플리스 베이스볼 캡',
     price: '₩ 1,020,000',
     image_url:
@@ -35068,7 +36305,10 @@ export const products = [
     id: '5HC425_2DUF_F0684',
     index: 19,
     category1: 'accessories',
+
     category2: 'hats',
+    categoryKor1: '액세서리',
+    categoryKor2: '모자',
     name: '펠트 모자',
     price: '₩ 890,000',
     image_url:
@@ -35111,7 +36351,10 @@ export const products = [
     id: '5HC432_2IEJ_F0244',
     index: 20,
     category1: 'accessories',
+
     category2: 'hats',
+    categoryKor1: '액세서리',
+    categoryKor2: '모자',
     name: '울 및 캐시미어 모자',
     price: '₩ 820,000',
     image_url:
@@ -35154,7 +36397,10 @@ export const products = [
     id: '5HC179_AF6P_F0201',
     index: 21,
     category1: 'accessories',
+
     category2: 'hats',
+    categoryKor1: '액세서리',
+    categoryKor2: '모자',
     name: '나파 가죽 베이스볼 캡',
     price: '₩ 1,430,000',
     image_url:
@@ -35196,7 +36442,10 @@ export const products = [
     id: '5HC369_2CUA_F04RA',
     index: 22,
     category1: 'accessories',
+
     category2: 'hats',
+    categoryKor1: '액세서리',
+    categoryKor2: '모자',
     name: '벨벳 베이스볼 캡',
     price: '₩ 1,010,000',
     image_url:
@@ -35236,7 +36485,10 @@ export const products = [
     id: '5HC369_2CUA_F0844',
     index: 23,
     category1: 'accessories',
+
     category2: 'hats',
+    categoryKor1: '액세서리',
+    categoryKor2: '모자',
     name: '벨벳 베이스볼 캡',
     price: '₩ 1,010,000',
     image_url:
@@ -35276,7 +36528,10 @@ export const products = [
     id: '5HC369_2CUA_F034S',
     index: 24,
     category1: 'accessories',
+
     category2: 'hats',
+    categoryKor1: '액세서리',
+    categoryKor2: '모자',
     name: '벨벳 베이스볼 캡',
     price: '₩ 1,010,000',
     image_url:
@@ -35317,7 +36572,10 @@ export const products = [
     id: '5NE851_AEFX_F0002',
     index: 1,
     category1: 'accessories',
+
     category2: 'pouches',
+    categoryKor1: '액세서리',
+    categoryKor2: '파우치',
     name: '나파 가죽 파우치',
     price: '₩ 1,640,000',
     image_url:
@@ -35380,7 +36638,10 @@ export const products = [
     id: '5NE851_AEFX_F0316',
     index: 2,
     category1: 'accessories',
+
     category2: 'pouches',
+    categoryKor1: '액세서리',
+    categoryKor2: '파우치',
     name: '나파 가죽 파우치',
     price: '₩ 1,640,000',
     image_url:
@@ -35443,7 +36704,10 @@ export const products = [
     id: '5NE851_AEFX_F0NBL',
     index: 3,
     category1: 'accessories',
+
     category2: 'pouches',
+    categoryKor1: '액세서리',
+    categoryKor2: '파우치',
     name: '나파 가죽 파우치',
     price: '₩ 1,640,000',
     image_url:
@@ -35506,7 +36770,10 @@ export const products = [
     id: '5NE851_ACSS_F0393',
     index: 4,
     category1: 'accessories',
+
     category2: 'pouches',
+    categoryKor1: '액세서리',
+    categoryKor2: '파우치',
     name: '스웨이드 파우치',
     price: '₩ 1,640,000',
     image_url:
@@ -35569,7 +36836,10 @@ export const products = [
     id: '5NE851_2ICT_F0EDH',
     index: 22,
     category1: 'accessories',
+
     category2: 'pouches',
+    categoryKor1: '액세서리',
+    categoryKor2: '파우치',
     name: '프린트 가죽 파우치',
     price: '₩ 2,500,000',
     image_url:
@@ -35632,7 +36902,10 @@ export const products = [
     id: '5NE851_068_F0002',
     index: 6,
     category1: 'accessories',
+
     category2: 'pouches',
+    categoryKor1: '액세서리',
+    categoryKor2: '파우치',
     name: '벨벳 파우치',
     price: '₩ 2,150,000',
     image_url:
@@ -35688,7 +36961,10 @@ export const products = [
     id: '5NE851_068_F0011',
     index: 7,
     category1: 'accessories',
+
     category2: 'pouches',
+    categoryKor1: '액세서리',
+    categoryKor2: '파우치',
     name: '벨벳 파우치',
     price: '₩ 2,150,000',
     image_url:
@@ -35744,7 +37020,10 @@ export const products = [
     id: '5NF460_AEFX_F0002',
     index: 8,
     category1: 'accessories',
+
     category2: 'pouches',
+    categoryKor1: '액세서리',
+    categoryKor2: '파우치',
     name: '나파 가죽 미니 백',
     price: '₩ 1,640,000',
     image_url:
@@ -35821,7 +37100,10 @@ export const products = [
     id: '5NF460_AEFX_F0316',
     index: 9,
     category1: 'accessories',
+
     category2: 'pouches',
+    categoryKor1: '액세서리',
+    categoryKor2: '파우치',
     name: '나파 가죽 미니 백',
     price: '₩ 1,640,000',
     image_url:
@@ -35898,7 +37180,10 @@ export const products = [
     id: '5NF460_AEFX_F0NBL',
     index: 10,
     category1: 'accessories',
+
     category2: 'pouches',
+    categoryKor1: '액세서리',
+    categoryKor2: '파우치',
     name: '나파 가죽 미니 백',
     price: '₩ 1,640,000',
     image_url:
@@ -35961,7 +37246,10 @@ export const products = [
     id: '5NF460_ACSS_F0393',
     index: 11,
     category1: 'accessories',
+
     category2: 'pouches',
+    categoryKor1: '액세서리',
+    categoryKor2: '파우치',
     name: '스웨이드 파우치',
     price: '₩ 1,640,000',
     image_url:
@@ -36024,7 +37312,10 @@ export const products = [
     id: '5NF460_ACSS_F0324',
     index: 12,
     category1: 'accessories',
+
     category2: 'pouches',
+    categoryKor1: '액세서리',
+    categoryKor2: '파우치',
     name: '스웨이드 파우치',
     price: '₩ 1,640,000',
     image_url:
@@ -36087,7 +37378,10 @@ export const products = [
     id: '5NE841_AEFX_F0316',
     index: 13,
     category1: 'accessories',
+
     category2: 'pouches',
+    categoryKor1: '액세서리',
+    categoryKor2: '파우치',
     name: '나파 가죽 파우치',
     price: '₩ 2,150,000',
     image_url:
@@ -36150,7 +37444,10 @@ export const products = [
     id: '5NE841_AEFX_F0NBL',
     index: 14,
     category1: 'accessories',
+
     category2: 'pouches',
+    categoryKor1: '액세서리',
+    categoryKor2: '파우치',
     name: '나파 가죽 파우치',
     price: '₩ 2,150,000',
     image_url:
@@ -36213,7 +37510,10 @@ export const products = [
     id: '5NR461_2IEE_F0003',
     index: 15,
     category1: 'accessories',
+
     category2: 'pouches',
+    categoryKor1: '액세서리',
+    categoryKor2: '파우치',
     name: '스웨이드 파우치',
     price: '₩ 2,400,000',
     image_url:
@@ -36276,7 +37576,10 @@ export const products = [
     id: '5NR461_2IEE_F0393',
     index: 16,
     category1: 'accessories',
+
     category2: 'pouches',
+    categoryKor1: '액세서리',
+    categoryKor2: '파우치',
     name: '스웨이드 파우치',
     price: '₩ 2,400,000',
     image_url:
@@ -36339,7 +37642,10 @@ export const products = [
     id: '5NR461_AEFX_F0316',
     index: 17,
     category1: 'accessories',
+
     category2: 'pouches',
+    categoryKor1: '액세서리',
+    categoryKor2: '파우치',
     name: '나파 가죽 파우치',
     price: '₩ 2,400,000',
     image_url:
@@ -36402,7 +37708,10 @@ export const products = [
     id: '5NR461_AEFX_F0NBL',
     index: 18,
     category1: 'accessories',
+
     category2: 'pouches',
+    categoryKor1: '액세서리',
+    categoryKor2: '파우치',
     name: '나파 가죽 파우치',
     price: '₩ 2,400,000',
     image_url:
@@ -36465,7 +37774,10 @@ export const products = [
     id: '5NF460_AF7T_F0036',
     index: 19,
     category1: 'accessories',
+
     category2: 'pouches',
+    categoryKor1: '액세서리',
+    categoryKor2: '파우치',
     name: '시어링 파우치',
     price: '₩ 2,300,000',
     image_url:
@@ -36527,7 +37839,10 @@ export const products = [
     id: '5NE851_AF7T_F0036',
     index: 20,
     category1: 'accessories',
+
     category2: 'pouches',
+    categoryKor1: '액세서리',
+    categoryKor2: '파우치',
     name: '시어링 파우치',
     price: '₩ 2,300,000',
     image_url:
@@ -36590,7 +37905,10 @@ export const products = [
     id: '5NE851_AF7T_F0304',
     index: 21,
     category1: 'accessories',
+
     category2: 'pouches',
+    categoryKor1: '액세서리',
+    categoryKor2: '파우치',
     name: '시어링 파우치',
     price: '₩ 2,300,000',
     image_url:
@@ -36653,7 +37971,10 @@ export const products = [
     id: '5NF460_2IFT_F0151',
     index: 23,
     category1: 'accessories',
+
     category2: 'pouches',
+    categoryKor1: '액세서리',
+    categoryKor2: '파우치',
     name: '송아지 털 파우치',
     price: '₩ 2,500,000',
     image_url:
@@ -36715,7 +38036,10 @@ export const products = [
     id: '5NE851_2IFT_F0151',
     index: 24,
     category1: 'accessories',
+
     category2: 'pouches',
+    categoryKor1: '액세서리',
+    categoryKor2: '파우치',
     name: '프린트 가죽 파우치',
     price: '₩ 2,500,000',
     image_url:
@@ -36778,7 +38102,10 @@ export const products = [
     id: '5NF460_2DU5_F0040',
     index: 25,
     category1: 'accessories',
+
     category2: 'pouches',
+    categoryKor1: '액세서리',
+    categoryKor2: '파우치',
     name: '하운드투스 울 파우치',
     price: '₩ 1,510,000',
     image_url:
@@ -36840,7 +38167,10 @@ export const products = [
     id: '5NE851_2DU5_F0324',
     index: 1,
     category1: 'accessories',
+
     category2: 'pouches',
+    categoryKor1: '액세서리',
+    categoryKor2: '파우치',
     name: '하운드투스 울 및 가죽 파우치',
     price: '₩ 1,510,000',
     image_url:
@@ -36903,7 +38233,10 @@ export const products = [
     id: '5NE851_AF6P_F0201',
     index: 2,
     category1: 'accessories',
+
     category2: 'pouches',
+    categoryKor1: '액세서리',
+    categoryKor2: '파우치',
     name: '나파 가죽 파우치',
     price: '₩ 2,150,000',
     image_url:
@@ -36966,7 +38299,10 @@ export const products = [
     id: '5NE851_ACSS_F0R55',
     index: 3,
     category1: 'accessories',
+
     category2: 'pouches',
+    categoryKor1: '액세서리',
+    categoryKor2: '파우치',
     name: '스웨이드 파우치',
     price: '₩ 1,640,000',
     image_url:
@@ -37029,7 +38365,10 @@ export const products = [
     id: '5NF460_AF6P_F0201',
     index: 4,
     category1: 'accessories',
+
     category2: 'pouches',
+    categoryKor1: '액세서리',
+    categoryKor2: '파우치',
     name: '나파 가죽 파우치',
     price: '₩ 2,150,000',
     image_url:
@@ -37093,7 +38432,10 @@ export const products = [
     id: '5NF460_ACSS_F0R55',
     index: 5,
     category1: 'accessories',
+
     category2: 'pouches',
+    categoryKor1: '액세서리',
+    categoryKor2: '파우치',
     name: '스웨이드 파우치',
     price: '₩ 1,640,000',
     image_url:
@@ -37156,7 +38498,10 @@ export const products = [
     id: '5ND022_AFPP_F0002',
     index: 6,
     category1: 'accessories',
+
     category2: 'pouches',
+    categoryKor1: '액세서리',
+    categoryKor2: '파우치',
     name: '마테라쎄 나파 가죽 파우치',
     price: '₩ 2,400,000',
     image_url:
@@ -37219,7 +38564,10 @@ export const products = [
     id: '5ND022_AFPP_F0007',
     index: 7,
     category1: 'accessories',
+
     category2: 'pouches',
+    categoryKor1: '액세서리',
+    categoryKor2: '파우치',
     name: '마테라쎄 나파 가죽 파우치',
     price: '₩ 2,400,000',
     image_url:
@@ -37282,7 +38630,10 @@ export const products = [
     id: '5ND022_AFPP_F0009',
     index: 8,
     category1: 'accessories',
+
     category2: 'pouches',
+    categoryKor1: '액세서리',
+    categoryKor2: '파우치',
     name: '마테라쎄 나파 가죽 파우치',
     price: '₩ 2,400,000',
     image_url:
@@ -37345,7 +38696,10 @@ export const products = [
     id: '5ND022_AFPP_F0236',
     index: 9,
     category1: 'accessories',
+
     category2: 'pouches',
+    categoryKor1: '액세서리',
+    categoryKor2: '파우치',
     name: '마테라쎄 나파 가죽 파우치',
     price: '₩ 2,400,000',
     image_url:
@@ -37408,7 +38762,10 @@ export const products = [
     id: '5NE024_AFPP_F0002',
     index: 10,
     category1: 'accessories',
+
     category2: 'pouches',
+    categoryKor1: '액세서리',
+    categoryKor2: '파우치',
     name: '마테라쎄 나파 가죽 파우치',
     price: '₩ 2,400,000',
     image_url:
@@ -37471,7 +38828,10 @@ export const products = [
     id: '5NE024_AFPP_F0E18',
     index: 11,
     category1: 'accessories',
+
     category2: 'pouches',
+    categoryKor1: '액세서리',
+    categoryKor2: '파우치',
     name: '마테라쎄 나파 가죽 파우치',
     price: '₩ 2,400,000',
     image_url:
@@ -37534,7 +38894,10 @@ export const products = [
     id: '5NE024_AF8W_F0002',
     index: 12,
     category1: 'accessories',
+
     category2: 'pouches',
+    categoryKor1: '액세서리',
+    categoryKor2: '파우치',
     name: '가죽 파우치',
     price: '₩ 2,300,000',
     image_url:
@@ -37597,7 +38960,10 @@ export const products = [
     id: '5NE024_AF8W_F0046',
     index: 13,
     category1: 'accessories',
+
     category2: 'pouches',
+    categoryKor1: '액세서리',
+    categoryKor2: '파우치',
     name: '가죽 파우치',
     price: '₩ 2,300,000',
     image_url:
@@ -37660,7 +39026,10 @@ export const products = [
     id: '5NE024_AF8W_F0NBL',
     index: 14,
     category1: 'accessories',
+
     category2: 'pouches',
+    categoryKor1: '액세서리',
+    categoryKor2: '파우치',
     name: '가죽 파우치',
     price: '₩ 2,300,000',
     image_url:
@@ -37723,7 +39092,10 @@ export const products = [
     id: '5NE841_2IFK_F0Q6N',
     index: 15,
     category1: 'accessories',
+
     category2: 'pouches',
+    categoryKor1: '액세서리',
+    categoryKor2: '파우치',
     name: '체크 울 파우치',
     price: '₩ 1,740,000',
     image_url:
@@ -37787,7 +39159,10 @@ export const products = [
     id: '5NE841_2IFK_F0RDS',
     index: 16,
     category1: 'accessories',
+
     category2: 'pouches',
+    categoryKor1: '액세서리',
+    categoryKor2: '파우치',
     name: '체크 울 파우치',
     price: '₩ 1,740,000',
     image_url:
@@ -37851,7 +39226,10 @@ export const products = [
     id: '5NE841_2IFK_F0HDZ',
     index: 17,
     category1: 'accessories',
+
     category2: 'pouches',
+    categoryKor1: '액세서리',
+    categoryKor2: '파우치',
     name: '체크 울 파우치',
     price: '₩ 1,740,000',
     image_url:
@@ -37915,7 +39293,10 @@ export const products = [
     id: '5NE841_2IA7_F04S3',
     index: 18,
     category1: 'accessories',
+
     category2: 'pouches',
+    categoryKor1: '액세서리',
+    categoryKor2: '파우치',
     name: '개버딘 파우치',
     price: '₩ 1,580,000',
     image_url:
@@ -37978,7 +39359,10 @@ export const products = [
     id: '5NE841_2IA7_F0Q1K',
     index: 19,
     category1: 'accessories',
+
     category2: 'pouches',
+    categoryKor1: '액세서리',
+    categoryKor2: '파우치',
     name: '개버딘 파우치',
     price: '₩ 1,580,000',
     image_url:
@@ -38041,7 +39425,10 @@ export const products = [
     id: '5NE841_2IA7_F04GM',
     index: 20,
     category1: 'accessories',
+
     category2: 'pouches',
+    categoryKor1: '액세서리',
+    categoryKor2: '파우치',
     name: '개버딘 파우치',
     price: '₩ 1,580,000',
     image_url:
@@ -38111,7 +39498,10 @@ export const products = [
     id: '5NE841_2IA7_F0C42',
     index: 21,
     category1: 'accessories',
+
     category2: 'pouches',
+    categoryKor1: '액세서리',
+    categoryKor2: '파우치',
     name: '개버딘 파우치',
     price: '₩ 1,580,000',
     image_url:
@@ -38174,7 +39564,10 @@ export const products = [
     id: '5NF462_2IFL_F04YL',
     index: 22,
     category1: 'accessories',
+
     category2: 'pouches',
+    categoryKor1: '액세서리',
+    categoryKor2: '파우치',
     name: '가죽 파우치',
     price: '₩ 1,860,000',
     image_url:
@@ -38238,7 +39631,10 @@ export const products = [
     id: '5NF462_2IFL_F04YM',
     index: 23,
     category1: 'accessories',
+
     category2: 'pouches',
+    categoryKor1: '액세서리',
+    categoryKor2: '파우치',
     name: '가죽 파우치',
     price: '₩ 1,860,000',
     image_url:
@@ -38302,7 +39698,10 @@ export const products = [
     id: '5NF462_2IFL_F0ZKS',
     index: 24,
     category1: 'accessories',
+
     category2: 'pouches',
+    categoryKor1: '액세서리',
+    categoryKor2: '파우치',
     name: '가죽 파우치',
     price: '₩ 1,860,000',
     image_url:
@@ -38366,7 +39765,10 @@ export const products = [
     id: '5NR036_2F8W_F0002',
     index: 1,
     category1: 'accessories',
+
     category2: 'pouches',
+    categoryKor1: '액세서리',
+    categoryKor2: '파우치',
     name: '가죽 마이크로 보 백',
     price: '₩ 1,620,000',
     image_url:
@@ -38422,7 +39824,10 @@ export const products = [
     id: '5NR036_AF8W_F0046',
     index: 2,
     category1: 'accessories',
+
     category2: 'pouches',
+    categoryKor1: '액세서리',
+    categoryKor2: '파우치',
     name: '가죽 마이크로 보 백',
     price: '₩ 1,620,000',
     image_url:
@@ -38478,7 +39883,10 @@ export const products = [
     id: '5NR036_AF8W_F0NBL',
     index: 3,
     category1: 'accessories',
+
     category2: 'pouches',
+    categoryKor1: '액세서리',
+    categoryKor2: '파우치',
     name: '가죽 마이크로 보 백',
     price: '₩ 1,620,000',
     image_url:
@@ -38534,7 +39942,10 @@ export const products = [
     id: '5NF460_AF7T_F0304',
     index: 4,
     category1: 'accessories',
+
     category2: 'pouches',
+    categoryKor1: '액세서리',
+    categoryKor2: '파우치',
     name: '시어링 파우치',
     price: '₩ 2,300,000',
     image_url:
@@ -38596,7 +40007,10 @@ export const products = [
     id: '5NE841_2IFO_F0NTG',
     index: 5,
     category1: 'accessories',
+
     category2: 'pouches',
+    categoryKor1: '액세서리',
+    categoryKor2: '파우치',
     name: '가죽 파우치',
     price: '₩ 2,300,000',
     image_url:
@@ -38660,7 +40074,10 @@ export const products = [
     id: '5NE841_2IEE_F0393',
     index: 6,
     category1: 'accessories',
+
     category2: 'pouches',
+    categoryKor1: '액세서리',
+    categoryKor2: '파우치',
     name: '스웨이드 파우치',
     price: '₩ 2,150,000',
     image_url:
@@ -38723,7 +40140,10 @@ export const products = [
     id: '5NE841_2IG4_F05AJ',
     index: 7,
     category1: 'accessories',
+
     category2: 'pouches',
+    categoryKor1: '액세서리',
+    categoryKor2: '파우치',
     name: '코듀로이 파우치',
     price: '₩ 1,740,000',
     image_url:
@@ -38786,7 +40206,10 @@ export const products = [
     id: '5NE841_2IG4_F0A32',
     index: 8,
     category1: 'accessories',
+
     category2: 'pouches',
+    categoryKor1: '액세서리',
+    categoryKor2: '파우치',
     name: '코듀로이 파우치',
     price: '₩ 1,740,000',
     image_url:
@@ -38849,7 +40272,10 @@ export const products = [
     id: '5HC378_2CQD_F0031',
     index: 1,
     category1: 'accessories',
+
     category2: 'hats',
+    categoryKor1: '액세서리',
+    categoryKor2: '모자',
     name: '모헤어 비니',
     price: '₩ 660,000',
     image_url:
@@ -38885,7 +40311,10 @@ export const products = [
     id: '5HC378_2CQD_F0018',
     index: 2,
     category1: 'accessories',
+
     category2: 'hats',
+    categoryKor1: '액세서리',
+    categoryKor2: '모자',
     name: '모헤어 비니',
     price: '₩ 660,000',
     image_url:
@@ -38921,7 +40350,10 @@ export const products = [
     id: '5HC369_2IF2_F0D3Z',
     index: 3,
     category1: 'accessories',
+
     category2: 'hats',
+    categoryKor1: '액세서리',
+    categoryKor2: '모자',
     name: '플리스 베이스볼 캡',
     price: '₩ 1,010,000',
     image_url:
@@ -38970,7 +40402,10 @@ export const products = [
     id: '5HC488_18SI_F0013',
     index: 4,
     category1: 'accessories',
+
     category2: 'hats',
+    categoryKor1: '액세서리',
+    categoryKor2: '모자',
     name: '울 모자',
     price: '₩ 1,100,000',
     image_url:
@@ -39024,7 +40459,10 @@ export const products = [
     id: '5HC488_18SI_F0028',
     index: 5,
     category1: 'accessories',
+
     category2: 'hats',
+    categoryKor1: '액세서리',
+    categoryKor2: '모자',
     name: '울 모자',
     price: '₩ 1,100,000',
     image_url:
@@ -39071,7 +40509,10 @@ export const products = [
     id: '5HC489_18SI_F0028',
     index: 6,
     category1: 'accessories',
+
     category2: 'hats',
+    categoryKor1: '액세서리',
+    categoryKor2: '모자',
     name: '울 모자',
     price: '₩ 820,000',
     image_url:
@@ -39106,7 +40547,10 @@ export const products = [
     id: '5HC369_2CWC_F04Z5',
     index: 7,
     category1: 'accessories',
+
     category2: 'hats',
+    categoryKor1: '액세서리',
+    categoryKor2: '모자',
     name: '코튼 베이스볼 캡',
     price: '₩ 840,000',
     image_url:
@@ -39149,7 +40593,10 @@ export const products = [
     id: '5HC369_2CWC_F04Z6',
     index: 8,
     category1: 'accessories',
+
     category2: 'hats',
+    categoryKor1: '액세서리',
+    categoryKor2: '모자',
     name: '코튼 베이스볼 캡',
     price: '₩ 840,000',
     image_url:
@@ -39192,7 +40639,10 @@ export const products = [
     id: '5HC369_2CWC_F04ZH',
     index: 9,
     category1: 'accessories',
+
     category2: 'hats',
+    categoryKor1: '액세서리',
+    categoryKor2: '모자',
     name: '코튼 베이스볼 캡',
     price: '₩ 840,000',
     image_url:
@@ -39235,7 +40685,10 @@ export const products = [
     id: '5HC369_2CWC_F0IX2',
     index: 10,
     category1: 'accessories',
+
     category2: 'hats',
+    categoryKor1: '액세서리',
+    categoryKor2: '모자',
     name: '코튼 베이스볼 캡',
     price: '₩ 840,000',
     image_url:
@@ -39278,7 +40731,10 @@ export const products = [
     id: '5HC324_2ID1_F0036',
     index: 11,
     category1: 'accessories',
+
     category2: 'hats',
+    categoryKor1: '액세서리',
+    categoryKor2: '모자',
     name: '울 모자',
     price: '₩ 970,000',
     image_url:
@@ -39313,7 +40769,10 @@ export const products = [
     id: '5HC386_2CSR_F0040',
     index: 12,
     category1: 'accessories',
+
     category2: 'hats',
+    categoryKor1: '액세서리',
+    categoryKor2: '모자',
     name: '울, 캐시미어, 시어링 트래퍼 햇',
     price: '₩ 1,100,000',
     image_url:
@@ -39355,7 +40814,10 @@ export const products = [
     id: '5HC432_2IEJ_F073X',
     index: 13,
     category1: 'accessories',
+
     category2: 'hats',
+    categoryKor1: '액세서리',
+    categoryKor2: '모자',
     name: '울 및 캐시미어 모자',
     price: '₩ 820,000',
     image_url:
@@ -39391,7 +40853,10 @@ export const products = [
     id: '5HC432_2IEJ_F0637',
     index: 14,
     category1: 'accessories',
+
     category2: 'hats',
+    categoryKor1: '액세서리',
+    categoryKor2: '모자',
     name: '울 및 캐시미어 모자',
     price: '₩ 820,000',
     image_url:
@@ -39427,7 +40892,10 @@ export const products = [
     id: '5HC365_2IDY_F0D4O',
     index: 15,
     category1: 'accessories',
+
     category2: 'hats',
+    categoryKor1: '액세서리',
+    categoryKor2: '모자',
     name: '플리스 트래퍼 모자',
     price: '₩ 1,100,000',
     image_url:
@@ -39469,7 +40937,10 @@ export const products = [
     id: '5HC272_2IA4_F0TQI',
     index: 16,
     category1: 'accessories',
+
     category2: 'hats',
+    categoryKor1: '액세서리',
+    categoryKor2: '모자',
     name: '플래드와 플러시 플리스 캡',
     price: '₩ 1,070,000',
     image_url:
@@ -39512,7 +40983,10 @@ export const products = [
     id: '5HC369_2IDY_F0S0O',
     index: 17,
     category1: 'accessories',
+
     category2: 'hats',
+    categoryKor1: '액세서리',
+    categoryKor2: '모자',
     name: '플리스 베이스볼 캡',
     price: '₩ 1,020,000',
     image_url:
@@ -39560,7 +41034,10 @@ export const products = [
     id: '5HC369_2IDY_F04PE',
     index: 18,
     category1: 'accessories',
+
     category2: 'hats',
+    categoryKor1: '액세서리',
+    categoryKor2: '모자',
     name: '플리스 베이스볼 캡',
     price: '₩ 1,020,000',
     image_url:
@@ -39608,7 +41085,10 @@ export const products = [
     id: '5HC425_2DUF_F0684',
     index: 19,
     category1: 'accessories',
+
     category2: 'hats',
+    categoryKor1: '액세서리',
+    categoryKor2: '모자',
     name: '펠트 모자',
     price: '₩ 890,000',
     image_url:
@@ -39651,7 +41131,10 @@ export const products = [
     id: '5HC432_2IEJ_F0244',
     index: 20,
     category1: 'accessories',
+
     category2: 'hats',
+    categoryKor1: '액세서리',
+    categoryKor2: '모자',
     name: '울 및 캐시미어 모자',
     price: '₩ 820,000',
     image_url:
@@ -39694,7 +41177,10 @@ export const products = [
     id: '5HC179_AF6P_F0201',
     index: 21,
     category1: 'accessories',
+
     category2: 'hats',
+    categoryKor1: '액세서리',
+    categoryKor2: '모자',
     name: '나파 가죽 베이스볼 캡',
     price: '₩ 1,430,000',
     image_url:
@@ -39736,7 +41222,10 @@ export const products = [
     id: '5HC369_2CUA_F04RA',
     index: 22,
     category1: 'accessories',
+
     category2: 'hats',
+    categoryKor1: '액세서리',
+    categoryKor2: '모자',
     name: '벨벳 베이스볼 캡',
     price: '₩ 1,010,000',
     image_url:
@@ -39776,7 +41265,10 @@ export const products = [
     id: '5HC369_2CUA_F0844',
     index: 23,
     category1: 'accessories',
+
     category2: 'hats',
+    categoryKor1: '액세서리',
+    categoryKor2: '모자',
     name: '벨벳 베이스볼 캡',
     price: '₩ 1,010,000',
     image_url:
@@ -39816,7 +41308,10 @@ export const products = [
     id: '5HC369_2CUA_F034S',
     index: 24,
     category1: 'accessories',
+
     category2: 'hats',
+    categoryKor1: '액세서리',
+    categoryKor2: '모자',
     name: '벨벳 베이스볼 캡',
     price: '₩ 1,010,000',
     image_url:
@@ -39856,7 +41351,9 @@ export const products = [
     id: '5CC536_2ICT_F0EDH',
     index: 24,
     category1: 'accessories',
+
     category2: 'belts',
+    categoryKor1: '액세서리',
     name: '프린트 가죽 벨트',
     price: '₩ 1,010,000',
     image_url:
@@ -39892,7 +41389,9 @@ export const products = [
     id: '5CC536_2F6P_F0201',
     index: 2,
     category1: 'accessories',
+
     category2: 'belts',
+    categoryKor1: '액세서리',
     name: '나파 가죽 벨트',
     price: '₩ 960,000',
     image_url:
@@ -39927,7 +41426,9 @@ export const products = [
     id: '5CC536_2CSS_F0393',
     index: 3,
     category1: 'accessories',
+
     category2: 'belts',
+    categoryKor1: '액세서리',
     name: '스웨이드 벨트',
     price: '₩ 870,000',
     image_url:
@@ -39963,7 +41464,9 @@ export const products = [
     id: '5CC536_2CSS_F0316',
     index: 4,
     category1: 'accessories',
+
     category2: 'belts',
+    categoryKor1: '액세서리',
     name: '스웨이드 벨트',
     price: '₩ 870,000',
     image_url:
@@ -39999,7 +41502,9 @@ export const products = [
     id: '5CC536_2AIX_F0005',
     index: 5,
     category1: 'accessories',
+
     category2: 'belts',
+    categoryKor1: '액세서리',
     name: '가죽 벨트',
     price: '₩ 870,000',
     image_url:
@@ -40042,7 +41547,9 @@ export const products = [
     id: '5CC536_2AIX_F0038',
     index: 6,
     category1: 'accessories',
+
     category2: 'belts',
+    categoryKor1: '액세서리',
     name: '가죽 벨트',
     price: '₩ 870,000',
     image_url:
@@ -40085,7 +41592,9 @@ export const products = [
     id: '5CC536_2AIX_F0002',
     index: 7,
     category1: 'accessories',
+
     category2: 'belts',
+    categoryKor1: '액세서리',
     name: '가죽 벨트',
     price: '₩ 870,000',
     image_url:
@@ -40128,7 +41637,9 @@ export const products = [
     id: '5CC545_EFX_F0002',
     index: 8,
     category1: 'accessories',
+
     category2: 'belts',
+    categoryKor1: '액세서리',
     name: '나파 가죽 벨트',
     price: '₩ 940,000',
     image_url:
@@ -40161,7 +41672,9 @@ export const products = [
     id: '5CC545_EFX_F0316',
     index: 9,
     category1: 'accessories',
+
     category2: 'belts',
+    categoryKor1: '액세서리',
     name: '나파 가죽 벨트',
     price: '₩ 940,000',
     image_url:
@@ -40194,7 +41707,9 @@ export const products = [
     id: '5CC700_2AMP_F0362',
     index: 10,
     category1: 'accessories',
+
     category2: 'belts',
+    categoryKor1: '액세서리',
     name: '에이어스 가죽 벨트',
     price: '₩ 1,340,000',
     image_url:
@@ -40235,7 +41750,9 @@ export const products = [
     id: '5CC699_2IES_F0046',
     index: 11,
     category1: 'accessories',
+
     category2: 'belts',
+    categoryKor1: '액세서리',
     name: '가죽 벨트',
     price: '₩ 930,000',
     image_url:
@@ -40277,7 +41794,9 @@ export const products = [
     id: '5CC536_2IFM_F0316',
     index: 12,
     category1: 'accessories',
+
     category2: 'belts',
+    categoryKor1: '액세서리',
     name: '가죽 패치워크 벨트',
     price: '₩ 960,000',
     image_url:
@@ -40318,7 +41837,9 @@ export const products = [
     id: '5CC565_2AIX_F098L',
     index: 13,
     category1: 'accessories',
+
     category2: 'belts',
+    categoryKor1: '액세서리',
     name: '가죽 벨트',
     price: '₩ 870,000',
     image_url:
@@ -40354,7 +41875,9 @@ export const products = [
     id: '5CC699_2HIL_F0002',
     index: 14,
     category1: 'accessories',
+
     category2: 'belts',
+    categoryKor1: '액세서리',
     name: '가죽 벨트',
     price: '₩ 870,000',
     image_url:
@@ -40395,7 +41918,9 @@ export const products = [
     id: '5CC565_2AIX_F0005',
     index: 15,
     category1: 'accessories',
+
     category2: 'belts',
+    categoryKor1: '액세서리',
     name: '가죽 벨트',
     price: '₩ 870,000',
     image_url:
@@ -40431,7 +41956,9 @@ export const products = [
     id: '5CC536_2AIX_F098L',
     index: 16,
     category1: 'accessories',
+
     category2: 'belts',
+    categoryKor1: '액세서리',
     name: '가죽 벨트',
     price: '₩ 870,000',
     image_url:
@@ -40467,7 +41994,9 @@ export const products = [
     id: '5CC536_2AIX_F0NBL',
     index: 17,
     category1: 'accessories',
+
     category2: 'belts',
+    categoryKor1: '액세서리',
     name: '가죽 벨트',
     price: '₩ 870,000',
     image_url:
@@ -40503,7 +42032,9 @@ export const products = [
     id: '5CC669_2CS8_F04KZ',
     index: 18,
     category1: 'accessories',
+
     category2: 'belts',
+    categoryKor1: '액세서리',
     name: '크리스털 장식 메탈 벨트',
     price: '₩ 2,150,000',
     image_url:
@@ -40551,7 +42082,9 @@ export const products = [
     id: '5CC663_2IB5_F0002',
     index: 19,
     category1: 'accessories',
+
     category2: 'belts',
+    categoryKor1: '액세서리',
     name: '가죽 벨트',
     price: '₩ 980,000',
     image_url:
@@ -40594,7 +42127,9 @@ export const products = [
     id: '5CC663_2IB5_F098L',
     index: 20,
     category1: 'accessories',
+
     category2: 'belts',
+    categoryKor1: '액세서리',
     name: '가죽 벨트',
     price: '₩ 980,000',
     image_url:
@@ -40637,7 +42172,9 @@ export const products = [
     id: '5CC682_2IBW_F0NBL',
     index: 21,
     category1: 'accessories',
+
     category2: 'belts',
+    categoryKor1: '액세서리',
     name: '가죽 및 메탈 벨트',
     price: '₩ 1,600,000',
     image_url:
@@ -40680,7 +42217,9 @@ export const products = [
     id: '5CC682_2IBW_F0002',
     index: 22,
     category1: 'accessories',
+
     category2: 'belts',
+    categoryKor1: '액세서리',
     name: '가죽 및 메탈 벨트',
     price: '₩ 1,600,000',
     image_url:
@@ -40716,7 +42255,9 @@ export const products = [
     id: '5CC680_2IB7_F0002',
     index: 23,
     category1: 'accessories',
+
     category2: 'belts',
+    categoryKor1: '액세서리',
     name: '가죽 및 메탈 벨트',
     price: '₩ 2,400,000',
     image_url:
@@ -40752,7 +42293,9 @@ export const products = [
     id: '5CC691_2IFT_F0151',
     index: 25,
     category1: 'accessories',
+
     category2: 'belts',
+    categoryKor1: '액세서리',
     name: '프린트 가죽 벨트',
     price: '₩ 1,140,000',
     image_url:
@@ -40788,7 +42331,9 @@ export const products = [
     id: '5CC689_3AP6_F0002',
     index: 1,
     category1: 'accessories',
+
     category2: 'belts',
+    categoryKor1: '액세서리',
     name: '가죽 벨트',
     price: '₩ 1,030,000',
     image_url:
@@ -40829,7 +42374,10 @@ export const products = [
     id: '5IS114_2FLQ_F0Q07',
     index: 1,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '가죽 핀휠 브로치',
     price: '₩ 340,000',
     image_url:
@@ -40865,7 +42413,10 @@ export const products = [
     id: '5IS114_2FLQ_F044Q',
     index: 2,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '가죽 핀휠 브로치',
     price: '₩ 340,000',
     image_url:
@@ -40901,7 +42452,10 @@ export const products = [
     id: '5IS114_2FLQ_F0V4C',
     index: 3,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '가죽 핀휠 브로치',
     price: '₩ 340,000',
     image_url:
@@ -40937,7 +42491,10 @@ export const products = [
     id: '5IS114_2FLQ_F0D9K',
     index: 4,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '가죽 핀휠 브로치',
     price: '₩ 340,000',
     image_url:
@@ -40973,7 +42530,10 @@ export const products = [
     id: 'UNKNOWN_5',
     index: 5,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '제품 5',
     price: '가격 없음',
     image_url: '',
@@ -40984,7 +42544,10 @@ export const products = [
     id: '5BZ042_AF6P_F0201_V_OOO',
     index: 6,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '가죽 백팩',
     price: '₩ 5,500,000',
     image_url:
@@ -41071,7 +42634,10 @@ export const products = [
     id: '5TT281_2FLQ_F04YR',
     index: 7,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '가죽 마이크로 트릭',
     price: '₩ 340,000',
     image_url:
@@ -41107,7 +42673,10 @@ export const products = [
     id: '5ID010_2FLQ_F0F5C',
     index: 8,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '가죽 마이크로 트릭',
     price: '₩ 340,000',
     image_url:
@@ -41148,7 +42717,10 @@ export const products = [
     id: '5TL498_2IGI_F0002',
     index: 9,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '가죽 트릭',
     price: '₩ 640,000',
     image_url:
@@ -41189,7 +42761,10 @@ export const products = [
     id: '5TL516_2IGI_F0002',
     index: 10,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '가죽 키링 트릭',
     price: '₩ 640,000',
     image_url:
@@ -41225,7 +42800,10 @@ export const products = [
     id: '5TL570_2CQS_F04ZJ',
     index: 11,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '가죽 트릭',
     price: '₩ 640,000',
     image_url:
@@ -41261,7 +42839,10 @@ export const products = [
     id: '5TT282_2FLQ_F0NMD',
     index: 12,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '가죽 플로럴 브로치',
     price: '₩ 340,000',
     image_url:
@@ -41302,7 +42883,10 @@ export const products = [
     id: '5TT282_2FLQ_F0MI4',
     index: 13,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '가죽 플로럴 브로치',
     price: '₩ 340,000',
     image_url:
@@ -41343,7 +42927,10 @@ export const products = [
     id: '5IS116_2F6T_F0L76',
     index: 14,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '에나멜 메탈 로고 브로치',
     price: '₩ 280,000',
     image_url:
@@ -41379,7 +42966,10 @@ export const products = [
     id: '5IS116_2F6T_F0011',
     index: 15,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '에나멜 메탈 로고 브로치',
     price: '₩ 280,000',
     image_url:
@@ -41415,7 +43005,10 @@ export const products = [
     id: '5IS116_2F6T_F0009',
     index: 16,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '에나멜 메탈 로고 브로치',
     price: '₩ 280,000',
     image_url:
@@ -41451,7 +43044,10 @@ export const products = [
     id: '5TT279_2IEI_F0VJS',
     index: 17,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '울 및 캐시미어 트릭',
     price: '₩ 750,000',
     image_url:
@@ -41494,7 +43090,10 @@ export const products = [
     id: '5TT279_2IEI_F0X46',
     index: 18,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '울 및 캐시미어 트릭',
     price: '₩ 750,000',
     image_url:
@@ -41537,7 +43136,10 @@ export const products = [
     id: '5TL603_2IGC_F0N57',
     index: 19,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '가죽 트릭',
     price: '₩ 820,000',
     image_url:
@@ -41580,7 +43182,10 @@ export const products = [
     id: '5TL603_2IGC_F0Y5T',
     index: 20,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '가죽 트릭',
     price: '₩ 820,000',
     image_url:
@@ -41616,7 +43221,10 @@ export const products = [
     id: '5TL498_2IA1_F04R5',
     index: 21,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '시어링 및 나파 가죽 트릭',
     price: '₩ 620,000',
     image_url:
@@ -41659,7 +43267,10 @@ export const products = [
     id: '5TL498_2IA1_F0WP9',
     index: 22,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '시어링 및 나파 가죽 트릭',
     price: '₩ 620,000',
     image_url:
@@ -41702,7 +43313,10 @@ export const products = [
     id: '5TL516_2E6Y_F0NBL',
     index: 23,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '트릭 가죽 키링',
     price: '₩ 610,000',
     image_url:
@@ -41745,7 +43359,10 @@ export const products = [
     id: '5TL516_2E6Y_F0032',
     index: 24,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '트릭 가죽 키링',
     price: '₩ 610,000',
     image_url:
@@ -41788,7 +43405,10 @@ export const products = [
     id: '5TL516_2E6Y_F0009',
     index: 25,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '트릭 가죽 키링',
     price: '₩ 610,000',
     image_url:
@@ -41824,7 +43444,10 @@ export const products = [
     id: '5TL516_2E6Y_F0L76',
     index: 26,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '트릭 가죽 키링',
     price: '₩ 610,000',
     image_url:
@@ -41860,7 +43483,10 @@ export const products = [
     id: '5TL516_2E6Y_F0011',
     index: 1,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '트릭 가죽 키링',
     price: '₩ 610,000',
     image_url:
@@ -41896,7 +43522,10 @@ export const products = [
     id: '5TL516_2CQS_F04P4',
     index: 2,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '가죽 트릭',
     price: '₩ 640,000',
     image_url:
@@ -41939,7 +43568,10 @@ export const products = [
     id: '5TL516_2CQS_F03Z6',
     index: 3,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '가죽 트릭',
     price: '₩ 640,000',
     image_url:
@@ -41982,7 +43614,10 @@ export const products = [
     id: '5TL570_2CQS_F0J22',
     index: 4,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '가죽 트릭',
     price: '₩ 640,000',
     image_url:
@@ -42025,7 +43660,10 @@ export const products = [
     id: '5TL570_2CQS_F03YH',
     index: 5,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '가죽 트릭',
     price: '₩ 640,000',
     image_url:
@@ -42068,7 +43706,10 @@ export const products = [
     id: '5TL574_2IEQ_F0C1U',
     index: 6,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '메탈 및 가죽 키링 트릭',
     price: '₩ 820,000',
     image_url:
@@ -42104,7 +43745,10 @@ export const products = [
     id: '5TL569_2ID8_F0007',
     index: 7,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 키링 트릭',
     price: '₩ 890,000',
     image_url:
@@ -42152,7 +43796,10 @@ export const products = [
     id: '5TL529_2CUI_F0237',
     index: 8,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '가죽 키체인 트릭',
     price: '₩ 890,000',
     image_url:
@@ -42195,7 +43842,10 @@ export const products = [
     id: '5TL531_2CUK_F0065',
     index: 9,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '가죽 키체인 트릭',
     price: '₩ 890,000',
     image_url:
@@ -42238,7 +43888,10 @@ export const products = [
     id: '5TL533_2CUM_F0NZ2',
     index: 10,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '미우 발레 가죽 키체인 트릭',
     price: '₩ 890,000',
     image_url:
@@ -42288,7 +43941,10 @@ export const products = [
     id: '5TL510_2IFO_F0NTG',
     index: 11,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '가죽, 코드 및 금속 키링 트릭',
     price: '₩ 930,000',
     image_url:
@@ -42324,7 +43980,10 @@ export const products = [
     id: '5TL510_ACRT_F0Q7Z',
     index: 12,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '가죽, 코드 및 메탈 트릭 키링',
     price: '₩ 890,000',
     image_url:
@@ -42367,7 +44026,10 @@ export const products = [
     id: '5TL510_ACRT_F04D2',
     index: 13,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '가죽, 코드 및 메탈 트릭 키링',
     price: '₩ 890,000',
     image_url:
@@ -42410,7 +44072,10 @@ export const products = [
     id: '5TL510_ACRT_F0G52',
     index: 14,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '가죽, 코드 및 메탈 트릭 키링',
     price: '₩ 890,000',
     image_url:
@@ -42453,7 +44118,10 @@ export const products = [
     id: '5TL510_ACRT_F04Q8',
     index: 15,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '가죽, 코드 및 메탈 트릭 키링',
     price: '₩ 890,000',
     image_url:
@@ -42496,7 +44164,10 @@ export const products = [
     id: '5TL515_2IDW_F0NP5',
     index: 16,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '가죽 트릭',
     price: '₩ 1,030,000',
     image_url:
@@ -42538,7 +44209,10 @@ export const products = [
     id: '5TL515_2IDW_F04MV',
     index: 17,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '가죽 트릭',
     price: '₩ 1,030,000',
     image_url:
@@ -42587,7 +44261,10 @@ export const products = [
     id: '5TL515_ACRT_F04Q8',
     index: 18,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '가죽 코드 및 트릭',
     price: '₩ 930,000',
     image_url:
@@ -42636,7 +44313,10 @@ export const products = [
     id: '5TL515_ACRT_F0G52',
     index: 19,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '가죽 코드 및 트릭',
     price: '₩ 930,000',
     image_url:
@@ -42678,7 +44358,10 @@ export const products = [
     id: '5TL515_ACRT_F04BU',
     index: 20,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '가죽 코드 및 트릭',
     price: '₩ 930,000',
     image_url:
@@ -42720,7 +44403,10 @@ export const products = [
     id: '5ID008_2FLQ_F0976',
     index: 21,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '가죽 마이크로 트릭',
     price: '₩ 370,000',
     image_url:
@@ -42769,7 +44455,10 @@ export const products = [
     id: '5ID008_2FLQ_F0NP5',
     index: 22,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '가죽 마이크로 트릭',
     price: '₩ 370,000',
     image_url:
@@ -42818,7 +44507,10 @@ export const products = [
     id: '5ID008_2FLQ_F0X63',
     index: 23,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '가죽 마이크로 트릭',
     price: '₩ 370,000',
     image_url:
@@ -42867,7 +44559,10 @@ export const products = [
     id: '5ID008_2FLQ_F04MV',
     index: 24,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '가죽 마이크로 트릭',
     price: '₩ 370,000',
     image_url:
@@ -42916,7 +44611,10 @@ export const products = [
     id: '5ID008_2FLQ_F0VJS',
     index: 1,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '가죽 마이크로 트릭',
     price: '₩ 370,000',
     image_url:
@@ -42965,7 +44663,10 @@ export const products = [
     id: '5ID007_2FLQ_F0009',
     index: 2,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '가죽 마이크로 트릭',
     price: '₩ 340,000',
     image_url:
@@ -43014,7 +44715,10 @@ export const products = [
     id: '5ID007_2FLQ_F0011',
     index: 3,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '가죽 마이크로 트릭',
     price: '₩ 340,000',
     image_url:
@@ -43063,7 +44767,10 @@ export const products = [
     id: '5ID007_2FLQ_F0016',
     index: 4,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '가죽 마이크로 트릭',
     price: '₩ 340,000',
     image_url:
@@ -43112,7 +44819,10 @@ export const products = [
     id: '5ID007_2FLQ_F0L76',
     index: 5,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '가죽 마이크로 트릭',
     price: '₩ 340,000',
     image_url:
@@ -43161,7 +44871,10 @@ export const products = [
     id: '5ID007_2FLQ_F0R55',
     index: 6,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '가죽 마이크로 트릭',
     price: '₩ 340,000',
     image_url:
@@ -43210,7 +44923,10 @@ export const products = [
     id: '5ID007_2FLQ_F0046',
     index: 7,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '가죽 마이크로 트릭',
     price: '₩ 340,000',
     image_url:
@@ -43259,7 +44975,10 @@ export const products = [
     id: '5ID007_2FLQ_F0637',
     index: 8,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '가죽 마이크로 트릭',
     price: '₩ 340,000',
     image_url:
@@ -43308,7 +45027,10 @@ export const products = [
     id: '5ID007_2FLQ_F0049',
     index: 9,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '가죽 마이크로 트릭',
     price: '₩ 340,000',
     image_url:
@@ -43357,7 +45079,10 @@ export const products = [
     id: '5ID007_2FLQ_F0029',
     index: 10,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '가죽 마이크로 트릭',
     price: '₩ 340,000',
     image_url:
@@ -43406,7 +45131,10 @@ export const products = [
     id: '5ID010_2FLQ_F0Z9N',
     index: 11,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '가죽 마이크로 트릭',
     price: '₩ 340,000',
     image_url:
@@ -43454,7 +45182,10 @@ export const products = [
     id: '5ID010_2FLQ_F0P26',
     index: 12,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '가죽 마이크로 트릭',
     price: '₩ 340,000',
     image_url:
@@ -43502,7 +45233,10 @@ export const products = [
     id: '5ID010_2FLQ_F0NP5',
     index: 13,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '가죽 마이크로 트릭',
     price: '₩ 340,000',
     image_url:
@@ -43550,7 +45284,10 @@ export const products = [
     id: '5ID010_2FLQ_F0LKZ',
     index: 14,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '가죽 마이크로 트릭',
     price: '₩ 340,000',
     image_url:
@@ -43605,7 +45342,10 @@ export const products = [
     id: '5ID010_2FLQ_F04QX',
     index: 15,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '가죽 마이크로 트릭',
     price: '₩ 340,000',
     image_url:
@@ -43653,7 +45393,10 @@ export const products = [
     id: '5ID016_2FLQ_F03XH',
     index: 16,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '가죽 마이크로 트릭',
     price: '₩ 340,000',
     image_url:
@@ -43696,7 +45439,10 @@ export const products = [
     id: '5ID016_2FLQ_F0N13',
     index: 17,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '가죽 마이크로 트릭',
     price: '₩ 340,000',
     image_url:
@@ -43739,7 +45485,10 @@ export const products = [
     id: '5ID016_2FLQ_F0WK7',
     index: 18,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '가죽 마이크로 트릭',
     price: '₩ 340,000',
     image_url:
@@ -43782,7 +45531,10 @@ export const products = [
     id: '5ID016_2FLQ_F0EH7',
     index: 19,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '가죽 마이크로 트릭',
     price: '₩ 340,000',
     image_url:
@@ -43825,7 +45577,10 @@ export const products = [
     id: '5IS114_2FLQ_F0Y1T',
     index: 20,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '가죽 핀휠 브로치',
     price: '₩ 340,000',
     image_url:
@@ -43868,7 +45623,10 @@ export const products = [
     id: '5IS114_2FLQ_F031W',
     index: 21,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '가죽 핀휠 브로치',
     price: '₩ 340,000',
     image_url:
@@ -43911,7 +45669,10 @@ export const products = [
     id: '5IS114_2FLQ_F0976',
     index: 22,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '가죽 핀휠 브로치',
     price: '₩ 340,000',
     image_url:
@@ -43954,7 +45715,10 @@ export const products = [
     id: '5IS114_2FLQ_F0X63',
     index: 23,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '가죽 핀휠 브로치',
     price: '₩ 340,000',
     image_url:
@@ -43997,7 +45761,10 @@ export const products = [
     id: '5ID015_2DTU_F0056',
     index: 24,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '로고 장식 주사위 참',
     price: '₩ 215,000',
     image_url:
@@ -44040,7 +45807,10 @@ export const products = [
     id: '5TL550_2IC3_F0HC7',
     index: 1,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '나파 가죽 트릭',
     price: '₩ 750,000',
     image_url:
@@ -44083,7 +45853,10 @@ export const products = [
     id: '5TL550_2IC3_F04JD',
     index: 2,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '나파 가죽 트릭',
     price: '₩ 750,000',
     image_url:
@@ -44126,7 +45899,10 @@ export const products = [
     id: '5TL498_2CQS_F03YH',
     index: 3,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '가죽 트릭',
     price: '₩ 610,000',
     image_url:
@@ -44176,7 +45952,10 @@ export const products = [
     id: '5TL498_2CQS_F0J22',
     index: 4,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '가죽 트릭',
     price: '₩ 610,000',
     image_url:
@@ -44219,7 +45998,10 @@ export const products = [
     id: '5TL498_2CQS_F04AI',
     index: 5,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '가죽 트릭',
     price: '₩ 610,000',
     image_url:
@@ -44255,7 +46037,10 @@ export const products = [
     id: '5TT280_2IE7_F087A',
     index: 6,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '기술적 원사 트릭',
     price: '₩ 1,250,000',
     image_url:
@@ -44297,7 +46082,10 @@ export const products = [
     id: '5TT260_2CWW_F052N',
     index: 7,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '기능성 원사 트릭',
     price: '₩ 1,250,000',
     image_url:
@@ -44340,7 +46128,10 @@ export const products = [
     id: '5TT213_2CU2_F0G5R',
     index: 8,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '기능성 원사 트릭',
     price: '₩ 1,250,000',
     image_url:
@@ -44382,7 +46173,10 @@ export const products = [
     id: '5TT214_2CU3_F0KIV',
     index: 9,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '기능성 원사 트릭',
     price: '₩ 1,250,000',
     image_url:
@@ -44424,7 +46218,10 @@ export const products = [
     id: '5TT215_2CU4_F022X',
     index: 10,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '기능성 원사 트릭',
     price: '₩ 1,250,000',
     image_url:
@@ -44466,7 +46263,10 @@ export const products = [
     id: '5TT217_2CU6_F0HZR',
     index: 11,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '기능성 원사 트릭',
     price: '₩ 1,250,000',
     image_url:
@@ -44508,7 +46308,10 @@ export const products = [
     id: '5TT218_2CU7_F0P27',
     index: 12,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '기능성 원사 트릭',
     price: '₩ 1,250,000',
     image_url:
@@ -44550,7 +46353,10 @@ export const products = [
     id: '5TY109_2IFM_F0316',
     index: 13,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '가죽 패치워크 숄더 스트랩',
     price: '₩ 1,160,000',
     image_url:
@@ -44593,7 +46399,10 @@ export const products = [
     id: '5NR036_2F8W_F0002',
     index: 14,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '가죽 마이크로 보 백',
     price: '₩ 1,620,000',
     image_url:
@@ -44649,7 +46458,10 @@ export const products = [
     id: '5NR036_AF8W_F0NBL',
     index: 15,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '가죽 마이크로 보 백',
     price: '₩ 1,620,000',
     image_url:
@@ -44705,7 +46517,10 @@ export const products = [
     id: '5NR036_AF8W_F0046',
     index: 16,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '가죽 마이크로 보 백',
     price: '₩ 1,620,000',
     image_url:
@@ -44761,7 +46576,10 @@ export const products = [
     id: '5NR019_2FPP_F0002',
     index: 17,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '완더 마테라쎄 나파 가죽 마이크로 호보백',
     price: '₩ 1,640,000',
     image_url:
@@ -44825,7 +46643,10 @@ export const products = [
     id: '5ID016_2FLQ_F0Q07',
     index: 18,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '가죽 마이크로 트릭',
     price: '₩ 340,000',
     image_url:
@@ -44861,7 +46682,10 @@ export const products = [
     id: '5TL601_2IGE_F0037',
     index: 19,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '가죽 키링 트릭',
     price: '₩ 890,000',
     image_url:
@@ -44909,7 +46733,10 @@ export const products = [
     id: '5TT282_2FLQ_F0976',
     index: 20,
     category1: 'accessories',
+
     category2: 'bag-accessories-and-keychains',
+    categoryKor1: '액세서리',
+    categoryKor1: '액세서리',
     name: '가죽 플로럴 브로치',
     price: '₩ 340,000',
     image_url:
@@ -44950,7 +46777,10 @@ export const products = [
     id: '5GG203_2CSR_F0040',
     index: 2,
     category1: 'accessories',
+
     category2: 'scarves-and-gloves',
+    categoryKor1: '액세서리',
+    categoryKor2: '스카프와 장갑',
     name: '울, 캐시미어, 시어링 미튼 장갑',
     price: '₩ 1,160,000',
     image_url:
@@ -44991,7 +46821,10 @@ export const products = [
     id: '5GG203_2CSR_F0009',
     index: 3,
     category1: 'accessories',
+
     category2: 'scarves-and-gloves',
+    categoryKor1: '액세서리',
+    categoryKor2: '스카프와 장갑',
     name: '울, 캐시미어, 시어링 미튼 장갑',
     price: '₩ 1,160,000',
     image_url:
@@ -45032,7 +46865,10 @@ export const products = [
     id: '5GG202_2F8S_F0040',
     index: 4,
     category1: 'accessories',
+
     category2: 'scarves-and-gloves',
+    categoryKor1: '액세서리',
+    categoryKor2: '스카프와 장갑',
     name: '울 및 캐시미어 장갑',
     price: '₩ 710,000',
     image_url:
@@ -45068,7 +46904,10 @@ export const products = [
     id: '5GG202_2F8S_F0031',
     index: 5,
     category1: 'accessories',
+
     category2: 'scarves-and-gloves',
+    categoryKor1: '액세서리',
+    categoryKor2: '스카프와 장갑',
     name: '울 및 캐시미어 장갑',
     price: '₩ 710,000',
     image_url:
@@ -45104,7 +46943,10 @@ export const products = [
     id: '5FS048_2F8S_F0003',
     index: 6,
     category1: 'accessories',
+
     category2: 'scarves-and-gloves',
+    categoryKor1: '액세서리',
+    categoryKor2: '스카프와 장갑',
     name: '캐시미어 스카프',
     price: '₩ 850,000',
     image_url:
@@ -45153,7 +46995,10 @@ export const products = [
     id: '5GG202_2F8S_F0003',
     index: 7,
     category1: 'accessories',
+
     category2: 'scarves-and-gloves',
+    categoryKor1: '액세서리',
+    categoryKor2: '스카프와 장갑',
     name: '울 및 캐시미어 장갑',
     price: '₩ 710,000',
     image_url:
@@ -45189,7 +47034,10 @@ export const products = [
     id: '5FS062_2CQD_F0031',
     index: 8,
     category1: 'accessories',
+
     category2: 'scarves-and-gloves',
+    categoryKor1: '액세서리',
+    categoryKor2: '스카프와 장갑',
     name: '울 및 모헤어 스카프',
     price: '₩ 1,000,000',
     image_url:
@@ -45239,7 +47087,10 @@ export const products = [
     id: '5GG196_2CQD_F0031',
     index: 9,
     category1: 'accessories',
+
     category2: 'scarves-and-gloves',
+    categoryKor1: '액세서리',
+    categoryKor2: '스카프와 장갑',
     name: '울 및 모헤어 장갑',
     price: '₩ 680,000',
     image_url:
@@ -45275,7 +47126,10 @@ export const products = [
     id: '5FS062_2CQD_F0005',
     index: 10,
     category1: 'accessories',
+
     category2: 'scarves-and-gloves',
+    categoryKor1: '액세서리',
+    categoryKor2: '스카프와 장갑',
     name: '울 및 모헤어 스카프',
     price: '₩ 1,000,000',
     image_url:
@@ -45325,7 +47179,10 @@ export const products = [
     id: '5GG196_2CQD_F0005',
     index: 11,
     category1: 'accessories',
+
     category2: 'scarves-and-gloves',
+    categoryKor1: '액세서리',
+    categoryKor2: '스카프와 장갑',
     name: '울 및 모헤어 장갑',
     price: '₩ 680,000',
     image_url:
@@ -45361,7 +47218,10 @@ export const products = [
     id: '5FS062_2CQD_F0018',
     index: 12,
     category1: 'accessories',
+
     category2: 'scarves-and-gloves',
+    categoryKor1: '액세서리',
+    categoryKor2: '스카프와 장갑',
     name: '울 및 모헤어 스카프',
     price: '₩ 1,000,000',
     image_url:
@@ -45404,7 +47264,10 @@ export const products = [
     id: '5GG196_2CQD_F0018',
     index: 13,
     category1: 'accessories',
+
     category2: 'scarves-and-gloves',
+    categoryKor1: '액세서리',
+    categoryKor2: '스카프와 장갑',
     name: '울 및 모헤어 장갑',
     price: '₩ 680,000',
     image_url:
@@ -45440,7 +47303,10 @@ export const products = [
     id: '5FS048_2ID1_F0036',
     index: 14,
     category1: 'accessories',
+
     category2: 'scarves-and-gloves',
+    categoryKor1: '액세서리',
+    categoryKor2: '스카프와 장갑',
     name: '니트 스카프',
     price: '₩ 1,000,000',
     image_url:
@@ -45480,7 +47346,10 @@ export const products = [
     id: '5FS094_2CVE_F04BG',
     index: 15,
     category1: 'accessories',
+
     category2: 'scarves-and-gloves',
+    categoryKor1: '액세서리',
+    categoryKor2: '스카프와 장갑',
     name: '프린지 울 스카프',
     price: '₩ 1,100,000',
     image_url:
@@ -45521,7 +47390,10 @@ export const products = [
     id: '5FS094_2CVE_F0WYH',
     index: 16,
     category1: 'accessories',
+
     category2: 'scarves-and-gloves',
+    categoryKor1: '액세서리',
+    categoryKor2: '스카프와 장갑',
     name: '프린지 울 스카프',
     price: '₩ 1,100,000',
     image_url:
@@ -45562,7 +47434,10 @@ export const products = [
     id: '5GG147_2ICP_F0480',
     index: 17,
     category1: 'accessories',
+
     category2: 'scarves-and-gloves',
+    categoryKor1: '액세서리',
+    categoryKor2: '스카프와 장갑',
     name: '립 조직 니트 실크 핑거리스 장갑',
     price: '₩ 1,140,000',
     image_url:
@@ -45612,7 +47487,10 @@ export const products = [
     id: '5FS139_180W_F0308',
     index: 18,
     category1: 'accessories',
+
     category2: 'scarves-and-gloves',
+    categoryKor1: '액세서리',
+    categoryKor2: '스카프와 장갑',
     name: '울 및 캐시미어 스카프',
     price: '₩ 1,070,000',
     image_url:
@@ -45648,7 +47526,10 @@ export const products = [
     id: '5FS139_180W_F0031',
     index: 19,
     category1: 'accessories',
+
     category2: 'scarves-and-gloves',
+    categoryKor1: '액세서리',
+    categoryKor2: '스카프와 장갑',
     name: '울 및 캐시미어 스카프',
     price: '₩ 1,070,000',
     image_url:
@@ -45684,7 +47565,10 @@ export const products = [
     id: '5FF004_2ID9_F0008',
     index: 20,
     category1: 'accessories',
+
     category2: 'scarves-and-gloves',
+    categoryKor1: '액세서리',
+    categoryKor2: '스카프와 장갑',
     name: '울 및 캐시미어 프린트 스카프',
     price: '₩ 430,000',
     image_url:
@@ -45727,7 +47611,10 @@ export const products = [
     id: '5FF004_2ID9_F0244',
     index: 21,
     category1: 'accessories',
+
     category2: 'scarves-and-gloves',
+    categoryKor1: '액세서리',
+    categoryKor2: '스카프와 장갑',
     name: '울 및 캐시미어 프린트 스카프',
     price: '₩ 430,000',
     image_url:
@@ -45770,7 +47657,10 @@ export const products = [
     id: '5FF004_2IEA_F0046',
     index: 22,
     category1: 'accessories',
+
     category2: 'scarves-and-gloves',
+    categoryKor1: '액세서리',
+    categoryKor2: '스카프와 장갑',
     name: '실크 프린트 스카프',
     price: '₩ 430,000',
     image_url:
@@ -45813,7 +47703,10 @@ export const products = [
     id: '5FF004_2IEA_F0154',
     index: 23,
     category1: 'accessories',
+
     category2: 'scarves-and-gloves',
+    categoryKor1: '액세서리',
+    categoryKor2: '스카프와 장갑',
     name: '실크 프린트 스카프',
     price: '₩ 430,000',
     image_url:
@@ -45856,7 +47749,10 @@ export const products = [
     id: '5FF001_2ID9_F0244',
     index: 24,
     category1: 'accessories',
+
     category2: 'scarves-and-gloves',
+    categoryKor1: '액세서리',
+    categoryKor2: '스카프와 장갑',
     name: '울 및 캐시미어 프린트 스카프',
     price: '₩ 850,000',
     image_url:
@@ -45899,7 +47795,10 @@ export const products = [
     id: '5FF004_2ICE_F0399',
     index: 25,
     category1: 'accessories',
+
     category2: 'scarves-and-gloves',
+    categoryKor1: '액세서리',
+    categoryKor2: '스카프와 장갑',
     name: '프린티드 포플린 스카프',
     price: '₩ 410,000',
     image_url:
@@ -45942,7 +47841,10 @@ export const products = [
     id: '5FF008_2ICE_F0399',
     index: 1,
     category1: 'accessories',
+
     category2: 'scarves-and-gloves',
+    categoryKor1: '액세서리',
+    categoryKor2: '스카프와 장갑',
     name: '프린티드 포플린 스카프',
     price: '₩ 360,000',
     image_url:
@@ -45985,7 +47887,10 @@ export const products = [
     id: '5FF004_2ICG_F0008',
     index: 2,
     category1: 'accessories',
+
     category2: 'scarves-and-gloves',
+    categoryKor1: '액세서리',
+    categoryKor2: '스카프와 장갑',
     name: '프린티드 포플린 스카프',
     price: '₩ 410,000',
     image_url:
@@ -46028,7 +47933,10 @@ export const products = [
     id: '5FF008_2ICG_F0008',
     index: 3,
     category1: 'accessories',
+
     category2: 'scarves-and-gloves',
+    categoryKor1: '액세서리',
+    categoryKor2: '스카프와 장갑',
     name: '프린티드 포플린 스카프',
     price: '₩ 360,000',
     image_url:
@@ -46071,7 +47979,10 @@ export const products = [
     id: '5FF008_2ICG_F0304',
     index: 4,
     category1: 'accessories',
+
     category2: 'scarves-and-gloves',
+    categoryKor1: '액세서리',
+    categoryKor2: '스카프와 장갑',
     name: '프린티드 포플린 스카프',
     price: '₩ 360,000',
     image_url:
@@ -46114,7 +48025,10 @@ export const products = [
     id: '5FF004_2F7Y_F022X',
     index: 5,
     category1: 'accessories',
+
     category2: 'scarves-and-gloves',
+    categoryKor1: '액세서리',
+    categoryKor2: '스카프와 장갑',
     name: '프린트 트윌 스카프',
     price: '₩ 430,000',
     image_url:
@@ -46156,7 +48070,10 @@ export const products = [
     id: '5FF008_2F7Y_F0N13',
     index: 6,
     category1: 'accessories',
+
     category2: 'scarves-and-gloves',
+    categoryKor1: '액세서리',
+    categoryKor2: '스카프와 장갑',
     name: '프린트 트윌 스카프',
     price: '₩ 360,000',
     image_url:
@@ -46198,7 +48115,10 @@ export const products = [
     id: '5FF004_2F7Y_F04D7',
     index: 7,
     category1: 'accessories',
+
     category2: 'scarves-and-gloves',
+    categoryKor1: '액세서리',
+    categoryKor2: '스카프와 장갑',
     name: '프린트 트윌 스카프',
     price: '₩ 430,000',
     image_url:
@@ -46240,7 +48160,10 @@ export const products = [
     id: '5FF004_2F7Y_F03FD',
     index: 8,
     category1: 'accessories',
+
     category2: 'scarves-and-gloves',
+    categoryKor1: '액세서리',
+    categoryKor2: '스카프와 장갑',
     name: '프린트 트윌 스카프',
     price: '₩ 430,000',
     image_url:
@@ -46282,7 +48205,10 @@ export const products = [
     id: '5FF042_2F71_F0056',
     index: 9,
     category1: 'accessories',
+
     category2: 'scarves-and-gloves',
+    categoryKor1: '액세서리',
+    categoryKor2: '스카프와 장갑',
     name: '메탈 스카프 링',
     price: '₩ 300,000',
     image_url:
@@ -46318,7 +48244,10 @@ export const products = [
     id: '5FS048_2F8S_F0031',
     index: 10,
     category1: 'accessories',
+
     category2: 'scarves-and-gloves',
+    categoryKor1: '액세서리',
+    categoryKor2: '스카프와 장갑',
     name: '캐시미어 스카프',
     price: '₩ 850,000',
     image_url:
@@ -46354,7 +48283,10 @@ export const products = [
     id: '5FS048_2F8S_F0040',
     index: 11,
     category1: 'accessories',
+
     category2: 'scarves-and-gloves',
+    categoryKor1: '액세서리',
+    categoryKor2: '스카프와 장갑',
     name: '캐시미어 스카프',
     price: '₩ 850,000',
     image_url:
@@ -46397,7 +48329,11 @@ export const products = [
     id: '5IF181_068_F0E18',
     index: 1,
     category1: 'accessories',
+
     category2: 'hair-accessories',
+    categoryKor1: '액세서리',
+    categoryKor2: '헤어 악세사리',
+
     name: '벨벳 스크런치',
     price: '₩ 550,000',
     image_url:
@@ -46430,7 +48366,11 @@ export const products = [
     id: '5IF282_068_F0E18',
     index: 2,
     category1: 'accessories',
+
     category2: 'hair-accessories',
+    categoryKor1: '액세서리',
+    categoryKor2: '헤어 악세사리',
+
     name: '벨벳 헤어 클립',
     price: '₩ 590,000',
     image_url:
@@ -46463,7 +48403,11 @@ export const products = [
     id: '5IF092_068_F0E18',
     index: 3,
     category1: 'accessories',
+
     category2: 'hair-accessories',
+    categoryKor1: '액세서리',
+    categoryKor2: '헤어 악세사리',
+
     name: '벨벳 헤어 클립',
     price: '₩ 610,000',
     image_url:
@@ -46496,7 +48440,11 @@ export const products = [
     id: '5IF092_068_F0011',
     index: 4,
     category1: 'accessories',
+
     category2: 'hair-accessories',
+    categoryKor1: '액세서리',
+    categoryKor2: '헤어 악세사리',
+
     name: '벨벳 헤어 클립',
     price: '₩ 610,000',
     image_url:
@@ -46529,7 +48477,11 @@ export const products = [
     id: '5IF276_2F6T_F04Z8',
     index: 5,
     category1: 'accessories',
+
     category2: 'hair-accessories',
+    categoryKor1: '액세서리',
+    categoryKor2: '헤어 악세사리',
+
     name: '에나멜 메탈 헤어 클립',
     price: '₩ 800,000',
     image_url:
@@ -46576,7 +48528,11 @@ export const products = [
     id: '5IF273_2IFX_F0NXA',
     index: 6,
     category1: 'accessories',
+
     category2: 'hair-accessories',
+    categoryKor1: '액세서리',
+    categoryKor2: '헤어 악세사리',
+
     name: '메탈 헤어 바레트',
     price: '₩ 570,000',
     image_url:
@@ -46617,7 +48573,11 @@ export const products = [
     id: '5IF277_2F6T_F061C',
     index: 7,
     category1: 'accessories',
+
     category2: 'hair-accessories',
+    categoryKor1: '액세서리',
+    categoryKor2: '헤어 악세사리',
+
     name: '에나멜 메탈 헤어 클립',
     price: '₩ 520,000',
     image_url:
@@ -46664,7 +48624,11 @@ export const products = [
     id: '5IF282_068_F0002',
     index: 8,
     category1: 'accessories',
+
     category2: 'hair-accessories',
+    categoryKor1: '액세서리',
+    categoryKor2: '헤어 악세사리',
+
     name: '벨벳 헤어 클립',
     price: '₩ 590,000',
     image_url:
@@ -46697,7 +48661,11 @@ export const products = [
     id: '5IF284_068_F0E18',
     index: 9,
     category1: 'accessories',
+
     category2: 'hair-accessories',
+    categoryKor1: '액세서리',
+    categoryKor2: '헤어 악세사리',
+
     name: '벨벳 헤어 클립',
     price: '₩ 750,000',
     image_url:
@@ -46730,7 +48698,11 @@ export const products = [
     id: '5IF284_068_F0002',
     index: 10,
     category1: 'accessories',
+
     category2: 'hair-accessories',
+    categoryKor1: '액세서리',
+    categoryKor2: '헤어 악세사리',
+
     name: '벨벳 헤어 클립',
     price: '₩ 750,000',
     image_url:
@@ -46763,7 +48735,11 @@ export const products = [
     id: '5IF284_068_F0011',
     index: 11,
     category1: 'accessories',
+
     category2: 'hair-accessories',
+    categoryKor1: '액세서리',
+    categoryKor2: '헤어 악세사리',
+
     name: '벨벳 헤어 클립',
     price: '₩ 750,000',
     image_url:
@@ -46796,7 +48772,11 @@ export const products = [
     id: '5IF181_2IFK_F0RDS',
     index: 12,
     category1: 'accessories',
+
     category2: 'hair-accessories',
+    categoryKor1: '액세서리',
+    categoryKor2: '헤어 악세사리',
+
     name: '플래드 울 스크런치',
     price: '₩ 590,000',
     image_url:
@@ -46832,7 +48812,11 @@ export const products = [
     id: '5IF092_2IFK_F0RDS',
     index: 13,
     category1: 'accessories',
+
     category2: 'hair-accessories',
+    categoryKor1: '액세서리',
+    categoryKor2: '헤어 악세사리',
+
     name: '체크 울 헤어 클립',
     price: '₩ 620,000',
     image_url:
@@ -46868,7 +48852,11 @@ export const products = [
     id: '5IF181_2IEP_F0244',
     index: 14,
     category1: 'accessories',
+
     category2: 'hair-accessories',
+    categoryKor1: '액세서리',
+    categoryKor2: '헤어 악세사리',
+
     name: '하운즈투스 스크런치',
     price: '₩ 590,000',
     image_url:
@@ -46911,7 +48899,11 @@ export const products = [
     id: '5IF092_2IEP_F0244',
     index: 15,
     category1: 'accessories',
+
     category2: 'hair-accessories',
+    categoryKor1: '액세서리',
+    categoryKor2: '헤어 악세사리',
+
     name: '하운즈투스 헤어 클립',
     price: '₩ 610,000',
     image_url:
@@ -46947,7 +48939,11 @@ export const products = [
     id: '5IF242_069_F0002',
     index: 16,
     category1: 'accessories',
+
     category2: 'hair-accessories',
+    categoryKor1: '액세서리',
+    categoryKor2: '헤어 악세사리',
+
     name: '페이턴트 가죽 바렛',
     price: '₩ 660,000',
     image_url:
@@ -46985,7 +48981,11 @@ export const products = [
     id: '5IF188_2C3V_F0237',
     index: 17,
     category1: 'accessories',
+
     category2: 'hair-accessories',
+    categoryKor1: '액세서리',
+    categoryKor2: '헤어 악세사리',
+
     name: '가죽, 스웨이드, 시어링 헤어 클립 세트',
     price: '₩ 1,340,000',
     image_url:
@@ -47021,7 +49021,11 @@ export const products = [
     id: '5IF188_2IEK_F04UM',
     index: 18,
     category1: 'accessories',
+
     category2: 'hair-accessories',
+    categoryKor1: '액세서리',
+    categoryKor2: '헤어 악세사리',
+
     name: '체크 패브릭, 코듀로이 및 스웨이드 헤어 바렛',
     price: '₩ 1,340,000',
     image_url:
@@ -47057,7 +49061,11 @@ export const products = [
     id: '5IF188_2IEK_F04UK',
     index: 19,
     category1: 'accessories',
+
     category2: 'hair-accessories',
+    categoryKor1: '액세서리',
+    categoryKor2: '헤어 악세사리',
+
     name: '체크 패브릭, 코듀로이 및 스웨이드 헤어 바렛',
     price: '₩ 1,340,000',
     image_url:
@@ -47093,7 +49101,11 @@ export const products = [
     id: '5IF188_2IEK_F04UL',
     index: 20,
     category1: 'accessories',
+
     category2: 'hair-accessories',
+    categoryKor1: '액세서리',
+    categoryKor2: '헤어 악세사리',
+
     name: '체크 패브릭, 코듀로이 및 스웨이드 헤어 바렛',
     price: '₩ 1,340,000',
     image_url:
@@ -47129,7 +49141,11 @@ export const products = [
     id: '5IF254_2CSW_F0442',
     index: 21,
     category1: 'accessories',
+
     category2: 'hair-accessories',
+    categoryKor1: '액세서리',
+    categoryKor2: '헤어 악세사리',
+
     name: '가죽 보 헤어 클립',
     price: '₩ 730,000',
     image_url:
@@ -47165,7 +49181,11 @@ export const products = [
     id: '5IF254_2CSW_F098L',
     index: 22,
     category1: 'accessories',
+
     category2: 'hair-accessories',
+    categoryKor1: '액세서리',
+    categoryKor2: '헤어 악세사리',
+
     name: '가죽 보 헤어 클립',
     price: '₩ 730,000',
     image_url:
@@ -47201,7 +49221,11 @@ export const products = [
     id: '5IF254_2CSW_F0002',
     index: 23,
     category1: 'accessories',
+
     category2: 'hair-accessories',
+    categoryKor1: '액세서리',
+    categoryKor2: '헤어 악세사리',
+
     name: '가죽 보 헤어 클립',
     price: '₩ 730,000',
     image_url:
@@ -47237,7 +49261,11 @@ export const products = [
     id: '5IF184_2C3V_F0009',
     index: 24,
     category1: 'accessories',
+
     category2: 'hair-accessories',
+    categoryKor1: '액세서리',
+    categoryKor2: '헤어 악세사리',
+
     name: '헤어 클립 세트',
     price: '₩ 1,340,000',
     image_url:
@@ -47287,7 +49315,11 @@ export const products = [
     id: '5IF188_2C3V_F0E18',
     index: 1,
     category1: 'accessories',
+
     category2: 'hair-accessories',
+    categoryKor1: '액세서리',
+    categoryKor2: '헤어 악세사리',
+
     name: '가죽, 스웨이드, 시어링 헤어 클립 세트',
     price: '₩ 1,340,000',
     image_url:
@@ -47323,7 +49355,11 @@ export const products = [
     id: '5IF188_2C3V_F098L',
     index: 2,
     category1: 'accessories',
+
     category2: 'hair-accessories',
+    categoryKor1: '액세서리',
+    categoryKor2: '헤어 악세사리',
+
     name: '가죽, 스웨이드, 시어링 헤어 클립 세트',
     price: '₩ 1,340,000',
     image_url:
@@ -47359,7 +49395,11 @@ export const products = [
     id: '5IF092_2F7T_F098L',
     index: 3,
     category1: 'accessories',
+
     category2: 'hair-accessories',
+    categoryKor1: '액세서리',
+    categoryKor2: '헤어 악세사리',
+
     name: '시어링 헤어 클립',
     price: '₩ 640,000',
     image_url:
@@ -47401,7 +49441,11 @@ export const products = [
     id: '5IF241_069_F0D27',
     index: 4,
     category1: 'accessories',
+
     category2: 'hair-accessories',
+    categoryKor1: '액세서리',
+    categoryKor2: '헤어 악세사리',
+
     name: '페이턴트 가죽 헤어 클립',
     price: '₩ 710,000',
     image_url:
@@ -47434,7 +49478,11 @@ export const products = [
     id: '5IF240_069_F0D27',
     index: 5,
     category1: 'accessories',
+
     category2: 'hair-accessories',
+    categoryKor1: '액세서리',
+    categoryKor2: '헤어 악세사리',
+
     name: '페이턴트 가죽 헤어 클립',
     price: '₩ 890,000',
     image_url:
@@ -47467,7 +49515,11 @@ export const products = [
     id: '5IF241_069_F0002',
     index: 6,
     category1: 'accessories',
+
     category2: 'hair-accessories',
+    categoryKor1: '액세서리',
+    categoryKor2: '헤어 악세사리',
+
     name: '페이턴트 가죽 헤어 클립',
     price: '₩ 710,000',
     image_url:
@@ -47500,7 +49552,11 @@ export const products = [
     id: '5IF240_069_F0002',
     index: 7,
     category1: 'accessories',
+
     category2: 'hair-accessories',
+    categoryKor1: '액세서리',
+    categoryKor2: '헤어 악세사리',
+
     name: '페이턴트 가죽 헤어 클립',
     price: '₩ 890,000',
     image_url:
@@ -47533,7 +49589,11 @@ export const products = [
     id: '5IF241_069_F0E18',
     index: 8,
     category1: 'accessories',
+
     category2: 'hair-accessories',
+    categoryKor1: '액세서리',
+    categoryKor2: '헤어 악세사리',
+
     name: '페이턴트 가죽 헤어 클립',
     price: '₩ 710,000',
     image_url:
@@ -47566,7 +49626,11 @@ export const products = [
     id: '5IF240_069_F0E18',
     index: 9,
     category1: 'accessories',
+
     category2: 'hair-accessories',
+    categoryKor1: '액세서리',
+    categoryKor2: '헤어 악세사리',
+
     name: '페이턴트 가죽 헤어 클립',
     price: '₩ 890,000',
     image_url:
@@ -47599,7 +49663,11 @@ export const products = [
     id: '5IF241_069_F0230',
     index: 10,
     category1: 'accessories',
+
     category2: 'hair-accessories',
+    categoryKor1: '액세서리',
+    categoryKor2: '헤어 악세사리',
+
     name: '페이턴트 가죽 헤어 클립',
     price: '₩ 710,000',
     image_url:
@@ -47632,7 +49700,11 @@ export const products = [
     id: '5IF241_069_F0032',
     index: 11,
     category1: 'accessories',
+
     category2: 'hair-accessories',
+    categoryKor1: '액세서리',
+    categoryKor2: '헤어 악세사리',
+
     name: '페이턴트 가죽 헤어 클립',
     price: '₩ 710,000',
     image_url:
@@ -47665,7 +49737,11 @@ export const products = [
     id: '5IF242_069_F0230',
     index: 12,
     category1: 'accessories',
+
     category2: 'hair-accessories',
+    categoryKor1: '액세서리',
+    categoryKor2: '헤어 악세사리',
+
     name: '페이턴트 가죽 바렛',
     price: '₩ 660,000',
     image_url:
@@ -47703,7 +49779,11 @@ export const products = [
     id: '5IF242_069_F0E18',
     index: 13,
     category1: 'accessories',
+
     category2: 'hair-accessories',
+    categoryKor1: '액세서리',
+    categoryKor2: '헤어 악세사리',
+
     name: '페이턴트 가죽 바렛',
     price: '₩ 660,000',
     image_url:
@@ -47741,7 +49821,11 @@ export const products = [
     id: '5IF181_068_F0002',
     index: 14,
     category1: 'accessories',
+
     category2: 'hair-accessories',
+    categoryKor1: '액세서리',
+    categoryKor2: '헤어 악세사리',
+
     name: '벨벳 스크런치',
     price: '₩ 550,000',
     image_url:
@@ -47774,7 +49858,11 @@ export const products = [
     id: '5IF092_069_F0236',
     index: 15,
     category1: 'accessories',
+
     category2: 'hair-accessories',
+    categoryKor1: '액세서리',
+    categoryKor2: '헤어 악세사리',
+
     name: '페이턴트 가죽 헤어 클립',
     price: '₩ 610,000',
     image_url:
@@ -47806,7 +49894,11 @@ export const products = [
     id: '5IH025_069_F0NBL',
     index: 16,
     category1: 'accessories',
+
     category2: 'hair-accessories',
+    categoryKor1: '액세서리',
+    categoryKor2: '헤어 악세사리',
+
     name: '페이턴트 가죽 헤드밴드',
     price: '₩ 770,000',
     image_url:
@@ -47849,7 +49941,11 @@ export const products = [
     id: '5IF092_069_F0NBL',
     index: 17,
     category1: 'accessories',
+
     category2: 'hair-accessories',
+    categoryKor1: '액세서리',
+    categoryKor2: '헤어 악세사리',
+
     name: '페이턴트 가죽 헤어 클립',
     price: '₩ 610,000',
     image_url:
@@ -47891,7 +49987,11 @@ export const products = [
     id: '5IH025_069_F0009',
     index: 18,
     category1: 'accessories',
+
     category2: 'hair-accessories',
+    categoryKor1: '액세서리',
+    categoryKor2: '헤어 악세사리',
+
     name: '페이턴트 가죽 헤드밴드',
     price: '₩ 770,000',
     image_url:
@@ -47934,7 +50034,11 @@ export const products = [
     id: '5IF092_069_F0009',
     index: 19,
     category1: 'accessories',
+
     category2: 'hair-accessories',
+    categoryKor1: '액세서리',
+    categoryKor2: '헤어 악세사리',
+
     name: '페이턴트 가죽 헤어 클립',
     price: '₩ 610,000',
     image_url:
@@ -47983,7 +50087,11 @@ export const products = [
     id: '5IH025_069_F0002',
     index: 20,
     category1: 'accessories',
+
     category2: 'hair-accessories',
+    categoryKor1: '액세서리',
+    categoryKor2: '헤어 악세사리',
+
     name: '페이턴트 가죽 헤드밴드',
     price: '₩ 770,000',
     image_url:
@@ -48033,7 +50141,11 @@ export const products = [
     id: '5IF092_069_F0002',
     index: 21,
     category1: 'accessories',
+
     category2: 'hair-accessories',
+    categoryKor1: '액세서리',
+    categoryKor2: '헤어 악세사리',
+
     name: '페이턴트 가죽 헤어 클립',
     price: '₩ 610,000',
     image_url:
@@ -48082,7 +50194,11 @@ export const products = [
     id: '5IF092_069_F0011',
     index: 22,
     category1: 'accessories',
+
     category2: 'hair-accessories',
+    categoryKor1: '액세서리',
+    categoryKor2: '헤어 악세사리',
+
     name: '페이턴트 가죽 헤어 클립',
     price: '₩ 610,000',
     image_url:
@@ -48124,7 +50240,11 @@ export const products = [
     id: '5IF092_068_F0002',
     index: 23,
     category1: 'accessories',
+
     category2: 'hair-accessories',
+    categoryKor1: '액세서리',
+    categoryKor2: '헤어 악세사리',
+
     name: '벨벳 헤어 클립',
     price: '₩ 610,000',
     image_url:
@@ -48167,7 +50287,11 @@ export const products = [
     id: '5IF147_2F6T_F0399',
     index: 24,
     category1: 'accessories',
+
     category2: 'hair-accessories',
+    categoryKor1: '액세서리',
+    categoryKor2: '헤어 악세사리',
+
     name: '에나멜 메탈 헤어 클립',
     price: '₩ 500,000',
     image_url:
@@ -48203,7 +50327,11 @@ export const products = [
     id: '5IF147_2F6T_F0009',
     index: 1,
     category1: 'accessories',
+
     category2: 'hair-accessories',
+    categoryKor1: '액세서리',
+    categoryKor2: '헤어 악세사리',
+
     name: '에나멜 메탈 헤어 클립',
     price: '₩ 500,000',
     image_url:
@@ -48253,7 +50381,11 @@ export const products = [
     id: '5IF147_2F6T_F0011',
     index: 2,
     category1: 'accessories',
+
     category2: 'hair-accessories',
+    categoryKor1: '액세서리',
+    categoryKor2: '헤어 악세사리',
+
     name: '에나멜 메탈 헤어 클립',
     price: '₩ 500,000',
     image_url:
@@ -48303,7 +50435,11 @@ export const products = [
     id: '5IF147_2F6T_F0002',
     index: 3,
     category1: 'accessories',
+
     category2: 'hair-accessories',
+    categoryKor1: '액세서리',
+    categoryKor2: '헤어 악세사리',
+
     name: '에나멜 메탈 헤어 클립',
     price: '₩ 500,000',
     image_url:
@@ -48339,7 +50475,11 @@ export const products = [
     id: '5IF147_2F6T_F097W',
     index: 4,
     category1: 'accessories',
+
     category2: 'hair-accessories',
+    categoryKor1: '액세서리',
+    categoryKor2: '헤어 악세사리',
+
     name: '에나멜 메탈 헤어 클립',
     price: '₩ 500,000',
     image_url:
@@ -48375,7 +50515,11 @@ export const products = [
     id: '5IF147_2F6T_F0632',
     index: 5,
     category1: 'accessories',
+
     category2: 'hair-accessories',
+    categoryKor1: '액세서리',
+    categoryKor2: '헤어 악세사리',
+
     name: '에나멜 메탈 헤어 클립',
     price: '₩ 500,000',
     image_url:
@@ -48411,7 +50555,11 @@ export const products = [
     id: '5IF146_2F6T_F0002',
     index: 6,
     category1: 'accessories',
+
     category2: 'hair-accessories',
+    categoryKor1: '액세서리',
+    categoryKor2: '헤어 악세사리',
+
     name: '에나멜 메탈 헤어 클립',
     price: '₩ 500,000',
     image_url:
@@ -48461,7 +50609,11 @@ export const products = [
     id: '5IF146_2F6T_F0009',
     index: 7,
     category1: 'accessories',
+
     category2: 'hair-accessories',
+    categoryKor1: '액세서리',
+    categoryKor2: '헤어 악세사리',
+
     name: '에나멜 메탈 헤어 클립',
     price: '₩ 500,000',
     image_url:
@@ -48504,7 +50656,11 @@ export const products = [
     id: '5IF146_2F6T_F097W',
     index: 8,
     category1: 'accessories',
+
     category2: 'hair-accessories',
+    categoryKor1: '액세서리',
+    categoryKor2: '헤어 악세사리',
+
     name: '에나멜 메탈 헤어 클립',
     price: '₩ 500,000',
     image_url:
@@ -48540,7 +50696,11 @@ export const products = [
     id: '5IF146_2F6T_F0615',
     index: 9,
     category1: 'accessories',
+
     category2: 'hair-accessories',
+    categoryKor1: '액세서리',
+    categoryKor2: '헤어 악세사리',
+
     name: '에나멜 메탈 헤어 클립',
     price: '₩ 500,000',
     image_url:
@@ -48576,7 +50736,11 @@ export const products = [
     id: '5IF146_2F6T_F0632',
     index: 10,
     category1: 'accessories',
+
     category2: 'hair-accessories',
+    categoryKor1: '액세서리',
+    categoryKor2: '헤어 악세사리',
+
     name: '에나멜 메탈 헤어 클립',
     price: '₩ 500,000',
     image_url:
@@ -48612,7 +50776,11 @@ export const products = [
     id: '5IF221_2DTU_F0056',
     index: 11,
     category1: 'accessories',
+
     category2: 'hair-accessories',
+    categoryKor1: '액세서리',
+    categoryKor2: '헤어 악세사리',
+
     name: '메탈 헤어 클립',
     price: '₩ 820,000',
     image_url:
@@ -48648,7 +50816,11 @@ export const products = [
     id: '5IF222_2DTU_F0056',
     index: 12,
     category1: 'accessories',
+
     category2: 'hair-accessories',
+    categoryKor1: '액세서리',
+    categoryKor2: '헤어 악세사리',
+
     name: '메탈 헤어 클립',
     price: '₩ 730,000',
     image_url:
@@ -48684,7 +50856,11 @@ export const products = [
     id: '5IF219_2DTU_F0056',
     index: 13,
     category1: 'accessories',
+
     category2: 'hair-accessories',
+    categoryKor1: '액세서리',
+    categoryKor2: '헤어 악세사리',
+
     name: '로고 장식 스몰 클로 클립',
     price: '₩ 690,000',
     image_url:
@@ -48719,7 +50895,11 @@ export const products = [
     id: '5IF173_2F6T_F0615',
     index: 14,
     category1: 'accessories',
+
     category2: 'hair-accessories',
+    categoryKor1: '액세서리',
+    categoryKor2: '헤어 악세사리',
+
     name: '에나멜 메탈 헤어 클립',
     price: '₩ 670,000',
     image_url:
@@ -48759,7 +50939,11 @@ export const products = [
     id: '5IF173_2F6T_F0002',
     index: 15,
     category1: 'accessories',
+
     category2: 'hair-accessories',
+    categoryKor1: '액세서리',
+    categoryKor2: '헤어 악세사리',
+
     name: '에나멜 메탈 헤어 클립',
     price: '₩ 670,000',
     image_url:
@@ -48799,7 +50983,11 @@ export const products = [
     id: '5IF173_2F6T_F0009',
     index: 16,
     category1: 'accessories',
+
     category2: 'hair-accessories',
+    categoryKor1: '액세서리',
+    categoryKor2: '헤어 악세사리',
+
     name: '에나멜 메탈 헤어 클립',
     price: '₩ 670,000',
     image_url:
@@ -48839,7 +51027,11 @@ export const products = [
     id: '5IH025_069_F0011',
     index: 17,
     category1: 'accessories',
+
     category2: 'hair-accessories',
+    categoryKor1: '액세서리',
+    categoryKor2: '헤어 악세사리',
+
     name: '페이턴트 가죽 헤드밴드',
     price: '₩ 770,000',
     image_url:
