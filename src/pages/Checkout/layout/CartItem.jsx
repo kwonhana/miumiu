@@ -1,6 +1,5 @@
 import React from 'react';
 import '../scss/CartItem.scss';
-import Button from '../../../component/layout/Button';
 
 const CartItem = () => {
   return (
