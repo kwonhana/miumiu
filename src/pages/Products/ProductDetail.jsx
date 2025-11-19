@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Button from '../../component/layout/Button';
 import './scss/ProductDetail.scss';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import { useProductsStore } from '../../store/useProductsStore';
 import ProductSkeleton from './layout/ProductSkeleton';
 import ProductDetailNav from './layout/ProductDetailNav';
@@ -40,11 +40,12 @@ const ProductDetail = () => {
   //TODO 연관 상품 4개 추출
   useEffect(() => {
     if (product) {
-      const related = items
-        .filter((item) => item.id !== product.id && item.category2 === product.category2)
-        .slice(0, 4);
+      const related = items.filter(
+        (item) => item.id !== product.id && item.category2 === product.category2
+      );
+      const shuffled = [...related].sort(() => 0.5 - Math.random());
 
-      setRelatedProducts(related);
+      setRelatedProducts(shuffled.slice(0, 4));
     }
   }, [product, items]);
 
@@ -151,12 +152,22 @@ const ProductDetail = () => {
       </section>
       <section className="RelatedProducts">
         <h3>관련 제품</h3>
-        <div className="products-wrap">
-          {relatedProducts.map((item) => {
-            // return
-            // 상품 추가해주시면 됩니다.
-          })}
-        </div>
+        <ul className="products-wrap">
+          {relatedProducts.map((item) => (
+            <li key={item.id}>
+              <Link to={`/product/${item.id}`}>
+                <img
+                  src={
+                    item.local_detail_images?.[0]
+                      ? `/assets/images/detail/${item.local_detail_images[0]}`
+                      : '/assets/images/default-product-image.png'
+                  }
+                  alt={item.name}
+                />
+              </Link>
+            </li>
+          ))}
+        </ul>
       </section>
     </>
   );

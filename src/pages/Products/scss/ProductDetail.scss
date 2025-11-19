@@ -136,4 +136,13 @@
   @include pd.font(2.2rem, 500, pd.$base);
   text-align: center;
   margin-bottom: 24px;
+  .products-wrap {
+    display: flex;
+    gap: 0.4rem;
+    list-style: none;
+    img {
+      width: 47.7rem;
+      aspect-ratio: 1/1;
+    }
+  }
 }

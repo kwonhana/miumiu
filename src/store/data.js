@@ -100,6 +100,16 @@ export const jewels = [
   { alt: '이어링', alt2: 'earrings', src: '/assets/images/lnb/jewel-earing.jpg' },
 ];
 
+//TODO LnbAcc.jsx 데이터
+export const accessories = [
+  { alt: '아이웨어', alt2: 'eyewear' },
+  { alt: '파우치', alt2: 'pouches' },
+  { alt: '모자', alt2: 'hats' },
+  { alt: '스카프와 장갑', alt2: 'scarves-and-gloves' },
+  { alt: '헤어 액세서리', alt2: 'hair-accessories' },
+  { alt: '벨트', alt2: 'belts' },
+];
+
 // TODO ClubSlider.jsx 데이터
 export const clubCard = [
   {

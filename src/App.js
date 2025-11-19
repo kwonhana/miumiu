@@ -30,6 +30,7 @@ import ProductFilterWrap from './pages/Products/layout/ProductFilterWrap';
 import SearchResult from './pages/Products/SearchResult';
 import Category1 from './pages/Products/Category1';
 import Category2 from './pages/Products/Category2';
+import ScrollToTop from './ScrollToTop';
 
 function App() {
   const { onFetchItems, onMakeMenu } = useProductsStore();
@@ -40,6 +41,7 @@ function App() {
   return (
     <>
       <Header />
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         {/* auth */}

@@ -1,7 +1,9 @@
 import { Link } from 'react-router-dom';
 import LnbBags from './LnbBags';
 import Lnbshoes from './Lnbshoes';
-import LnbWalletJewel from './LnbWalletJewel';
+import LnbWallet from './LnbWallet';
+import LnbAcc from './LnbAcc';
+import LnbJewellery from './LnbJewellery';
 import { useState } from 'react';
 import './../scss/lnb.scss';
 
@@ -22,21 +24,37 @@ const Lnb = ({ isOpen }) => {
           <Link
             onClick={() => setActiveMenu('shoes')}
             className={activeMenu === 'shoes' ? 'active' : ''}>
-            슈즈
+            신발
+          </Link>
+        </li>
+        <li>
+          <Link
+            onClick={() => setActiveMenu('acc')}
+            className={activeMenu === 'acc' ? 'active' : ''}>
+            엑세서리
           </Link>
         </li>
         <li>
           <Link
             onClick={() => setActiveMenu('wallet')}
             className={activeMenu === 'wallet' ? 'active' : ''}>
-            지갑&패션주얼리
+            지갑
+          </Link>
+        </li>
+        <li>
+          <Link
+            onClick={() => setActiveMenu('jewellery')}
+            className={activeMenu === 'jewellery' ? 'active' : ''}>
+            패션 주얼리
           </Link>
         </li>
       </ul>
       <div className="lnb-list">
         <LnbBags isActive={activeMenu === 'bags'} />
         <Lnbshoes isActive={activeMenu === 'shoes'} />
-        <LnbWalletJewel isActive={activeMenu === 'wallet'} />
+        <LnbAcc isActive={activeMenu === 'acc'} />
+        <LnbWallet isActive={activeMenu === 'wallet'} />
+        <LnbJewellery isActive={activeMenu === 'jewellery'} />
       </div>
     </nav>
   );
