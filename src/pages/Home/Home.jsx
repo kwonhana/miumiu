@@ -8,7 +8,7 @@ import SeasonCollection from './layout/SeasonCollection';
 import './scss/home.scss';
 import CousLet from './layout/CouLet';
 import MiuClub from './layout/MiuClub';
-import SpeclalCo from './layout/SpeclalCo';
+import SpecialCo from './layout/SpecialCo';
 
 const Home = () => {
   return (
@@ -24,7 +24,7 @@ const Home = () => {
       </div>
       <LineBanner />
       <SeasonCollection />
-      <SpeclalCo />
+      <SpecialCo />
       <MiuClub />
       <CousLet />
     </main>

@@ -1,6 +1,6 @@
 @use '../../../App.scss' as main;
 
-.speclalCol-wrap {
+.specialCo-wrap {
   .inner {
     padding: 100px 0;
     h2 {
@@ -9,10 +9,10 @@
       line-height: 44px;
       text-align: center;
     }
-    .speclal-item {
+    .special-item {
       padding-top: 60px;
       @include main.flex(center, center, 24px);
-      .speclal-item-box {
+      .special-item-box {
         aspect-ratio: 708/708;
         width: 100%;
         background-repeat: no-repeat;

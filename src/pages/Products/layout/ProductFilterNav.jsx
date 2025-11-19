@@ -1,9 +1,9 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import '../scss/ProductFilterWrap.scss';
+import { Link } from 'react-router-dom';
 import Button from '../../../component/layout/Button';
 
-const ProductFilterlNav = ({ list }) => {
+const ProductFilterNav = ({ list }) => {
   const cateKor = Array.from(new Set(list.map((el) => el.categoryKor2)));
   const cate = Array.from(new Set(list.map((el) => el.category1)));
   const cate2 = Array.from(new Set(list.map((el) => el.category2)));
@@ -53,4 +53,4 @@ const ProductFilterlNav = ({ list }) => {
   );
 };
 
-export default ProductFilterlNav;
+export default ProductFilterNav;

@@ -1,6 +1,6 @@
 import React from 'react';
 import '../scss/club.scss';
-import CulbSlider from './ClubSlider';
+import ClubSlider from './ClubSlider';
 
 const MiuClub = () => {
   return (
@@ -17,7 +17,7 @@ const MiuClub = () => {
             jewellery Collections
           </p>
         </div>
-        <CulbSlider />
+        <ClubSlider />
       </div>
     </section>
   );

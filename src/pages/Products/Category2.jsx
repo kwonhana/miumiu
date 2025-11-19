@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import ProductBanner from './layout/ProductBanner';
-import ProductFilterlNav from './layout/ProductFilterlNav';
+import ProductFilterNav from './layout/ProductFilterNav';
 import { useParams } from 'react-router-dom';
 import { useProductsStore } from '../../store/useProductsStore';
 import ProductList from './layout/ProductList';
@@ -26,13 +26,13 @@ const Category2 = () => {
   }, [category1, category2, tags, onFetchItems, onCateOnly, onCateTag, onCate1]);
 
   console.log('필터링 아이템', filtered);
-  let filtercategory1 = Array.from(new Set(filtered.map((el) => el.categoryKor1)));
-  console.log(filtercategory1);
+  let filterCategory1 = Array.from(new Set(filtered.map((el) => el.categoryKor1)));
+  console.log(filterCategory1);
 
   return (
     <div className="Category2">
-      <ProductBanner bannerTitle={category1} korTtle={filtercategory1} />
-      <ProductFilterlNav list={filtered} />
+      <ProductBanner bannerTitle={category1} korTitle={filterCategory1} />
+      <ProductFilterNav list={filtered} />
 
       <ProductList />
     </div>

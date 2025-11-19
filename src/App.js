@@ -46,14 +46,14 @@ function App() {
         <Route path="login" element={<Login />} />
         <Route path="join" element={<Join />} />
         <Route path="mypage" element={<Mypage />} />
-        <Route path="oauthredirect" element={<OAuthRedirect />} />
-        <Route path="resetid" element={<ResetID />} />
+        <Route path="OAuthRedirect" element={<OAuthRedirect />} />
+        <Route path="resetId" element={<ResetID />} />
         <Route path="resetpassword" element={<ResetPassword />} />
-        <Route path="verifyemail" element={<VerifyEmail />} />
+        <Route path="verifyEmail" element={<VerifyEmail />} />
         <Route path="cart" element={<Cart />} />
         <Route path="coupon" element={<Coupon />} />
         <Route path="orderComplete" element={<OrderComplete />} />
-        <Route path="ordersummary" element={<OrderSummary />} />
+        <Route path="orderSummary" element={<OrderSummary />} />
         <Route path="payment" element={<Payment />} />
         <Route path="shipping" element={<Shipping />} />
         <Route path="searchResult" element={<SearchResult />} />

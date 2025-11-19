@@ -26,8 +26,8 @@ const SwiperSlider = ({ item, direction, perView, speed, delay, center }) => {
           return (
             <SwiperSlide>
               <Link>
-              <img src={`${el.imgUrl}`} alt="" />
-              <div className={el.title ? 'title' : 'hidden'}></div>
+                <img src={`${el.imgUrl}`} alt="" />
+                <div className={el.title ? 'title' : 'hidden'}></div>
               </Link>
             </SwiperSlide>
           );

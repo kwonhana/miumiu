@@ -236,7 +236,7 @@ export const newItemTitle = [
 ];
 
 // TODO SpecialCo.jsx 데이터
-export const speclal = [
+export const special = [
   { title1: 'MIU MIU', title2: 'CUSTOM STUDIO', imgUrl: 'Custom' },
   { title1: 'MIU CLOSET', imgUrl: 'Closet' },
 ];

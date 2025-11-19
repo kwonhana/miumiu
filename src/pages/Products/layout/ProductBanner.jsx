@@ -1,10 +1,10 @@
 import React from 'react';
 import '../scss/ProductBanner.scss';
 
-const ProductBanner = ({ korTtle, bannerTitle }) => {
+const ProductBanner = ({ korTitle, bannerTitle }) => {
   return (
     <section className="ProductBanner">
-      <span>{korTtle}</span>
+      <span>{korTitle}</span>
       <h2>Miu Miu {bannerTitle}</h2>
     </section>
   );

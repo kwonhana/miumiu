@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Button from '../../../component/layout/Button';
-import '../scss/ProductlNav.scss';
+import '../scss/ProductNav.scss';
 
 const ProductDetailNav = () => {
   return (

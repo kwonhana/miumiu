@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { clubCard, clubCard2 } from '../../../store/data';
 
-const CulbSlider = () => {
+const ClubSlider = () => {
   const [Scard, setScard] = useState(false);
   return (
     <div
@@ -44,4 +44,4 @@ const CulbSlider = () => {
   );
 };
 
-export default CulbSlider;
+export default ClubSlider;

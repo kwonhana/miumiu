@@ -32,17 +32,12 @@ const Main = () => {
       {randomItems.map((el, index) => {
         return (
           <div
-            className={`poto-box`}
+            className={`photo-box`}
             key={index}
-            style={{ backgroundImage: `url(/assets/images/static/intro/${el.data})` }}>
-            {/* <strong >Miu Miu Automne</strong> */}
-          </div>
+            style={{ backgroundImage: `url(/assets/images/static/intro/${el.data})` }}></div>
         );
       })}
       ;
-      {/* <div className={`logo-wrapper`}>
-        <Logo />
-      </div> */}
     </div>
   );
 };
