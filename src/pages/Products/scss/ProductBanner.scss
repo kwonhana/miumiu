@@ -2,6 +2,8 @@
 
 .ProductBanner {
   width: 100%;
+  max-width: 2400px;
+
   aspect-ratio: 1920/700;
   background: url('../../../../public/assets/images/static/product/ProductBanner.png');
   background-repeat: no-repeat;
