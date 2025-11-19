@@ -30,9 +30,9 @@ const LnbJewellery = ({ isActive }) => {
           </div>
           <ul className="lnb-img">
             <li>
-              <Link>
+              <div>
                 <img src="/assets/images/lnb/jewel.jpg" alt="jewel" />
-              </Link>
+              </div>
             </li>
           </ul>
         </div>

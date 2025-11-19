@@ -2,6 +2,7 @@ import React from 'react';
 import '../scss/Cart.scss';
 import CartItem from '../layout/CartItem';
 import Button from '../../../component/layout/Button';
+import CartTotalPrice from '../layout/CartTotalPrice';
 
 const Cart = () => {
   return (
@@ -18,6 +19,7 @@ const Cart = () => {
           <CartItem />
         </div>
       </div>
+      <CartTotalPrice />
     </section>
   );
 };

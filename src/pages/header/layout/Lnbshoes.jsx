@@ -30,9 +30,9 @@ const Lnbshoes = ({ isActive }) => {
           </div>
           <ul className="lnb-img">
             <li>
-              <Link>
+              <div>
                 <img src="/assets/images/lnb/shoes-list.jpg" alt="bag" />
-              </Link>
+              </div>
             </li>
           </ul>
         </div>

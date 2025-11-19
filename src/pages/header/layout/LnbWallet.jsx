@@ -30,9 +30,9 @@ const LnbWallet = ({ isActive }) => {
           </div>
           <ul className="lnb-img">
             <li>
-              <Link>
+              <div>
                 <img src="/assets/images/lnb/wall-list.jpg" alt="bag" />
-              </Link>
+              </div>
             </li>
           </ul>
         </div>

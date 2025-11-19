@@ -2,13 +2,15 @@
 
 .lnb-inner {
   display: flex;
-  gap: 38.4rem;
+  justify-content: space-between;
+  align-items: stretch;
 
   .hi {
     gap: 10rem;
   }
 
   .lnb-left {
+    width: 33%;
     display: flex;
     .lnb-menus {
       @include header.fontStyle;
@@ -22,43 +24,48 @@
     }
   }
   .lnb-right {
+    width: 48%;
     display: flex;
     .lnb-menus {
       @include header.fontStyle;
     }
     .lnb-imgs {
       display: flex;
-      gap: 2.4rem;
-      p {
-        display: none;
-        font-size: 1.6rem;
-        font-weight: 500;
-      }
+      justify-content: end;
+      gap: 1.6%;
+
       li {
         position: relative;
-        width: 20rem;
+        width: 23%;
+        aspect-ratio: 200/257;
+        overflow: hidden;
         img {
-          aspect-ratio: 200/257;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
         }
-      }
-      &::before {
-        content: attr(data-alt);
-        visibility: hidden;
-        opacity: 0;
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%);
-        font-size: 1.6rem;
-        font-weight: 500;
-        color: #fff;
-        z-index: 10;
-      }
-      &:hover {
-        &::before {
-          visibility: visible;
-          opacity: 1;
-        }
+
+        // &::before {
+        //   content: attr(data-alt);
+        //   visibility: hidden;
+        //   opacity: 0;
+        //   position: absolute;
+        //   left: 0%;
+        //   top: 0%;
+        //   font-size: 1.6rem;
+        //   font-weight: 500;
+        //   color: #fff;
+        //   z-index: 10;
+        //   width: 100%;
+        //   height: 100%;
+        //   background-color: red;
+        // }
+        // &:hover {
+        //   &::before {
+        //     visibility: visible;
+        //     opacity: 1;
+        //   }
+        // }
       }
     }
   }
