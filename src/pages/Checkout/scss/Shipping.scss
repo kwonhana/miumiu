@@ -1,0 +1,154 @@
+@use '../../../App.scss' as sh;
+
+h4 {
+  @include sh.font(1.8rem, 600, sh.$base);
+}
+
+p {
+  padding-bottom: 8px;
+}
+
+option {
+  @include sh.font(1.4rem, 400, sh.$text-333);
+  padding: 0 20px;
+}
+
+.Shipping-wrap {
+  width: 100%;
+  padding: 40px 60px;
+  margin-top: 80px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+
+  p {
+    @include sh.font(2.2rem, 500, sh.$base);
+  }
+  ul {
+    display: flex;
+    li:first-child {
+      @include sh.font(1.8rem, 500, sh.$base);
+    }
+    li:nth-child(2),
+    li:last-child {
+      @include sh.font(1.8rem, 500, sh.$text-bbb);
+    }
+  }
+}
+
+.tab-menu {
+  display: flex;
+  button {
+    @include sh.font(1.6rem, 400, sh.$text-888);
+    width: 50%;
+    padding: 20px 16px;
+    text-align: center;
+    background-color: #e4e4e4;
+  }
+  .active {
+    background: #fff;
+    color: sh.$base;
+  }
+}
+
+.input-right {
+  padding: 40px;
+
+  .user-email {
+    h4 {
+      padding-bottom: 30px;
+    }
+    > span {
+      @include sh.font(1.4rem, 400, sh.$text-333);
+    }
+  }
+
+  .letter-check {
+    margin-top: 30px;
+    input {
+      border-radius: 2px;
+      border: 1px solid #ccc;
+    }
+    span {
+      @include sh.font(1.4rem, 400, sh.$base);
+    }
+  }
+
+  .user-address {
+    margin: 80px 0;
+    h4 {
+      padding-bottom: 30px;
+    }
+
+    p {
+      @include sh.font(1.2rem, 400, sh.$base);
+    }
+
+    .base-input {
+      margin-bottom: 30px;
+    }
+
+    .name-wrap {
+      .input-box {
+        width: 50%;
+      }
+    }
+
+    .city-post {
+      display: flex;
+      gap: 12px;
+
+      div {
+        width: 50%;
+      }
+
+      select {
+        @include sh.font(1.4rem, 400, sh.$text-bbb);
+        width: 100%;
+        padding: 16px;
+        border: 0.5px, solid sh.$line;
+        border-radius: 4px;
+      }
+    }
+
+    .country-phon {
+      display: flex;
+      div {
+        width: 50%;
+      }
+
+      .country {
+        @include sh.font(1.4rem, 400, sh.$text-666);
+        input {
+          border-radius: 4px;
+          border: 0.5px solid sh.$line;
+          padding: 16px;
+          background-color: sh.$line-f4;
+        }
+      }
+
+      .select-num {
+        display: flex;
+        width: 100%;
+
+        select {
+          @include sh.font(1.4rem, 400, sh.$base);
+          padding: 16px 0 16px 16px;
+          border-top-left-radius: 4px;
+          border-bottom-left-radius: 4px;
+          border: 0.5px solid sh.$line;
+          border-right: none;
+        }
+
+        input {
+          border-top-right-radius: 4px;
+          border-bottom-right-radius: 4px;
+          border-left: none;
+        }
+      }
+    }
+  }
+}
