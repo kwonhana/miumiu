@@ -84,7 +84,8 @@ export const items = [
   { title: '여성 핸드백', imgUrl: 'bags' },
   { title: '여성 구두', imgUrl: 'shoes' },
   { title: '지갑 & 카드홀더', imgUrl: 'wallets' },
-  { title: '악세사리', imgUrl: 'jewellery' },
+  { title: '악세사리', imgUrl: 'accessories' },
+  { title: '주얼리', imgUrl: 'jewellery' },
 ];
 
 // TODO LnbWalletJewel.jsx 데이터

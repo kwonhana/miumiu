@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useProductsStore } from '../../store/useProductsStore';
 import { useParams } from 'react-router-dom';
 import ProductBanner from './layout/ProductBanner';
@@ -9,6 +9,7 @@ import ProductList from './layout/ProductList';
 const Category1 = () => {
   const { category1, category2, tags } = useParams();
   const { filtered, onFetchItems, onCateOnly, onCateTag, onCate1 } = useProductsStore();
+  // const { cateImg, setCateImg } = useState('');
 
   useEffect(() => {
     onFetchItems();

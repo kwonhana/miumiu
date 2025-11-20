@@ -10,6 +10,7 @@
     min-height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     @include main.flex(center, center, 0);
 
     strong {

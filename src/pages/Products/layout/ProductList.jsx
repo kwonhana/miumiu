@@ -2,10 +2,10 @@ import React, { useEffect } from 'react';
 import { Link, useParams, useSearchParams } from 'react-router-dom';
 import { useProductsStore } from '../../../store/useProductsStore';
 import '../scss/ProductList.scss';
+import AdProduct from './AdProduct';
 
 const ProductList = () => {
   const { category1, category2, tags } = useParams();
-
   const { filtered, onFetchItems, onCateOnly, onCateTag, onCate1 } = useProductsStore();
 
   useEffect(() => {
@@ -24,6 +24,7 @@ const ProductList = () => {
     }
   }, [category1, category2, tags]);
   console.log('상품이미지?', filtered);
+  const showAd = category1 && category2;
 
   return (
     <ul className="product-list">
@@ -45,13 +46,8 @@ const ProductList = () => {
               </div>
             </Link>
           </li>
-
-          {[3].includes(index) && (
-            <>
-              <div className="banner1">베너11</div>
-              <div className="banner2">베너22</div>
-            </>
-          )}
+          {!showAd && index === 6 && <AdProduct startIndex={0} />} {/* banner1, 2 */}
+          {!showAd && index === 18 && <AdProduct startIndex={2} />} {/* banner3, 4 */}
         </React.Fragment>
       ))}
     </ul>
