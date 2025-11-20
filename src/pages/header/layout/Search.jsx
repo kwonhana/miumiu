@@ -3,18 +3,22 @@ import { useSearchState } from '../../../store/useSearchState';
 import { useNavigate } from 'react-router-dom';
 import { products } from '../../../api/products';
 import '../scss/search.scss';
+import { useProductsStore } from '../../../store/useProductsStore';
 
-const Search = ({ isOpen }) => {
+const Search = ({ isOpen, onClose }) => {
   const navigate = useNavigate();
   const { searchWord, setSearchWord, lastSearch, addLastSearch, clearSearchWord, onSearchDelete } =
     useSearchState();
   const [showNoResult, setShowNoResult] = useState(false);
   const [failedSearchWord, setFailedSearchWord] = useState('');
+  const { items, onFetchItems } = useProductsStore();
 
+  // TODO 최근 검색어 목록에 단어 추가
   const executeSearch = (word) => {
     addLastSearch(word);
   };
-  // 검색어와 일치하는게 있는지 확인하는 함수
+
+  // TODO 검색어와 일치하는 상품이 있는지 확인하는 함수
   const checkSearchResults = (word) => {
     const query = word.toLowerCase().trim();
     const results = products.filter((product) => {
@@ -34,33 +38,47 @@ const Search = ({ isOpen }) => {
     });
     return results.length > 0;
   };
+
+  // TODO  검색 성공/실패에 따라 UI 및 페이지 이동 처리
   const performSearch = (word) => {
     if (!word || word.trim() === '') return;
     const trimmedWord = word.trim();
     const hasResults = checkSearchResults(trimmedWord);
+    // TODO  검색 성공 시:
     if (hasResults) {
       executeSearch(trimmedWord);
       clearSearchWord();
       setShowNoResult(false);
       navigate(`/searchResult?q=${encodeURIComponent(trimmedWord)}`);
-    } else {
+
+      if (onClose) {
+        onClose();
+      }
+    }
+
+    // TODO 검색 실패 시:
+    else {
       setFailedSearchWord(trimmedWord);
       setShowNoResult(true);
       clearSearchWord();
     }
   };
 
+  // TODO 검색 Enter 키 입력 처리
   const handleSearch = (e) => {
     if (e.key === 'Enter' && searchWord.trim() !== '') {
       performSearch(searchWord);
     }
   };
+
+  // TODO 검색 버튼 클릭 처리
   const handleSearchClick = () => {
     if (searchWord.trim() !== '') {
       performSearch(searchWord);
     }
   };
 
+  // TODO 입력 값 변경 처리
   const handleInputChange = (e) => {
     setSearchWord(e.target.value);
     if (showNoResult) {

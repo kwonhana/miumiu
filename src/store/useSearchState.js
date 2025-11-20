@@ -75,7 +75,10 @@ export const useSearchState = create((set, get) => ({
   onSearchDelete: (id) => {
     const { lastSearch } = get();
     const updated = lastSearch.filter((word) => word.id !== id);
-    set({ lastSearch: updated });
+    set(() => {
+      saveLastSearch(updated);
+      return { lastSearch: updated };
+    });
   },
   setCurrentSearchQuery: (query) => set({ currentSearchQuery: query }),
 }));

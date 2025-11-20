@@ -92,7 +92,7 @@ const Header = () => {
         </div>
       </div>
       <Lnb isOpen={lnbOpen} onClose={closeAll} />
-      <Search isOpen={searchOpen} />
+      <Search isOpen={searchOpen} onClose={closeAll} />
     </header>
   );
 };
