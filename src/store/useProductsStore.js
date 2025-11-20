@@ -124,6 +124,8 @@ export const useProductsStore = create((set, get) => ({
 
   // TODO-------- 메뉴 생성 ----------
   menu: [],
+  subMenu: [], // category2만
+  tagMenu: [], // tags만
 
   onMakeMenu: () => {
     const menuList = [];
@@ -136,8 +138,8 @@ export const useProductsStore = create((set, get) => ({
         mainMenu = {
           name: category1,
           link: `/${category1}`,
-          subMenu: [],
-          iconic: [],
+          category2List: [], // category2 메뉴
+          tagList: [], // tag 메뉴
           kor: categoryKorMap[category1] || '',
           tag: tags || '',
           id: id,
@@ -145,14 +147,13 @@ export const useProductsStore = create((set, get) => ({
         menuList.push(mainMenu);
       }
 
-      // TODO---- 서브 메뉴 (category2) ----
+      // TODO---- 서브 메뉴 (category2만) ----
       if (category2) {
-        const hasSubMenu = mainMenu.subMenu.find((s) => s.name === category2);
-        if (!hasSubMenu) {
-          mainMenu.subMenu.push({
+        const hasCate2 = mainMenu.category2List.find((c) => c.name === category2);
+        if (!hasCate2) {
+          mainMenu.category2List.push({
             name: category2,
             link: `/${category1}/${category2}`,
-            tag: tags || '',
             imgUrl:
               Array.isArray(detail_images) && detail_images.length > 0 ? detail_images[0].url : '',
             kor2: categoryKorMap[category2] || '',
@@ -160,11 +161,11 @@ export const useProductsStore = create((set, get) => ({
         }
       }
 
-      // TODO---- 서브 메뉴 (tags) ----
+      // TODO---- 서브 메뉴 (tags만) ----
       if (tags) {
-        const iMenu = mainMenu.subMenu.find((i) => i.name === tags);
-        if (!iMenu) {
-          mainMenu.subMenu.push({
+        const hasTag = mainMenu.tagList.find((t) => t.name === tags);
+        if (!hasTag) {
+          mainMenu.tagList.push({
             name: tags,
             link: `/${category1}/tag/${tags}`,
             iTag: tags2 || '',
@@ -177,5 +178,16 @@ export const useProductsStore = create((set, get) => ({
 
     set({ menu: menuList });
     console.log('Menu list:', menuList);
+  },
+
+  onMakeSubMenu: (category1) => {
+    const menu = get().menu;
+    const mainMenu = menu.find((m) => m.name === category1);
+    const subMenu = mainMenu ? mainMenu.category2List : []; // category2만
+    const tagMenu = mainMenu ? mainMenu.tagList : []; // tags만
+
+    set({ subMenu, tagMenu });
+    console.log('category2 subMenu:', category1, ':', subMenu);
+    console.log('tags tagMenu:', category1, ':', tagMenu);
   },
 }));

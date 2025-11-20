@@ -6,6 +6,7 @@ import { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { useProductsStore } from '../../store/useProductsStore';
 import ProductList from './layout/ProductList';
+import ProductFilterlNav from './layout/ProductFilterlNav';
 
 const Products = () => {
   const { category1, category2, tags } = useParams();
@@ -47,6 +48,7 @@ const Products = () => {
   return (
     <section className="product-page">
       <ProductBanner bannerTitle={categoryName} />
+      <ProductFilterlNav />
       <div className="product-list-wrap">
         <h2>{categoryName}</h2>
         <ProductList />
