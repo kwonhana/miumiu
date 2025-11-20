@@ -33601,8 +33601,8 @@ export const products = [
     categoryKor1: '액세서리',
     categoryKor2: '아이웨어',
 
-    name: '제품 1',
-    price: '가격 없음',
+    name: '미우 리가드 선글라스',
+    price: '610,000',
     image_url: '/content/dam/miumiu/2025/006_e-commerce/10/co_28_10/eyewear/banner_MB.jpg',
     product_url:
       'https://www.miumiu.com/kr/ko/p/%EB%AF%B8%EC%9A%B0-%EB%A6%AC%EA%B0%80%EB%93%9C-%EC%84%A0%EA%B8%80%EB%9D%BC%EC%8A%A4/SMUB01_E26E_FE10R_C_A058',

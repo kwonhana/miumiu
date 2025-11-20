@@ -1,60 +1,45 @@
 import { Link } from 'react-router-dom';
-import LnbBags from './LnbBags';
-import Lnbshoes from './Lnbshoes';
-import LnbWallet from './LnbWallet';
-import LnbAcc from './LnbAcc';
-import LnbJewellery from './LnbJewellery';
-import { useState } from 'react';
 import './../scss/lnb.scss';
+import { useHeaderStore } from '../../../store/useHeaderStore';
+import LnbSubMenu from './LnbSubMenu';
 
-const Lnb = ({ isOpen }) => {
-  const [activeMenu, setActiveMenu] = useState('bags');
+const Lnb = ({ isOpen, onClose }) => {
+  const activeMenu = useHeaderStore((state) => state.activeMenu);
+  const setActiveMenu = useHeaderStore((state) => state.setActiveMenu);
+  const menuKeys = Object.keys(useHeaderStore.getState().menuData);
+
+  const handleClose = () => {
+    if (onClose) {
+      onClose();
+    }
+  };
+
   return (
     <nav className={`lnb-wrap ${isOpen ? 'active' : ''}`}>
       <div className="headerBlock"></div>
       <ul className="lnb-title">
-        <li>
-          <Link
-            onClick={() => setActiveMenu('bags')}
-            className={activeMenu === 'bags' ? 'active' : ''}>
-            가방
-          </Link>
-        </li>
-        <li>
-          <Link
-            onClick={() => setActiveMenu('shoes')}
-            className={activeMenu === 'shoes' ? 'active' : ''}>
-            신발
-          </Link>
-        </li>
-        <li>
-          <Link
-            onClick={() => setActiveMenu('acc')}
-            className={activeMenu === 'acc' ? 'active' : ''}>
-            엑세서리
-          </Link>
-        </li>
-        <li>
-          <Link
-            onClick={() => setActiveMenu('wallet')}
-            className={activeMenu === 'wallet' ? 'active' : ''}>
-            지갑
-          </Link>
-        </li>
-        <li>
-          <Link
-            onClick={() => setActiveMenu('jewellery')}
-            className={activeMenu === 'jewellery' ? 'active' : ''}>
-            패션 주얼리
-          </Link>
-        </li>
+        {menuKeys.map((key) => {
+          const menuTitle = useHeaderStore.getState().menuData[key].title;
+          return (
+            <li key={key}>
+              <Link
+                onClick={() => setActiveMenu(key)}
+                className={activeMenu === key ? 'active' : ''}>
+                {menuTitle}
+              </Link>
+            </li>
+          );
+        })}
       </ul>
       <div className="lnb-list">
-        <LnbBags isActive={activeMenu === 'bags'} />
-        <Lnbshoes isActive={activeMenu === 'shoes'} />
-        <LnbAcc isActive={activeMenu === 'acc'} />
-        <LnbWallet isActive={activeMenu === 'wallet'} />
-        <LnbJewellery isActive={activeMenu === 'jewellery'} />
+        {menuKeys.map((key) => (
+          <LnbSubMenu
+            key={key}
+            categoryKey={key} // 🚀 Zustand Store에서 데이터 조회할 키
+            isActive={activeMenu === key} // 🚀 Store에서 가져온 activeMenu 사용
+            onCloseLnb={handleClose}
+          />
+        ))}
       </div>
     </nav>
   );

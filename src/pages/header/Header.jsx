@@ -11,6 +11,7 @@ const Header = () => {
   const [lnbOpen, setLnbOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
   const headerRef = useRef(null);
+
   const closeAll = useCallback(() => {
     setLnbOpen(false);
     setSearchOpen(false);
@@ -90,7 +91,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <Lnb isOpen={lnbOpen} />
+      <Lnb isOpen={lnbOpen} onClose={closeAll} />
       <Search isOpen={searchOpen} />
     </header>
   );
