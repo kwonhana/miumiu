@@ -1,12 +1,8 @@
 import React, { useEffect } from 'react';
-import { Link, useParams, useSearchParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import { useProductsStore } from '../../../store/useProductsStore';
 import '../scss/ProductList.scss';
-<<<<<<< Updated upstream
 import AdProduct from './AdProduct';
-=======
-import '../scss/Products.scss';
->>>>>>> Stashed changes
 
 const ProductList = () => {
   const { category1, category2, tags } = useParams();
