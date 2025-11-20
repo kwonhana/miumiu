@@ -83,7 +83,7 @@ const Header = () => {
               </Link>
             </div>
             <div className="Icon cart">
-              <Link>
+              <Link to={'/cart'}>
                 <img src="/assets/icon/CartIcon.svg" alt="cart" />
               </Link>
             </div>

@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import './scss/Input.scss';
 
-const PhoneInput = () => {
-  const [value, setValue] = useState('');
+const PhoneInput = ({ value, onChange }) => {
   const [inputClass, setInputClass] = useState('');
 
   const handleChange = (e) => {
@@ -17,18 +16,18 @@ const PhoneInput = () => {
       formatted = input.slice(0, 3) + '-' + input.slice(3, 7) + '-' + input.slice(7, 11);
     }
 
-    setValue(formatted);
+    onChange(formatted);
 
     if (input.length === 11) {
       setInputClass('success');
-    } else {
+    } else if (input.length > 0) {
       setInputClass('failure');
+    } else {
+      setInputClass('');
     }
   };
 
   return (
-    // 성공 success
-    // 실패 failure
     <div className={`base-input phone ${inputClass}`}>
       <input
         type="text"

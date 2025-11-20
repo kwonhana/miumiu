@@ -15,7 +15,7 @@ export const useAuthStore = create((set) => ({
       // 로그인한 사람의 정보를 가져오기
       const user = result.user;
       // 그 정보를 데이터 베이스에 저장하기
-      const userDate = doc(db, 'users', user.id);
+      const userDate = doc(db, 'users', user.uid);
       // 이미 회원인지 아닌지 체크하기
       const userDoc = await getDoc(userDate);
 
@@ -35,6 +35,18 @@ export const useAuthStore = create((set) => ({
       // 데이터가 없으면 새로운 정보로 회원가입을 하고, 있으면 정보를 불러오기
     } catch (err) {
       console.error('Firestore 에러:', err.code, err.message);
+      alert(err.message);
+    }
+  },
+  onKakaoLogin: async () => {
+    try {
+      if (!window.Kakao.isInitialized()) {
+        window.Kakao.init('fa3aa9456c5d9a45e896729943eb3f43');
+      }
+      window.Kakao.Auth.authorize({
+        scope: 'profile_nickname,profile_image',
+      });
+    } catch (err) {
       alert(err.message);
     }
   },

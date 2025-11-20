@@ -1,63 +1,73 @@
 import React, { useEffect, useState } from 'react';
 import './scss/nameInput.scss';
 
-//TODO 이름 input
-const NameInput = () => {
-  const [lastName, setLastName] = useState('');
-  const [name, setName] = useState('');
+const NameInput = ({ lastName, name, onLastNameChange, onNameChange }) => {
   const [nameStatus, setNameStatus] = useState('');
   const [lastNameStatus, setLastNameStatus] = useState('');
   const [lastNameTouch, setLastNameTouch] = useState(false);
   const [nameTouch, setNameTouch] = useState(false);
   const koreanRegex = /^[가-힣]*$/;
-  const validateLastName = (e) => {
+
+  const validateLastName = () => {
     if (!lastNameTouch) return;
     if (!lastName) {
       setLastNameStatus('failure');
-      return;
+      return false;
     }
     if (!koreanRegex.test(lastName)) {
       setLastNameStatus('failure');
-      return;
+      return false;
     }
     const LastNameFormetRegex = /^[가-힣]{1,2}$/;
     if (LastNameFormetRegex.test(lastName)) {
       setLastNameStatus('success');
+      return true;
     } else {
       setLastNameStatus('failure');
+      return false;
     }
   };
-  const validateName = (e) => {
-    if (!nameTouch) return;
+
+  const validateName = () => {
+    if (!nameTouch) return false;
     if (!name) {
       setNameStatus('failure');
-      return;
+      return false;
     }
     if (!koreanRegex.test(name)) {
       setNameStatus('failure');
-      return;
+      return false;
     }
     const NameFormetRegex = /^[가-힣]{1,3}$/;
     if (NameFormetRegex.test(name)) {
       setNameStatus('success');
+      return true;
     } else {
       setNameStatus('failure');
+      return false;
     }
   };
+
   const handleLastNameChange = (e) => {
-    const value = e.target.value;
+    const val = e.target.value;
     if (!lastNameTouch) setLastNameTouch(true);
-    if (koreanRegex.test(value) && value.length <= 4) setLastName(value);
+    if (koreanRegex.test(val) && val.length <= 4) {
+      onLastNameChange(val);
+    }
   };
+
   const handleNameChange = (e) => {
-    const value = e.target.value;
+    const val = e.target.value;
     if (!nameTouch) setNameTouch(true);
-    if (koreanRegex.test(value) && value.length <= 5) setName(value);
+    if (koreanRegex.test(val) && val.length <= 5) {
+      onNameChange(val);
+    }
   };
 
   useEffect(() => {
     validateLastName();
   }, [lastName]);
+
   useEffect(() => {
     validateName();
   }, [name]);

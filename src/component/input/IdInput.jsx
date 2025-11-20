@@ -1,36 +1,39 @@
 import React, { useState } from 'react';
 import './scss/Input.scss';
 
-const IdInput = () => {
-  const [userId, setuserId] = useState('');
+const IdInput = ({ value, onChange }) => {
   const [status, setStatus] = useState('');
-  const [idTouch, setIdTouch] = useState('');
+  const [idTouch, setIdTouch] = useState(false);
+
   const validateId = (userId) => {
     if (!userId && idTouch) {
       setStatus('failure');
-      return;
+      return false;
     }
     if (!userId) {
       setStatus('');
-      return;
+      return false;
     }
     const idRegex = /^(?=.*[a-z])(?=.*[0-9])[a-zA-Z0-9]+$/;
     if (idRegex.test(userId)) {
       setStatus('success');
+      return true;
     } else {
       setStatus('failure');
+      return false;
     }
   };
 
   const handleIdChange = (e) => {
-    const value = e.target.value;
-    const filtervalue = value.replace(/[^a-zA-Z0-9]/g, '');
-    setuserId(filtervalue);
+    const val = e.target.value;
+    const filtervalue = val.replace(/[^a-zA-Z0-9]/g, '');
+    onChange(filtervalue);
     validateId(filtervalue);
   };
-  const handleblur = () => {
+
+  const handleBlur = () => {
     setIdTouch(true);
-    validateId(userId);
+    validateId(value);
   };
 
   return (
@@ -39,9 +42,9 @@ const IdInput = () => {
         <input
           type="text"
           placeholder="아이디를 입력해주세요*"
-          value={userId}
+          value={value}
           onChange={handleIdChange}
-          onBlur={handleblur}
+          onBlur={handleBlur}
           required
         />
       </div>
