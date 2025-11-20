@@ -44,5 +44,6 @@ export const useHeaderStore = create((set, get) => ({
       image: '/assets/images/lnb/jewel.jpg',
     },
   },
+
   setActiveMenu: (menuKey) => set({ activeMenu: menuKey }),
 }));

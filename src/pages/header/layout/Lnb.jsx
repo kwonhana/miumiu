@@ -8,6 +8,7 @@ const Lnb = ({ isOpen, onClose }) => {
   const setActiveMenu = useHeaderStore((state) => state.setActiveMenu);
   const menuKeys = Object.keys(useHeaderStore.getState().menuData);
 
+  //TODO LNB 창 닫기
   const handleClose = () => {
     if (onClose) {
       onClose();

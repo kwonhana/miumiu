@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
 import { useProductsStore } from '../../store/useProductsStore';
-import { useSearchState } from '../../api/useSearchState';
+import { useSearchState } from '../../store/useSearchState';
 import './scss/Products.scss';
 
 const SearchResult = () => {

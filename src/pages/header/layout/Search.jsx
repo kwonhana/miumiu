@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useSearchState } from '../../../api/useSearchState';
+import { useSearchState } from '../../../store/useSearchState';
 import { useNavigate } from 'react-router-dom';
 import { products } from '../../../api/products';
 import '../scss/search.scss';
@@ -70,55 +70,63 @@ const Search = ({ isOpen }) => {
 
   return (
     <div className={`search-wrap ${isOpen ? 'active' : ''}`}>
-      <div className="search-box">
-        <input
-          type="text"
-          placeholder="검색어를 입력해주세요."
-          value={searchWord}
-          onChange={handleInputChange}
-          onKeyDown={handleSearch}
-        />
-        <button onClick={handleSearchClick} type="button">
-          <img src="/assets/icon/SearchIconBK.svg" alt="search" />
-        </button>
-      </div>
-      <div className="search-list">
-        {showNoResult ? (
-          <div className="no-result-container">
-            <p className="no-result-text">""{failedSearchWord}""에 대한 검색 결과가 없습니다.</p>
-            <p className="no-result-subtext">
-              다른 단어로 검색하시거나 고객센터로 연락주시기 바랍니다.
-            </p>
+      <div className="background">
+        <div className="container">
+          <div className="box">
+            <div className="search-box">
+              <input
+                type="text"
+                placeholder="검색어를 입력해주세요."
+                value={searchWord}
+                onChange={handleInputChange}
+                onKeyDown={handleSearch}
+              />
+              <button onClick={handleSearchClick} type="button">
+                <img src="/assets/icon/SearchIconBK.svg" alt="search" />
+              </button>
+            </div>
+            <div className="search-list">
+              {showNoResult ? (
+                <div className="no-result-container">
+                  <p className="no-result-text">
+                    ""{failedSearchWord}""에 대한 검색 결과가 없습니다.
+                  </p>
+                  <p className="no-result-subtext">
+                    다른 단어로 검색하시거나 고객센터로 연락주시기 바랍니다.
+                  </p>
+                </div>
+              ) : (
+                <>
+                  <div className="lasted-search">
+                    <p>최근 검색어</p>
+                    <ul className="lasted-list">
+                      {lastSearch.length === 0 ? (
+                        <li className="empty">최근 검색어가 없습니다.</li>
+                      ) : (
+                        lastSearch.map((item) => (
+                          <li className="search-item" key={item.id}>
+                            <span onClick={() => performSearch(item.word)}>{item.word}</span>
+                            <button
+                              onClick={() => {
+                                onSearchDelete(item.id);
+                              }}>
+                              <img src="/assets/icon/search-remove.svg" />
+                            </button>
+                          </li>
+                        ))
+                      )}
+                    </ul>
+                  </div>
+                  <div className="divider"></div>
+                  <div className="recommend-search">
+                    <p>추천 검색어</p>
+                    <div className="recommend-list"></div>
+                  </div>
+                </>
+              )}
+            </div>
           </div>
-        ) : (
-          <>
-            <div className="lasted-search">
-              <p>최근 검색어</p>
-              <ul className="lasted-list">
-                {lastSearch.length === 0 ? (
-                  <li className="empty">최근 검색어가 없습니다.</li>
-                ) : (
-                  lastSearch.map((item) => (
-                    <li key={item.id}>
-                      <span onClick={() => performSearch(item.word)}>{item.word}</span>
-                      <button
-                        onClick={() => {
-                          onSearchDelete(item.id);
-                        }}>
-                        <img src="/assets/icon/search-remove.svg" />
-                      </button>
-                    </li>
-                  ))
-                )}
-              </ul>
-            </div>
-            <div className="divider"></div>
-            <div className="recommend-search">
-              <p>추천 검색어</p>
-              <div className="recommend-list"></div>
-            </div>
-          </>
-        )}
+        </div>
       </div>
     </div>
   );

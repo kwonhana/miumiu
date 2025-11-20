@@ -14,6 +14,7 @@ const LnbSubMenu = ({ categoryKey, isActive, onCloseLnb }) => {
 
   const allItems = useProductsStore((state) => state.items);
 
+  //TODO  LNB 랜덤 사진 가지고 오는 코드;
   const randomItems = useMemo(() => {
     if (allItems.length === 0) return [];
     const filteredItems = allItems.filter((item) => item.category1 === categoryKey);
@@ -22,12 +23,12 @@ const LnbSubMenu = ({ categoryKey, isActive, onCloseLnb }) => {
     return shuffled.slice(0, 4);
   });
 
+  //TODO  LNB 카테고리 대표 사진 가지고 오는 코드;
   const getItemImageSrc = (item) => {
     const images = item.local_detail_images;
     if (images && images.length > 0) {
       return `/assets/images/detail/${images[0]}`;
     }
-    // LnbBags나 LnbJewellery에서 사용하던 기본 이미지가 있다면 대체
     return '/assets/images/default-product-image.png';
   };
 

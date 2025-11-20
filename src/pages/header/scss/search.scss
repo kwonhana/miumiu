@@ -10,6 +10,7 @@
   height: 46rem;
   margin: 0 auto;
   z-index: 10;
+
   &::before {
     content: '';
     position: absolute;
@@ -23,93 +24,114 @@
   &.active {
     visibility: visible;
   }
-  .search-box {
-    position: relative;
 
-    input {
-      position: absolute;
-      top: 6rem;
-      left: 50%;
-      transform: translatex(-50%);
-      width: 92rem;
-      height: 4.6rem;
-      background-color: #fff;
-      font-size: 2rem;
-      border-bottom: 2px solid #000;
-    }
-    img {
-      position: absolute;
-      top: 6rem;
-      right: calc(50% - 46rem + 1rem);
-      width: 2.4rem;
-      height: 2.4rem;
-    }
-  }
-  .search-list {
-    background-color: #fff;
+  .background {
+    width: 100vw;
+    height: 100vh;
     position: absolute;
-    display: flex;
-    top: 14.6rem;
-    left: 50%;
-    transform: translateX(-50%);
-    justify-content: space-between;
+    top: 0;
+    right: 0;
+    background: rgba(175, 175, 175, 0.5);
+    backdrop-filter: blur(20px);
 
-    width: 92rem;
-    height: 25.2rem;
-    .lasted-search {
-      width: 42rem;
-      margin-right: 4rem;
-      p {
-        font-size: 1.6rem;
-        font-weight: 500;
+    .container {
+      display: flex;
+      aspect-ratio: 1920/460;
+      background-color: #fff;
+      @include main.flex(center, center, 0);
+
+      .box {
+        @include main.flex(start, start, 40px);
+        flex-direction: column;
+        width: 48%;
+        aspect-ratio: 920/340;
       }
-      .lasted-list {
-        margin-top: 3rem;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(7, auto);
-        grid-auto-flow: column;
-        gap: 1.6rem 2rem;
-        list-style: none;
-        li {
-          display: flex;
-          gap: 0.8rem;
-          font-size: 1.4rem;
-          font-weight: 400;
-          color: #666;
-          cursor: pointer;
+
+      .search-box {
+        width: 100%;
+        position: relative;
+        input {
+          width: 100%;
+          aspect-ratio: 920/46;
+          background-color: #fff;
+          font-size: 2rem;
+          border-bottom: 2px solid #000;
+        }
+        img {
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 2.4rem;
+          height: 2.4rem;
         }
       }
-    }
-    .divider {
-      width: 0.1rem;
-      height: 25.2rem;
-      background: #c4c4c4;
-    }
-    .recommend-search {
-      width: 42rem;
-      margin-left: 4rem;
-      p {
-        font-size: 1.6rem;
-        font-weight: 500;
+
+      .search-list {
+        background-color: #fff;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        aspect-ratio: 920/252;
+
+        .lasted-search {
+          width: 50%;
+          margin-right: 4rem;
+
+          p {
+            font-size: 1.6rem;
+            font-weight: 500;
+          }
+
+          .lasted-list {
+            margin-top: 3rem;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(5, auto);
+            grid-auto-flow: column;
+            gap: 2rem 16%;
+            list-style: none;
+
+            li {
+              display: flex;
+              justify-content: space-between;
+              font-size: 1.4rem;
+              font-weight: 400;
+              color: #666;
+              cursor: pointer;
+            }
+          }
+        }
+        .divider {
+          width: 0.1rem;
+          height: 25.2rem;
+          background: #c4c4c4;
+        }
+        .recommend-search {
+          width: 42rem;
+          margin-left: 4rem;
+          p {
+            font-size: 1.6rem;
+            font-weight: 500;
+          }
+        }
+        .no-result-container {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          justify-content: center;
+          align-items: center;
+          gap: 2rem;
+        }
+        .no-result-text {
+          font-size: 2rem;
+          font-weight: 500;
+        }
+        .no-result-subtext {
+          font-size: 1.4rem;
+          font-weight: 400;
+          color: main.$text-666;
+        }
       }
-    }
-    .no-result-container {
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      justify-content: center;
-      align-items: center;
-      gap: 2rem;
-    }
-    .no-result-text {
-      font-size: 2rem;
-      font-weight: 500;
-    }
-    .no-result-subtext {
-      font-size: 1.4rem;
-      font-weight: 400;
-      color: main.$text-666;
     }
   }
 }

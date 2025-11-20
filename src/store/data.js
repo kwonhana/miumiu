@@ -15,7 +15,7 @@ export const categoryKorMap = [
   { kor: '스니커즈', eng: 'Sneakers' },
   { kor: '스몰 지갑', eng: 'Small Wallets' },
   { kor: '쥬얼리', eng: 'Jewellery' },
-  { kor: '아이웨어', eng: 'Eyewear' },
+  { kor: '아이웨어', eng: 'EyeWear' },
   { kor: '악세사리', eng: 'Accessories' },
   { kor: '아이코닉', eng: 'Iconic' },
   { kor: '이벤트', eng: 'Event' },
@@ -52,7 +52,7 @@ export const iconicBags = [
   { alt: '아이비', alt2: 'ivy' },
 ];
 
-// TODO Lnbshoes.jsx 데이터
+// TODO LnbShoes.jsx 데이터
 export const shoes = [
   { alt: '부츠', alt2: 'boots-and-ankle-boots' },
   { alt: '로퍼 및 레이스업', alt2: 'loafers-and-lace-ups' },
