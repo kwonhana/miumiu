@@ -55,6 +55,56 @@ header {
 
         .user {
           padding: 0;
+          position: relative;
+          height: 100%;
+          .user-btn {
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            @include header.flex(center, center, 0);
+          }
+          .user-dropdown-menu {
+            position: absolute;
+            /* 아이콘의 밑바닥(100%) + 헤더의 아래쪽 패딩(2.8rem) 만큼 내림*/
+            top: calc(100% + 2.8rem);
+            left: 50%;
+            transform: translateX(-50%);
+            width: 21.2rem;
+            height: 19.2rem;
+            background-color: header.$base;
+            border-radius: 0 0 0.4rem 0.4rem;
+            padding: 0;
+            z-index: 10;
+            ul {
+              width: 100%;
+              height: 100%;
+              li {
+                height: 25%;
+                a {
+                  display: flex;
+                  padding: 0 2rem;
+                  color: #fff;
+                  font-size: 1.4rem;
+                  width: 100%;
+                  height: 100%;
+                  text-align: left;
+                  align-items: center;
+                  white-space: nowrap;
+                  &:hover {
+                    background-color: header.$text-333;
+                  }
+                }
+                &:last-child {
+                  > a {
+                    color: header.$text-bbb;
+                  }
+                }
+              }
+            }
+          }
         }
       }
     }

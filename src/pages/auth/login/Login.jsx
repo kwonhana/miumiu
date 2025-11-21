@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, Navigate, useNavigate } from 'react-router-dom';
-import './login.scss';
 import { useAuthStore } from '../../../api/authStore';
+import './login.scss';
 
 const list = [
   { icon: '', title: '개인계정을 통해 특별한 쇼핑 경험을 느껴보세요.' },
@@ -17,14 +17,14 @@ const Login = () => {
   //1. 변수
   const [id, setId] = useState('');
   const [password, setPassword] = useState('');
-  const { onGoogleLogin, onKakaoLogin } = useAuthStore();
+  const { onGoogleLogin, onKakaoLogin, setUser } = useAuthStore();
   const Navigate = useNavigate();
 
   //1-2 구글 로그인
   const handleGoogleLogin = async () => {
     console.log('구글');
     await onGoogleLogin();
-    // navigate('/');
+    Navigate('/');
   };
   //1-3 카카오로그인
   const handleKakaoLogin = async () => {
@@ -44,6 +44,7 @@ const Login = () => {
     //입력된 정보를 저장된데이터와 비교
     if (id === userData.userId && password === userData.password) {
       alert(`${userData.name}님, 환영합니다!`);
+      setUser(userData);
 
       Navigate('/');
     } else {
@@ -59,7 +60,7 @@ const Login = () => {
           <p className="subTitle">미우미우를 찾아주셔서 감사합니다.</p>
 
           <div className="login-input">
-            <form>
+            <form onSubmit={handleLogin}>
               <input
                 className="inputID"
                 value={id}
@@ -79,7 +80,7 @@ const Login = () => {
               />
             </form>
 
-            <div className="helf">
+            <div className="half">
               <p>
                 <Link className="link">비밀번호를 잊으셨나요?</Link>
               </p>
@@ -97,12 +98,12 @@ const Login = () => {
                 </button>{' '}
               </p>
               <p>
-                <button className="btnGoogle" onClick={handleGoogleLogin}>
+                <button type="button" className="btnGoogle" onClick={handleGoogleLogin}>
                   구글 계정으로 로그인
                 </button>
               </p>
               <p>
-                <button className="btnKakao" onClick={handleKakaoLogin}>
+                <button type="button" className="btnKakao" onClick={handleKakaoLogin}>
                   카카오 계정으로 로그인
                 </button>
               </p>

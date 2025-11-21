@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import Button from '../../component/layout/Button';
-import './scss/ProductDetail.scss';
 import { Link, useParams } from 'react-router-dom';
 import { useProductsStore } from '../../store/useProductsStore';
 import ProductSkeleton from './layout/ProductSkeleton';
 import ProductDetailNav from './layout/ProductDetailNav';
 import ProductShoesSize from './layout/ProductShoesSize';
+import './scss/ProductDetail.scss';
 
 const ProductDetail = () => {
   const { id } = useParams();
@@ -164,6 +164,10 @@ const ProductDetail = () => {
                   }
                   alt={item.name}
                 />
+                <div className="product-text-box">
+                  <h3>{item.name}</h3>
+                  <p>{item.price}</p>
+                </div>
               </Link>
             </li>
           ))}

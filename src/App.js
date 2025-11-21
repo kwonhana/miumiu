@@ -31,6 +31,8 @@ import SearchResult from './pages/Products/SearchResult';
 import Category1 from './pages/Products/Category1';
 import Category2 from './pages/Products/Category2';
 import ScrollToTop from './ScrollToTop';
+import WIshList from './pages/auth/WishList/WIshList';
+import MyOrder from './pages/Checkout/MyOrder/MyOrder';
 
 function App() {
   const { onFetchItems, onMakeMenu } = useProductsStore();
@@ -58,6 +60,8 @@ function App() {
         <Route path="orderSummary" element={<OrderSummary />} />
         <Route path="payment" element={<Payment />} />
         <Route path="shipping" element={<Shipping />} />
+        <Route path="wishlist" element={<WIshList />} />
+        <Route path="myOrder" element={<MyOrder />} />
         <Route path="searchResult" element={<SearchResult />} />
         {/* <Route path="/:category1" element={<Products />} />
         <Route path="/:category1/:category2" element={<Products />} />

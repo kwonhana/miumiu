@@ -67,7 +67,7 @@
       }
     }
 
-    .helf {
+    .half {
       width: 100%;
       @include login.flex(space-between, end, 0);
       @include login.font(1.4rem, 400, #333);
