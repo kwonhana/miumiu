@@ -16,10 +16,7 @@ const Header = () => {
   const { user, logout } = useAuthStore();
   const headerRef = useRef(null);
 
-<<<<<<< Updated upstream
-=======
   //TODO 모든메뉴 닫기
->>>>>>> Stashed changes
   const closeAll = useCallback(() => {
     setLnbOpen(false);
     setSearchOpen(false);
