@@ -49,10 +49,28 @@ const ProductDetail = () => {
     }
   }, [product, items]);
 
+  console.log(product, '상세페이지 상품');
+
+  const handleScroll = (targetID) => {
+    const target = document.getElementById(targetID);
+
+    if (target) {
+      const navHeight = 300;
+      const elementPosition = target.getBoundingClientRect().top;
+      const offset = elementPosition + window.pageYOffset - navHeight;
+
+      window.scrollTo({
+        top: offset,
+        behavior: 'smooth',
+      });
+    } else {
+      console.warn(`Target element with id #${target} not found.`);
+    }
+  };
+
   if (!product) {
     return <ProductSkeleton />;
   }
-  console.log(product, '상세페이지 상품');
 
   return (
     <>
@@ -93,10 +111,10 @@ const ProductDetail = () => {
           </div>
         </div>
         <div className="ProductDetail-bottom">
-          <ProductDetailNav />
+          <ProductDetailNav onScroll={handleScroll} />
           <div className="inner">
-            <div className="product-info">
-              <ul className="info-list">
+            <div className="product-info" id="detail-info">
+              <ul className="info-list ">
                 {product.local_detail_images.map((img, index) => {
                   return (
                     <React.Fragment key={index}>
@@ -105,7 +123,7 @@ const ProductDetail = () => {
                       </li>
 
                       {index === 1 && (
-                        <div className="product-acc-info">
+                        <div className="product-acc-info " id="info-text">
                           <div className="info">
                             <h4>{product.name}</h4>
                             <p>{product.subtitle}</p>
@@ -114,7 +132,7 @@ const ProductDetail = () => {
                       )}
 
                       {index === 3 && (
-                        <div className="product-acc-info flex">
+                        <div className="product-acc-info flex " id="product-size">
                           <div className="info">
                             <h4>사이즈</h4>
                             <ul>
