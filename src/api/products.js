@@ -3639,7 +3639,7 @@ export const products = [
     categoryKor1: '지갑',
     categoryKor2: '카드 지갑',
     name: '나파 가죽 카드 홀더',
-    tags: '나파',
+    tags: 'napa',
     price: '₩ 750,000',
     subtitle:
       '심플한 라인을 따르는 카드 홀더는 부드러운 나파 가죽과 아이코닉한 미우미우 로고로 완성됩니다. 지퍼 포켓과 키링 디테일이 더해져 기능성과 개성을 동시에 담아냅니다.',
@@ -3687,7 +3687,7 @@ export const products = [
     categoryKor1: '지갑',
     categoryKor2: '카드 지갑',
     name: '나파 가죽 카드 지갑',
-    tags: '나파',
+    tags: 'napa',
     price: '₩ 750,000',
     subtitle:
       '의도적으로 연출한 나파 가죽의 빈티지 효과와 아이코닉한 미우미우 로고 디테일로 새로운 카드 지갑의 심플한 라인이 더욱 돋보입니다. 슬롯과 키링으로 기능적인 디테일의 디자인이 완성됩니다.',
@@ -3736,7 +3736,7 @@ export const products = [
     categoryKor1: '지갑',
     categoryKor2: '카드 지갑',
     name: '나파 가죽 엔벨롭 카드 홀더',
-    tags: '나파',
+    tags: 'napa',
     price: '₩ 660,000',
     subtitle:
       '빈티지한 효과를 더한 나파 가죽의 고급스러운 촉감이 간결한 라인을 돋보이게 합니다. 지퍼 포켓과 아이코닉한 엠보싱 로고가 디자인을 완성하며, 실용성과 개성을 조화롭게 담아냅니다.',
@@ -3791,7 +3791,7 @@ export const products = [
     categoryKor1: '지갑',
     categoryKor2: '카드 지갑',
     name: '나파 가죽 엔벨롭 카드 홀더',
-    tags: '나파',
+    tags: 'napa',
     price: '₩ 660,000',
     subtitle:
       '빈티지한 효과를 더한 나파 가죽의 고급스러운 촉감이 간결한 라인을 돋보이게 합니다. 지퍼 포켓과 아이코닉한 엠보싱 로고가 디자인을 완성하며, 실용성과 개성을 조화롭게 담아냅니다.',
@@ -5168,7 +5168,7 @@ export const products = [
     categoryKor1: '지갑',
     categoryKor2: '카드 지갑',
     name: '나파 가죽 엔벨롭 카드 홀더',
-    tags: '나파',
+    tags: 'napa',
     price: '₩ 660,000',
     subtitle:
       '빈티지한 효과를 더한 나파 가죽의 고급스러운 촉감이 간결한 라인을 돋보이게 합니다. 지퍼 포켓과 아이코닉한 엠보싱 로고가 디자인을 완성하며, 실용성과 개성을 조화롭게 담아냅니다.',
@@ -5284,7 +5284,7 @@ export const products = [
     categoryKor1: '가방',
     categoryKor2: '미니백',
     name: '나파 가죽 미니 백',
-    tags: '나파',
+    tags: 'napa',
     price: '₩ 1,640,000',
     subtitle:
       '나파 가죽의 부드러운 텍스처가 특징인 미니 백입니다. 맞춤 조절형 숄더 스트랩이 기능적인 디테일을 더하며, 엠보싱 레터링 로고가 아이코닉한 디자인을 완성합니다.',
@@ -5359,7 +5359,7 @@ export const products = [
     categoryKor1: '가방',
     categoryKor2: '미니백',
     name: '나파 가죽 미니 백',
-    tags: '나파',
+    tags: 'napa',
     price: '₩ 1,640,000',
     subtitle:
       '나파 가죽의 부드러운 텍스처가 특징인 미니 백입니다. 맞춤 조절형 숄더 스트랩이 기능적인 디테일을 더하며, 엠보싱 레터링 로고가 아이코닉한 디자인을 완성합니다.',
@@ -5420,7 +5420,7 @@ export const products = [
     categoryKor1: '가방',
     categoryKor2: '미니백',
     name: '나파 가죽 미니 백',
-    tags: '나파',
+    tags: 'napa',
     price: '₩ 1,640,000',
     subtitle:
       '나파 가죽의 부드러운 텍스처가 특징인 미니 백입니다. 맞춤 조절형 숄더 스트랩이 기능적인 디테일을 더하며, 엠보싱 레터링 로고가 아이코닉한 디자인을 완성합니다.',
@@ -5495,7 +5495,7 @@ export const products = [
     categoryKor1: '가방',
     categoryKor2: '미니백',
     name: '나파 가죽 파우치',
-    tags: '나파',
+    tags: 'napa',
     price: '₩ 2,150,000',
     subtitle:
       '장인정신 담긴 나파 가죽 파우치로 빈티지 효과가 특징입니다. 엠보싱 로고와 맞춤 조절형 숄더 스트랩으로 활용성과 매력이 돋보입니다.',
@@ -9210,7 +9210,7 @@ export const products = [
     categoryKor1: '패션주얼리',
     categoryKor2: '팔찌',
     name: '나파 가죽 버클 팔찌',
-    tags: '나파',
+    tags: 'napa',
     price: '₩ 660,000',
     subtitle:
       '2025 봄/여름 패션쇼에서 영감을 받은 골드 버클 디테일이 부드러운 나파 레더 브레이슬릿에 대담한 개성을 더하며, 다양한 스타일링이 가능합니다.',
@@ -9309,7 +9309,7 @@ export const products = [
     categoryKor1: '패션주얼리',
     categoryKor2: '팔찌',
     name: '버클 장식 가죽 팔찌',
-    tags: '버클',
+    tags: 'buckle',
     price: '₩ 660,000',
     subtitle:
       '벨트 디테일을 연상시키는 메탈 버클로 세련되고 빈티지한 무드를 연출해 대비를 강조한 룩에 완벽하게 어울리는 팔찌입니다.',
@@ -9355,7 +9355,7 @@ export const products = [
     categoryKor1: '패션주얼리',
     categoryKor2: '팔찌',
     name: '버클 장식 가죽 팔찌',
-    tags: '버클',
+    tags: 'buckle',
     price: '₩ 660,000',
     subtitle:
       '벨트 디테일을 연상시키는 메탈 버클로 세련되고 빈티지한 무드를 연출해 대비를 강조한 룩에 완벽하게 어울리는 팔찌입니다.',
@@ -10894,7 +10894,7 @@ export const products = [
     categoryKor2: '펌프스',
     name: '버클 장식 페이턴트 가죽 슬링백 펌프스',
 
-    tags: '버클',
+    tags: 'buckle',
     price: '₩ 1,710,000',
     subtitle:
       '광택 있는 페이턴트 가죽과 버클 디테일이 어우러진 펌프스는 여성스러운 라인에 시크한 감도를 더하며, 모던한 우아함을 강조합니다.',
@@ -10949,7 +10949,7 @@ export const products = [
     categoryKor2: '펌프스',
     name: '버클 장식 페이턴트 가죽 슬링백 펌프스',
 
-    tags: '버클',
+    tags: 'buckle',
     price: '₩ 1,710,000',
     subtitle:
       '광택 있는 페이턴트 가죽과 버클 디테일이 어우러진 펌프스는 여성스러운 라인에 시크한 감도를 더하며, 모던한 우아함을 강조합니다.',
@@ -11004,7 +11004,7 @@ export const products = [
     categoryKor2: '펌프스',
     name: '버클 장식 페이턴트 가죽 슬링백 펌프스',
 
-    tags: '버클',
+    tags: 'buckle',
     price: '₩ 1,710,000',
     subtitle:
       '광택 있는 페이턴트 가죽과 버클 디테일이 어우러진 펌프스는 여성스러운 라인에 시크한 감도를 더하며, 모던한 우아함을 강조합니다.',
@@ -11059,7 +11059,7 @@ export const products = [
     categoryKor2: '펌프스',
     name: '버클 장식의 브러쉬드 가죽 슬링백',
 
-    tags: '버클',
+    tags: 'buckle',
     price: '₩ 1,760,000',
     subtitle:
       '클래식한 스타일과 미우미우의 반항적인 정신이 만나 탄생한 브러시드 가죽 슬링백입니다. 세련된 대비가 돋보이는 버클로 슈즈에 반항적인 무드를 주며 강렬한 개성을 더합니다.',
@@ -13029,7 +13029,7 @@ export const products = [
     categoryKor1: '신발',
     categoryKor2: '부츠',
     name: '가죽 부츠',
-    tags: '바이커',
+    tags: 'biker',
     price: '₩ 2,750,000',
     subtitle:
       '아이코닉한 바이커 스타일에서 영감을 받은 이 부츠는 버팔로 가죽의 텍스처와 발끝의 브로그 디테일 덕분에 매력과 활용성을 겸비했습니다. 반항적인 애티튜드를 지닌 실루엣에 세련된 느낌을 더해줍니다.',
@@ -13830,7 +13830,7 @@ export const products = [
     categoryKor1: '신발',
     categoryKor2: '부츠',
     name: '나파 가죽 부티',
-    tags: '나파',
+    tags: 'napa',
     price: '₩ 2,250,000',
     subtitle:
       '글러브처럼 발을 감싸는 부드러운 나파 가죽이 돋보이는 부티입니다. 미우미우의 클래식 아이템으로, 캐주얼한 우아함 속에 각기 다른 페미니니티를 기념하고자 디자인되었습니다.',
@@ -14141,7 +14141,7 @@ export const products = [
     categoryKor1: '신발',
     categoryKor2: '부츠',
     name: '버클 장식 나파 가죽 부츠',
-    tags: '버클',
+    tags: 'buckle',
     price: '₩ 3,300,000',
     subtitle:
       '부드러운 가죽으로 제작된 이 가벼운 부츠는 다리를 섬세하게 감싸며 글러브처럼 밀착되는 여성스러운 실루엣을 선사합니다. 시선을 사로잡는 로고 인그레이빙 버클 장식이 아이코닉하면서도 대담한 매력을 표현합니다.',
@@ -14213,7 +14213,7 @@ export const products = [
     categoryKor1: '신발',
     categoryKor2: '부츠',
     name: '버클 장식 나파 가죽 부츠',
-    tags: '버클',
+    tags: 'buckle',
     price: '₩ 3,300,000',
     subtitle:
       '부드러운 가죽으로 제작된 이 가벼운 부츠는 다리를 섬세하게 감싸며 글러브처럼 밀착되는 여성스러운 실루엣을 선사합니다. 시선을 사로잡는 로고 인그레이빙 버클 장식이 아이코닉하면서도 대담한 매력을 표현합니다.',
@@ -17497,7 +17497,7 @@ export const products = [
     categoryKor1: '신발',
     categoryKor2: '스니커즈',
     name: '버클 장식 가죽 스니커즈',
-    tags: '버클',
+    tags: 'buckle',
     price: '₩ 1,710,000',
     subtitle:
       '패션쇼에서 선보인 아이코닉한 버클 장식이 스포티한 무드의 스니커즈와 만나 새로운 해석을 이룹니다. 빈티지한 감성이 더해진 부드러운 가죽 소재가 정제된 개성과 현대적인 감각을 동시에 드러냅니다.',
@@ -17559,7 +17559,7 @@ export const products = [
     categoryKor1: '신발',
     categoryKor2: '스니커즈',
     name: '버클 장식 가죽 스니커즈',
-    tags: '버클',
+    tags: 'buckle',
     price: '₩ 1,710,000',
     subtitle:
       '패션쇼에서 선보인 아이코닉한 버클 장식이 스포티한 무드의 스니커즈와 만나 새로운 해석을 이룹니다. 빈티지한 감성이 더해진 부드러운 가죽 소재가 정제된 개성과 현대적인 감각을 동시에 드러냅니다.',
@@ -22599,7 +22599,7 @@ export const products = [
     categoryKor1: '가방',
     categoryKor2: '미니백',
     name: '나파 가죽 파우치',
-    tags: '나파',
+    tags: 'napa',
     price: '₩ 2,150,000',
     subtitle:
       '컴팩트한 기능성 디자인의 부드러운 나파 가죽 파우치입니다. 숄더 스트랩이 실용적인 디테일을 더하며, 레터링 로고가 아이코닉한 디자인을 완성합니다.',
@@ -22660,7 +22660,7 @@ export const products = [
     categoryKor1: '가방',
     categoryKor2: '미니백',
     name: '나파 가죽 파우치',
-    tags: '나파',
+    tags: 'napa',
     price: '₩ 2,150,000',
     subtitle:
       '컴팩트한 기능성 디자인의 부드러운 나파 가죽 파우치입니다. 숄더 스트랩이 실용적인 디테일을 더하며, 레터링 로고가 아이코닉한 디자인을 완성합니다.',
@@ -27784,7 +27784,7 @@ export const products = [
     categoryKor1: '가방',
     categoryKor2: '토트백',
     name: '아이비 가죽 백',
-    tags: '아이비',
+    tags: 'ivy',
     price: '₩ 3,100,000',
     subtitle:
       '아이비 백은 클래식 토트를 실용적이면서도 다재다능한 우아함으로 재해석합니다. 은은한 광택의 가죽이 세련된 마감 디테일과 아이코닉한 톤온톤 레터링 로고와 어우러져 미우미우 특유의 감각을 드러냅니다.',
@@ -32572,7 +32572,7 @@ export const products = [
     categoryKor1: '가방',
     categoryKor2: '숄더백',
     name: '보 나파 가죽 백',
-    tags: '보',
+    tags: 'beau',
     price: '₩ 5,400,000',
     subtitle:
       '빈티지 무드에서 영감을 받아 완성된 보 백은 독특한 탑 핸들 실루엣에 빈티지 효과를 준 나파 가죽을 더해 대담하고 우아한 매력을 발산합니다.',
@@ -33046,7 +33046,7 @@ export const products = [
     categoryKor1: '가방',
     categoryKor2: '숄더백',
     name: '보 가죽 탑 핸들 백',
-    tags: '보',
+    tags: 'beau',
     price: '₩ 4,700,000',
     subtitle:
       '보 백의 부드럽고 매끄러운 가죽에 골드톤 하드웨어와 같은 뉘앙스와 디테일이 시선을 사로잡으며, 엠보싱 레터링 로고가 아이코닉한 디자인을 완성합니다.',
@@ -33129,7 +33129,7 @@ export const products = [
     categoryKor1: '가방',
     categoryKor2: '숄더백',
     name: '보 가죽 탑 핸들 백',
-    tags: '보',
+    tags: 'beau',
     price: '₩ 4,700,000',
     subtitle:
       '보 백의 부드럽고 매끄러운 가죽에 골드톤 하드웨어와 같은 뉘앙스와 디테일이 시선을 사로잡으며, 엠보싱 레터링 로고가 아이코닉한 디자인을 완성합니다.',
@@ -33205,7 +33205,7 @@ export const products = [
     categoryKor1: '가방',
     categoryKor2: '숄더백',
     name: '보 가죽 탑 핸들 백',
-    tags: '보',
+    tags: 'beau',
     price: '₩ 4,700,000',
     subtitle:
       '보 백의 부드럽고 매끄러운 가죽에 골드톤 하드웨어와 같은 뉘앙스와 디테일이 시선을 사로잡으며, 엠보싱 레터링 로고가 아이코닉한 디자인을 완성합니다.',
@@ -33288,7 +33288,7 @@ export const products = [
     categoryKor1: '가방',
     categoryKor2: '숄더백',
     name: '보 가죽 탑 핸들 백',
-    tags: '보',
+    tags: 'beau',
     price: '₩ 4,700,000',
     subtitle:
       '보 백의 부드럽고 매끄러운 가죽에 골드톤 하드웨어와 같은 뉘앙스와 디테일이 시선을 사로잡으며, 엠보싱 레터링 로고가 아이코닉한 디자인을 완성합니다.',
