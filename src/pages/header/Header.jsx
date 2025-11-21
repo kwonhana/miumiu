@@ -1,31 +1,56 @@
 import React, { useCallback, useEffect, useRef, useState } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useNavigate, useLocation } from 'react-router-dom';
 import Logo from '../../component/layout/Logo';
 import Lnb from './layout/Lnb';
-import './scss/header.scss';
 import Search from './layout/Search';
+import { useAuthStore } from '../../api/authStore';
+import './scss/header.scss';
 
 const Header = () => {
   const location = useLocation();
+  const Navigate = useNavigate();
   const [scrollY, setScrollY] = useState(0);
   const [lnbOpen, setLnbOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
+  const [userMenuOpen, setUserMenuOpen] = useState(false);
+  const { user, logout } = useAuthStore();
   const headerRef = useRef(null);
 
+<<<<<<< Updated upstream
+=======
+  //TODO 모든메뉴 닫기
+>>>>>>> Stashed changes
   const closeAll = useCallback(() => {
     setLnbOpen(false);
     setSearchOpen(false);
+    setUserMenuOpen(false);
   }, []);
 
+  //TODO lnb토글(다른메뉴들 닫기)
   const toggleLnb = useCallback(() => {
     setLnbOpen((prev) => !prev);
     setSearchOpen(false);
+    setUserMenuOpen(false);
   }, []);
 
+  //TODO 검색창 토글
   const toggleSearch = useCallback(() => {
     setSearchOpen((prev) => !prev);
     setLnbOpen(false);
+    setUserMenuOpen(false);
   }, []);
+  //TODO 드롭다운메뉴토글
+  const toggleUserMenu = useCallback(() => {
+    setUserMenuOpen((prev) => !prev);
+    setLnbOpen(false);
+    setSearchOpen(false);
+  }, []);
+
+  const handleLogout = () => {
+    logout();
+    closeAll();
+    Navigate('/');
+  };
 
   useEffect(() => {
     const handleClickOutside = (event) => {
@@ -33,13 +58,13 @@ const Header = () => {
         closeAll();
       }
     };
-    if (lnbOpen || searchOpen) {
+    if (lnbOpen || searchOpen || userMenuOpen) {
       document.addEventListener('mousedown', handleClickOutside);
     }
     return () => {
       document.removeEventListener('mousedown', handleClickOutside);
     };
-  }, [lnbOpen, searchOpen, closeAll]);
+  }, [lnbOpen, searchOpen, userMenuOpen, closeAll]);
 
   useEffect(() => {
     if (location.pathname === '/') {
@@ -79,9 +104,48 @@ const Header = () => {
               </Link>
             </div>
             <div className="Icon user">
-              <Link to={'/login'}>
-                <img src="/assets/icon/UserIcon.svg" alt="user" />
-              </Link>
+              {user ? (
+                <>
+                  <button onClick={toggleUserMenu} className="user-btn">
+                    <img src="/assets/icon/UserIcon.svg" alt="user" />
+                  </button>
+                  {userMenuOpen && (
+                    <div className="user-dropdown-menu">
+                      <ul>
+                        <li>
+                          <Link to={'/mypage'} onClick={closeAll}>
+                            나의 정보
+                          </Link>
+                        </li>
+                        <li>
+                          <Link to={'/myOrder'} onClick={closeAll}>
+                            주문 배송 조회
+                          </Link>
+                        </li>
+                        <li>
+                          <Link to={'/wishlist'} onClick={closeAll}>
+                            위시리스트
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
+                            to={'/'}
+                            onClick={(e) => {
+                              e.preventDefault();
+                              handleLogout();
+                            }}>
+                            로그아웃
+                          </Link>
+                        </li>
+                      </ul>
+                    </div>
+                  )}
+                </>
+              ) : (
+                <Link to={'/login'}>
+                  <img src="/assets/icon/UserIcon.svg" alt="user" />
+                </Link>
+              )}
             </div>
             <div className="Icon cart">
               <Link to={'/cart'}>

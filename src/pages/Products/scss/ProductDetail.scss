@@ -153,5 +153,16 @@
       width: 47.7rem;
       aspect-ratio: 1/1;
     }
+    .product-text-box {
+      padding: 3rem;
+      text-align: left;
+      > h3 {
+        text-align: left;
+        @include pd.font(2.2rem, 400, pd.$base);
+      }
+      > p {
+        @include pd.font(1.8rem, 400, pd.$text-666);
+      }
+    }
   }
 }
