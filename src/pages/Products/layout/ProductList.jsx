@@ -46,8 +46,8 @@ const ProductList = () => {
               </div>
             </Link>
           </li>
-          {!showAd && index === 6 && <AdProduct startIndex={0} />} {/* banner1, 2 */}
-          {!showAd && index === 18 && <AdProduct startIndex={2} />} {/* banner3, 4 */}
+          {/* {!showAd && index === 6 && <AdProduct startIndex={0} />}  */}
+          {/* {!showAd && index === 18 && <AdProduct startIndex={2} />} */}
         </React.Fragment>
       ))}
     </ul>
