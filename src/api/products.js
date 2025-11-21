@@ -41351,9 +41351,9 @@ export const products = [
     id: '5CC536_2ICT_F0EDH',
     index: 24,
     category1: 'accessories',
-
     category2: 'belts',
     categoryKor1: '액세서리',
+    categoryKor2: '벨트',
     name: '프린트 가죽 벨트',
     price: '₩ 1,010,000',
     image_url:
@@ -41392,6 +41392,7 @@ export const products = [
 
     category2: 'belts',
     categoryKor1: '액세서리',
+    categoryKor2: '벨트',
     name: '나파 가죽 벨트',
     price: '₩ 960,000',
     image_url:
@@ -41429,6 +41430,7 @@ export const products = [
 
     category2: 'belts',
     categoryKor1: '액세서리',
+    categoryKor2: '벨트',
     name: '스웨이드 벨트',
     price: '₩ 870,000',
     image_url:
@@ -41467,6 +41469,7 @@ export const products = [
 
     category2: 'belts',
     categoryKor1: '액세서리',
+    categoryKor2: '벨트',
     name: '스웨이드 벨트',
     price: '₩ 870,000',
     image_url:
@@ -41505,6 +41508,7 @@ export const products = [
 
     category2: 'belts',
     categoryKor1: '액세서리',
+    categoryKor2: '벨트',
     name: '가죽 벨트',
     price: '₩ 870,000',
     image_url:
@@ -41550,6 +41554,7 @@ export const products = [
 
     category2: 'belts',
     categoryKor1: '액세서리',
+    categoryKor2: '벨트',
     name: '가죽 벨트',
     price: '₩ 870,000',
     image_url:
@@ -41595,6 +41600,7 @@ export const products = [
 
     category2: 'belts',
     categoryKor1: '액세서리',
+    categoryKor2: '벨트',
     name: '가죽 벨트',
     price: '₩ 870,000',
     image_url:
@@ -41640,6 +41646,7 @@ export const products = [
 
     category2: 'belts',
     categoryKor1: '액세서리',
+    categoryKor2: '벨트',
     name: '나파 가죽 벨트',
     price: '₩ 940,000',
     image_url:
@@ -41675,6 +41682,7 @@ export const products = [
 
     category2: 'belts',
     categoryKor1: '액세서리',
+    categoryKor2: '벨트',
     name: '나파 가죽 벨트',
     price: '₩ 940,000',
     image_url:
@@ -41710,6 +41718,7 @@ export const products = [
 
     category2: 'belts',
     categoryKor1: '액세서리',
+    categoryKor2: '벨트',
     name: '에이어스 가죽 벨트',
     price: '₩ 1,340,000',
     image_url:
@@ -41753,6 +41762,7 @@ export const products = [
 
     category2: 'belts',
     categoryKor1: '액세서리',
+    categoryKor2: '벨트',
     name: '가죽 벨트',
     price: '₩ 930,000',
     image_url:
@@ -41797,6 +41807,7 @@ export const products = [
 
     category2: 'belts',
     categoryKor1: '액세서리',
+    categoryKor2: '벨트',
     name: '가죽 패치워크 벨트',
     price: '₩ 960,000',
     image_url:
@@ -41840,6 +41851,7 @@ export const products = [
 
     category2: 'belts',
     categoryKor1: '액세서리',
+    categoryKor2: '벨트',
     name: '가죽 벨트',
     price: '₩ 870,000',
     image_url:
@@ -41878,6 +41890,7 @@ export const products = [
 
     category2: 'belts',
     categoryKor1: '액세서리',
+    categoryKor2: '벨트',
     name: '가죽 벨트',
     price: '₩ 870,000',
     image_url:
@@ -41921,6 +41934,7 @@ export const products = [
 
     category2: 'belts',
     categoryKor1: '액세서리',
+    categoryKor2: '벨트',
     name: '가죽 벨트',
     price: '₩ 870,000',
     image_url:
@@ -41959,6 +41973,7 @@ export const products = [
 
     category2: 'belts',
     categoryKor1: '액세서리',
+    categoryKor2: '벨트',
     name: '가죽 벨트',
     price: '₩ 870,000',
     image_url:
@@ -41997,6 +42012,7 @@ export const products = [
 
     category2: 'belts',
     categoryKor1: '액세서리',
+    categoryKor2: '벨트',
     name: '가죽 벨트',
     price: '₩ 870,000',
     image_url:
@@ -42035,6 +42051,7 @@ export const products = [
 
     category2: 'belts',
     categoryKor1: '액세서리',
+    categoryKor2: '벨트',
     name: '크리스털 장식 메탈 벨트',
     price: '₩ 2,150,000',
     image_url:
@@ -42085,6 +42102,7 @@ export const products = [
 
     category2: 'belts',
     categoryKor1: '액세서리',
+    categoryKor2: '벨트',
     name: '가죽 벨트',
     price: '₩ 980,000',
     image_url:
@@ -42130,6 +42148,7 @@ export const products = [
 
     category2: 'belts',
     categoryKor1: '액세서리',
+    categoryKor2: '벨트',
     name: '가죽 벨트',
     price: '₩ 980,000',
     image_url:
@@ -42175,6 +42194,7 @@ export const products = [
 
     category2: 'belts',
     categoryKor1: '액세서리',
+    categoryKor2: '벨트',
     name: '가죽 및 메탈 벨트',
     price: '₩ 1,600,000',
     image_url:
@@ -42220,6 +42240,7 @@ export const products = [
 
     category2: 'belts',
     categoryKor1: '액세서리',
+    categoryKor2: '벨트',
     name: '가죽 및 메탈 벨트',
     price: '₩ 1,600,000',
     image_url:
@@ -42258,6 +42279,7 @@ export const products = [
 
     category2: 'belts',
     categoryKor1: '액세서리',
+    categoryKor2: '벨트',
     name: '가죽 및 메탈 벨트',
     price: '₩ 2,400,000',
     image_url:
@@ -42296,6 +42318,7 @@ export const products = [
 
     category2: 'belts',
     categoryKor1: '액세서리',
+    categoryKor2: '벨트',
     name: '프린트 가죽 벨트',
     price: '₩ 1,140,000',
     image_url:
@@ -42334,6 +42357,7 @@ export const products = [
 
     category2: 'belts',
     categoryKor1: '액세서리',
+    categoryKor2: '벨트',
     name: '가죽 벨트',
     price: '₩ 1,030,000',
     image_url:
@@ -42377,7 +42401,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 핀휠 브로치',
     price: '₩ 340,000',
     image_url:
@@ -42416,7 +42440,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 핀휠 브로치',
     price: '₩ 340,000',
     image_url:
@@ -42455,7 +42479,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 핀휠 브로치',
     price: '₩ 340,000',
     image_url:
@@ -42494,7 +42518,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 핀휠 브로치',
     price: '₩ 340,000',
     image_url:
@@ -42533,7 +42557,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '제품 5',
     price: '가격 없음',
     image_url: '',
@@ -42547,7 +42571,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 백팩',
     price: '₩ 5,500,000',
     image_url:
@@ -42637,7 +42661,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 마이크로 트릭',
     price: '₩ 340,000',
     image_url:
@@ -42676,7 +42700,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 마이크로 트릭',
     price: '₩ 340,000',
     image_url:
@@ -42720,7 +42744,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 트릭',
     price: '₩ 640,000',
     image_url:
@@ -42764,7 +42788,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 키링 트릭',
     price: '₩ 640,000',
     image_url:
@@ -42803,7 +42827,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 트릭',
     price: '₩ 640,000',
     image_url:
@@ -42842,7 +42866,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 플로럴 브로치',
     price: '₩ 340,000',
     image_url:
@@ -42886,7 +42910,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 플로럴 브로치',
     price: '₩ 340,000',
     image_url:
@@ -42930,7 +42954,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '에나멜 메탈 로고 브로치',
     price: '₩ 280,000',
     image_url:
@@ -42969,7 +42993,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '에나멜 메탈 로고 브로치',
     price: '₩ 280,000',
     image_url:
@@ -43008,7 +43032,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '에나멜 메탈 로고 브로치',
     price: '₩ 280,000',
     image_url:
@@ -43047,7 +43071,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '울 및 캐시미어 트릭',
     price: '₩ 750,000',
     image_url:
@@ -43093,7 +43117,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '울 및 캐시미어 트릭',
     price: '₩ 750,000',
     image_url:
@@ -43139,7 +43163,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 트릭',
     price: '₩ 820,000',
     image_url:
@@ -43185,7 +43209,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 트릭',
     price: '₩ 820,000',
     image_url:
@@ -43224,7 +43248,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '시어링 및 나파 가죽 트릭',
     price: '₩ 620,000',
     image_url:
@@ -43270,7 +43294,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '시어링 및 나파 가죽 트릭',
     price: '₩ 620,000',
     image_url:
@@ -43316,7 +43340,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '트릭 가죽 키링',
     price: '₩ 610,000',
     image_url:
@@ -43362,7 +43386,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '트릭 가죽 키링',
     price: '₩ 610,000',
     image_url:
@@ -43408,7 +43432,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '트릭 가죽 키링',
     price: '₩ 610,000',
     image_url:
@@ -43447,7 +43471,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '트릭 가죽 키링',
     price: '₩ 610,000',
     image_url:
@@ -43486,7 +43510,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '트릭 가죽 키링',
     price: '₩ 610,000',
     image_url:
@@ -43525,7 +43549,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 트릭',
     price: '₩ 640,000',
     image_url:
@@ -43571,7 +43595,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 트릭',
     price: '₩ 640,000',
     image_url:
@@ -43617,7 +43641,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 트릭',
     price: '₩ 640,000',
     image_url:
@@ -43663,7 +43687,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 트릭',
     price: '₩ 640,000',
     image_url:
@@ -43709,7 +43733,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '메탈 및 가죽 키링 트릭',
     price: '₩ 820,000',
     image_url:
@@ -43799,7 +43823,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 키체인 트릭',
     price: '₩ 890,000',
     image_url:
@@ -43845,7 +43869,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 키체인 트릭',
     price: '₩ 890,000',
     image_url:
@@ -43891,7 +43915,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '미우 발레 가죽 키체인 트릭',
     price: '₩ 890,000',
     image_url:
@@ -43944,7 +43968,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽, 코드 및 금속 키링 트릭',
     price: '₩ 930,000',
     image_url:
@@ -43983,7 +44007,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽, 코드 및 메탈 트릭 키링',
     price: '₩ 890,000',
     image_url:
@@ -44029,7 +44053,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽, 코드 및 메탈 트릭 키링',
     price: '₩ 890,000',
     image_url:
@@ -44075,7 +44099,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽, 코드 및 메탈 트릭 키링',
     price: '₩ 890,000',
     image_url:
@@ -44121,7 +44145,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽, 코드 및 메탈 트릭 키링',
     price: '₩ 890,000',
     image_url:
@@ -44167,7 +44191,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 트릭',
     price: '₩ 1,030,000',
     image_url:
@@ -44212,7 +44236,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 트릭',
     price: '₩ 1,030,000',
     image_url:
@@ -44264,7 +44288,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 코드 및 트릭',
     price: '₩ 930,000',
     image_url:
@@ -44316,7 +44340,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 코드 및 트릭',
     price: '₩ 930,000',
     image_url:
@@ -44361,7 +44385,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 코드 및 트릭',
     price: '₩ 930,000',
     image_url:
@@ -44406,7 +44430,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 마이크로 트릭',
     price: '₩ 370,000',
     image_url:
@@ -44458,7 +44482,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 마이크로 트릭',
     price: '₩ 370,000',
     image_url:
@@ -44510,7 +44534,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 마이크로 트릭',
     price: '₩ 370,000',
     image_url:
@@ -44562,7 +44586,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 마이크로 트릭',
     price: '₩ 370,000',
     image_url:
@@ -44614,7 +44638,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 마이크로 트릭',
     price: '₩ 370,000',
     image_url:
@@ -44666,7 +44690,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 마이크로 트릭',
     price: '₩ 340,000',
     image_url:
@@ -44718,7 +44742,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 마이크로 트릭',
     price: '₩ 340,000',
     image_url:
@@ -44770,7 +44794,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 마이크로 트릭',
     price: '₩ 340,000',
     image_url:
@@ -44822,7 +44846,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 마이크로 트릭',
     price: '₩ 340,000',
     image_url:
@@ -44874,7 +44898,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 마이크로 트릭',
     price: '₩ 340,000',
     image_url:
@@ -44926,7 +44950,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 마이크로 트릭',
     price: '₩ 340,000',
     image_url:
@@ -44978,7 +45002,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 마이크로 트릭',
     price: '₩ 340,000',
     image_url:
@@ -45030,7 +45054,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 마이크로 트릭',
     price: '₩ 340,000',
     image_url:
@@ -45082,7 +45106,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 마이크로 트릭',
     price: '₩ 340,000',
     image_url:
@@ -45134,7 +45158,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 마이크로 트릭',
     price: '₩ 340,000',
     image_url:
@@ -45185,7 +45209,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 마이크로 트릭',
     price: '₩ 340,000',
     image_url:
@@ -45236,7 +45260,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 마이크로 트릭',
     price: '₩ 340,000',
     image_url:
@@ -45287,7 +45311,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 마이크로 트릭',
     price: '₩ 340,000',
     image_url:
@@ -45345,7 +45369,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 마이크로 트릭',
     price: '₩ 340,000',
     image_url:
@@ -45396,7 +45420,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 마이크로 트릭',
     price: '₩ 340,000',
     image_url:
@@ -45442,7 +45466,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 마이크로 트릭',
     price: '₩ 340,000',
     image_url:
@@ -45488,7 +45512,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 마이크로 트릭',
     price: '₩ 340,000',
     image_url:
@@ -45534,7 +45558,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 마이크로 트릭',
     price: '₩ 340,000',
     image_url:
@@ -45580,7 +45604,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 핀휠 브로치',
     price: '₩ 340,000',
     image_url:
@@ -45626,7 +45650,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 핀휠 브로치',
     price: '₩ 340,000',
     image_url:
@@ -45672,7 +45696,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 핀휠 브로치',
     price: '₩ 340,000',
     image_url:
@@ -45718,7 +45742,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 핀휠 브로치',
     price: '₩ 340,000',
     image_url:
@@ -45764,7 +45788,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '로고 장식 주사위 참',
     price: '₩ 215,000',
     image_url:
@@ -45810,7 +45834,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '나파 가죽 트릭',
     price: '₩ 750,000',
     image_url:
@@ -45856,7 +45880,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '나파 가죽 트릭',
     price: '₩ 750,000',
     image_url:
@@ -45902,7 +45926,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 트릭',
     price: '₩ 610,000',
     image_url:
@@ -45955,7 +45979,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 트릭',
     price: '₩ 610,000',
     image_url:
@@ -46001,7 +46025,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 트릭',
     price: '₩ 610,000',
     image_url:
@@ -46040,7 +46064,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '기술적 원사 트릭',
     price: '₩ 1,250,000',
     image_url:
@@ -46085,7 +46109,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '기능성 원사 트릭',
     price: '₩ 1,250,000',
     image_url:
@@ -46131,7 +46155,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '기능성 원사 트릭',
     price: '₩ 1,250,000',
     image_url:
@@ -46176,7 +46200,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '기능성 원사 트릭',
     price: '₩ 1,250,000',
     image_url:
@@ -46221,7 +46245,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '기능성 원사 트릭',
     price: '₩ 1,250,000',
     image_url:
@@ -46266,7 +46290,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '기능성 원사 트릭',
     price: '₩ 1,250,000',
     image_url:
@@ -46311,7 +46335,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '기능성 원사 트릭',
     price: '₩ 1,250,000',
     image_url:
@@ -46356,7 +46380,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 패치워크 숄더 스트랩',
     price: '₩ 1,160,000',
     image_url:
@@ -46402,7 +46426,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 마이크로 보 백',
     price: '₩ 1,620,000',
     image_url:
@@ -46461,7 +46485,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 마이크로 보 백',
     price: '₩ 1,620,000',
     image_url:
@@ -46520,7 +46544,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 마이크로 보 백',
     price: '₩ 1,620,000',
     image_url:
@@ -46579,7 +46603,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '완더 마테라쎄 나파 가죽 마이크로 호보백',
     price: '₩ 1,640,000',
     image_url:
@@ -46646,7 +46670,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 마이크로 트릭',
     price: '₩ 340,000',
     image_url:
@@ -46685,7 +46709,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 키링 트릭',
     price: '₩ 890,000',
     image_url:
@@ -46736,7 +46760,7 @@ export const products = [
 
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 플로럴 브로치',
     price: '₩ 340,000',
     image_url:
