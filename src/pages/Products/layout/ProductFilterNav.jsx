@@ -43,7 +43,7 @@ const ProductFilterNav = ({ list }) => {
           })}
         </ul>
         <div className="button-wrap">
-          <button onClick={toggleFilter}>필터 및 정렬</button>
+          <button>필터 및 정렬</button>
         </div>
       </div>
     </div>
