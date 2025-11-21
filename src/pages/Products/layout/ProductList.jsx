@@ -23,8 +23,9 @@ const ProductList = () => {
       onCate1(category1);
     }
   }, [category1, category2, tags]);
-  console.log('상품이미지?', filtered);
-  const showAd = category1 && category2;
+
+  //TODO AD상품
+  // const showAd = category1 && category2;
 
   return (
     <ul className="product-list">

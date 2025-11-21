@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
 import { useProductsStore } from '../../store/useProductsStore';
 import { useSearchState } from '../../store/useSearchState';
@@ -12,8 +12,10 @@ const SearchResult = () => {
   const query = searchParams.get('q');
   const { filtered, onSearch, onFetchItems } = useProductsStore();
   const { currentSearchQuery, setCurrentSearchQuery } = useSearchState();
+  const [filterItem, setFilterItem] = useState(null);
 
-  console.log('봐봐봐', filtered);
+  // 최종적으로 화면에 뿌릴 리스트 (필터 있으면 필터, 없으면 원본)
+  const displayList = filterItem ?? filtered ?? [];
 
   //TODO 아이템 정보 셋팅
   useEffect(() => {
@@ -30,27 +32,37 @@ const SearchResult = () => {
     }
   }, [query, onSearch, setCurrentSearchQuery]);
 
+  useEffect(() => {
+    console.log('filterItem 변경됨:', filterItem, displayList);
+  }, [filterItem]);
+
+  // console.log('봐봐봐', filtered);
+  // console.log('부모', filterItem);
+  // console.log('필터된거?', displayList);
+
   //TODO 화면에 보여줄 검색어: 주소창 검색어가 최우선, 없으면 기억된 검색어를 사용
   const displayQuery = query || currentSearchQuery;
 
   return (
     <div className="search-result-container">
-      <ProductFilterNav list={filtered} />
+      <ProductFilterNav list={filtered} query={query} onFilter={setFilterItem} />
+
       <div className="ProductBanner">
         <h2>
           "<span>{displayQuery || ''}</span>" 검색 결과
         </h2>
-        <span>({filtered.length})</span>
+        <span>({displayList.length})</span>
       </div>
+
       <ul className="search-product-list">
-        {filtered.map((p) => (
-          <li className="item" key={p.id}>
+        {displayList.map((p, i) => (
+          <li className="item" key={p.i}>
             <Link to={`/product/${p.id}`}>
               <img
                 src={
                   p.local_detail_images?.[0]
                     ? `/assets/images/detail/${p.local_detail_images[0]}`
-                    : p.local_detail_images?.[0]?.url || '/assets/images/default-product-image.png'
+                    : '/assets/images/default-product-image.png'
                 }
                 alt={p.name}
               />

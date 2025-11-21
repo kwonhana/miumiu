@@ -19,7 +19,7 @@
     display: flex;
     gap: 10px;
 
-    li .link {
+    li {
       padding: 20px;
       @include pd.font(1.6rem, 400, pd.$base);
 

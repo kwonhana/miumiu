@@ -26,9 +26,7 @@ const Category1 = () => {
     }
   }, [category1, category2, tags, onFetchItems, onCateOnly, onCateTag, onCate1]);
 
-  console.log('필터링 아이템', filtered);
   let filterCategory1 = Array.from(new Set(filtered.map((el) => el.categoryKor1)));
-  console.log(filterCategory1);
 
   return (
     <div className="Category1">
