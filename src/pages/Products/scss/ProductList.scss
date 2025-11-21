@@ -43,31 +43,6 @@
     aspect-ratio: 447/595;
     position: relative;
     min-width: 240px;
-
-    .swiper-button-next,
-    .swiper-button-prev {
-      display: none;
-    }
-
-    .my-swiper-button-prev,
-    .my-swiper-button-next {
-      position: absolute;
-      top: 35%;
-      transform: translateY(-35%);
-      background-color: transparent;
-      z-index: 10;
-      img {
-        width: 90%;
-      }
-    }
-
-    .my-swiper-button-next {
-      right: 1rem;
-    }
-
-    .my-swiper-button-prev {
-      left: 1rem;
-    }
   }
 
   // .item:hover {

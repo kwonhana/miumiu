@@ -2,33 +2,47 @@ import React, { useEffect } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
 import { useProductsStore } from '../../store/useProductsStore';
 import { useSearchState } from '../../store/useSearchState';
-import './scss/Products.scss';
+import './scss/SearchResult.scss';
+import ProductFilterNav from './layout/ProductFilterNav';
 
+//TODO 통합검색 결과 창
 const SearchResult = () => {
+  //
   const [searchParams] = useSearchParams();
   const query = searchParams.get('q');
   const { filtered, onSearch, onFetchItems } = useProductsStore();
   const { currentSearchQuery, setCurrentSearchQuery } = useSearchState();
 
+  console.log('봐봐봐', filtered);
+
+  //TODO 아이템 정보 셋팅
   useEffect(() => {
     onFetchItems();
   }, [onFetchItems]);
+
+  //TODO 주소창의 검색어(query)가 바뀔 때마다 실행
   useEffect(() => {
     if (query) {
+      // TODO 새 검색어로 상품 목록 필터링
       onSearch(query);
+      // TODO 필터링에 쓴 검색어를 저장소에 "현재 검색어로 기억시킨다."
       setCurrentSearchQuery(query);
     }
   }, [query, onSearch, setCurrentSearchQuery]);
 
+  //TODO 화면에 보여줄 검색어: 주소창 검색어가 최우선, 없으면 기억된 검색어를 사용
   const displayQuery = query || currentSearchQuery;
 
   return (
     <div className="search-result-container">
+      <ProductFilterNav list={filtered} />
       <div className="ProductBanner">
-        <h2>"{displayQuery || ''}"검색 결과</h2>
-        <span>{filtered.length}개의 상품</span>
+        <h2>
+          "<span>{displayQuery || ''}</span>" 검색 결과
+        </h2>
+        <span>({filtered.length})</span>
       </div>
-      <ul className="product-list">
+      <ul className="search-product-list">
         {filtered.map((p) => (
           <li className="item" key={p.id}>
             <Link to={`/product/${p.id}`}>

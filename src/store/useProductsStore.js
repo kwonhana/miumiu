@@ -31,13 +31,10 @@ export const useProductsStore = create((set, get) => ({
         product.category1,
         product.category2,
         product.name,
-        product.price,
-        product.subtitle,
         product.material,
         product.kor,
         product.tags,
         product.tags2,
-        ...(Array.isArray(product.bullet_points) ? product.bullet_points : []),
       ]
         .filter(Boolean)
         .join(' ')
@@ -48,6 +45,8 @@ export const useProductsStore = create((set, get) => ({
 
     set({ filtered: results });
     console.log('Search results (filtered):', results);
+
+    return results;
   },
 
   //TODO 카테고리1 + 카테고리2 상품 필터링 (filtered에 저장)

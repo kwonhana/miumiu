@@ -43,7 +43,7 @@ export const useSearchState = create((set, get) => ({
     //TODO 중복 제거, 최신 우선, 9개 제한
     get().addLastSearch(trimmedWord);
 
-    // TODO currentSearchQuery만 설정
+    // TODO currentSearchQuery => 핵심 검색어
     set({ currentSearchQuery: trimmedWord });
   },
 
@@ -80,5 +80,9 @@ export const useSearchState = create((set, get) => ({
       return { lastSearch: updated };
     });
   },
+
+  //TODO Zustand 업데이트 => 페이지 이동시 필요
   setCurrentSearchQuery: (query) => set({ currentSearchQuery: query }),
+
+  //TODO 렌더링 위치 상태 설정
 }));

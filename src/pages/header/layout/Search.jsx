@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { useSearchState } from '../../../store/useSearchState';
 import { useNavigate } from 'react-router-dom';
-import { products } from '../../../api/products';
 import '../scss/search.scss';
 import { useProductsStore } from '../../../store/useProductsStore';
 
@@ -10,40 +9,21 @@ const Search = ({ isOpen, onClose }) => {
   const { searchWord, setSearchWord, lastSearch, addLastSearch, clearSearchWord, onSearchDelete } =
     useSearchState();
   const [showNoResult, setShowNoResult] = useState(false);
-  const [failedSearchWord, setFailedSearchWord] = useState('');
-  const { items, onFetchItems } = useProductsStore();
+  const [failedSearchWord, setFailedSearchWord] = useState(''); // onSearch를 useProductsStore에서 가져와 사용합니다.
+  const { onSearch } = useProductsStore();
 
   // TODO 최근 검색어 목록에 단어 추가
   const executeSearch = (word) => {
     addLastSearch(word);
   };
 
-  // TODO 검색어와 일치하는 상품이 있는지 확인하는 함수
-  const checkSearchResults = (word) => {
-    const query = word.toLowerCase().trim();
-    const results = products.filter((product) => {
-      const searchableText = [
-        product.category1,
-        product.category2,
-        product.name,
-        product.price,
-        product.subtitle,
-        product.material,
-        ...(Array.isArray(product.bullet_points) ? product.bullet_points : []),
-      ]
-        .filter(Boolean)
-        .join('')
-        .toLowerCase();
-      return searchableText.includes(query);
-    });
-    return results.length > 0;
-  };
-
   // TODO  검색 성공/실패에 따라 UI 및 페이지 이동 처리
   const performSearch = (word) => {
     if (!word || word.trim() === '') return;
     const trimmedWord = word.trim();
-    const hasResults = checkSearchResults(trimmedWord);
+    const results = onSearch(trimmedWord);
+    const hasResults = results.length > 0;
+
     // TODO  검색 성공 시:
     if (hasResults) {
       executeSearch(trimmedWord);
