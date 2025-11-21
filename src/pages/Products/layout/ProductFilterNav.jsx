@@ -3,7 +3,8 @@ import '../scss/ProductFilterWrap.scss';
 import { Link } from 'react-router-dom';
 
 const ProductFilterNav = ({ list, query, onFilter }) => {
-  const cate = Array.from(new Set(list.map((el) => el.categoryKor1)));
+  const cate = Array.from(new Set(list.map((el) => el.category1)));
+  const cateKor = Array.from(new Set(list.map((el) => el.categoryKor1)));
 
   const cateObj = Array.from(
     new Map(
@@ -30,25 +31,38 @@ const ProductFilterNav = ({ list, query, onFilter }) => {
     console.log('자식', filterItem);
     if (query) onFilter(filterItem);
   };
+
+  const handleShowAll = () => {
+    if (query) {
+      onFilter(list);
+    }
+  };
+
   return (
     <div className="ProductNav">
       <div className="nav-inner">
         <ul>
           <li>
-            <Link to={`/${cate}`} className="link">
-              모든 룩 보기
-            </Link>
+            {!query ? (
+              <Link to={`/${cate}/`} className="link">
+                모든 룩 보기
+              </Link>
+            ) : (
+              // 🚀 query가 true일 때 (검색 결과 페이지): Button 사용
+              <button className="link" onClick={handleShowAll}>
+                모든 룩 보기
+              </button>
+            )}
           </li>
-
           {!query
             ? cateObj.map((el, i) => (
                 <li key={i}>
-                  <Link to={`/${el.cate}/${el.ce2}`} className="link">
+                  <Link to={`/${el.cate}/${el.cate2}`} className="link">
                     {el.kor2}
                   </Link>
                 </li>
               ))
-            : cate.map((c, id) => (
+            : cateKor.map((c, id) => (
                 <li key={id}>
                   <button onClick={() => handleFilter(c)}>{c}</button>
                 </li>

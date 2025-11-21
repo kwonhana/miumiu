@@ -1,6 +1,6 @@
 import { create } from 'zustand';
 
-//TODO 검색어 저장 관련
+// TODO 검색어 저장 관련
 const LAST_SEARCH_KEY = 'lastSearchSessionState';
 
 // TODO 세션 스토리지에서 데이터를 불러오기

@@ -38,17 +38,13 @@ const Lnb = ({ isOpen, onClose }) => {
           {menuKeys.map((key) => (
             <LnbSubMenu
               key={key}
-              categoryKey={key} // 🚀 Zustand Store에서 데이터 조회할 키
-              isActive={activeMenu === key} // 🚀 Store에서 가져온 activeMenu 사용
+              categoryKey={key}
+              isActive={activeMenu === key}
               onCloseLnb={handleClose}
             />
           ))}
         </div>
       </nav>
-      {/* headerBlock은 이제 딤드 배경이 역할을 대신하거나, 
-          필요하다면 lnb-dimmed 위에 적절한 위치에 스타일링해야 합니다. 
-          일단은 주석 처리합니다. 필요하다면 다시 살리셔도 됩니다.
-          <div className="headerBlock"></div> */}
     </>
   );
 };
