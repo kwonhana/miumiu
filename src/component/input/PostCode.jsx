@@ -1,15 +1,13 @@
 import React, { useState } from 'react';
 import './scss/Input.scss';
 
-const PostCode = () => {
-  const [postCode, setPostCode] = useState('');
-
+const PostCode = ({ postCode, onPostCode }) => {
   const postInput = /^[0-9]*$/;
 
   const handlePostCode = (e) => {
-    if (postInput.test(e.target.value)) {
-      setPostCode(e.target.value);
-    }
+    const value = e.target.value;
+    if (!postInput.test(value)) return;
+    onPostCode(value);
   };
 
   return (

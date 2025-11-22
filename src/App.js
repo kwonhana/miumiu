@@ -59,9 +59,13 @@ function App() {
         <Route path="orderComplete" element={<OrderComplete />} />
         <Route path="orderSummary" element={<OrderSummary />} />
         <Route path="payment" element={<Payment />} />
+<<<<<<< Updated upstream
         <Route path="shipping" element={<Shipping />} />
         <Route path="wishlist" element={<WIshList />} />
         <Route path="myOrder" element={<MyOrder />} />
+=======
+        <Route path="/shipping" element={<Shipping />} />
+>>>>>>> Stashed changes
         <Route path="searchResult" element={<SearchResult />} />
         {/* <Route path="/:category1" element={<Products />} />
         <Route path="/:category1/:category2" element={<Products />} />

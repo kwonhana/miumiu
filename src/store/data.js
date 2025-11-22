@@ -280,3 +280,42 @@ export const country = [
   { code: 'JP', label: 'JP +81', dial: '+81' },
   { code: 'CN', label: 'CN +86', dial: '+86' },
 ];
+
+// TODO Shipping.jsx 데이터
+export const store = [
+  {
+    id: 'store1',
+    name: 'selectedStore',
+    value: '청담',
+    title: '미우미우 청담점',
+    address: '서울시 강남구 압구정로 439 미우미우 매장 1-2층',
+    number: '02-547-7443',
+  },
+  {
+    id: 'store2',
+    name: 'selectedStore',
+    value: '강남',
+    title: '미우미우 신세계백화점 강남점',
+    address: '서울시 서초구 신반포로 176 신세계백화점강남점 2F',
+    number: '02-3479-6182',
+  },
+];
+
+export const coupon = [
+  {
+    id: 'coupon1',
+    name: 'selectCoupon',
+    value: '10%',
+    title: '10% 할인 쿠폰',
+    address: '100만원 이상 구매시 사용가능',
+    number: '2026.08.31 까지',
+  },
+  {
+    id: 'coupon2',
+    name: 'selectCoupon',
+    value: '15%',
+    title: '15% 할인 쿠폰',
+    address: '150만원 이상 구매시 사용가능',
+    number: '2026.08.31 까지',
+  },
+];

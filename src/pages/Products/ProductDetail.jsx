@@ -1,6 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import Button from '../../component/layout/Button';
+<<<<<<< Updated upstream
 import { Link, useParams } from 'react-router-dom';
+=======
+import './scss/ProductDetail.scss';
+import { Link, useNavigate, useParams } from 'react-router-dom';
+>>>>>>> Stashed changes
 import { useProductsStore } from '../../store/useProductsStore';
 import ProductSkeleton from './layout/ProductSkeleton';
 import ProductDetailNav from './layout/ProductDetailNav';
@@ -8,6 +13,13 @@ import ProductShoesSize from './layout/ProductShoesSize';
 import './scss/ProductDetail.scss';
 
 const ProductDetail = () => {
+  const navigate = useNavigate();
+  // TODO Shipping 페이지로 연결
+  const handleShipping = () => {
+    console.log('결제페이지로 넘어가거라');
+    navigate('/shipping');
+  };
+
   const { id } = useParams();
   const { items, onFetchItems } = useProductsStore();
   //상품을 저장하는 변수
@@ -105,7 +117,7 @@ const ProductDetail = () => {
 
               <div className="button-wrap">
                 <Button title="장바구니 담기" />
-                <Button title="구매하기" />
+                <Button onClick={handleShipping} title="구매하기" />
               </div>
             </div>
           </div>
