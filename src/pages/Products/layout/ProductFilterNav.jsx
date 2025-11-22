@@ -21,6 +21,9 @@ const ProductFilterNav = ({ list = [], onFilterChange }) => {
   const fabricList = Array.from(
     new Set(list.map((el) => normalizeMaterial(el.material)).filter((m) => m && m.trim() !== ''))
   );
+const ProductFilterNav = ({ list, query, onFilter }) => {
+  const cate = Array.from(new Set(list.map((el) => el.category1)));
+  const cateKor = Array.from(new Set(list.map((el) => el.categoryKor1)));
 
   const cateObj = Array.from(
     new Map(
@@ -51,29 +54,24 @@ const ProductFilterNav = ({ list = [], onFilterChange }) => {
     onFilterChange && onFilterChange(result);
     setFilterOpen(false);
   };
+
   return (
     <div className="ProductNav">
       <div className="nav-inner">
         <ul>
           <li>
-            <Link to={`/${cate}`} className="link">
+            <Link to={`/${currentCategory}`} className="link">
               모든 룩 보기
             </Link>
           </li>
 
-          {!query
-            ? cateObj.map((el, i) => (
-                <li key={i}>
-                  <Link to={`/${el.cate}/${el.ce2}`} className="link">
-                    {el.kor2}
-                  </Link>
-                </li>
-              ))
-            : cate.map((c, id) => (
-                <li key={id}>
-                  <button onClick={() => handleFilter(c)}>{c}</button>
-                </li>
-              ))}
+          {cateObj.map((el, i) => (
+            <li key={i}>
+              <Link to={`/${el.cate}/${el.cate2}`} className="link">
+                {el.kor2}
+              </Link>
+            </li>
+          ))}
         </ul>
 
         <div className="button-wrap" onClick={() => setFilterOpen(true)}>
