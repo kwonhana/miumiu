@@ -8,8 +8,9 @@ import ProductList from './layout/ProductList';
 
 const Category1 = () => {
   const { category1, category2, tags } = useParams();
-  const { filtered, onFetchItems, onCateOnly, onCateTag, onCate1 } = useProductsStore();
+  const { filtered, onFetchItems, onCateOnly, onCateTag, onCate1, items } = useProductsStore();
   // const { cateImg, setCateImg } = useState('');
+  console.log(category1, category2, 'zzzzzzzzzzz');
 
   useEffect(() => {
     onFetchItems();
