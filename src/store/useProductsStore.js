@@ -1,6 +1,6 @@
 import { create } from 'zustand';
 import { products } from '../api/products';
-import { categoryKorMap } from './data';
+import { categoryKorMap, CustomItem } from './data';
 
 export const useProductsStore = create((set, get) => ({
   // TODO-------- 상품 ----------
@@ -118,6 +118,17 @@ export const useProductsStore = create((set, get) => ({
 
     set({ filtered });
     console.log('onTags 필터됨:', filtered);
+    return filtered;
+  },
+  //TODO custom 상품의 경우
+  onCustomStyle: (style) => {
+    const items = get().items;
+    const customItems = CustomItem.filter((item) => item.style === style);
+    const filtered = items.filter((item) =>
+      customItems.some((custom) => custom.itemId === item.id)
+    );
+    set({ filtered });
+    console.log('onCustomStyle 필터됨:', filtered);
     return filtered;
   },
 
