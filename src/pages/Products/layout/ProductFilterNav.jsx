@@ -1,26 +1,7 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import Button from '../../../component/layout/Button';
-import ProductFilterWrap from './ProductFilterWrap';
 import '../scss/ProductFilterWrap.scss';
+import { Link } from 'react-router-dom';
 
-const normalizeMaterial = (mat) => (mat ? mat.replace(/^주 소재:\s*/, '').trim() : '');
-
-const ProductFilterNav = ({ list = [], onFilterChange }) => {
-  const [filterOpen, setFilterOpen] = useState(false);
-
-  const cate = Array.from(new Set(list.map((el) => el.category1)));
-  const currentCategory = cate[0] || '';
-
-  const isCollecCate = ['bags', 'shoes'].includes(currentCategory);
-
-  const collectionList = isCollecCate
-    ? Array.from(new Set(list.map((el) => el.tags).filter((tag) => tag && tag.trim() !== '')))
-    : [];
-
-  const fabricList = Array.from(
-    new Set(list.map((el) => normalizeMaterial(el.material)).filter((m) => m && m.trim() !== ''))
-  );
 const ProductFilterNav = ({ list, query, onFilter }) => {
   const cate = Array.from(new Set(list.map((el) => el.category1)));
   const cateKor = Array.from(new Set(list.map((el) => el.categoryKor1)));
@@ -28,10 +9,11 @@ const ProductFilterNav = ({ list, query, onFilter }) => {
   const cateObj = Array.from(
     new Map(
       list.map((el) => {
-        const key = `${el.categoryKor2}-${el.category2}`;
+        const key = `${el.categoryKor2}-${el.category1}-${el.category2}`;
         return [
           key,
           {
+            kor1: el.categoryKor1,
             kor2: el.categoryKor2,
             cate: el.category1,
             cate2: el.category2,
@@ -41,18 +23,19 @@ const ProductFilterNav = ({ list, query, onFilter }) => {
     ).values()
   );
 
-  const handleApplyFilter = ({ collection, fabric }) => {
-    let result = [...list];
+  console.log(cateObj, cate, query);
+  const handleFilter = (id) => {
+    console.log(id);
+    const filterItem = list.filter((list) => list.categoryKor1 === id);
+    console.log('원본', list);
+    console.log('자식', filterItem);
+    if (query) onFilter(filterItem);
+  };
 
-    if (collection) {
-      result = result.filter((item) => item.tags === collection);
+  const handleShowAll = () => {
+    if (query) {
+      onFilter(list);
     }
-    if (fabric) {
-      result = result.filter((item) => normalizeMaterial(item.material) === fabric);
-    }
-
-    onFilterChange && onFilterChange(result);
-    setFilterOpen(false);
   };
 
   return (
@@ -60,32 +43,36 @@ const ProductFilterNav = ({ list, query, onFilter }) => {
       <div className="nav-inner">
         <ul>
           <li>
-            <Link to={`/${currentCategory}`} className="link">
-              모든 룩 보기
-            </Link>
-          </li>
-
-          {cateObj.map((el, i) => (
-            <li key={i}>
-              <Link to={`/${el.cate}/${el.cate2}`} className="link">
-                {el.kor2}
+            {!query ? (
+              <Link to={`/${cate}/`} className="link">
+                모든 룩 보기
               </Link>
-            </li>
-          ))}
+            ) : (
+              // 🚀 query가 true일 때 (검색 결과 페이지): Button 사용
+              <button className="link" onClick={handleShowAll}>
+                모든 룩 보기
+              </button>
+            )}
+          </li>
+          {!query
+            ? cateObj.map((el, i) => (
+                <li key={i}>
+                  <Link to={`/${el.cate}/${el.cate2}`} className="link">
+                    {el.kor2}
+                  </Link>
+                </li>
+              ))
+            : cateKor.map((c, id) => (
+                <li key={id}>
+                  <button onClick={() => handleFilter(c)}>{c}</button>
+                </li>
+              ))}
         </ul>
 
-        <div className="button-wrap" onClick={() => setFilterOpen(true)}>
-          <Button title="필터 및 정렬" />
+        <div className="button-wrap">
+          <button>필터 및 정렬</button>
         </div>
       </div>
-
-      <ProductFilterWrap
-        isOpen={filterOpen}
-        onClose={() => setFilterOpen(false)}
-        collection={collectionList}
-        fabric={fabricList}
-        onApplyFilter={handleApplyFilter}
-      />
     </div>
   );
 };
