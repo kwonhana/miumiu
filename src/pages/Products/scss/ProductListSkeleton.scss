@@ -1,0 +1,16 @@
+@use '../../../App.scss' as pd;
+.ProductListSkeleton {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 4px;
+  max-width: 2400px;
+  margin: 0 auto;
+
+  .item {
+    aspect-ratio: 447/595;
+    position: relative;
+    min-width: 240px;
+    background-color: pd.$skeleton;
+    background-color: red;
+  }
+}
