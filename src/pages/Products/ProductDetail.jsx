@@ -1,11 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Button from '../../component/layout/Button';
-<<<<<<< Updated upstream
-import { Link, useParams } from 'react-router-dom';
-=======
 import './scss/ProductDetail.scss';
 import { Link, useNavigate, useParams } from 'react-router-dom';
->>>>>>> Stashed changes
 import { useProductsStore } from '../../store/useProductsStore';
 import ProductSkeleton from './layout/ProductSkeleton';
 import ProductDetailNav from './layout/ProductDetailNav';

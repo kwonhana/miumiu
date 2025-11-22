@@ -287,7 +287,6 @@ export const country = [
   { code: 'CN', label: 'CN +86', dial: '+86' },
 ];
 
-<<<<<<< HEAD
 // TODO Shipping.jsx 데이터
 export const store = [
   {
@@ -325,60 +324,6 @@ export const coupon = [
     address: '150만원 이상 구매시 사용가능',
     number: '2026.08.31 까지',
   },
-]
-//TODO CustomStudio
-export const CustomItem = [
-  { style: 'Closet', itemId: '5BZ042_2CRW_F0002_V_OOO' },
-  { style: 'Custom', itemId: '5MH033_2FPP_F0164' },
-  { style: 'Closet', itemId: '5E114E_054_F0F24_F_005' },
-  { style: 'Custom', itemId: '5ID007_2FLQ_F0016' },
-  { style: 'Custom', itemId: '5ID010_2FLQ_F0Z9N' },
-  { style: 'Custom', itemId: '5ID008_2FLQ_F04MV' },
-  { style: 'Closet', itemId: '5BC181_2BBL_F0NBL_V_OOO' },
-  { style: 'Custom', itemId: '5ID016_2FLQ_F0N13' },
-  { style: 'Closet', itemId: '5BP088_ACR3_F0002_V_OOO' },
-  { style: 'Custom', itemId: '5ID007_2FLQ_F0046' },
-  { style: 'Closet', itemId: '5D276E_055_F0002_F_050' },
-  { style: 'Closet', itemId: '5BZ043_2CRW_F0009_V_OOM' },
-  { style: 'Custom', itemId: '5ID010_2FLQ_F04QX' },
-  { style: 'Custom', itemId: '5MH033_AFPP_F0NBL' },
-  { style: 'Custom', itemId: '5MH033_AFPP_F0164' },
-  { style: 'Closet', itemId: 'SMU04Z_SVAU_FE08N_C_A050' },
-  { style: 'Custom', itemId: '5MH033_AFPP_F0934' },
-  { style: 'Closet', itemId: '5E114E_054_F0007_F_005' },
-  { style: 'Custom', itemId: '5TT281_2FLQ_F04YR' },
-  { style: 'Closet', itemId: 'SMUB01_S16K_FE08N_C_A058' },
-  { style: 'Closet', itemId: '5BP088_ACR3_F0046_V_OOO' },
-  { style: 'Custom', itemId: '5ID008_2FLQ_F0VJS' },
-  { style: 'Closet', itemId: '5BZ043_AF6P_F0201_V_OOO' },
-  { style: 'Custom', itemId: '5ID010_2FLQ_F0F5C' },
-  { style: 'Custom', itemId: '5MH033_AFPP_F0002' },
-  { style: 'Custom', itemId: '5ID007_2FLQ_F0009' },
-  { style: 'Custom', itemId: '5ID007_2FLQ_F0637' },
-  { style: 'Closet', itemId: '5BZ043_2CRW_F0046_V_OOO' },
-  { style: 'Closet', itemId: '5BC182_2BBL_F0316_V_OOO' },
-  { style: 'Custom', itemId: '5ID016_2FLQ_F0WK7' },
-  { style: 'Closet', itemId: '5BZ042_2CRW_F0046_V_OOO' },
-  { style: 'Closet', itemId: '5BP088_ACR3_F0NBL_V_OOO' },
-  { style: 'Custom', itemId: '5ML024_2FPP_F0002' },
-  { style: 'Custom', itemId: '5ID007_2FLQ_F0011' },
-  { style: 'Custom', itemId: '5ID007_2FLQ_F0L76' },
-  { style: 'Custom', itemId: '5BF131_2IEO_F0002_V_OOO' },
-  { style: 'Closet', itemId: '5BC182_2BBL_F0002_V_OOO' },
-  { style: 'Closet', itemId: 'SMUB03_E14L_FE20I_C_A053' },
-  { style: 'Custom', itemId: '5ID007_2FLQ_F0R55' },
-  { style: 'Closet', itemId: '5BZ042_AF6P_F0R55_V_OOO' },
-  { style: 'Custom', itemId: '5BF131_2IEO_F0041_V_OOO' },
-  { style: 'Custom', itemId: '5MV204_AF6Q_F0201' },
-  { style: 'Custom', itemId: '5ID016_2FLQ_F03XH' },
-  { style: 'Closet', itemId: '5E114E_054_F0008_F_005' },
-  { style: 'Custom', itemId: '5ID016_2FLQ_F0Q07' },
-  { style: 'Custom', itemId: '5ID008_2FLQ_F0NP5' },
-  { style: 'Closet', itemId: 'SMUB03_E16K_FE90Q_C_A053' },
-  { style: 'Closet', itemId: '5F794D_QU6_F0002_F_DX05' },
-  { style: 'Closet', itemId: '5F794D_QU6_F0615_F_DX05' },
-  { style: 'Custom', itemId: '5BF131_2IEO_F0009_V_OOO' },
->>>>>>> origin/main
 ];
 
 //TODO CustomStudio
