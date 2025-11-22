@@ -3,7 +3,7 @@ import Button from '../../component/layout/Button';
 import './scss/ProductDetail.scss';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import { useProductsStore } from '../../store/useProductsStore';
-import ProductSkeleton from './layout/ProductSkeleton';
+import ProductDetailSkeleton from './layout/ProductDetailSkeleton';
 import ProductDetailNav from './layout/ProductDetailNav';
 import ProductShoesSize from './layout/ProductShoesSize';
 import './scss/ProductDetail.scss';
@@ -77,7 +77,7 @@ const ProductDetail = () => {
   };
 
   if (!product) {
-    return <ProductSkeleton />;
+    return <ProductDetailSkeleton />;
   }
 
   return (
