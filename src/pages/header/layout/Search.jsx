@@ -69,7 +69,7 @@ const Search = ({ isOpen, onClose }) => {
   return (
     <div className={`search-wrap ${isOpen ? 'active' : ''}`}>
       <div className="background" onClick={onClose}>
-        <div className="container">
+        <div className="container" onClick={(e) => e.stopPropagation()}>
           <div className="box">
             <div className="search-box">
               <input

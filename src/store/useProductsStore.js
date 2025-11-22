@@ -19,7 +19,7 @@ export const useProductsStore = create((set, get) => ({
       tags: item.tags || '',
       tags2: item.tags2 || '',
     }));
-    set({ items: enriched });
+    set({ items: enriched, filtered: enriched });
     console.log('Fetched items:', enriched);
   },
   onSearch: (word) => {
@@ -119,6 +119,37 @@ export const useProductsStore = create((set, get) => ({
     set({ filtered });
     console.log('onTags 필터됨:', filtered);
     return filtered;
+  },
+
+  //TODO 필터적용함수
+  onApplyFilter: (filters) => {
+    const items = get().items; // 항상 원본 items에서 시작!
+    let result = [...items];
+
+    console.log('필터 적용 시작:', filters);
+    console.log('원본 items 개수:', items.length);
+
+    // 컬렉션 필터 (tags 기반)
+    if (filters.collection) {
+      result = result.filter((item) => item.tags === filters.collection);
+      console.log(`컬렉션 필터 적용 (${filters.collection}):`, result.length, '개');
+    }
+
+    // 소재 필터 (material 기반)
+    if (filters.fabric) {
+      result = result.filter((item) => {
+        const material = item.material ? item.material.replace(/^주 소재:\s*/, '').trim() : '';
+        return material === filters.fabric;
+      });
+      console.log(`소재 필터 적용 (${filters.fabric}):`, result.length, '개');
+    }
+    set({ filtered: result });
+  },
+  // TODO필터 초기화 함수
+  onResetFilter: () => {
+    const items = get().items;
+    console.log('필터 초기화: 전체', items.length, '개 상품으로 복원');
+    set({ filtered: items });
   },
 
   // TODO-------- 메뉴 생성 ----------

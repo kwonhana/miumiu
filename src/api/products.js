@@ -7611,7 +7611,7 @@ export const products = [
       '두드러지는 로고',
     ],
     size_info: ['폭 1.5cm', '길이 1.45cm'],
-    material: '주 소재: 에나멜, 브라스',
+    material: '주 소재: 에나멜',
     detail_images: [
       {
         type: 'thumbnail',
@@ -7656,7 +7656,7 @@ export const products = [
       '두드러지는 로고',
     ],
     size_info: ['폭 1.5cm', '길이 1.45cm'],
-    material: '주 소재: 에나멜, 브라스',
+    material: '주 소재: 에나멜',
     detail_images: [
       {
         type: 'thumbnail',
@@ -7701,7 +7701,7 @@ export const products = [
       '두드러지는 로고',
     ],
     size_info: ['폭 1.5cm', '길이 1.45cm'],
-    material: '주 소재: 에나멜, 브라스',
+    material: '주 소재: 에나멜',
     detail_images: [
       {
         type: 'thumbnail',
@@ -7746,7 +7746,7 @@ export const products = [
       '두드러지는 로고',
     ],
     size_info: ['폭 1.5cm', '길이 1.45cm'],
-    material: '주 소재: 에나멜, 브라스',
+    material: '주 소재: 에나멜',
     detail_images: [
       {
         type: 'thumbnail',
@@ -7798,7 +7798,7 @@ export const products = [
       '두드러지는 로고',
     ],
     size_info: ['폭 1.5cm', '길이 1.45cm'],
-    material: '주 소재: 에나멜, 브라스',
+    material: '주 소재: 에나멜',
     detail_images: [
       {
         type: 'thumbnail',
@@ -7836,7 +7836,7 @@ export const products = [
       '두드러지는 로고',
     ],
     size_info: ['폭 1.5cm', '길이 1.45cm'],
-    material: '주 소재: 에나멜, 브라스',
+    material: '주 소재: 에나멜',
     detail_images: [
       {
         type: 'thumbnail',
@@ -7874,7 +7874,7 @@ export const products = [
       '두드러지는 로고',
     ],
     size_info: ['폭 1.5cm', '길이 1.45cm'],
-    material: '주 소재: 에나멜, 브라스',
+    material: '주 소재: 에나멜',
     detail_images: [
       {
         type: 'thumbnail',
@@ -11719,7 +11719,7 @@ export const products = [
       '스크린 프린트 로고 인솔',
     ],
     size_info: [],
-    material: '주 소재: 면',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -11772,7 +11772,7 @@ export const products = [
       'EVA 솔',
     ],
     size_info: [],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -11944,7 +11944,7 @@ export const products = [
       '**실시간 재고 상황 변동으로 인해 주문이 취소될 수 있음을 알려 드립니다. 양해 부탁드립니다.',
     ],
     size_info: [],
-    material: '주 소재: 재생 폴리아미드',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -11999,7 +11999,7 @@ export const products = [
       '**실시간 재고 상황 변동으로 인해 주문이 취소될 수 있음을 알려 드립니다. 양해 부탁드립니다.',
     ],
     size_info: [],
-    material: '주 소재: 재생 폴리아미드',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -12054,7 +12054,7 @@ export const products = [
       '**실시간 재고 상황 변동으로 인해 주문이 취소될 수 있음을 알려 드립니다. 양해 부탁드립니다.',
     ],
     size_info: [],
-    material: '주 소재: 재생 폴리아미드',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -12493,7 +12493,7 @@ export const products = [
       '스크린 프린트 로고 스트랩 및 솔',
     ],
     size_info: [],
-    material: '주 소재: 재생 폴리아미드',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -12548,7 +12548,7 @@ export const products = [
       '가죽 커버 인솔',
     ],
     size_info: [],
-    material: '주 소재: 실크, 비스코스',
+    material: '주 소재: 실크',
     detail_images: [
       {
         type: 'thumbnail',
@@ -12610,7 +12610,7 @@ export const products = [
       '가죽 커버 인솔',
     ],
     size_info: [],
-    material: '주 소재: 실크, 비스코스',
+    material: '주 소재: 실크',
     detail_images: [
       {
         type: 'thumbnail',
@@ -12665,7 +12665,7 @@ export const products = [
       '가죽 커버 인솔',
     ],
     size_info: [],
-    material: '주 소재: 실크, 비스코스',
+    material: '주 소재: 실크',
     detail_images: [
       {
         type: 'thumbnail',
@@ -13439,7 +13439,7 @@ export const products = [
       '스크린 프린트 로고 인솔',
     ],
     size_info: [],
-    material: '주 소재: 폴리아미드 버진 울',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -16812,7 +16812,7 @@ export const products = [
       '스크린 프린트 로고 텅, 힐 칼라, 인솔',
     ],
     size_info: [],
-    material: '주 소재: 재생 폴리아미드',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -16874,7 +16874,7 @@ export const products = [
       '스크린 프린트 로고 텅, 힐 칼라, 인솔',
     ],
     size_info: [],
-    material: '주 소재: 재생 폴리아미드',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -16938,7 +16938,7 @@ export const products = [
       '*실시간 재고 상황 변동으로 인해 주문이 취소될 수 있음을 알려 드립니다. 양해 부탁드립니다.',
     ],
     size_info: [],
-    material: '주 소재: 재생 폴리아미드',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -17002,7 +17002,7 @@ export const products = [
       '*실시간 재고 상황 변동으로 인해 주문이 취소될 수 있음을 알려 드립니다. 양해 부탁드립니다.',
     ],
     size_info: [],
-    material: '주 소재: 재생 폴리아미드',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -17059,7 +17059,7 @@ export const products = [
       '*실시간 재고 상황 변동으로 인해 주문이 취소될 수 있음을 알려 드립니다. 양해 부탁드립니다.',
     ],
     size_info: [],
-    material: '주 소재: 재생 폴리아미드',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -17171,7 +17171,7 @@ export const products = [
       '텅, 힐, 인솔 실크스크린 로고',
     ],
     size_info: [],
-    material: '주 소재: 재생 폴리아미드',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -17235,7 +17235,7 @@ export const products = [
       '텅, 힐, 인솔 실크스크린 로고',
     ],
     size_info: [],
-    material: '주 소재: 재생 폴리아미드',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -17299,7 +17299,7 @@ export const products = [
       '텅, 힐, 인솔 실크스크린 로고',
     ],
     size_info: [],
-    material: '주 소재: 재생 폴리아미드',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -17370,7 +17370,7 @@ export const products = [
       '텅, 힐, 인솔 실크스크린 로고',
     ],
     size_info: [],
-    material: '주 소재: 재생 폴리아미드',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -17441,7 +17441,7 @@ export const products = [
       '텅, 힐, 인솔 실크스크린 로고',
     ],
     size_info: [],
-    material: '주 소재: 재생 폴리아미드',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -17643,7 +17643,7 @@ export const products = [
       '탈부착형 패브릭 커버 인솔',
     ],
     size_info: [],
-    material: '주 소재: 재생 폴리아미드',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -17700,7 +17700,7 @@ export const products = [
       '탈부착형 패브릭 커버 인솔',
     ],
     size_info: [],
-    material: '주 소재: 재생 폴리아미드',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -17755,7 +17755,7 @@ export const products = [
       '패브릭 커버 탈부착 인솔',
     ],
     size_info: [],
-    material: '주 소재: 열가소성 폴리우레탄 폴리에스터 폴리우레탄',
+    material: '주 소재: 폴리에스터',
     detail_images: [
       {
         type: 'thumbnail',
@@ -17810,7 +17810,7 @@ export const products = [
       '패브릭 커버 탈부착 인솔',
     ],
     size_info: [],
-    material: '주 소재: 열가소성 폴리우레탄 폴리에스터 폴리우레탄',
+    material: '주 소재: 폴리에스터',
     detail_images: [
       {
         type: 'thumbnail',
@@ -17865,7 +17865,7 @@ export const products = [
       '패브릭 커버 탈부착 인솔',
     ],
     size_info: [],
-    material: '주 소재: 열가소성 폴리우레탄 폴리에스터 폴리우레탄',
+    material: '주 소재: 폴리에스터',
     detail_images: [
       {
         type: 'thumbnail',
@@ -17922,7 +17922,7 @@ export const products = [
       '*실시간 재고 상황 변동으로 인해 주문이 취소될 수 있음을 알려 드립니다. 양해 부탁드립니다.',
     ],
     size_info: [],
-    material: '주 소재: 재생 폴리아미드',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -17979,7 +17979,7 @@ export const products = [
       '*실시간 재고 상황 변동으로 인해 주문이 취소될 수 있음을 알려 드립니다. 양해 부탁드립니다.',
     ],
     size_info: [],
-    material: '주 소재: 재생 폴리아미드',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -18036,7 +18036,7 @@ export const products = [
       '*실시간 재고 상황 변동으로 인해 주문이 취소될 수 있음을 알려 드립니다. 양해 부탁드립니다.',
     ],
     size_info: [],
-    material: '주 소재: 재생 폴리아미드',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -18157,7 +18157,7 @@ export const products = [
       '텅과 힐 카운터에 스크린 프린트 로고',
     ],
     size_info: [],
-    material: '주 소재: 재생 폴리아미드, 재생 폴리에스터',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -18550,7 +18550,7 @@ export const products = [
       '올이 풀린 듯한 측면 로고 및 인솔과 텅의 스크린 프린트',
     ],
     size_info: [],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -18604,7 +18604,7 @@ export const products = [
       '올이 풀린 듯한 측면 로고 및 인솔과 텅의 스크린 프린트',
     ],
     size_info: [],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -18658,7 +18658,7 @@ export const products = [
       '올이 풀린 듯한 측면 로고 및 인솔과 텅의 스크린 프린트',
     ],
     size_info: [],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -18712,7 +18712,7 @@ export const products = [
       '올이 풀린 듯한 측면 로고 및 인솔과 텅의 스크린 프린트',
     ],
     size_info: [],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -19018,7 +19018,7 @@ export const products = [
       '스크린 프린트 로고 텅, 힐 칼라, 인솔',
     ],
     size_info: [],
-    material: '주 소재: 재생 폴리아미드',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -19079,7 +19079,7 @@ export const products = [
       '올이 풀린 듯한 측면 로고 및 인솔과 텅의 스크린 프린트',
     ],
     size_info: [],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -19136,7 +19136,7 @@ export const products = [
       '탈부착형 패브릭 커버 인솔',
     ],
     size_info: [],
-    material: '주 소재: 재생 폴리아미드',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -26161,7 +26161,7 @@ export const products = [
       '플랩의 가죽 레터링 로고',
     ],
     size_info: ['높이 29.5cm', '폭 25cm', '길이 12.5cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -26238,7 +26238,7 @@ export const products = [
       '플랩의 가죽 레터링 로고',
     ],
     size_info: ['높이 22cm', '폭 18cm', '길이 11.5cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -26315,7 +26315,7 @@ export const products = [
       '플랩의 가죽 레터링 로고',
     ],
     size_info: ['높이 29.5cm', '폭 25cm', '길이 12.5cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -26392,7 +26392,7 @@ export const products = [
       '플랩의 가죽 레터링 로고',
     ],
     size_info: ['높이 22cm', '폭 18cm', '길이 11.5cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -26469,7 +26469,7 @@ export const products = [
       '플랩의 가죽 레터링 로고',
     ],
     size_info: ['높이 29.5cm', '폭 25cm', '길이 12.5cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -26532,7 +26532,7 @@ export const products = [
       '플랩의 가죽 레터링 로고',
     ],
     size_info: ['높이 22cm', '폭 18cm', '길이 11.5cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -27609,7 +27609,7 @@ export const products = [
       '플랩 가죽 레터링 로고',
     ],
     size_info: ['높이 29.5cm', '폭 25cm', '길이 12.5cm'],
-    material: '주 소재: 폴리아미드 버진 울',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -27672,7 +27672,7 @@ export const products = [
       '플랩 가죽 레터링 로고',
     ],
     size_info: ['높이 22cm', '폭 18cm', '길이 11.5cm'],
-    material: '주 소재: 폴리아미드 버진 울',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -27735,7 +27735,7 @@ export const products = [
       '플랩 가죽 레터링 로고',
     ],
     size_info: ['높이 29.5cm', '폭 25cm', '길이 12.5cm'],
-    material: '주 소재: 폴리아미드 버진 울',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -28162,7 +28162,7 @@ export const products = [
       '전면 가죽 레터링 로고',
     ],
     size_info: ['높이 40cm', '폭 35cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -28224,7 +28224,7 @@ export const products = [
       '전면 가죽 레터링 로고',
     ],
     size_info: ['높이 40cm', '폭 35cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -28286,7 +28286,7 @@ export const products = [
       '더블 지퍼 포켓이 있는 패브릭 내부',
     ],
     size_info: ['높이 37cm', '폭 36cm', '길이 18cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -28348,7 +28348,7 @@ export const products = [
       '더블 지퍼 포켓이 있는 패브릭 내부',
     ],
     size_info: ['높이 37cm', '폭 36cm', '길이 18cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -28411,7 +28411,7 @@ export const products = [
       '가죽 레터링 로고',
     ],
     size_info: ['높이 23.5cm', '폭 22cm', '길이 12cm'],
-    material: '주 소재: 폴리아미드, 순수 울',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -29627,7 +29627,7 @@ export const products = [
       '전면 가죽 레터링 로고',
     ],
     size_info: ['높이 24cm', '폭 20cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -29701,7 +29701,7 @@ export const products = [
       '전면 가죽 레터링 로고',
     ],
     size_info: ['높이 40cm', '폭 35cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -29764,7 +29764,7 @@ export const products = [
       '전면 메탈 레터링 로고',
     ],
     size_info: ['높이 24cm', '폭 20cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -29830,7 +29830,7 @@ export const products = [
       '더블 지퍼 포켓이 달린 패브릭 안감',
     ],
     size_info: ['높이 23.5cm', '폭 22cm', '길이 12cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -29910,7 +29910,7 @@ export const products = [
       '더블 지퍼 포켓이 달린 패브릭 안감',
     ],
     size_info: ['높이 23.5cm', '폭 22cm', '길이 12cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -29990,7 +29990,7 @@ export const products = [
       '더블 지퍼 포켓이 달린 패브릭 안감',
     ],
     size_info: ['높이 23.5cm', '폭 22cm', '길이 12cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -30067,7 +30067,7 @@ export const products = [
       '플랩 가죽 레터링 로고',
     ],
     size_info: ['높이 22cm', '폭 18cm', '길이 11.5cm'],
-    material: '주 소재: 폴리아미드 버진 울',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -30131,7 +30131,7 @@ export const products = [
       '플랩의 가죽 레터링 로고',
     ],
     size_info: ['높이 29.5cm', '폭 25cm', '길이 12.5cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -30195,7 +30195,7 @@ export const products = [
       '플랩의 가죽 레터링 로고',
     ],
     size_info: ['높이 22cm', '폭 18cm', '길이 11.5cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -30259,7 +30259,7 @@ export const products = [
       '플랩의 가죽 레터링 로고',
     ],
     size_info: ['높이 29.5cm', '폭 25cm', '길이 12.5cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -30344,7 +30344,7 @@ export const products = [
       '플랩의 가죽 레터링 로고',
     ],
     size_info: ['높이 22cm', '폭 18cm', '길이 11.5cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -30408,7 +30408,7 @@ export const products = [
       '플랩의 가죽 레터링 로고',
     ],
     size_info: ['높이 29.5cm', '폭 25cm', '길이 12.5cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -30479,7 +30479,7 @@ export const products = [
       '플랩의 가죽 레터링 로고',
     ],
     size_info: ['높이 22cm', '폭 18cm', '길이 11.5cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -30557,7 +30557,7 @@ export const products = [
       '플랩의 가죽 레터링 로고',
     ],
     size_info: ['높이 29.5cm', '폭 25cm', '길이 12.5cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -30635,7 +30635,7 @@ export const products = [
       '플랩의 가죽 레터링 로고',
     ],
     size_info: ['높이 22cm', '폭 18cm', '길이 11.5cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -30713,7 +30713,7 @@ export const products = [
       '플랩의 가죽 레터링 로고',
     ],
     size_info: ['높이 29.5cm', '폭 25cm', '길이 12.5cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -30798,7 +30798,7 @@ export const products = [
       '플랩의 가죽 레터링 로고',
     ],
     size_info: ['높이 22cm', '폭 18cm', '길이 11.5cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -30874,7 +30874,7 @@ export const products = [
       '플랩의 가죽 레터링 로고',
     ],
     size_info: ['높이 29.5cm', '폭 25cm', '길이 12.5cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -30937,7 +30937,7 @@ export const products = [
       '플랩 가죽 레터링 로고',
     ],
     size_info: ['높이 22cm', '폭 18cm', '길이 11.5cm'],
-    material: '주 소재: 폴리아미드 버진 울',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -31943,7 +31943,7 @@ export const products = [
       '전면 가죽 레터링 로고',
     ],
     size_info: ['높이 11.5cm', '폭 28cm', '길이 8cm'],
-    material: '주 소재: 폴리아미드, 순수 울',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -32018,7 +32018,7 @@ export const products = [
       '더블 지퍼 포켓이 달린 코튼 개버딘 내부',
     ],
     size_info: ['높이 20cm', '폭 34cm', '길이 10cm'],
-    material: '주 소재: 폴리아미드, 순수 울',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -32093,7 +32093,7 @@ export const products = [
       '더블 지퍼 포켓이 달린 패브릭 안감',
     ],
     size_info: ['높이 20cm', '폭 34cm', '길이 10cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -32154,7 +32154,7 @@ export const products = [
       '더블 지퍼 포켓이 달린 패브릭 안감',
     ],
     size_info: ['높이 20cm', '폭 34cm', '길이 10cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -35395,7 +35395,7 @@ export const products = [
       '한눈에 알아볼 수 있는 아이코닉하고 독특한 개성의 미우미우 인타르시아 로고가 시선을 사로잡는 울 비니입니다.',
     bullet_points: ['제품 코드: 5HC378_2CQD_F0031', '인타르시아 로고'],
     size_info: [],
-    material: '주 소재: 폴리아미드, 모헤어, 울',
+    material: '주 소재: 울',
     detail_images: [
       {
         type: 'thumbnail',
@@ -35434,7 +35434,7 @@ export const products = [
       '한눈에 알아볼 수 있는 아이코닉하고 독특한 개성의 미우미우 인타르시아 로고가 시선을 사로잡는 울 비니입니다.',
     bullet_points: ['제품 코드: 5HC378_2CQD_F0018', '인타르시아 로고'],
     size_info: [],
-    material: '주 소재: 폴리아미드, 모헤어, 울',
+    material: '주 소재: 울',
     detail_images: [
       {
         type: 'thumbnail',
@@ -35670,7 +35670,7 @@ export const products = [
       '드릴의 워싱 효과가 대비되는 색상을 돋보이게 하며, 미우미우의 대담하고 스포티한 정신을 구현한 이 베이스볼 캡의 디자인에 캐주얼한 느낌을 더합니다.',
     bullet_points: ['제품 코드: 5HC369_2CWC_F04Z5', '워싱 데님 처리', '자수 로고'],
     size_info: [],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -35716,7 +35716,7 @@ export const products = [
       '드릴의 워싱 효과가 대비되는 색상을 돋보이게 하며, 미우미우의 대담하고 스포티한 정신을 구현한 이 베이스볼 캡의 디자인에 캐주얼한 느낌을 더합니다.',
     bullet_points: ['제품 코드: 5HC369_2CWC_F04Z6', '워싱 데님 처리', '자수 로고'],
     size_info: [],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -35762,7 +35762,7 @@ export const products = [
       '드릴의 워싱 효과가 대비되는 색상을 돋보이게 하며, 미우미우의 대담하고 스포티한 정신을 구현한 이 베이스볼 캡의 디자인에 캐주얼한 느낌을 더합니다.',
     bullet_points: ['제품 코드: 5HC369_2CWC_F04ZH', '워싱 데님 처리', '자수 로고'],
     size_info: [],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -35808,7 +35808,7 @@ export const products = [
       '드릴의 워싱 효과가 대비되는 색상을 돋보이게 하며, 미우미우의 대담하고 스포티한 정신을 구현한 이 베이스볼 캡의 디자인에 캐주얼한 느낌을 더합니다.',
     bullet_points: ['제품 코드: 5HC369_2CWC_F0IX2', '워싱 데님 처리', '자수 로고'],
     size_info: [],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -35853,7 +35853,7 @@ export const products = [
       '폼폼은 미우미우의 장난스럽고 유행을 타지 않는 정신을 표현하며, 캐주얼 시즌 룩을 위해 제작된 부드러운 울 모자의 세련된 디자인을 완성합니다.',
     bullet_points: ['제품 코드: 5HC324_2ID1_F0036', '이어머프와 폼폼 레이스', '로고 라벨'],
     size_info: [],
-    material: '주 소재: 캐시미어 버진 울',
+    material: '주 소재: 캐시미어',
     detail_images: [
       {
         type: 'thumbnail',
@@ -35937,7 +35937,7 @@ export const products = [
       '부드러운 울과 캐시미어로 제작된 이 모자는 절제된 라인과 컨템포러리한 감각을 결합했습니다. 은은한 컬러와 아이코닉한 대비 로고가 더해져 세련된 매력을 한층 강조합니다.',
     bullet_points: ['제품 코드: 5HC432_2IEJ_F073X', '레이스 장식으로', '로고 라벨'],
     size_info: [],
-    material: '주 소재: 재생 폴리에스터',
+    material: '주 소재: 폴리에스터',
     detail_images: [
       {
         type: 'thumbnail',
@@ -35976,7 +35976,7 @@ export const products = [
       '부드러운 울과 캐시미어로 제작된 이 모자는 절제된 라인과 컨템포러리한 감각을 결합했습니다. 은은한 컬러와 아이코닉한 대비 로고가 더해져 세련된 매력을 한층 강조합니다.',
     bullet_points: ['제품 코드: 5HC432_2IEJ_F0637', '레이스 장식으로', '로고 라벨'],
     size_info: [],
-    material: '주 소재: 재생 폴리에스터',
+    material: '주 소재: 폴리에스터',
     detail_images: [
       {
         type: 'thumbnail',
@@ -36060,7 +36060,7 @@ export const products = [
       '스포티하고 다재다능한 소재인 플리스를 퍼 효과로 새롭게 해석한 캡으로, 아이코닉한 플래드 모티프와 어우러져 심플함과 캐주얼한 스타일의 균형을 완성합니다.',
     bullet_points: ['제품 코드: 5HC272_2IA4_F0TQI', '귀마개', '플러시 플리스 라이닝', '자수 로고'],
     size_info: [],
-    material: '주 소재: 폴리아미드, 순수 울',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -36111,7 +36111,7 @@ export const products = [
       '자수 로고',
     ],
     size_info: [],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -36162,7 +36162,7 @@ export const products = [
       '자수 로고',
     ],
     size_info: [],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -36208,7 +36208,7 @@ export const products = [
       '부드러운 울 펠트로 완성된 클로슈의 우아한 실루엣은 클래식한 컬러와 어우러져 타임리스한 페미닌 우아함을 고스란히 드러냅니다.',
     bullet_points: ['제품 코드: 5HC425_2DUF_F0684', '로고 라벨'],
     size_info: [],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -36254,7 +36254,7 @@ export const products = [
       '부드러운 울과 캐시미어로 제작된 이 모자는 절제된 라인과 컨템포러리한 감각을 결합했습니다. 은은한 컬러와 아이코닉한 대비 로고가 더해져 세련된 매력을 한층 강조합니다.',
     bullet_points: ['제품 코드: 5HC432_2IEJ_F0244', '레이스 장식으로', '로고 라벨'],
     size_info: [],
-    material: '주 소재: 재생 폴리에스터',
+    material: '주 소재: 폴리에스터',
     detail_images: [
       {
         type: 'thumbnail',
@@ -36811,7 +36811,7 @@ export const products = [
       '메탈 레터링 로고',
     ],
     size_info: ['높이 9cm', '폭 22cm', '길이 9cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -36870,7 +36870,7 @@ export const products = [
       '메탈 레터링 로고',
     ],
     size_info: ['높이 9cm', '폭 22cm', '길이 9cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -38010,7 +38010,7 @@ export const products = [
       '엠보싱 로고 레터링',
     ],
     size_info: ['높이 17cm', '폭 14cm', '길이 6cm'],
-    material: '주 소재: 아세테이트 폴리아미드 폴리에스터 버진 울',
+    material: '주 소재: 울',
     detail_images: [
       {
         type: 'thumbnail',
@@ -38076,7 +38076,7 @@ export const products = [
       '가죽 레터링 로고',
     ],
     size_info: ['높이 9cm', '폭 22cm', '길이 9cm'],
-    material: '주 소재: 아세테이트 폴리아미드 폴리에스터 버진 울',
+    material: '주 소재: 울',
     detail_images: [
       {
         type: 'thumbnail',
@@ -38807,7 +38807,7 @@ export const products = [
       '자수 레터링 로고',
     ],
     size_info: ['높이 14cm', '폭 18.5cm', '길이 10cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -38873,7 +38873,7 @@ export const products = [
       '자수 레터링 로고',
     ],
     size_info: ['높이 14cm', '폭 18.5cm', '길이 10cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -38939,7 +38939,7 @@ export const products = [
       '자수 레터링 로고',
     ],
     size_info: ['높이 14cm', '폭 18.5cm', '길이 10cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -39012,7 +39012,7 @@ export const products = [
       '자수 레터링 로고',
     ],
     size_info: ['높이 14cm', '폭 18.5cm', '길이 10cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -39654,7 +39654,7 @@ export const products = [
       '가죽 레터링 로고',
     ],
     size_info: ['높이 14cm', '폭 18.5cm', '길이 10cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -39720,7 +39720,7 @@ export const products = [
       '가죽 레터링 로고',
     ],
     size_info: ['높이 14cm', '폭 18.5cm', '길이 10cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -39780,7 +39780,7 @@ export const products = [
       '한눈에 알아볼 수 있는 아이코닉하고 독특한 개성의 미우미우 인타르시아 로고가 시선을 사로잡는 울 비니입니다.',
     bullet_points: ['제품 코드: 5HC378_2CQD_F0031', '인타르시아 로고'],
     size_info: [],
-    material: '주 소재: 폴리아미드, 모헤어, 울',
+    material: '주 소재: 울',
     detail_images: [
       {
         type: 'thumbnail',
@@ -39819,7 +39819,7 @@ export const products = [
       '한눈에 알아볼 수 있는 아이코닉하고 독특한 개성의 미우미우 인타르시아 로고가 시선을 사로잡는 울 비니입니다.',
     bullet_points: ['제품 코드: 5HC378_2CQD_F0018', '인타르시아 로고'],
     size_info: [],
-    material: '주 소재: 폴리아미드, 모헤어, 울',
+    material: '주 소재: 울',
     detail_images: [
       {
         type: 'thumbnail',
@@ -40004,7 +40004,7 @@ export const products = [
       '드릴의 워싱 효과가 대비되는 색상을 돋보이게 하며, 미우미우의 대담하고 스포티한 정신을 구현한 이 베이스볼 캡의 디자인에 캐주얼한 느낌을 더합니다.',
     bullet_points: ['제품 코드: 5HC369_2CWC_F04Z5', '워싱 데님 처리', '자수 로고'],
     size_info: [],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -40050,7 +40050,7 @@ export const products = [
       '드릴의 워싱 효과가 대비되는 색상을 돋보이게 하며, 미우미우의 대담하고 스포티한 정신을 구현한 이 베이스볼 캡의 디자인에 캐주얼한 느낌을 더합니다.',
     bullet_points: ['제품 코드: 5HC369_2CWC_F04Z6', '워싱 데님 처리', '자수 로고'],
     size_info: [],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -40096,7 +40096,7 @@ export const products = [
       '드릴의 워싱 효과가 대비되는 색상을 돋보이게 하며, 미우미우의 대담하고 스포티한 정신을 구현한 이 베이스볼 캡의 디자인에 캐주얼한 느낌을 더합니다.',
     bullet_points: ['제품 코드: 5HC369_2CWC_F04ZH', '워싱 데님 처리', '자수 로고'],
     size_info: [],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -40142,7 +40142,7 @@ export const products = [
       '드릴의 워싱 효과가 대비되는 색상을 돋보이게 하며, 미우미우의 대담하고 스포티한 정신을 구현한 이 베이스볼 캡의 디자인에 캐주얼한 느낌을 더합니다.',
     bullet_points: ['제품 코드: 5HC369_2CWC_F0IX2', '워싱 데님 처리', '자수 로고'],
     size_info: [],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -40187,7 +40187,7 @@ export const products = [
       '폼폼은 미우미우의 장난스럽고 유행을 타지 않는 정신을 표현하며, 캐주얼 시즌 룩을 위해 제작된 부드러운 울 모자의 세련된 디자인을 완성합니다.',
     bullet_points: ['제품 코드: 5HC324_2ID1_F0036', '이어머프와 폼폼 레이스', '로고 라벨'],
     size_info: [],
-    material: '주 소재: 캐시미어 버진 울',
+    material: '주 소재: 캐시미어',
     detail_images: [
       {
         type: 'thumbnail',
@@ -40271,7 +40271,7 @@ export const products = [
       '부드러운 울과 캐시미어로 제작된 이 모자는 절제된 라인과 컨템포러리한 감각을 결합했습니다. 은은한 컬러와 아이코닉한 대비 로고가 더해져 세련된 매력을 한층 강조합니다.',
     bullet_points: ['제품 코드: 5HC432_2IEJ_F073X', '레이스 장식으로', '로고 라벨'],
     size_info: [],
-    material: '주 소재: 재생 폴리에스터',
+    material: '주 소재: 폴리에스터',
     detail_images: [
       {
         type: 'thumbnail',
@@ -40310,7 +40310,7 @@ export const products = [
       '부드러운 울과 캐시미어로 제작된 이 모자는 절제된 라인과 컨템포러리한 감각을 결합했습니다. 은은한 컬러와 아이코닉한 대비 로고가 더해져 세련된 매력을 한층 강조합니다.',
     bullet_points: ['제품 코드: 5HC432_2IEJ_F0637', '레이스 장식으로', '로고 라벨'],
     size_info: [],
-    material: '주 소재: 재생 폴리에스터',
+    material: '주 소재: 폴리에스터',
     detail_images: [
       {
         type: 'thumbnail',
@@ -40394,7 +40394,7 @@ export const products = [
       '스포티하고 다재다능한 소재인 플리스를 퍼 효과로 새롭게 해석한 캡으로, 아이코닉한 플래드 모티프와 어우러져 심플함과 캐주얼한 스타일의 균형을 완성합니다.',
     bullet_points: ['제품 코드: 5HC272_2IA4_F0TQI', '귀마개', '플러시 플리스 라이닝', '자수 로고'],
     size_info: [],
-    material: '주 소재: 폴리아미드, 순수 울',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -40445,7 +40445,7 @@ export const products = [
       '자수 로고',
     ],
     size_info: [],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -40496,7 +40496,7 @@ export const products = [
       '자수 로고',
     ],
     size_info: [],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -40542,7 +40542,7 @@ export const products = [
       '부드러운 울 펠트로 완성된 클로슈의 우아한 실루엣은 클래식한 컬러와 어우러져 타임리스한 페미닌 우아함을 고스란히 드러냅니다.',
     bullet_points: ['제품 코드: 5HC425_2DUF_F0684', '로고 라벨'],
     size_info: [],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -40588,7 +40588,7 @@ export const products = [
       '부드러운 울과 캐시미어로 제작된 이 모자는 절제된 라인과 컨템포러리한 감각을 결합했습니다. 은은한 컬러와 아이코닉한 대비 로고가 더해져 세련된 매력을 한층 강조합니다.',
     bullet_points: ['제품 코드: 5HC432_2IEJ_F0244', '레이스 장식으로', '로고 라벨'],
     size_info: [],
-    material: '주 소재: 재생 폴리에스터',
+    material: '주 소재: 폴리에스터',
     detail_images: [
       {
         type: 'thumbnail',
@@ -45524,7 +45524,7 @@ export const products = [
       '스트랩 길이: 15cm / 트릭 높이: 18cm / 트릭 너비: 7–8cm',
     ],
     size_info: [],
-    material: '패브릭/가죽',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -45563,7 +45563,7 @@ export const products = [
       '미우미우 백에 개성을 더하는 크로셰 효과의 기능성 원사 트릭은 아이코닉한 아카이브 룩으로 시선을 사로잡으며, 독창적인 스타일 조합으로 장인정신이 돋보입니다.',
     bullet_points: ['제품 코드: 5TT260_2CWW_F052N', '크로셰 효과', '가죽 스트랩', '각인 로고 메달'],
     size_info: ['높이 19cm'],
-    material: '주 소재: 재생 폴리에스터',
+    material: '주 소재: 폴리에스터',
     detail_images: [
       {
         type: 'thumbnail',
@@ -45615,7 +45615,7 @@ export const products = [
       '스트랩 길이: 15cm - 트릭 높이: 18 cm - 트릭 너비: 7~8cm',
     ],
     size_info: [],
-    material: '주 소재: 재생 폴리에스터',
+    material: '주 소재: 폴리에스터',
     detail_images: [
       {
         type: 'thumbnail',
@@ -45660,7 +45660,7 @@ export const products = [
       '스트랩 길이: 15cm - 트릭 높이: 18 cm - 트릭 너비: 7~8cm',
     ],
     size_info: ['높이 19cm'],
-    material: '주 소재: 재생 폴리에스터',
+    material: '주 소재: 폴리에스터',
     detail_images: [
       {
         type: 'thumbnail',
@@ -45705,7 +45705,7 @@ export const products = [
       '스트랩 길이: 15cm - 트릭 높이: 18 cm - 트릭 너비: 7~8cm',
     ],
     size_info: ['높이 19cm'],
-    material: '주 소재: 재생 폴리에스터',
+    material: '주 소재: 폴리에스터',
     detail_images: [
       {
         type: 'thumbnail',
@@ -45750,7 +45750,7 @@ export const products = [
       '스트랩 길이: 15cm - 트릭 높이: 18 cm - 트릭 너비: 7~8cm',
     ],
     size_info: [],
-    material: '주 소재: 재생 폴리에스터',
+    material: '주 소재: 폴리에스터',
     detail_images: [
       {
         type: 'thumbnail',
@@ -45795,7 +45795,7 @@ export const products = [
       '스트랩 길이: 15cm - 트릭 높이: 18 cm - 트릭 너비: 7~8cm',
     ],
     size_info: ['높이 19cm'],
-    material: '주 소재: 재생 폴리에스터',
+    material: '주 소재: 폴리에스터',
     detail_images: [
       {
         type: 'thumbnail',
@@ -46346,7 +46346,7 @@ export const products = [
       '울과 모헤어의 부드러운 촉감과 대비되는 컬러의 아이코닉한 미우미우 로고가 조화를 이루는 장갑입니다.',
     bullet_points: ['제품 코드: 5GG202_2F8S_F0040', '눈에 띄는 로고'],
     size_info: [],
-    material: '주 소재: 캐시미어, 순수 울',
+    material: '주 소재: 캐시미어',
     detail_images: [
       {
         type: 'thumbnail',
@@ -46385,7 +46385,7 @@ export const products = [
       '울과 모헤어의 부드러운 촉감과 대비되는 컬러의 아이코닉한 미우미우 로고가 조화를 이루는 장갑입니다.',
     bullet_points: ['제품 코드: 5GG202_2F8S_F0031', '눈에 띄는 로고'],
     size_info: [],
-    material: '주 소재: 캐시미어, 순수 울',
+    material: '주 소재: 캐시미어',
     detail_images: [
       {
         type: 'thumbnail',
@@ -46424,7 +46424,7 @@ export const products = [
       '대비되는 컬러의 미우미우 로고로 아이코닉한 개성이 돋보이는 스카프입니다. 캐시미어 소재를 사용해 겨울 룩에 어울리는 더욱 포근하고 따뜻한 디자인입니다.',
     bullet_points: ['제품 코드: 5FS048_2F8S_F0003', '로고 라벨'],
     size_info: ['높이 190cm', '폭 22cm'],
-    material: '주 소재: 캐시미어, 순수 울',
+    material: '주 소재: 캐시미어',
     detail_images: [
       {
         type: 'thumbnail',
@@ -46476,7 +46476,7 @@ export const products = [
       '울과 모헤어의 부드러운 촉감과 대비되는 컬러의 아이코닉한 미우미우 로고가 조화를 이루는 장갑입니다.',
     bullet_points: ['제품 코드: 5GG202_2F8S_F0003', '눈에 띄는 로고'],
     size_info: [],
-    material: '주 소재: 캐시미어, 순수 울',
+    material: '주 소재: 캐시미어',
     detail_images: [
       {
         type: 'thumbnail',
@@ -46515,7 +46515,7 @@ export const products = [
       '울과 모헤어의 포근함과 아이코닉한 감성을 더하는 미우미우 로고가 돋보입니다. 테두리의 프린지 디테일로 스카프의 디자인이 완성됩니다.',
     bullet_points: ['제품 코드: 5FS062_2CQD_F0031', '눈에 띄는 로고', '프린지 테두리'],
     size_info: ['높이 185cm', '폭 23cm'],
-    material: '주 소재: 폴리아미드, 모헤어, 울',
+    material: '주 소재: 울',
     detail_images: [
       {
         type: 'thumbnail',
@@ -46568,7 +46568,7 @@ export const products = [
       '울과 모헤어의 부드러운 촉감과 대비되는 컬러의 아이코닉한 미우미우 로고가 조화를 이루는 장갑입니다.',
     bullet_points: ['제품 코드: 5GG196_2CQD_F0031', '눈에 띄는 로고'],
     size_info: [],
-    material: '주 소재: 폴리아미드, 모헤어, 울',
+    material: '주 소재: 울',
     detail_images: [
       {
         type: 'thumbnail',
@@ -46607,7 +46607,7 @@ export const products = [
       '울과 모헤어의 포근함과 아이코닉한 감성을 더하는 미우미우 로고가 돋보입니다. 테두리의 프린지 디테일로 스카프의 디자인이 완성됩니다.',
     bullet_points: ['제품 코드: 5FS062_2CQD_F0005', '눈에 띄는 로고', '프린지 테두리'],
     size_info: ['높이 185cm', '폭 23cm'],
-    material: '주 소재: 폴리아미드, 모헤어, 울',
+    material: '주 소재: 울',
     detail_images: [
       {
         type: 'thumbnail',
@@ -46660,7 +46660,7 @@ export const products = [
       '울과 모헤어의 부드러운 촉감과 대비되는 컬러의 아이코닉한 미우미우 로고가 조화를 이루는 장갑입니다.',
     bullet_points: ['제품 코드: 5GG196_2CQD_F0005', '눈에 띄는 로고'],
     size_info: [],
-    material: '주 소재: 폴리아미드, 모헤어, 울',
+    material: '주 소재: 울',
     detail_images: [
       {
         type: 'thumbnail',
@@ -46699,7 +46699,7 @@ export const products = [
       '울과 모헤어의 포근함과 아이코닉한 감성을 더하는 미우미우 로고가 돋보입니다. 테두리의 프린지 디테일로 스카프의 디자인이 완성됩니다.',
     bullet_points: ['제품 코드: 5FS062_2CQD_F0018', '눈에 띄는 로고', '프린지 테두리'],
     size_info: ['높이 185cm', '폭 23cm'],
-    material: '주 소재: 폴리아미드, 모헤어, 울',
+    material: '주 소재: 울',
     detail_images: [
       {
         type: 'thumbnail',
@@ -46745,7 +46745,7 @@ export const products = [
       '울과 모헤어의 부드러운 촉감과 대비되는 컬러의 아이코닉한 미우미우 로고가 조화를 이루는 장갑입니다.',
     bullet_points: ['제품 코드: 5GG196_2CQD_F0018', '눈에 띄는 로고'],
     size_info: [],
-    material: '주 소재: 폴리아미드, 모헤어, 울',
+    material: '주 소재: 울',
     detail_images: [
       {
         type: 'thumbnail',
@@ -46788,7 +46788,7 @@ export const products = [
       '39% 버진 울 - 29% 모헤어 - 16% 캐시미어 - 16% 폴리아미드',
     ],
     size_info: ['높이 190cm', '폭 22cm'],
-    material: '주 소재: 캐시미어 버진 울',
+    material: '주 소재: 캐시미어',
     detail_images: [
       {
         type: 'thumbnail',
@@ -46832,7 +46832,7 @@ export const products = [
       '64% 모헤어, 32% 폴리아미드, 4% 울',
     ],
     size_info: ['높이 23cm', '폭 185cm'],
-    material: '주 소재: 폴리아미드, 모헤어, 울',
+    material: '주 소재: 울',
     detail_images: [
       {
         type: 'thumbnail',
@@ -46876,7 +46876,7 @@ export const products = [
       '64% 모헤어, 32% 폴리아미드, 4% 울',
     ],
     size_info: ['높이 23cm', '폭 185cm'],
-    material: '주 소재: 폴리아미드, 모헤어, 울',
+    material: '주 소재: 울',
     detail_images: [
       {
         type: 'thumbnail',
@@ -46915,7 +46915,7 @@ export const products = [
       '패션쇼의 양말에서 영감을 받아 다채로운 감성을 표현하는 립 조직 니트 실크 핑거리스 장갑입니다. 캐주얼한 룩과 보다 세련된 조합으로 유쾌하게 완성되었습니다.',
     bullet_points: ['제품 코드: 5GG147_2ICP_F0480', '로고 라벨'],
     size_info: ['높이 60cm'],
-    material: '주 소재: 재생 실크',
+    material: '주 소재: 실크',
     detail_images: [
       {
         type: 'thumbnail',
@@ -46968,7 +46968,7 @@ export const products = [
       '이 스카프는 재생 원사의 부드러움과 세련된 립 니트 모티프를 결합하여, 아이코닉하고 유행을 타지 않는 액세서리의 유쾌한 정신을 기념하는 폼폼 트림으로 더욱 돋보입니다.',
     bullet_points: ['제품 코드: 5FS139_180W_F0308', '로고 라벨', '폼폼 트림'],
     size_info: ['높이 170cm', '폭 15cm'],
-    material: '주 소재: 재활용 캐시미어 재활용 울',
+    material: '주 소재: 캐시미어',
     detail_images: [
       {
         type: 'thumbnail',
@@ -47007,7 +47007,7 @@ export const products = [
       '이 스카프는 재생 원사의 부드러움과 세련된 립 니트 모티프를 결합하여, 아이코닉하고 유행을 타지 않는 액세서리의 유쾌한 정신을 기념하는 폼폼 트림으로 더욱 돋보입니다.',
     bullet_points: ['제품 코드: 5FS139_180W_F0031', '로고 라벨', '폼폼 트림'],
     size_info: ['높이 170cm', '폭 15cm'],
-    material: '주 소재: 재활용 캐시미어 재활용 울',
+    material: '주 소재: 캐시미어',
     detail_images: [
       {
         type: 'thumbnail',
@@ -47276,7 +47276,7 @@ export const products = [
       '빈티지 감성과 미우미우 미학의 독특한 요소를 반영한 반다나 모티프의 포플린 스카프는 각각의 룩을 독특한 감성으로 완성하는 컬러 대비가 특징입니다.',
     bullet_points: ['제품 코드: 5FF004_2ICE_F0399', '프린티드 로고'],
     size_info: ['높이 55cm', '폭 55cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -47322,7 +47322,7 @@ export const products = [
       '빈티지 감성과 미우미우 미학의 독특한 요소를 반영한 반다나 모티프의 포플린 스카프는 각각의 룩을 독특한 감성으로 완성하는 컬러 대비가 특징입니다.',
     bullet_points: ['제품 코드: 5FF008_2ICE_F0399', '프린티드 로고'],
     size_info: ['높이 85cm', '폭 6cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -47368,7 +47368,7 @@ export const products = [
       '빈티지 감성과 미우미우 미학의 독특한 요소를 반영한 반다나 모티프의 포플린 스카프는 각각의 룩을 독특한 감성으로 완성하는 컬러 대비가 특징입니다.',
     bullet_points: ['제품 코드: 5FF004_2ICG_F0008', '프린티드 로고'],
     size_info: ['높이 55cm', '폭 55cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -47414,7 +47414,7 @@ export const products = [
       '빈티지 감성과 미우미우 미학의 독특한 요소를 반영한 반다나 모티프의 포플린 스카프는 각각의 룩을 독특한 감성으로 완성하는 컬러 대비가 특징입니다.',
     bullet_points: ['제품 코드: 5FF008_2ICG_F0008', '프린티드 로고'],
     size_info: ['높이 85cm', '폭 6cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -47460,7 +47460,7 @@ export const products = [
       '빈티지 감성과 미우미우 미학의 독특한 요소를 반영한 반다나 모티프의 포플린 스카프는 각각의 룩을 독특한 감성으로 완성하는 컬러 대비가 특징입니다.',
     bullet_points: ['제품 코드: 5FF008_2ICG_F0304', '프린티드 로고'],
     size_info: ['높이 85cm', '폭 6cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -47725,7 +47725,7 @@ export const products = [
       '대비되는 컬러의 미우미우 로고로 아이코닉한 개성이 돋보이는 스카프입니다. 캐시미어 소재를 사용해 겨울 룩에 어울리는 더욱 포근하고 따뜻한 디자인입니다.',
     bullet_points: ['제품 코드: 5FS048_2F8S_F0031', '로고 라벨'],
     size_info: ['높이 190cm', '폭 22cm'],
-    material: '주 소재: 캐시미어, 순수 울',
+    material: '주 소재: 캐시미어',
     detail_images: [
       {
         type: 'thumbnail',
@@ -47764,7 +47764,7 @@ export const products = [
       '대비되는 컬러의 미우미우 로고로 아이코닉한 개성이 돋보이는 스카프입니다. 캐시미어 소재를 사용해 겨울 룩에 어울리는 더욱 포근하고 따뜻한 디자인입니다.',
     bullet_points: ['제품 코드: 5FS048_2F8S_F0040', '로고 라벨'],
     size_info: ['높이 190cm', '폭 22cm'],
-    material: '주 소재: 캐시미어, 순수 울',
+    material: '주 소재: 캐시미어',
     detail_images: [
       {
         type: 'thumbnail',
@@ -47811,7 +47811,7 @@ export const products = [
       '클래식한 리본 쉐입과 메탈 레터링 로고의 반항적인 본질이 어우러진 벨벳 스크런치가 모든 룩을 스타일리시하게 완성합니다.',
     bullet_points: ['제품 코드: 5IF181_068_F0E18', '리본 장식', '메탈 레터링 로고'],
     size_info: ['높이 3cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -47848,7 +47848,7 @@ export const products = [
       '리본은 은은한 여성미의 상징으로, 대비되는 색상의 메탈 로고로 장식된 우아한 벨벳 헤어 클립의 로맨틱한 특성을 정의합니다.',
     bullet_points: ['제품 코드: 5IF282_068_F0E18', '메탈 레터링 로고'],
     size_info: ['높이 7cm', '폭 15cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -47885,7 +47885,7 @@ export const products = [
       '크리스탈의 미우미우 로고가 돋보이는 헤어 클립으로, 무지개 빛깔의 반짝임을 연출합니다.',
     bullet_points: ['제품 코드: 5IF092_068_F0E18', '인조 크리스털 레터링 로고'],
     size_info: ['높이 3cm', '폭 8cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -47922,7 +47922,7 @@ export const products = [
       '크리스탈의 미우미우 로고가 돋보이는 헤어 클립으로, 무지개 빛깔의 반짝임을 연출합니다.',
     bullet_points: ['제품 코드: 5IF092_068_F0011', '인조 크리스털 레터링 로고'],
     size_info: ['높이 3cm', '폭 8cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -48106,7 +48106,7 @@ export const products = [
       '리본은 은은한 여성미의 상징으로, 대비되는 색상의 메탈 로고로 장식된 우아한 벨벳 헤어 클립의 로맨틱한 특성을 정의합니다.',
     bullet_points: ['제품 코드: 5IF282_068_F0002', '메탈 레터링 로고'],
     size_info: ['높이 7cm', '폭 15cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -48143,7 +48143,7 @@ export const products = [
       '리본은 은은한 여성미의 상징으로, 대조적인 색상의 메탈 로고로 장식된 우아한 벨벳 헤어 클립의 로맨틱한 특성을 정의합니다.',
     bullet_points: ['제품 코드: 5IF284_068_F0E18', '메탈 레터링 로고'],
     size_info: ['높이 22cm', '폭 12.5cm'],
-    material: '주 소재: 폴리아미드, 레이온',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -48180,7 +48180,7 @@ export const products = [
       '리본은 은은한 여성미의 상징으로, 대조적인 색상의 메탈 로고로 장식된 우아한 벨벳 헤어 클립의 로맨틱한 특성을 정의합니다.',
     bullet_points: ['제품 코드: 5IF284_068_F0002', '메탈 레터링 로고'],
     size_info: ['높이 22cm', '폭 12.5cm'],
-    material: '주 소재: 폴리아미드, 레이온',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -48217,7 +48217,7 @@ export const products = [
       '리본은 은은한 여성미의 상징으로, 대조적인 색상의 메탈 로고로 장식된 우아한 벨벳 헤어 클립의 로맨틱한 특성을 정의합니다.',
     bullet_points: ['제품 코드: 5IF284_068_F0011', '메탈 레터링 로고'],
     size_info: ['높이 22cm', '폭 12.5cm'],
-    material: '주 소재: 폴리아미드, 레이온',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -48254,7 +48254,7 @@ export const products = [
       '타임리스한 플래드 패턴으로 완성된 스크런치입니다. 심플한 디자인에 미우미우 특유의 클래식 워드로브 실험 정신을 반영해 세련된 매력을 더합니다.',
     bullet_points: ['제품 코드: 5IF181_2IFK_F0RDS', '중앙 리본 장식', '메탈 레터링 로고'],
     size_info: ['높이 3cm'],
-    material: '주 소재: 폴리아미드, 순수 울',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -48294,7 +48294,7 @@ export const products = [
       '클래식한 플래드 패턴이 부드러운 울 텍스처와 어우러진 헤어 클립입니다. 메탈 로고 장식이 더해져 특별한 포인트를 연출합니다.',
     bullet_points: ['제품 코드: 5IF092_2IFK_F0RDS', '후면 메탈 헤어 클립', '메탈 레터링 로고'],
     size_info: [],
-    material: '주 소재: 폴리아미드, 순수 울',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -48503,7 +48503,7 @@ export const products = [
       '다양한 텍스처와 패턴이 경쾌하게 어우러져, 아이코닉한 매력을 드러내고 여성스럽고 세련된 스타일을 재해석한 바렛입니다. 사계절 모든 스타일링에 이상적인 아이템입니다.',
     bullet_points: ['제품 코드: 5IF188_2IEK_F04UM', '메탈 레터링 로고'],
     size_info: ['폭 5.6cm'],
-    material: '주 소재: 모헤어, 순수 울',
+    material: '주 소재: 울',
     detail_images: [
       {
         type: 'thumbnail',
@@ -48543,7 +48543,7 @@ export const products = [
       '다양한 텍스처와 패턴이 경쾌하게 어우러져, 아이코닉한 매력을 드러내고 여성스럽고 세련된 스타일을 재해석한 바렛입니다. 사계절 모든 스타일링에 이상적인 아이템입니다.',
     bullet_points: ['제품 코드: 5IF188_2IEK_F04UK', '메탈 레터링 로고'],
     size_info: ['폭 5.6cm'],
-    material: '주 소재: 모헤어, 순수 울',
+    material: '주 소재: 울',
     detail_images: [
       {
         type: 'thumbnail',
@@ -48583,7 +48583,7 @@ export const products = [
       '다양한 텍스처와 패턴이 경쾌하게 어우러져, 아이코닉한 매력을 드러내고 여성스럽고 세련된 스타일을 재해석한 바렛입니다. 사계절 모든 스타일링에 이상적인 아이템입니다.',
     bullet_points: ['제품 코드: 5IF188_2IEK_F04UL', '메탈 레터링 로고'],
     size_info: ['폭 5.6cm'],
-    material: '주 소재: 모헤어, 순수 울',
+    material: '주 소재: 울',
     detail_images: [
       {
         type: 'thumbnail',
@@ -49303,7 +49303,7 @@ export const products = [
       '클래식한 리본 쉐입과 메탈 레터링 로고의 반항적인 본질이 어우러진 벨벳 스크런치가 모든 룩을 스타일리시하게 완성합니다.',
     bullet_points: ['제품 코드: 5IF181_068_F0002', '리본 장식', '메탈 레터링 로고'],
     size_info: ['높이 3cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -49722,7 +49722,7 @@ export const products = [
       '크리스탈의 미우미우 로고가 돋보이는 헤어 클립으로, 무지개 빛깔의 반짝임을 연출합니다.',
     bullet_points: ['제품 코드: 5IF092_068_F0002', '인조 크리스털 레터링 로고'],
     size_info: ['높이 3cm', '폭 8cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -50381,7 +50381,7 @@ export const products = [
       '헤어 클립 2개 세트',
     ],
     size_info: ['높이 1.65cm', '폭 4cm'],
-    material: '주 소재: 에나멜, 브라스',
+    material: '주 소재: 에나멜',
     detail_images: [
       {
         type: 'thumbnail',
@@ -50425,7 +50425,7 @@ export const products = [
       '헤어 클립 2개 세트',
     ],
     size_info: ['높이 1.65cm', '폭 4cm'],
-    material: '주 소재: 에나멜, 브라스',
+    material: '주 소재: 에나멜',
     detail_images: [
       {
         type: 'thumbnail',
@@ -50469,7 +50469,7 @@ export const products = [
       '헤어 클립 2개 세트',
     ],
     size_info: ['높이 1.65cm', '폭 4cm'],
-    material: '주 소재: 에나멜, 브라스',
+    material: '주 소재: 에나멜',
     detail_images: [
       {
         type: 'thumbnail',
