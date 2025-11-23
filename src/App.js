@@ -33,7 +33,7 @@ import Category2 from './pages/Products/Category2';
 import ScrollToTop from './ScrollToTop';
 import WIshList from './pages/auth/WishList/WIshList';
 import MyOrder from './pages/Checkout/MyOrder/MyOrder';
-import CustomStudio from './pages/Products/CustomStudio';
+import { Chatbot } from './component/feedback/Chatbot';
 
 function App() {
   const { onFetchItems, onMakeMenu } = useProductsStore();
@@ -77,10 +77,9 @@ function App() {
         <Route path="ProductDetailNav" element={<ProductDetailNav />} />
         <Route path="AllProducts" element={<AllProducts />} />
         <Route path="ProductFilterWrap" element={<ProductFilterWrap />} />
-        {/* <Route path="/CustomStudio/:id" element={<CustomStudio />} /> */}
-        {/* <Route path="/CustomStudio/:id" element={<Category1 />} /> */}
       </Routes>
       <Footer />
+      <Chatbot />
     </>
   );
 }
