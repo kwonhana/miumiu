@@ -54,7 +54,7 @@ export const Chatbot = () => {
     };
 
     const botMessage = {
-      text: responses[category] || '문의해주셔서 감사합니다. 곧 답변드리겠습니다.',
+      text: responses[category] || '문의해주셔서 감사합니다.\n 곧 답변드리겠습니다.',
       type: 'bot',
       time: currentTime,
       id: Date.now() + '-bot',
@@ -175,8 +175,8 @@ export const Chatbot = () => {
               </span>
             </div>
             <div className="header-right">
-              <button onClick={handleReset} className="header-btn"></button>
-              <button onClick={closeChat} className="header-btn"></button>
+              <button onClick={handleReset} className="header-btn reset"></button>
+              <button onClick={closeChat} className="header-btn close"></button>
             </div>
           </div>
 

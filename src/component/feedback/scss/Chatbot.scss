@@ -61,13 +61,23 @@
         .header-btn {
           padding: 4px;
           background: none;
+          width: 16px;
+          aspect-ratio: 1/1;
           border: none;
           cursor: pointer;
-          border-radius: 4px;
           transition: background-color 0.2s;
+          &.reset {
+            background: url('../../../../public/assets/icon/reset.png');
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+          }
 
-          &.header-btn:hover {
-            background-color: #f3f4f6;
+          &.close {
+            background: url('../../../../public/assets/icon/close.png');
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
           }
         }
       }
