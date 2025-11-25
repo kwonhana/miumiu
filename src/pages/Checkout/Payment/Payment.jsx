@@ -1,9 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../scss/Payment.scss';
 import Button from '../../../component/layout/Button';
 import OrderTotal from '../OrderTotal/OrderTotal';
+import { useNavigate } from 'react-router-dom';
+import { useProductsStore } from '../../../store/useProductsStore';
 
 const Payment = () => {
+  const navigate = useNavigate();
+  const [selectedPayment, setSelectedPayment] = useState('');
+  const { onClearCart } = useProductsStore();
+
+  const handleComplete = () => {
+    onClearCart();
+    navigate('/orderComplete');
+  };
+
   return (
     <section className="Payment-wrap">
       <div className="payment-left">
@@ -19,26 +30,26 @@ const Payment = () => {
           <h4>결제수단 선택</h4>
           <div className="payment-box">
             <ul className="payment-list">
-              <li className="payment-icon">
-                <p>
-                  <img src="/assets/icon/kakaoPay.png" alt="" />
-                </p>
+              <li
+                className={`payment-icon ${selectedPayment === 'kakao' ? 'active' : ''}`}
+                onClick={() => setSelectedPayment('kakao')}>
+                <img src="/assets/icon/kakaoPay.png" alt="카카오페이" />
                 <p>카카오페이</p>
               </li>
-              <li className="payment-icon">
-                <p>
-                  <img src="/assets/icon/creditPay.png" alt="" />
-                </p>
+              <li
+                className={`payment-icon ${selectedPayment === 'credit' ? 'active' : ''}`}
+                onClick={() => setSelectedPayment('credit')}>
+                <img src="/assets/icon/creditPay.png" alt="신용카드" />
                 <p>신용카드</p>
               </li>
-              <li className="payment-icon">
-                <p>
-                  <img src="/assets/icon/cashPay.png" alt="" />
-                </p>
+              <li
+                className={`payment-icon ${selectedPayment === 'cash' ? 'active' : ''}`}
+                onClick={() => setSelectedPayment('cash')}>
+                <img src="/assets/icon/cashPay.png" alt="실시간 계좌이체" />
                 <p>실시간 계좌이체</p>
               </li>
             </ul>
-            <Button title="확인 및 결제진행" />
+            <Button title="확인 및 결제진행" onClick={handleComplete} />
           </div>
         </div>
       </div>

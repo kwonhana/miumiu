@@ -9,15 +9,8 @@ import ProductShoesSize from './layout/ProductShoesSize';
 import './scss/ProductDetail.scss';
 
 const ProductDetail = () => {
-  const navigate = useNavigate();
-  // TODO Shipping 페이지로 연결
-  const handleShipping = () => {
-    console.log('결제페이지로 넘어가거라');
-    navigate('/shipping');
-  };
-
   const { id } = useParams();
-  const { items, onFetchItems } = useProductsStore();
+  const { items, onFetchItems, onAddToCart } = useProductsStore();
   //상품을 저장하는 변수
   const [product, setProduct] = useState(null);
   //이미지를 저장하는 변수
@@ -58,6 +51,35 @@ const ProductDetail = () => {
   }, [product, items]);
 
   console.log(product, '상세페이지 상품');
+
+  const navigate = useNavigate();
+  // TODO Shipping 페이지로 연결
+  const handleShipping = () => {
+    // 구매하기 클릭시 장바구니에 상품 추가
+    const productCart = {
+      ...product,
+      cartImg: product?.local_detail_images?.[0],
+      count: 1,
+      price: parseInt(product?.price?.replace(/[^0-9]/g, '')),
+    };
+
+    onAddToCart(productCart); // 장바구니에 담기
+    navigate('/shipping');
+  };
+
+  // TODO 장바구니 연결
+  const handleCart = () => {
+    const productCart = {
+      ...product,
+      cartImg: product?.local_detail_images?.[0],
+      count: 1,
+      price: parseInt(product?.price?.replace(/[^0-9]/g, '')), //숫자로 변환
+    };
+
+    onAddToCart(productCart);
+
+    navigate('/cart');
+  };
 
   const handleScroll = (targetID) => {
     const target = document.getElementById(targetID);
@@ -112,14 +134,18 @@ const ProductDetail = () => {
               <p className="price">{product.price}</p>
 
               <div className="button-wrap">
-                <Button title="장바구니 담기" />
+                <Button onClick={handleCart} title="장바구니 담기" />
                 <Button onClick={handleShipping} title="구매하기" />
               </div>
             </div>
           </div>
         </div>
         <div className="ProductDetail-bottom">
-          <ProductDetailNav onScroll={handleScroll} />
+          <ProductDetailNav
+            onScroll={handleScroll}
+            onCart={handleCart}
+            onShipping={handleShipping}
+          />
           <div className="inner">
             <div className="product-info" id="detail-info">
               <ul className="info-list ">

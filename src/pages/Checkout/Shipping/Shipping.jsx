@@ -13,9 +13,11 @@ import Button from '../../../component/layout/Button';
 import RadioCard from '../../../component/input/RadioCard';
 import { store, coupon } from '../../../store/data.js';
 import PointInput from '../../../component/input/PointInput.jsx';
+import { useProductsStore } from '../../../store/useProductsStore';
 
 export const Shipping = () => {
   const navigate = useNavigate();
+  const { onSelectCoupon, onFinalPrice } = useProductsStore();
   const [activeTab, setActiveTab] = useState('delivery');
 
   // TODO 배송정보 상태관리
@@ -23,7 +25,7 @@ export const Shipping = () => {
     // 구매자 정보
     email: '',
     newsletterAgree: false,
-    lastName: '',
+    // 배송주소
     name: '',
     address: '',
     detailAddress: '',
@@ -36,7 +38,6 @@ export const Shipping = () => {
     //쿠폰 사용
     selectCoupon: '',
     country: '대한민국',
-    date: new Date().toLocaleString(),
   });
 
   // TODO 뉴스, 매장, 쿠폰 값 업데이트
@@ -47,6 +48,20 @@ export const Shipping = () => {
       ...prev,
       [name]: type === 'checkbox' ? checked : value,
     }));
+
+    // 쿠폰 선택 시 Store 업데이트
+    if (name === 'selectCoupon') {
+      //다시 클릭하면 취소
+      if (checkData.selectCoupon === value) {
+        setCheckData((prev) => ({ ...prev, selectCoupon: '' }));
+        onSelectCoupon(null);
+        onFinalPrice();
+      } else {
+        const selectedCoupon = coupon.find((c) => c.value === value);
+        onSelectCoupon(selectedCoupon);
+        onFinalPrice();
+      }
+    }
   };
 
   // TODO 필수 필드 유효성 검증
@@ -73,7 +88,7 @@ export const Shipping = () => {
         return false;
       }
     } else if (activeTab === 'store') {
-      if (!checkData.selectedStore) {
+      if (!checkData.selectedStore || !checkData.selectedStore.value) {
         alert('매장을 선택해주세요.');
         return false;
       }
@@ -81,15 +96,33 @@ export const Shipping = () => {
     return true;
   };
 
-  // TODO 다음 버튼 클릭시 로컬저장
+  // TODO 다음 버튼 클릭
   const handleNext = () => {
     if (dateForm()) {
+      const { selectedCoupon, discount, finalPrice } = useProductsStore.getState();
       // 폼 데이터 저장 (localStorage 또는 상태관리 store)
-      localStorage.setItem('shippingData', JSON.stringify({ checkData, activeTab }));
-      console.log('배송정보 저장:', checkData);
+      localStorage.setItem(
+        'shippingData',
+        JSON.stringify({
+          checkData,
+          activeTab,
+          couponInfo: { selectedCoupon, discount, finalPrice },
+        })
+      );
       // 결제 페이지로 이동
       navigate('/orderSummary');
     }
+  };
+
+  // TODO 픽업매장 정보 저장
+  const handleStoreInfo = (e) => {
+    const value = e.target.value;
+    const selectStoreInfo = store.find((s) => s.value === value);
+
+    setCheckData((prev) => ({
+      ...prev,
+      selectedStore: selectStoreInfo,
+    }));
   };
 
   return (
@@ -163,8 +196,8 @@ export const Shipping = () => {
                       id={store.id}
                       name={store.name}
                       value={store.value}
-                      checked={checkData.selectedStore === store.value}
-                      onChange={handleInputChange}
+                      checked={checkData.selectedStore?.value === store.value}
+                      onChange={handleStoreInfo}
                       title={store.title}
                       script={store.address}
                       number={store.number}
