@@ -1,20 +1,21 @@
 import React from 'react';
 import '../scss/Cart.scss';
 import CartItem from '../layout/CartItem';
+import Button from '../../../component/layout/Button';
 import CartTotalPrice from '../layout/CartTotalPrice';
-import { useProductsStore } from '../../../store/useProductsStore';
 
 const Cart = () => {
-  const { cartCount } = useProductsStore();
   return (
     <section className="Cart">
       <div className="left-wrap">
         <div className="top">
           <h2>
-            장바구니 <span>({cartCount}개 상품)</span>
+            장바구니 <span>(3개 상품)</span>
           </h2>
         </div>
         <div className="cart-items">
+          <CartItem />
+          <CartItem />
           <CartItem />
         </div>
       </div>

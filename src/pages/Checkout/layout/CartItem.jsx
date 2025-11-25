@@ -1,34 +1,30 @@
 import React from 'react';
 import '../scss/CartItem.scss';
-import { useProductsStore } from '../../../store/useProductsStore';
 
 const CartItem = () => {
-  const { cartItems, onMinusItem, onPlusItem, onRemoveCart } = useProductsStore();
   return (
-    <>
-      {cartItems.map((item) => (
-        <div className="CartItem" key={item.id}>
-          <div className="itemleft-Img">
-            <img src={`/assets/images/detail/${item.cartImg}`} alt={item.name} />
-          </div>
-          <div className="itemRight">
-            <div className="top">
-              <span className="itemNO">{item.id}</span>
-              <button className="icon" onClick={() => onRemoveCart(item.id)}></button>
-            </div>
-            <p className="title">{item.name}</p>
-            <div className="bottom">
-              <div className="countBtn">
-                <button onClick={() => onMinusItem(item.id)}>-</button>
-                <span>{item.count}</span>
-                <button onClick={() => onPlusItem(item.id)}>+</button>
-              </div>
-              <p className="price">{(item.price * item.count).toLocaleString()}원</p>
-            </div>
-          </div>
+    <div className="CartItem">
+      <div className="itemleft-Img">
+        <img src="" alt="" />
+      </div>
+      <div className="itemRight">
+        <div className="top">
+          <span className="itemNO">nonononononono</span>
+          <button className="icon"></button>
         </div>
-      ))}
-    </>
+        <p className="title">
+          titletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitletitle
+        </p>
+        <div className="bottom">
+          <div className="countBtn">
+            <button>-</button>
+            <span>1</span>
+            <button>+</button>
+          </div>
+          <p className="price">48593485930</p>
+        </div>
+      </div>
+    </div>
   );
 };
 

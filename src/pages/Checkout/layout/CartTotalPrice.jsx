@@ -1,17 +1,8 @@
 import React from 'react';
 import Button from '../../../component/layout/Button';
 import '../scss/CartTotalPrice.scss';
-import { useProductsStore } from '../../../store/useProductsStore';
-import { useNavigate } from 'react-router-dom';
 
-const CartTotalPrice = ({ showCoupon = false, showVAT = false, showButton = true }) => {
-  const { cartCount, totalPrice, discount, finalPrice } = useProductsStore();
-  const navigate = useNavigate();
-
-  const handleCheckout = () => {
-    navigate('/shipping');
-  };
-
+const CartTotalPrice = () => {
   return (
     <div className="CartTotalPrice">
       <b className="">총 결제 금액</b>
@@ -23,30 +14,17 @@ const CartTotalPrice = ({ showCoupon = false, showVAT = false, showButton = true
         </div>
         <div className="list">
           <p>소계</p>
-          <span>{totalPrice.toLocaleString()} 원</span>
+          <span>600000000원</span>
         </div>
-
-        {showCoupon && (
-          <div className="list">
-            <p>쿠폰/적립금</p>
-            <span>-{(discount || 0).toLocaleString()}원</span>
-          </div>
-        )}
-        {showVAT && (
-          <div className="list">
-            <p>부가가치세</p>
-            <span>{((finalPrice || totalPrice) * 0.1).toLocaleString()}원</span>
-          </div>
-        )}
       </div>
 
       <div className="total-price-wrap">
         <p>
-          합계 <span className="item-count">({cartCount}개 상품)</span>
+          합계 <span className="item-count">(5개 상품)</span>
         </p>
-        <div className="total-price">{(finalPrice || totalPrice).toLocaleString()} 원</div>
+        <div className="total-price">600,000,000 원</div>
       </div>
-      {showButton && <Button onClick={handleCheckout} className="price-btn" title="결제하기" />}
+      <Button className="price-btn" title="결제하기" />
       <div className="accordion-wrap">
         <details>
           <summary>안심 결제</summary>

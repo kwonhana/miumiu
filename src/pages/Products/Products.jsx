@@ -9,7 +9,8 @@ import ProductList from './layout/ProductList';
 import ProductFilterNav from './layout/ProductFilterNav';
 
 const Products = ({ list }) => {
-  const { category1, category2, tags } = useParams();
+  const { category1, category2, tags,id } = useParams();
+  
   const { onFetchItems, onCateOnly, onCateTag, onCate1, items } = useProductsStore();
 
   const [filteredList, setFilteredList] = useState([]);
@@ -48,6 +49,7 @@ const Products = ({ list }) => {
       <ProductBanner bannerTitle={categoryName} />
 
       <ProductFilterNav list={items} onFilterChange={setFilteredList} />
+      {/* <ProductFilterNav list={filtered} query={query} onFilter={setFilteredList} /> */}
 
       <div className="product-list-wrap">
         <h2>{categoryName}</h2>

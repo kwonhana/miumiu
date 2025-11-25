@@ -5,7 +5,9 @@ import { useProductsStore } from '../../../store/useProductsStore';
 import '../scss/ProductList.scss';
 import AdProduct from './AdProduct';
 
-const ProductList = ({ filteredList }) => {
+// const ProductList = ({ filteredList }) => {
+
+const ProductList = ({filteredList}) => {
   const { filtered, onFetchItems } = useProductsStore();
 
   // 첫 로딩 시 상품 불러오기
@@ -13,11 +15,11 @@ const ProductList = ({ filteredList }) => {
     onFetchItems();
   }, [onFetchItems]);
 
-  const displayList = filteredList || filtered || [];
+  // const displayList = filteredList || filtered || [];
 
   return (
     <ul className="product-list">
-      {displayList.map((p, index) => (
+      {filtered.map((p, index) => (
         <React.Fragment key={p.id ?? index}>
           <li className="item">
             <Link to={`/product/${p.id}`}>
@@ -42,3 +44,8 @@ const ProductList = ({ filteredList }) => {
 };
 
 export default ProductList;
+
+
+
+
+

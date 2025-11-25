@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Button from '../../../component/layout/Button';
 import '../scss/ProductNav.scss';
 
-const ProductDetailNav = ({ onScroll, onCart, onShipping }) => {
+const ProductDetailNav = ({ onScroll }) => {
   const handleNavClick = (e, targetId) => {
     e.preventDefault();
 
@@ -37,9 +37,9 @@ const ProductDetailNav = ({ onScroll, onCart, onShipping }) => {
             </Link>
           </li>
         </ul>
-        <div className="nav-button-wrap">
-          <Button onClick={onCart} title="장바구니 담기" />
-          <Button onClick={onShipping} title="구매하기" />
+        <div className="button-wrap">
+          <Button title="장바구니 담기" />
+          <Button title="구매하기" />
         </div>
       </div>
     </div>

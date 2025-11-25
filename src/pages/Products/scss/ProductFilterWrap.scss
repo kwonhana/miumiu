@@ -59,7 +59,7 @@
         width: 24px;
         aspect-ratio: 1/1;
         display: inline-block;
-        background: url('../../../../public//assets//icon/arrow.png');
+        // background: url('../../../../public//assets//icon/arrow.png');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -102,7 +102,7 @@
         &:checked {
           border: 1px solid pd.$base;
           background-color: pd.$base;
-          background-image: url('../../../../public/assets/icon/checked.png');
+          // background-image: url('../../../../public/assets/icon/checked.png');
           background-position: center;
           background-size: 60%;
           background-repeat: no-repeat;
@@ -128,7 +128,7 @@
           width: 18px;
           aspect-ratio: 1/1;
           display: inline-block;
-          background: url('../../../../public/assets/icon/reset.png');
+          // background: url('../../../../public/assets/icon/reset.png');
           background-repeat: no-repeat;
           background-position: center;
           background-size: contain;

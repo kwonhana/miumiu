@@ -32,24 +32,20 @@
     }
   }
 
-  .nav-button-wrap {
+  .button-wrap {
     @include pd.flex(center, center, 10px);
 
-    .miu-btn {
-      &:nth-child(1) {
-        @include pd.font(1.4rem, 500, pd.$base);
-        aspect-ratio: 212 / 38;
-        border: 1px solid pd.$base;
-        background-color: #fff;
-        padding: 10px 16px;
-      }
+    button {
+      @include pd.font(1.4rem, 600, pd.$base);
+      padding: 10px 12px;
 
+      &:nth-child(1) {
+        border: 1px solid pd.$base;
+      }
       &:nth-child(2) {
-        @include pd.font(1.4rem, 500, #fff);
-        aspect-ratio: 81 / 38;
         border: 1px solid pd.$base;
         background-color: pd.$base;
-        padding: 10px 16px;
+        color: #fff;
       }
     }
   }

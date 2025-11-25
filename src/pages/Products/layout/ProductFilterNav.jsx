@@ -1,11 +1,18 @@
-import React, { useState } from 'react';
+import React from 'react';
 import '../scss/ProductFilterWrap.scss';
-import { Link } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
+import { useProductsStore } from '../../../store/useProductsStore';
+import { CustomItem } from '../../../store/data';
 
 const ProductFilterNav = ({ list, query, onFilter }) => {
-  const cate = Array.from(new Set(list.map((el) => el.category1)));
-  const cateKor = Array.from(new Set(list.map((el) => el.categoryKor1)));
+  const { setFiltered, onCustomStyle,onCateOnly} = useProductsStore();
+  const { category1,category2 } = useParams();
 
+  const isSearchPage = Boolean(query); // 검색 페이지 여부
+  const isCustomPage = category1 === "CustomStudio"; // CustomStudio 페이지 여부
+  console.log("누구", category1,category2)
+
+  // 카테고리2 메뉴 가공 (중복 제거)
   const cateObj = Array.from(
     new Map(
       list.map((el) => {
@@ -15,7 +22,7 @@ const ProductFilterNav = ({ list, query, onFilter }) => {
           {
             kor1: el.categoryKor1,
             kor2: el.categoryKor2,
-            cate: el.category1,
+            cate1: el.category1,
             cate2: el.category2,
           },
         ];
@@ -23,18 +30,44 @@ const ProductFilterNav = ({ list, query, onFilter }) => {
     ).values()
   );
 
-  console.log(cateObj, cate, query);
-  const handleFilter = (id) => {
-    console.log(id);
-    const filterItem = list.filter((list) => list.categoryKor1 === id);
-    console.log('원본', list);
-    console.log('자식', filterItem);
-    if (query) onFilter(filterItem);
+  /** ------------------------------
+   *  필터 버튼 클릭 처리
+   * ------------------------------ */
+  // 모든 룩 보기가 안됨 custom에서??? 여기 링크주ㅡ소는??/
+  // 
+  // 
+
+
+
+  const handleFilter = (filterKey) => {
+    if (isSearchPage && onFilter) {
+      // 검색 페이지: categoryKor1 기준 필터
+      onFilter(list.filter(item => item.categoryKor1 === filterKey));
+      return;
+    }
+
+    // if (isCustomPage) {
+    //   // CustomStudio 페이지: CustomItem 스타일 기준 필터
+    //   const filteredCustom = list.filter(item =>
+    //     CustomItem.some(c => c.style === filterKey && c.itemId === item.id)
+    //   );
+    //   setFiltered(filteredCustom); // 상태 업데이트
+    //   return;
+    // }
+
+    // 일반 카테고리: categoryKor1 기준 필터
+    setFiltered(list.filter(item => item.categoryKor1 === filterKey));
+    console.log(list.filter(item => item.categoryKor1 === filterKey))
   };
 
+  /** ------------------------------
+   *  "모든 룩 보기" 버튼
+   * ------------------------------ */
   const handleShowAll = () => {
-    if (query) {
+    if (isSearchPage && onFilter) {
       onFilter(list);
+    } else if (isCustomPage) {
+    onCustomStyle(category2)
     }
   };
 
@@ -42,33 +75,42 @@ const ProductFilterNav = ({ list, query, onFilter }) => {
     <div className="ProductNav">
       <div className="nav-inner">
         <ul>
+          {/* 모든 룩 보기 */}
           <li>
-            {!query ? (
-              <Link to={`/${cate}/`} className="link">
+            {!isSearchPage && !isCustomPage ? (
+              <Link to={`/${list[0]?.category1 || ''}`} className="link">
                 모든 룩 보기
               </Link>
             ) : (
-              // 🚀 query가 true일 때 (검색 결과 페이지): Button 사용
               <button className="link" onClick={handleShowAll}>
                 모든 룩 보기
               </button>
             )}
           </li>
-          {!query
-            ? cateObj.map((el, i) => (
-                <li key={i}>
-                  <Link to={`/${el.cate}/${el.cate2}`} className="link">
-                    {el.kor2}
-                  </Link>
-                </li>
-              ))
-            : cateKor.map((c, id) => (
-                <li key={id}>
-                  <button onClick={() => handleFilter(c)}>{c}</button>
-                </li>
-              ))}
+
+          {/* 조건 분기 */}
+          {isSearchPage || isCustomPage ? (
+            // 검색 페이지 / CustomStudio → 버튼
+            cateObj.map((el, i) => (
+              <li key={i}>
+                <button className="link" onClick={() => handleFilter(el.kor1)}>
+                  {el.kor2}
+                </button>
+              </li>
+            ))
+          ) : (
+            // 일반 카테고리 → Link
+            cateObj.map((el, i) => (
+              <li key={i}>
+                <Link to={`/${el.cate1}/${el.cate2}`} className="link">
+                  {el.kor2}
+                </Link>
+              </li>
+            ))
+          )}
         </ul>
 
+        {/* 필터 및 정렬 버튼 */}
         <div className="button-wrap">
           <button>필터 및 정렬</button>
         </div>

@@ -315,7 +315,6 @@ export const coupon = [
     title: '10% 할인 쿠폰',
     address: '100만원 이상 구매시 사용가능',
     number: '2026.08.31 까지',
-    discount: 10,
   },
   {
     id: 'coupon2',
@@ -324,7 +323,6 @@ export const coupon = [
     title: '15% 할인 쿠폰',
     address: '150만원 이상 구매시 사용가능',
     number: '2026.08.31 까지',
-    discount: 15,
   },
 ];
 

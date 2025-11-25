@@ -7,11 +7,9 @@
   margin: 0 auto;
   padding-top: 120px;
   padding-bottom: 40px;
-  background-color: #f5f5f5;
 
   .left-wrap {
-    aspect-ratio: 1208/2400;
-    flex: 0 0 70%;
+    width: 62.5%;
     padding: 0 60px;
 
     .top {
@@ -25,7 +23,6 @@
     }
     .cart-items {
       margin-top: 30px;
-      background-color: #fff;
     }
   }
 }
