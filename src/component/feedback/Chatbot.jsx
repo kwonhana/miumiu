@@ -1,10 +1,13 @@
-import React, { useState, useRef, useEffect, createContext, useContext } from 'react';
+import React, { useRef, useEffect } from 'react';
 import './scss/Chatbot.scss';
 import { csButtons, responses, subMenus, detailedResponses } from '../../store/data';
 import { useChatStore } from '../../store/useChat';
 
+//TODO 챗봇
 export const Chatbot = () => {
+  // TODO: [SCROLL] 메시지 목록의 끝을 참조하여 자동 스크롤을 구현함.
   const messagesEndRef = useRef(null);
+  console.log('스크롤', window.scrollY);
 
   const {
     isOpen,
@@ -19,6 +22,14 @@ export const Chatbot = () => {
     clearInput,
   } = useChatStore();
 
+  const handleScroll = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  };
+
+  // TODO: 채팅 스크롤 맨 아래로
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
   };
@@ -38,14 +49,16 @@ export const Chatbot = () => {
     clearInput();
   };
 
-  // 1단계: 메인 카테고리 클릭
+  //TODO 메인 카테고리 클릭
   const handleButtonClick = (category) => {
+    // TODO: 현재 시간을 한국 포맷으로 생성.
     const currentTime = new Date().toLocaleTimeString('ko-KR', {
       hour: '2-digit',
       minute: '2-digit',
       hour12: true,
     });
 
+    // TODO: 사용자가 클릭한 버튼에 해당하는 메시지 객체 생성.
     const userMessage = {
       text: csButtons.find((btn) => btn.category === category)?.label || '',
       type: 'user',
@@ -53,8 +66,9 @@ export const Chatbot = () => {
       id: Date.now() + '-user',
     };
 
+    // TODO: 메인 카테고리에 해당하는 봇 응답 메시지 객체 생성.
     const botMessage = {
-      text: responses[category] || '문의해주셔서 감사합니다. 곧 답변드리겠습니다.',
+      text: responses[category] || '문의해주셔서 감사합니다. \n 곧 답변드리겠습니다.',
       type: 'bot',
       time: currentTime,
       id: Date.now() + '-bot',
@@ -62,7 +76,7 @@ export const Chatbot = () => {
 
     addMessages([userMessage, botMessage]);
 
-    // 서브메뉴가 있는 카테고리인 경우
+    //TODO 서브메뉴 카테고리
     if (subMenus[category]) {
       setTimeout(() => {
         addMessages([
@@ -163,6 +177,7 @@ export const Chatbot = () => {
 
   return (
     <div className="Chatbot">
+      {/* TODO 챗봇 */}
       {isOpen && (
         <div className="chatbot-wrap">
           <div className="header">
@@ -255,6 +270,7 @@ export const Chatbot = () => {
       )}
 
       <button onClick={toggleChat} className="chatbot-toggle-btn"></button>
+      <button onClick={handleScroll} className="up-btn"></button>
     </div>
   );
 };

@@ -9,6 +9,19 @@
   flex-direction: column;
   gap: 16px;
 
+  //GO-UP
+  .up-btn {
+    width: 50px;
+    aspect-ratio: 1/1;
+    background-image: url('../../../../public/assets/icon/go-up.png');
+    cursor: pointer;
+    transition: transform 0.2s;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  //TODO chatBot
   .chatbot-toggle-btn {
     background-image: url('../../../../public/assets/icon/message.png');
     width: 50px;
@@ -21,6 +34,7 @@
     }
   }
 
+  //TODO chatBot
   .chatbot-wrap {
     width: 384px;
     height: 600px;
