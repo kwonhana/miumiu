@@ -36,7 +36,7 @@ const DetailAddress = () => {
         onClick={() => setIsOpen(true)}
       />
 
-      <p>상세 주소(선택)</p>
+      <p className="detailAddress">상세 주소(선택)</p>
       <input
         type="text"
         placeholder="상세 주소를 입력해주세요"
@@ -49,6 +49,7 @@ const DetailAddress = () => {
           className="postcode-modal"
           style={{
             position: 'absolute',
+            top: 20,
             zIndex: 100,
             background: '#fff',
             border: '1px solid #ccc',
