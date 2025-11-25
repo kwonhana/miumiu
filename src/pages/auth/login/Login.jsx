@@ -46,6 +46,8 @@ const Login = () => {
       alert(`${userData.name}님, 환영합니다!`);
       setUser(userData);
 
+      localStorage.setItem('loginUser', JSON.stringify(userData));
+
       Navigate('/');
     } else {
       alert('아이디 또는 비밀번호가 일치하지 않습니다!!');
