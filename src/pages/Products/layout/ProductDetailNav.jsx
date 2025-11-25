@@ -3,25 +3,38 @@ import { Link } from 'react-router-dom';
 import Button from '../../../component/layout/Button';
 import '../scss/ProductNav.scss';
 
-const ProductDetailNav = () => {
+const ProductDetailNav = ({ onScroll }) => {
+  const handleNavClick = (e, targetId) => {
+    e.preventDefault();
+
+    if (onScroll) {
+      onScroll(targetId);
+    }
+  };
   return (
     <div className="ProductNav">
       <div className="nav-inner">
         <ul>
           <li>
-            <Link className="link">제품 설명</Link>
+            <Link
+              className="link"
+              to="#detail-info"
+              onClick={(e) => handleNavClick(e, 'detail-info')}>
+              제품 상세 정보
+            </Link>
           </li>
           <li>
-            <Link className="link">제품 상세 정보</Link>
+            <Link className="link" To="#info-text" onClick={(e) => handleNavClick(e, 'info-text')}>
+              제품 설명
+            </Link>
           </li>
           <li>
-            <Link className="link">사이즈 가이드</Link>
-          </li>
-          <li>
-            <Link className="link">제품 세부 정보</Link>
-          </li>
-          <li>
-            <Link className="link">매장 찾기</Link>
+            <Link
+              className="link "
+              TO="#product-size"
+              onClick={(e) => handleNavClick(e, 'product-size')}>
+              제품 세부 정보
+            </Link>
           </li>
         </ul>
         <div className="button-wrap">

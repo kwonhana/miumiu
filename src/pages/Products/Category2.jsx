@@ -1,19 +1,40 @@
-import React, { useEffect } from 'react';
-import ProductBanner from './layout/ProductBanner';
-import ProductFilterNav from './layout/ProductFilterNav';
+import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { useProductsStore } from '../../store/useProductsStore';
 import ProductList from './layout/ProductList';
-import './scss/Category2.scss';
+import ProductBanner from './layout/ProductBanner';
+import ProductFilterNav from './layout/ProductFilterNav';
 
 const Category2 = () => {
   const { category1, category2, tags } = useParams();
-  const { filtered, onFetchItems, onCateOnly, onCateTag, onCate1 } = useProductsStore();
+  const {
+    items,
+    filtered,
+    onFetchItems,
+    onCateOnly,
+    onCateTag,
+    onCate1,
+    onCustomStyle,
+    setFiltered,
+  } = useProductsStore();
+
+  const [filterItem, setFilterItem] = useState(null);
+
+  const displayList = filterItem ?? filtered ?? [];
 
   useEffect(() => {
     onFetchItems();
-  }, []);
+  }, [onFetchItems]);
+
+  // CustomStudio 필터링
   useEffect(() => {
+    if (category1 === 'CustomStudio' && category2) {
+      onCustomStyle(category2);
+      console.log("cus", filtered)
+      return;
+    }
+
+
     if (category1 && category2 && tags) {
       onCateOnly(category1, category2);
     } else if (category1 && tags && !category2) {
@@ -23,18 +44,16 @@ const Category2 = () => {
     } else if (category1 && !category2 && !tags) {
       onCate1(category1);
     }
-  }, [category1, category2, tags, onFetchItems, onCateOnly, onCateTag, onCate1]);
+  }, [category1, category2, tags, onFetchItems, onCateOnly, onCateTag, onCate1, onCustomStyle]);
 
-  console.log('필터링 아이템', filtered);
-  let filterCategory1 = Array.from(new Set(filtered.map((el) => el.categoryKor1)));
-  console.log(filterCategory1);
+  const filterCategory1 = Array.from(new Set(filtered.map(el => el.categoryKor1)));
 
   return (
     <div className="Category2">
       <ProductBanner bannerTitle={category1} korTitle={filterCategory1} />
-      <ProductFilterNav list={filtered} />
+      <ProductFilterNav list={filtered} onFilter={setFilterItem} />
 
-      <ProductList />
+      <ProductList filteredList={displayList} />
     </div>
   );
 };

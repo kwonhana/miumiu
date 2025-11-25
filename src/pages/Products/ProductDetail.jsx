@@ -1,13 +1,21 @@
 import React, { useEffect, useState } from 'react';
 import Button from '../../component/layout/Button';
 import './scss/ProductDetail.scss';
-import { Link, useParams } from 'react-router-dom';
+import { Link, useNavigate, useParams } from 'react-router-dom';
 import { useProductsStore } from '../../store/useProductsStore';
-import ProductSkeleton from './layout/ProductSkeleton';
+import ProductDetailSkeleton from './layout/ProductDetailSkeleton';
 import ProductDetailNav from './layout/ProductDetailNav';
 import ProductShoesSize from './layout/ProductShoesSize';
+import './scss/ProductDetail.scss';
 
 const ProductDetail = () => {
+  const navigate = useNavigate();
+  // TODO Shipping 페이지로 연결
+  const handleShipping = () => {
+    console.log('결제페이지로 넘어가거라');
+    navigate('/shipping');
+  };
+
   const { id } = useParams();
   const { items, onFetchItems } = useProductsStore();
   //상품을 저장하는 변수
@@ -49,10 +57,28 @@ const ProductDetail = () => {
     }
   }, [product, items]);
 
-  if (!product) {
-    return <ProductSkeleton />;
-  }
   console.log(product, '상세페이지 상품');
+
+  const handleScroll = (targetID) => {
+    const target = document.getElementById(targetID);
+
+    if (target) {
+      const navHeight = 300;
+      const elementPosition = target.getBoundingClientRect().top;
+      const offset = elementPosition + window.pageYOffset - navHeight;
+
+      window.scrollTo({
+        top: offset,
+        behavior: 'smooth',
+      });
+    } else {
+      console.warn(`Target element with id #${target} not found.`);
+    }
+  };
+
+  if (!product) {
+    return <ProductDetailSkeleton />;
+  }
 
   return (
     <>
@@ -85,18 +111,18 @@ const ProductDetail = () => {
               <h3>{product.name}</h3>
               <p className="price">{product.price}</p>
 
-              <div className="button-wrap">
+              <div className="price-button-wrap">
                 <Button title="장바구니 담기" />
-                <Button title="구매하기" />
+                <Button onClick={handleShipping} title="구매하기" />
               </div>
             </div>
           </div>
         </div>
         <div className="ProductDetail-bottom">
-          <ProductDetailNav />
+          <ProductDetailNav onScroll={handleScroll} />
           <div className="inner">
-            <div className="product-info">
-              <ul className="info-list">
+            <div className="product-info" id="detail-info">
+              <ul className="info-list ">
                 {product.local_detail_images.map((img, index) => {
                   return (
                     <React.Fragment key={index}>
@@ -105,7 +131,7 @@ const ProductDetail = () => {
                       </li>
 
                       {index === 1 && (
-                        <div className="product-acc-info">
+                        <div className="product-acc-info " id="info-text">
                           <div className="info">
                             <h4>{product.name}</h4>
                             <p>{product.subtitle}</p>
@@ -114,7 +140,7 @@ const ProductDetail = () => {
                       )}
 
                       {index === 3 && (
-                        <div className="product-acc-info flex">
+                        <div className="product-acc-info flex " id="product-size">
                           <div className="info">
                             <h4>사이즈</h4>
                             <ul>
@@ -164,6 +190,10 @@ const ProductDetail = () => {
                   }
                   alt={item.name}
                 />
+                <div className="product-text-box">
+                  <h3>{item.name}</h3>
+                  <p>{item.price}</p>
+                </div>
               </Link>
             </li>
           ))}

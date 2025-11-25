@@ -3639,7 +3639,7 @@ export const products = [
     categoryKor1: '지갑',
     categoryKor2: '카드 지갑',
     name: '나파 가죽 카드 홀더',
-    tags: '나파',
+    tags: 'napa',
     price: '₩ 750,000',
     subtitle:
       '심플한 라인을 따르는 카드 홀더는 부드러운 나파 가죽과 아이코닉한 미우미우 로고로 완성됩니다. 지퍼 포켓과 키링 디테일이 더해져 기능성과 개성을 동시에 담아냅니다.',
@@ -3687,7 +3687,7 @@ export const products = [
     categoryKor1: '지갑',
     categoryKor2: '카드 지갑',
     name: '나파 가죽 카드 지갑',
-    tags: '나파',
+    tags: 'napa',
     price: '₩ 750,000',
     subtitle:
       '의도적으로 연출한 나파 가죽의 빈티지 효과와 아이코닉한 미우미우 로고 디테일로 새로운 카드 지갑의 심플한 라인이 더욱 돋보입니다. 슬롯과 키링으로 기능적인 디테일의 디자인이 완성됩니다.',
@@ -3736,7 +3736,7 @@ export const products = [
     categoryKor1: '지갑',
     categoryKor2: '카드 지갑',
     name: '나파 가죽 엔벨롭 카드 홀더',
-    tags: '나파',
+    tags: 'napa',
     price: '₩ 660,000',
     subtitle:
       '빈티지한 효과를 더한 나파 가죽의 고급스러운 촉감이 간결한 라인을 돋보이게 합니다. 지퍼 포켓과 아이코닉한 엠보싱 로고가 디자인을 완성하며, 실용성과 개성을 조화롭게 담아냅니다.',
@@ -3791,7 +3791,7 @@ export const products = [
     categoryKor1: '지갑',
     categoryKor2: '카드 지갑',
     name: '나파 가죽 엔벨롭 카드 홀더',
-    tags: '나파',
+    tags: 'napa',
     price: '₩ 660,000',
     subtitle:
       '빈티지한 효과를 더한 나파 가죽의 고급스러운 촉감이 간결한 라인을 돋보이게 합니다. 지퍼 포켓과 아이코닉한 엠보싱 로고가 디자인을 완성하며, 실용성과 개성을 조화롭게 담아냅니다.',
@@ -5168,7 +5168,7 @@ export const products = [
     categoryKor1: '지갑',
     categoryKor2: '카드 지갑',
     name: '나파 가죽 엔벨롭 카드 홀더',
-    tags: '나파',
+    tags: 'napa',
     price: '₩ 660,000',
     subtitle:
       '빈티지한 효과를 더한 나파 가죽의 고급스러운 촉감이 간결한 라인을 돋보이게 합니다. 지퍼 포켓과 아이코닉한 엠보싱 로고가 디자인을 완성하며, 실용성과 개성을 조화롭게 담아냅니다.',
@@ -5284,7 +5284,7 @@ export const products = [
     categoryKor1: '가방',
     categoryKor2: '미니백',
     name: '나파 가죽 미니 백',
-    tags: '나파',
+    tags: 'napa',
     price: '₩ 1,640,000',
     subtitle:
       '나파 가죽의 부드러운 텍스처가 특징인 미니 백입니다. 맞춤 조절형 숄더 스트랩이 기능적인 디테일을 더하며, 엠보싱 레터링 로고가 아이코닉한 디자인을 완성합니다.',
@@ -5359,7 +5359,7 @@ export const products = [
     categoryKor1: '가방',
     categoryKor2: '미니백',
     name: '나파 가죽 미니 백',
-    tags: '나파',
+    tags: 'napa',
     price: '₩ 1,640,000',
     subtitle:
       '나파 가죽의 부드러운 텍스처가 특징인 미니 백입니다. 맞춤 조절형 숄더 스트랩이 기능적인 디테일을 더하며, 엠보싱 레터링 로고가 아이코닉한 디자인을 완성합니다.',
@@ -5420,7 +5420,7 @@ export const products = [
     categoryKor1: '가방',
     categoryKor2: '미니백',
     name: '나파 가죽 미니 백',
-    tags: '나파',
+    tags: 'napa',
     price: '₩ 1,640,000',
     subtitle:
       '나파 가죽의 부드러운 텍스처가 특징인 미니 백입니다. 맞춤 조절형 숄더 스트랩이 기능적인 디테일을 더하며, 엠보싱 레터링 로고가 아이코닉한 디자인을 완성합니다.',
@@ -5495,7 +5495,7 @@ export const products = [
     categoryKor1: '가방',
     categoryKor2: '미니백',
     name: '나파 가죽 파우치',
-    tags: '나파',
+    tags: 'napa',
     price: '₩ 2,150,000',
     subtitle:
       '장인정신 담긴 나파 가죽 파우치로 빈티지 효과가 특징입니다. 엠보싱 로고와 맞춤 조절형 숄더 스트랩으로 활용성과 매력이 돋보입니다.',
@@ -7611,7 +7611,7 @@ export const products = [
       '두드러지는 로고',
     ],
     size_info: ['폭 1.5cm', '길이 1.45cm'],
-    material: '주 소재: 에나멜, 브라스',
+    material: '주 소재: 에나멜',
     detail_images: [
       {
         type: 'thumbnail',
@@ -7656,7 +7656,7 @@ export const products = [
       '두드러지는 로고',
     ],
     size_info: ['폭 1.5cm', '길이 1.45cm'],
-    material: '주 소재: 에나멜, 브라스',
+    material: '주 소재: 에나멜',
     detail_images: [
       {
         type: 'thumbnail',
@@ -7701,7 +7701,7 @@ export const products = [
       '두드러지는 로고',
     ],
     size_info: ['폭 1.5cm', '길이 1.45cm'],
-    material: '주 소재: 에나멜, 브라스',
+    material: '주 소재: 에나멜',
     detail_images: [
       {
         type: 'thumbnail',
@@ -7746,7 +7746,7 @@ export const products = [
       '두드러지는 로고',
     ],
     size_info: ['폭 1.5cm', '길이 1.45cm'],
-    material: '주 소재: 에나멜, 브라스',
+    material: '주 소재: 에나멜',
     detail_images: [
       {
         type: 'thumbnail',
@@ -7798,7 +7798,7 @@ export const products = [
       '두드러지는 로고',
     ],
     size_info: ['폭 1.5cm', '길이 1.45cm'],
-    material: '주 소재: 에나멜, 브라스',
+    material: '주 소재: 에나멜',
     detail_images: [
       {
         type: 'thumbnail',
@@ -7836,7 +7836,7 @@ export const products = [
       '두드러지는 로고',
     ],
     size_info: ['폭 1.5cm', '길이 1.45cm'],
-    material: '주 소재: 에나멜, 브라스',
+    material: '주 소재: 에나멜',
     detail_images: [
       {
         type: 'thumbnail',
@@ -7874,7 +7874,7 @@ export const products = [
       '두드러지는 로고',
     ],
     size_info: ['폭 1.5cm', '길이 1.45cm'],
-    material: '주 소재: 에나멜, 브라스',
+    material: '주 소재: 에나멜',
     detail_images: [
       {
         type: 'thumbnail',
@@ -9210,7 +9210,7 @@ export const products = [
     categoryKor1: '패션주얼리',
     categoryKor2: '팔찌',
     name: '나파 가죽 버클 팔찌',
-    tags: '나파',
+    tags: 'napa',
     price: '₩ 660,000',
     subtitle:
       '2025 봄/여름 패션쇼에서 영감을 받은 골드 버클 디테일이 부드러운 나파 레더 브레이슬릿에 대담한 개성을 더하며, 다양한 스타일링이 가능합니다.',
@@ -9309,7 +9309,7 @@ export const products = [
     categoryKor1: '패션주얼리',
     categoryKor2: '팔찌',
     name: '버클 장식 가죽 팔찌',
-    tags: '버클',
+    tags: 'buckle',
     price: '₩ 660,000',
     subtitle:
       '벨트 디테일을 연상시키는 메탈 버클로 세련되고 빈티지한 무드를 연출해 대비를 강조한 룩에 완벽하게 어울리는 팔찌입니다.',
@@ -9355,7 +9355,7 @@ export const products = [
     categoryKor1: '패션주얼리',
     categoryKor2: '팔찌',
     name: '버클 장식 가죽 팔찌',
-    tags: '버클',
+    tags: 'buckle',
     price: '₩ 660,000',
     subtitle:
       '벨트 디테일을 연상시키는 메탈 버클로 세련되고 빈티지한 무드를 연출해 대비를 강조한 룩에 완벽하게 어울리는 팔찌입니다.',
@@ -10894,7 +10894,7 @@ export const products = [
     categoryKor2: '펌프스',
     name: '버클 장식 페이턴트 가죽 슬링백 펌프스',
 
-    tags: '버클',
+    tags: 'buckle',
     price: '₩ 1,710,000',
     subtitle:
       '광택 있는 페이턴트 가죽과 버클 디테일이 어우러진 펌프스는 여성스러운 라인에 시크한 감도를 더하며, 모던한 우아함을 강조합니다.',
@@ -10949,7 +10949,7 @@ export const products = [
     categoryKor2: '펌프스',
     name: '버클 장식 페이턴트 가죽 슬링백 펌프스',
 
-    tags: '버클',
+    tags: 'buckle',
     price: '₩ 1,710,000',
     subtitle:
       '광택 있는 페이턴트 가죽과 버클 디테일이 어우러진 펌프스는 여성스러운 라인에 시크한 감도를 더하며, 모던한 우아함을 강조합니다.',
@@ -11004,7 +11004,7 @@ export const products = [
     categoryKor2: '펌프스',
     name: '버클 장식 페이턴트 가죽 슬링백 펌프스',
 
-    tags: '버클',
+    tags: 'buckle',
     price: '₩ 1,710,000',
     subtitle:
       '광택 있는 페이턴트 가죽과 버클 디테일이 어우러진 펌프스는 여성스러운 라인에 시크한 감도를 더하며, 모던한 우아함을 강조합니다.',
@@ -11059,7 +11059,7 @@ export const products = [
     categoryKor2: '펌프스',
     name: '버클 장식의 브러쉬드 가죽 슬링백',
 
-    tags: '버클',
+    tags: 'buckle',
     price: '₩ 1,760,000',
     subtitle:
       '클래식한 스타일과 미우미우의 반항적인 정신이 만나 탄생한 브러시드 가죽 슬링백입니다. 세련된 대비가 돋보이는 버클로 슈즈에 반항적인 무드를 주며 강렬한 개성을 더합니다.',
@@ -11719,7 +11719,7 @@ export const products = [
       '스크린 프린트 로고 인솔',
     ],
     size_info: [],
-    material: '주 소재: 면',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -11772,7 +11772,7 @@ export const products = [
       'EVA 솔',
     ],
     size_info: [],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -11944,7 +11944,7 @@ export const products = [
       '**실시간 재고 상황 변동으로 인해 주문이 취소될 수 있음을 알려 드립니다. 양해 부탁드립니다.',
     ],
     size_info: [],
-    material: '주 소재: 재생 폴리아미드',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -11999,7 +11999,7 @@ export const products = [
       '**실시간 재고 상황 변동으로 인해 주문이 취소될 수 있음을 알려 드립니다. 양해 부탁드립니다.',
     ],
     size_info: [],
-    material: '주 소재: 재생 폴리아미드',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -12054,7 +12054,7 @@ export const products = [
       '**실시간 재고 상황 변동으로 인해 주문이 취소될 수 있음을 알려 드립니다. 양해 부탁드립니다.',
     ],
     size_info: [],
-    material: '주 소재: 재생 폴리아미드',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -12493,7 +12493,7 @@ export const products = [
       '스크린 프린트 로고 스트랩 및 솔',
     ],
     size_info: [],
-    material: '주 소재: 재생 폴리아미드',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -12548,7 +12548,7 @@ export const products = [
       '가죽 커버 인솔',
     ],
     size_info: [],
-    material: '주 소재: 실크, 비스코스',
+    material: '주 소재: 실크',
     detail_images: [
       {
         type: 'thumbnail',
@@ -12610,7 +12610,7 @@ export const products = [
       '가죽 커버 인솔',
     ],
     size_info: [],
-    material: '주 소재: 실크, 비스코스',
+    material: '주 소재: 실크',
     detail_images: [
       {
         type: 'thumbnail',
@@ -12665,7 +12665,7 @@ export const products = [
       '가죽 커버 인솔',
     ],
     size_info: [],
-    material: '주 소재: 실크, 비스코스',
+    material: '주 소재: 실크',
     detail_images: [
       {
         type: 'thumbnail',
@@ -13029,7 +13029,7 @@ export const products = [
     categoryKor1: '신발',
     categoryKor2: '부츠',
     name: '가죽 부츠',
-    tags: '바이커',
+    tags: 'biker',
     price: '₩ 2,750,000',
     subtitle:
       '아이코닉한 바이커 스타일에서 영감을 받은 이 부츠는 버팔로 가죽의 텍스처와 발끝의 브로그 디테일 덕분에 매력과 활용성을 겸비했습니다. 반항적인 애티튜드를 지닌 실루엣에 세련된 느낌을 더해줍니다.',
@@ -13439,7 +13439,7 @@ export const products = [
       '스크린 프린트 로고 인솔',
     ],
     size_info: [],
-    material: '주 소재: 폴리아미드 버진 울',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -13830,7 +13830,7 @@ export const products = [
     categoryKor1: '신발',
     categoryKor2: '부츠',
     name: '나파 가죽 부티',
-    tags: '나파',
+    tags: 'napa',
     price: '₩ 2,250,000',
     subtitle:
       '글러브처럼 발을 감싸는 부드러운 나파 가죽이 돋보이는 부티입니다. 미우미우의 클래식 아이템으로, 캐주얼한 우아함 속에 각기 다른 페미니니티를 기념하고자 디자인되었습니다.',
@@ -14141,7 +14141,7 @@ export const products = [
     categoryKor1: '신발',
     categoryKor2: '부츠',
     name: '버클 장식 나파 가죽 부츠',
-    tags: '버클',
+    tags: 'buckle',
     price: '₩ 3,300,000',
     subtitle:
       '부드러운 가죽으로 제작된 이 가벼운 부츠는 다리를 섬세하게 감싸며 글러브처럼 밀착되는 여성스러운 실루엣을 선사합니다. 시선을 사로잡는 로고 인그레이빙 버클 장식이 아이코닉하면서도 대담한 매력을 표현합니다.',
@@ -14213,7 +14213,7 @@ export const products = [
     categoryKor1: '신발',
     categoryKor2: '부츠',
     name: '버클 장식 나파 가죽 부츠',
-    tags: '버클',
+    tags: 'buckle',
     price: '₩ 3,300,000',
     subtitle:
       '부드러운 가죽으로 제작된 이 가벼운 부츠는 다리를 섬세하게 감싸며 글러브처럼 밀착되는 여성스러운 실루엣을 선사합니다. 시선을 사로잡는 로고 인그레이빙 버클 장식이 아이코닉하면서도 대담한 매력을 표현합니다.',
@@ -14340,6 +14340,7 @@ export const products = [
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
     categoryKor1: '신발',
+    categoryKor2: '로퍼 및 레이스업',
     name: '스트랩 가죽 로퍼',
     price: '₩ 1,580,000',
     subtitle:
@@ -14408,6 +14409,7 @@ export const products = [
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
     categoryKor1: '신발',
+    categoryKor2: '로퍼 및 레이스업',
     name: '스트랩 가죽 로퍼',
     price: '₩ 1,580,000',
     subtitle:
@@ -14476,6 +14478,7 @@ export const products = [
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
     categoryKor1: '신발',
+    categoryKor2: '로퍼 및 레이스업',
     name: '버팔로 가죽 로퍼',
     price: '₩ 1,530,000',
     subtitle:
@@ -14536,6 +14539,7 @@ export const products = [
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
     categoryKor1: '신발',
+    categoryKor2: '로퍼 및 레이스업',
     name: '스웨이드 로퍼',
     price: '₩ 1,530,000',
     subtitle:
@@ -14589,6 +14593,7 @@ export const products = [
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
     categoryKor1: '신발',
+    categoryKor2: '로퍼 및 레이스업',
     name: '스웨이드 로퍼',
     price: '₩ 1,530,000',
     subtitle:
@@ -14642,6 +14647,7 @@ export const products = [
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
     categoryKor1: '신발',
+    categoryKor2: '로퍼 및 레이스업',
     name: '폴리시드 가죽 테슬 로퍼',
     price: '₩ 1,690,000',
     subtitle:
@@ -14696,6 +14702,7 @@ export const products = [
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
     categoryKor1: '신발',
+    categoryKor2: '로퍼 및 레이스업',
     name: '폴리시드 가죽 테슬 로퍼',
     price: '₩ 1,690,000',
     subtitle:
@@ -14750,6 +14757,7 @@ export const products = [
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
     categoryKor1: '신발',
+    categoryKor2: '로퍼 및 레이스업',
     name: '가죽 브로그 슈즈',
     price: '₩ 1,690,000',
     subtitle:
@@ -14813,6 +14821,7 @@ export const products = [
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
     categoryKor1: '신발',
+    categoryKor2: '로퍼 및 레이스업',
     name: '송아지 가죽 버클 브로그 슈즈',
     price: '₩ 1,640,000',
     subtitle:
@@ -14867,6 +14876,7 @@ export const products = [
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
     categoryKor1: '신발',
+    categoryKor2: '로퍼 및 레이스업',
     name: '가죽 로퍼',
     price: '₩ 1,760,000',
     subtitle:
@@ -14921,6 +14931,7 @@ export const products = [
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
     categoryKor1: '신발',
+    categoryKor2: '로퍼 및 레이스업',
     name: '가죽 로퍼',
     price: '₩ 1,760,000',
     subtitle:
@@ -14989,6 +15000,7 @@ export const products = [
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
     categoryKor1: '신발',
+    categoryKor2: '로퍼 및 레이스업',
     name: '루슈 나파 가죽 로퍼',
     tags: 'ruches',
     tags2: 'iconic',
@@ -15058,6 +15070,7 @@ export const products = [
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
     categoryKor1: '신발',
+    categoryKor2: '로퍼 및 레이스업',
     name: '루슈 나파 가죽 로퍼',
     tags: 'ruches',
     tags2: 'iconic',
@@ -15120,6 +15133,7 @@ export const products = [
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
     categoryKor1: '신발',
+    categoryKor2: '로퍼 및 레이스업',
     name: '루슈 스웨이드 로퍼',
     tags: 'ruches',
     tags2: 'iconic',
@@ -15175,6 +15189,7 @@ export const products = [
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
     categoryKor1: '신발',
+    categoryKor2: '로퍼 및 레이스업',
     name: '루슈 스웨이드 로퍼',
     tags: 'ruches',
     tags2: 'iconic',
@@ -15230,6 +15245,7 @@ export const products = [
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
     categoryKor1: '신발',
+    categoryKor2: '로퍼 및 레이스업',
     name: '루슈 스웨이드 로퍼',
     tags: 'ruches',
     tags2: 'iconic',
@@ -15292,6 +15308,7 @@ export const products = [
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
     categoryKor1: '신발',
+    categoryKor2: '로퍼 및 레이스업',
     name: '스웨이드 클로그',
     tags: 'winter-shoes',
     tags2: 'iconic',
@@ -15353,6 +15370,7 @@ export const products = [
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
     categoryKor1: '신발',
+    categoryKor2: '로퍼 및 레이스업',
     name: '스웨이드 뮬',
     tags: 'penny-loafers',
     tags2: 'iconic',
@@ -15416,6 +15434,7 @@ export const products = [
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
     categoryKor1: '신발',
+    categoryKor2: '로퍼 및 레이스업',
     name: '스웨이드 뮬',
     tags: 'penny-loafers',
     tags2: 'iconic',
@@ -15479,6 +15498,7 @@ export const products = [
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
     categoryKor1: '신발',
+    categoryKor2: '로퍼 및 레이스업',
     name: '가죽 및 송치 가죽 레이스업 슈즈',
     tags: 'winter-shoes',
     tags2: 'iconic',
@@ -15536,6 +15556,7 @@ export const products = [
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
     categoryKor1: '신발',
+    categoryKor2: '로퍼 및 레이스업',
     name: '레이스 퓌메 가죽 슈즈',
     tags: 'winter-shoes',
     tags2: 'iconic',
@@ -15600,6 +15621,7 @@ export const products = [
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
     categoryKor1: '신발',
+    categoryKor2: '로퍼 및 레이스업',
     name: '가죽 레이스업 슈즈',
     tags: 'winter-shoes',
     tags2: 'iconic',
@@ -15665,6 +15687,7 @@ export const products = [
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
     categoryKor1: '신발',
+    categoryKor2: '로퍼 및 레이스업',
     name: '브러쉬드 가죽 페니 로퍼',
     tags: 'penny-loafers',
     tags2: 'iconic',
@@ -15720,6 +15743,7 @@ export const products = [
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
     categoryKor1: '신발',
+    categoryKor2: '로퍼 및 레이스업',
     name: '브러쉬드 가죽 페니 로퍼',
     tags: 'penny-loafers',
     tags2: 'iconic',
@@ -15789,6 +15813,7 @@ export const products = [
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
     categoryKor1: '신발',
+    categoryKor2: '로퍼 및 레이스업',
     name: '가죽 페니 로퍼',
     tags: 'penny-loafers',
     tags2: 'iconic',
@@ -15851,6 +15876,7 @@ export const products = [
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
     categoryKor1: '신발',
+    categoryKor2: '로퍼 및 레이스업',
     name: '가죽 페니 로퍼',
     tags: 'penny-loafers',
     tags2: 'iconic',
@@ -15913,6 +15939,7 @@ export const products = [
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
     categoryKor1: '신발',
+    categoryKor2: '로퍼 및 레이스업',
     name: '빈티지 효과 가죽 페니 로퍼',
     tags: 'penny-loafers',
     tags2: 'iconic',
@@ -15983,6 +16010,7 @@ export const products = [
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
     categoryKor1: '신발',
+    categoryKor2: '로퍼 및 레이스업',
     name: '브러쉬드 가죽 로퍼',
     tags: 'penny-loafers',
     tags2: 'iconic',
@@ -16039,6 +16067,7 @@ export const products = [
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
     categoryKor1: '신발',
+    categoryKor2: '로퍼 및 레이스업',
     name: '데코 송아지 가죽 로퍼',
     price: '₩ 1,690,000',
     subtitle:
@@ -16100,6 +16129,7 @@ export const products = [
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
     categoryKor1: '신발',
+    categoryKor2: '로퍼 및 레이스업',
     name: '스웨이드 가죽 뮬',
     tags: '보트',
     price: '₩ 1,410,000',
@@ -16152,6 +16182,7 @@ export const products = [
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
     categoryKor1: '신발',
+    categoryKor2: '로퍼 및 레이스업',
     name: '스웨이드 태슬 로퍼',
     tags: '보트',
     price: '₩ 1,510,000',
@@ -16214,6 +16245,7 @@ export const products = [
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
     categoryKor1: '신발',
+    categoryKor2: '로퍼 및 레이스업',
     name: '안감 없는 페이드 스웨이드 로퍼',
     tags: '보트',
     price: '₩ 1,410,000',
@@ -16267,6 +16299,7 @@ export const products = [
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
     categoryKor1: '신발',
+    categoryKor2: '로퍼 및 레이스업',
     name: '안감 없는 블리치드 가죽 보트 슈즈',
     tags: '보트',
     price: '₩ 1,410,000',
@@ -16320,6 +16353,7 @@ export const products = [
     category1: 'shoes',
     category2: 'loafers-and-lace-ups',
     categoryKor1: '신발',
+    categoryKor2: '로퍼 및 레이스업',
     name: '안감 없는 블리치드 가죽 보트 슈즈',
     tags: '보트',
     price: '₩ 1,410,000',
@@ -16778,7 +16812,7 @@ export const products = [
       '스크린 프린트 로고 텅, 힐 칼라, 인솔',
     ],
     size_info: [],
-    material: '주 소재: 재생 폴리아미드',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -16840,7 +16874,7 @@ export const products = [
       '스크린 프린트 로고 텅, 힐 칼라, 인솔',
     ],
     size_info: [],
-    material: '주 소재: 재생 폴리아미드',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -16904,7 +16938,7 @@ export const products = [
       '*실시간 재고 상황 변동으로 인해 주문이 취소될 수 있음을 알려 드립니다. 양해 부탁드립니다.',
     ],
     size_info: [],
-    material: '주 소재: 재생 폴리아미드',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -16968,7 +17002,7 @@ export const products = [
       '*실시간 재고 상황 변동으로 인해 주문이 취소될 수 있음을 알려 드립니다. 양해 부탁드립니다.',
     ],
     size_info: [],
-    material: '주 소재: 재생 폴리아미드',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -17025,7 +17059,7 @@ export const products = [
       '*실시간 재고 상황 변동으로 인해 주문이 취소될 수 있음을 알려 드립니다. 양해 부탁드립니다.',
     ],
     size_info: [],
-    material: '주 소재: 재생 폴리아미드',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -17137,7 +17171,7 @@ export const products = [
       '텅, 힐, 인솔 실크스크린 로고',
     ],
     size_info: [],
-    material: '주 소재: 재생 폴리아미드',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -17201,7 +17235,7 @@ export const products = [
       '텅, 힐, 인솔 실크스크린 로고',
     ],
     size_info: [],
-    material: '주 소재: 재생 폴리아미드',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -17265,7 +17299,7 @@ export const products = [
       '텅, 힐, 인솔 실크스크린 로고',
     ],
     size_info: [],
-    material: '주 소재: 재생 폴리아미드',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -17336,7 +17370,7 @@ export const products = [
       '텅, 힐, 인솔 실크스크린 로고',
     ],
     size_info: [],
-    material: '주 소재: 재생 폴리아미드',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -17407,7 +17441,7 @@ export const products = [
       '텅, 힐, 인솔 실크스크린 로고',
     ],
     size_info: [],
-    material: '주 소재: 재생 폴리아미드',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -17463,7 +17497,7 @@ export const products = [
     categoryKor1: '신발',
     categoryKor2: '스니커즈',
     name: '버클 장식 가죽 스니커즈',
-    tags: '버클',
+    tags: 'buckle',
     price: '₩ 1,710,000',
     subtitle:
       '패션쇼에서 선보인 아이코닉한 버클 장식이 스포티한 무드의 스니커즈와 만나 새로운 해석을 이룹니다. 빈티지한 감성이 더해진 부드러운 가죽 소재가 정제된 개성과 현대적인 감각을 동시에 드러냅니다.',
@@ -17525,7 +17559,7 @@ export const products = [
     categoryKor1: '신발',
     categoryKor2: '스니커즈',
     name: '버클 장식 가죽 스니커즈',
-    tags: '버클',
+    tags: 'buckle',
     price: '₩ 1,710,000',
     subtitle:
       '패션쇼에서 선보인 아이코닉한 버클 장식이 스포티한 무드의 스니커즈와 만나 새로운 해석을 이룹니다. 빈티지한 감성이 더해진 부드러운 가죽 소재가 정제된 개성과 현대적인 감각을 동시에 드러냅니다.',
@@ -17609,7 +17643,7 @@ export const products = [
       '탈부착형 패브릭 커버 인솔',
     ],
     size_info: [],
-    material: '주 소재: 재생 폴리아미드',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -17666,7 +17700,7 @@ export const products = [
       '탈부착형 패브릭 커버 인솔',
     ],
     size_info: [],
-    material: '주 소재: 재생 폴리아미드',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -17721,7 +17755,7 @@ export const products = [
       '패브릭 커버 탈부착 인솔',
     ],
     size_info: [],
-    material: '주 소재: 열가소성 폴리우레탄 폴리에스터 폴리우레탄',
+    material: '주 소재: 폴리에스터',
     detail_images: [
       {
         type: 'thumbnail',
@@ -17776,7 +17810,7 @@ export const products = [
       '패브릭 커버 탈부착 인솔',
     ],
     size_info: [],
-    material: '주 소재: 열가소성 폴리우레탄 폴리에스터 폴리우레탄',
+    material: '주 소재: 폴리에스터',
     detail_images: [
       {
         type: 'thumbnail',
@@ -17831,7 +17865,7 @@ export const products = [
       '패브릭 커버 탈부착 인솔',
     ],
     size_info: [],
-    material: '주 소재: 열가소성 폴리우레탄 폴리에스터 폴리우레탄',
+    material: '주 소재: 폴리에스터',
     detail_images: [
       {
         type: 'thumbnail',
@@ -17888,7 +17922,7 @@ export const products = [
       '*실시간 재고 상황 변동으로 인해 주문이 취소될 수 있음을 알려 드립니다. 양해 부탁드립니다.',
     ],
     size_info: [],
-    material: '주 소재: 재생 폴리아미드',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -17945,7 +17979,7 @@ export const products = [
       '*실시간 재고 상황 변동으로 인해 주문이 취소될 수 있음을 알려 드립니다. 양해 부탁드립니다.',
     ],
     size_info: [],
-    material: '주 소재: 재생 폴리아미드',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -18002,7 +18036,7 @@ export const products = [
       '*실시간 재고 상황 변동으로 인해 주문이 취소될 수 있음을 알려 드립니다. 양해 부탁드립니다.',
     ],
     size_info: [],
-    material: '주 소재: 재생 폴리아미드',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -18123,7 +18157,7 @@ export const products = [
       '텅과 힐 카운터에 스크린 프린트 로고',
     ],
     size_info: [],
-    material: '주 소재: 재생 폴리아미드, 재생 폴리에스터',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -18516,7 +18550,7 @@ export const products = [
       '올이 풀린 듯한 측면 로고 및 인솔과 텅의 스크린 프린트',
     ],
     size_info: [],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -18570,7 +18604,7 @@ export const products = [
       '올이 풀린 듯한 측면 로고 및 인솔과 텅의 스크린 프린트',
     ],
     size_info: [],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -18624,7 +18658,7 @@ export const products = [
       '올이 풀린 듯한 측면 로고 및 인솔과 텅의 스크린 프린트',
     ],
     size_info: [],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -18678,7 +18712,7 @@ export const products = [
       '올이 풀린 듯한 측면 로고 및 인솔과 텅의 스크린 프린트',
     ],
     size_info: [],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -18984,7 +19018,7 @@ export const products = [
       '스크린 프린트 로고 텅, 힐 칼라, 인솔',
     ],
     size_info: [],
-    material: '주 소재: 재생 폴리아미드',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -19045,7 +19079,7 @@ export const products = [
       '올이 풀린 듯한 측면 로고 및 인솔과 텅의 스크린 프린트',
     ],
     size_info: [],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -19102,7 +19136,7 @@ export const products = [
       '탈부착형 패브릭 커버 인솔',
     ],
     size_info: [],
-    material: '주 소재: 재생 폴리아미드',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -22565,7 +22599,7 @@ export const products = [
     categoryKor1: '가방',
     categoryKor2: '미니백',
     name: '나파 가죽 파우치',
-    tags: '나파',
+    tags: 'napa',
     price: '₩ 2,150,000',
     subtitle:
       '컴팩트한 기능성 디자인의 부드러운 나파 가죽 파우치입니다. 숄더 스트랩이 실용적인 디테일을 더하며, 레터링 로고가 아이코닉한 디자인을 완성합니다.',
@@ -22626,7 +22660,7 @@ export const products = [
     categoryKor1: '가방',
     categoryKor2: '미니백',
     name: '나파 가죽 파우치',
-    tags: '나파',
+    tags: 'napa',
     price: '₩ 2,150,000',
     subtitle:
       '컴팩트한 기능성 디자인의 부드러운 나파 가죽 파우치입니다. 숄더 스트랩이 실용적인 디테일을 더하며, 레터링 로고가 아이코닉한 디자인을 완성합니다.',
@@ -26127,7 +26161,7 @@ export const products = [
       '플랩의 가죽 레터링 로고',
     ],
     size_info: ['높이 29.5cm', '폭 25cm', '길이 12.5cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -26204,7 +26238,7 @@ export const products = [
       '플랩의 가죽 레터링 로고',
     ],
     size_info: ['높이 22cm', '폭 18cm', '길이 11.5cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -26281,7 +26315,7 @@ export const products = [
       '플랩의 가죽 레터링 로고',
     ],
     size_info: ['높이 29.5cm', '폭 25cm', '길이 12.5cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -26358,7 +26392,7 @@ export const products = [
       '플랩의 가죽 레터링 로고',
     ],
     size_info: ['높이 22cm', '폭 18cm', '길이 11.5cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -26435,7 +26469,7 @@ export const products = [
       '플랩의 가죽 레터링 로고',
     ],
     size_info: ['높이 29.5cm', '폭 25cm', '길이 12.5cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -26498,7 +26532,7 @@ export const products = [
       '플랩의 가죽 레터링 로고',
     ],
     size_info: ['높이 22cm', '폭 18cm', '길이 11.5cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -27575,7 +27609,7 @@ export const products = [
       '플랩 가죽 레터링 로고',
     ],
     size_info: ['높이 29.5cm', '폭 25cm', '길이 12.5cm'],
-    material: '주 소재: 폴리아미드 버진 울',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -27638,7 +27672,7 @@ export const products = [
       '플랩 가죽 레터링 로고',
     ],
     size_info: ['높이 22cm', '폭 18cm', '길이 11.5cm'],
-    material: '주 소재: 폴리아미드 버진 울',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -27701,7 +27735,7 @@ export const products = [
       '플랩 가죽 레터링 로고',
     ],
     size_info: ['높이 29.5cm', '폭 25cm', '길이 12.5cm'],
-    material: '주 소재: 폴리아미드 버진 울',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -27750,7 +27784,7 @@ export const products = [
     categoryKor1: '가방',
     categoryKor2: '토트백',
     name: '아이비 가죽 백',
-    tags: '아이비',
+    tags: 'ivy',
     price: '₩ 3,100,000',
     subtitle:
       '아이비 백은 클래식 토트를 실용적이면서도 다재다능한 우아함으로 재해석합니다. 은은한 광택의 가죽이 세련된 마감 디테일과 아이코닉한 톤온톤 레터링 로고와 어우러져 미우미우 특유의 감각을 드러냅니다.',
@@ -28128,7 +28162,7 @@ export const products = [
       '전면 가죽 레터링 로고',
     ],
     size_info: ['높이 40cm', '폭 35cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -28190,7 +28224,7 @@ export const products = [
       '전면 가죽 레터링 로고',
     ],
     size_info: ['높이 40cm', '폭 35cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -28252,7 +28286,7 @@ export const products = [
       '더블 지퍼 포켓이 있는 패브릭 내부',
     ],
     size_info: ['높이 37cm', '폭 36cm', '길이 18cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -28314,7 +28348,7 @@ export const products = [
       '더블 지퍼 포켓이 있는 패브릭 내부',
     ],
     size_info: ['높이 37cm', '폭 36cm', '길이 18cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -28377,7 +28411,7 @@ export const products = [
       '가죽 레터링 로고',
     ],
     size_info: ['높이 23.5cm', '폭 22cm', '길이 12cm'],
-    material: '주 소재: 폴리아미드, 순수 울',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -29335,160 +29369,6 @@ export const products = [
     ],
   },
   {
-    id: '5BA281_2IEO_F0009_V_OLI',
-    index: 23,
-    category1: 'bags',
-    category2: 'totes',
-    categoryKor1: '가방',
-    categoryKor2: '토트백',
-    name: '아이비 가죽 핸드백',
-    tags: 'ivy',
-    tags2: 'iconic',
-    price: '₩ 2,500,000',
-    subtitle:
-      '아이비 백은 클래식한 토트를 핸드백 실루엣으로 재해석한 디자인으로, 부드러운 광택의 송아지 가죽과 세련된 톤온톤 디테일이 더해져 실용적인 우아함과 다재다능한 매력을 동시에 선사합니다.',
-    bullet_points: [
-      '제품 코드: 5BA281_2IEO_F0009_V_OLI',
-      '가죽 핸들',
-      '탈부착이 가능한 맞춤 조절형 가죽 숄더 스트랩 최소 길이: 105cm - 최대 길이: 115cm - 최소 드롭: 62cm - 최대 드롭: 66cm',
-      '골드톤 하드웨어',
-      '패치 포켓이 달린 코튼 개버딘 안감',
-      '전면 가죽 레터링 로고',
-    ],
-    size_info: ['높이 24cm', '폭 20cm'],
-    material: '주 소재: 송아지 가죽',
-    detail_images: [
-      {
-        type: 'thumbnail',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5BA/5BA281/2IEOF0009/5BA281_2IEO_F0009_V_OLI_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '아이비 가죽 핸드백',
-      },
-      {
-        type: 'sub',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5BA/5BA281/2IEOF0009/5BA281_2IEO_F0009_V_OLI_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '아이비 가죽 핸드백',
-        index: 1,
-      },
-      {
-        type: 'sub',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5BA/5BA281/2IEOF0009/5BA281_2IEO_F0009_V_OLI_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '아이비 가죽 핸드백',
-        index: 2,
-      },
-      {
-        type: 'sub',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5BA/5BA281/2IEOF0009/5BA281_2IEO_F0009_V_OLI_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '아이비 가죽 핸드백',
-        index: 3,
-      },
-      {
-        type: 'sub',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5BA/5BA281/2IEOF0009/5BA281_2IEO_F0009_V_OLI_MDLA.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '아이비 가죽 핸드백',
-        index: 4,
-      },
-      {
-        type: 'sub',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5BA/5BA281/2IEOF0009/5BA281_2IEO_F0009_V_OLI_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '아이비 가죽 핸드백',
-        index: 5,
-      },
-      {
-        type: 'sub',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5BA/5BA281/2IEOF0009/5BA281_2IEO_F0009_V_OLI_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '아이비 가죽 핸드백',
-        index: 6,
-      },
-    ],
-    local_image: '5BA281_2IEO_F0009_V_OLI.jpg',
-    local_detail_images: [
-      '5BA281_2IEO_F0009_V_OLI_detail_thumbnail.jpg',
-      '5BA281_2IEO_F0009_V_OLI_detail_2.jpg',
-      '5BA281_2IEO_F0009_V_OLI_detail_3.jpg',
-      '5BA281_2IEO_F0009_V_OLI_detail_4.jpg',
-      '5BA281_2IEO_F0009_V_OLI_detail_5.jpg',
-      '5BA281_2IEO_F0009_V_OLI_detail_6.jpg',
-      '5BA281_2IEO_F0009_V_OLI_detail_7.jpg',
-    ],
-  },
-  {
-    id: '5BA281_2IEO_F0236_V_OLI',
-    index: 24,
-    category1: 'bags',
-    category2: 'totes',
-    categoryKor1: '가방',
-    categoryKor2: '토트백',
-    name: '아이비 가죽 핸드백',
-    tags: 'ivy',
-    tags2: 'iconic',
-    price: '₩ 2,500,000',
-    subtitle:
-      '아이비 백은 클래식한 토트를 핸드백 실루엣으로 재해석한 디자인으로, 부드러운 광택의 송아지 가죽과 세련된 톤온톤 디테일이 더해져 실용적인 우아함과 다재다능한 매력을 동시에 선사합니다.',
-    bullet_points: [
-      '제품 코드: 5BA281_2IEO_F0236_V_OLI',
-      '가죽 핸들',
-      '탈부착이 가능한 맞춤 조절형 가죽 숄더 스트랩 최소 길이: 105cm - 최대 길이: 115cm - 최소 드롭: 62cm - 최대 드롭: 66cm',
-      '골드톤 하드웨어',
-      '패치 포켓이 달린 코튼 개버딘 안감',
-      '전면 가죽 레터링 로고',
-    ],
-    size_info: ['높이 24cm', '폭 20cm'],
-    material: '주 소재: 송아지 가죽',
-    detail_images: [
-      {
-        type: 'thumbnail',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5BA/5BA281/2IEOF0236/5BA281_2IEO_F0236_V_OLI_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '아이비 가죽 핸드백',
-      },
-      {
-        type: 'sub',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5BA/5BA281/2IEOF0236/5BA281_2IEO_F0236_V_OLI_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '아이비 가죽 핸드백',
-        index: 1,
-      },
-      {
-        type: 'sub',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5BA/5BA281/2IEOF0236/5BA281_2IEO_F0236_V_OLI_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '아이비 가죽 핸드백',
-        index: 2,
-      },
-      {
-        type: 'sub',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5BA/5BA281/2IEOF0236/5BA281_2IEO_F0236_V_OLI_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '아이비 가죽 핸드백',
-        index: 3,
-      },
-      {
-        type: 'sub',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5BA/5BA281/2IEOF0236/5BA281_2IEO_F0236_V_OLI_MDLA.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '아이비 가죽 핸드백',
-        index: 4,
-      },
-      {
-        type: 'sub',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5BA/5BA281/2IEOF0236/5BA281_2IEO_F0236_V_OLI_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '아이비 가죽 핸드백',
-        index: 5,
-      },
-      {
-        type: 'sub',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5BA/5BA281/2IEOF0236/5BA281_2IEO_F0236_V_OLI_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '아이비 가죽 핸드백',
-        index: 6,
-      },
-    ],
-    local_image: '5BA281_2IEO_F0236_V_OLI.jpg',
-    local_detail_images: [
-      '5BA281_2IEO_F0236_V_OLI_detail_thumbnail.jpg',
-      '5BA281_2IEO_F0236_V_OLI_detail_2.jpg',
-      '5BA281_2IEO_F0236_V_OLI_detail_3.jpg',
-      '5BA281_2IEO_F0236_V_OLI_detail_4.jpg',
-      '5BA281_2IEO_F0236_V_OLI_detail_5.jpg',
-      '5BA281_2IEO_F0236_V_OLI_detail_6.jpg',
-      '5BA281_2IEO_F0236_V_OLI_detail_7.jpg',
-    ],
-  },
-  {
     id: '5BA281_2IEO_F0002_V_OLI',
     index: 1,
     category1: 'bags',
@@ -29572,153 +29452,7 @@ export const products = [
       '5BA281_2IEO_F0002_V_OLI_detail_8.jpg',
     ],
   },
-  {
-    id: '5BA281_2CRW_F0002_V_OLN',
-    index: 2,
-    category1: 'bags',
-    category2: 'totes',
-    categoryKor1: '가방',
-    categoryKor2: '토트백',
-    name: '아이비 가죽 핸드백',
-    tags: 'ivy',
-    tags2: 'iconic',
-    price: '₩ 2,400,000',
-    subtitle:
-      '아이비 가죽 백은 메탈 디테일과 대비되는 스티치로 클래식한 스타일을 더욱 돋보이게 합니다. 토널 미우미우 레터링 로고가 한눈에 알아볼 수 있는 아이코닉한 감각으로 스타일을 완성합니다.',
-    bullet_points: [
-      '제품 코드: 5BA281_2CRW_F0002_V_OLN',
-      '가죽 핸들',
-      '맞춤 조절형 탈부착형 가죽 숄더 스트랩 최대 길이 115cm',
-      '최소 길이 105cm',
-      '최대 오프닝 66cm',
-      '최소 오프닝 62cm',
-      '골드 하드웨어',
-      '전면 가죽 레터링 로고',
-      '패치 포켓이 달린 리넨 패브릭 안감',
-    ],
-    size_info: ['높이 24cm', '폭 20cm'],
-    material: '주 소재: 송아지 가죽',
-    detail_images: [
-      {
-        type: 'thumbnail',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5BA/5BA281/2CRWF0002/5BA281_2CRW_F0002_V_OLN_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '아이비 가죽 핸드백',
-      },
-      {
-        type: 'sub',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5BA/5BA281/2CRWF0002/5BA281_2CRW_F0002_V_OLN_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '아이비 가죽 핸드백',
-        index: 1,
-      },
-      {
-        type: 'sub',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5BA/5BA281/2CRWF0002/5BA281_2CRW_F0002_V_OLN_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '아이비 가죽 핸드백',
-        index: 2,
-      },
-      {
-        type: 'sub',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5BA/5BA281/2CRWF0002/5BA281_2CRW_F0002_V_OLN_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '아이비 가죽 핸드백',
-        index: 3,
-      },
-      {
-        type: 'sub',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5BA/5BA281/2CRWF0002/5BA281_2CRW_F0002_V_OLN_MDLA.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '아이비 가죽 핸드백',
-        index: 4,
-      },
-      {
-        type: 'sub',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5BA/5BA281/2CRWF0002/5BA281_2CRW_F0002_V_OLN_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '아이비 가죽 핸드백',
-        index: 5,
-      },
-      {
-        type: 'sub',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5BA/5BA281/2CRWF0002/5BA281_2CRW_F0002_V_OLN_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '아이비 가죽 핸드백',
-        index: 6,
-      },
-    ],
-    local_image: '5BA281_2CRW_F0002_V_OLN.jpg',
-    local_detail_images: [
-      '5BA281_2CRW_F0002_V_OLN_detail_thumbnail.jpg',
-      '5BA281_2CRW_F0002_V_OLN_detail_2.jpg',
-      '5BA281_2CRW_F0002_V_OLN_detail_3.jpg',
-      '5BA281_2CRW_F0002_V_OLN_detail_4.jpg',
-      '5BA281_2CRW_F0002_V_OLN_detail_5.jpg',
-      '5BA281_2CRW_F0002_V_OLN_detail_6.jpg',
-      '5BA281_2CRW_F0002_V_OLN_detail_7.jpg',
-    ],
-  },
-  {
-    id: '5BA281_2CRI_F0K74_V_OLN',
-    index: 3,
-    category1: 'bags',
-    category2: 'totes',
-    categoryKor1: '가방',
-    categoryKor2: '토트백',
-    name: '아이비 가죽 핸드백',
-    tags: 'ivy',
-    tags2: 'iconic',
-    price: '₩ 3,400,000',
-    subtitle:
-      '메탈 디테일과 한눈에 알아볼 수 있는 아이코닉 미우미우 레터링 로고로 클래식한 스타일이 더욱 돋보이는 아이비 가죽 백입니다.',
-    bullet_points: [
-      '제품 코드: 5BA281_2CRI_F0K74_V_OLN',
-      '패치 모티프',
-      '가죽 핸들',
-      '맞춤 조절형 탈부착형 가죽 숄더 스트랩 최대 길이 115cm',
-      '최소 길이 105cm',
-      '최대 폭 66cm',
-      '최소 폭 62cm',
-      '골드 하드웨어',
-      '전면 가죽 레터링 로고',
-      '패치 포켓이 있는 리넨 안감',
-    ],
-    size_info: ['높이 24cm', '폭 20cm'],
-    material: '주 소재: 양가죽',
-    detail_images: [
-      {
-        type: 'thumbnail',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5BA/5BA281/2CRIF0K74/5BA281_2CRI_F0K74_V_OLN_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '아이비 가죽 핸드백',
-      },
-      {
-        type: 'sub',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5BA/5BA281/2CRIF0K74/5BA281_2CRI_F0K74_V_OLN_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '아이비 가죽 핸드백',
-        index: 1,
-      },
-      {
-        type: 'sub',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5BA/5BA281/2CRIF0K74/5BA281_2CRI_F0K74_V_OLN_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '아이비 가죽 핸드백',
-        index: 2,
-      },
-      {
-        type: 'sub',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5BA/5BA281/2CRIF0K74/5BA281_2CRI_F0K74_V_OLN_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '아이비 가죽 핸드백',
-        index: 3,
-      },
-      {
-        type: 'sub',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5BA/5BA281/2CRIF0K74/5BA281_2CRI_F0K74_V_OLN_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '아이비 가죽 핸드백',
-        index: 4,
-      },
-    ],
-    local_image: '5BA281_2CRI_F0K74_V_OLN.jpg',
-    local_detail_images: [
-      '5BA281_2CRI_F0K74_V_OLN_detail_thumbnail.jpg',
-      '5BA281_2CRI_F0K74_V_OLN_detail_2.jpg',
-      '5BA281_2CRI_F0K74_V_OLN_detail_3.jpg',
-      '5BA281_2CRI_F0K74_V_OLN_detail_4.jpg',
-      '5BA281_2CRI_F0K74_V_OLN_detail_5.jpg',
-    ],
-  },
+
   {
     id: '5BA281_ACRN_F062F_V_OLF',
     index: 4,
@@ -29739,7 +29473,7 @@ export const products = [
       '전면 가죽 레터링 로고',
     ],
     size_info: ['높이 24cm', '폭 20cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -29813,7 +29547,7 @@ export const products = [
       '전면 가죽 레터링 로고',
     ],
     size_info: ['높이 40cm', '폭 35cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -29876,7 +29610,7 @@ export const products = [
       '전면 메탈 레터링 로고',
     ],
     size_info: ['높이 24cm', '폭 20cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -29942,7 +29676,7 @@ export const products = [
       '더블 지퍼 포켓이 달린 패브릭 안감',
     ],
     size_info: ['높이 23.5cm', '폭 22cm', '길이 12cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -30022,7 +29756,7 @@ export const products = [
       '더블 지퍼 포켓이 달린 패브릭 안감',
     ],
     size_info: ['높이 23.5cm', '폭 22cm', '길이 12cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -30102,7 +29836,7 @@ export const products = [
       '더블 지퍼 포켓이 달린 패브릭 안감',
     ],
     size_info: ['높이 23.5cm', '폭 22cm', '길이 12cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -30179,7 +29913,7 @@ export const products = [
       '플랩 가죽 레터링 로고',
     ],
     size_info: ['높이 22cm', '폭 18cm', '길이 11.5cm'],
-    material: '주 소재: 폴리아미드 버진 울',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -30243,7 +29977,7 @@ export const products = [
       '플랩의 가죽 레터링 로고',
     ],
     size_info: ['높이 29.5cm', '폭 25cm', '길이 12.5cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -30307,7 +30041,7 @@ export const products = [
       '플랩의 가죽 레터링 로고',
     ],
     size_info: ['높이 22cm', '폭 18cm', '길이 11.5cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -30371,7 +30105,7 @@ export const products = [
       '플랩의 가죽 레터링 로고',
     ],
     size_info: ['높이 29.5cm', '폭 25cm', '길이 12.5cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -30456,7 +30190,7 @@ export const products = [
       '플랩의 가죽 레터링 로고',
     ],
     size_info: ['높이 22cm', '폭 18cm', '길이 11.5cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -30520,7 +30254,7 @@ export const products = [
       '플랩의 가죽 레터링 로고',
     ],
     size_info: ['높이 29.5cm', '폭 25cm', '길이 12.5cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -30591,7 +30325,7 @@ export const products = [
       '플랩의 가죽 레터링 로고',
     ],
     size_info: ['높이 22cm', '폭 18cm', '길이 11.5cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -30669,7 +30403,7 @@ export const products = [
       '플랩의 가죽 레터링 로고',
     ],
     size_info: ['높이 29.5cm', '폭 25cm', '길이 12.5cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -30747,7 +30481,7 @@ export const products = [
       '플랩의 가죽 레터링 로고',
     ],
     size_info: ['높이 22cm', '폭 18cm', '길이 11.5cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -30825,7 +30559,7 @@ export const products = [
       '플랩의 가죽 레터링 로고',
     ],
     size_info: ['높이 29.5cm', '폭 25cm', '길이 12.5cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -30910,7 +30644,7 @@ export const products = [
       '플랩의 가죽 레터링 로고',
     ],
     size_info: ['높이 22cm', '폭 18cm', '길이 11.5cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -30986,7 +30720,7 @@ export const products = [
       '플랩의 가죽 레터링 로고',
     ],
     size_info: ['높이 29.5cm', '폭 25cm', '길이 12.5cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -31049,7 +30783,7 @@ export const products = [
       '플랩 가죽 레터링 로고',
     ],
     size_info: ['높이 22cm', '폭 18cm', '길이 11.5cm'],
-    material: '주 소재: 폴리아미드 버진 울',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -32055,7 +31789,7 @@ export const products = [
       '전면 가죽 레터링 로고',
     ],
     size_info: ['높이 11.5cm', '폭 28cm', '길이 8cm'],
-    material: '주 소재: 폴리아미드, 순수 울',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -32130,7 +31864,7 @@ export const products = [
       '더블 지퍼 포켓이 달린 코튼 개버딘 내부',
     ],
     size_info: ['높이 20cm', '폭 34cm', '길이 10cm'],
-    material: '주 소재: 폴리아미드, 순수 울',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -32205,7 +31939,7 @@ export const products = [
       '더블 지퍼 포켓이 달린 패브릭 안감',
     ],
     size_info: ['높이 20cm', '폭 34cm', '길이 10cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -32266,7 +32000,7 @@ export const products = [
       '더블 지퍼 포켓이 달린 패브릭 안감',
     ],
     size_info: ['높이 20cm', '폭 34cm', '길이 10cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -32684,7 +32418,7 @@ export const products = [
     categoryKor1: '가방',
     categoryKor2: '숄더백',
     name: '보 나파 가죽 백',
-    tags: '보',
+    tags: 'beau',
     price: '₩ 5,400,000',
     subtitle:
       '빈티지 무드에서 영감을 받아 완성된 보 백은 독특한 탑 핸들 실루엣에 빈티지 효과를 준 나파 가죽을 더해 대담하고 우아한 매력을 발산합니다.',
@@ -33158,7 +32892,7 @@ export const products = [
     categoryKor1: '가방',
     categoryKor2: '숄더백',
     name: '보 가죽 탑 핸들 백',
-    tags: '보',
+    tags: 'beau',
     price: '₩ 4,700,000',
     subtitle:
       '보 백의 부드럽고 매끄러운 가죽에 골드톤 하드웨어와 같은 뉘앙스와 디테일이 시선을 사로잡으며, 엠보싱 레터링 로고가 아이코닉한 디자인을 완성합니다.',
@@ -33241,7 +32975,7 @@ export const products = [
     categoryKor1: '가방',
     categoryKor2: '숄더백',
     name: '보 가죽 탑 핸들 백',
-    tags: '보',
+    tags: 'beau',
     price: '₩ 4,700,000',
     subtitle:
       '보 백의 부드럽고 매끄러운 가죽에 골드톤 하드웨어와 같은 뉘앙스와 디테일이 시선을 사로잡으며, 엠보싱 레터링 로고가 아이코닉한 디자인을 완성합니다.',
@@ -33317,7 +33051,7 @@ export const products = [
     categoryKor1: '가방',
     categoryKor2: '숄더백',
     name: '보 가죽 탑 핸들 백',
-    tags: '보',
+    tags: 'beau',
     price: '₩ 4,700,000',
     subtitle:
       '보 백의 부드럽고 매끄러운 가죽에 골드톤 하드웨어와 같은 뉘앙스와 디테일이 시선을 사로잡으며, 엠보싱 레터링 로고가 아이코닉한 디자인을 완성합니다.',
@@ -33400,7 +33134,7 @@ export const products = [
     categoryKor1: '가방',
     categoryKor2: '숄더백',
     name: '보 가죽 탑 핸들 백',
-    tags: '보',
+    tags: 'beau',
     price: '₩ 4,700,000',
     subtitle:
       '보 백의 부드럽고 매끄러운 가죽에 골드톤 하드웨어와 같은 뉘앙스와 디테일이 시선을 사로잡으며, 엠보싱 레터링 로고가 아이코닉한 디자인을 완성합니다.',
@@ -33596,13 +33330,12 @@ export const products = [
     id: 'SMUB01_E26E_FE10R_C_A058',
     index: 1,
     category1: 'accessories',
-
     category2: 'eyewear',
     categoryKor1: '액세서리',
     categoryKor2: '아이웨어',
 
-    name: '제품 1',
-    price: '가격 없음',
+    name: '미우 리가드 선글라스',
+    price: '610,000',
     image_url: '/content/dam/miumiu/2025/006_e-commerce/10/co_28_10/eyewear/banner_MB.jpg',
     product_url:
       'https://www.miumiu.com/kr/ko/p/%EB%AF%B8%EC%9A%B0-%EB%A6%AC%EA%B0%80%EB%93%9C-%EC%84%A0%EA%B8%80%EB%9D%BC%EC%8A%A4/SMUB01_E26E_FE10R_C_A058',
@@ -33671,7 +33404,6 @@ export const products = [
     id: 'SMUB07_E16K_FE04O_C_A054',
     index: 2,
     category1: 'accessories',
-
     category2: 'eyewear',
     categoryKor1: '액세서리',
     categoryKor2: '아이웨어',
@@ -33748,7 +33480,6 @@ export const products = [
     id: 'SMUB07_S14L_FE08N_C_A054',
     index: 3,
     category1: 'accessories',
-
     category2: 'eyewear',
     categoryKor1: '액세서리',
     categoryKor2: '아이웨어',
@@ -33827,7 +33558,6 @@ export const products = [
     id: 'SMUB07_S16K_FE08N_C_A054',
     index: 4,
     category1: 'accessories',
-
     category2: 'eyewear',
     categoryKor1: '액세서리',
     categoryKor2: '아이웨어',
@@ -33891,7 +33621,6 @@ export const products = [
     id: 'SMUB07_E21I_FE80Q_C_A054',
     index: 5,
     category1: 'accessories',
-
     category2: 'eyewear',
     categoryKor1: '액세서리',
     categoryKor2: '아이웨어',
@@ -33956,7 +33685,6 @@ export const products = [
     id: 'SMUB01_S16K_FE08N_C_A058',
     index: 6,
     category1: 'accessories',
-
     category2: 'eyewear',
     categoryKor1: '액세서리',
     categoryKor2: '아이웨어',
@@ -34033,7 +33761,6 @@ export const products = [
     id: 'SMU04Z_SVAU_FE08N_C_A050',
     index: 7,
     category1: 'accessories',
-
     category2: 'eyewear',
     categoryKor1: '액세서리',
     categoryKor2: '아이웨어',
@@ -34112,7 +33839,6 @@ export const products = [
     id: 'SMU04Z_E14L_F04I0_C_A050',
     index: 8,
     category1: 'accessories',
-
     category2: 'eyewear',
     categoryKor1: '액세서리',
     categoryKor2: '아이웨어',
@@ -34190,7 +33916,6 @@ export const products = [
     id: 'SMU11Z_S14L_FE08N_C_A052',
     index: 9,
     category1: 'accessories',
-
     category2: 'eyewear',
     categoryKor1: '액세서리',
     categoryKor2: '아이웨어',
@@ -34269,7 +33994,6 @@ export const products = [
     id: 'SMU11Z_E21C_FE40O_C_A052',
     index: 10,
     category1: 'accessories',
-
     category2: 'eyewear',
     categoryKor1: '액세서리',
     categoryKor2: '아이웨어',
@@ -34347,7 +34071,6 @@ export const products = [
     id: 'SMUB03_E14L_FE20I_C_A053',
     index: 11,
     category1: 'accessories',
-
     category2: 'eyewear',
     categoryKor1: '액세서리',
     categoryKor2: '아이웨어',
@@ -34423,7 +34146,6 @@ export const products = [
     id: 'SMUB03_E16K_FE90Q_C_A053',
     index: 12,
     category1: 'accessories',
-
     category2: 'eyewear',
     categoryKor1: '액세서리',
     categoryKor2: '아이웨어',
@@ -34499,7 +34221,6 @@ export const products = [
     id: 'SMUB50_E5AK_FE20I_C_052',
     index: 13,
     category1: 'accessories',
-
     category2: 'eyewear',
     categoryKor1: '액세서리',
     categoryKor2: '아이웨어',
@@ -34561,7 +34282,6 @@ export const products = [
     id: 'SMUB50_S5AK_FE08N_C_052',
     index: 14,
     category1: 'accessories',
-
     category2: 'eyewear',
     categoryKor1: '액세서리',
     categoryKor2: '아이웨어',
@@ -34638,7 +34358,6 @@ export const products = [
     id: 'SMUB50_E26C_FE09Z_C_052',
     index: 15,
     category1: 'accessories',
-
     category2: 'eyewear',
     categoryKor1: '액세서리',
     categoryKor2: '아이웨어',
@@ -34714,7 +34433,6 @@ export const products = [
     id: 'SMUA54_E26C_FE09Z_C_051',
     index: 16,
     category1: 'accessories',
-
     category2: 'eyewear',
     categoryKor1: '액세서리',
     categoryKor2: '아이웨어',
@@ -34791,7 +34509,6 @@ export const products = [
     id: 'SMUA54_E1BC_FE90Q_C_051',
     index: 17,
     category1: 'accessories',
-
     category2: 'eyewear',
     categoryKor1: '액세서리',
     categoryKor2: '아이웨어',
@@ -34868,7 +34585,6 @@ export const products = [
     id: 'SMUA54_EZVN_FE10R_C_051',
     index: 18,
     category1: 'accessories',
-
     category2: 'eyewear',
     categoryKor1: '액세서리',
     categoryKor2: '아이웨어',
@@ -34945,7 +34661,6 @@ export const products = [
     id: 'SMUA54_EZVN_FE70O_C_051',
     index: 19,
     category1: 'accessories',
-
     category2: 'eyewear',
     categoryKor1: '액세서리',
     categoryKor2: '아이웨어',
@@ -35022,7 +34737,6 @@ export const products = [
     id: 'SMUA54_EZVN_FE80O_C_051',
     index: 20,
     category1: 'accessories',
-
     category2: 'eyewear',
     categoryKor1: '액세서리',
     categoryKor2: '아이웨어',
@@ -35099,7 +34813,6 @@ export const products = [
     id: 'SMUA54_S5AK_FE08N_C_051',
     index: 21,
     category1: 'accessories',
-
     category2: 'eyewear',
     categoryKor1: '액세서리',
     categoryKor2: '아이웨어',
@@ -35177,7 +34890,6 @@ export const products = [
     id: 'SMU52Y_M1BC_FE10F_C_054',
     index: 22,
     category1: 'accessories',
-
     category2: 'eyewear',
     categoryKor1: '액세서리',
     categoryKor2: '아이웨어',
@@ -35254,7 +34966,6 @@ export const products = [
     id: 'SMU52Y_EZVN_FE10R_C_054',
     index: 23,
     category1: 'accessories',
-
     category2: 'eyewear',
     categoryKor1: '액세서리',
     categoryKor2: '아이웨어',
@@ -35331,7 +35042,6 @@ export const products = [
     id: 'SMU52Y_EZVN_FE20F_C_054',
     index: 24,
     category1: 'accessories',
-
     category2: 'eyewear',
     categoryKor1: '액세서리',
     categoryKor2: '아이웨어',
@@ -35408,7 +35118,6 @@ export const products = [
     id: 'SMU52Y_E5AK_FE06S_C_054',
     index: 25,
     category1: 'accessories',
-
     category2: 'eyewear',
     categoryKor1: '액세서리',
     categoryKor2: '아이웨어',
@@ -35492,7 +35201,6 @@ export const products = [
     id: '5HC378_2CQD_F0031',
     index: 1,
     category1: 'accessories',
-
     category2: 'hats',
     categoryKor1: '액세서리',
     categoryKor2: '모자',
@@ -35507,7 +35215,7 @@ export const products = [
       '한눈에 알아볼 수 있는 아이코닉하고 독특한 개성의 미우미우 인타르시아 로고가 시선을 사로잡는 울 비니입니다.',
     bullet_points: ['제품 코드: 5HC378_2CQD_F0031', '인타르시아 로고'],
     size_info: [],
-    material: '주 소재: 폴리아미드, 모헤어, 울',
+    material: '주 소재: 울',
     detail_images: [
       {
         type: 'thumbnail',
@@ -35531,7 +35239,6 @@ export const products = [
     id: '5HC378_2CQD_F0018',
     index: 2,
     category1: 'accessories',
-
     category2: 'hats',
     categoryKor1: '액세서리',
     categoryKor2: '모자',
@@ -35546,7 +35253,7 @@ export const products = [
       '한눈에 알아볼 수 있는 아이코닉하고 독특한 개성의 미우미우 인타르시아 로고가 시선을 사로잡는 울 비니입니다.',
     bullet_points: ['제품 코드: 5HC378_2CQD_F0018', '인타르시아 로고'],
     size_info: [],
-    material: '주 소재: 폴리아미드, 모헤어, 울',
+    material: '주 소재: 울',
     detail_images: [
       {
         type: 'thumbnail',
@@ -35570,7 +35277,6 @@ export const products = [
     id: '5HC369_2IF2_F0D3Z',
     index: 3,
     category1: 'accessories',
-
     category2: 'hats',
     categoryKor1: '액세서리',
     categoryKor2: '모자',
@@ -35622,7 +35328,6 @@ export const products = [
     id: '5HC488_18SI_F0013',
     index: 4,
     category1: 'accessories',
-
     category2: 'hats',
     categoryKor1: '액세서리',
     categoryKor2: '모자',
@@ -35679,7 +35384,6 @@ export const products = [
     id: '5HC488_18SI_F0028',
     index: 5,
     category1: 'accessories',
-
     category2: 'hats',
     categoryKor1: '액세서리',
     categoryKor2: '모자',
@@ -35729,7 +35433,6 @@ export const products = [
     id: '5HC489_18SI_F0028',
     index: 6,
     category1: 'accessories',
-
     category2: 'hats',
     categoryKor1: '액세서리',
     categoryKor2: '모자',
@@ -35767,7 +35470,6 @@ export const products = [
     id: '5HC369_2CWC_F04Z5',
     index: 7,
     category1: 'accessories',
-
     category2: 'hats',
     categoryKor1: '액세서리',
     categoryKor2: '모자',
@@ -35782,7 +35484,7 @@ export const products = [
       '드릴의 워싱 효과가 대비되는 색상을 돋보이게 하며, 미우미우의 대담하고 스포티한 정신을 구현한 이 베이스볼 캡의 디자인에 캐주얼한 느낌을 더합니다.',
     bullet_points: ['제품 코드: 5HC369_2CWC_F04Z5', '워싱 데님 처리', '자수 로고'],
     size_info: [],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -35813,7 +35515,6 @@ export const products = [
     id: '5HC369_2CWC_F04Z6',
     index: 8,
     category1: 'accessories',
-
     category2: 'hats',
     categoryKor1: '액세서리',
     categoryKor2: '모자',
@@ -35828,7 +35529,7 @@ export const products = [
       '드릴의 워싱 효과가 대비되는 색상을 돋보이게 하며, 미우미우의 대담하고 스포티한 정신을 구현한 이 베이스볼 캡의 디자인에 캐주얼한 느낌을 더합니다.',
     bullet_points: ['제품 코드: 5HC369_2CWC_F04Z6', '워싱 데님 처리', '자수 로고'],
     size_info: [],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -35859,7 +35560,6 @@ export const products = [
     id: '5HC369_2CWC_F04ZH',
     index: 9,
     category1: 'accessories',
-
     category2: 'hats',
     categoryKor1: '액세서리',
     categoryKor2: '모자',
@@ -35874,7 +35574,7 @@ export const products = [
       '드릴의 워싱 효과가 대비되는 색상을 돋보이게 하며, 미우미우의 대담하고 스포티한 정신을 구현한 이 베이스볼 캡의 디자인에 캐주얼한 느낌을 더합니다.',
     bullet_points: ['제품 코드: 5HC369_2CWC_F04ZH', '워싱 데님 처리', '자수 로고'],
     size_info: [],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -35905,7 +35605,6 @@ export const products = [
     id: '5HC369_2CWC_F0IX2',
     index: 10,
     category1: 'accessories',
-
     category2: 'hats',
     categoryKor1: '액세서리',
     categoryKor2: '모자',
@@ -35920,7 +35619,7 @@ export const products = [
       '드릴의 워싱 효과가 대비되는 색상을 돋보이게 하며, 미우미우의 대담하고 스포티한 정신을 구현한 이 베이스볼 캡의 디자인에 캐주얼한 느낌을 더합니다.',
     bullet_points: ['제품 코드: 5HC369_2CWC_F0IX2', '워싱 데님 처리', '자수 로고'],
     size_info: [],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -35951,7 +35650,6 @@ export const products = [
     id: '5HC324_2ID1_F0036',
     index: 11,
     category1: 'accessories',
-
     category2: 'hats',
     categoryKor1: '액세서리',
     categoryKor2: '모자',
@@ -35965,7 +35663,7 @@ export const products = [
       '폼폼은 미우미우의 장난스럽고 유행을 타지 않는 정신을 표현하며, 캐주얼 시즌 룩을 위해 제작된 부드러운 울 모자의 세련된 디자인을 완성합니다.',
     bullet_points: ['제품 코드: 5HC324_2ID1_F0036', '이어머프와 폼폼 레이스', '로고 라벨'],
     size_info: [],
-    material: '주 소재: 캐시미어 버진 울',
+    material: '주 소재: 캐시미어',
     detail_images: [
       {
         type: 'thumbnail',
@@ -35989,7 +35687,6 @@ export const products = [
     id: '5HC386_2CSR_F0040',
     index: 12,
     category1: 'accessories',
-
     category2: 'hats',
     categoryKor1: '액세서리',
     categoryKor2: '모자',
@@ -36034,7 +35731,6 @@ export const products = [
     id: '5HC432_2IEJ_F073X',
     index: 13,
     category1: 'accessories',
-
     category2: 'hats',
     categoryKor1: '액세서리',
     categoryKor2: '모자',
@@ -36049,7 +35745,7 @@ export const products = [
       '부드러운 울과 캐시미어로 제작된 이 모자는 절제된 라인과 컨템포러리한 감각을 결합했습니다. 은은한 컬러와 아이코닉한 대비 로고가 더해져 세련된 매력을 한층 강조합니다.',
     bullet_points: ['제품 코드: 5HC432_2IEJ_F073X', '레이스 장식으로', '로고 라벨'],
     size_info: [],
-    material: '주 소재: 재생 폴리에스터',
+    material: '주 소재: 폴리에스터',
     detail_images: [
       {
         type: 'thumbnail',
@@ -36073,7 +35769,6 @@ export const products = [
     id: '5HC432_2IEJ_F0637',
     index: 14,
     category1: 'accessories',
-
     category2: 'hats',
     categoryKor1: '액세서리',
     categoryKor2: '모자',
@@ -36088,7 +35783,7 @@ export const products = [
       '부드러운 울과 캐시미어로 제작된 이 모자는 절제된 라인과 컨템포러리한 감각을 결합했습니다. 은은한 컬러와 아이코닉한 대비 로고가 더해져 세련된 매력을 한층 강조합니다.',
     bullet_points: ['제품 코드: 5HC432_2IEJ_F0637', '레이스 장식으로', '로고 라벨'],
     size_info: [],
-    material: '주 소재: 재생 폴리에스터',
+    material: '주 소재: 폴리에스터',
     detail_images: [
       {
         type: 'thumbnail',
@@ -36112,7 +35807,6 @@ export const products = [
     id: '5HC365_2IDY_F0D4O',
     index: 15,
     category1: 'accessories',
-
     category2: 'hats',
     categoryKor1: '액세서리',
     categoryKor2: '모자',
@@ -36157,7 +35851,6 @@ export const products = [
     id: '5HC272_2IA4_F0TQI',
     index: 16,
     category1: 'accessories',
-
     category2: 'hats',
     categoryKor1: '액세서리',
     categoryKor2: '모자',
@@ -36172,7 +35865,7 @@ export const products = [
       '스포티하고 다재다능한 소재인 플리스를 퍼 효과로 새롭게 해석한 캡으로, 아이코닉한 플래드 모티프와 어우러져 심플함과 캐주얼한 스타일의 균형을 완성합니다.',
     bullet_points: ['제품 코드: 5HC272_2IA4_F0TQI', '귀마개', '플러시 플리스 라이닝', '자수 로고'],
     size_info: [],
-    material: '주 소재: 폴리아미드, 순수 울',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -36203,7 +35896,6 @@ export const products = [
     id: '5HC369_2IDY_F0S0O',
     index: 17,
     category1: 'accessories',
-
     category2: 'hats',
     categoryKor1: '액세서리',
     categoryKor2: '모자',
@@ -36223,7 +35915,7 @@ export const products = [
       '자수 로고',
     ],
     size_info: [],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -36254,7 +35946,6 @@ export const products = [
     id: '5HC369_2IDY_F04PE',
     index: 18,
     category1: 'accessories',
-
     category2: 'hats',
     categoryKor1: '액세서리',
     categoryKor2: '모자',
@@ -36274,7 +35965,7 @@ export const products = [
       '자수 로고',
     ],
     size_info: [],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -36305,7 +35996,6 @@ export const products = [
     id: '5HC425_2DUF_F0684',
     index: 19,
     category1: 'accessories',
-
     category2: 'hats',
     categoryKor1: '액세서리',
     categoryKor2: '모자',
@@ -36320,7 +36010,7 @@ export const products = [
       '부드러운 울 펠트로 완성된 클로슈의 우아한 실루엣은 클래식한 컬러와 어우러져 타임리스한 페미닌 우아함을 고스란히 드러냅니다.',
     bullet_points: ['제품 코드: 5HC425_2DUF_F0684', '로고 라벨'],
     size_info: [],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -36351,7 +36041,6 @@ export const products = [
     id: '5HC432_2IEJ_F0244',
     index: 20,
     category1: 'accessories',
-
     category2: 'hats',
     categoryKor1: '액세서리',
     categoryKor2: '모자',
@@ -36366,7 +36055,7 @@ export const products = [
       '부드러운 울과 캐시미어로 제작된 이 모자는 절제된 라인과 컨템포러리한 감각을 결합했습니다. 은은한 컬러와 아이코닉한 대비 로고가 더해져 세련된 매력을 한층 강조합니다.',
     bullet_points: ['제품 코드: 5HC432_2IEJ_F0244', '레이스 장식으로', '로고 라벨'],
     size_info: [],
-    material: '주 소재: 재생 폴리에스터',
+    material: '주 소재: 폴리에스터',
     detail_images: [
       {
         type: 'thumbnail',
@@ -36397,7 +36086,6 @@ export const products = [
     id: '5HC179_AF6P_F0201',
     index: 21,
     category1: 'accessories',
-
     category2: 'hats',
     categoryKor1: '액세서리',
     categoryKor2: '모자',
@@ -36442,7 +36130,6 @@ export const products = [
     id: '5HC369_2CUA_F04RA',
     index: 22,
     category1: 'accessories',
-
     category2: 'hats',
     categoryKor1: '액세서리',
     categoryKor2: '모자',
@@ -36485,7 +36172,6 @@ export const products = [
     id: '5HC369_2CUA_F0844',
     index: 23,
     category1: 'accessories',
-
     category2: 'hats',
     categoryKor1: '액세서리',
     categoryKor2: '모자',
@@ -36528,7 +36214,6 @@ export const products = [
     id: '5HC369_2CUA_F034S',
     index: 24,
     category1: 'accessories',
-
     category2: 'hats',
     categoryKor1: '액세서리',
     categoryKor2: '모자',
@@ -36572,7 +36257,6 @@ export const products = [
     id: '5NE851_AEFX_F0002',
     index: 1,
     category1: 'accessories',
-
     category2: 'pouches',
     categoryKor1: '액세서리',
     categoryKor2: '파우치',
@@ -36638,7 +36322,6 @@ export const products = [
     id: '5NE851_AEFX_F0316',
     index: 2,
     category1: 'accessories',
-
     category2: 'pouches',
     categoryKor1: '액세서리',
     categoryKor2: '파우치',
@@ -36704,7 +36387,6 @@ export const products = [
     id: '5NE851_AEFX_F0NBL',
     index: 3,
     category1: 'accessories',
-
     category2: 'pouches',
     categoryKor1: '액세서리',
     categoryKor2: '파우치',
@@ -36770,7 +36452,6 @@ export const products = [
     id: '5NE851_ACSS_F0393',
     index: 4,
     category1: 'accessories',
-
     category2: 'pouches',
     categoryKor1: '액세서리',
     categoryKor2: '파우치',
@@ -36836,7 +36517,6 @@ export const products = [
     id: '5NE851_2ICT_F0EDH',
     index: 22,
     category1: 'accessories',
-
     category2: 'pouches',
     categoryKor1: '액세서리',
     categoryKor2: '파우치',
@@ -36902,7 +36582,6 @@ export const products = [
     id: '5NE851_068_F0002',
     index: 6,
     category1: 'accessories',
-
     category2: 'pouches',
     categoryKor1: '액세서리',
     categoryKor2: '파우치',
@@ -36923,7 +36602,7 @@ export const products = [
       '메탈 레터링 로고',
     ],
     size_info: ['높이 9cm', '폭 22cm', '길이 9cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -36961,7 +36640,6 @@ export const products = [
     id: '5NE851_068_F0011',
     index: 7,
     category1: 'accessories',
-
     category2: 'pouches',
     categoryKor1: '액세서리',
     categoryKor2: '파우치',
@@ -36982,7 +36660,7 @@ export const products = [
       '메탈 레터링 로고',
     ],
     size_info: ['높이 9cm', '폭 22cm', '길이 9cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -37020,7 +36698,6 @@ export const products = [
     id: '5NF460_AEFX_F0002',
     index: 8,
     category1: 'accessories',
-
     category2: 'pouches',
     categoryKor1: '액세서리',
     categoryKor2: '파우치',
@@ -37100,7 +36777,6 @@ export const products = [
     id: '5NF460_AEFX_F0316',
     index: 9,
     category1: 'accessories',
-
     category2: 'pouches',
     categoryKor1: '액세서리',
     categoryKor2: '파우치',
@@ -37180,7 +36856,6 @@ export const products = [
     id: '5NF460_AEFX_F0NBL',
     index: 10,
     category1: 'accessories',
-
     category2: 'pouches',
     categoryKor1: '액세서리',
     categoryKor2: '파우치',
@@ -37246,7 +36921,6 @@ export const products = [
     id: '5NF460_ACSS_F0393',
     index: 11,
     category1: 'accessories',
-
     category2: 'pouches',
     categoryKor1: '액세서리',
     categoryKor2: '파우치',
@@ -37312,7 +36986,6 @@ export const products = [
     id: '5NF460_ACSS_F0324',
     index: 12,
     category1: 'accessories',
-
     category2: 'pouches',
     categoryKor1: '액세서리',
     categoryKor2: '파우치',
@@ -37378,7 +37051,6 @@ export const products = [
     id: '5NE841_AEFX_F0316',
     index: 13,
     category1: 'accessories',
-
     category2: 'pouches',
     categoryKor1: '액세서리',
     categoryKor2: '파우치',
@@ -37444,7 +37116,6 @@ export const products = [
     id: '5NE841_AEFX_F0NBL',
     index: 14,
     category1: 'accessories',
-
     category2: 'pouches',
     categoryKor1: '액세서리',
     categoryKor2: '파우치',
@@ -37510,7 +37181,6 @@ export const products = [
     id: '5NR461_2IEE_F0003',
     index: 15,
     category1: 'accessories',
-
     category2: 'pouches',
     categoryKor1: '액세서리',
     categoryKor2: '파우치',
@@ -37576,7 +37246,6 @@ export const products = [
     id: '5NR461_2IEE_F0393',
     index: 16,
     category1: 'accessories',
-
     category2: 'pouches',
     categoryKor1: '액세서리',
     categoryKor2: '파우치',
@@ -37642,7 +37311,6 @@ export const products = [
     id: '5NR461_AEFX_F0316',
     index: 17,
     category1: 'accessories',
-
     category2: 'pouches',
     categoryKor1: '액세서리',
     categoryKor2: '파우치',
@@ -37708,7 +37376,6 @@ export const products = [
     id: '5NR461_AEFX_F0NBL',
     index: 18,
     category1: 'accessories',
-
     category2: 'pouches',
     categoryKor1: '액세서리',
     categoryKor2: '파우치',
@@ -37774,7 +37441,6 @@ export const products = [
     id: '5NF460_AF7T_F0036',
     index: 19,
     category1: 'accessories',
-
     category2: 'pouches',
     categoryKor1: '액세서리',
     categoryKor2: '파우치',
@@ -37839,7 +37505,6 @@ export const products = [
     id: '5NE851_AF7T_F0036',
     index: 20,
     category1: 'accessories',
-
     category2: 'pouches',
     categoryKor1: '액세서리',
     categoryKor2: '파우치',
@@ -37905,7 +37570,6 @@ export const products = [
     id: '5NE851_AF7T_F0304',
     index: 21,
     category1: 'accessories',
-
     category2: 'pouches',
     categoryKor1: '액세서리',
     categoryKor2: '파우치',
@@ -37971,7 +37635,6 @@ export const products = [
     id: '5NF460_2IFT_F0151',
     index: 23,
     category1: 'accessories',
-
     category2: 'pouches',
     categoryKor1: '액세서리',
     categoryKor2: '파우치',
@@ -38036,7 +37699,6 @@ export const products = [
     id: '5NE851_2IFT_F0151',
     index: 24,
     category1: 'accessories',
-
     category2: 'pouches',
     categoryKor1: '액세서리',
     categoryKor2: '파우치',
@@ -38102,7 +37764,6 @@ export const products = [
     id: '5NF460_2DU5_F0040',
     index: 25,
     category1: 'accessories',
-
     category2: 'pouches',
     categoryKor1: '액세서리',
     categoryKor2: '파우치',
@@ -38122,7 +37783,7 @@ export const products = [
       '엠보싱 로고 레터링',
     ],
     size_info: ['높이 17cm', '폭 14cm', '길이 6cm'],
-    material: '주 소재: 아세테이트 폴리아미드 폴리에스터 버진 울',
+    material: '주 소재: 울',
     detail_images: [
       {
         type: 'thumbnail',
@@ -38167,7 +37828,6 @@ export const products = [
     id: '5NE851_2DU5_F0324',
     index: 1,
     category1: 'accessories',
-
     category2: 'pouches',
     categoryKor1: '액세서리',
     categoryKor2: '파우치',
@@ -38188,7 +37848,7 @@ export const products = [
       '가죽 레터링 로고',
     ],
     size_info: ['높이 9cm', '폭 22cm', '길이 9cm'],
-    material: '주 소재: 아세테이트 폴리아미드 폴리에스터 버진 울',
+    material: '주 소재: 울',
     detail_images: [
       {
         type: 'thumbnail',
@@ -38233,7 +37893,6 @@ export const products = [
     id: '5NE851_AF6P_F0201',
     index: 2,
     category1: 'accessories',
-
     category2: 'pouches',
     categoryKor1: '액세서리',
     categoryKor2: '파우치',
@@ -38299,7 +37958,6 @@ export const products = [
     id: '5NE851_ACSS_F0R55',
     index: 3,
     category1: 'accessories',
-
     category2: 'pouches',
     categoryKor1: '액세서리',
     categoryKor2: '파우치',
@@ -38365,7 +38023,6 @@ export const products = [
     id: '5NF460_AF6P_F0201',
     index: 4,
     category1: 'accessories',
-
     category2: 'pouches',
     categoryKor1: '액세서리',
     categoryKor2: '파우치',
@@ -38432,7 +38089,6 @@ export const products = [
     id: '5NF460_ACSS_F0R55',
     index: 5,
     category1: 'accessories',
-
     category2: 'pouches',
     categoryKor1: '액세서리',
     categoryKor2: '파우치',
@@ -38494,407 +38150,11 @@ export const products = [
       '5NF460_ACSS_F0R55_detail_5.jpg',
     ],
   },
-  {
-    id: '5ND022_AFPP_F0002',
-    index: 6,
-    category1: 'accessories',
 
-    category2: 'pouches',
-    categoryKor1: '액세서리',
-    categoryKor2: '파우치',
-    name: '마테라쎄 나파 가죽 파우치',
-    price: '₩ 2,400,000',
-    image_url:
-      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ND/5ND022/AFPPF0002/5ND022_AFPP_F0002_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
-    product_url:
-      'https://www.miumiu.com/kr/ko/p/%EB%A7%88%ED%85%8C%EB%9D%BC%EC%8E%84-%EB%82%98%ED%8C%8C-%EA%B0%80%EC%A3%BD-%ED%8C%8C%EC%9A%B0%EC%B9%98/5ND022_AFPP_F0002',
-    crawled_at: '2025-11-13T15:58:15.444642',
-    subtitle:
-      '미우미우 스타일의 상징인 마테라쎄 모티프를 실용적인 파우치 디자인에 재현했습니다. 드로스트링 클로저와 섬세한 마감, 메탈 로고가 고급스러운 감각을 더합니다.',
-    bullet_points: [
-      '제품 코드: 5ND022_AFPP_F0002',
-      '마테라쎄 기법',
-      '가죽 드로스트링 클로저',
-      '코튼 새틴 안감',
-      '메탈 레터링 로고',
-    ],
-    size_info: ['높이 14cm', '폭 16cm', '길이 7.5cm'],
-    material: '주 소재: 양가죽',
-    detail_images: [
-      {
-        type: 'thumbnail',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ND/5ND022/AFPPF0002/5ND022_AFPP_F0002_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '마테라쎄 나파 가죽 파우치',
-      },
-      {
-        type: 'sub',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ND/5ND022/AFPPF0002/5ND022_AFPP_F0002_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '마테라쎄 나파 가죽 파우치',
-        index: 1,
-      },
-      {
-        type: 'sub',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ND/5ND022/AFPPF0002/5ND022_AFPP_F0002_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '마테라쎄 나파 가죽 파우치',
-        index: 2,
-      },
-      {
-        type: 'sub',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ND/5ND022/AFPPF0002/5ND022_AFPP_F0002_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '마테라쎄 나파 가죽 파우치',
-        index: 3,
-      },
-      {
-        type: 'sub',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ND/5ND022/AFPPF0002/5ND022_AFPP_F0002_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '마테라쎄 나파 가죽 파우치',
-        index: 4,
-      },
-    ],
-    local_image: '5ND022_AFPP_F0002.jpg',
-    local_detail_images: [
-      '5ND022_AFPP_F0002_detail_thumbnail.jpg',
-      '5ND022_AFPP_F0002_detail_2.jpg',
-      '5ND022_AFPP_F0002_detail_3.jpg',
-      '5ND022_AFPP_F0002_detail_4.jpg',
-      '5ND022_AFPP_F0002_detail_5.jpg',
-    ],
-  },
-  {
-    id: '5ND022_AFPP_F0007',
-    index: 7,
-    category1: 'accessories',
-
-    category2: 'pouches',
-    categoryKor1: '액세서리',
-    categoryKor2: '파우치',
-    name: '마테라쎄 나파 가죽 파우치',
-    price: '₩ 2,400,000',
-    image_url:
-      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ND/5ND022/AFPPF0007/5ND022_AFPP_F0007_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
-    product_url:
-      'https://www.miumiu.com/kr/ko/p/%EB%A7%88%ED%85%8C%EB%9D%BC%EC%8E%84-%EB%82%98%ED%8C%8C-%EA%B0%80%EC%A3%BD-%ED%8C%8C%EC%9A%B0%EC%B9%98/5ND022_AFPP_F0007',
-    crawled_at: '2025-11-13T15:58:34.574215',
-    subtitle:
-      '미우미우 스타일의 상징인 마테라쎄 모티프를 실용적인 파우치 디자인에 재현했습니다. 드로스트링 클로저와 섬세한 마감, 메탈 로고가 고급스러운 감각을 더합니다.',
-    bullet_points: [
-      '제품 코드: 5ND022_AFPP_F0007',
-      '마테라쎄 기법',
-      '가죽 드로스트링 클로저',
-      '코튼 새틴 안감',
-      '메탈 레터링 로고',
-    ],
-    size_info: ['높이 14cm', '폭 16cm', '길이 7.5cm'],
-    material: '주 소재: 양가죽',
-    detail_images: [
-      {
-        type: 'thumbnail',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ND/5ND022/AFPPF0007/5ND022_AFPP_F0007_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '마테라쎄 나파 가죽 파우치',
-      },
-      {
-        type: 'sub',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ND/5ND022/AFPPF0007/5ND022_AFPP_F0007_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '마테라쎄 나파 가죽 파우치',
-        index: 1,
-      },
-      {
-        type: 'sub',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ND/5ND022/AFPPF0007/5ND022_AFPP_F0007_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '마테라쎄 나파 가죽 파우치',
-        index: 2,
-      },
-      {
-        type: 'sub',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ND/5ND022/AFPPF0007/5ND022_AFPP_F0007_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '마테라쎄 나파 가죽 파우치',
-        index: 3,
-      },
-      {
-        type: 'sub',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ND/5ND022/AFPPF0007/5ND022_AFPP_F0007_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '마테라쎄 나파 가죽 파우치',
-        index: 4,
-      },
-    ],
-    local_image: '5ND022_AFPP_F0007.jpg',
-    local_detail_images: [
-      '5ND022_AFPP_F0007_detail_thumbnail.jpg',
-      '5ND022_AFPP_F0007_detail_2.jpg',
-      '5ND022_AFPP_F0007_detail_3.jpg',
-      '5ND022_AFPP_F0007_detail_4.jpg',
-      '5ND022_AFPP_F0007_detail_5.jpg',
-    ],
-  },
-  {
-    id: '5ND022_AFPP_F0009',
-    index: 8,
-    category1: 'accessories',
-
-    category2: 'pouches',
-    categoryKor1: '액세서리',
-    categoryKor2: '파우치',
-    name: '마테라쎄 나파 가죽 파우치',
-    price: '₩ 2,400,000',
-    image_url:
-      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ND/5ND022/AFPPF0009/5ND022_AFPP_F0009_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
-    product_url:
-      'https://www.miumiu.com/kr/ko/p/%EB%A7%88%ED%85%8C%EB%9D%BC%EC%8E%84-%EB%82%98%ED%8C%8C-%EA%B0%80%EC%A3%BD-%ED%8C%8C%EC%9A%B0%EC%B9%98/5ND022_AFPP_F0009',
-    crawled_at: '2025-11-13T15:58:54.097780',
-    subtitle:
-      '미우미우 스타일의 상징인 마테라쎄 모티프를 실용적인 파우치 디자인에 재현했습니다. 드로스트링 클로저와 섬세한 마감, 메탈 로고가 고급스러운 감각을 더합니다.',
-    bullet_points: [
-      '제품 코드: 5ND022_AFPP_F0009',
-      '마테라쎄 기법',
-      '가죽 드로스트링 클로저',
-      '코튼 새틴 안감',
-      '메탈 레터링 로고',
-    ],
-    size_info: ['높이 14cm', '폭 16cm', '길이 7.5cm'],
-    material: '주 소재: 양가죽',
-    detail_images: [
-      {
-        type: 'thumbnail',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ND/5ND022/AFPPF0009/5ND022_AFPP_F0009_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '마테라쎄 나파 가죽 파우치',
-      },
-      {
-        type: 'sub',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ND/5ND022/AFPPF0009/5ND022_AFPP_F0009_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '마테라쎄 나파 가죽 파우치',
-        index: 1,
-      },
-      {
-        type: 'sub',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ND/5ND022/AFPPF0009/5ND022_AFPP_F0009_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '마테라쎄 나파 가죽 파우치',
-        index: 2,
-      },
-      {
-        type: 'sub',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ND/5ND022/AFPPF0009/5ND022_AFPP_F0009_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '마테라쎄 나파 가죽 파우치',
-        index: 3,
-      },
-      {
-        type: 'sub',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ND/5ND022/AFPPF0009/5ND022_AFPP_F0009_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '마테라쎄 나파 가죽 파우치',
-        index: 4,
-      },
-    ],
-    local_image: '5ND022_AFPP_F0009.jpg',
-    local_detail_images: [
-      '5ND022_AFPP_F0009_detail_thumbnail.jpg',
-      '5ND022_AFPP_F0009_detail_2.jpg',
-      '5ND022_AFPP_F0009_detail_3.jpg',
-      '5ND022_AFPP_F0009_detail_4.jpg',
-      '5ND022_AFPP_F0009_detail_5.jpg',
-    ],
-  },
-  {
-    id: '5ND022_AFPP_F0236',
-    index: 9,
-    category1: 'accessories',
-
-    category2: 'pouches',
-    categoryKor1: '액세서리',
-    categoryKor2: '파우치',
-    name: '마테라쎄 나파 가죽 파우치',
-    price: '₩ 2,400,000',
-    image_url:
-      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ND/5ND022/AFPPF0236/5ND022_AFPP_F0236_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
-    product_url:
-      'https://www.miumiu.com/kr/ko/p/%EB%A7%88%ED%85%8C%EB%9D%BC%EC%8E%84-%EB%82%98%ED%8C%8C-%EA%B0%80%EC%A3%BD-%ED%8C%8C%EC%9A%B0%EC%B9%98/5ND022_AFPP_F0236',
-    crawled_at: '2025-11-13T15:59:13.577770',
-    subtitle:
-      '미우미우 스타일의 상징인 마테라쎄 모티프를 실용적인 파우치 디자인에 재현했습니다. 드로스트링 클로저와 섬세한 마감, 메탈 로고가 고급스러운 감각을 더합니다.',
-    bullet_points: [
-      '제품 코드: 5ND022_AFPP_F0236',
-      '마테라쎄 기법',
-      '가죽 드로스트링 클로저',
-      '코튼 새틴 안감',
-      '메탈 레터링 로고',
-    ],
-    size_info: ['높이 14cm', '폭 16cm', '길이 7.5cm'],
-    material: '주 소재: 양가죽',
-    detail_images: [
-      {
-        type: 'thumbnail',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ND/5ND022/AFPPF0236/5ND022_AFPP_F0236_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '마테라쎄 나파 가죽 파우치',
-      },
-      {
-        type: 'sub',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ND/5ND022/AFPPF0236/5ND022_AFPP_F0236_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '마테라쎄 나파 가죽 파우치',
-        index: 1,
-      },
-      {
-        type: 'sub',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ND/5ND022/AFPPF0236/5ND022_AFPP_F0236_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '마테라쎄 나파 가죽 파우치',
-        index: 2,
-      },
-      {
-        type: 'sub',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ND/5ND022/AFPPF0236/5ND022_AFPP_F0236_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '마테라쎄 나파 가죽 파우치',
-        index: 3,
-      },
-      {
-        type: 'sub',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5ND/5ND022/AFPPF0236/5ND022_AFPP_F0236_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '마테라쎄 나파 가죽 파우치',
-        index: 4,
-      },
-    ],
-    local_image: '5ND022_AFPP_F0236.jpg',
-    local_detail_images: [
-      '5ND022_AFPP_F0236_detail_thumbnail.jpg',
-      '5ND022_AFPP_F0236_detail_2.jpg',
-      '5ND022_AFPP_F0236_detail_3.jpg',
-      '5ND022_AFPP_F0236_detail_4.jpg',
-      '5ND022_AFPP_F0236_detail_5.jpg',
-    ],
-  },
-  {
-    id: '5NE024_AFPP_F0002',
-    index: 10,
-    category1: 'accessories',
-
-    category2: 'pouches',
-    categoryKor1: '액세서리',
-    categoryKor2: '파우치',
-    name: '마테라쎄 나파 가죽 파우치',
-    price: '₩ 2,400,000',
-    image_url:
-      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE024/AFPPF0002/5NE024_AFPP_F0002_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
-    product_url:
-      'https://www.miumiu.com/kr/ko/p/%EB%A7%88%ED%85%8C%EB%9D%BC%EC%8E%84-%EB%82%98%ED%8C%8C-%EA%B0%80%EC%A3%BD-%ED%8C%8C%EC%9A%B0%EC%B9%98/5NE024_AFPP_F0002',
-    crawled_at: '2025-11-13T15:59:33.183769',
-    subtitle:
-      '마테라쎄 가공이 돋보이는 컴팩트하고 정제된 디자인의 나파 가죽 파우치. 미우미우 특유의 우아한 장인정신과 아이코닉한 감각이 어우러진 아이템으로, 숄더 스트랩으로 스타일에 다양성을 더합니다.',
-    bullet_points: [
-      '제품 코드: 5NE024_AFPP_F0002',
-      '탈부착 및 길이 조절 가능한 가죽 숄더 스트랩',
-      '지퍼 클로저',
-      '코튼 새틴 안감',
-      '메탈 레터링 로고',
-    ],
-    size_info: ['높이 10cm', '폭 20cm', '길이 4.5cm'],
-    material: '주 소재: 양가죽',
-    detail_images: [
-      {
-        type: 'thumbnail',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE024/AFPPF0002/5NE024_AFPP_F0002_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '마테라쎄 나파 가죽 파우치',
-      },
-      {
-        type: 'sub',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE024/AFPPF0002/5NE024_AFPP_F0002_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '마테라쎄 나파 가죽 파우치',
-        index: 1,
-      },
-      {
-        type: 'sub',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE024/AFPPF0002/5NE024_AFPP_F0002_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '마테라쎄 나파 가죽 파우치',
-        index: 2,
-      },
-      {
-        type: 'sub',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE024/AFPPF0002/5NE024_AFPP_F0002_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '마테라쎄 나파 가죽 파우치',
-        index: 3,
-      },
-      {
-        type: 'sub',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE024/AFPPF0002/5NE024_AFPP_F0002_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '마테라쎄 나파 가죽 파우치',
-        index: 4,
-      },
-    ],
-    local_image: '5NE024_AFPP_F0002.jpg',
-    local_detail_images: [
-      '5NE024_AFPP_F0002_detail_thumbnail.jpg',
-      '5NE024_AFPP_F0002_detail_2.jpg',
-      '5NE024_AFPP_F0002_detail_3.jpg',
-      '5NE024_AFPP_F0002_detail_4.jpg',
-      '5NE024_AFPP_F0002_detail_5.jpg',
-    ],
-  },
-  {
-    id: '5NE024_AFPP_F0E18',
-    index: 11,
-    category1: 'accessories',
-
-    category2: 'pouches',
-    categoryKor1: '액세서리',
-    categoryKor2: '파우치',
-    name: '마테라쎄 나파 가죽 파우치',
-    price: '₩ 2,400,000',
-    image_url:
-      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE024/AFPPF0E18/5NE024_AFPP_F0E18_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
-    product_url:
-      'https://www.miumiu.com/kr/ko/p/%EB%A7%88%ED%85%8C%EB%9D%BC%EC%8E%84-%EB%82%98%ED%8C%8C-%EA%B0%80%EC%A3%BD-%ED%8C%8C%EC%9A%B0%EC%B9%98/5NE024_AFPP_F0E18',
-    crawled_at: '2025-11-13T15:59:55.268926',
-    subtitle:
-      '마테라쎄 가공이 돋보이는 컴팩트하고 정제된 디자인의 나파 가죽 파우치. 미우미우 특유의 우아한 장인정신과 아이코닉한 감각이 어우러진 아이템으로, 숄더 스트랩으로 스타일에 다양성을 더합니다.',
-    bullet_points: [
-      '제품 코드: 5NE024_AFPP_F0E18',
-      '탈부착 및 길이 조절 가능한 가죽 숄더 스트랩',
-      '지퍼 클로저',
-      '코튼 새틴 안감',
-      '메탈 레터링 로고',
-    ],
-    size_info: ['높이 10cm', '폭 20cm', '길이 4.5cm'],
-    material: '주 소재: 양가죽',
-    detail_images: [
-      {
-        type: 'thumbnail',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE024/AFPPF0E18/5NE024_AFPP_F0E18_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '마테라쎄 나파 가죽 파우치',
-      },
-      {
-        type: 'sub',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE024/AFPPF0E18/5NE024_AFPP_F0E18_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '마테라쎄 나파 가죽 파우치',
-        index: 1,
-      },
-      {
-        type: 'sub',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE024/AFPPF0E18/5NE024_AFPP_F0E18_SLB.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '마테라쎄 나파 가죽 파우치',
-        index: 2,
-      },
-      {
-        type: 'sub',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE024/AFPPF0E18/5NE024_AFPP_F0E18_SLO.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '마테라쎄 나파 가죽 파우치',
-        index: 3,
-      },
-      {
-        type: 'sub',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5NE/5NE024/AFPPF0E18/5NE024_AFPP_F0E18_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '마테라쎄 나파 가죽 파우치',
-        index: 4,
-      },
-    ],
-    local_image: '5NE024_AFPP_F0E18.jpg',
-    local_detail_images: [
-      '5NE024_AFPP_F0E18_detail_thumbnail.jpg',
-      '5NE024_AFPP_F0E18_detail_2.jpg',
-      '5NE024_AFPP_F0E18_detail_3.jpg',
-      '5NE024_AFPP_F0E18_detail_4.jpg',
-      '5NE024_AFPP_F0E18_detail_5.jpg',
-    ],
-  },
   {
     id: '5NE024_AF8W_F0002',
     index: 12,
     category1: 'accessories',
-
     category2: 'pouches',
     categoryKor1: '액세서리',
     categoryKor2: '파우치',
@@ -38960,7 +38220,6 @@ export const products = [
     id: '5NE024_AF8W_F0046',
     index: 13,
     category1: 'accessories',
-
     category2: 'pouches',
     categoryKor1: '액세서리',
     categoryKor2: '파우치',
@@ -39026,7 +38285,6 @@ export const products = [
     id: '5NE024_AF8W_F0NBL',
     index: 14,
     category1: 'accessories',
-
     category2: 'pouches',
     categoryKor1: '액세서리',
     categoryKor2: '파우치',
@@ -39092,7 +38350,6 @@ export const products = [
     id: '5NE841_2IFK_F0Q6N',
     index: 15,
     category1: 'accessories',
-
     category2: 'pouches',
     categoryKor1: '액세서리',
     categoryKor2: '파우치',
@@ -39159,7 +38416,6 @@ export const products = [
     id: '5NE841_2IFK_F0RDS',
     index: 16,
     category1: 'accessories',
-
     category2: 'pouches',
     categoryKor1: '액세서리',
     categoryKor2: '파우치',
@@ -39226,7 +38482,6 @@ export const products = [
     id: '5NE841_2IFK_F0HDZ',
     index: 17,
     category1: 'accessories',
-
     category2: 'pouches',
     categoryKor1: '액세서리',
     categoryKor2: '파우치',
@@ -39293,7 +38548,6 @@ export const products = [
     id: '5NE841_2IA7_F04S3',
     index: 18,
     category1: 'accessories',
-
     category2: 'pouches',
     categoryKor1: '액세서리',
     categoryKor2: '파우치',
@@ -39314,7 +38568,7 @@ export const products = [
       '자수 레터링 로고',
     ],
     size_info: ['높이 14cm', '폭 18.5cm', '길이 10cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -39359,7 +38613,6 @@ export const products = [
     id: '5NE841_2IA7_F0Q1K',
     index: 19,
     category1: 'accessories',
-
     category2: 'pouches',
     categoryKor1: '액세서리',
     categoryKor2: '파우치',
@@ -39380,7 +38633,7 @@ export const products = [
       '자수 레터링 로고',
     ],
     size_info: ['높이 14cm', '폭 18.5cm', '길이 10cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -39425,7 +38678,6 @@ export const products = [
     id: '5NE841_2IA7_F04GM',
     index: 20,
     category1: 'accessories',
-
     category2: 'pouches',
     categoryKor1: '액세서리',
     categoryKor2: '파우치',
@@ -39446,7 +38698,7 @@ export const products = [
       '자수 레터링 로고',
     ],
     size_info: ['높이 14cm', '폭 18.5cm', '길이 10cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -39498,7 +38750,6 @@ export const products = [
     id: '5NE841_2IA7_F0C42',
     index: 21,
     category1: 'accessories',
-
     category2: 'pouches',
     categoryKor1: '액세서리',
     categoryKor2: '파우치',
@@ -39519,7 +38770,7 @@ export const products = [
       '자수 레터링 로고',
     ],
     size_info: ['높이 14cm', '폭 18.5cm', '길이 10cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -39564,7 +38815,6 @@ export const products = [
     id: '5NF462_2IFL_F04YL',
     index: 22,
     category1: 'accessories',
-
     category2: 'pouches',
     categoryKor1: '액세서리',
     categoryKor2: '파우치',
@@ -39631,7 +38881,6 @@ export const products = [
     id: '5NF462_2IFL_F04YM',
     index: 23,
     category1: 'accessories',
-
     category2: 'pouches',
     categoryKor1: '액세서리',
     categoryKor2: '파우치',
@@ -39698,7 +38947,6 @@ export const products = [
     id: '5NF462_2IFL_F0ZKS',
     index: 24,
     category1: 'accessories',
-
     category2: 'pouches',
     categoryKor1: '액세서리',
     categoryKor2: '파우치',
@@ -39765,7 +39013,6 @@ export const products = [
     id: '5NR036_2F8W_F0002',
     index: 1,
     category1: 'accessories',
-
     category2: 'pouches',
     categoryKor1: '액세서리',
     categoryKor2: '파우치',
@@ -39824,7 +39071,6 @@ export const products = [
     id: '5NR036_AF8W_F0046',
     index: 2,
     category1: 'accessories',
-
     category2: 'pouches',
     categoryKor1: '액세서리',
     categoryKor2: '파우치',
@@ -39883,7 +39129,6 @@ export const products = [
     id: '5NR036_AF8W_F0NBL',
     index: 3,
     category1: 'accessories',
-
     category2: 'pouches',
     categoryKor1: '액세서리',
     categoryKor2: '파우치',
@@ -39942,7 +39187,6 @@ export const products = [
     id: '5NF460_AF7T_F0304',
     index: 4,
     category1: 'accessories',
-
     category2: 'pouches',
     categoryKor1: '액세서리',
     categoryKor2: '파우치',
@@ -40007,7 +39251,6 @@ export const products = [
     id: '5NE841_2IFO_F0NTG',
     index: 5,
     category1: 'accessories',
-
     category2: 'pouches',
     categoryKor1: '액세서리',
     categoryKor2: '파우치',
@@ -40074,7 +39317,6 @@ export const products = [
     id: '5NE841_2IEE_F0393',
     index: 6,
     category1: 'accessories',
-
     category2: 'pouches',
     categoryKor1: '액세서리',
     categoryKor2: '파우치',
@@ -40140,7 +39382,6 @@ export const products = [
     id: '5NE841_2IG4_F05AJ',
     index: 7,
     category1: 'accessories',
-
     category2: 'pouches',
     categoryKor1: '액세서리',
     categoryKor2: '파우치',
@@ -40161,7 +39402,7 @@ export const products = [
       '가죽 레터링 로고',
     ],
     size_info: ['높이 14cm', '폭 18.5cm', '길이 10cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -40206,7 +39447,6 @@ export const products = [
     id: '5NE841_2IG4_F0A32',
     index: 8,
     category1: 'accessories',
-
     category2: 'pouches',
     categoryKor1: '액세서리',
     categoryKor2: '파우치',
@@ -40227,7 +39467,7 @@ export const products = [
       '가죽 레터링 로고',
     ],
     size_info: ['높이 14cm', '폭 18.5cm', '길이 10cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -40272,7 +39512,6 @@ export const products = [
     id: '5HC378_2CQD_F0031',
     index: 1,
     category1: 'accessories',
-
     category2: 'hats',
     categoryKor1: '액세서리',
     categoryKor2: '모자',
@@ -40287,7 +39526,7 @@ export const products = [
       '한눈에 알아볼 수 있는 아이코닉하고 독특한 개성의 미우미우 인타르시아 로고가 시선을 사로잡는 울 비니입니다.',
     bullet_points: ['제품 코드: 5HC378_2CQD_F0031', '인타르시아 로고'],
     size_info: [],
-    material: '주 소재: 폴리아미드, 모헤어, 울',
+    material: '주 소재: 울',
     detail_images: [
       {
         type: 'thumbnail',
@@ -40311,7 +39550,6 @@ export const products = [
     id: '5HC378_2CQD_F0018',
     index: 2,
     category1: 'accessories',
-
     category2: 'hats',
     categoryKor1: '액세서리',
     categoryKor2: '모자',
@@ -40326,7 +39564,7 @@ export const products = [
       '한눈에 알아볼 수 있는 아이코닉하고 독특한 개성의 미우미우 인타르시아 로고가 시선을 사로잡는 울 비니입니다.',
     bullet_points: ['제품 코드: 5HC378_2CQD_F0018', '인타르시아 로고'],
     size_info: [],
-    material: '주 소재: 폴리아미드, 모헤어, 울',
+    material: '주 소재: 울',
     detail_images: [
       {
         type: 'thumbnail',
@@ -40346,63 +39584,11 @@ export const products = [
       '5HC378_2CQD_F0018_detail_2.jpg',
     ],
   },
-  {
-    id: '5HC369_2IF2_F0D3Z',
-    index: 3,
-    category1: 'accessories',
 
-    category2: 'hats',
-    categoryKor1: '액세서리',
-    categoryKor2: '모자',
-    name: '플리스 베이스볼 캡',
-    price: '₩ 1,010,000',
-    image_url:
-      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2IF2F0D3Z/5HC369_2IF2_F0D3Z_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
-    product_url:
-      'https://www.miumiu.com/kr/ko/p/%ED%94%8C%EB%A6%AC%EC%8A%A4-%EB%B2%A0%EC%9D%B4%EC%8A%A4%EB%B3%BC-%EC%BA%A1/5HC369_2IF2_F0D3Z',
-    crawled_at: '2025-11-13T16:47:04.852657',
-    subtitle:
-      '미우미우 워드로브의 아이코닉한 소재인 플리스가 이 캡의 부드러운 볼륨과 텍스처를 완성합니다. 체크 패턴과 스포츠웨어에서 영감을 받은 투톤 코드 디테일이 더해져 세련된 개성과 현대적인 감각을 강조합니다.',
-    bullet_points: [
-      '제품 코드: 5HC369_2IF2_F0D3Z',
-      '맞춤 조절형 코드',
-      '슬라이딩 메탈 스토퍼',
-      '코튼 안감',
-      '자수 로고',
-    ],
-    size_info: [],
-    material: '패브릭',
-    detail_images: [
-      {
-        type: 'thumbnail',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2IF2F0D3Z/5HC369_2IF2_F0D3Z_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '플리스 베이스볼 캡',
-      },
-      {
-        type: 'sub',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2IF2F0D3Z/5HC369_2IF2_F0D3Z_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '플리스 베이스볼 캡',
-        index: 1,
-      },
-      {
-        type: 'sub',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2IF2F0D3Z/5HC369_2IF2_F0D3Z_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '플리스 베이스볼 캡',
-        index: 2,
-      },
-    ],
-    local_image: '5HC369_2IF2_F0D3Z.jpg',
-    local_detail_images: [
-      '5HC369_2IF2_F0D3Z_detail_thumbnail.jpg',
-      '5HC369_2IF2_F0D3Z_detail_2.jpg',
-      '5HC369_2IF2_F0D3Z_detail_3.jpg',
-    ],
-  },
   {
     id: '5HC488_18SI_F0013',
     index: 4,
     category1: 'accessories',
-
     category2: 'hats',
     categoryKor1: '액세서리',
     categoryKor2: '모자',
@@ -40459,7 +39645,6 @@ export const products = [
     id: '5HC488_18SI_F0028',
     index: 5,
     category1: 'accessories',
-
     category2: 'hats',
     categoryKor1: '액세서리',
     categoryKor2: '모자',
@@ -40509,7 +39694,6 @@ export const products = [
     id: '5HC489_18SI_F0028',
     index: 6,
     category1: 'accessories',
-
     category2: 'hats',
     categoryKor1: '액세서리',
     categoryKor2: '모자',
@@ -40547,7 +39731,6 @@ export const products = [
     id: '5HC369_2CWC_F04Z5',
     index: 7,
     category1: 'accessories',
-
     category2: 'hats',
     categoryKor1: '액세서리',
     categoryKor2: '모자',
@@ -40562,7 +39745,7 @@ export const products = [
       '드릴의 워싱 효과가 대비되는 색상을 돋보이게 하며, 미우미우의 대담하고 스포티한 정신을 구현한 이 베이스볼 캡의 디자인에 캐주얼한 느낌을 더합니다.',
     bullet_points: ['제품 코드: 5HC369_2CWC_F04Z5', '워싱 데님 처리', '자수 로고'],
     size_info: [],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -40593,7 +39776,6 @@ export const products = [
     id: '5HC369_2CWC_F04Z6',
     index: 8,
     category1: 'accessories',
-
     category2: 'hats',
     categoryKor1: '액세서리',
     categoryKor2: '모자',
@@ -40608,7 +39790,7 @@ export const products = [
       '드릴의 워싱 효과가 대비되는 색상을 돋보이게 하며, 미우미우의 대담하고 스포티한 정신을 구현한 이 베이스볼 캡의 디자인에 캐주얼한 느낌을 더합니다.',
     bullet_points: ['제품 코드: 5HC369_2CWC_F04Z6', '워싱 데님 처리', '자수 로고'],
     size_info: [],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -40639,7 +39821,6 @@ export const products = [
     id: '5HC369_2CWC_F04ZH',
     index: 9,
     category1: 'accessories',
-
     category2: 'hats',
     categoryKor1: '액세서리',
     categoryKor2: '모자',
@@ -40654,7 +39835,7 @@ export const products = [
       '드릴의 워싱 효과가 대비되는 색상을 돋보이게 하며, 미우미우의 대담하고 스포티한 정신을 구현한 이 베이스볼 캡의 디자인에 캐주얼한 느낌을 더합니다.',
     bullet_points: ['제품 코드: 5HC369_2CWC_F04ZH', '워싱 데님 처리', '자수 로고'],
     size_info: [],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -40685,7 +39866,6 @@ export const products = [
     id: '5HC369_2CWC_F0IX2',
     index: 10,
     category1: 'accessories',
-
     category2: 'hats',
     categoryKor1: '액세서리',
     categoryKor2: '모자',
@@ -40700,7 +39880,7 @@ export const products = [
       '드릴의 워싱 효과가 대비되는 색상을 돋보이게 하며, 미우미우의 대담하고 스포티한 정신을 구현한 이 베이스볼 캡의 디자인에 캐주얼한 느낌을 더합니다.',
     bullet_points: ['제품 코드: 5HC369_2CWC_F0IX2', '워싱 데님 처리', '자수 로고'],
     size_info: [],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -40731,7 +39911,6 @@ export const products = [
     id: '5HC324_2ID1_F0036',
     index: 11,
     category1: 'accessories',
-
     category2: 'hats',
     categoryKor1: '액세서리',
     categoryKor2: '모자',
@@ -40745,7 +39924,7 @@ export const products = [
       '폼폼은 미우미우의 장난스럽고 유행을 타지 않는 정신을 표현하며, 캐주얼 시즌 룩을 위해 제작된 부드러운 울 모자의 세련된 디자인을 완성합니다.',
     bullet_points: ['제품 코드: 5HC324_2ID1_F0036', '이어머프와 폼폼 레이스', '로고 라벨'],
     size_info: [],
-    material: '주 소재: 캐시미어 버진 울',
+    material: '주 소재: 캐시미어',
     detail_images: [
       {
         type: 'thumbnail',
@@ -40769,7 +39948,6 @@ export const products = [
     id: '5HC386_2CSR_F0040',
     index: 12,
     category1: 'accessories',
-
     category2: 'hats',
     categoryKor1: '액세서리',
     categoryKor2: '모자',
@@ -40814,7 +39992,6 @@ export const products = [
     id: '5HC432_2IEJ_F073X',
     index: 13,
     category1: 'accessories',
-
     category2: 'hats',
     categoryKor1: '액세서리',
     categoryKor2: '모자',
@@ -40829,7 +40006,7 @@ export const products = [
       '부드러운 울과 캐시미어로 제작된 이 모자는 절제된 라인과 컨템포러리한 감각을 결합했습니다. 은은한 컬러와 아이코닉한 대비 로고가 더해져 세련된 매력을 한층 강조합니다.',
     bullet_points: ['제품 코드: 5HC432_2IEJ_F073X', '레이스 장식으로', '로고 라벨'],
     size_info: [],
-    material: '주 소재: 재생 폴리에스터',
+    material: '주 소재: 폴리에스터',
     detail_images: [
       {
         type: 'thumbnail',
@@ -40853,7 +40030,6 @@ export const products = [
     id: '5HC432_2IEJ_F0637',
     index: 14,
     category1: 'accessories',
-
     category2: 'hats',
     categoryKor1: '액세서리',
     categoryKor2: '모자',
@@ -40868,7 +40044,7 @@ export const products = [
       '부드러운 울과 캐시미어로 제작된 이 모자는 절제된 라인과 컨템포러리한 감각을 결합했습니다. 은은한 컬러와 아이코닉한 대비 로고가 더해져 세련된 매력을 한층 강조합니다.',
     bullet_points: ['제품 코드: 5HC432_2IEJ_F0637', '레이스 장식으로', '로고 라벨'],
     size_info: [],
-    material: '주 소재: 재생 폴리에스터',
+    material: '주 소재: 폴리에스터',
     detail_images: [
       {
         type: 'thumbnail',
@@ -40892,7 +40068,6 @@ export const products = [
     id: '5HC365_2IDY_F0D4O',
     index: 15,
     category1: 'accessories',
-
     category2: 'hats',
     categoryKor1: '액세서리',
     categoryKor2: '모자',
@@ -40937,7 +40112,6 @@ export const products = [
     id: '5HC272_2IA4_F0TQI',
     index: 16,
     category1: 'accessories',
-
     category2: 'hats',
     categoryKor1: '액세서리',
     categoryKor2: '모자',
@@ -40952,7 +40126,7 @@ export const products = [
       '스포티하고 다재다능한 소재인 플리스를 퍼 효과로 새롭게 해석한 캡으로, 아이코닉한 플래드 모티프와 어우러져 심플함과 캐주얼한 스타일의 균형을 완성합니다.',
     bullet_points: ['제품 코드: 5HC272_2IA4_F0TQI', '귀마개', '플러시 플리스 라이닝', '자수 로고'],
     size_info: [],
-    material: '주 소재: 폴리아미드, 순수 울',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -40983,7 +40157,6 @@ export const products = [
     id: '5HC369_2IDY_F0S0O',
     index: 17,
     category1: 'accessories',
-
     category2: 'hats',
     categoryKor1: '액세서리',
     categoryKor2: '모자',
@@ -41003,7 +40176,7 @@ export const products = [
       '자수 로고',
     ],
     size_info: [],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -41034,7 +40207,6 @@ export const products = [
     id: '5HC369_2IDY_F04PE',
     index: 18,
     category1: 'accessories',
-
     category2: 'hats',
     categoryKor1: '액세서리',
     categoryKor2: '모자',
@@ -41054,7 +40226,7 @@ export const products = [
       '자수 로고',
     ],
     size_info: [],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -41085,7 +40257,6 @@ export const products = [
     id: '5HC425_2DUF_F0684',
     index: 19,
     category1: 'accessories',
-
     category2: 'hats',
     categoryKor1: '액세서리',
     categoryKor2: '모자',
@@ -41100,7 +40271,7 @@ export const products = [
       '부드러운 울 펠트로 완성된 클로슈의 우아한 실루엣은 클래식한 컬러와 어우러져 타임리스한 페미닌 우아함을 고스란히 드러냅니다.',
     bullet_points: ['제품 코드: 5HC425_2DUF_F0684', '로고 라벨'],
     size_info: [],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -41131,7 +40302,6 @@ export const products = [
     id: '5HC432_2IEJ_F0244',
     index: 20,
     category1: 'accessories',
-
     category2: 'hats',
     categoryKor1: '액세서리',
     categoryKor2: '모자',
@@ -41146,7 +40316,7 @@ export const products = [
       '부드러운 울과 캐시미어로 제작된 이 모자는 절제된 라인과 컨템포러리한 감각을 결합했습니다. 은은한 컬러와 아이코닉한 대비 로고가 더해져 세련된 매력을 한층 강조합니다.',
     bullet_points: ['제품 코드: 5HC432_2IEJ_F0244', '레이스 장식으로', '로고 라벨'],
     size_info: [],
-    material: '주 소재: 재생 폴리에스터',
+    material: '주 소재: 폴리에스터',
     detail_images: [
       {
         type: 'thumbnail',
@@ -41177,7 +40347,6 @@ export const products = [
     id: '5HC179_AF6P_F0201',
     index: 21,
     category1: 'accessories',
-
     category2: 'hats',
     categoryKor1: '액세서리',
     categoryKor2: '모자',
@@ -41222,7 +40391,6 @@ export const products = [
     id: '5HC369_2CUA_F04RA',
     index: 22,
     category1: 'accessories',
-
     category2: 'hats',
     categoryKor1: '액세서리',
     categoryKor2: '모자',
@@ -41265,7 +40433,6 @@ export const products = [
     id: '5HC369_2CUA_F0844',
     index: 23,
     category1: 'accessories',
-
     category2: 'hats',
     categoryKor1: '액세서리',
     categoryKor2: '모자',
@@ -41308,7 +40475,6 @@ export const products = [
     id: '5HC369_2CUA_F034S',
     index: 24,
     category1: 'accessories',
-
     category2: 'hats',
     categoryKor1: '액세서리',
     categoryKor2: '모자',
@@ -41351,9 +40517,9 @@ export const products = [
     id: '5CC536_2ICT_F0EDH',
     index: 24,
     category1: 'accessories',
-
     category2: 'belts',
     categoryKor1: '액세서리',
+    categoryKor2: '벨트',
     name: '프린트 가죽 벨트',
     price: '₩ 1,010,000',
     image_url:
@@ -41389,9 +40555,9 @@ export const products = [
     id: '5CC536_2F6P_F0201',
     index: 2,
     category1: 'accessories',
-
     category2: 'belts',
     categoryKor1: '액세서리',
+    categoryKor2: '벨트',
     name: '나파 가죽 벨트',
     price: '₩ 960,000',
     image_url:
@@ -41426,9 +40592,9 @@ export const products = [
     id: '5CC536_2CSS_F0393',
     index: 3,
     category1: 'accessories',
-
     category2: 'belts',
     categoryKor1: '액세서리',
+    categoryKor2: '벨트',
     name: '스웨이드 벨트',
     price: '₩ 870,000',
     image_url:
@@ -41464,9 +40630,9 @@ export const products = [
     id: '5CC536_2CSS_F0316',
     index: 4,
     category1: 'accessories',
-
     category2: 'belts',
     categoryKor1: '액세서리',
+    categoryKor2: '벨트',
     name: '스웨이드 벨트',
     price: '₩ 870,000',
     image_url:
@@ -41502,9 +40668,9 @@ export const products = [
     id: '5CC536_2AIX_F0005',
     index: 5,
     category1: 'accessories',
-
     category2: 'belts',
     categoryKor1: '액세서리',
+    categoryKor2: '벨트',
     name: '가죽 벨트',
     price: '₩ 870,000',
     image_url:
@@ -41547,9 +40713,9 @@ export const products = [
     id: '5CC536_2AIX_F0038',
     index: 6,
     category1: 'accessories',
-
     category2: 'belts',
     categoryKor1: '액세서리',
+    categoryKor2: '벨트',
     name: '가죽 벨트',
     price: '₩ 870,000',
     image_url:
@@ -41592,9 +40758,9 @@ export const products = [
     id: '5CC536_2AIX_F0002',
     index: 7,
     category1: 'accessories',
-
     category2: 'belts',
     categoryKor1: '액세서리',
+    categoryKor2: '벨트',
     name: '가죽 벨트',
     price: '₩ 870,000',
     image_url:
@@ -41637,9 +40803,9 @@ export const products = [
     id: '5CC545_EFX_F0002',
     index: 8,
     category1: 'accessories',
-
     category2: 'belts',
     categoryKor1: '액세서리',
+    categoryKor2: '벨트',
     name: '나파 가죽 벨트',
     price: '₩ 940,000',
     image_url:
@@ -41672,9 +40838,9 @@ export const products = [
     id: '5CC545_EFX_F0316',
     index: 9,
     category1: 'accessories',
-
     category2: 'belts',
     categoryKor1: '액세서리',
+    categoryKor2: '벨트',
     name: '나파 가죽 벨트',
     price: '₩ 940,000',
     image_url:
@@ -41707,9 +40873,9 @@ export const products = [
     id: '5CC700_2AMP_F0362',
     index: 10,
     category1: 'accessories',
-
     category2: 'belts',
     categoryKor1: '액세서리',
+    categoryKor2: '벨트',
     name: '에이어스 가죽 벨트',
     price: '₩ 1,340,000',
     image_url:
@@ -41750,9 +40916,9 @@ export const products = [
     id: '5CC699_2IES_F0046',
     index: 11,
     category1: 'accessories',
-
     category2: 'belts',
     categoryKor1: '액세서리',
+    categoryKor2: '벨트',
     name: '가죽 벨트',
     price: '₩ 930,000',
     image_url:
@@ -41794,9 +40960,9 @@ export const products = [
     id: '5CC536_2IFM_F0316',
     index: 12,
     category1: 'accessories',
-
     category2: 'belts',
     categoryKor1: '액세서리',
+    categoryKor2: '벨트',
     name: '가죽 패치워크 벨트',
     price: '₩ 960,000',
     image_url:
@@ -41837,9 +41003,9 @@ export const products = [
     id: '5CC565_2AIX_F098L',
     index: 13,
     category1: 'accessories',
-
     category2: 'belts',
     categoryKor1: '액세서리',
+    categoryKor2: '벨트',
     name: '가죽 벨트',
     price: '₩ 870,000',
     image_url:
@@ -41875,9 +41041,9 @@ export const products = [
     id: '5CC699_2HIL_F0002',
     index: 14,
     category1: 'accessories',
-
     category2: 'belts',
     categoryKor1: '액세서리',
+    categoryKor2: '벨트',
     name: '가죽 벨트',
     price: '₩ 870,000',
     image_url:
@@ -41918,9 +41084,9 @@ export const products = [
     id: '5CC565_2AIX_F0005',
     index: 15,
     category1: 'accessories',
-
     category2: 'belts',
     categoryKor1: '액세서리',
+    categoryKor2: '벨트',
     name: '가죽 벨트',
     price: '₩ 870,000',
     image_url:
@@ -41956,9 +41122,9 @@ export const products = [
     id: '5CC536_2AIX_F098L',
     index: 16,
     category1: 'accessories',
-
     category2: 'belts',
     categoryKor1: '액세서리',
+    categoryKor2: '벨트',
     name: '가죽 벨트',
     price: '₩ 870,000',
     image_url:
@@ -41994,9 +41160,9 @@ export const products = [
     id: '5CC536_2AIX_F0NBL',
     index: 17,
     category1: 'accessories',
-
     category2: 'belts',
     categoryKor1: '액세서리',
+    categoryKor2: '벨트',
     name: '가죽 벨트',
     price: '₩ 870,000',
     image_url:
@@ -42032,9 +41198,9 @@ export const products = [
     id: '5CC669_2CS8_F04KZ',
     index: 18,
     category1: 'accessories',
-
     category2: 'belts',
     categoryKor1: '액세서리',
+    categoryKor2: '벨트',
     name: '크리스털 장식 메탈 벨트',
     price: '₩ 2,150,000',
     image_url:
@@ -42082,9 +41248,9 @@ export const products = [
     id: '5CC663_2IB5_F0002',
     index: 19,
     category1: 'accessories',
-
     category2: 'belts',
     categoryKor1: '액세서리',
+    categoryKor2: '벨트',
     name: '가죽 벨트',
     price: '₩ 980,000',
     image_url:
@@ -42127,9 +41293,9 @@ export const products = [
     id: '5CC663_2IB5_F098L',
     index: 20,
     category1: 'accessories',
-
     category2: 'belts',
     categoryKor1: '액세서리',
+    categoryKor2: '벨트',
     name: '가죽 벨트',
     price: '₩ 980,000',
     image_url:
@@ -42172,9 +41338,9 @@ export const products = [
     id: '5CC682_2IBW_F0NBL',
     index: 21,
     category1: 'accessories',
-
     category2: 'belts',
     categoryKor1: '액세서리',
+    categoryKor2: '벨트',
     name: '가죽 및 메탈 벨트',
     price: '₩ 1,600,000',
     image_url:
@@ -42217,9 +41383,9 @@ export const products = [
     id: '5CC682_2IBW_F0002',
     index: 22,
     category1: 'accessories',
-
     category2: 'belts',
     categoryKor1: '액세서리',
+    categoryKor2: '벨트',
     name: '가죽 및 메탈 벨트',
     price: '₩ 1,600,000',
     image_url:
@@ -42255,9 +41421,9 @@ export const products = [
     id: '5CC680_2IB7_F0002',
     index: 23,
     category1: 'accessories',
-
     category2: 'belts',
     categoryKor1: '액세서리',
+    categoryKor2: '벨트',
     name: '가죽 및 메탈 벨트',
     price: '₩ 2,400,000',
     image_url:
@@ -42293,9 +41459,9 @@ export const products = [
     id: '5CC691_2IFT_F0151',
     index: 25,
     category1: 'accessories',
-
     category2: 'belts',
     categoryKor1: '액세서리',
+    categoryKor2: '벨트',
     name: '프린트 가죽 벨트',
     price: '₩ 1,140,000',
     image_url:
@@ -42331,9 +41497,9 @@ export const products = [
     id: '5CC689_3AP6_F0002',
     index: 1,
     category1: 'accessories',
-
     category2: 'belts',
     categoryKor1: '액세서리',
+    categoryKor2: '벨트',
     name: '가죽 벨트',
     price: '₩ 1,030,000',
     image_url:
@@ -42374,10 +41540,9 @@ export const products = [
     id: '5IS114_2FLQ_F0Q07',
     index: 1,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 핀휠 브로치',
     price: '₩ 340,000',
     image_url:
@@ -42413,10 +41578,9 @@ export const products = [
     id: '5IS114_2FLQ_F044Q',
     index: 2,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 핀휠 브로치',
     price: '₩ 340,000',
     image_url:
@@ -42452,10 +41616,9 @@ export const products = [
     id: '5IS114_2FLQ_F0V4C',
     index: 3,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 핀휠 브로치',
     price: '₩ 340,000',
     image_url:
@@ -42491,10 +41654,9 @@ export const products = [
     id: '5IS114_2FLQ_F0D9K',
     index: 4,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 핀휠 브로치',
     price: '₩ 340,000',
     image_url:
@@ -42530,10 +41692,9 @@ export const products = [
     id: 'UNKNOWN_5',
     index: 5,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '제품 5',
     price: '가격 없음',
     image_url: '',
@@ -42544,10 +41705,9 @@ export const products = [
     id: '5BZ042_AF6P_F0201_V_OOO',
     index: 6,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 백팩',
     price: '₩ 5,500,000',
     image_url:
@@ -42634,10 +41794,9 @@ export const products = [
     id: '5TT281_2FLQ_F04YR',
     index: 7,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 마이크로 트릭',
     price: '₩ 340,000',
     image_url:
@@ -42673,10 +41832,9 @@ export const products = [
     id: '5ID010_2FLQ_F0F5C',
     index: 8,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 마이크로 트릭',
     price: '₩ 340,000',
     image_url:
@@ -42717,10 +41875,9 @@ export const products = [
     id: '5TL498_2IGI_F0002',
     index: 9,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 트릭',
     price: '₩ 640,000',
     image_url:
@@ -42761,10 +41918,9 @@ export const products = [
     id: '5TL516_2IGI_F0002',
     index: 10,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 키링 트릭',
     price: '₩ 640,000',
     image_url:
@@ -42800,10 +41956,9 @@ export const products = [
     id: '5TL570_2CQS_F04ZJ',
     index: 11,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 트릭',
     price: '₩ 640,000',
     image_url:
@@ -42839,10 +41994,9 @@ export const products = [
     id: '5TT282_2FLQ_F0NMD',
     index: 12,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 플로럴 브로치',
     price: '₩ 340,000',
     image_url:
@@ -42883,10 +42037,9 @@ export const products = [
     id: '5TT282_2FLQ_F0MI4',
     index: 13,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 플로럴 브로치',
     price: '₩ 340,000',
     image_url:
@@ -42927,10 +42080,9 @@ export const products = [
     id: '5IS116_2F6T_F0L76',
     index: 14,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '에나멜 메탈 로고 브로치',
     price: '₩ 280,000',
     image_url:
@@ -42966,10 +42118,9 @@ export const products = [
     id: '5IS116_2F6T_F0011',
     index: 15,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '에나멜 메탈 로고 브로치',
     price: '₩ 280,000',
     image_url:
@@ -43005,10 +42156,9 @@ export const products = [
     id: '5IS116_2F6T_F0009',
     index: 16,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '에나멜 메탈 로고 브로치',
     price: '₩ 280,000',
     image_url:
@@ -43044,10 +42194,9 @@ export const products = [
     id: '5TT279_2IEI_F0VJS',
     index: 17,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '울 및 캐시미어 트릭',
     price: '₩ 750,000',
     image_url:
@@ -43090,10 +42239,9 @@ export const products = [
     id: '5TT279_2IEI_F0X46',
     index: 18,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '울 및 캐시미어 트릭',
     price: '₩ 750,000',
     image_url:
@@ -43136,10 +42284,9 @@ export const products = [
     id: '5TL603_2IGC_F0N57',
     index: 19,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 트릭',
     price: '₩ 820,000',
     image_url:
@@ -43182,10 +42329,9 @@ export const products = [
     id: '5TL603_2IGC_F0Y5T',
     index: 20,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 트릭',
     price: '₩ 820,000',
     image_url:
@@ -43221,10 +42367,9 @@ export const products = [
     id: '5TL498_2IA1_F04R5',
     index: 21,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '시어링 및 나파 가죽 트릭',
     price: '₩ 620,000',
     image_url:
@@ -43267,10 +42412,9 @@ export const products = [
     id: '5TL498_2IA1_F0WP9',
     index: 22,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '시어링 및 나파 가죽 트릭',
     price: '₩ 620,000',
     image_url:
@@ -43313,10 +42457,9 @@ export const products = [
     id: '5TL516_2E6Y_F0NBL',
     index: 23,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '트릭 가죽 키링',
     price: '₩ 610,000',
     image_url:
@@ -43359,10 +42502,9 @@ export const products = [
     id: '5TL516_2E6Y_F0032',
     index: 24,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '트릭 가죽 키링',
     price: '₩ 610,000',
     image_url:
@@ -43405,10 +42547,9 @@ export const products = [
     id: '5TL516_2E6Y_F0009',
     index: 25,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '트릭 가죽 키링',
     price: '₩ 610,000',
     image_url:
@@ -43444,10 +42585,9 @@ export const products = [
     id: '5TL516_2E6Y_F0L76',
     index: 26,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '트릭 가죽 키링',
     price: '₩ 610,000',
     image_url:
@@ -43483,10 +42623,9 @@ export const products = [
     id: '5TL516_2E6Y_F0011',
     index: 1,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '트릭 가죽 키링',
     price: '₩ 610,000',
     image_url:
@@ -43522,10 +42661,9 @@ export const products = [
     id: '5TL516_2CQS_F04P4',
     index: 2,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 트릭',
     price: '₩ 640,000',
     image_url:
@@ -43568,10 +42706,9 @@ export const products = [
     id: '5TL516_2CQS_F03Z6',
     index: 3,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 트릭',
     price: '₩ 640,000',
     image_url:
@@ -43614,10 +42751,9 @@ export const products = [
     id: '5TL570_2CQS_F0J22',
     index: 4,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 트릭',
     price: '₩ 640,000',
     image_url:
@@ -43660,10 +42796,9 @@ export const products = [
     id: '5TL570_2CQS_F03YH',
     index: 5,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 트릭',
     price: '₩ 640,000',
     image_url:
@@ -43706,10 +42841,9 @@ export const products = [
     id: '5TL574_2IEQ_F0C1U',
     index: 6,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '메탈 및 가죽 키링 트릭',
     price: '₩ 820,000',
     image_url:
@@ -43745,7 +42879,6 @@ export const products = [
     id: '5TL569_2ID8_F0007',
     index: 7,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
     categoryKor2: '백 액세서리 및 키체인',
@@ -43796,10 +42929,9 @@ export const products = [
     id: '5TL529_2CUI_F0237',
     index: 8,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 키체인 트릭',
     price: '₩ 890,000',
     image_url:
@@ -43842,10 +42974,9 @@ export const products = [
     id: '5TL531_2CUK_F0065',
     index: 9,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 키체인 트릭',
     price: '₩ 890,000',
     image_url:
@@ -43888,10 +43019,9 @@ export const products = [
     id: '5TL533_2CUM_F0NZ2',
     index: 10,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '미우 발레 가죽 키체인 트릭',
     price: '₩ 890,000',
     image_url:
@@ -43941,10 +43071,9 @@ export const products = [
     id: '5TL510_2IFO_F0NTG',
     index: 11,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽, 코드 및 금속 키링 트릭',
     price: '₩ 930,000',
     image_url:
@@ -43980,10 +43109,9 @@ export const products = [
     id: '5TL510_ACRT_F0Q7Z',
     index: 12,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽, 코드 및 메탈 트릭 키링',
     price: '₩ 890,000',
     image_url:
@@ -44026,10 +43154,9 @@ export const products = [
     id: '5TL510_ACRT_F04D2',
     index: 13,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽, 코드 및 메탈 트릭 키링',
     price: '₩ 890,000',
     image_url:
@@ -44072,10 +43199,9 @@ export const products = [
     id: '5TL510_ACRT_F0G52',
     index: 14,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽, 코드 및 메탈 트릭 키링',
     price: '₩ 890,000',
     image_url:
@@ -44118,10 +43244,9 @@ export const products = [
     id: '5TL510_ACRT_F04Q8',
     index: 15,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽, 코드 및 메탈 트릭 키링',
     price: '₩ 890,000',
     image_url:
@@ -44164,10 +43289,9 @@ export const products = [
     id: '5TL515_2IDW_F0NP5',
     index: 16,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 트릭',
     price: '₩ 1,030,000',
     image_url:
@@ -44209,10 +43333,9 @@ export const products = [
     id: '5TL515_2IDW_F04MV',
     index: 17,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 트릭',
     price: '₩ 1,030,000',
     image_url:
@@ -44261,10 +43384,9 @@ export const products = [
     id: '5TL515_ACRT_F04Q8',
     index: 18,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 코드 및 트릭',
     price: '₩ 930,000',
     image_url:
@@ -44313,10 +43435,9 @@ export const products = [
     id: '5TL515_ACRT_F0G52',
     index: 19,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 코드 및 트릭',
     price: '₩ 930,000',
     image_url:
@@ -44358,10 +43479,9 @@ export const products = [
     id: '5TL515_ACRT_F04BU',
     index: 20,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 코드 및 트릭',
     price: '₩ 930,000',
     image_url:
@@ -44403,10 +43523,9 @@ export const products = [
     id: '5ID008_2FLQ_F0976',
     index: 21,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 마이크로 트릭',
     price: '₩ 370,000',
     image_url:
@@ -44455,10 +43574,9 @@ export const products = [
     id: '5ID008_2FLQ_F0NP5',
     index: 22,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 마이크로 트릭',
     price: '₩ 370,000',
     image_url:
@@ -44507,10 +43625,9 @@ export const products = [
     id: '5ID008_2FLQ_F0X63',
     index: 23,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 마이크로 트릭',
     price: '₩ 370,000',
     image_url:
@@ -44559,10 +43676,9 @@ export const products = [
     id: '5ID008_2FLQ_F04MV',
     index: 24,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 마이크로 트릭',
     price: '₩ 370,000',
     image_url:
@@ -44611,10 +43727,9 @@ export const products = [
     id: '5ID008_2FLQ_F0VJS',
     index: 1,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 마이크로 트릭',
     price: '₩ 370,000',
     image_url:
@@ -44663,10 +43778,9 @@ export const products = [
     id: '5ID007_2FLQ_F0009',
     index: 2,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 마이크로 트릭',
     price: '₩ 340,000',
     image_url:
@@ -44715,10 +43829,9 @@ export const products = [
     id: '5ID007_2FLQ_F0011',
     index: 3,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 마이크로 트릭',
     price: '₩ 340,000',
     image_url:
@@ -44767,10 +43880,9 @@ export const products = [
     id: '5ID007_2FLQ_F0016',
     index: 4,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 마이크로 트릭',
     price: '₩ 340,000',
     image_url:
@@ -44819,10 +43931,9 @@ export const products = [
     id: '5ID007_2FLQ_F0L76',
     index: 5,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 마이크로 트릭',
     price: '₩ 340,000',
     image_url:
@@ -44871,10 +43982,9 @@ export const products = [
     id: '5ID007_2FLQ_F0R55',
     index: 6,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 마이크로 트릭',
     price: '₩ 340,000',
     image_url:
@@ -44923,10 +44033,9 @@ export const products = [
     id: '5ID007_2FLQ_F0046',
     index: 7,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 마이크로 트릭',
     price: '₩ 340,000',
     image_url:
@@ -44975,10 +44084,9 @@ export const products = [
     id: '5ID007_2FLQ_F0637',
     index: 8,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 마이크로 트릭',
     price: '₩ 340,000',
     image_url:
@@ -45027,10 +44135,9 @@ export const products = [
     id: '5ID007_2FLQ_F0049',
     index: 9,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 마이크로 트릭',
     price: '₩ 340,000',
     image_url:
@@ -45079,10 +44186,9 @@ export const products = [
     id: '5ID007_2FLQ_F0029',
     index: 10,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 마이크로 트릭',
     price: '₩ 340,000',
     image_url:
@@ -45131,10 +44237,9 @@ export const products = [
     id: '5ID010_2FLQ_F0Z9N',
     index: 11,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 마이크로 트릭',
     price: '₩ 340,000',
     image_url:
@@ -45182,10 +44287,9 @@ export const products = [
     id: '5ID010_2FLQ_F0P26',
     index: 12,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 마이크로 트릭',
     price: '₩ 340,000',
     image_url:
@@ -45233,10 +44337,9 @@ export const products = [
     id: '5ID010_2FLQ_F0NP5',
     index: 13,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 마이크로 트릭',
     price: '₩ 340,000',
     image_url:
@@ -45284,10 +44387,9 @@ export const products = [
     id: '5ID010_2FLQ_F0LKZ',
     index: 14,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 마이크로 트릭',
     price: '₩ 340,000',
     image_url:
@@ -45342,10 +44444,9 @@ export const products = [
     id: '5ID010_2FLQ_F04QX',
     index: 15,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 마이크로 트릭',
     price: '₩ 340,000',
     image_url:
@@ -45393,10 +44494,9 @@ export const products = [
     id: '5ID016_2FLQ_F03XH',
     index: 16,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 마이크로 트릭',
     price: '₩ 340,000',
     image_url:
@@ -45439,10 +44539,9 @@ export const products = [
     id: '5ID016_2FLQ_F0N13',
     index: 17,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 마이크로 트릭',
     price: '₩ 340,000',
     image_url:
@@ -45485,10 +44584,9 @@ export const products = [
     id: '5ID016_2FLQ_F0WK7',
     index: 18,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 마이크로 트릭',
     price: '₩ 340,000',
     image_url:
@@ -45531,10 +44629,9 @@ export const products = [
     id: '5ID016_2FLQ_F0EH7',
     index: 19,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 마이크로 트릭',
     price: '₩ 340,000',
     image_url:
@@ -45577,10 +44674,9 @@ export const products = [
     id: '5IS114_2FLQ_F0Y1T',
     index: 20,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 핀휠 브로치',
     price: '₩ 340,000',
     image_url:
@@ -45623,10 +44719,9 @@ export const products = [
     id: '5IS114_2FLQ_F031W',
     index: 21,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 핀휠 브로치',
     price: '₩ 340,000',
     image_url:
@@ -45669,10 +44764,9 @@ export const products = [
     id: '5IS114_2FLQ_F0976',
     index: 22,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 핀휠 브로치',
     price: '₩ 340,000',
     image_url:
@@ -45715,10 +44809,9 @@ export const products = [
     id: '5IS114_2FLQ_F0X63',
     index: 23,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 핀휠 브로치',
     price: '₩ 340,000',
     image_url:
@@ -45761,10 +44854,9 @@ export const products = [
     id: '5ID015_2DTU_F0056',
     index: 24,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '로고 장식 주사위 참',
     price: '₩ 215,000',
     image_url:
@@ -45807,10 +44899,9 @@ export const products = [
     id: '5TL550_2IC3_F0HC7',
     index: 1,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '나파 가죽 트릭',
     price: '₩ 750,000',
     image_url:
@@ -45853,10 +44944,9 @@ export const products = [
     id: '5TL550_2IC3_F04JD',
     index: 2,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '나파 가죽 트릭',
     price: '₩ 750,000',
     image_url:
@@ -45899,10 +44989,9 @@ export const products = [
     id: '5TL498_2CQS_F03YH',
     index: 3,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 트릭',
     price: '₩ 610,000',
     image_url:
@@ -45952,10 +45041,9 @@ export const products = [
     id: '5TL498_2CQS_F0J22',
     index: 4,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 트릭',
     price: '₩ 610,000',
     image_url:
@@ -45998,10 +45086,9 @@ export const products = [
     id: '5TL498_2CQS_F04AI',
     index: 5,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 트릭',
     price: '₩ 610,000',
     image_url:
@@ -46037,10 +45124,9 @@ export const products = [
     id: '5TT280_2IE7_F087A',
     index: 6,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '기술적 원사 트릭',
     price: '₩ 1,250,000',
     image_url:
@@ -46058,7 +45144,7 @@ export const products = [
       '스트랩 길이: 15cm / 트릭 높이: 18cm / 트릭 너비: 7–8cm',
     ],
     size_info: [],
-    material: '패브릭/가죽',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -46082,10 +45168,9 @@ export const products = [
     id: '5TT260_2CWW_F052N',
     index: 7,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '기능성 원사 트릭',
     price: '₩ 1,250,000',
     image_url:
@@ -46097,7 +45182,7 @@ export const products = [
       '미우미우 백에 개성을 더하는 크로셰 효과의 기능성 원사 트릭은 아이코닉한 아카이브 룩으로 시선을 사로잡으며, 독창적인 스타일 조합으로 장인정신이 돋보입니다.',
     bullet_points: ['제품 코드: 5TT260_2CWW_F052N', '크로셰 효과', '가죽 스트랩', '각인 로고 메달'],
     size_info: ['높이 19cm'],
-    material: '주 소재: 재생 폴리에스터',
+    material: '주 소재: 폴리에스터',
     detail_images: [
       {
         type: 'thumbnail',
@@ -46128,10 +45213,9 @@ export const products = [
     id: '5TT213_2CU2_F0G5R',
     index: 8,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '기능성 원사 트릭',
     price: '₩ 1,250,000',
     image_url:
@@ -46149,7 +45233,7 @@ export const products = [
       '스트랩 길이: 15cm - 트릭 높이: 18 cm - 트릭 너비: 7~8cm',
     ],
     size_info: [],
-    material: '주 소재: 재생 폴리에스터',
+    material: '주 소재: 폴리에스터',
     detail_images: [
       {
         type: 'thumbnail',
@@ -46173,10 +45257,9 @@ export const products = [
     id: '5TT214_2CU3_F0KIV',
     index: 9,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '기능성 원사 트릭',
     price: '₩ 1,250,000',
     image_url:
@@ -46194,7 +45277,7 @@ export const products = [
       '스트랩 길이: 15cm - 트릭 높이: 18 cm - 트릭 너비: 7~8cm',
     ],
     size_info: ['높이 19cm'],
-    material: '주 소재: 재생 폴리에스터',
+    material: '주 소재: 폴리에스터',
     detail_images: [
       {
         type: 'thumbnail',
@@ -46218,10 +45301,9 @@ export const products = [
     id: '5TT215_2CU4_F022X',
     index: 10,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '기능성 원사 트릭',
     price: '₩ 1,250,000',
     image_url:
@@ -46239,7 +45321,7 @@ export const products = [
       '스트랩 길이: 15cm - 트릭 높이: 18 cm - 트릭 너비: 7~8cm',
     ],
     size_info: ['높이 19cm'],
-    material: '주 소재: 재생 폴리에스터',
+    material: '주 소재: 폴리에스터',
     detail_images: [
       {
         type: 'thumbnail',
@@ -46263,10 +45345,9 @@ export const products = [
     id: '5TT217_2CU6_F0HZR',
     index: 11,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '기능성 원사 트릭',
     price: '₩ 1,250,000',
     image_url:
@@ -46284,7 +45365,7 @@ export const products = [
       '스트랩 길이: 15cm - 트릭 높이: 18 cm - 트릭 너비: 7~8cm',
     ],
     size_info: [],
-    material: '주 소재: 재생 폴리에스터',
+    material: '주 소재: 폴리에스터',
     detail_images: [
       {
         type: 'thumbnail',
@@ -46308,10 +45389,9 @@ export const products = [
     id: '5TT218_2CU7_F0P27',
     index: 12,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '기능성 원사 트릭',
     price: '₩ 1,250,000',
     image_url:
@@ -46329,7 +45409,7 @@ export const products = [
       '스트랩 길이: 15cm - 트릭 높이: 18 cm - 트릭 너비: 7~8cm',
     ],
     size_info: ['높이 19cm'],
-    material: '주 소재: 재생 폴리에스터',
+    material: '주 소재: 폴리에스터',
     detail_images: [
       {
         type: 'thumbnail',
@@ -46353,10 +45433,9 @@ export const products = [
     id: '5TY109_2IFM_F0316',
     index: 13,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 패치워크 숄더 스트랩',
     price: '₩ 1,160,000',
     image_url:
@@ -46399,10 +45478,9 @@ export const products = [
     id: '5NR036_2F8W_F0002',
     index: 14,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 마이크로 보 백',
     price: '₩ 1,620,000',
     image_url:
@@ -46458,10 +45536,9 @@ export const products = [
     id: '5NR036_AF8W_F0NBL',
     index: 15,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 마이크로 보 백',
     price: '₩ 1,620,000',
     image_url:
@@ -46517,10 +45594,9 @@ export const products = [
     id: '5NR036_AF8W_F0046',
     index: 16,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 마이크로 보 백',
     price: '₩ 1,620,000',
     image_url:
@@ -46576,10 +45652,9 @@ export const products = [
     id: '5NR019_2FPP_F0002',
     index: 17,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '완더 마테라쎄 나파 가죽 마이크로 호보백',
     price: '₩ 1,640,000',
     image_url:
@@ -46643,10 +45718,9 @@ export const products = [
     id: '5ID016_2FLQ_F0Q07',
     index: 18,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 마이크로 트릭',
     price: '₩ 340,000',
     image_url:
@@ -46682,10 +45756,9 @@ export const products = [
     id: '5TL601_2IGE_F0037',
     index: 19,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 키링 트릭',
     price: '₩ 890,000',
     image_url:
@@ -46733,10 +45806,9 @@ export const products = [
     id: '5TT282_2FLQ_F0976',
     index: 20,
     category1: 'accessories',
-
     category2: 'bag-accessories-and-keychains',
     categoryKor1: '액세서리',
-    categoryKor1: '액세서리',
+    categoryKor2: '백 액세서리 및 키체인',
     name: '가죽 플로럴 브로치',
     price: '₩ 340,000',
     image_url:
@@ -46777,7 +45849,6 @@ export const products = [
     id: '5GG203_2CSR_F0040',
     index: 2,
     category1: 'accessories',
-
     category2: 'scarves-and-gloves',
     categoryKor1: '액세서리',
     categoryKor2: '스카프와 장갑',
@@ -46821,7 +45892,6 @@ export const products = [
     id: '5GG203_2CSR_F0009',
     index: 3,
     category1: 'accessories',
-
     category2: 'scarves-and-gloves',
     categoryKor1: '액세서리',
     categoryKor2: '스카프와 장갑',
@@ -46865,7 +45935,6 @@ export const products = [
     id: '5GG202_2F8S_F0040',
     index: 4,
     category1: 'accessories',
-
     category2: 'scarves-and-gloves',
     categoryKor1: '액세서리',
     categoryKor2: '스카프와 장갑',
@@ -46880,7 +45949,7 @@ export const products = [
       '울과 모헤어의 부드러운 촉감과 대비되는 컬러의 아이코닉한 미우미우 로고가 조화를 이루는 장갑입니다.',
     bullet_points: ['제품 코드: 5GG202_2F8S_F0040', '눈에 띄는 로고'],
     size_info: [],
-    material: '주 소재: 캐시미어, 순수 울',
+    material: '주 소재: 캐시미어',
     detail_images: [
       {
         type: 'thumbnail',
@@ -46904,7 +45973,6 @@ export const products = [
     id: '5GG202_2F8S_F0031',
     index: 5,
     category1: 'accessories',
-
     category2: 'scarves-and-gloves',
     categoryKor1: '액세서리',
     categoryKor2: '스카프와 장갑',
@@ -46919,7 +45987,7 @@ export const products = [
       '울과 모헤어의 부드러운 촉감과 대비되는 컬러의 아이코닉한 미우미우 로고가 조화를 이루는 장갑입니다.',
     bullet_points: ['제품 코드: 5GG202_2F8S_F0031', '눈에 띄는 로고'],
     size_info: [],
-    material: '주 소재: 캐시미어, 순수 울',
+    material: '주 소재: 캐시미어',
     detail_images: [
       {
         type: 'thumbnail',
@@ -46943,7 +46011,6 @@ export const products = [
     id: '5FS048_2F8S_F0003',
     index: 6,
     category1: 'accessories',
-
     category2: 'scarves-and-gloves',
     categoryKor1: '액세서리',
     categoryKor2: '스카프와 장갑',
@@ -46958,7 +46025,7 @@ export const products = [
       '대비되는 컬러의 미우미우 로고로 아이코닉한 개성이 돋보이는 스카프입니다. 캐시미어 소재를 사용해 겨울 룩에 어울리는 더욱 포근하고 따뜻한 디자인입니다.',
     bullet_points: ['제품 코드: 5FS048_2F8S_F0003', '로고 라벨'],
     size_info: ['높이 190cm', '폭 22cm'],
-    material: '주 소재: 캐시미어, 순수 울',
+    material: '주 소재: 캐시미어',
     detail_images: [
       {
         type: 'thumbnail',
@@ -46995,7 +46062,6 @@ export const products = [
     id: '5GG202_2F8S_F0003',
     index: 7,
     category1: 'accessories',
-
     category2: 'scarves-and-gloves',
     categoryKor1: '액세서리',
     categoryKor2: '스카프와 장갑',
@@ -47010,7 +46076,7 @@ export const products = [
       '울과 모헤어의 부드러운 촉감과 대비되는 컬러의 아이코닉한 미우미우 로고가 조화를 이루는 장갑입니다.',
     bullet_points: ['제품 코드: 5GG202_2F8S_F0003', '눈에 띄는 로고'],
     size_info: [],
-    material: '주 소재: 캐시미어, 순수 울',
+    material: '주 소재: 캐시미어',
     detail_images: [
       {
         type: 'thumbnail',
@@ -47034,7 +46100,6 @@ export const products = [
     id: '5FS062_2CQD_F0031',
     index: 8,
     category1: 'accessories',
-
     category2: 'scarves-and-gloves',
     categoryKor1: '액세서리',
     categoryKor2: '스카프와 장갑',
@@ -47049,7 +46114,7 @@ export const products = [
       '울과 모헤어의 포근함과 아이코닉한 감성을 더하는 미우미우 로고가 돋보입니다. 테두리의 프린지 디테일로 스카프의 디자인이 완성됩니다.',
     bullet_points: ['제품 코드: 5FS062_2CQD_F0031', '눈에 띄는 로고', '프린지 테두리'],
     size_info: ['높이 185cm', '폭 23cm'],
-    material: '주 소재: 폴리아미드, 모헤어, 울',
+    material: '주 소재: 울',
     detail_images: [
       {
         type: 'thumbnail',
@@ -47087,7 +46152,6 @@ export const products = [
     id: '5GG196_2CQD_F0031',
     index: 9,
     category1: 'accessories',
-
     category2: 'scarves-and-gloves',
     categoryKor1: '액세서리',
     categoryKor2: '스카프와 장갑',
@@ -47102,7 +46166,7 @@ export const products = [
       '울과 모헤어의 부드러운 촉감과 대비되는 컬러의 아이코닉한 미우미우 로고가 조화를 이루는 장갑입니다.',
     bullet_points: ['제품 코드: 5GG196_2CQD_F0031', '눈에 띄는 로고'],
     size_info: [],
-    material: '주 소재: 폴리아미드, 모헤어, 울',
+    material: '주 소재: 울',
     detail_images: [
       {
         type: 'thumbnail',
@@ -47126,7 +46190,6 @@ export const products = [
     id: '5FS062_2CQD_F0005',
     index: 10,
     category1: 'accessories',
-
     category2: 'scarves-and-gloves',
     categoryKor1: '액세서리',
     categoryKor2: '스카프와 장갑',
@@ -47141,7 +46204,7 @@ export const products = [
       '울과 모헤어의 포근함과 아이코닉한 감성을 더하는 미우미우 로고가 돋보입니다. 테두리의 프린지 디테일로 스카프의 디자인이 완성됩니다.',
     bullet_points: ['제품 코드: 5FS062_2CQD_F0005', '눈에 띄는 로고', '프린지 테두리'],
     size_info: ['높이 185cm', '폭 23cm'],
-    material: '주 소재: 폴리아미드, 모헤어, 울',
+    material: '주 소재: 울',
     detail_images: [
       {
         type: 'thumbnail',
@@ -47179,7 +46242,6 @@ export const products = [
     id: '5GG196_2CQD_F0005',
     index: 11,
     category1: 'accessories',
-
     category2: 'scarves-and-gloves',
     categoryKor1: '액세서리',
     categoryKor2: '스카프와 장갑',
@@ -47194,7 +46256,7 @@ export const products = [
       '울과 모헤어의 부드러운 촉감과 대비되는 컬러의 아이코닉한 미우미우 로고가 조화를 이루는 장갑입니다.',
     bullet_points: ['제품 코드: 5GG196_2CQD_F0005', '눈에 띄는 로고'],
     size_info: [],
-    material: '주 소재: 폴리아미드, 모헤어, 울',
+    material: '주 소재: 울',
     detail_images: [
       {
         type: 'thumbnail',
@@ -47218,7 +46280,6 @@ export const products = [
     id: '5FS062_2CQD_F0018',
     index: 12,
     category1: 'accessories',
-
     category2: 'scarves-and-gloves',
     categoryKor1: '액세서리',
     categoryKor2: '스카프와 장갑',
@@ -47233,7 +46294,7 @@ export const products = [
       '울과 모헤어의 포근함과 아이코닉한 감성을 더하는 미우미우 로고가 돋보입니다. 테두리의 프린지 디테일로 스카프의 디자인이 완성됩니다.',
     bullet_points: ['제품 코드: 5FS062_2CQD_F0018', '눈에 띄는 로고', '프린지 테두리'],
     size_info: ['높이 185cm', '폭 23cm'],
-    material: '주 소재: 폴리아미드, 모헤어, 울',
+    material: '주 소재: 울',
     detail_images: [
       {
         type: 'thumbnail',
@@ -47264,7 +46325,6 @@ export const products = [
     id: '5GG196_2CQD_F0018',
     index: 13,
     category1: 'accessories',
-
     category2: 'scarves-and-gloves',
     categoryKor1: '액세서리',
     categoryKor2: '스카프와 장갑',
@@ -47279,7 +46339,7 @@ export const products = [
       '울과 모헤어의 부드러운 촉감과 대비되는 컬러의 아이코닉한 미우미우 로고가 조화를 이루는 장갑입니다.',
     bullet_points: ['제품 코드: 5GG196_2CQD_F0018', '눈에 띄는 로고'],
     size_info: [],
-    material: '주 소재: 폴리아미드, 모헤어, 울',
+    material: '주 소재: 울',
     detail_images: [
       {
         type: 'thumbnail',
@@ -47303,7 +46363,6 @@ export const products = [
     id: '5FS048_2ID1_F0036',
     index: 14,
     category1: 'accessories',
-
     category2: 'scarves-and-gloves',
     categoryKor1: '액세서리',
     categoryKor2: '스카프와 장갑',
@@ -47322,7 +46381,7 @@ export const products = [
       '39% 버진 울 - 29% 모헤어 - 16% 캐시미어 - 16% 폴리아미드',
     ],
     size_info: ['높이 190cm', '폭 22cm'],
-    material: '주 소재: 캐시미어 버진 울',
+    material: '주 소재: 캐시미어',
     detail_images: [
       {
         type: 'thumbnail',
@@ -47346,7 +46405,6 @@ export const products = [
     id: '5FS094_2CVE_F04BG',
     index: 15,
     category1: 'accessories',
-
     category2: 'scarves-and-gloves',
     categoryKor1: '액세서리',
     categoryKor2: '스카프와 장갑',
@@ -47366,7 +46424,7 @@ export const products = [
       '64% 모헤어, 32% 폴리아미드, 4% 울',
     ],
     size_info: ['높이 23cm', '폭 185cm'],
-    material: '주 소재: 폴리아미드, 모헤어, 울',
+    material: '주 소재: 울',
     detail_images: [
       {
         type: 'thumbnail',
@@ -47390,7 +46448,6 @@ export const products = [
     id: '5FS094_2CVE_F0WYH',
     index: 16,
     category1: 'accessories',
-
     category2: 'scarves-and-gloves',
     categoryKor1: '액세서리',
     categoryKor2: '스카프와 장갑',
@@ -47410,7 +46467,7 @@ export const products = [
       '64% 모헤어, 32% 폴리아미드, 4% 울',
     ],
     size_info: ['높이 23cm', '폭 185cm'],
-    material: '주 소재: 폴리아미드, 모헤어, 울',
+    material: '주 소재: 울',
     detail_images: [
       {
         type: 'thumbnail',
@@ -47434,7 +46491,6 @@ export const products = [
     id: '5GG147_2ICP_F0480',
     index: 17,
     category1: 'accessories',
-
     category2: 'scarves-and-gloves',
     categoryKor1: '액세서리',
     categoryKor2: '스카프와 장갑',
@@ -47449,7 +46505,7 @@ export const products = [
       '패션쇼의 양말에서 영감을 받아 다채로운 감성을 표현하는 립 조직 니트 실크 핑거리스 장갑입니다. 캐주얼한 룩과 보다 세련된 조합으로 유쾌하게 완성되었습니다.',
     bullet_points: ['제품 코드: 5GG147_2ICP_F0480', '로고 라벨'],
     size_info: ['높이 60cm'],
-    material: '주 소재: 재생 실크',
+    material: '주 소재: 실크',
     detail_images: [
       {
         type: 'thumbnail',
@@ -47487,7 +46543,6 @@ export const products = [
     id: '5FS139_180W_F0308',
     index: 18,
     category1: 'accessories',
-
     category2: 'scarves-and-gloves',
     categoryKor1: '액세서리',
     categoryKor2: '스카프와 장갑',
@@ -47502,7 +46557,7 @@ export const products = [
       '이 스카프는 재생 원사의 부드러움과 세련된 립 니트 모티프를 결합하여, 아이코닉하고 유행을 타지 않는 액세서리의 유쾌한 정신을 기념하는 폼폼 트림으로 더욱 돋보입니다.',
     bullet_points: ['제품 코드: 5FS139_180W_F0308', '로고 라벨', '폼폼 트림'],
     size_info: ['높이 170cm', '폭 15cm'],
-    material: '주 소재: 재활용 캐시미어 재활용 울',
+    material: '주 소재: 캐시미어',
     detail_images: [
       {
         type: 'thumbnail',
@@ -47526,7 +46581,6 @@ export const products = [
     id: '5FS139_180W_F0031',
     index: 19,
     category1: 'accessories',
-
     category2: 'scarves-and-gloves',
     categoryKor1: '액세서리',
     categoryKor2: '스카프와 장갑',
@@ -47541,7 +46595,7 @@ export const products = [
       '이 스카프는 재생 원사의 부드러움과 세련된 립 니트 모티프를 결합하여, 아이코닉하고 유행을 타지 않는 액세서리의 유쾌한 정신을 기념하는 폼폼 트림으로 더욱 돋보입니다.',
     bullet_points: ['제품 코드: 5FS139_180W_F0031', '로고 라벨', '폼폼 트림'],
     size_info: ['높이 170cm', '폭 15cm'],
-    material: '주 소재: 재활용 캐시미어 재활용 울',
+    material: '주 소재: 캐시미어',
     detail_images: [
       {
         type: 'thumbnail',
@@ -47565,7 +46619,6 @@ export const products = [
     id: '5FF004_2ID9_F0008',
     index: 20,
     category1: 'accessories',
-
     category2: 'scarves-and-gloves',
     categoryKor1: '액세서리',
     categoryKor2: '스카프와 장갑',
@@ -47611,7 +46664,6 @@ export const products = [
     id: '5FF004_2ID9_F0244',
     index: 21,
     category1: 'accessories',
-
     category2: 'scarves-and-gloves',
     categoryKor1: '액세서리',
     categoryKor2: '스카프와 장갑',
@@ -47657,7 +46709,6 @@ export const products = [
     id: '5FF004_2IEA_F0046',
     index: 22,
     category1: 'accessories',
-
     category2: 'scarves-and-gloves',
     categoryKor1: '액세서리',
     categoryKor2: '스카프와 장갑',
@@ -47703,7 +46754,6 @@ export const products = [
     id: '5FF004_2IEA_F0154',
     index: 23,
     category1: 'accessories',
-
     category2: 'scarves-and-gloves',
     categoryKor1: '액세서리',
     categoryKor2: '스카프와 장갑',
@@ -47749,7 +46799,6 @@ export const products = [
     id: '5FF001_2ID9_F0244',
     index: 24,
     category1: 'accessories',
-
     category2: 'scarves-and-gloves',
     categoryKor1: '액세서리',
     categoryKor2: '스카프와 장갑',
@@ -47795,7 +46844,6 @@ export const products = [
     id: '5FF004_2ICE_F0399',
     index: 25,
     category1: 'accessories',
-
     category2: 'scarves-and-gloves',
     categoryKor1: '액세서리',
     categoryKor2: '스카프와 장갑',
@@ -47810,7 +46858,7 @@ export const products = [
       '빈티지 감성과 미우미우 미학의 독특한 요소를 반영한 반다나 모티프의 포플린 스카프는 각각의 룩을 독특한 감성으로 완성하는 컬러 대비가 특징입니다.',
     bullet_points: ['제품 코드: 5FF004_2ICE_F0399', '프린티드 로고'],
     size_info: ['높이 55cm', '폭 55cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -47841,7 +46889,6 @@ export const products = [
     id: '5FF008_2ICE_F0399',
     index: 1,
     category1: 'accessories',
-
     category2: 'scarves-and-gloves',
     categoryKor1: '액세서리',
     categoryKor2: '스카프와 장갑',
@@ -47856,7 +46903,7 @@ export const products = [
       '빈티지 감성과 미우미우 미학의 독특한 요소를 반영한 반다나 모티프의 포플린 스카프는 각각의 룩을 독특한 감성으로 완성하는 컬러 대비가 특징입니다.',
     bullet_points: ['제품 코드: 5FF008_2ICE_F0399', '프린티드 로고'],
     size_info: ['높이 85cm', '폭 6cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -47887,7 +46934,6 @@ export const products = [
     id: '5FF004_2ICG_F0008',
     index: 2,
     category1: 'accessories',
-
     category2: 'scarves-and-gloves',
     categoryKor1: '액세서리',
     categoryKor2: '스카프와 장갑',
@@ -47902,7 +46948,7 @@ export const products = [
       '빈티지 감성과 미우미우 미학의 독특한 요소를 반영한 반다나 모티프의 포플린 스카프는 각각의 룩을 독특한 감성으로 완성하는 컬러 대비가 특징입니다.',
     bullet_points: ['제품 코드: 5FF004_2ICG_F0008', '프린티드 로고'],
     size_info: ['높이 55cm', '폭 55cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -47933,7 +46979,6 @@ export const products = [
     id: '5FF008_2ICG_F0008',
     index: 3,
     category1: 'accessories',
-
     category2: 'scarves-and-gloves',
     categoryKor1: '액세서리',
     categoryKor2: '스카프와 장갑',
@@ -47948,7 +46993,7 @@ export const products = [
       '빈티지 감성과 미우미우 미학의 독특한 요소를 반영한 반다나 모티프의 포플린 스카프는 각각의 룩을 독특한 감성으로 완성하는 컬러 대비가 특징입니다.',
     bullet_points: ['제품 코드: 5FF008_2ICG_F0008', '프린티드 로고'],
     size_info: ['높이 85cm', '폭 6cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -47979,7 +47024,6 @@ export const products = [
     id: '5FF008_2ICG_F0304',
     index: 4,
     category1: 'accessories',
-
     category2: 'scarves-and-gloves',
     categoryKor1: '액세서리',
     categoryKor2: '스카프와 장갑',
@@ -47994,7 +47038,7 @@ export const products = [
       '빈티지 감성과 미우미우 미학의 독특한 요소를 반영한 반다나 모티프의 포플린 스카프는 각각의 룩을 독특한 감성으로 완성하는 컬러 대비가 특징입니다.',
     bullet_points: ['제품 코드: 5FF008_2ICG_F0304', '프린티드 로고'],
     size_info: ['높이 85cm', '폭 6cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -48025,7 +47069,6 @@ export const products = [
     id: '5FF004_2F7Y_F022X',
     index: 5,
     category1: 'accessories',
-
     category2: 'scarves-and-gloves',
     categoryKor1: '액세서리',
     categoryKor2: '스카프와 장갑',
@@ -48070,7 +47113,6 @@ export const products = [
     id: '5FF008_2F7Y_F0N13',
     index: 6,
     category1: 'accessories',
-
     category2: 'scarves-and-gloves',
     categoryKor1: '액세서리',
     categoryKor2: '스카프와 장갑',
@@ -48115,7 +47157,6 @@ export const products = [
     id: '5FF004_2F7Y_F04D7',
     index: 7,
     category1: 'accessories',
-
     category2: 'scarves-and-gloves',
     categoryKor1: '액세서리',
     categoryKor2: '스카프와 장갑',
@@ -48160,7 +47201,6 @@ export const products = [
     id: '5FF004_2F7Y_F03FD',
     index: 8,
     category1: 'accessories',
-
     category2: 'scarves-and-gloves',
     categoryKor1: '액세서리',
     categoryKor2: '스카프와 장갑',
@@ -48205,7 +47245,6 @@ export const products = [
     id: '5FF042_2F71_F0056',
     index: 9,
     category1: 'accessories',
-
     category2: 'scarves-and-gloves',
     categoryKor1: '액세서리',
     categoryKor2: '스카프와 장갑',
@@ -48244,7 +47283,6 @@ export const products = [
     id: '5FS048_2F8S_F0031',
     index: 10,
     category1: 'accessories',
-
     category2: 'scarves-and-gloves',
     categoryKor1: '액세서리',
     categoryKor2: '스카프와 장갑',
@@ -48259,7 +47297,7 @@ export const products = [
       '대비되는 컬러의 미우미우 로고로 아이코닉한 개성이 돋보이는 스카프입니다. 캐시미어 소재를 사용해 겨울 룩에 어울리는 더욱 포근하고 따뜻한 디자인입니다.',
     bullet_points: ['제품 코드: 5FS048_2F8S_F0031', '로고 라벨'],
     size_info: ['높이 190cm', '폭 22cm'],
-    material: '주 소재: 캐시미어, 순수 울',
+    material: '주 소재: 캐시미어',
     detail_images: [
       {
         type: 'thumbnail',
@@ -48283,7 +47321,6 @@ export const products = [
     id: '5FS048_2F8S_F0040',
     index: 11,
     category1: 'accessories',
-
     category2: 'scarves-and-gloves',
     categoryKor1: '액세서리',
     categoryKor2: '스카프와 장갑',
@@ -48298,7 +47335,7 @@ export const products = [
       '대비되는 컬러의 미우미우 로고로 아이코닉한 개성이 돋보이는 스카프입니다. 캐시미어 소재를 사용해 겨울 룩에 어울리는 더욱 포근하고 따뜻한 디자인입니다.',
     bullet_points: ['제품 코드: 5FS048_2F8S_F0040', '로고 라벨'],
     size_info: ['높이 190cm', '폭 22cm'],
-    material: '주 소재: 캐시미어, 순수 울',
+    material: '주 소재: 캐시미어',
     detail_images: [
       {
         type: 'thumbnail',
@@ -48329,7 +47366,6 @@ export const products = [
     id: '5IF181_068_F0E18',
     index: 1,
     category1: 'accessories',
-
     category2: 'hair-accessories',
     categoryKor1: '액세서리',
     categoryKor2: '헤어 악세사리',
@@ -48345,7 +47381,7 @@ export const products = [
       '클래식한 리본 쉐입과 메탈 레터링 로고의 반항적인 본질이 어우러진 벨벳 스크런치가 모든 룩을 스타일리시하게 완성합니다.',
     bullet_points: ['제품 코드: 5IF181_068_F0E18', '리본 장식', '메탈 레터링 로고'],
     size_info: ['높이 3cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -48366,7 +47402,6 @@ export const products = [
     id: '5IF282_068_F0E18',
     index: 2,
     category1: 'accessories',
-
     category2: 'hair-accessories',
     categoryKor1: '액세서리',
     categoryKor2: '헤어 악세사리',
@@ -48382,7 +47417,7 @@ export const products = [
       '리본은 은은한 여성미의 상징으로, 대비되는 색상의 메탈 로고로 장식된 우아한 벨벳 헤어 클립의 로맨틱한 특성을 정의합니다.',
     bullet_points: ['제품 코드: 5IF282_068_F0E18', '메탈 레터링 로고'],
     size_info: ['높이 7cm', '폭 15cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -48403,7 +47438,6 @@ export const products = [
     id: '5IF092_068_F0E18',
     index: 3,
     category1: 'accessories',
-
     category2: 'hair-accessories',
     categoryKor1: '액세서리',
     categoryKor2: '헤어 악세사리',
@@ -48419,7 +47453,7 @@ export const products = [
       '크리스탈의 미우미우 로고가 돋보이는 헤어 클립으로, 무지개 빛깔의 반짝임을 연출합니다.',
     bullet_points: ['제품 코드: 5IF092_068_F0E18', '인조 크리스털 레터링 로고'],
     size_info: ['높이 3cm', '폭 8cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -48440,7 +47474,6 @@ export const products = [
     id: '5IF092_068_F0011',
     index: 4,
     category1: 'accessories',
-
     category2: 'hair-accessories',
     categoryKor1: '액세서리',
     categoryKor2: '헤어 악세사리',
@@ -48456,7 +47489,7 @@ export const products = [
       '크리스탈의 미우미우 로고가 돋보이는 헤어 클립으로, 무지개 빛깔의 반짝임을 연출합니다.',
     bullet_points: ['제품 코드: 5IF092_068_F0011', '인조 크리스털 레터링 로고'],
     size_info: ['높이 3cm', '폭 8cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -48477,7 +47510,6 @@ export const products = [
     id: '5IF276_2F6T_F04Z8',
     index: 5,
     category1: 'accessories',
-
     category2: 'hair-accessories',
     categoryKor1: '액세서리',
     categoryKor2: '헤어 악세사리',
@@ -48528,7 +47560,6 @@ export const products = [
     id: '5IF273_2IFX_F0NXA',
     index: 6,
     category1: 'accessories',
-
     category2: 'hair-accessories',
     categoryKor1: '액세서리',
     categoryKor2: '헤어 악세사리',
@@ -48573,7 +47604,6 @@ export const products = [
     id: '5IF277_2F6T_F061C',
     index: 7,
     category1: 'accessories',
-
     category2: 'hair-accessories',
     categoryKor1: '액세서리',
     categoryKor2: '헤어 악세사리',
@@ -48624,7 +47654,6 @@ export const products = [
     id: '5IF282_068_F0002',
     index: 8,
     category1: 'accessories',
-
     category2: 'hair-accessories',
     categoryKor1: '액세서리',
     categoryKor2: '헤어 악세사리',
@@ -48640,7 +47669,7 @@ export const products = [
       '리본은 은은한 여성미의 상징으로, 대비되는 색상의 메탈 로고로 장식된 우아한 벨벳 헤어 클립의 로맨틱한 특성을 정의합니다.',
     bullet_points: ['제품 코드: 5IF282_068_F0002', '메탈 레터링 로고'],
     size_info: ['높이 7cm', '폭 15cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -48661,7 +47690,6 @@ export const products = [
     id: '5IF284_068_F0E18',
     index: 9,
     category1: 'accessories',
-
     category2: 'hair-accessories',
     categoryKor1: '액세서리',
     categoryKor2: '헤어 악세사리',
@@ -48677,7 +47705,7 @@ export const products = [
       '리본은 은은한 여성미의 상징으로, 대조적인 색상의 메탈 로고로 장식된 우아한 벨벳 헤어 클립의 로맨틱한 특성을 정의합니다.',
     bullet_points: ['제품 코드: 5IF284_068_F0E18', '메탈 레터링 로고'],
     size_info: ['높이 22cm', '폭 12.5cm'],
-    material: '주 소재: 폴리아미드, 레이온',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -48698,7 +47726,6 @@ export const products = [
     id: '5IF284_068_F0002',
     index: 10,
     category1: 'accessories',
-
     category2: 'hair-accessories',
     categoryKor1: '액세서리',
     categoryKor2: '헤어 악세사리',
@@ -48714,7 +47741,7 @@ export const products = [
       '리본은 은은한 여성미의 상징으로, 대조적인 색상의 메탈 로고로 장식된 우아한 벨벳 헤어 클립의 로맨틱한 특성을 정의합니다.',
     bullet_points: ['제품 코드: 5IF284_068_F0002', '메탈 레터링 로고'],
     size_info: ['높이 22cm', '폭 12.5cm'],
-    material: '주 소재: 폴리아미드, 레이온',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -48735,7 +47762,6 @@ export const products = [
     id: '5IF284_068_F0011',
     index: 11,
     category1: 'accessories',
-
     category2: 'hair-accessories',
     categoryKor1: '액세서리',
     categoryKor2: '헤어 악세사리',
@@ -48751,7 +47777,7 @@ export const products = [
       '리본은 은은한 여성미의 상징으로, 대조적인 색상의 메탈 로고로 장식된 우아한 벨벳 헤어 클립의 로맨틱한 특성을 정의합니다.',
     bullet_points: ['제품 코드: 5IF284_068_F0011', '메탈 레터링 로고'],
     size_info: ['높이 22cm', '폭 12.5cm'],
-    material: '주 소재: 폴리아미드, 레이온',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -48772,7 +47798,6 @@ export const products = [
     id: '5IF181_2IFK_F0RDS',
     index: 12,
     category1: 'accessories',
-
     category2: 'hair-accessories',
     categoryKor1: '액세서리',
     categoryKor2: '헤어 악세사리',
@@ -48788,7 +47813,7 @@ export const products = [
       '타임리스한 플래드 패턴으로 완성된 스크런치입니다. 심플한 디자인에 미우미우 특유의 클래식 워드로브 실험 정신을 반영해 세련된 매력을 더합니다.',
     bullet_points: ['제품 코드: 5IF181_2IFK_F0RDS', '중앙 리본 장식', '메탈 레터링 로고'],
     size_info: ['높이 3cm'],
-    material: '주 소재: 폴리아미드, 순수 울',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -48812,7 +47837,6 @@ export const products = [
     id: '5IF092_2IFK_F0RDS',
     index: 13,
     category1: 'accessories',
-
     category2: 'hair-accessories',
     categoryKor1: '액세서리',
     categoryKor2: '헤어 악세사리',
@@ -48828,7 +47852,7 @@ export const products = [
       '클래식한 플래드 패턴이 부드러운 울 텍스처와 어우러진 헤어 클립입니다. 메탈 로고 장식이 더해져 특별한 포인트를 연출합니다.',
     bullet_points: ['제품 코드: 5IF092_2IFK_F0RDS', '후면 메탈 헤어 클립', '메탈 레터링 로고'],
     size_info: [],
-    material: '주 소재: 폴리아미드, 순수 울',
+    material: '주 소재: 폴리아미드',
     detail_images: [
       {
         type: 'thumbnail',
@@ -48852,7 +47876,6 @@ export const products = [
     id: '5IF181_2IEP_F0244',
     index: 14,
     category1: 'accessories',
-
     category2: 'hair-accessories',
     categoryKor1: '액세서리',
     categoryKor2: '헤어 악세사리',
@@ -48899,7 +47922,6 @@ export const products = [
     id: '5IF092_2IEP_F0244',
     index: 15,
     category1: 'accessories',
-
     category2: 'hair-accessories',
     categoryKor1: '액세서리',
     categoryKor2: '헤어 악세사리',
@@ -48939,7 +47961,6 @@ export const products = [
     id: '5IF242_069_F0002',
     index: 16,
     category1: 'accessories',
-
     category2: 'hair-accessories',
     categoryKor1: '액세서리',
     categoryKor2: '헤어 악세사리',
@@ -48981,7 +48002,6 @@ export const products = [
     id: '5IF188_2C3V_F0237',
     index: 17,
     category1: 'accessories',
-
     category2: 'hair-accessories',
     categoryKor1: '액세서리',
     categoryKor2: '헤어 악세사리',
@@ -49021,7 +48041,6 @@ export const products = [
     id: '5IF188_2IEK_F04UM',
     index: 18,
     category1: 'accessories',
-
     category2: 'hair-accessories',
     categoryKor1: '액세서리',
     categoryKor2: '헤어 악세사리',
@@ -49037,7 +48056,7 @@ export const products = [
       '다양한 텍스처와 패턴이 경쾌하게 어우러져, 아이코닉한 매력을 드러내고 여성스럽고 세련된 스타일을 재해석한 바렛입니다. 사계절 모든 스타일링에 이상적인 아이템입니다.',
     bullet_points: ['제품 코드: 5IF188_2IEK_F04UM', '메탈 레터링 로고'],
     size_info: ['폭 5.6cm'],
-    material: '주 소재: 모헤어, 순수 울',
+    material: '주 소재: 울',
     detail_images: [
       {
         type: 'thumbnail',
@@ -49061,7 +48080,6 @@ export const products = [
     id: '5IF188_2IEK_F04UK',
     index: 19,
     category1: 'accessories',
-
     category2: 'hair-accessories',
     categoryKor1: '액세서리',
     categoryKor2: '헤어 악세사리',
@@ -49077,7 +48095,7 @@ export const products = [
       '다양한 텍스처와 패턴이 경쾌하게 어우러져, 아이코닉한 매력을 드러내고 여성스럽고 세련된 스타일을 재해석한 바렛입니다. 사계절 모든 스타일링에 이상적인 아이템입니다.',
     bullet_points: ['제품 코드: 5IF188_2IEK_F04UK', '메탈 레터링 로고'],
     size_info: ['폭 5.6cm'],
-    material: '주 소재: 모헤어, 순수 울',
+    material: '주 소재: 울',
     detail_images: [
       {
         type: 'thumbnail',
@@ -49101,7 +48119,6 @@ export const products = [
     id: '5IF188_2IEK_F04UL',
     index: 20,
     category1: 'accessories',
-
     category2: 'hair-accessories',
     categoryKor1: '액세서리',
     categoryKor2: '헤어 악세사리',
@@ -49117,7 +48134,7 @@ export const products = [
       '다양한 텍스처와 패턴이 경쾌하게 어우러져, 아이코닉한 매력을 드러내고 여성스럽고 세련된 스타일을 재해석한 바렛입니다. 사계절 모든 스타일링에 이상적인 아이템입니다.',
     bullet_points: ['제품 코드: 5IF188_2IEK_F04UL', '메탈 레터링 로고'],
     size_info: ['폭 5.6cm'],
-    material: '주 소재: 모헤어, 순수 울',
+    material: '주 소재: 울',
     detail_images: [
       {
         type: 'thumbnail',
@@ -49141,7 +48158,6 @@ export const products = [
     id: '5IF254_2CSW_F0442',
     index: 21,
     category1: 'accessories',
-
     category2: 'hair-accessories',
     categoryKor1: '액세서리',
     categoryKor2: '헤어 악세사리',
@@ -49181,7 +48197,6 @@ export const products = [
     id: '5IF254_2CSW_F098L',
     index: 22,
     category1: 'accessories',
-
     category2: 'hair-accessories',
     categoryKor1: '액세서리',
     categoryKor2: '헤어 악세사리',
@@ -49221,7 +48236,6 @@ export const products = [
     id: '5IF254_2CSW_F0002',
     index: 23,
     category1: 'accessories',
-
     category2: 'hair-accessories',
     categoryKor1: '액세서리',
     categoryKor2: '헤어 악세사리',
@@ -49261,7 +48275,6 @@ export const products = [
     id: '5IF184_2C3V_F0009',
     index: 24,
     category1: 'accessories',
-
     category2: 'hair-accessories',
     categoryKor1: '액세서리',
     categoryKor2: '헤어 악세사리',
@@ -49315,7 +48328,6 @@ export const products = [
     id: '5IF188_2C3V_F0E18',
     index: 1,
     category1: 'accessories',
-
     category2: 'hair-accessories',
     categoryKor1: '액세서리',
     categoryKor2: '헤어 악세사리',
@@ -49355,7 +48367,6 @@ export const products = [
     id: '5IF188_2C3V_F098L',
     index: 2,
     category1: 'accessories',
-
     category2: 'hair-accessories',
     categoryKor1: '액세서리',
     categoryKor2: '헤어 악세사리',
@@ -49395,7 +48406,6 @@ export const products = [
     id: '5IF092_2F7T_F098L',
     index: 3,
     category1: 'accessories',
-
     category2: 'hair-accessories',
     categoryKor1: '액세서리',
     categoryKor2: '헤어 악세사리',
@@ -49441,7 +48451,6 @@ export const products = [
     id: '5IF241_069_F0D27',
     index: 4,
     category1: 'accessories',
-
     category2: 'hair-accessories',
     categoryKor1: '액세서리',
     categoryKor2: '헤어 악세사리',
@@ -49478,7 +48487,6 @@ export const products = [
     id: '5IF240_069_F0D27',
     index: 5,
     category1: 'accessories',
-
     category2: 'hair-accessories',
     categoryKor1: '액세서리',
     categoryKor2: '헤어 악세사리',
@@ -49515,7 +48523,6 @@ export const products = [
     id: '5IF241_069_F0002',
     index: 6,
     category1: 'accessories',
-
     category2: 'hair-accessories',
     categoryKor1: '액세서리',
     categoryKor2: '헤어 악세사리',
@@ -49552,7 +48559,6 @@ export const products = [
     id: '5IF240_069_F0002',
     index: 7,
     category1: 'accessories',
-
     category2: 'hair-accessories',
     categoryKor1: '액세서리',
     categoryKor2: '헤어 악세사리',
@@ -49589,7 +48595,6 @@ export const products = [
     id: '5IF241_069_F0E18',
     index: 8,
     category1: 'accessories',
-
     category2: 'hair-accessories',
     categoryKor1: '액세서리',
     categoryKor2: '헤어 악세사리',
@@ -49626,7 +48631,6 @@ export const products = [
     id: '5IF240_069_F0E18',
     index: 9,
     category1: 'accessories',
-
     category2: 'hair-accessories',
     categoryKor1: '액세서리',
     categoryKor2: '헤어 악세사리',
@@ -49663,7 +48667,6 @@ export const products = [
     id: '5IF241_069_F0230',
     index: 10,
     category1: 'accessories',
-
     category2: 'hair-accessories',
     categoryKor1: '액세서리',
     categoryKor2: '헤어 악세사리',
@@ -49700,7 +48703,6 @@ export const products = [
     id: '5IF241_069_F0032',
     index: 11,
     category1: 'accessories',
-
     category2: 'hair-accessories',
     categoryKor1: '액세서리',
     categoryKor2: '헤어 악세사리',
@@ -49737,7 +48739,6 @@ export const products = [
     id: '5IF242_069_F0230',
     index: 12,
     category1: 'accessories',
-
     category2: 'hair-accessories',
     categoryKor1: '액세서리',
     categoryKor2: '헤어 악세사리',
@@ -49779,7 +48780,6 @@ export const products = [
     id: '5IF242_069_F0E18',
     index: 13,
     category1: 'accessories',
-
     category2: 'hair-accessories',
     categoryKor1: '액세서리',
     categoryKor2: '헤어 악세사리',
@@ -49821,7 +48821,6 @@ export const products = [
     id: '5IF181_068_F0002',
     index: 14,
     category1: 'accessories',
-
     category2: 'hair-accessories',
     categoryKor1: '액세서리',
     categoryKor2: '헤어 악세사리',
@@ -49837,7 +48836,7 @@ export const products = [
       '클래식한 리본 쉐입과 메탈 레터링 로고의 반항적인 본질이 어우러진 벨벳 스크런치가 모든 룩을 스타일리시하게 완성합니다.',
     bullet_points: ['제품 코드: 5IF181_068_F0002', '리본 장식', '메탈 레터링 로고'],
     size_info: ['높이 3cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -49858,7 +48857,6 @@ export const products = [
     id: '5IF092_069_F0236',
     index: 15,
     category1: 'accessories',
-
     category2: 'hair-accessories',
     categoryKor1: '액세서리',
     categoryKor2: '헤어 악세사리',
@@ -49894,7 +48892,6 @@ export const products = [
     id: '5IH025_069_F0NBL',
     index: 16,
     category1: 'accessories',
-
     category2: 'hair-accessories',
     categoryKor1: '액세서리',
     categoryKor2: '헤어 악세사리',
@@ -49941,7 +48938,6 @@ export const products = [
     id: '5IF092_069_F0NBL',
     index: 17,
     category1: 'accessories',
-
     category2: 'hair-accessories',
     categoryKor1: '액세서리',
     categoryKor2: '헤어 악세사리',
@@ -49987,7 +48983,6 @@ export const products = [
     id: '5IH025_069_F0009',
     index: 18,
     category1: 'accessories',
-
     category2: 'hair-accessories',
     categoryKor1: '액세서리',
     categoryKor2: '헤어 악세사리',
@@ -50034,7 +49029,6 @@ export const products = [
     id: '5IF092_069_F0009',
     index: 19,
     category1: 'accessories',
-
     category2: 'hair-accessories',
     categoryKor1: '액세서리',
     categoryKor2: '헤어 악세사리',
@@ -50087,7 +49081,6 @@ export const products = [
     id: '5IH025_069_F0002',
     index: 20,
     category1: 'accessories',
-
     category2: 'hair-accessories',
     categoryKor1: '액세서리',
     categoryKor2: '헤어 악세사리',
@@ -50141,7 +49134,6 @@ export const products = [
     id: '5IF092_069_F0002',
     index: 21,
     category1: 'accessories',
-
     category2: 'hair-accessories',
     categoryKor1: '액세서리',
     categoryKor2: '헤어 악세사리',
@@ -50194,7 +49186,6 @@ export const products = [
     id: '5IF092_069_F0011',
     index: 22,
     category1: 'accessories',
-
     category2: 'hair-accessories',
     categoryKor1: '액세서리',
     categoryKor2: '헤어 악세사리',
@@ -50240,7 +49231,6 @@ export const products = [
     id: '5IF092_068_F0002',
     index: 23,
     category1: 'accessories',
-
     category2: 'hair-accessories',
     categoryKor1: '액세서리',
     categoryKor2: '헤어 악세사리',
@@ -50256,7 +49246,7 @@ export const products = [
       '크리스탈의 미우미우 로고가 돋보이는 헤어 클립으로, 무지개 빛깔의 반짝임을 연출합니다.',
     bullet_points: ['제품 코드: 5IF092_068_F0002', '인조 크리스털 레터링 로고'],
     size_info: ['높이 3cm', '폭 8cm'],
-    material: '주 소재: 코튼',
+    material: '주 소재: 패브릭',
     detail_images: [
       {
         type: 'thumbnail',
@@ -50287,7 +49277,6 @@ export const products = [
     id: '5IF147_2F6T_F0399',
     index: 24,
     category1: 'accessories',
-
     category2: 'hair-accessories',
     categoryKor1: '액세서리',
     categoryKor2: '헤어 악세사리',
@@ -50327,7 +49316,6 @@ export const products = [
     id: '5IF147_2F6T_F0009',
     index: 1,
     category1: 'accessories',
-
     category2: 'hair-accessories',
     categoryKor1: '액세서리',
     categoryKor2: '헤어 악세사리',
@@ -50381,7 +49369,6 @@ export const products = [
     id: '5IF147_2F6T_F0011',
     index: 2,
     category1: 'accessories',
-
     category2: 'hair-accessories',
     categoryKor1: '액세서리',
     categoryKor2: '헤어 악세사리',
@@ -50435,7 +49422,6 @@ export const products = [
     id: '5IF147_2F6T_F0002',
     index: 3,
     category1: 'accessories',
-
     category2: 'hair-accessories',
     categoryKor1: '액세서리',
     categoryKor2: '헤어 악세사리',
@@ -50475,7 +49461,6 @@ export const products = [
     id: '5IF147_2F6T_F097W',
     index: 4,
     category1: 'accessories',
-
     category2: 'hair-accessories',
     categoryKor1: '액세서리',
     categoryKor2: '헤어 악세사리',
@@ -50515,7 +49500,6 @@ export const products = [
     id: '5IF147_2F6T_F0632',
     index: 5,
     category1: 'accessories',
-
     category2: 'hair-accessories',
     categoryKor1: '액세서리',
     categoryKor2: '헤어 악세사리',
@@ -50555,7 +49539,6 @@ export const products = [
     id: '5IF146_2F6T_F0002',
     index: 6,
     category1: 'accessories',
-
     category2: 'hair-accessories',
     categoryKor1: '액세서리',
     categoryKor2: '헤어 악세사리',
@@ -50609,7 +49592,6 @@ export const products = [
     id: '5IF146_2F6T_F0009',
     index: 7,
     category1: 'accessories',
-
     category2: 'hair-accessories',
     categoryKor1: '액세서리',
     categoryKor2: '헤어 악세사리',
@@ -50656,7 +49638,6 @@ export const products = [
     id: '5IF146_2F6T_F097W',
     index: 8,
     category1: 'accessories',
-
     category2: 'hair-accessories',
     categoryKor1: '액세서리',
     categoryKor2: '헤어 악세사리',
@@ -50696,7 +49677,6 @@ export const products = [
     id: '5IF146_2F6T_F0615',
     index: 9,
     category1: 'accessories',
-
     category2: 'hair-accessories',
     categoryKor1: '액세서리',
     categoryKor2: '헤어 악세사리',
@@ -50736,7 +49716,6 @@ export const products = [
     id: '5IF146_2F6T_F0632',
     index: 10,
     category1: 'accessories',
-
     category2: 'hair-accessories',
     categoryKor1: '액세서리',
     categoryKor2: '헤어 악세사리',
@@ -50776,7 +49755,6 @@ export const products = [
     id: '5IF221_2DTU_F0056',
     index: 11,
     category1: 'accessories',
-
     category2: 'hair-accessories',
     categoryKor1: '액세서리',
     categoryKor2: '헤어 악세사리',
@@ -50816,7 +49794,6 @@ export const products = [
     id: '5IF222_2DTU_F0056',
     index: 12,
     category1: 'accessories',
-
     category2: 'hair-accessories',
     categoryKor1: '액세서리',
     categoryKor2: '헤어 악세사리',
@@ -50856,7 +49833,6 @@ export const products = [
     id: '5IF219_2DTU_F0056',
     index: 13,
     category1: 'accessories',
-
     category2: 'hair-accessories',
     categoryKor1: '액세서리',
     categoryKor2: '헤어 악세사리',
@@ -50895,7 +49871,6 @@ export const products = [
     id: '5IF173_2F6T_F0615',
     index: 14,
     category1: 'accessories',
-
     category2: 'hair-accessories',
     categoryKor1: '액세서리',
     categoryKor2: '헤어 악세사리',
@@ -50915,7 +49890,7 @@ export const products = [
       '헤어 클립 2개 세트',
     ],
     size_info: ['높이 1.65cm', '폭 4cm'],
-    material: '주 소재: 에나멜, 브라스',
+    material: '주 소재: 에나멜',
     detail_images: [
       {
         type: 'thumbnail',
@@ -50939,7 +49914,6 @@ export const products = [
     id: '5IF173_2F6T_F0002',
     index: 15,
     category1: 'accessories',
-
     category2: 'hair-accessories',
     categoryKor1: '액세서리',
     categoryKor2: '헤어 악세사리',
@@ -50959,7 +49933,7 @@ export const products = [
       '헤어 클립 2개 세트',
     ],
     size_info: ['높이 1.65cm', '폭 4cm'],
-    material: '주 소재: 에나멜, 브라스',
+    material: '주 소재: 에나멜',
     detail_images: [
       {
         type: 'thumbnail',
@@ -50983,7 +49957,6 @@ export const products = [
     id: '5IF173_2F6T_F0009',
     index: 16,
     category1: 'accessories',
-
     category2: 'hair-accessories',
     categoryKor1: '액세서리',
     categoryKor2: '헤어 악세사리',
@@ -51003,7 +49976,7 @@ export const products = [
       '헤어 클립 2개 세트',
     ],
     size_info: ['높이 1.65cm', '폭 4cm'],
-    material: '주 소재: 에나멜, 브라스',
+    material: '주 소재: 에나멜',
     detail_images: [
       {
         type: 'thumbnail',
@@ -51027,7 +50000,6 @@ export const products = [
     id: '5IH025_069_F0011',
     index: 17,
     category1: 'accessories',
-
     category2: 'hair-accessories',
     categoryKor1: '액세서리',
     categoryKor2: '헤어 악세사리',

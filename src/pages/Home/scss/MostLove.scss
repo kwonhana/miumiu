@@ -11,12 +11,26 @@
   }
 
   .item-box {
-    @include main.flex(space-between, center, 0);
+    @include main.flex(space-between, center, 1.6%);
 
     .item {
-      width: 23%;
+      width: 18%;
       .item-img {
+        position: relative;
         aspect-ratio: 330/440;
+
+        .bannerImg-hover {
+          position: absolute;
+          top: 0;
+          opacity: 0;
+          transition: ease 0.2s;
+        }
+
+        &:hover {
+          .bannerImg-hover {
+            opacity: 1;
+          }
+        }
       }
 
       .title {

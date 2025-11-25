@@ -1,0 +1,112 @@
+2025-11-18 yujin42 product상품 filter 오류 수정
+2025-11-17 kwon hana feat: 오류해결
+2025-11-17 kwon hana ProductCard 잔여물 제거
+2025-11-17 kwon hana feat: product 보완
+2025-11-17 yujin42 product 수정
+2025-11-17 yujin42 product card swiper 적용
+2025-11-14 kwon hana feat: 필터 보완
+2025-11-14 kwon hana init: Product filter add
+2025-11-14 kwon hana init: ProductlNav add
+2025-11-14 kwon hana init : ProductBanner add
+2025-11-14 kwon hana merge
+2025-11-14 kwon hana Merge remote-tracking branch 'origin/main' into kwon-fix
+2025-11-14 yujin42 products 수정 11.14
+2025-11-14 kwon hana init: local
+2025-11-14 kwon hana style: spinner 사이즈 변경
+2025-11-14 kwon hana init: 스피너 추가
+2025-11-13 kwon hana feat: 메인 상품 연결 보완 및 상세페이지 보완
+2025-11-13 kwon hana add : product item 추가 크롤링
+2025-11-13 kwon hana feat: 상세페이지 보완
+2025-11-13 kwon hana feat: 메인 상품 링크 연겨
+2025-11-13 kwon hana header Lnb arr 수정
+2025-11-13 kwon hana style: 스켈레톤!!
+2025-11-13 kwon hana feat: 상세페이지 init
+2025-11-13 kwon hana Merge branch 'main' into kwon-fix
+2025-11-13 YB style:input만지작작
+2025-11-13 YB style:input만지작
+2025-11-13 YB Merge remote-tracking branch 'origin/main' into yun-fix
+2025-11-13 yujin42 tags수정/ 윈터슈즈 미완
+2025-11-12 kwon hana remove: lnb  하이라이트 제거
+2025-11-12 YB feat:input들추가및 header수정
+2025-11-12 YB Merge remote-tracking branch 'origin/main' into yun-fix
+2025-11-12 kwon hana Merge remote-tracking branch 'origin/main' into kwon-fix
+2025-11-12 kwon hana feat: miu 주얼리 추가
+2025-11-12 yujin42 가방만!!!
+2025-11-12 kwon hana feat: main hover 오류 수정
+2025-11-12 YB Merge remote-tracking branch 'origin/main' into yun-fix
+2025-11-12 kwon hana feat: api 최초 커밋
+2025-11-12 kwon hana feat:: api 최초 커밋 - 헤더 연결
+2025-11-12 kwon hana Merge remote-tracking branch 'origin/main' into kwon-fix
+2025-11-12 kwon hana main.iput 충돌
+2025-11-12 yujin42 12일 product 작업
+2025-11-12 kwon hana feat: input 추가
+2025-11-11 kwon hana Merge remote-tracking branch 'origin/jiiinnn-fix'
+2025-11-11 kwon hana remove: BirthdayInput 제거
+2025-11-11 yujin42 bags.jsx 커밋
+2025-11-11 YB Merge remote-tracking branch 'origin/main' into yun-fix
+2025-11-11 kwon hana feat: input  정의
+2025-11-11 YB Merge remote-tracking branch 'origin/main' into yun-fix
+2025-11-10 kwon hana comp : input - auth, pass,email
+2025-11-10 YB Merge remote-tracking branch 'origin/main' into yun-fix
+2025-11-10 kwon hana common style font color #333 -> $base 변경.
+2025-11-10 kwon hana main 보완 / snb 오류수정, button component add,
+2025-11-10 kwon hana style: color 변수명 반영
+2025-11-10 kwon hana common. 컬러 변수 보완
+2025-11-10 YB merge
+2025-11-10 kwon hana style: border 제거
+2025-11-10 yujin42 Merge remote-tracking branch 'origin/main' into jiiinnn-fix
+2025-11-10 kwon hana style: 헤더 로고 보완
+2025-11-07 yujin42 커밋 11/07
+2025-11-07 kwon hana style: 헤더 fix
+2025-11-07 kwon hana style: header 스타일 변경
+2025-11-07 kwon hana feat: 인트로 추가 및 스타일 보완
+2025-11-07 kwon hana feat: 인트로 추가 및 슬라이더 보완
+2025-11-07 YB style:header
+2025-11-07 YB Style:header
+2025-11-07 kwon hana feat: 망할 스와이퍼 버림
+2025-11-07 YB style:header
+2025-11-07 YB style: header
+2025-11-06 kwon hana 스와이퍼!!!!!!!!!!!
+2025-11-06 kwon hana 스와이퍼 추가
+2025-11-06 kwon hana feat: 자동 스와이퍼 모듈화
+2025-11-06 kwon hana lnb--보완-----
+2025-11-06 kwon hana header reset--------
+2025-11-06 kwon hana reset ----------------------------
+2025-11-06 kwon hana Merge remote-tracking branch 'origin/kwon-fix'
+2025-11-06 kwon hana wow
+2025-11-06 kwon hana feat: main 추가
+2025-11-06 YB feat: main
+2025-11-05 kwon hana 윤 : lnb 추가 및 hidden class add
+2025-11-05 YB style:lnb, hidden class add,
+2025-11-04 YB feat:lnb컴포넌트추가
+2025-11-04 kwon hana style: 로그인 css 보완
+2025-11-04 kwon hana style: login hml css 완성
+2025-11-04 kwon hana Merge remote-tracking branch 'origin/kwon-fix'
+2025-11-04 kwon hana Lnb 링크 삭제
+2025-11-04 kwon hana init: 로그인 페이지 시작
+2025-11-04 kwon hana styl: 메인 슬라이드 기능 추가
+2025-11-04 kwon hana style: 로고 사이즈 변경
+2025-11-04 YB 수정
+2025-11-04 YB Merge remote-tracking branch 'origin/main' into yun-fix
+2025-11-04 kwon hana style: 폰트 추가
+2025-11-04 kwon hana style: 라인베너, new-item  기능 및 스타일 추가
+2025-11-04 kwon hana style: 헤더 아이콘 추가
+2025-11-04 kwon hana feat : 메인 라인베너 추가
+2025-11-04 kwon hana style: 사진 추가
+2025-11-03 YB Merge remote-tracking branch 'origin/main' into yun-fix
+2025-11-03 kwon hana feat :  오류수정
+2025-11-03 kwon hana Merge remote-tracking branch 'origin/main' into kwon-fix
+2025-11-03 kwon hana chang
+2025-11-03 YB init.
+2025-11-03 kwon hana 화남
+2025-11-03 kwon hana init: icon 및 로고
+2025-11-03 kwon hana init: logo 및 lnb추가
+2025-11-03 YB Merge remote-tracking branch 'origin/main' into yun-fix
+2025-11-03 kwon hana init: 아키텍처 베이스
+2025-11-03 YB Merge branch 'yun-fix' of https://github.com/kwonhana/miumiu into yun-fix
+2025-11-03 YB test
+2025-10-31 kwon hana 태그 추가
+2025-10-31 kwon hana init. json
+2025-10-31 kwon hana init. img
+2025-10-30 kwon hana init
+2025-10-30 kwon hana Initialize project using Create React App

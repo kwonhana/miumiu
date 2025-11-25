@@ -1,15 +1,14 @@
 import React from 'react';
-import '../scss/ProductSkeleton.scss';
+import '../scss/ProductDetailSkeleton.scss';
 
 const ProductDetailSkeleton = () => {
   return (
     <div className="ProductDetailSkeleton-wrap">
       <div className="inner">
-        {' '}
         <div className="top">
           <div className="left"></div>
 
-          <div className="rigth">
+          <div className="right">
             <div className="box1"></div>
             <div className="box2"></div>
             <div className="box3"></div>

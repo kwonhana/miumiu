@@ -1,50 +1,51 @@
 import React, { useState } from 'react';
 import './scss/Input.scss';
 
-//TODO 비밀번호 input
-const PasswordInput = () => {
-  const [userPassword, setUserPassword] = useState('');
+const PasswordInput = ({ value, onChange }) => {
   const [status, setStatus] = useState('');
-  const [passwordTouch, setPasswordTouch] = useState('');
+  const [passwordTouch, setPasswordTouch] = useState(false);
+
   const validatePass = (userPassword) => {
     if (!userPassword && passwordTouch) {
       setStatus('failure');
-      return;
+      return false;
     }
     if (!userPassword) {
       setStatus('');
-      return;
+      return false;
     }
     const passRegex =
       /^(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&*?])(?=.*[0-9])[a-zA-Z0-9!@#$%^&*?]{6,12}$/;
     if (passRegex.test(userPassword)) {
       setStatus('success');
+      return true;
     } else {
       setStatus('failure');
+      return false;
     }
   };
+
   const handlePassChange = (e) => {
-    const value = e.target.value;
-    const filtervalue = value.replace(/[^a-zA-Z0-9!@#$%^&*?]/g, '');
-    setUserPassword(filtervalue);
+    const val = e.target.value;
+    const filtervalue = val.replace(/[^a-zA-Z0-9!@#$%^&*?]/g, '');
+    onChange(filtervalue);
     validatePass(filtervalue);
   };
-  const handleblur = () => {
+
+  const handleBlur = () => {
     setPasswordTouch(true);
-    validatePass(userPassword);
+    validatePass(value);
   };
 
   return (
-    // 성공 success
-    // 실패 failure
     <div className={`base-input password ${status}`}>
       <div className="input-box">
         <input
           type="password"
           placeholder="비밀번호를 입력해주세요*"
-          value={userPassword}
+          value={value}
           onChange={handlePassChange}
-          onBlur={handleblur}
+          onBlur={handleBlur}
           required
         />
       </div>

@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import './scss/Input.scss';
 
-//TODO 이메일 input
-const EmailInput = () => {
-  const [email, setEmail] = useState('');
+const EmailInput = ({ value, onChange }) => {
   const [status, setStatus] = useState('');
-  const validateEmail = () => {
+
+  const validateEmail = (email) => {
     if (!email) {
       setStatus('');
       return;
@@ -25,26 +24,26 @@ const EmailInput = () => {
       setStatus('failure');
     }
   };
+
   const handleEmailChange = (e) => {
-    const value = e.target.value;
+    const val = e.target.value;
     const allowedCharsRegex = /^[a-zA-Z0-9@.]*$/;
-    if (allowedCharsRegex.test(value)) {
-      setEmail(value);
+    if (allowedCharsRegex.test(val)) {
+      onChange(val);
     }
   };
+
   useEffect(() => {
-    validateEmail();
-  }, [email]);
+    validateEmail(value);
+  }, [value]);
 
   return (
-    // 성공 success
-    // 실패 failure
     <div className={`base-input ${status}`}>
       <div className="email-wrap">
         <input
           type="text"
           placeholder="이메일을 입력해주세요*"
-          value={email}
+          value={value}
           onChange={handleEmailChange}
           required
           className="email-input"

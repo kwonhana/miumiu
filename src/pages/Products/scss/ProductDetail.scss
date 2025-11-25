@@ -63,7 +63,7 @@
       @include pd.font(2rem, 500, pd.$base);
     }
 
-    .button-wrap {
+    .price-button-wrap {
       margin-top: 40px;
 
       display: flex;
@@ -136,13 +136,33 @@
   @include pd.font(2.2rem, 500, pd.$base);
   text-align: center;
   margin-bottom: 24px;
+
+  h3 {
+    @include pd.font(2.2rem, 500, pd.$base);
+    text-align: center;
+    margin-bottom: 24px;
+    border: 1px solid re;
+  }
+
   .products-wrap {
     display: flex;
     gap: 0.4rem;
     list-style: none;
+
     img {
       width: 47.7rem;
       aspect-ratio: 1/1;
+    }
+    .product-text-box {
+      padding: 3rem;
+      text-align: left;
+      > h3 {
+        text-align: left;
+        @include pd.font(2.2rem, 400, pd.$base);
+      }
+      > p {
+        @include pd.font(1.8rem, 400, pd.$text-666);
+      }
     }
   }
 }

@@ -2,7 +2,7 @@ import React from 'react';
 import './scss/footer.scss';
 import Logo from '../../component/layout/Logo';
 
-const footermenu = [
+const footerMenu = [
   {
     title: '법적고지',
     menu: ['이용약관', '개인정보 처리방침', '쿠키 정책', '쿠키 설정', '판매 약관'],
@@ -26,7 +26,7 @@ const Footer = () => {
             <Logo color="black" />
           </div>
           <div className="footer-right">
-            {footermenu.map((menus) => (
+            {footerMenu.map((menus) => (
               <div key={menus.title} className="menu-box">
                 <div className="menu-title">{menus.title}</div>
                 <ul>

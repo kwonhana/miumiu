@@ -1,35 +1,27 @@
+// src/pages/Products/layout/ProductList.jsx
 import React, { useEffect } from 'react';
-import { Link, useParams, useSearchParams } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { useProductsStore } from '../../../store/useProductsStore';
 import '../scss/ProductList.scss';
+import AdProduct from './AdProduct';
 
-const ProductList = () => {
-  const { category1, category2, tags } = useParams();
+// const ProductList = ({ filteredList }) => {
 
-  const { filtered, onFetchItems, onCateOnly, onCateTag, onCate1 } = useProductsStore();
+const ProductList = ({filteredList}) => {
+  const { filtered, onFetchItems } = useProductsStore();
 
+  // 첫 로딩 시 상품 불러오기
   useEffect(() => {
     onFetchItems();
   }, [onFetchItems]);
 
-  useEffect(() => {
-    if (category1 && category2 && tags) {
-      onCateOnly(category1, category2);
-    } else if (category1 && tags && !category2) {
-      onCateTag(category1, tags);
-    } else if (category1 && category2 && !tags) {
-      onCateOnly(category1, category2);
-    } else if (category1 && !category2 && !tags) {
-      onCate1(category1);
-    }
-  }, [category1, category2, tags]);
-  console.log('상품이미지?', filtered);
+  // const displayList = filteredList || filtered || [];
 
   return (
     <ul className="product-list">
       {filtered.map((p, index) => (
-        <React.Fragment key={index}>
-          <li className="item" key={p.id}>
+        <React.Fragment key={p.id ?? index}>
+          <li className="item">
             <Link to={`/product/${p.id}`}>
               <img
                 src={
@@ -45,13 +37,6 @@ const ProductList = () => {
               </div>
             </Link>
           </li>
-
-          {[3].includes(index) && (
-            <>
-              <div className="banner1">베너11</div>
-              <div className="banner2">베너22</div>
-            </>
-          )}
         </React.Fragment>
       ))}
     </ul>
@@ -59,3 +44,8 @@ const ProductList = () => {
 };
 
 export default ProductList;
+
+
+
+
+

@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 
-const BirthdayInput = () => {
-  const [value, setValue] = useState('');
+const BirthdayInput = ({ value, onChange }) => {
   const [inputClass, setInputClass] = useState('');
 
   const handleChange = (e) => {
@@ -17,14 +16,19 @@ const BirthdayInput = () => {
     } else {
       formatted = input.slice(0, 4) + '/' + input.slice(4, 6) + '/' + input.slice(6, 8);
     }
-    setValue(formatted);
+
+    onChange(formatted);
     validateBirthday(input);
   };
 
   const validateBirthday = (input) => {
     if (input.length < 8) {
-      setInputClass('failure');
-      return;
+      if (input.length > 0) {
+        setInputClass('failure');
+      } else {
+        setInputClass('');
+      }
+      return false;
     }
 
     const year = parseInt(input.slice(0, 4), 10);
@@ -35,26 +39,25 @@ const BirthdayInput = () => {
 
     if (year < 1920 || year > currentYear) {
       setInputClass('failure');
-      return;
+      return false;
     }
 
     if (month < 1 || month > 12 || day < 1 || day > 31) {
       setInputClass('failure');
-      return;
+      return false;
     }
 
     const date = new Date(year, month - 1, day);
     if (date.getFullYear() !== year || date.getMonth() + 1 !== month || date.getDate() !== day) {
       setInputClass('failure');
-      return;
+      return false;
     }
 
     setInputClass('success');
+    return true;
   };
 
   return (
-    // 성공 success
-    // 실패 failure
     <div className={`base-input birthday ${inputClass}`}>
       <input
         type="text"

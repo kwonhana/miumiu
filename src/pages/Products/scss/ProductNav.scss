@@ -19,12 +19,15 @@
     display: flex;
     gap: 10px;
 
-    li .link {
-      padding: 20px;
+    li {
       @include pd.font(1.6rem, 400, pd.$base);
 
-      &:hover {
-        border-bottom: 1px solid pd.$base;
+      a {
+        padding: 20px;
+
+        &:hover {
+          border-bottom: 1px solid pd.$base;
+        }
       }
     }
   }

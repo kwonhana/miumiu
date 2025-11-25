@@ -1,19 +1,9 @@
-import React, { useMemo } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
-import { shoes } from '../../../store/data';
-import { useProductsStore } from '../../../store/useProductsStore';
 import '../scss/lnbSub.scss';
+import { shoes, conicshoes } from '../../../store/data';
 
 const Lnbshoes = ({ isActive }) => {
-  const allItems = useProductsStore((state) => state.items);
-  const randomItems = useMemo(() => {
-    if (allItems.length === 0) {
-      return [];
-    }
-    const shoesOnly = allItems.filter((item) => item.category1 === 'shoes');
-    const shuffled = [...shoesOnly].sort(() => 0.5 - Math.random());
-    return shuffled.slice(0, 4);
-  }, [allItems]);
   return (
     <div className={`lnb-box ${isActive ? '' : 'hidden'}`}>
       <div className="lnb-inner">
@@ -30,25 +20,28 @@ const Lnbshoes = ({ isActive }) => {
           </div>
           <ul className="lnb-img">
             <li>
-              <div>
+              <Link>
                 <img src="/assets/images/lnb/shoes-list.jpg" alt="bag" />
-              </div>
+              </Link>
             </li>
           </ul>
         </div>
         <div className="lnb-right">
+          <div className="lnb-menus">
+            <p className="lnb-menus-title">아이코닉 슈즈</p>
+            <ul className="lnb-sub-menus">
+              {conicshoes.map((shoes) => (
+                <li className="lnb-menuList" key={shoes.alt}>
+                  <Link to={`/shoes/tag/${shoes.alt2}`}>{shoes.alt}</Link>
+                </li>
+              ))}
+            </ul>
+          </div>
           <ul className="lnb-imgs">
-            {randomItems.map((item) => (
-              <li key={item.id}>
-                <Link to={`/product/${item.id}`}>
-                  <img
-                    src={
-                      item.local_detail_images?.[0]
-                        ? `/assets/images/detail/${item.local_detail_images[0]}`
-                        : '/assets/images/default-product-image.png'
-                    }
-                    alt={item.name}
-                  />
+            {conicshoes.slice(0, 4).map((conicshoe) => (
+              <li key={conicshoe.alt} data-alt={conicshoe.alt}>
+                <Link to={`/shoes/${conicshoe.alt2}`}>
+                  <img src={conicshoe.src} alt={conicshoe.alt} />
                 </Link>
               </li>
             ))}

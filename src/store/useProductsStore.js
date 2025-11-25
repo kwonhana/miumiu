@@ -1,6 +1,6 @@
 import { create } from 'zustand';
 import { products } from '../api/products';
-import { categoryKorMap } from './data';
+import { categoryKorMap, CustomItem } from './data';
 
 export const useProductsStore = create((set, get) => ({
   // TODO-------- 상품 ----------
@@ -19,7 +19,7 @@ export const useProductsStore = create((set, get) => ({
       tags: item.tags || '',
       tags2: item.tags2 || '',
     }));
-    set({ items: enriched });
+    set({ items: enriched, filtered: enriched });
     console.log('Fetched items:', enriched);
   },
   onSearch: (word) => {
@@ -31,13 +31,10 @@ export const useProductsStore = create((set, get) => ({
         product.category1,
         product.category2,
         product.name,
-        product.price,
-        product.subtitle,
         product.material,
         product.kor,
         product.tags,
         product.tags2,
-        ...(Array.isArray(product.bullet_points) ? product.bullet_points : []),
       ]
         .filter(Boolean)
         .join(' ')
@@ -48,6 +45,8 @@ export const useProductsStore = create((set, get) => ({
 
     set({ filtered: results });
     console.log('Search results (filtered):', results);
+
+    return results;
   },
 
   //TODO 카테고리1 + 카테고리2 상품 필터링 (filtered에 저장)
@@ -121,9 +120,53 @@ export const useProductsStore = create((set, get) => ({
     console.log('onTags 필터됨:', filtered);
     return filtered;
   },
+  //TODO custom 상품의 경우
+  onCustomStyle: (style) => {
+    const items = get().items;
+    const customItems = CustomItem.filter((item) => item.style === style);
+    const filtered = items.filter((item) =>
+      customItems.some((custom) => custom.itemId === item.id)
+    );
+    set({ filtered });
+    console.log('onCustomStyle 필터됨:', filtered);
+    return filtered;
+  },
+
+  //TODO 필터적용함수
+  onApplyFilter: (filters) => {
+    const items = get().items; // 항상 원본 items에서 시작!
+    let result = [...items];
+
+    console.log('필터 적용 시작:', filters);
+    console.log('원본 items 개수:', items.length);
+
+    // 컬렉션 필터 (tags 기반)
+    if (filters.collection) {
+      result = result.filter((item) => item.tags === filters.collection);
+      console.log(`컬렉션 필터 적용 (${filters.collection}):`, result.length, '개');
+    }
+
+    // 소재 필터 (material 기반)
+    if (filters.fabric) {
+      result = result.filter((item) => {
+        const material = item.material ? item.material.replace(/^주 소재:\s*/, '').trim() : '';
+        return material === filters.fabric;
+      });
+      console.log(`소재 필터 적용 (${filters.fabric}):`, result.length, '개');
+    }
+    set({ filtered: result });
+  },
+  // TODO필터 초기화 함수
+  onResetFilter: () => {
+    const items = get().items;
+    console.log('필터 초기화: 전체', items.length, '개 상품으로 복원');
+    set({ filtered: items });
+  },
 
   // TODO-------- 메뉴 생성 ----------
   menu: [],
+  subMenu: [], // category2만
+  tagMenu: [], // tags만
 
   onMakeMenu: () => {
     const menuList = [];
@@ -136,8 +179,8 @@ export const useProductsStore = create((set, get) => ({
         mainMenu = {
           name: category1,
           link: `/${category1}`,
-          subMenu: [],
-          iconic: [],
+          category2List: [], // category2 메뉴
+          tagList: [], // tag 메뉴
           kor: categoryKorMap[category1] || '',
           tag: tags || '',
           id: id,
@@ -145,14 +188,13 @@ export const useProductsStore = create((set, get) => ({
         menuList.push(mainMenu);
       }
 
-      // TODO---- 서브 메뉴 (category2) ----
+      // TODO---- 서브 메뉴 (category2만) ----
       if (category2) {
-        const hasSubMenu = mainMenu.subMenu.find((s) => s.name === category2);
-        if (!hasSubMenu) {
-          mainMenu.subMenu.push({
+        const hasCate2 = mainMenu.category2List.find((c) => c.name === category2);
+        if (!hasCate2) {
+          mainMenu.category2List.push({
             name: category2,
             link: `/${category1}/${category2}`,
-            tag: tags || '',
             imgUrl:
               Array.isArray(detail_images) && detail_images.length > 0 ? detail_images[0].url : '',
             kor2: categoryKorMap[category2] || '',
@@ -160,11 +202,11 @@ export const useProductsStore = create((set, get) => ({
         }
       }
 
-      // TODO---- 서브 메뉴 (tags) ----
+      // TODO---- 서브 메뉴 (tags만) ----
       if (tags) {
-        const iMenu = mainMenu.subMenu.find((i) => i.name === tags);
-        if (!iMenu) {
-          mainMenu.subMenu.push({
+        const hasTag = mainMenu.tagList.find((t) => t.name === tags);
+        if (!hasTag) {
+          mainMenu.tagList.push({
             name: tags,
             link: `/${category1}/tag/${tags}`,
             iTag: tags2 || '',
@@ -178,4 +220,18 @@ export const useProductsStore = create((set, get) => ({
     set({ menu: menuList });
     console.log('Menu list:', menuList);
   },
+
+  onMakeSubMenu: (category1) => {
+    const menu = get().menu;
+    const mainMenu = menu.find((m) => m.name === category1);
+    const subMenu = mainMenu ? mainMenu.category2List : []; // category2만
+    const tagMenu = mainMenu ? mainMenu.tagList : []; // tags만
+
+    set({ subMenu, tagMenu });
+    console.log('category2 subMenu:', category1, ':', subMenu);
+    console.log('tags tagMenu:', category1, ':', tagMenu);
+  },
+
+  setFiltered: (data) => set({ filtered: data }),
+
 }));

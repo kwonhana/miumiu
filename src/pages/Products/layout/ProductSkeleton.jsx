@@ -1,9 +1,9 @@
 import React from 'react';
-import '../scss/ProductSkeleton.scss';
+import '../scss/ProductDetailSkeleton.scss';
 
-const ProductSkeleton = () => {
+const ProductDetailSkeleton = () => {
   return (
-    <div className="ProductSkeleton-wrap">
+    <div className="ProductDetailSkeleton-wrap">
       <div className="inner">
         {' '}
         <div className="top">
@@ -26,4 +26,4 @@ const ProductSkeleton = () => {
   );
 };
 
-export default ProductSkeleton;
+export default ProductDetailSkeleton;

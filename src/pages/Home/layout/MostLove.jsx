@@ -13,7 +13,7 @@ const MostLove = () => {
     <section className="MostLove wow animate__animated  animate__fadeInUp" data-wow-delay="0.6s">
       <h2>MOST LOVED</h2>
 
-      <div className="container">
+      <div className="inner">
         <ul className="item-box  ">
           {items.map((el, index) => {
             return (
@@ -21,7 +21,13 @@ const MostLove = () => {
                 <Link to={`/${el.imgUrl}`}>
                   <div className="item-img">
                     <img
+                      className="bannerImg"
                       src={`/assets/images/static/main/mostLoved/${el.imgUrl}.png`}
+                      alt={el.title}
+                    />
+                    <img
+                      className="bannerImg-hover"
+                      src={`/assets/images/static/main/mostLoved/${el.imgUrl}-hover.png`}
                       alt={el.title}
                     />
                   </div>

@@ -38,6 +38,17 @@
   }
 }
 
+.lnb-dimmed {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: rgba(175, 175, 175, 0.5);
+  backdrop-filter: blur(20px);
+}
+
 .lnb-wrap {
   width: 100%;
   aspect-ratio: 1920/594;
@@ -83,6 +94,7 @@
       }
     }
   }
+
   .lnb-list {
     margin-top: 5rem;
   }

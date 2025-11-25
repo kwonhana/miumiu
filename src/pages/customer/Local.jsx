@@ -36,7 +36,7 @@ const Local = () => {
     setWhat(el.id);
     addMarker(el);
   };
-  //TODO kakak map API
+  //TODO kakao map API
   //TODO  Kakao Maps API 스크립트 로드
   useEffect(() => {
     const script = document.createElement('script');

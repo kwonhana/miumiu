@@ -1,0 +1,88 @@
+@use '../../../App.scss' as pay;
+
+.Payment-wrap {
+  margin: 0 auto;
+  display: flex;
+  gap: 40px;
+  margin-top: 80px;
+  background-color: #f5f5f5;
+}
+
+.payment-left {
+  //   flex: 1;
+  aspect-ratio: 1208/1000;
+  padding: 40px 60px;
+
+  .payment-top {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+
+    > p {
+      @include pay.font(2.2rem, 500, pay.$base);
+    }
+
+    > ul {
+      display: flex;
+
+      li:last-child {
+        @include pay.font(1.8rem, 500, pay.$base);
+      }
+
+      li:first-child,
+      li:nth-child(2) {
+        @include pay.font(1.8rem, 500, pay.$text-bbb);
+      }
+    }
+  }
+
+  .select-payment {
+    padding: 40px;
+    background-color: #fff;
+  }
+}
+
+.payment-box {
+  width: 100%;
+  max-width: 1088px; // 캡처처럼 콘텐츠 영역 고정
+}
+
+.payment-list {
+  display: grid;
+  margin-bottom: 60px;
+
+  .payment-icon {
+    aspect-ratio: 320/190;
+    justify-items: center;
+    align-items: center;
+    border: 1px solid #ddd;
+    grid-row: none;
+  }
+}
+
+.payment-icon {
+  width: 340px;
+  height: 200px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 10px;
+}
+
+.payment-icon img {
+  aspect-ratio: 320/190;
+
+  height: auto;
+}
+
+.miu-btn {
+  aspect-ratio: 1008/60;
+  width: 100%;
+  background-color: pay.$base;
+  color: #fff;
+}
