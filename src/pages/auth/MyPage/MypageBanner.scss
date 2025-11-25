@@ -5,51 +5,66 @@
   width: 100%;
   height: 50rem;
   margin-top: 8rem;
-  // background: url('../../../../public/assets/images/static/mypage-bg.jpg') no-repeat;
+  background: url('/assets/images/static/mypage-bg.jpg') no-repeat;
+
   .mypage-banner-inner {
     @include mypage.flex(space-between, center, 0);
     width: 1440px;
     height: 100%;
+
     .banner-text {
       height: 50rem;
-      @include mypage.flex(center, center, 0);
+      @include mypage.flex(center, flex-start, 60px);
       flex-direction: column;
-      > p {
-        font-size: 3rem;
-        color: #fff;
+      > .welcome-text {
+        @include mypage.font(4.8rem, 600, #fff);
+        font-family: 'Libre Baskerville';
+      }
+
+      > .userName {
+        @include mypage.font(3rem, 500, #fff);
+
+        span {
+          color: #fff;
+          font-size: 3rem;
+          font-weight: 600;
+        }
       }
     }
+
     .banner-right {
       @include mypage.flex(space-between, center, 0);
       width: 33%;
-      border: 1px solid blue;
-      .coupon {
-        position: relative;
-        width: 35%;
-        height: 12.4rem;
-        // border: 1px solid #fff;
-        &::before {
-          content: '';
-          border: 1px solid yellow;
-          position: absolute;
-          left: 0;
-          top: 0;
-          background-color: red;
-          filter: blur(40rem);
-        }
-      }
-      .point {
-        width: 35%;
-        height: 12.4rem;
-        border: 1px solid red;
-        &::before {
-          content: '';
-          position: absolute;
-          top: 0;
-          left: 0;
+      height: 18rem;
+      gap: 30px;
+
+      > div {
+        aspect-ratio: 11 / 9;
+        width: 50vw;
+        max-width: 220px;
+        background-color: rgba(215, 215, 215, 0.1);
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border-radius: 8px;
+        padding: 28px;
+        box-sizing: border-box;
+        @include mypage.flex(space-between, flex-start, auto);
+        flex-direction: column;
+
+        .title {
+          @include mypage.font(1.8rem, 500, #fff);
           width: 100%;
-          height: 100%;
-          filter: blur(10px);
+        }
+
+        > .count {
+          @include mypage.font(4rem, 600, #fff);
+          width: 100%;
+          text-align: right;
+
+          > span {
+            @include mypage.font(2rem, 500, #fff);
+          }
         }
       }
     }
