@@ -23,11 +23,10 @@
 
   .itemRight {
     width: 76%;
-    padding: 0 50px;
+    padding: 40px 50px;
 
     .top {
       width: 100%;
-      margin-top: 15px;
       @include ct.flex(space-between, center, 0);
 
       .itemNO {
@@ -36,7 +35,7 @@
       .icon {
         width: 24px;
         aspect-ratio: 1/1;
-        // background: url('../../../../public/assets/icon/delete.png');
+        background: url('../../../../public/assets/icon/delete.png');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;

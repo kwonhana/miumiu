@@ -13,6 +13,8 @@ const OrderSummary = () => {
   const [shippingData, setShippingData] = useState(null);
   const [msg, setMsg] = useState('');
   const maxMsg = 200;
+  const [agree19, setAgree19] = useState(false);
+  const [agree19Err, setAgree19Err] = useState(false);
 
   // 배송 예상일 계산 함수
   const getDeliveryDateRange = () => {
@@ -59,7 +61,19 @@ const OrderSummary = () => {
   };
 
   const handlePayment = () => {
+    // 매장 수령 때만 동의 검증
+    if (fixTab === 'store' && !agree19) {
+      setAgree19Err(true);
+      return;
+    }
     navigate('/payment');
+  };
+
+  const handleAgree19 = (e) => {
+    setAgree19(e.target.checked);
+    if (e.target.checked) {
+      setAgree19Err(false);
+    }
   };
 
   return (
@@ -185,7 +199,23 @@ const OrderSummary = () => {
               {msg.length}/{maxMsg}자 남음
             </span>
           </div>
-          <Button title="확인 및 결제진행" onClick={handlePayment} />
+          {fixTab === 'store' && (
+            <div className={`agree19 ${agree19Err ? 'err' : ''}`}>
+              <label>
+                <input type="checkbox" checked={agree19} onChange={handleAgree19} />
+                <span>
+                  본인은 사용 약관 및 개인정보 처리방침을 읽었으며 이에 동의합니다. 그리고 아래에
+                  명시된 대로 온라인 구매 주문을 처리하는 데 개인 데이터가 사용되는 것에 동의합니다.
+                  본인은 만 19세 이상임을 확인합니다.
+                </span>
+              </label>
+              {agree19Err && <p className="err-msg">* 동의가 필요합니다.</p>}
+            </div>
+          )}
+          <div className="order-btn">
+            <Button title="이전" />
+            <Button title="확인 및 결제진행" onClick={handlePayment} />
+          </div>
         </div>
       </div>
       <OrderTotal />
