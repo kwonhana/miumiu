@@ -52,12 +52,12 @@
         @include mypage.flex(space-between, flex-start, auto);
         flex-direction: column;
 
-        .title {
+        .bannerTitle {
           @include mypage.font(1.8rem, 500, #fff);
           width: 100%;
         }
 
-        > .count {
+        > .bannerCount {
           @include mypage.font(4rem, 600, #fff);
           width: 100%;
           text-align: right;
