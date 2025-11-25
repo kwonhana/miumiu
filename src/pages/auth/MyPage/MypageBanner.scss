@@ -14,7 +14,6 @@
     width: 1440px;
     height: 100%;
 
-
     .banner-text {
       height: 50rem;
       @include mypage.flex(center, flex-start, 60px);
@@ -48,7 +47,6 @@
         }
       }
     }
-
 
     .banner-right {
       @include mypage.flex(space-between, center, 0);
@@ -87,4 +85,5 @@
       }
     }
   }
+}
 }
