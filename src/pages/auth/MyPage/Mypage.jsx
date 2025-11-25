@@ -3,7 +3,6 @@ import MypageBanner from './MypageBanner';
 import MypageNav from './MypageNav';
 import './scss/Mypage.scss';
 import AddressTable from './AddressTable';
-import InfoEditPopup from './InfoEditPopup';
 
 const Mypage = () => {
   return (
@@ -42,7 +41,6 @@ const Mypage = () => {
               </table>
             </div>
           </section>
-          <InfoEditPopup />
 
           <section className="loginInfo">
             <div className="loginInfo-inner">
