@@ -1,7 +1,13 @@
 import React from 'react';
+import CartTotalPrice from '../layout/CartTotalPrice';
+import '../scss/OrderTotal.scss';
 
 const OrderTotal = () => {
-  return <div>결제 페이지 총 결제 금액</div>;
+  return (
+    <>
+      <CartTotalPrice showCoupon={true} showVAT={true} showButton={false} className="OrderTotal" />
+    </>
+  );
 };
 
 export default OrderTotal;
