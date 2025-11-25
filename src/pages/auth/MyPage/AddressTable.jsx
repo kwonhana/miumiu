@@ -1,5 +1,5 @@
 import React from 'react';
-import './AddressTable.scss';
+import './scss/AddressTable.scss';
 
 const AddressTable = () => {
   return (

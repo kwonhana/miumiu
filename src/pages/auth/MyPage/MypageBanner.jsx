@@ -1,5 +1,5 @@
 import React from 'react';
-import './MypageBanner.scss';
+import './scss/MypageBanner.scss';
 
 const MypageBanner = () => {
   return (

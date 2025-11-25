@@ -1,19 +1,20 @@
 import React from 'react';
 import PhoneInput from '../../../component/input/PhoneInput';
 import EmailInput from '../../../component/input/EmailInput';
-import './InfoEditPopup.scss';
+import './scss/InfoEditPopup.scss';
 
 const InfoEditPopup = () => {
   return (
     <div className="edit-popup-wrap">
       <div className="edit-popup">
         <div className="title-wrap">
-          <p>회원 정보 수정하기</p>
+          <h2>회원 정보 수정하기</h2>
+          <div className="popupClose-icon"></div>
         </div>
 
         <div className="popup-content">
           <div className="input-wrap">
-            <p>기본 정보</p>
+            <h3>기본 정보</h3>
 
             <div className="lockedName-input">
               <p>이름</p>
