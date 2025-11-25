@@ -1,10 +1,14 @@
 import { create } from 'zustand';
 import { products } from '../api/products';
 import { categoryKorMap, CustomItem } from './data';
+import { db } from '../api/firebase';
+import { doc, getDoc, updateDoc } from 'firebase/firestore';
+import { useAuthStore } from '../api/authStore';
 
 export const useProductsStore = create((set, get) => ({
   // TODO-------- 상품 ----------
   items: [],
+  wishList: [],
   filtered: [],
   // 카트에 담은 상품을 저장할 배열
   cartItems: [],
@@ -335,5 +339,46 @@ export const useProductsStore = create((set, get) => ({
     const finalPrice = totalPrice - discount;
 
     set({ discount, finalPrice });
+  },
+  //TODO 찜목록 추가 / 제거 (firebase서버 반영)
+  onToggleWish: async (product) => {
+    const { user } = useAuthStore.getState(); // 현재 로그인 유저
+    if (!user) {
+      alert('로그인이 필요합니다.');
+      return;
+    }
+
+    const wish = get().wishList;
+    const exists = wish.some((item) => item.id === product.id);
+    let updatedWish;
+
+    if (exists) {
+      // 이미 있으면 제거
+      updatedWish = wish.filter((item) => item.id !== product.id);
+    } else {
+      updatedWish = [...wish, product];
+    }
+
+    set({ wishList: updatedWish });
+
+    // TODO Firestore 업데이트
+    const userRef = doc(db, 'users', user.uid);
+    await updateDoc(userRef, { wishList: updatedWish });
+
+    console.log(' Firestore wishList 업데이트 완료');
+  },
+
+  // TODO 서버에서 찜목록 불러오기 (로그인 시)
+  fetchWishList: async () => {
+    const { user } = useAuthStore.getState();
+    if (!user) return;
+
+    const userRef = doc(db, 'users', user.uid);
+    const userDoc = await getDoc(userRef);
+    if (userDoc.exists()) {
+      const data = userDoc.data();
+      set({ wishList: data.wishList || [] });
+      console.log(' Firestore에서 wishList 불러옴');
+    }
   },
 }));

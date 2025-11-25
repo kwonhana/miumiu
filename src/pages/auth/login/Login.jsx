@@ -1,7 +1,11 @@
 import React, { useState } from 'react';
-import { Link, Navigate, useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { useAuthStore } from '../../../api/authStore';
 import './login.scss';
+
+import { auth, db } from '../../../api/firebase';
+import { signInWithEmailAndPassword } from 'firebase/auth';
+import { doc, getDoc } from 'firebase/firestore';
 
 const list = [
   { icon: '', title: '개인계정을 통해 특별한 쇼핑 경험을 느껴보세요.' },
@@ -18,13 +22,13 @@ const Login = () => {
   const [id, setId] = useState('');
   const [password, setPassword] = useState('');
   const { onGoogleLogin, onKakaoLogin, setUser } = useAuthStore();
-  const Navigate = useNavigate();
+  const navigate = useNavigate();
 
   //1-2 구글 로그인
   const handleGoogleLogin = async () => {
     console.log('구글');
     await onGoogleLogin();
-    Navigate('/');
+    navigate('/');
   };
   //1-3 카카오로그인
   const handleKakaoLogin = async () => {
@@ -32,27 +36,46 @@ const Login = () => {
   };
 
   //2. 메서드
-  const handleLogin = (e) => {
+  const handleLogin = async (e) => {
     e.preventDefault();
-    // 로컬스토리지에서 저장된 회원정보 불러오기
-    const storedData = localStorage.getItem('userData');
-    if (!storedData) {
-      alert('회원정보가 없습니다!! 회원가입을 해주세요.');
-      return;
-    }
-    const userData = JSON.parse(storedData);
-    //입력된 정보를 저장된데이터와 비교
-    if (id === userData.userId && password === userData.password) {
-      alert(`${userData.name}님, 환영합니다!`);
+
+    try {
+      // 2. Firebase Auth에서 이메일/비번으로 로그인
+      // id 입력값을 "이메일"로 쓰는 구조
+      const userCredential = await signInWithEmailAndPassword(auth, id, password);
+      const firebaseUser = userCredential.user;
+
+      // 2-1. Firestore users/{uid} 문서 가져오기
+      const userDocRef = doc(db, 'users', firebaseUser.uid);
+      const userSnap = await getDoc(userDocRef);
+
+      if (!userSnap.exists()) {
+        alert('사용자 정보가 존재하지 않습니다. 관리자에게 문의해주세요.');
+        return;
+      }
+
+      const userData = userSnap.data();
+
+      // 2-2. Zustand 상태에 저장 → persist가 알아서 localStorage까지 저장
       setUser(userData);
 
-      localStorage.setItem('loginUser', JSON.stringify(userData));
+      alert(`${userData.name || userData.displayName || '고객'}님, 환영합니다!`);
+      navigate('/');
+    } catch (err) {
+      console.error('로그인 에러:', err);
 
-      Navigate('/');
-    } else {
-      alert('아이디 또는 비밀번호가 일치하지 않습니다!!');
+      if (err.code === 'auth/user-not-found') {
+        alert('가입되지 않은 이메일입니다.');
+      } else if (err.code === 'auth/wrong-password') {
+        alert('비밀번호가 일치하지 않습니다.');
+      } else if (err.code === 'auth/invalid-email') {
+        alert('이메일 형식이 올바르지 않습니다.');
+      } else {
+        alert('로그인 중 오류가 발생했습니다.');
+      }
     }
   };
+
   //3.뿌려
   return (
     <section className="login-wrap">

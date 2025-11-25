@@ -2,7 +2,7 @@ import './App.scss';
 
 import 'animate.css/animate.min.css';
 import Header from './pages/header/Header';
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes, Navigate } from 'react-router-dom';
 import Home from './pages/Home/Home';
 import Login from './pages/auth/login/Login';
 import Footer from './pages/footer/Footer';
@@ -31,8 +31,7 @@ import SearchResult from './pages/Products/SearchResult';
 import Category1 from './pages/Products/Category1';
 import Category2 from './pages/Products/Category2';
 import ScrollToTop from './ScrollToTop';
-import WIshList from './pages/auth/WishList/WIshList';
-import MyOrder from './pages/Checkout/MyOrder/MyOrder';
+
 import { Chatbot } from './component/feedback/Chatbot';
 
 function App() {
@@ -50,7 +49,11 @@ function App() {
         {/* auth */}
         <Route path="login" element={<Login />} />
         <Route path="join" element={<Join />} />
-        <Route path="mypage" element={<Mypage />} />
+
+        <Route path="mypage/:tab?" element={<Mypage />} />
+        <Route path="wishlist" element={<Navigate to="/mypage/wishlist" replace />} />
+        <Route path="myOrder" element={<Navigate to="/mypage/order" replace />} />
+
         <Route path="OAuthRedirect" element={<OAuthRedirect />} />
         <Route path="resetId" element={<ResetID />} />
         <Route path="resetpassword" element={<ResetPassword />} />
@@ -61,8 +64,6 @@ function App() {
         <Route path="orderSummary" element={<OrderSummary />} />
         <Route path="payment" element={<Payment />} />
         <Route path="shipping" element={<Shipping />} />
-        <Route path="wishlist" element={<WIshList />} />
-        <Route path="myOrder" element={<MyOrder />} />
         <Route path="searchResult" element={<SearchResult />} />
         {/* <Route path="/:category1" element={<Products />} />
         <Route path="/:category1/:category2" element={<Products />} />
