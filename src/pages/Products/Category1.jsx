@@ -3,6 +3,7 @@ import { useProductsStore } from '../../store/useProductsStore';
 import { useParams } from 'react-router-dom';
 import ProductBanner from './layout/ProductBanner';
 import ProductFilterNav from './layout/ProductFilterNav';
+import ProductFilterWrap from './layout/ProductFilterWrap';
 import './scss/Category1.scss';
 import ProductList from './layout/ProductList';
 
@@ -10,7 +11,9 @@ const Category1 = () => {
   const { category1, category2, tags } = useParams();
   const { filtered, onFetchItems, onCateOnly, onCateTag, onCate1, items } = useProductsStore();
   // const { cateImg, setCateImg } = useState('');
-  console.log(category1, category2, 'category1파일zzz');
+  const [extraFilteredList, setExtraFilteredList] = useState(null); // ✅ 추가
+  const [isFilterOpen, setIsFilterOpen] = useState(false);
+  console.log(category1, category2, 'zzzzzzzzzzz');
 
   useEffect(() => {
     onFetchItems();
@@ -27,12 +30,115 @@ const Category1 = () => {
     }
   }, [category1, category2, tags, onFetchItems, onCateOnly, onCateTag, onCate1]);
 
+  useEffect(() => {
+    console.log('📌 filtered 변경됨:', filtered.length);
+  }, [filtered]);
+
+  const handleFilterChange = (result) => {
+    if (!result || result.length === 0) {
+      setExtraFilteredList(null);
+    } else {
+      setExtraFilteredList(result);
+    }
+  };
+
+  const handleOpenFilter = () => {
+    setIsFilterOpen(true);
+  };
+
+  const handleCloseFilter = () => {
+    setIsFilterOpen(false);
+  };
+
+  const handleApplyFilter = (filters) => {
+    console.log('🔵 필터 적용 시작');
+    console.log('🔵 받은 filters:', filters);
+    console.log('🔵 원본 filtered 길이:', filtered.length);
+
+    let result = [...filtered];
+
+    if (filters.collection) {
+      result = result.filter((item) => item.tags === filters.collection);
+      console.log('🔵 collection 필터 후:', result.length);
+    }
+
+    if (filters.fabric) {
+      result = result.filter((item) => {
+        if (!item.material) return false;
+        const cleanMaterial = item.material.replace(/^주\s*소재:\s*/g, '').trim();
+        return cleanMaterial === filters.fabric;
+      });
+      console.log('🔵 fabric 필터 후:', result.length);
+    }
+
+    if (filters.sort) {
+      switch (filters.sort) {
+        case 'name-asc':
+          result.sort((a, b) => a.name.localeCompare(b.name));
+          break;
+        case 'name-desc':
+          result.sort((a, b) => b.name.localeCompare(a.name));
+          break;
+        case 'price-asc':
+          result.sort((a, b) => {
+            const priceA = parseInt(a.price.replace(/[^\d]/g, '')) || 0;
+            const priceB = parseInt(b.price.replace(/[^\d]/g, '')) || 0;
+            return priceA - priceB;
+          });
+          break;
+        case 'price-desc':
+          result.sort((a, b) => {
+            const priceA = parseInt(a.price.replace(/[^\d]/g, '')) || 0;
+            const priceB = parseInt(b.price.replace(/[^\d]/g, '')) || 0;
+            return priceB - priceA;
+          });
+          break;
+        default:
+          break;
+      }
+      console.log('🔵 정렬 후:', filters.sort);
+    }
+
+    if (!filters.collection && !filters.fabric && !filters.sort) {
+      console.log('🔵 필터 없음 - 전체 표시');
+      setExtraFilteredList(null);
+    } else {
+      console.log('🔵 최종 결과:', result.length);
+      setExtraFilteredList(result);
+    }
+
+    setIsFilterOpen(false);
+  };
+
+  const displayList = extraFilteredList || filtered;
+  const collectionArray = Array.from(new Set(filtered.map((item) => item.tags).filter(Boolean)));
+  const fabricArray = Array.from(
+    new Set(
+      filtered
+        .map((item) => {
+          if (!item.material) return null;
+          // "주 소재: 송아지 가죽" → "송아지 가죽"
+          return item.material.replace(/^주\s*소재:\s*/g, '').trim();
+        })
+        .filter(Boolean)
+    )
+  );
+
   let filterCategory1 = Array.from(new Set(filtered.map((el) => el.categoryKor1)));
+
+  console.log('🔍 collectionArray:', collectionArray);
+  console.log('🔍 fabricArray:', fabricArray);
+  console.log('🔍 filtered:', filtered);
 
   return (
     <div className="Category1">
       <ProductBanner bannerTitle={category1} korTitle={filterCategory1} />
-      <ProductFilterNav list={filtered} />
+      <ProductFilterNav
+        list={filtered}
+        query={false}
+        onFilter={handleFilterChange}
+        onOpenFilter={handleOpenFilter}
+      />
       <div className="inner">
         <div className="sub-title">
           {category1 === 'bags' && (
@@ -73,7 +179,15 @@ const Category1 = () => {
           )}
         </div>
       </div>
-      <ProductList />
+      <ProductList filteredList={displayList} />
+
+      <ProductFilterWrap
+        collection={collectionArray}
+        fabric={fabricArray}
+        isOpen={isFilterOpen}
+        onClose={handleCloseFilter}
+        onApplyFilter={handleApplyFilter}
+      />
     </div>
   );
 };

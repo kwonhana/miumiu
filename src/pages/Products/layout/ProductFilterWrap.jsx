@@ -12,9 +12,10 @@ const ProductFilterWrap = ({ collection, fabric, isOpen, onClose, onApplyFilter 
   const [isCollectionHidden, setIsCollectionHidden] = useState(true);
   const [isFabricHidden, setIsFabricHidden] = useState(true);
 
-  // ✅ 선택된 값
+  // 선택된 값
   const [selectCollection, setSelectCollection] = useState('');
   const [selectFabric, setSelectFabric] = useState('');
+  const [selectSort, setSelectSort] = useState('');
 
   const handleClickAlign = () => {
     setIsAlignActive((prev) => !prev);
@@ -37,23 +38,26 @@ const ProductFilterWrap = ({ collection, fabric, isOpen, onClose, onApplyFilter 
     }
   };
 
-  // ✅ 필터 삭제: state 초기화 + 상위에 "필터 없음" 전달
+  // 필터 삭제: state 초기화 + 상위에 "필터 없음" 전달
   const handleReset = () => {
     setSelectCollection('');
     setSelectFabric('');
     if (onApplyFilter) {
-      onApplyFilter({ collection: '', fabric: '' });
+      onApplyFilter({ collection: '', fabric: '', sort: '' });
     }
+    onClose();
   };
 
-  // ✅ 필터 적용: 현재 선택값 전달
+  // 필터 적용: 현재 선택값 전달
   const handleApplyFilterClick = () => {
     if (onApplyFilter) {
       onApplyFilter({
         collection: selectCollection,
         fabric: selectFabric,
+        sort: selectSort,
       });
     }
+    onClose();
   };
 
   return (
@@ -73,27 +77,55 @@ const ProductFilterWrap = ({ collection, fabric, isOpen, onClose, onApplyFilter 
             </p>
             <ul className={`${isAlignHidden ? 'hidden' : ''}`}>
               <li>
-                <label htmlFor="sort-name-desc">
-                  <input type="radio" id="sort-name-desc" name="sort" />
-                  내림차순 이름
-                </label>
-              </li>
-              <li>
                 <label htmlFor="sort-name-asc">
-                  <input type="radio" id="sort-name-asc" name="sort" />
+                  <input
+                    type="radio"
+                    id="sort-name-asc"
+                    name="sort"
+                    value="name-asc"
+                    checked={selectSort === 'name-asc'}
+                    onChange={(e) => setSelectSort(e.target.value)}
+                  />
                   오름차순 이름
                 </label>
               </li>
               <li>
-                <label htmlFor="sort-price-desc">
-                  <input type="radio" id="sort-price-desc" name="sort" />
-                  내림차순 가격
+                <label htmlFor="sort-name-desc">
+                  <input
+                    type="radio"
+                    id="sort-name-desc"
+                    name="sort"
+                    value="name-desc"
+                    checked={selectSort === 'name-desc'}
+                    onChange={(e) => setSelectSort(e.target.value)}
+                  />
+                  내림차순 이름
                 </label>
               </li>
               <li>
                 <label htmlFor="sort-price-asc">
-                  <input type="radio" id="sort-price-asc" name="sort" />
+                  <input
+                    type="radio"
+                    id="sort-price-asc"
+                    name="sort"
+                    value="price-asc"
+                    checked={selectSort === 'price-asc'}
+                    onChange={(e) => setSelectSort(e.target.value)}
+                  />
                   오름차순 가격
+                </label>
+              </li>
+              <li>
+                <label htmlFor="sort-price-desc">
+                  <input
+                    type="radio"
+                    id="sort-price-desc"
+                    name="sort"
+                    value="price-desc"
+                    checked={selectSort === 'price-desc'}
+                    onChange={(e) => setSelectSort(e.target.value)}
+                  />
+                  내림차순 가격
                 </label>
               </li>
             </ul>

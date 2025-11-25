@@ -7,13 +7,17 @@
   margin-top: 8rem;
   background: url('../../../../public/assets/images/static/mypage-bg.jpg') no-repeat;
 
+  background: url('../../../../public/assets/images/static/mypage-bg.jpg') no-repeat;
+
   .mypage-banner-inner {
     @include mypage.flex(space-between, center, 0);
     width: 1440px;
     height: 100%;
 
+
     .banner-text {
       height: 50rem;
+      @include mypage.flex(center, flex-start, 60px);
       @include mypage.flex(center, flex-start, 60px);
       flex-direction: column;
       > .welcome-text {
@@ -29,8 +33,22 @@
           font-size: 3rem;
           font-weight: 600;
         }
+      > .welcome-text {
+        @include mypage.font(4.8rem, 600, #fff);
+        font-family: 'Libre Baskerville';
+      }
+
+      > .userName {
+        @include mypage.font(3rem, 500, #fff);
+
+        span {
+          color: #fff;
+          font-size: 3rem;
+          font-weight: 600;
+        }
       }
     }
+
 
     .banner-right {
       @include mypage.flex(space-between, center, 0);
