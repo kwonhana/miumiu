@@ -7,7 +7,7 @@ import AdProduct from './AdProduct';
 
 // const ProductList = ({ filteredList }) => {
 
-const ProductList = ({filteredList}) => {
+const ProductList = ({ filteredList }) => {
   const { filtered, onFetchItems } = useProductsStore();
 
   // 첫 로딩 시 상품 불러오기
@@ -44,8 +44,3 @@ const ProductList = ({filteredList}) => {
 };
 
 export default ProductList;
-
-
-
-
-
