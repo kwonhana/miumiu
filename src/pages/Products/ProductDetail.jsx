@@ -111,7 +111,7 @@ const ProductDetail = () => {
               <h3>{product.name}</h3>
               <p className="price">{product.price}</p>
 
-              <div className="button-wrap">
+              <div className="price-button-wrap">
                 <Button title="장바구니 담기" />
                 <Button onClick={handleShipping} title="구매하기" />
               </div>
