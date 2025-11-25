@@ -164,9 +164,25 @@
   }
 
   .order-btn {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
+    @include su.flex(center, center, 20px);
+
+    .miu-btn {
+      &:nth-child(1) {
+        @include su.font(1.6rem, 600, su.$base);
+        // aspect-ratio: 200 / 60;
+        border: 1px solid su.$base;
+        background-color: #fff;
+        padding: 10px 16px;
+      }
+
+      &:nth-child(2) {
+        @include su.font(1.6rem, 600, #fff);
+        // aspect-ratio: 600 / 60;
+        border: 1px solid su.$base;
+        background-color: su.$base;
+        padding: 10px 16px;
+      }
+    }
   }
 }
 
