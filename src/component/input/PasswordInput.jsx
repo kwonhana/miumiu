@@ -50,7 +50,7 @@ const PasswordInput = ({ value, onChange }) => {
         />
       </div>
       <div className="icon"></div>
-      <div className="info">유효한 비밀번호를 입력하세요</div>
+      <div className="info">대소문자,특수문자를 포함한 비밀번호를 입력하세요</div>
     </div>
   );
 };

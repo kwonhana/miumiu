@@ -1,8 +1,13 @@
 import React, { useEffect, useState } from 'react';
+import { useAuthStore } from '../../../api/authStore';
 import MypageBanner from './MypageBanner';
 import MypageNav from './MypageNav';
-import './Mypage.scss';
 import MyInfo from './MyInfo';
+import './Mypage.scss';
+import CousLet from '../../Home/layout/CouLet';
+import WIshList from '../WishList/WIshList';
+import { useNavigate, useParams } from 'react-router-dom';
+
 const MyOrder = () => (
   <div className="container">
     <section className="myOrder">
@@ -14,52 +19,35 @@ const MyOrder = () => (
   </div>
 );
 
-// 위시리스트 탭용 더미 컴포넌트
-const Wishlist = () => (
-  <div className="container">
-    <section className="wishlist">
-      <div className="wishlist-inner">
-        <h2>위시리스트</h2>
-        <p>위시리스트에 담긴 상품이 없습니다.</p>
-      </div>
-    </section>
-  </div>
-);
 const Mypage = () => {
-  const [userData, setUserData] = useState(null);
-  const [activeTab, setActiveTab] = useState('info');
+  const { tab } = useParams();
+  const navigate = useNavigate();
+  const user = useAuthStore((state) => state.user);
+  const activeTab = tab || 'info';
 
-  useEffect(() => {
-    // 로컬스토리지에서 로그인 정보 가져오기
-    const loginData = localStorage.getItem('loginUser');
-
-    if (loginData) {
-      const user = JSON.parse(loginData);
-      setUserData(user);
-    } else {
-      // 로그인 정보가 없으면 로그인 페이지로 리다이렉트
-      // navigate('/login');
-      console.log('로그인 정보가 없습니다.');
-    }
-  }, []);
-
-  if (!userData) {
-    return <div>로딩 중...</div>;
+  if (!user) {
+    return <div>로그인 정보가 없습니다</div>;
   }
-  const fullName = [userData.lastName, userData.name].filter(Boolean).join('');
+
+  const fullName = [user.lastName, user.name].filter(Boolean).join('');
+
+  const handleChangeTab = (nextTab) => {
+    navigate(`/mypage/${nextTab}`);
+  };
   return (
     <div className="myPage">
       <div className="mypage-inner">
         <MypageBanner
-          userName={fullName || userData.name}
-          couponCount={userData.couponCount || 0}
-          point={userData.point || 0}
+          userName={fullName || user.displayName}
+          couponCount={user.couponCount || 0}
+          point={user.point || 0}
         />
-        <MypageNav activeTab={activeTab} onChangeTab={setActiveTab} />
+        <MypageNav activeTab={activeTab} onChangeTab={handleChangeTab} />
 
-        {activeTab === 'info' && <MyInfo userData={userData} />}
+        {activeTab === 'info' && <MyInfo userData={user} />}
         {activeTab === 'order' && <MyOrder />}
-        {activeTab === 'wishlist' && <Wishlist />}
+        {activeTab === 'wishlist' && <WIshList />}
+        <CousLet />
       </div>
     </div>
   );

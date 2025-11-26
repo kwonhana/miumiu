@@ -40,8 +40,8 @@ const IdInput = ({ value, onChange }) => {
     <div className={`base-input userId ${status}`}>
       <div className="input-box">
         <input
-          type="text"
-          placeholder="아이디를 입력해주세요*"
+          type="email"
+          placeholder="이메일을 입력해주세요*"
           value={value}
           onChange={handleIdChange}
           onBlur={handleBlur}
@@ -49,7 +49,7 @@ const IdInput = ({ value, onChange }) => {
         />
       </div>
       <div className="icon"></div>
-      <div className="info">아이디를 입력하세요</div>
+      <div className="info">영문,숫자를 포함한 아이디를 입력하세요</div>
     </div>
   );
 };

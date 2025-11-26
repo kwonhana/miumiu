@@ -1,9 +1,10 @@
 import React from 'react';
+import '../scss/modal-txt.scss';
 
 const TermsOfService = () => {
   return (
     // TODO 이용약관
-    <div className="TermsOfService">
+    <div className="TermsOfService modal-txt">
       <b>사용자는 본 웹사이트를 참고하거나 사용하기 전에 다음 약관을 주의 깊게 읽어야 합니다.</b>
 
       <ul>
@@ -146,7 +147,7 @@ const TermsOfService = () => {
 
       <ul>
         <li className="title">6. 다른 웹사이트로의 링크</li>
-        <il>웹사이트는 자사 이외의 웹사이트로의 링크를 포함할 수 있습니다.</il>
+        <li>웹사이트는 자사 이외의 웹사이트로의 링크를 포함할 수 있습니다.</li>
 
         <li>
           Prada Group는 그러한 웹사이트에 대해 어떠한 책임도 지지 않으며 이러한 링크는 사용자의

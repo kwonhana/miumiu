@@ -1,5 +1,6 @@
 import React from 'react';
-import './MypageNav.scss';
+import './scss/MypageNav.scss';
+import { Link } from 'react-router-dom';
 
 const MypageNav = ({ activeTab, onChangeTab }) => {
   return (

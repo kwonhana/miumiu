@@ -1,15 +1,21 @@
 import React from 'react';
+import ModalText from './ModalText';
 
-const Modal = ({ title }) => {
+const Modal = ({ title, contentKey, onClose }) => {
+  const ModalContent = ModalText[contentKey];
+
+  if (!ModalContent) return null;
+
   return (
-    <div className="M odal">
+    <div className="Modal" onClick={onClose}>
       <div className="Modal-wrap">
         <div className="top">
           <span>{title}</span>
-          <button>X</button>
+          <button onClick={onClose}></button>
         </div>
-
-        <div className="info"></div>
+        <div className="info">
+          <ModalContent />
+        </div>
       </div>
     </div>
   );

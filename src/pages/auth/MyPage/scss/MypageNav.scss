@@ -1,6 +1,7 @@
-@use '../../../App.scss' as mn;
+@use '../../../../App.scss' as mn;
 
 .mypageNav {
+  position: sticky;
   width: 100%;
   background-color: #fff;
   margin-bottom: 80px;

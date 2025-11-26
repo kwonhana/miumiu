@@ -5,7 +5,9 @@ const MyInfo = ({ userData }) => {
   if (!userData) {
     return null;
   }
-  const fullName = [userData.lastName, userData.name].filter(Boolean).join('');
+  const isSocial = userData.provider === 'google';
+  const fullName =
+    [userData.lastName, userData.name].filter(Boolean).join('') || userData.displayName || '-';
   return (
     <div className="container">
       <section className="basicInfo">
@@ -19,16 +21,16 @@ const MyInfo = ({ userData }) => {
             <tbody>
               <tr>
                 <th>이름</th>
-                <td>{fullName || userData.name}</td>
+                <td>{fullName || userData.displayName}</td>
                 <th>생년월일</th>
-                <td>{userData.birthday}</td>
+                <td>{userData.birthday || '-'}</td>
               </tr>
 
               <tr>
                 <th>이메일</th>
-                <td>{userData.email}</td>
+                <td>{userData.email || '-'}</td>
                 <th>휴대폰 번호</th>
-                <td>{userData.phone}</td>
+                <td>{userData.phone || '-'}</td>
               </tr>
             </tbody>
           </table>
@@ -42,7 +44,7 @@ const MyInfo = ({ userData }) => {
             <tbody>
               <tr>
                 <th>아이디</th>
-                <td>{userData.userId}</td>
+                <td>{userData.email || '-'}</td>
                 <th>비밀번호</th>
                 <td>**********</td>
               </tr>
