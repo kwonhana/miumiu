@@ -1,7 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './scss/AddressTable.scss';
+import AddressEditModal from './AddressEditModal';
 
-const AddressTable = () => {
+const AddressTable = ({ userData }) => {
+  const [isOpen, setIsOpen] = useState(false);
+  const openaddressModal = () => {
+    setIsOpen(true);
+  };
+  const closeaddressModal = () => {
+    setIsOpen(false);
+  };
+
   return (
     <table className="address-table">
       <tbody>
@@ -12,17 +21,20 @@ const AddressTable = () => {
         </tr>
 
         <tr>
-          <td>홍길동</td>
-          <td>010-1234-5678</td>
+          <td>{userData.fullName}</td>
+          <td>{userData.phone}</td>
           <td>
             <span>부산 사하구 감내1로 7-1 (감천동) 103동 1302호</span>
             <div>
-              <button className="editBtn">수정</button>
+              <button className="editBtn" onClick={openaddressModal}>
+                수정
+              </button>
               <button className="deleteBtn">삭제</button>
             </div>
           </td>
         </tr>
       </tbody>
+      {isOpen && <AddressEditModal onclose={closeaddressModal} userData={userData} />}
     </table>
   );
 };

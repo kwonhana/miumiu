@@ -17,7 +17,7 @@ const AddressEditModal = ({ onclose, userData }) => {
 
             <div className="nameEdit-input">
               <p>이름</p>
-              <input type="text" placeholder={userData.fullName} />
+              <input type="text" placeholder={userData.fullName} readOnly />
             </div>
 
             <div className="phoneEdit-input">

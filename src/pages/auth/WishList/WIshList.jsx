@@ -20,9 +20,13 @@ const WIshList = () => {
 
   //TODO 카트 아이콘 클릭
   const handleClickCart = (wish) => {
-    // 장바구니에 담고
-    onAddToCart(wish, wish.count || 1);
-    // 위시에서 제거
+    const productCart = {
+      ...wish,
+      cartImg: wish?.local_detail_images?.[0],
+      count: wish.count || 1,
+      price: parseInt(wish?.price?.replace(/[^0-9]/g, '')), //숫자로 변환
+    };
+    onAddToCart(productCart);
     onToggleWish(wish);
   };
 
