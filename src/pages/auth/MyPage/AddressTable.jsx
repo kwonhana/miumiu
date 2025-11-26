@@ -15,7 +15,7 @@ const AddressTable = () => {
           <td>홍길동</td>
           <td>010-1234-5678</td>
           <td>
-            <span>부산 사하구 감내1로 7-1 (감천동) 103동 1302호</span>
+            <span>49376 부산 사하구 감내1로 7-1 (감천동) 103동 1302호</span>
             <div>
               <button className="editBtn">수정</button>
               <button className="deleteBtn">삭제</button>

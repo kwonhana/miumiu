@@ -12,7 +12,7 @@ const OngoingProcess = () => {
 
       <div className="delivery-prepare">
         <p>배송 준비 중</p>
-        <span>1</span>
+        <span>0</span>
       </div>
       <div className="next-icon"></div>
 

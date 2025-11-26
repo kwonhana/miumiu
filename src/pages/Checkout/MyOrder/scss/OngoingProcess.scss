@@ -2,7 +2,7 @@
 
 .ongoingProcess {
   width: 100%;
-  height: 20rem;
+  aspect-ratio: 7.2/1;
   background: op.$line-f4;
   padding: 0 40px;
   @include op.flex(space-between, center, 20px);

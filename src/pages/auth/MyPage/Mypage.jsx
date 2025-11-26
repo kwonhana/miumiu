@@ -7,17 +7,7 @@ import CousLet from '../../Home/layout/CouLet';
 import WIshList from '../WishList/WIshList';
 import { useNavigate, useParams } from 'react-router-dom';
 import './scss/Mypage.scss';
-
-const MyOrder = () => (
-  <div className="container">
-    <section className="myOrder">
-      <div className="myOrder-inner">
-        <h2>주문 / 배송 조회</h2>
-        <p>주문 내역이 없습니다.</p>
-      </div>
-    </section>
-  </div>
-);
+import MyOrder from '../../Checkout/MyOrder/MyOrder';
 
 const Mypage = () => {
   const { tab } = useParams();
@@ -46,6 +36,7 @@ const Mypage = () => {
 
         {activeTab === 'info' && <MyInfo userData={user} />}
         {activeTab === 'order' && <MyOrder />}
+
         {activeTab === 'wishlist' && <WIshList />}
         <CousLet />
       </div>

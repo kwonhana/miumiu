@@ -11,13 +11,10 @@ const MyOrder = () => {
   return (
     <div className="myOrder">
       <div className="myOrder-inner">
-        <MypageBanner />
-        <MypageNav />
-
         <div className="container">
           <section className="ongoingOrder">
             <div className="ongoingOrder-inner">
-              <h2>진행중인 주문</h2>
+              <h2>진행 중인 주문</h2>
               <OngoingProcess />
               <div className="ongoingCard-wrap">
                 <div className="ongoingCard">
