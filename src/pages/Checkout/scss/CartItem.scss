@@ -4,11 +4,21 @@
   @include ct.flex(start, stretch, 0);
   margin-bottom: 20px;
   width: 100%;
+  background-color: #fff;
 
   .itemleft-Img {
-    width: 24%;
+    width: 32%;
     aspect-ratio: 1/1;
-    background-color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      object-position: center;
+    }
   }
 
   .itemRight {
@@ -25,7 +35,7 @@
       .icon {
         width: 24px;
         aspect-ratio: 1/1;
-        // background: url('../../../../public/assets/icon/delete.png');
+        background: url('../../../../public/assets/icon/delete.png');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;

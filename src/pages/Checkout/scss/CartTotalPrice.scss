@@ -3,7 +3,11 @@
 .CartTotalPrice {
   width: 37.5%;
   flex-grow: 1;
-  padding: 0 30px;
+  padding: 90px 30px 60px 30px;
+  position: sticky;
+  top: 0px;
+  height: 100vh;
+
   b {
     @include ct.font(2.2rem, 600, ct.$base);
   }
@@ -66,6 +70,13 @@
     display: flex;
     flex-direction: column;
 
+    .accordion-list {
+      height: 250px;
+      overflow-y: auto;
+      overflow-x: hidden;
+      overscroll-behavior: contain;
+    }
+
     details {
       summary {
         padding: 28px 0;
@@ -84,7 +95,7 @@
           transform: translateY(-50%);
           width: 24px;
           aspect-ratio: 1/1;
-          // background: url(../../../../public/assets/icon/arrow.png);
+          background: url(../../../../public/assets/icon/arrow.png);
           background-position: center;
           background-repeat: no-repeat;
           background-size: cover;

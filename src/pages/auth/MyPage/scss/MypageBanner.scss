@@ -59,8 +59,8 @@
 
         > .bannerCount {
           @include mypage.font(4rem, 600, #fff);
-          width: 100%;
           text-align: right;
+          width: 100%;
 
           > span {
             @include mypage.font(2rem, 500, #fff);

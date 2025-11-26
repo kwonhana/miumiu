@@ -6,6 +6,18 @@ export const useProductsStore = create((set, get) => ({
   // TODO-------- 상품 ----------
   items: [],
   filtered: [],
+  // 카트에 담은 상품을 저장할 배열
+  cartItems: [],
+  // 카트애 담긴 상품 개수
+  cartCount: 0,
+  // 총금액
+  totalPrice: 0,
+  // 할인 금액
+  discount: 0,
+  // 최종 결제 금액
+  finalPrice: 0,
+  // 선택된 쿠폰
+  selectedCoupon: null,
 
   onFetchItems: async () => {
     const pull = get().items;
@@ -22,6 +34,7 @@ export const useProductsStore = create((set, get) => ({
     set({ items: enriched, filtered: enriched });
     console.log('Fetched items:', enriched);
   },
+
   onSearch: (word) => {
     const query = word.toLowerCase().trim();
     const items = get().items;
@@ -31,10 +44,13 @@ export const useProductsStore = create((set, get) => ({
         product.category1,
         product.category2,
         product.name,
+        product.price,
+        product.subtitle,
         product.material,
         product.kor,
         product.tags,
         product.tags2,
+        ...(Array.isArray(product.bullet_points) ? product.bullet_points : []),
       ]
         .filter(Boolean)
         .join(' ')
@@ -232,6 +248,92 @@ export const useProductsStore = create((set, get) => ({
     console.log('tags tagMenu:', category1, ':', tagMenu);
   },
 
-  setFiltered: (data) => set({ filtered: data }),
+  // TODO 장바구니 상품 추가
+  onAddToCart: (product) => {
+    const cart = get().cartItems;
+    const existing = cart.find((item) => item.id === product.id);
+    let updateCart;
+    if (existing) {
+      updateCart = cart.map((item) =>
+        item.id === product.id ? { ...item, count: item.count + product.count } : item
+      );
+    } else {
+      updateCart = [...cart, { ...product }];
+    }
+    console.log('업데이트된 장바구니:', updateCart);
 
+    //총 구매 금액
+    let total = 0;
+    updateCart.forEach((item) => {
+      total += item.price * item.count;
+    });
+    set({ cartItems: updateCart, cartCount: updateCart.length, totalPrice: total });
+  },
+
+  // TODO 장바구니 상품 삭제
+  onRemoveCart: (id) => {
+    const cart = get().cartItems;
+    const updateCart = cart.filter((p) => p.id !== id);
+
+    let total = 0;
+    updateCart.forEach((item) => {
+      total += item.price * item.count;
+    });
+    set({ cartItems: updateCart, cartCount: updateCart.length, totalPrice: total });
+  },
+
+  // TODO 장바구니 +
+  onPlusItem: (id) => {
+    const cart = get().cartItems;
+    const updateCart = cart.map((item) =>
+      item.id === id ? { ...item, count: item.count + 1 } : item
+    );
+
+    let total = 0;
+    updateCart.forEach((item) => {
+      total += item.price * item.count;
+    });
+    set({
+      cartItems: updateCart,
+      totalPrice: total,
+    });
+  },
+
+  // TODO 장바구니 -
+  onMinusItem: (id) => {
+    const cart = get().cartItems;
+    const updateCart = cart.map((item) =>
+      item.id == id ? { ...item, count: Math.max(1, item.count - 1) } : item
+    );
+
+    let total = 0;
+    updateCart.forEach((item) => {
+      total += item.price * item.count;
+    });
+    set({ cartItems: updateCart, totalPrice: total });
+  },
+
+  // TODO 장바구니 비우기
+  onClearCart: () => {
+    localStorage.removeItem('cartItems');
+    localStorage.removeItem('shippingData');
+    set({
+      cartItems: [],
+      cartCount: 0,
+      totalPrice: 0,
+      discount: 0,
+      finalPrice: 0,
+      selectedCoupon: null,
+    });
+  },
+
+  // TODO 쿠폰 계산
+  onSelectCoupon: (coupon) => set({ selectedCoupon: coupon }),
+  onFinalPrice: () => {
+    const { totalPrice, selectedCoupon } = get();
+    const discount = selectedCoupon ? Math.floor(totalPrice * (selectedCoupon.discount / 100)) : 0;
+    const finalPrice = totalPrice - discount;
+
+    set({ discount, finalPrice });
+  },
 }));

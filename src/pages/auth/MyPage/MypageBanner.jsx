@@ -1,14 +1,14 @@
 import React from 'react';
 import './scss/MypageBanner.scss';
 
-const MypageBanner = () => {
+const MypageBanner = ({ userName }) => {
   return (
     <div className="mypage-banner-wrap">
       <div className="mypage-banner-inner">
         <div className="banner-text">
           <p className="welcome-text">Welcome to Miu Miu</p>
           <p className="userName">
-            <span>홍길동</span> 님
+            <span>{userName}</span> 님
           </p>
         </div>
         <div className="banner-right">
