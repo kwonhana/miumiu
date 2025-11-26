@@ -46,7 +46,7 @@ function App() {
     setIsModalOpen(true);
   };
 
-  const closeModal = () => {
+  const closeModal = (e) => {
     setIsModalOpen(false);
     setModalTitle('');
     setModalContentKey(null);
