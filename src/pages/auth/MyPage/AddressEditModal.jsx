@@ -2,13 +2,13 @@ import React from 'react';
 import './scss/AddressEditModal.scss';
 import PhoneInput from '../../../component/input/PhoneInput';
 
-const AddressEditModal = () => {
+const AddressEditModal = ({ onclose, userData }) => {
   return (
     <div className="edit-popup-wrap">
       <div className="edit-popup">
         <div className="title-wrap">
           <h2>배송 정보 수정하기</h2>
-          <div className="popupClose-icon"></div>
+          <div className="popupClose-icon" onClick={onclose}></div>
         </div>
 
         <div className="popup-content">
@@ -17,7 +17,7 @@ const AddressEditModal = () => {
 
             <div className="nameEdit-input">
               <p>이름</p>
-              <input type="text" placeholder="" />
+              <input type="text" placeholder={userData.fullName} />
             </div>
 
             <div className="phoneEdit-input">
@@ -31,7 +31,7 @@ const AddressEditModal = () => {
             </div>
           </div>
           <div className="button-wrap">
-            <button>취소</button>
+            <button onClick={onclose}>취소</button>
             <button>수정하기</button>
           </div>
         </div>

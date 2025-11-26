@@ -1,6 +1,4 @@
 import React from 'react';
-import MypageBanner from '../../auth/MyPage/MypageBanner';
-import MypageNav from '../../auth/MyPage/MypageNav';
 import RecentOrderTable from './RecentOrderTable';
 import OngoingProcess from './OngoingProcess';
 import './scss/MyOrder.scss';
@@ -11,9 +9,6 @@ const MyOrder = () => {
   return (
     <div className="myOrder">
       <div className="myOrder-inner">
-        <MypageBanner />
-        <MypageNav />
-
         <div className="container">
           <section className="ongoingOrder">
             <div className="ongoingOrder-inner">
