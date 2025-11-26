@@ -18,7 +18,6 @@ const Join = () => {
   const navigate = useNavigate();
 
   const [formData, setFormData] = useState({
-    userId: '',
     password: '',
     lastName: '',
     name: '',
@@ -60,7 +59,6 @@ const Join = () => {
     e.preventDefault();
 
     if (
-      !formData.userId ||
       !formData.password ||
       !formData.lastName ||
       !formData.name ||

@@ -44,7 +44,7 @@ const MyInfo = ({ userData }) => {
             <tbody>
               <tr>
                 <th>아이디</th>
-                <td>{userData.userId || '-'}</td>
+                <td>{userData.email || '-'}</td>
                 <th>비밀번호</th>
                 <td>**********</td>
               </tr>
