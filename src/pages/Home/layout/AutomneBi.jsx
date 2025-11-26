@@ -10,7 +10,7 @@ const AutomneBi = () => {
 
   return (
     <section className="AutomneBi">
-      <div className="container wow animate__animated animate__fadeInDown" data-wow-delay="0.5s">
+      <div className="container wow animate__animated animate__fadeInDown" data-wow-delay="0.4s">
         <Logo />
 
         <b>“Miu Miu Automne – The Essence of Modern Femininity”</b>
