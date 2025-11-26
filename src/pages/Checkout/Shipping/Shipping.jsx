@@ -125,7 +125,7 @@ export const Shipping = () => {
       setCheckData(saved);
       setActiveTab(saveTab);
 
-      if (saveData.selectCoupon) {
+      if (saved.selectCoupon) {
         const selectedCoupon = coupon.find((c) => c.value === saved.selectCoupon);
         if (selectedCoupon) {
           onSelectCoupon(selectedCoupon);
@@ -133,7 +133,7 @@ export const Shipping = () => {
         }
       }
     }
-  }, []);
+  }, [onSelectCoupon, onFinalPrice]);
 
   return (
     <section className="Shipping-wrap">
