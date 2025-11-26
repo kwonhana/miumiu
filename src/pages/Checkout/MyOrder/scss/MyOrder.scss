@@ -25,10 +25,12 @@
         }
 
         .img-box {
-          border: 1px solid red;
           width: 14rem;
           height: 14rem;
+          cursor: pointer;
           img {
+            width: 100%;
+            height: 100%;
           }
         }
 

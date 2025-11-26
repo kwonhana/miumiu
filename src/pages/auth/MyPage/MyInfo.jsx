@@ -15,15 +15,11 @@ const MyInfo = ({ userData }) => {
   const openPopup = () => {
     setIsOpen(true);
   };
-  const openaddressModal = () => {
-    setIsOpen(true);
-  };
+
   const closePopup = () => {
     setIsOpen(false);
   };
-  const closeaddressModal = () => {
-    setIsOpen(false);
-  };
+
   return (
     <div className="container">
       <section className="basicInfo">
@@ -107,15 +103,12 @@ const MyInfo = ({ userData }) => {
         <div className="address-inner">
           <div className="title-wrap">
             <h2>배송지 관리</h2>
-            <button className="addAddressBtn" onClick={openaddressModal}>
-              배송지 추가하기
-            </button>
+            <button className="addAddressBtn">배송지 추가하기</button>
           </div>
-          <AddressTable />
+          <AddressTable userData={userData} />
         </div>
       </section>
       {isOpen && <InfoEditPopup onclose={closePopup} userData={userData} />}
-      {isOpen && <AddressEditModal onclose={closeaddressModal} userData={userData} />}
     </div>
   );
 };

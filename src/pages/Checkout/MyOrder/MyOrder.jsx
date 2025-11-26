@@ -4,8 +4,10 @@ import OngoingProcess from './OngoingProcess';
 import './scss/MyOrder.scss';
 import OngoingNone from './OngoingNone';
 import RecentNone from './RecentNone';
+import { useNavigate } from 'react-router-dom';
 
 const MyOrder = () => {
+  const navigate = useNavigate();
   return (
     <div className="myOrder">
       <div className="myOrder-inner">
@@ -16,14 +18,19 @@ const MyOrder = () => {
               <OngoingProcess />
               <div className="ongoingCard-wrap">
                 <div className="ongoingCard">
-                  <div className="img-box">
-                    <img src="" alt="" />
+                  <div
+                    className="img-box"
+                    onClick={() => navigate('/product/5BA284_2F81_F0124_V_OON')}>
+                    <img
+                      src="/assets/images/detail/5BA284_2F81_F0124_V_OON_detail_thumbnail.jpg"
+                      alt="handbag"
+                    />
                   </div>
                   <div className="text-box">
                     <div className="productOption">
                       <p className="productName">아이비 코듀로이 핸드백</p>
-                      <p className="size">사이즈: </p>
-                      <p className="count">수량: </p>
+                      {/* <p className="size">사이즈: </p> */}
+                      <p className="count">수량: 1</p>
                     </div>
                     <p className="productCode">5BA284_2F81_F0124_V_OON</p>
                     <p className="date">2025. 11. 01</p>
@@ -31,16 +38,21 @@ const MyOrder = () => {
                   </div>
                 </div>
                 <div className="ongoingCard">
-                  <div className="img-box">
-                    <img src="" alt="" />
+                  <div
+                    className="img-box"
+                    onClick={() => navigate('/product/5BA284_2F81_F0124_V_OON')}>
+                    <img
+                      src="/assets/images/detail/5BB179_2ICY_F0002_V_OOO_detail_thumbnail.jpg"
+                      alt="bags"
+                    />
                   </div>
                   <div className="text-box">
                     <div className="productOption">
-                      <p className="productName">아르카디 마테라쎄 나파 가죽 백</p>
-                      <p className="size">사이즈: </p>
-                      <p className="count">수량: </p>
+                      <p className="productName">나파 가죽 포켓 탑핸들 백</p>
+                      {/* <p className="size">사이즈: </p> */}
+                      <p className="count">수량: 1</p>
                     </div>
-                    <p className="productCode">5BA284_2F81_F0124_V_OON</p>
+                    <p className="productCode">5BB179_2ICY_F0002_V_OOO</p>
                     <p className="date">2025. 11. 01</p>
                     <p className="orderState">주문 완료</p>
                   </div>
