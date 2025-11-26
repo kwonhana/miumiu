@@ -9,16 +9,18 @@
   z-index: 9999;
   background: rgba(175, 175, 175, 0.5);
   backdrop-filter: blur(20px);
-  @include pd.flex(end, start, 0);
-  .container {
+  display: flex;
+  justify-content: end;
+
+  > .container {
     background: #fff;
     width: 38%;
     height: 100%;
-    padding-bottom: 50px;
     display: flex;
     flex-direction: column;
     padding-bottom: 30px;
     overflow: hidden;
+    margin: 0;
   }
 
   .filter-top {
