@@ -30,12 +30,12 @@ const CookiePolicy = () => {
           쿠키는 이용자가 방문하는 웹사이트의 소유자에 의하여 설치되거나(“당사자 쿠키”) 다른
           웹사이트에 의하여 설치됩니다(“제3자 쿠키”).
         </li>
-        <li>
+        <li className="mb">
           쿠키는 이용자의 만료 또는 이용자의 삭제 시까지 디바이스에 영구적으로 보관되거나(“지속적
           쿠키”), 사이트 브라우징 세션이 종료하거나 브라우저를 닫는 때에 자동적으로 삭제될 수
           있습니다 (“세션 쿠키”).
         </li>
-        <li>쿠키는 사이트의 올바른 기능을 보장하고 보다 나은 경험을 제공합니다</li>
+        <li className="mb">쿠키는 사이트의 올바른 기능을 보장하고 보다 나은 경험을 제공합니다</li>
         <li>• 네비게이션 설정 유지</li>
         <li>• 방문자의 선호 사항 기억</li>
         <li>• 전체적인 사용자 경험 개선</li>
@@ -46,10 +46,9 @@ const CookiePolicy = () => {
         <li className="title">사이트에서 이용되는 쿠키</li>
         <li>사이트에서 이용되는 쿠키는 아래 표에 표시된 바와 같습니다</li>
       </ul>
-      <ul>
-        <li>당사자 쿠키</li>
-      </ul>
-      <table className="cookie-table">
+
+      <p className="bold mb">당사자 쿠키</p>
+      <table className="cookie-table PrivacyPolicy_3 mb">
         <tbody>
           <tr>
             <th className="label">분류</th>
@@ -79,24 +78,24 @@ const CookiePolicy = () => {
           </tr>
         </tbody>
       </table>
+
       {/* 제 3자 쿠키 */}
-      <ul>
-        <li>제3자 쿠키</li>
-      </ul>
-      <table className="cookie-table">
+
+      <p className="bold mb">제3자 쿠키</p>
+      <table className="cookie-table PrivacyPolicy_4">
         <tbody>
           <tr>
             <th className="label">분류</th>
-            <td>기본 설정 쿠키</td>
+            <td colSpan="6">기본 설정 쿠키</td>
           </tr>
           <tr>
             <th className="label">종류</th>
-            <td>기술적 쿠키</td>
+            <td colSpan="6">기술적 쿠키</td>
           </tr>
 
           <tr>
             <th className="label">목적</th>
-            <td>
+            <td colSpan="6">
               이러한 쿠키를 통해 웹 사이트는 제공된 서비스를 개선하기 위해 사용자가 선택한 기준(예:
               구입을 위해 선택한 언어 또는 제품)에 따라 기능 및 개인 설정을 제공할 수 있습니다.
               기능성 쿠키는 웹사이트가 작동하기 위해 꼭 필요한 것은 아니지만, 검색 품질과 경험을
@@ -107,17 +106,17 @@ const CookiePolicy = () => {
 
           <tr>
             <th className="label">제목</th>
-            <td>기술적 쿠키</td>
+            <td colSpan="6">기술적 쿠키</td>
           </tr>
 
           <tr>
             <th className="label">기간</th>
-            <td>지속</td>
+            <td colSpan="6">지속</td>
           </tr>
 
           <tr>
             <th className="label">타사 개인정보 보호 정책 및 옵션 아웃 링크</th>
-            <td>
+            <td colSpan="6">
               For more information: https://www.adobe.com/privacy/policy.html
               <br />
               Opt-out: https://www.pradapsa.d3.sc.omtrdc.net/optout.html
@@ -125,17 +124,17 @@ const CookiePolicy = () => {
           </tr>
           <tr>
             <th className="label">분류</th>
-            <td>통계 쿠키</td>
+            <td colSpan="6">통계 쿠키</td>
           </tr>
 
           <tr>
             <th className="label">종류</th>
-            <td>분석 쿠키</td>
+            <td colSpan="6">분석 쿠키</td>
           </tr>
 
           <tr>
             <th className="label">목적</th>
-            <td>
+            <td colSpan="6">
               이러한 쿠키는 방문자 수, 조회 페이지 등 웹사이트 이용 데이터를 수집하여 통계 분석을
               가능하게 합니다.
             </td>
@@ -145,18 +144,27 @@ const CookiePolicy = () => {
             <td>Adobe Analytics</td>
             <td>Google Analytics</td>
             <td>Contentsquare</td>
+            <td></td>
+            <td></td>
+            <td></td>
           </tr>
 
           <tr>
             <th className="label">기간</th>
-            <td>세션 및 지속</td>
-            <td>지속</td>
-            <td>세션 및 지속</td>
+            <td colSpan={2} className="bg text-center border">
+              세션 및 지속
+            </td>
+            <td colSpan={2} className="bg text-center border">
+              지속
+            </td>
+            <td colSpan={2} className="bg text-center border">
+              세션 및 지속
+            </td>
           </tr>
 
           <tr>
             <th className="label">타사 개인정보 보호 정책 및 옵션 아웃 링크</th>
-            <td>
+            <td className="section" colSpan={2}>
               더 많은 정보를 위하여 아래 링크를 클릭하세요
               <br />
               http://www.adobe.com/privacy/policy.html
@@ -164,7 +172,7 @@ const CookiePolicy = () => {
               쿠키의 거부를 위하여 아래 링크를 클릭하세요 <br />
               http://www.pradapsa.d3.sc.omtrdc.net/optout.html
             </td>
-            <td>
+            <td className="section" colSpan={2}>
               더 많은 정보를 위하여 아래 링크를 클릭하세요
               <br />
               https://support.google.com/analytics/answer/6004245?hl=en
@@ -172,7 +180,7 @@ const CookiePolicy = () => {
               쿠키의 거부를 위하여 아래 링크를 클릭하세요 <br />
               https://tools.google.com/dlpage/gaoptout?hl=en
             </td>
-            <td>
+            <td className="section" colSpan={2}>
               더 많은 정보를 위하여 아래 링크를 클릭하세요
               <br />
               https://contentsquare.com/privacy-center/privacy-policy/
@@ -183,18 +191,18 @@ const CookiePolicy = () => {
           </tr>
 
           <tr>
-            <th className="label"> 분류</th>
-            <td>마케팅 쿠키</td>
+            <th className="label">분류</th>
+            <td colSpan="6">마케팅 쿠키</td>
           </tr>
 
           <tr>
             <th className="label">종류</th>
-            <td>쿠키 대상 지정/광고</td>
+            <td colSpan="6">쿠키 대상 지정/광고</td>
           </tr>
 
           <tr>
             <th className="label">목적</th>
-            <td>
+            <td colSpan="6">
               이러한 쿠키는 브라우징에 필수적이지는 않지만 탐색 중에 표시되는 기본 설정을 반영하는
               개인화된 광고를 만드는 데 유용합니다. 이러한 쿠키는 타사에서 릴리스 및 관리하며
               사용자의 동의가 필요합니다. 이러한 쿠키를 거부할 경우, 인터넷을 탐색할 때 광고(저희
@@ -205,27 +213,27 @@ const CookiePolicy = () => {
 
           <tr>
             <th className="label">제목</th>
-            <td>Adobe Audience Manager</td>
-            <td>Google Doubleclick</td>
-            <td>Facebook</td>
-            <td>Bing</td>
-            <td>Twitter</td>
-            <td>Kakao</td>
+            <td className="bg keep-all">Adobe Audience Manager</td>
+            <td className="bg keep-all">Google DoubleClick</td>
+            <td className="bg keep-all">Facebook</td>
+            <td className="bg keep-all">Bing</td>
+            <td className="bg keep-all">Twitter</td>
+            <td className="bg keep-all">Kakao</td>
           </tr>
 
           <tr>
             <th className="label">기간</th>
-            <td>지속</td>
-            <td>지속</td>
-            <td>지속</td>
-            <td>지속</td>
-            <td>지속</td>
-            <td>지속</td>
+            <td className="text-center">지속</td>
+            <td className="text-center">지속</td>
+            <td className="text-center">지속</td>
+            <td className="text-center">지속</td>
+            <td className="text-center">지속</td>
+            <td className="text-center">지속</td>
           </tr>
 
           <tr>
             <th className="label">타사 개인정보 보호 정책 및 옵션 아웃 링크</th>
-            <td>
+            <td className="text-center text-top">
               더 많은 정보를 위하여 아래 링크를 클릭하세요
               <br />
               https://www.adobe.com/privacy/policy.html
@@ -234,7 +242,7 @@ const CookiePolicy = () => {
               <br />
               https://www.adobe.com/privacy/opt-out.html
             </td>
-            <td>
+            <td className="text-center text-top">
               더 많은 정보를 위하여 아래 링크를 클릭하세요
               <br />
               https://business.safety.google/privacy/
@@ -243,7 +251,7 @@ const CookiePolicy = () => {
               <br />
               https://www.google.com/settings/ads/onweb/
             </td>
-            <td>
+            <td className="text-center text-top">
               더 많은 정보를 위하여 아래 링크를 클릭하세요
               <br />
               https://www.facebook.com/help/164968693837950
@@ -252,7 +260,7 @@ const CookiePolicy = () => {
               <br />
               https://www.facebook.com/help/568137493302217
             </td>
-            <td>
+            <td className="text-center text-top">
               더 많은 정보를 위하여 아래 링크를 클릭하세요
               <br />
               https://privacy.microsoft.com/privacystatement
@@ -261,7 +269,7 @@ const CookiePolicy = () => {
               <br />
               go.microsoft.com/fwlink/?LinkID=286759
             </td>
-            <td>
+            <td className="text-center text-top">
               더 많은 정보를 위하여 아래 링크를 클릭하세요
               <br />
               https://twitter.com/en/privacy
@@ -270,7 +278,7 @@ const CookiePolicy = () => {
               <br />
               https://optout.aboutads.info
             </td>
-            <td>
+            <td className="text-center text-top">
               더 많은 정보를 위하여 아래 링크를 클릭하세요
               <br />
               http://rules-ad.kakao.com/policy/privacy
@@ -283,11 +291,12 @@ const CookiePolicy = () => {
 
           <tr>
             <th className="label">제목</th>
-            <td>Snapchat</td>
-            <td>Google AdWords</td>
-            <td>Daum</td>
-            <td>Naver</td>
-            <td>TikTok</td>
+            <td className="bg">Snapchat</td>
+            <td className="bg">Google AdWords</td>
+            <td className="bg">Daum</td>
+            <td className="bg">Naver</td>
+            <td className="bg">TikTok</td>
+            <td className="bg"></td>
           </tr>
 
           <tr>
@@ -297,11 +306,12 @@ const CookiePolicy = () => {
             <td>지속</td>
             <td>지속</td>
             <td>지속</td>
+            <td></td>
           </tr>
 
           <tr>
             <th className="label">타사 개인정보 보호 정책 및 옵션 아웃 링크</th>
-            <td>
+            <td className="text-top">
               더 많은 정보를 위하여 아래 링크를 클릭하세요
               <br />
               https://businesshelp.snapchat.com/en-US/article/pixel-about
@@ -311,7 +321,7 @@ const CookiePolicy = () => {
               https://businesshelp.snapchat.com/en-US/article/pixel-website-install
             </td>
 
-            <td>
+            <td className="text-top">
               더 많은 정보를 위하여 아래 링크를 클릭하세요
               <br />
               https://business.safety.google/privacy/
@@ -321,21 +331,22 @@ const CookiePolicy = () => {
               https://www.google.com/settings/ads/onweb/
             </td>
 
-            <td>
+            <td className="text-top">
               더 많은 정보와 쿠키의 거부를 위하여 아래 링크를 클릭하세요
               <br />
               https://www.kakao.com/policy/privacy
             </td>
-            <td>
+            <td className="text-top">
               더 많은 정보와 쿠키의 거부를 위하여 아래 링크를 클릭하세요
               <br />
               https://policy.naver.com/privacy/privacy_en.html
             </td>
-            <td>
+            <td className="text-top">
               더 많은 정보와 쿠키의 거부를 위하여 아래 링크를 클릭하세요
               <br />
               https://www.tiktok.com/legal/privacy-policy-row
             </td>
+            <td></td>
           </tr>
         </tbody>
       </table>
@@ -357,16 +368,16 @@ const CookiePolicy = () => {
 
         <li>귀하는 다음 브라우저들에 대한 거부 방법을 다음 링크에서 찾으실 수 있습니다</li>
         <li>
-          - 인터넷 익스플로러
+          -인터넷 익스플로러
           -https://support.microsoft.com/en-us/help/17442/windows-internet-explorer-delete-manage-cookies
         </li>
-        <li> - 크롬 - https://support.google.com/chrome/answer/95647 </li>
+        <li> -크롬 - https://support.google.com/chrome/answer/95647 </li>
         <li>
-          - 파이어폭스
+          -파이어폭스
           -https://support.mozilla.org/en-US/kb/enable-and-disable-cookies-website-preferences
         </li>
         <li> -오페라 - http://www.opera.com/help/tutorials/security/privacy/ </li>
-        <li>- 사파리 - http://support.apple.com/kb/PH17191</li>
+        <li> -사파리 - http://support.apple.com/kb/PH17191</li>
 
         <li>
           쿠키 삭제 또는 차단에 대한 자세한 내용은 http://www.aboutcookies.org 를 참조하십시오.

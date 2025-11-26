@@ -8,7 +8,7 @@ const Modal = ({ title, contentKey, onClose }) => {
 
   return (
     <div className="Modal" onClick={onClose}>
-      <div className="Modal-wrap">
+      <div className="Modal-wrap" onClick={(e) => e.stopPropagation()}>
         <div className="top">
           <span>{title}</span>
           <button onClick={onClose}></button>
