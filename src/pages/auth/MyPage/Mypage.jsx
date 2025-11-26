@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import MypageBanner from './MypageBanner';
 import MypageNav from './MypageNav';
-import './Mypage.scss';
+import './scss/Mypage.scss';
 import MyInfo from './MyInfo';
 const MyOrder = () => (
   <div className="container">
