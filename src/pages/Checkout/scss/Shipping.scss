@@ -1,19 +1,5 @@
 @use '../../../App.scss' as sh;
 
-h4 {
-  @include sh.font(1.8rem, 600, sh.$base);
-  padding-bottom: 30px;
-}
-
-span {
-  @include sh.font(1.4rem, 400, sh.$text-333);
-}
-
-option {
-  @include sh.font(1.4rem, 400, sh.$text-333);
-  padding: 0 20px;
-}
-
 .Shipping-wrap {
   display: flex;
   width: 100%;
@@ -22,6 +8,20 @@ option {
 
   p {
     padding-bottom: 8px;
+  }
+
+  h4 {
+    @include sh.font(1.8rem, 600, sh.$base);
+    padding-bottom: 30px;
+  }
+
+  span {
+    @include sh.font(1.4rem, 400, sh.$text-333);
+  }
+
+  option {
+    @include sh.font(1.4rem, 400, sh.$text-333);
+    padding: 0 20px;
   }
 }
 
@@ -121,6 +121,11 @@ option {
       .input-box {
         width: 50%;
       }
+    }
+
+    .postcode-modal {
+      width: 100%;
+      border-radius: 4px;
     }
 
     .city-post {
@@ -239,6 +244,13 @@ option {
           word-break: break-all;
         }
       }
+    }
+    .coupon-top {
+      @include sh.font(1.4rem, 400, sh.$text-666);
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      cursor: pointer;
     }
   }
 

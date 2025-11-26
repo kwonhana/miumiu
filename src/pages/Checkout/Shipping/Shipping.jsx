@@ -11,11 +11,17 @@ import RadioCard from '../../../component/input/RadioCard';
 import { store, coupon } from '../../../store/data.js';
 import PointInput from '../../../component/input/PointInput.jsx';
 import { useProductsStore } from '../../../store/useProductsStore';
+import OrderSummary from '../OrderSummary/OrderSummary.jsx';
 
-export const Shipping = () => {
+export const Shipping = ({ openModal }) => {
   const navigate = useNavigate();
   const { onSelectCoupon, onFinalPrice } = useProductsStore();
   const [activeTab, setActiveTab] = useState('delivery');
+
+  const handleModalClick = (e) => {
+    e.preventDefault();
+    openModal('개인정보 처리방침', 'PrivacyPolicy');
+  };
 
   // TODO 배송정보 상태관리
   const [checkData, setCheckData] = useState({
@@ -58,6 +64,12 @@ export const Shipping = () => {
         onFinalPrice();
       }
     }
+  };
+
+  const handleCouponReset = () => {
+    setCheckData((prev) => ({ ...prev, selectCoupon: '' }));
+    onSelectCoupon(null);
+    onFinalPrice();
   };
 
   // TODO 필수 필드 유효성 검증
@@ -188,9 +200,11 @@ export const Shipping = () => {
                     onChange={handleInputChange}
                   />
                   <span>
-                    뉴스레터 수신 동의 (<Link style={{ fontWeight: '600' }}>개인정보 처리방침</Link>
-                    에 명시된 뉴스레터 및 기타 마케팅 커뮤니케이션을 수신하고 싶습니다.{' '}
-                    <Link style={{ textDecorationLine: 'underline' }}>추가정보</Link>)
+                    뉴스레터 수신 동의 (
+                    <Link href="#" onClick={handleModalClick} style={{ fontWeight: '600' }}>
+                      개인정보 처리방침
+                    </Link>
+                    에 명시된 뉴스레터 및 기타 마케팅 커뮤니케이션을 수신하고 싶습니다.)
                   </span>
                 </label>
               </div>
@@ -246,7 +260,10 @@ export const Shipping = () => {
               </div>
             </div>
             <div className="radio-check">
-              <h4>할인쿠폰 선택</h4>
+              <div className="coupon-top">
+                <h4>할인쿠폰 선택</h4>
+                <p onClick={handleCouponReset}>쿠폰 취소</p>
+              </div>
               <ul className="radio-list">
                 {coupon.map((coupon) => (
                   <RadioCard
@@ -263,14 +280,14 @@ export const Shipping = () => {
                 ))}
               </ul>
             </div>
-            <div className="point">
-              <h4>보유 적립금 {/**/} 원</h4>
+            {/* <div className="point">
+              <h4>보유 적립금 원</h4>
               <div className="point-input">
                 <PointInput />
                 <Button title="전액사용" />
               </div>
               <span>적립금은 1,000원 이상일때 사용 가능</span>
-            </div>
+            </div> */}
           </form>
           <Button title="다음" onClick={handleNext} />
         </div>

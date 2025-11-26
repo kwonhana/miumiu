@@ -80,7 +80,7 @@ function App() {
         <Route path="orderComplete" element={<OrderComplete />} />
         <Route path="orderSummary" element={<OrderSummary />} />
         <Route path="payment" element={<Payment />} />
-        <Route path="shipping" element={<Shipping />} />
+        <Route path="shipping" element={<Shipping openModal={openModal} />} />
         <Route path="searchResult" element={<SearchResult />} />
         {/* <Route path="/:category1" element={<Products />} />
         <Route path="/:category1/:category2" element={<Products />} />

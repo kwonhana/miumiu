@@ -28,7 +28,7 @@ const CartTotalPrice = ({ showCoupon = false, showVAT = false, showButton = true
 
         {showCoupon && (
           <div className="list">
-            <p>쿠폰/적립금</p>
+            <p>쿠폰</p>
             <span>-{(discount || 0).toLocaleString()}원</span>
           </div>
         )}
