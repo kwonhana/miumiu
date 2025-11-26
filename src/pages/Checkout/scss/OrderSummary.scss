@@ -164,9 +164,29 @@
   }
 
   .order-btn {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
+    @include su.flex(center, stretch, 20px);
+
+    .miu-btn {
+      aspect-ratio: 700 / 60;
+
+      &:nth-child(1) {
+        @include su.font(1.6rem, 600, su.$base);
+
+        width: 20%;
+        border: 1px solid su.$base;
+        background-color: #fff;
+        padding: 10px 16px;
+      }
+
+      &:nth-child(2) {
+        @include su.font(1.6rem, 600, #fff);
+        width: 80%;
+
+        border: 1px solid su.$base;
+        background-color: su.$base;
+        padding: 10px 16px;
+      }
+    }
   }
 }
 

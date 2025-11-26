@@ -3,13 +3,15 @@ import PhoneInput from '../../../component/input/PhoneInput';
 import EmailInput from '../../../component/input/EmailInput';
 import './scss/InfoEditPopup.scss';
 
-const InfoEditPopup = () => {
+const InfoEditPopup = ({ userData, onclose }) => {
+  const fullName =
+    [userData.lastName, userData.name].filter(Boolean).join('') || userData.displayName || '-';
   return (
     <div className="edit-popup-wrap">
-      <div className="edit-popup">
+      <div className="edit-popup" onClick={(e) => e.stopPropagation()}>
         <div className="title-wrap">
           <h2>회원 정보 수정하기</h2>
-          <div className="popupClose-icon"></div>
+          <div className="popupClose-icon" onClick={onclose}></div>
         </div>
 
         <div className="popup-content">
@@ -18,12 +20,12 @@ const InfoEditPopup = () => {
 
             <div className="lockedName-input">
               <p>이름</p>
-              <input type="text" placeholder="" readOnly />
+              <input type="text" placeholder={fullName || userData.displayName} readOnly />
             </div>
 
             <div className="lockedBirthday-input">
               <p>생년월일</p>
-              <input type="text" placeholder="" readOnly />
+              <input type="text" placeholder={userData.birthday} readOnly />
             </div>
 
             <div className="phoneEdit-input">
@@ -37,7 +39,7 @@ const InfoEditPopup = () => {
             </div>
           </div>
           <div className="button-wrap">
-            <button>취소</button>
+            <button onClick={onclose}>취소</button>
             <button>변경하기</button>
           </div>
         </div>

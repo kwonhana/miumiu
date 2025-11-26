@@ -3,6 +3,7 @@ import { useAuthStore } from '../../../api/authStore';
 import MypageBanner from './MypageBanner';
 import MypageNav from './MypageNav';
 import MyInfo from './MyInfo';
+import './scss/Mypage.scss';
 import CousLet from '../../Home/layout/CouLet';
 import WIshList from '../WishList/WIshList';
 import { useNavigate, useParams } from 'react-router-dom';

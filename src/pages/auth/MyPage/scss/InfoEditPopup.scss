@@ -36,6 +36,7 @@
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
+        cursor: pointer;
       }
     }
 
@@ -70,6 +71,7 @@
             border-radius: 4px;
             padding: 16px 40px 16px 16px;
             background-color: ep.$line-f4;
+            cursor: default;
 
             &::placeholder {
               @include ep.font(1.4rem, 400, ep.$text-666);
@@ -84,6 +86,7 @@
             border-radius: 4px;
             padding: 16px 40px 16px 16px;
             background-color: ep.$line-f4;
+            cursor: default;
 
             &::placeholder {
               @include ep.font(1.4rem, 400, ep.$text-666);

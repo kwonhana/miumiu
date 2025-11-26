@@ -1,6 +1,4 @@
 import React from 'react';
-import MypageBanner from '../../auth/MyPage/MypageBanner';
-import MypageNav from '../../auth/MyPage/MypageNav';
 import RecentOrderTable from './RecentOrderTable';
 import OngoingProcess from './OngoingProcess';
 import './scss/MyOrder.scss';

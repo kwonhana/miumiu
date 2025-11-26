@@ -1,20 +1,38 @@
-import React from 'react';
+import React, { useState } from 'react';
 import AddressTable from './AddressTable';
+import InfoEditPopup from './InfoEditPopup';
+import AddressEditModal from './AddressEditModal';
 
 const MyInfo = ({ userData }) => {
+  const [isOpen, setIsOpen] = useState(false);
   if (!userData) {
     return null;
   }
   const isSocial = userData.provider === 'google';
   const fullName =
     [userData.lastName, userData.name].filter(Boolean).join('') || userData.displayName || '-';
+
+  const openPopup = () => {
+    setIsOpen(true);
+  };
+  const openaddressModal = () => {
+    setIsOpen(true);
+  };
+  const closePopup = () => {
+    setIsOpen(false);
+  };
+  const closeaddressModal = () => {
+    setIsOpen(false);
+  };
   return (
     <div className="container">
       <section className="basicInfo">
         <div className="basicInfo-inner">
           <div className="title-wrap">
             <h2>기본 정보</h2>
-            <button className="editBtn">수정하기</button>
+            <button className="editBtn" onClick={openPopup}>
+              수정하기
+            </button>
           </div>
 
           <table className="info-table">
@@ -89,11 +107,15 @@ const MyInfo = ({ userData }) => {
         <div className="address-inner">
           <div className="title-wrap">
             <h2>배송지 관리</h2>
-            <button className="addAddressBtn">배송지 추가하기</button>
+            <button className="addAddressBtn" onClick={openaddressModal}>
+              배송지 추가하기
+            </button>
           </div>
           <AddressTable />
         </div>
       </section>
+      {isOpen && <InfoEditPopup onclose={closePopup} userData={userData} />}
+      {isOpen && <AddressEditModal onclose={closeaddressModal} userData={userData} />}
     </div>
   );
 };
