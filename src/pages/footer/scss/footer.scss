@@ -18,7 +18,8 @@ footer {
             margin-bottom: 12px;
           }
 
-          li {
+          .link {
+            display: block;
             @include fo.font(1.4rem, 400, #000);
             line-height: 30px;
           }

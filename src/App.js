@@ -21,7 +21,7 @@ import { Shipping } from './pages/Checkout/Shipping/Shipping';
 // import Products from './pages/Products/Products';
 import ProductDetail from './pages/Products/ProductDetail';
 import { useProductsStore } from './store/useProductsStore';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import Local from './pages/customer/Local';
 import ProductBanner from './pages/Products/layout/ProductBanner';
 import ProductDetailNav from './pages/Products/layout/ProductDetailNav';
@@ -33,8 +33,25 @@ import Category2 from './pages/Products/Category2';
 import ScrollToTop from './ScrollToTop';
 
 import { Chatbot } from './component/feedback/Chatbot';
+import Modal from './component/feedback/Modal';
 
 function App() {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [modalTitle, setModalTitle] = useState('');
+  const [modalContentKey, setModalContentKey] = useState(null); // 렌더링할 컴포넌트의 이름 (className)
+
+  const openModal = (title, contentKey) => {
+    setModalTitle(title);
+    setModalContentKey(contentKey);
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+    setModalTitle('');
+    setModalContentKey(null);
+  };
+
   const { onFetchItems, onMakeMenu } = useProductsStore();
   useEffect(() => {
     onFetchItems();
@@ -79,8 +96,12 @@ function App() {
         <Route path="AllProducts" element={<AllProducts />} />
         <Route path="ProductFilterWrap" element={<ProductFilterWrap />} />
       </Routes>
-      <Footer />
+      <Footer openModal={openModal} />
       <Chatbot />
+
+      {isModalOpen && (
+        <Modal title={modalTitle} contentKey={modalContentKey} onClose={closeModal} />
+      )}
     </>
   );
 }

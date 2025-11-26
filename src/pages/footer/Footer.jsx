@@ -1,12 +1,16 @@
 import React from 'react';
 import './scss/footer.scss';
 import Logo from '../../component/layout/Logo';
+import { Link } from 'react-router-dom';
+
+const footerModalMenu = [
+  { name: '이용약관', className: 'TermsOfService' },
+  { name: '개인정보 처리방침', className: 'PrivacyPolicy' },
+  { name: '쿠키 정책', className: 'CookiePolicy' },
+  { name: '판매 약관', className: 'ProductPurchaseTerms' },
+];
 
 const footerMenu = [
-  {
-    title: '법적고지',
-    menu: ['이용약관', '개인정보 처리방침', '쿠키 정책', '쿠키 설정', '판매 약관'],
-  },
   {
     title: '회사',
     menu: ['프라다 그룹', '사회적 책임', '채용정보'],
@@ -17,7 +21,12 @@ const footerMenu = [
   },
 ];
 
-const Footer = () => {
+const Footer = ({ openModal }) => {
+  const handleModalOpen = (el) => {
+    // 부모 컴포넌트에게 모달을 열고, 제목과 렌더링 키를 전달합니다.
+    openModal(el.name, el.className);
+  };
+
   return (
     <footer>
       <div className="inner">
@@ -26,12 +35,33 @@ const Footer = () => {
             <Logo color="black" />
           </div>
           <div className="footer-right">
+            <div className="menu-box">
+              <div className="menu-title">법적고지</div>
+              <ul>
+                {' '}
+                {footerModalMenu.map((el, i) => (
+                  <li key={i}>
+                    <Link
+                      href="#" // 페이지 이동 방지를 위해 # 또는 to={null}
+                      className={`link ${el.className}`}
+                      onClick={(e) => {
+                        e.preventDefault(); // 기본 링크 이동 방지
+                        handleModalOpen(el);
+                      }}>
+                      {el.name}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
             {footerMenu.map((menus) => (
               <div key={menus.title} className="menu-box">
                 <div className="menu-title">{menus.title}</div>
                 <ul>
                   {menus.menu.map((subm, index) => (
-                    <li key={index}>{subm}</li>
+                    <li className="link" key={index}>
+                      {subm}
+                    </li>
                   ))}
                 </ul>
               </div>
