@@ -15,7 +15,6 @@ const CartTotalPrice = ({ showCoupon = false, showVAT = false, showButton = true
   return (
     <div className="CartTotalPrice">
       <b className="">총 결제 금액</b>
-
       <div className="price-info">
         <div className="list">
           <p>배송비</p>

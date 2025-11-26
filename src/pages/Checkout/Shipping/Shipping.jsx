@@ -11,7 +11,6 @@ import RadioCard from '../../../component/input/RadioCard';
 import { store, coupon } from '../../../store/data.js';
 import PointInput from '../../../component/input/PointInput.jsx';
 import { useProductsStore } from '../../../store/useProductsStore';
-import OrderSummary from '../OrderSummary/OrderSummary.jsx';
 
 export const Shipping = ({ openModal }) => {
   const navigate = useNavigate();
