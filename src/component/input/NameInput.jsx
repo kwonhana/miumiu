@@ -6,7 +6,7 @@ const NameInput = ({ lastName, name, onLastNameChange, onNameChange }) => {
   const [lastNameStatus, setLastNameStatus] = useState('');
   const [lastNameTouch, setLastNameTouch] = useState(false);
   const [nameTouch, setNameTouch] = useState(false);
-  const koreanRegex = /^[가-힣]*$/;
+  const koreanRegex = /^[ㄱ-ㅎㅏ-ㅣ가-힣]*$/;
 
   const validateLastName = () => {
     if (!lastNameTouch) return;

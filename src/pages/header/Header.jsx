@@ -110,17 +110,17 @@ const Header = () => {
                     <div className="user-dropdown-menu">
                       <ul>
                         <li>
-                          <Link to={'/mypage'} onClick={closeAll}>
+                          <Link to={'/mypage/info'} onClick={closeAll}>
                             나의 정보
                           </Link>
                         </li>
                         <li>
-                          <Link to={'/myOrder'} onClick={closeAll}>
+                          <Link to={'/mypage/order'} onClick={closeAll}>
                             주문 배송 조회
                           </Link>
                         </li>
                         <li>
-                          <Link to={'/wishlist'} onClick={closeAll}>
+                          <Link to={'/mypage/wishlist'} onClick={closeAll}>
                             위시리스트
                           </Link>
                         </li>

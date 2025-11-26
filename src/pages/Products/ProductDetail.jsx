@@ -10,13 +10,14 @@ import './scss/ProductDetail.scss';
 
 const ProductDetail = () => {
   const { id } = useParams();
-  const { items, onFetchItems, onAddToCart } = useProductsStore();
+  const { items, onFetchItems, onAddToCart, onToggleWish, setShowWish } = useProductsStore();
   //상품을 저장하는 변수
   const [product, setProduct] = useState(null);
   //이미지를 저장하는 변수
   const [mainImage, setMainImage] = useState('');
   // TODO 연관 아이템
   const [relatedProducts, setRelatedProducts] = useState([]);
+  const [count, setCount] = useState(1);
 
   //TODO 데이터 존재 여부 확인하여 데이터 가지고 오기
   useEffect(() => {
@@ -102,6 +103,16 @@ const ProductDetail = () => {
     return <ProductDetailSkeleton />;
   }
 
+  const handleAddToWish = () => {
+    const productWish = {
+      ...product,
+      count: count,
+    };
+
+    onToggleWish(productWish);
+    setShowWish(true);
+  };
+
   return (
     <>
       <section className="ProductDetail-wrap">
@@ -128,7 +139,7 @@ const ProductDetail = () => {
             <div className="top-right">
               <p className="title">
                 <span className="tag">{product.tags ? product.tags : ''}</span>
-                <div className="wish-icon"></div>
+                <button className="wish-icon" onClick={handleAddToWish}></button>
               </p>
               <h3>{product.name}</h3>
               <p className="price">{product.price}</p>

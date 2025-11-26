@@ -2,7 +2,7 @@ import './App.scss';
 
 import 'animate.css/animate.min.css';
 import Header from './pages/header/Header';
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes, Navigate } from 'react-router-dom';
 import Home from './pages/Home/Home';
 import Login from './pages/auth/login/Login';
 import Footer from './pages/footer/Footer';
@@ -21,7 +21,7 @@ import { Shipping } from './pages/Checkout/Shipping/Shipping';
 // import Products from './pages/Products/Products';
 import ProductDetail from './pages/Products/ProductDetail';
 import { useProductsStore } from './store/useProductsStore';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import Local from './pages/customer/Local';
 import ProductBanner from './pages/Products/layout/ProductBanner';
 import ProductDetailNav from './pages/Products/layout/ProductDetailNav';
@@ -31,11 +31,27 @@ import SearchResult from './pages/Products/SearchResult';
 import Category1 from './pages/Products/Category1';
 import Category2 from './pages/Products/Category2';
 import ScrollToTop from './ScrollToTop';
-import WIshList from './pages/auth/WishList/WIshList';
-import MyOrder from './pages/Checkout/MyOrder/MyOrder';
+
 import { Chatbot } from './component/feedback/Chatbot';
+import Modal from './component/feedback/Modal';
 
 function App() {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [modalTitle, setModalTitle] = useState('');
+  const [modalContentKey, setModalContentKey] = useState(null); // 렌더링할 컴포넌트의 이름 (className)
+
+  const openModal = (title, contentKey) => {
+    setModalTitle(title);
+    setModalContentKey(contentKey);
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+    setModalTitle('');
+    setModalContentKey(null);
+  };
+
   const { onFetchItems, onMakeMenu } = useProductsStore();
   useEffect(() => {
     onFetchItems();
@@ -50,7 +66,11 @@ function App() {
         {/* auth */}
         <Route path="login" element={<Login />} />
         <Route path="join" element={<Join />} />
-        <Route path="mypage" element={<Mypage />} />
+
+        <Route path="mypage/:tab?" element={<Mypage />} />
+        <Route path="wishlist" element={<Navigate to="/mypage/wishlist" replace />} />
+        <Route path="myOrder" element={<Navigate to="/mypage/order" replace />} />
+
         <Route path="OAuthRedirect" element={<OAuthRedirect />} />
         <Route path="resetId" element={<ResetID />} />
         <Route path="resetpassword" element={<ResetPassword />} />
@@ -61,8 +81,6 @@ function App() {
         <Route path="orderSummary" element={<OrderSummary />} />
         <Route path="payment" element={<Payment />} />
         <Route path="shipping" element={<Shipping />} />
-        <Route path="wishlist" element={<WIshList />} />
-        <Route path="myOrder" element={<MyOrder />} />
         <Route path="searchResult" element={<SearchResult />} />
         {/* <Route path="/:category1" element={<Products />} />
         <Route path="/:category1/:category2" element={<Products />} />
@@ -78,8 +96,12 @@ function App() {
         <Route path="AllProducts" element={<AllProducts />} />
         <Route path="ProductFilterWrap" element={<ProductFilterWrap />} />
       </Routes>
-      <Footer />
+      <Footer openModal={openModal} />
       <Chatbot />
+
+      {isModalOpen && (
+        <Modal title={modalTitle} contentKey={modalContentKey} onClose={closeModal} />
+      )}
     </>
   );
 }
