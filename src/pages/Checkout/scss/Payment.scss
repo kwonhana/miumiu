@@ -81,9 +81,23 @@
   }
 }
 
-.miu-btn {
-  aspect-ratio: 1008/60;
-  width: 100%;
-  background-color: pay.$base;
-  color: #fff;
+.payment-btn {
+  @include pay.flex(center, stretch, 20px);
+  .miu-btn {
+    aspect-ratio: 700 / 60;
+
+    &:nth-child(1) {
+      @include pay.font(1.6rem, 600, pay.$base);
+      width: 20%;
+      border: 1px solid pay.$base;
+      background-color: #fff;
+    }
+
+    &:nth-child(2) {
+      @include pay.font(1.6rem, 600, #fff);
+      width: 80%;
+      border: 1px solid pay.$base;
+      background-color: pay.$base;
+    }
+  }
 }

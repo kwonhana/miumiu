@@ -1,9 +1,5 @@
 @use '../../../App.scss' as sh;
 
-// footer {
-//   display: none;
-// }
-
 h4 {
   @include sh.font(1.8rem, 600, sh.$base);
   padding-bottom: 30px;

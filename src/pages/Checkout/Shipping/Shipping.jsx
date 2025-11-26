@@ -1,12 +1,9 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import OrderTotal from '../OrderTotal/OrderTotal';
 import EmailInput from '../../../component/input/EmailInput';
 import NameInput from '../../../component/input/NameInput';
 import '../scss/Shipping.scss';
-import Address from '../../../component/input/Address';
 import DetailAddress from '../../../component/input/DetailAddress';
-import PostCode from '../../../component/input/PostCode';
-import SelectCity from '../../../component/input/SelectCity';
 import Tellinput from '../../../component/input/Tellinput';
 import { Link, useNavigate } from 'react-router-dom';
 import Button from '../../../component/layout/Button';
@@ -27,10 +24,9 @@ export const Shipping = () => {
     newsletterAgree: false,
     // 배송주소
     name: '',
-    address: '',
+    zipAddress: '',
     detailAddress: '',
     city: '',
-    postCode: '',
     countryNum: '',
     phone: '',
     // 매장 수령
@@ -75,12 +71,8 @@ export const Shipping = () => {
         alert('이름을 입력해주세요.');
         return false;
       }
-      if (!checkData.address) {
+      if (!checkData.zipAddress) {
         alert('주소를 입력해주세요.');
-        return false;
-      }
-      if (!checkData.postCode) {
-        alert('우편번호를 입력해주세요.');
         return false;
       }
       if (!checkData.phone) {
@@ -124,6 +116,24 @@ export const Shipping = () => {
       selectedStore: selectStoreInfo,
     }));
   };
+
+  //TODO 이전 버튼 클릭시 정보 남아있게
+  useEffect(() => {
+    const saveData = localStorage.getItem('shippingData');
+    if (saveData) {
+      const { checkData: saved, activeTab: saveTab } = JSON.parse(saveData);
+      setCheckData(saved);
+      setActiveTab(saveTab);
+
+      if (saveData.selectCoupon) {
+        const selectedCoupon = coupon.find((c) => c.value === saved.selectCoupon);
+        if (selectedCoupon) {
+          onSelectCoupon(selectedCoupon);
+          onFinalPrice();
+        }
+      }
+    }
+  }, []);
 
   return (
     <section className="Shipping-wrap">
@@ -216,8 +226,10 @@ export const Shipping = () => {
               />
 
               <DetailAddress
+                zipAddress={checkData.zipAddress}
                 detailAddress={checkData.detailAddress}
-                onDeAddress={(d) => setCheckData((p) => ({ ...p, detailAddress: d }))}
+                onZipAddress={(addr) => setCheckData((p) => ({ ...p, zipAddress: addr }))}
+                onDetailAddress={(d) => setCheckData((p) => ({ ...p, detailAddress: d }))}
               />
 
               <div className="country-phon">

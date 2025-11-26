@@ -15,6 +15,10 @@ const Payment = () => {
     navigate('/orderComplete');
   };
 
+  const handleBackSum = () => {
+    navigate('/orderSummary');
+  };
+
   return (
     <section className="Payment-wrap">
       <div className="payment-left">
@@ -49,7 +53,10 @@ const Payment = () => {
                 <p>실시간 계좌이체</p>
               </li>
             </ul>
-            <Button title="확인 및 결제진행" onClick={handleComplete} />
+            <div className="payment-btn">
+              <Button title="이전" onClick={handleBackSum} />
+              <Button title="확인 및 결제진행" onClick={handleComplete} />
+            </div>
           </div>
         </div>
       </div>
