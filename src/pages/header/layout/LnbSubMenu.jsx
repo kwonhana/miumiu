@@ -19,7 +19,7 @@ const LnbSubMenu = ({ categoryKey, isActive, onCloseLnb }) => {
     if (allItems.length === 0) return [];
     const filteredItems = allItems.filter((item) => item.category1 === categoryKey);
     // console.log(filteredItems, 'filteredItems');
-    const shuffled = [...filteredItems].sort(() => 0.5 - Math.random);
+    const shuffled = [...filteredItems].sort(() => 0.5 - Math.random());
     return shuffled.slice(0, 4);
   });
 
