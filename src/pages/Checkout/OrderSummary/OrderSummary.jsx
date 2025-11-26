@@ -69,6 +69,10 @@ const OrderSummary = () => {
     navigate('/payment');
   };
 
+  const handleBack = () => {
+    navigate('/shipping');
+  };
+
   const handleAgree19 = (e) => {
     setAgree19(e.target.checked);
     if (e.target.checked) {
@@ -118,11 +122,9 @@ const OrderSummary = () => {
                   <ul>
                     <li>{shippingData.country}</li>
                     <li>
-                      {shippingData.city} {shippingData.address}
+                      {shippingData.city} {shippingData.zipAddress}
                     </li>
-                    <li>
-                      {shippingData.postCode} {shippingData.detailAddress}
-                    </li>
+                    <li>{shippingData.detailAddress}</li>
                   </ul>
                 )}
               </div>
@@ -157,11 +159,9 @@ const OrderSummary = () => {
                     <li>
                       {shippingData.lastName} {shippingData.name}
                     </li>
-                    <li>{shippingData.address}</li>
+                    <li>{shippingData.zipAddress}</li>
                     <li>{shippingData.detailAddress}</li>
-                    <li>
-                      {shippingData.city} {shippingData.postCode}
-                    </li>
+                    <li>{shippingData.city}</li>
                     <li>
                       {shippingData.countryNum} {shippingData.phone}
                     </li>
@@ -213,7 +213,7 @@ const OrderSummary = () => {
             </div>
           )}
           <div className="order-btn">
-            <Button title="이전" />
+            <Button title="이전" onClick={handleBack} />
             <Button title="확인 및 결제진행" onClick={handlePayment} />
           </div>
         </div>

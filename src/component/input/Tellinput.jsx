@@ -45,6 +45,7 @@ const Tellinput = ({ phone, onPhone, countNum, onCountNum }) => {
             </option>
           ))}
         </select>
+
         <input
           type="text"
           value={phone ?? ''}
@@ -52,7 +53,6 @@ const Tellinput = ({ phone, onPhone, countNum, onCountNum }) => {
           placeholder="전화번호를 입력해주세요"
           onChange={handlePhoneNumber}
         />
-        <div className="icon"></div>
         <div className="info">이 필드는 필수 입력란입니다.</div>
       </div>
     </div>
