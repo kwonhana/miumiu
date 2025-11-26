@@ -1,5 +1,5 @@
 import React from 'react';
-import './MypageBanner.scss';
+import './scss/MypageBanner.scss';
 
 const MypageBanner = ({ userName }) => {
   return (
@@ -13,14 +13,14 @@ const MypageBanner = ({ userName }) => {
         </div>
         <div className="banner-right">
           <div className="coupon">
-            <p className="title">쿠폰</p>
-            <p className="count">
-              2<span>개</span>
+            <p className="bannerTitle">쿠폰</p>
+            <p className="bannerCount">
+              3<span>개</span>
             </p>
           </div>
           <div className="point">
-            <p className="title">적립금</p>
-            <p className="count">19,600</p>
+            <p className="bannerTitle">적립금</p>
+            <p className="bannerCount">19,600</p>
           </div>
         </div>
       </div>

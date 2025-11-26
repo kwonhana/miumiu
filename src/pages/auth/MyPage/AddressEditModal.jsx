@@ -1,29 +1,23 @@
 import React from 'react';
+import './scss/AddressEditModal.scss';
 import PhoneInput from '../../../component/input/PhoneInput';
-import EmailInput from '../../../component/input/EmailInput';
-import './scss/InfoEditPopup.scss';
 
-const InfoEditPopup = () => {
+const AddressEditModal = () => {
   return (
     <div className="edit-popup-wrap">
       <div className="edit-popup">
         <div className="title-wrap">
-          <h2>회원 정보 수정하기</h2>
+          <h2>배송 정보 수정하기</h2>
           <div className="popupClose-icon"></div>
         </div>
 
         <div className="popup-content">
           <div className="input-wrap">
-            <h3>기본 정보</h3>
+            <h3>배송지 정보</h3>
 
-            <div className="lockedName-input">
+            <div className="nameEdit-input">
               <p>이름</p>
-              <input type="text" placeholder="" readOnly />
-            </div>
-
-            <div className="lockedBirthday-input">
-              <p>생년월일</p>
-              <input type="text" placeholder="" readOnly />
+              <input type="text" placeholder="" />
             </div>
 
             <div className="phoneEdit-input">
@@ -31,14 +25,14 @@ const InfoEditPopup = () => {
               <PhoneInput />
             </div>
 
-            <div className="emailEdit-input">
-              <p>이메일</p>
-              <EmailInput />
+            <div className="addressEdit-input">
+              <p>주소</p>
+              <input type="text" placeholder="" />
             </div>
           </div>
           <div className="button-wrap">
             <button>취소</button>
-            <button>변경하기</button>
+            <button>수정하기</button>
           </div>
         </div>
       </div>
@@ -46,4 +40,4 @@ const InfoEditPopup = () => {
   );
 };
 
-export default InfoEditPopup;
+export default AddressEditModal;

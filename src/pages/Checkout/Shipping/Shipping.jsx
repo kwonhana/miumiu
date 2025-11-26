@@ -214,24 +214,12 @@ export const Shipping = () => {
                 onLastNameChange={(n) => setCheckData((p) => ({ ...p, lastName: n }))}
                 onNameChange={(n) => setCheckData((p) => ({ ...p, name: n }))}
               />
-              <Address
-                address={checkData.address}
-                onAddChange={(a) => setCheckData((p) => ({ ...p, address: a }))}
-              />
+
               <DetailAddress
                 detailAddress={checkData.detailAddress}
                 onDeAddress={(d) => setCheckData((p) => ({ ...p, detailAddress: d }))}
               />
-              <div className="city-post">
-                <SelectCity
-                  city={checkData.city}
-                  onCityChange={(v) => setCheckData((prev) => ({ ...prev, city: v }))}
-                />
-                <PostCode
-                  postCode={checkData.postCode}
-                  onPostCode={(p) => setCheckData((c) => ({ ...c, postCode: p }))}
-                />
-              </div>
+
               <div className="country-phon">
                 <div className="base-input">
                   <p>국가*</p>
