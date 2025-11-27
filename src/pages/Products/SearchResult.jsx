@@ -1,5 +1,5 @@
-// SearchResult.jsx 수정 예시
-import React, { useEffect, useState } from 'react';
+// src/pages/Products/SearchResult.jsx
+import React, { useEffect, useState, useMemo } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
 import { useProductsStore } from '../../store/useProductsStore';
 import { useSearchState } from '../../store/useSearchState';
@@ -9,134 +9,158 @@ import './scss/SearchResult.scss';
 
 const SearchResult = () => {
   const [searchParams] = useSearchParams();
-  const query = searchParams.get('q');
+  const queryParam = searchParams.get('q');
 
   const { filtered, onSearch, onFetchItems } = useProductsStore();
   const { currentSearchQuery, setCurrentSearchQuery } = useSearchState();
 
-  const [navFilteredList, setNavFilteredList] = useState(null); // 네비(카테고리) 필터 결과
-  const [filterWrapList, setFilterWrapList] = useState(null); // 필터랩(컬렉션/소재/정렬) 결과
+  // 🔹 현재 선택된 1차 카테고리 코드 (예: 'bags', 'shoes')
+  const [activeCategory, setActiveCategory] = useState(null);
+
+  // 🔹 필터랩(소재/컬렉션/정렬) 옵션
+  const [filterOptions, setFilterOptions] = useState({
+    collection: '',
+    fabric: '',
+    sort: '',
+  });
+
   const [isFilterOpen, setIsFilterOpen] = useState(false);
 
-  // 🔹 검색으로 걸러진 기본 리스트
-  const baseFromSearch = filtered || [];
+  // 🔹 검색 결과 (기본 리스트)
+  // 🔹 1차: 검색 결과 + id 기준 중복 제거
+  const baseFromSearch = React.useMemo(() => {
+    const list = filtered || [];
+    const seen = new Set();
+    return list.filter((item) => {
+      if (!item.id) return true; // id 없으면 일단 통과
+      if (seen.has(item.id)) return false; // 이미 본 id면 제거
+      seen.add(item.id);
+      return true;
+    });
+  }, [filtered]);
 
-  // 🔹 1차: 카테고리(네비)로 한 번 거른 리스트
-  const baseList = navFilteredList || baseFromSearch;
+  const displayQuery = queryParam || currentSearchQuery;
 
-  // 🔹 2차: 필터랩 결과가 있으면 그걸 최종으로 사용
-  const displayList = filterWrapList || baseList;
-
-  const displayQuery = query || currentSearchQuery;
-
-  // 필터랩에 넘길 컬렉션/소재 목록은 "현재 기준 리스트(baseList)"에서 추출
-  const collectionArray = Array.from(
-    new Set(baseList.map((item) => item.collection).filter(Boolean))
-  );
-  const fabricArray = Array.from(
-    new Set(
-      baseList
-        .map((item) => (item.material ? item.material.replace(/^주 소재:\s*/, '').trim() : ''))
-        .filter(Boolean)
-    )
-  );
-
-  // 전체 아이템 가져오기
-  useEffect(() => {
-    onFetchItems();
-  }, [onFetchItems]);
-
-  // URL q 변경 시 검색 실행
-  useEffect(() => {
-    if (query) {
-      onSearch(query);
-      setCurrentSearchQuery(query);
-      setNavFilteredList(null);
-      setFilterWrapList(null); // 검색어 바뀌면 필터 초기화
-    }
-  }, [query, onSearch, setCurrentSearchQuery]);
-
-  // 🔸 네비에서 카테고리 필터(또는 "모든 룩 보기") 했을 때
-  const handleFilterChange = (result) => {
-    // result === null → 네비 필터 없음 (기본 검색 결과로)
-    if (!result) {
-      setNavFilteredList(null);
-    } else {
-      setNavFilteredList(result);
-    }
-    // 카테고리 바꾸면 필터랩 결과도 초기화
-    setFilterWrapList(null);
-  };
-
-  // 🔸 필터랩 열기/닫기
-  const handleOpenFilter = () => setIsFilterOpen(true);
-  const handleCloseFilter = () => setIsFilterOpen(false);
-
-  // 가격 문자열 → 숫자
+  // 🔹 가격 문자열 → 숫자
   const parsePrice = (price) => {
     if (!price) return 0;
     const num = parseInt(String(price).replace(/[^0-9]/g, ''), 10);
     return isNaN(num) ? 0 : num;
   };
 
-  // 🔸 필터랩에서 "필터 적용하기" 눌렀을 때
-  const handleApplyFilter = ({ collection, fabric, sort }) => {
-    let result = baseList; // 현재 기준 리스트(검색 + 네비 필터 적용된 상태)
+  // 🔥 최종적으로 화면에 뿌릴 리스트: 항상 "검색 결과"에서만 파생
+  const displayList = useMemo(() => {
+    let result = [...baseFromSearch];
 
-    // 1) 컬렉션 필터
-    if (collection) {
-      result = result.filter((item) => item.collection === collection);
+    // 1) 카테고리 탭 필터
+    if (activeCategory) {
+      result = result.filter((item) => item.category1 === activeCategory);
     }
 
-    // 2) 소재 필터
-    if (fabric) {
+    // 2) 컬렉션 필터
+    if (filterOptions.collection) {
+      result = result.filter((item) => item.collection === filterOptions.collection);
+    }
+
+    // 3) 소재 필터
+    if (filterOptions.fabric) {
       result = result.filter((item) => {
         const materialClean = item.material ? item.material.replace(/^주 소재:\s*/, '').trim() : '';
-        return materialClean === fabric;
+        return materialClean === filterOptions.fabric;
       });
     }
 
-    // 3) 정렬 적용
-    if (sort) {
-      const sorted = [...result];
-      switch (sort) {
+    // 4) 정렬
+    if (filterOptions.sort) {
+      switch (filterOptions.sort) {
         case 'name-asc':
-          sorted.sort((a, b) => (a.name || '').localeCompare(b.name || ''));
-          result = sorted;
+          result.sort((a, b) => (a.name || '').localeCompare(b.name || ''));
           break;
         case 'name-desc':
-          sorted.sort((a, b) => (b.name || '').localeCompare(a.name || ''));
-          result = sorted;
+          result.sort((a, b) => (b.name || '').localeCompare(a.name || ''));
           break;
         case 'price-asc':
-          sorted.sort((a, b) => parsePrice(a.price) - parsePrice(b.price));
-          result = sorted;
+          result.sort((a, b) => parsePrice(a.price) - parsePrice(b.price));
           break;
         case 'price-desc':
-          sorted.sort((a, b) => parsePrice(b.price) - parsePrice(a.price));
-          result = sorted;
+          result.sort((a, b) => parsePrice(b.price) - parsePrice(a.price));
           break;
         default:
           break;
       }
     }
 
-    // 필터 결과 저장 (아무것도 없으면 빈 배열 or null 선택 가능)
-    setFilterWrapList(result.length ? result : []);
+    return result;
+  }, [baseFromSearch, activeCategory, filterOptions]);
+
+  // 🔹 필터랩에 보여줄 컬렉션/소재 목록은 "현재 카테고리 적용된 리스트" 기준으로
+  const collectionArray = useMemo(
+    () => Array.from(new Set(displayList.map((item) => item.collection).filter(Boolean))),
+    [displayList]
+  );
+
+  const fabricArray = useMemo(
+    () =>
+      Array.from(
+        new Set(
+          displayList
+            .map((item) => (item.material ? item.material.replace(/^주 소재:\s*/, '').trim() : ''))
+            .filter(Boolean)
+        )
+      ),
+    [displayList]
+  );
+
+  // 전체 아이템 최초 로드
+  useEffect(() => {
+    onFetchItems();
+  }, [onFetchItems]);
+
+  // 검색어(q) 바뀔 때마다 검색 실행 + 필터 초기화
+  useEffect(() => {
+    if (queryParam) {
+      onSearch(queryParam);
+      setCurrentSearchQuery(queryParam);
+      setActiveCategory(null);
+      setFilterOptions({ collection: '', fabric: '', sort: '' });
+    }
+  }, [queryParam, onSearch, setCurrentSearchQuery]);
+
+  // 🔸 네비(카테고리 탭)에서 카테고리 변경
+  const handleCategoryChange = (cateCode) => {
+    // cateCode === null → "모든 룩 보기"
+    setActiveCategory(cateCode);
+    // 카테고리 바꾸면 컬렉션/소재/정렬은 그대로 둘 수도 있고 초기화할 수도 있음
+    // 필요하면 아래 주석 풀어서 카테고리 변경 시 필터 초기화
+    // setFilterOptions({ collection: '', fabric: '', sort: '' });
+  };
+
+  // 🔸 필터랩 열기/닫기
+  const handleOpenFilter = () => setIsFilterOpen(true);
+  const handleCloseFilter = () => setIsFilterOpen(false);
+
+  // 🔸 필터랩에서 "필터 적용하기" 눌렀을 때
+  const handleApplyFilter = ({ collection, fabric, sort }) => {
+    setFilterOptions({
+      collection: collection || '',
+      fabric: fabric || '',
+      sort: sort || '',
+    });
     setIsFilterOpen(false);
   };
-  console.log('[SearchResult] fabricArray:', fabricArray);
+  console.log((p) => p.id);
   return (
     <div className="search-result-container">
-      {/* 상단 네비: 카테고리 필터 + "필터 및 정렬" 버튼 */}
+      {/* 상단 네비: "검색 결과" 기준 카테고리 탭 + 필터 버튼 */}
       <ProductFilterNav
-        list={baseFromSearch}
-        query={!!query}
-        onFilter={handleFilterChange}
+        list={baseFromSearch} // 🔥 항상 "검색 결과" 기준
+        query={!!queryParam}
+        activeCategory={activeCategory}
+        onChangeCategory={handleCategoryChange}
         onOpenFilter={handleOpenFilter}
       />
 
-      {/* 필터랩: 정렬 + 컬렉션 + 소재 */}
+      {/* 필터랩(모달) */}
       <ProductFilterWrap
         collection={collectionArray}
         fabric={fabricArray}
@@ -145,7 +169,7 @@ const SearchResult = () => {
         onApplyFilter={handleApplyFilter}
       />
 
-      {/* 검색 결과 배너 */}
+      {/* 검색 결과 타이틀 */}
       <div className="ProductBanner">
         <h2>
           "<span>{displayQuery || ''}</span>" 검색 결과
@@ -155,8 +179,9 @@ const SearchResult = () => {
 
       {/* 상품 리스트 */}
       <ul className="search-product-list">
-        {displayList.map((p) => (
-          <li className="item" key={p.id}>
+        {displayList.map((p, index) => (
+          <li className="item" key={`${p.id || 'no-id'}-${index}`}>
+            {/* 여기 p.id가 진짜로 유니크한지만 한 번 확인! */}
             <Link to={`/product/${p.id}`}>
               <img
                 src={

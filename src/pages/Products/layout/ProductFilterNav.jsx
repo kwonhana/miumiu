@@ -1,73 +1,61 @@
 // src/pages/Products/layout/ProductFilterNav.jsx
-import React, { useState } from 'react';
+import React from 'react';
 import '../scss/ProductFilterWrap.scss';
 import { Link } from 'react-router-dom';
 
-const ProductFilterNav = ({ list, query, onFilter, onOpenFilter }) => {
-  const cate = Array.from(new Set(list.map((el) => el.category1)));
-  const cateKor = Array.from(new Set(list.map((el) => el.categoryKor1)));
-
-  const cateObj = Array.from(
+const ProductFilterNav = ({ list, query, activeCategory, onChangeCategory, onOpenFilter }) => {
+  // 🔹 검색 결과(list) 안에 있는 category1 / categoryKor1 쌍만 추출
+  const catePairs = Array.from(
     new Map(
-      list.map((el) => {
-        const key = `${el.categoryKor2}-${el.category1}-${el.category2}`;
-        return [
-          key,
-          {
-            kor1: el.categoryKor1,
-            kor2: el.categoryKor2,
-            cate: el.category1,
-            cate2: el.category2,
-          },
-        ];
-      })
-    ).values()
+      list.map((el) => [el.category1, el.categoryKor1]) // key: code, value: label
+    ).entries()
   );
 
-  const handleFilter = (id) => {
-    const filterItem = list.filter((item) => item.categoryKor1 === id);
-    if (query && onFilter) onFilter(filterItem);
+  const handleClickAll = () => {
+    if (!query) return;
+    onChangeCategory(null); // 🔥 전체 보기
   };
 
-  const handleShowAll = () => {
-    if (query && onFilter) onFilter(list);
+  const handleClickCategory = (cateCode) => {
+    if (!query) return;
+    onChangeCategory(cateCode); // 🔥 해당 카테고리 선택
   };
 
   return (
     <div className="ProductNav">
       <div className="nav-inner">
         <ul>
+          {/* 모든 룩 보기 */}
           <li>
             {!query ? (
-              <Link to={`/${cate}/`} className="link">
+              <Link to="/" className="link">
                 모든 룩 보기
               </Link>
             ) : (
-              <button className="link" onClick={handleShowAll}>
+              <button
+                className={`link ${!activeCategory ? 'active' : ''}`}
+                type="button"
+                onClick={handleClickAll}>
                 모든 룩 보기
               </button>
             )}
           </li>
 
-          {!query
-            ? cateObj.map((el, i) => (
-                <li key={i}>
-                  <Link to={`/${el.cate}/${el.cate2}`} className="link">
-                    {el.kor2}
-                  </Link>
-                </li>
-              ))
-            : cateKor.map((c, id) => (
-                <li key={id}>
-                  <button type="button" onClick={() => handleFilter(c)}>
-                    {c}
-                  </button>
-                </li>
-              ))}
+          {/* 검색 결과에 등장한 카테고리1 탭 */}
+          {query &&
+            catePairs.map(([code, label]) => (
+              <li key={code}>
+                <button
+                  type="button"
+                  className={activeCategory === code ? 'active' : ''}
+                  onClick={() => handleClickCategory(code)}>
+                  {label}
+                </button>
+              </li>
+            ))}
         </ul>
 
         <div className="button-wrap">
-          {/* ✅ 여기서 필터 랩 열기 */}
           <button type="button" onClick={onOpenFilter}>
             필터 및 정렬
           </button>

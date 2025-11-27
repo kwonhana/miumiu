@@ -30,10 +30,6 @@ const Login = () => {
     await onGoogleLogin();
     navigate('/');
   };
-  //1-3 카카오로그인
-  const handleKakaoLogin = async () => {
-    await onKakaoLogin();
-  };
 
   //2. 메서드
   const handleLogin = async (e) => {
@@ -125,11 +121,6 @@ const Login = () => {
               <p>
                 <button type="button" className="btnGoogle" onClick={handleGoogleLogin}>
                   구글 계정으로 로그인
-                </button>
-              </p>
-              <p>
-                <button type="button" className="btnKakao" onClick={handleKakaoLogin}>
-                  카카오 계정으로 로그인
                 </button>
               </p>
             </div>
