@@ -1,3 +1,4 @@
+//TODO firebase API
 //sdk 초기화
 import { initializeApp } from 'firebase/app';
 // GoogleAuthProvider

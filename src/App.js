@@ -14,12 +14,10 @@ import ResetID from './pages/auth/ResetID/ResetID';
 import ResetPassword from './pages/auth/ResetPassword/ResetPassword';
 import VerifyEmail from './pages/auth/VerifyEmail/VerifyEmail';
 import Cart from './pages/Checkout/Cart/Cart';
-import { Coupon } from './pages/Checkout/Coupon/Coupon';
 import OrderComplete from './pages/Checkout/OrderComplete/OrderComplete';
 import OrderSummary from './pages/Checkout/OrderSummary/OrderSummary';
 import Payment from './pages/Checkout/Payment/Payment';
 import { Shipping } from './pages/Checkout/Shipping/Shipping';
-// import Products from './pages/Products/Products';
 import ProductDetail from './pages/Products/ProductDetail';
 import { useProductsStore } from './store/useProductsStore';
 import { useEffect, useState } from 'react';
@@ -99,7 +97,6 @@ function App() {
         <Route path="resetpassword" element={<ResetPassword />} />
         <Route path="verifyEmail" element={<VerifyEmail />} />
         <Route path="cart" element={<Cart />} />
-        <Route path="coupon" element={<Coupon />} />
         <Route path="orderComplete" element={<OrderComplete />} />
         <Route path="orderSummary" element={<OrderSummary />} />
         <Route path="payment" element={<Payment />} />
