@@ -3,8 +3,9 @@ import { create } from 'zustand';
 import { products } from '../api/products';
 import { categoryKorMap, CustomItem } from './data';
 import { db } from '../api/firebase';
-import { doc, getDoc, setDoc } from 'firebase/firestore';
+import { doc, getDoc, setDoc, collection, addDoc, serverTimestamp } from 'firebase/firestore';
 import { useAuthStore } from '../api/authStore';
+import { generateOrderNumber } from '../pages/Checkout/MyOrder/RamdomOrderNumber';
 
 // 🔹 현재 로그인된 유저 UID 가져오는 헬퍼
 const getCurrentUid = () => {
@@ -32,8 +33,8 @@ export const useProductsStore = create((set, get) => ({
   finalPrice: 0,
   selectedCoupon: null,
 
-  //TODO 유저별 위시/카트 로드/저장
-  // 로그인/계정변경 시 호출 → Firestore에 저장된 위시/카트 불러오기
+  //TODO 유저별 위시/카트 firebase 로드/저장
+  // 로그인/계정변경 시 호출 → Firebase에 저장된 위시/카트 불러오기
   loadUserCartAndWish: async () => {
     const uid = getCurrentUid();
     if (!uid) return;
@@ -63,7 +64,7 @@ export const useProductsStore = create((set, get) => ({
     }
   },
 
-  //TODO 위시/카트 변경 시 Firestore에 저장
+  //TODO 위시/카트 변경 시 Firebase에 저장
   saveUserCartAndWish: async () => {
     const uid = getCurrentUid();
     if (!uid) return;
@@ -283,7 +284,7 @@ export const useProductsStore = create((set, get) => ({
     });
   },
 
-  // -------------------- 장바구니 --------------------
+  // TODO 장바구니 --------------------
   onAddToCart: (product, addCount = 1) => {
     const cart = get().cartItems;
     const existing = cart.find((item) => item.id === product.id);
@@ -382,7 +383,62 @@ export const useProductsStore = create((set, get) => ({
     set({ discount, finalPrice });
   },
 
-  // -------------------- 위시리스트 --------------------
+  createOrder: async ({ shippingData, paymentData, orderMessage }) => {
+    const uid = getCurrentUid();
+    if (!uid) {
+      alert('로그인이 필요합니다.');
+      return null;
+    }
+
+    const { cartItems, totalPrice, discount, finalPrice } = get();
+
+    if (!cartItems || cartItems.length === 0) {
+      alert('장바구니가 비어 있습니다.');
+      return null;
+    }
+
+    try {
+      const ordersRef = collection(db, 'users', uid, 'orders');
+
+      // ⭐ UID 없는 주문번호 생성 (3번 방식)
+      const orderNumber = generateOrderNumber();
+
+      const orderDoc = {
+        orderNumber, // ★ UID 없음!
+        userId: uid,
+        items: cartItems,
+        totalPrice,
+        discount,
+        finalPrice,
+        shipping: shippingData || null,
+        payment: paymentData || null,
+        message: orderMessage || '',
+        status: '주문완료',
+        createdAt: new Date(),
+      };
+
+      const docRef = await addDoc(ordersRef, orderDoc);
+
+      // 장바구니 초기화
+      set({
+        cartItems: [],
+        cartCount: 0,
+        totalPrice: 0,
+        discount: 0,
+        finalPrice: 0,
+        selectedCoupon: null,
+      });
+
+      await get().saveUserCartAndWish();
+
+      return docRef.id;
+    } catch (err) {
+      console.error('주문 생성 에러:', err);
+      alert('주문 저장 실패');
+      return null;
+    }
+  },
+  //TODO 위시리스트 --------------------
   onToggleWish: async (product) => {
     const uid = getCurrentUid();
     if (!uid) {

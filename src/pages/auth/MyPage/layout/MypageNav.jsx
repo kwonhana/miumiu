@@ -1,5 +1,5 @@
 import React from 'react';
-import './scss/MypageNav.scss';
+import '../scss/MypageNav.scss';
 import { Link } from 'react-router-dom';
 
 //TODO 마이페이지 탭 네비

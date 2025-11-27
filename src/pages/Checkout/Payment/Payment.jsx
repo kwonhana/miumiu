@@ -8,11 +8,42 @@ import { useProductsStore } from '../../../store/useProductsStore';
 const Payment = () => {
   const navigate = useNavigate();
   const [selectedPayment, setSelectedPayment] = useState('');
-  const { onClearCart } = useProductsStore();
+  const { createOrder } = useProductsStore();
 
-  const handleComplete = () => {
-    onClearCart();
-    navigate('/orderComplete');
+  const handleComplete = async () => {
+    if (!selectedPayment) {
+      alert('결제수단을 선택해 주세요.');
+      return;
+    }
+
+    const shippingData = JSON.parse(localStorage.getItem('order_shipping_data') || '{}');
+
+    if (!shippingData || !shippingData.lastName) {
+      alert('배송 정보를 찾을 수 없습니다. 다시 주문 진행을 해주세요.');
+      return;
+    }
+
+    const paymentData = {
+      method: selectedPayment, // 'kakao' | 'credit' | 'cash'
+      status: 'paid',
+      paidAt: new Date(),
+    };
+
+    const orderId = await createOrder({
+      shippingData,
+      paymentData,
+      orderMessage: shippingData.message || '',
+    });
+
+    if (!orderId) {
+      alert('주문 저장에 실패했습니다.');
+      return;
+    }
+
+    // localStorage 정리(선택)
+    localStorage.removeItem('order_shipping_data');
+
+    navigate(`/orderComplete/${orderId}`);
   };
 
   const handleBackSum = () => {

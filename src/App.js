@@ -89,7 +89,7 @@ function App() {
         <Route path="wishlist" element={<Navigate to="/mypage/wishlist" replace />} />
         <Route path="myOrder" element={<Navigate to="/mypage/order" replace />} />
         <Route path="cart" element={<Cart />} />
-        <Route path="orderComplete" element={<OrderComplete />} />
+        <Route path="orderComplete/:id" element={<OrderComplete />} />
         <Route path="orderSummary" element={<OrderSummary />} />
         <Route path="payment" element={<Payment />} />
         <Route path="shipping" element={<Shipping openModal={openModal} />} />

@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react';
+import { useNavigate, useParams } from 'react-router-dom';
 import { useAuthStore } from '../../../api/authStore';
-import MypageBanner from './MypageBanner';
-import MypageNav from './MypageNav';
-import MyInfo from './MyInfo';
+import MypageBanner from './layout/MypageBanner';
+import MypageNav from './layout/MypageNav';
+import MyInfo from './layout/MyInfo';
 import './scss/Mypage.scss';
 import CousLet from '../../Home/layout/CouLet';
 import WIshList from '../WishList/WIshList';
-import { useNavigate, useParams } from 'react-router-dom';
 import MyOrder from '../../Checkout/MyOrder/MyOrder';
 
 //TODO 마이페이지  시작점

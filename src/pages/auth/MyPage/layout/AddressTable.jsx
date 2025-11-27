@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './scss/AddressTable.scss';
+import '../scss/AddressTable.scss';
 import AddressEditModal from './AddressEditModal';
 
 //TODO 마이페이지  배송지 리스트

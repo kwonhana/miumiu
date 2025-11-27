@@ -61,11 +61,25 @@ const OrderSummary = () => {
   };
 
   const handlePayment = () => {
-    // 매장 수령 때만 동의 검증
     if (fixTab === 'store' && !agree19) {
       setAgree19Err(true);
       return;
     }
+
+    if (!shippingData) {
+      alert('배송 정보가 없습니다. 다시 진행해 주세요.');
+      return;
+    }
+
+    // Payment에서 쓸 shipping + 탭 + 메세지 저장
+    const orderShippingData = {
+      ...shippingData,
+      receiveType: fixTab,
+      message: msg,
+    };
+
+    localStorage.setItem('order_shipping_data', JSON.stringify(orderShippingData));
+
     navigate('/payment');
   };
 

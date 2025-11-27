@@ -1,7 +1,7 @@
 import React from 'react';
-import PhoneInput from '../../../component/input/PhoneInput';
-import EmailInput from '../../../component/input/EmailInput';
-import './scss/InfoEditPopup.scss';
+import PhoneInput from '../../../../component/input/PhoneInput';
+import EmailInput from '../../../../component/input/EmailInput';
+import '../scss/InfoEditPopup.scss';
 
 //TODO 마이페이지 회원정보 수정하기
 const InfoEditPopup = ({ userData, onclose }) => {
