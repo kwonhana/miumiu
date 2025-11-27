@@ -44,6 +44,7 @@ const AllProducts = () => {
       setExtraFilteredList(result);
     }
   };
+  // 필터창 열기
   const handleOpenFilter = () => {
     console.log(' handleOpenFilter 실행됨!');
     setIsFilterOpen(true);

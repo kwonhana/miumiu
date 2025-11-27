@@ -68,11 +68,7 @@ const ProductFilterNav = ({ list, query, onFilter, onOpenFilter }) => {
 
         <div className="button-wrap">
           {/* ✅ 여기서 필터 랩 열기 */}
-          <button
-            type="button"
-            onClick={() => {
-              if (onOpenFilter) onOpenFilter();
-            }}>
+          <button type="button" onClick={onOpenFilter}>
             필터 및 정렬
           </button>
         </div>

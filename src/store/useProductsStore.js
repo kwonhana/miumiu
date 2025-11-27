@@ -32,7 +32,7 @@ export const useProductsStore = create((set, get) => ({
   finalPrice: 0,
   selectedCoupon: null,
 
-  // -------------------- 유저별 위시/카트 로드/저장 --------------------
+  //TODO 유저별 위시/카트 로드/저장
   // 로그인/계정변경 시 호출 → Firestore에 저장된 위시/카트 불러오기
   loadUserCartAndWish: async () => {
     const uid = getCurrentUid();
@@ -63,7 +63,7 @@ export const useProductsStore = create((set, get) => ({
     }
   },
 
-  // 위시/카트 변경 시 Firestore에 저장
+  //TODO 위시/카트 변경 시 Firestore에 저장
   saveUserCartAndWish: async () => {
     const uid = getCurrentUid();
     if (!uid) return;
@@ -113,7 +113,7 @@ export const useProductsStore = create((set, get) => ({
     set({ items: enriched, filtered: enriched });
   },
 
-  // -------------------- 검색 --------------------
+  // TODO 검색
   onSearch: (word) => {
     const query = word.toLowerCase().trim();
     const items = get().items;
@@ -142,7 +142,7 @@ export const useProductsStore = create((set, get) => ({
     return results;
   },
 
-  // -------------------- 필터링 --------------------
+  //TODO 필터링
   onCateOnly: (category1, category2) => {
     const items = get().items;
     let filtered = items;
