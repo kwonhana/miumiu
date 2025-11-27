@@ -1,9 +1,17 @@
+// src/store/useProductsStore.js
 import { create } from 'zustand';
 import { products } from '../api/products';
 import { categoryKorMap, CustomItem } from './data';
 import { db } from '../api/firebase';
 import { doc, getDoc, setDoc } from 'firebase/firestore';
 import { useAuthStore } from '../api/authStore';
+
+// 🔹 현재 로그인된 유저 UID 가져오는 헬퍼
+const getCurrentUid = () => {
+  const { user } = useAuthStore.getState();
+  const rawUid = user && (user.uid || user.userId || user.id);
+  return typeof rawUid === 'string' && rawUid.trim() ? rawUid : null;
+};
 
 export const useProductsStore = create((set, get) => ({
   // -------------------- 상품 --------------------
@@ -23,6 +31,71 @@ export const useProductsStore = create((set, get) => ({
   discount: 0,
   finalPrice: 0,
   selectedCoupon: null,
+
+  // -------------------- 유저별 위시/카트 로드/저장 --------------------
+  // 로그인/계정변경 시 호출 → Firestore에 저장된 위시/카트 불러오기
+  loadUserCartAndWish: async () => {
+    const uid = getCurrentUid();
+    if (!uid) return;
+
+    try {
+      const userRef = doc(db, 'users', uid);
+      const userDoc = await getDoc(userRef);
+
+      if (userDoc.exists()) {
+        const data = userDoc.data();
+        const cartItems = data.cartItems || [];
+        const wishList = data.wishList || [];
+        const totalPrice = cartItems.reduce(
+          (sum, item) => sum + (item.price || 0) * (item.count || 1),
+          0
+        );
+
+        set({
+          wishList,
+          cartItems,
+          cartCount: cartItems.length,
+          totalPrice,
+        });
+      }
+    } catch (err) {
+      console.error('유저 장바구니/위시 불러오기 에러:', err);
+    }
+  },
+
+  // 위시/카트 변경 시 Firestore에 저장
+  saveUserCartAndWish: async () => {
+    const uid = getCurrentUid();
+    if (!uid) return;
+
+    const { wishList, cartItems } = get();
+
+    try {
+      const userRef = doc(db, 'users', uid);
+      await setDoc(
+        userRef,
+        {
+          wishList,
+          cartItems,
+        },
+        { merge: true }
+      );
+    } catch (err) {
+      console.error('유저 장바구니/위시 저장 에러:', err);
+    }
+  },
+
+  // 로그아웃 시 메모리 상의 장바구니/위시 비우기
+  clearUserCartAndWish: () =>
+    set({
+      wishList: [],
+      cartItems: [],
+      cartCount: 0,
+      totalPrice: 0,
+      discount: 0,
+      finalPrice: 0,
+      selectedCoupon: null,
+    }),
 
   // -------------------- 상품 전체 로드 --------------------
   onFetchItems: async () => {
@@ -233,6 +306,9 @@ export const useProductsStore = create((set, get) => ({
       cartCount: updateCart.length,
       totalPrice: total,
     });
+
+    // 🔹 Firestore 반영
+    get().saveUserCartAndWish();
   },
 
   onRemoveCart: (id) => {
@@ -246,6 +322,9 @@ export const useProductsStore = create((set, get) => ({
       cartCount: updateCart.length,
       totalPrice: total,
     });
+
+    // 🔹 Firestore 반영
+    get().saveUserCartAndWish();
   },
 
   onPlusItem: (id) => {
@@ -257,6 +336,9 @@ export const useProductsStore = create((set, get) => ({
     const total = updateCart.reduce((sum, item) => sum + item.price * item.count, 0);
 
     set({ cartItems: updateCart, totalPrice: total });
+
+    // 🔹 Firestore 반영
+    get().saveUserCartAndWish();
   },
 
   onMinusItem: (id) => {
@@ -268,9 +350,13 @@ export const useProductsStore = create((set, get) => ({
     const total = updateCart.reduce((sum, item) => sum + item.price * item.count, 0);
 
     set({ cartItems: updateCart, totalPrice: total });
+
+    // 🔹 Firestore 반영
+    get().saveUserCartAndWish();
   },
 
   onClearCart: () => {
+    // 유저별로도 비울 거라 localStorage는 배송 정보만 정리 용도로 유지
     localStorage.removeItem('cartItems');
     localStorage.removeItem('shippingData');
     set({
@@ -281,6 +367,9 @@ export const useProductsStore = create((set, get) => ({
       finalPrice: 0,
       selectedCoupon: null,
     });
+
+    // 🔹 Firestore 반영
+    get().saveUserCartAndWish();
   },
 
   onSelectCoupon: (coupon) => set({ selectedCoupon: coupon }),
@@ -295,10 +384,8 @@ export const useProductsStore = create((set, get) => ({
 
   // -------------------- 위시리스트 --------------------
   onToggleWish: async (product) => {
-    const { user } = useAuthStore.getState();
-
-    const rawUid = user && (user.uid || user.userId || user.id);
-    if (!rawUid || typeof rawUid !== 'string') {
+    const uid = getCurrentUid();
+    if (!uid) {
       alert('로그인이 필요합니다.');
       return;
     }
@@ -311,24 +398,20 @@ export const useProductsStore = create((set, get) => ({
     set({ wishList: updatedWish });
 
     try {
-      const userRef = doc(db, 'users', rawUid);
-
-      // 🔥 기존 문서 유지하고 wishList만 수정하는 안전한 업데이트
-      await setDoc(userRef, { wishList: updatedWish }, { merge: true });
-
+      await get().saveUserCartAndWish();
       console.log('위시리스트 Firestore 업데이트 완료');
     } catch (err) {
       console.error(err);
     }
   },
 
+  // (원래 쓰던 함수 – 필요하면 그대로 사용 가능하지만,
+  // 사실상 loadUserCartAndWish로 통합해서 써도 됨)
   fetchWishList: async () => {
-    const { user } = useAuthStore.getState();
+    const uid = getCurrentUid();
+    if (!uid) return;
 
-    const rawUid = user && (user.uid || user.userId || user.id);
-    if (!rawUid || typeof rawUid !== 'string') return;
-
-    const userRef = doc(db, 'users', rawUid);
+    const userRef = doc(db, 'users', uid);
     const userDoc = await getDoc(userRef);
 
     if (userDoc.exists()) {

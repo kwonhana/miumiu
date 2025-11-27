@@ -86,7 +86,6 @@ const Join = () => {
 
       const userProfile = {
         uid: firebaseUser.uid,
-        userId: formData.userId,
         lastName: formData.lastName,
         name: formData.name,
         fullName: formData.lastName + formData.name,
@@ -98,6 +97,8 @@ const Join = () => {
         marketingAgree: formData.marketingAgree,
         provider: 'email',
         createdAt: new Date().toISOString(),
+        wishList: [],
+        cartItem: [],
       };
 
       await setDoc(userDocRef, userProfile);

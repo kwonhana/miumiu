@@ -20,20 +20,28 @@ const Lnb = ({ isOpen, onClose }) => {
       {isOpen && <div className="lnb-dimmed" onClick={handleClose}></div>}
 
       <nav className={`lnb-wrap ${isOpen ? 'active' : ''}`}>
-        <ul className="lnb-title">
-          {menuKeys.map((key) => {
-            const menuTitle = useHeaderStore.getState().menuData[key].title;
-            return (
-              <li key={key}>
-                <Link
-                  onClick={() => setActiveMenu(key)}
-                  className={activeMenu === key ? 'active' : ''}>
-                  {menuTitle}
-                </Link>
-              </li>
-            );
-          })}
-        </ul>
+        <div className="lnb-title-list">
+          <ul className="lnb-title">
+            {menuKeys.map((key) => {
+              const menuTitle = useHeaderStore.getState().menuData[key].title;
+              return (
+                <li key={key}>
+                  <Link
+                    onClick={() => setActiveMenu(key)}
+                    className={activeMenu === key ? 'active' : ''}>
+                    {menuTitle}
+                  </Link>
+                </li>
+              );
+            })}
+            <div className="map">
+              <Link to={'/local'} onClick={onClose}>
+                매장찾기
+              </Link>
+            </div>
+          </ul>
+        </div>
+
         <div className="lnb-list">
           {menuKeys.map((key) => (
             <LnbSubMenu

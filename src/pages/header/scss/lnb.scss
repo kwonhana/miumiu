@@ -50,6 +50,7 @@
 }
 
 .lnb-wrap {
+  justify-content: space-between;
   width: 100%;
   aspect-ratio: 1920/594;
   max-height: fit-content;
@@ -85,13 +86,16 @@
     font-weight: 500;
     display: flex;
     gap: 3rem;
-
     a {
       text-decoration: none;
 
       &.active {
         text-decoration: underline;
       }
+    }
+    .map {
+      margin-left: 71%;
+      @include main.font(1.8rem, 500, main.$base);
     }
   }
 

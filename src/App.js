@@ -1,3 +1,4 @@
+// src/App.jsx
 import './App.scss';
 
 import 'animate.css/animate.min.css';
@@ -35,6 +36,9 @@ import ScrollToTop from './ScrollToTop';
 import { Chatbot } from './component/feedback/Chatbot';
 import Modal from './component/feedback/Modal';
 
+// 🔹 추가: 로그인된 유저 정보 가져오기
+import { useAuthStore } from './api/authStore';
+
 function App() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [modalTitle, setModalTitle] = useState('');
@@ -52,11 +56,30 @@ function App() {
     setModalContentKey(null);
   };
 
-  const { onFetchItems, onMakeMenu } = useProductsStore();
+  // 🔹 상품/메뉴 관련
+  const { onFetchItems, onMakeMenu, loadUserCartAndWish, clearUserCartAndWish } =
+    useProductsStore();
+
+  // 🔹 로그인 유저
+  const user = useAuthStore((state) => state.user);
+
+  // 1) 상품 데이터 + 메뉴 생성
   useEffect(() => {
     onFetchItems();
     onMakeMenu();
   }, [onFetchItems, onMakeMenu]);
+
+  // 2) 유저가 바뀔 때마다 위시/카트 로드 or 초기화
+  useEffect(() => {
+    if (user) {
+      // 로그인 / 계정 변경 → 해당 유저의 위시/카트 불러오기
+      loadUserCartAndWish();
+    } else {
+      // 로그아웃 → 메모리 상태 초기화
+      clearUserCartAndWish();
+    }
+  }, [user, loadUserCartAndWish, clearUserCartAndWish]);
+
   return (
     <>
       <Header />

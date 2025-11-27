@@ -56,7 +56,6 @@ const LnbSubMenu = ({ categoryKey, isActive, onCloseLnb }) => {
         </div>
         <div className="lnb-right">
           <ul className="lnb-imgs">
-            {/* 확인필요 */}
             {randomItems.map((item) => (
               <li key={item.id}>
                 <Link to={`/product/${item.id}`} onClick={onCloseLnb}>
