@@ -4,6 +4,7 @@ import CartItem from '../layout/CartItem';
 import CartTotalPrice from '../layout/CartTotalPrice';
 import { useProductsStore } from '../../../store/useProductsStore';
 
+//TODO 장바구니
 const Cart = () => {
   const { cartCount } = useProductsStore();
   return (

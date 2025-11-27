@@ -4,6 +4,7 @@ import '../scss/CartTotalPrice.scss';
 import { useProductsStore } from '../../../store/useProductsStore';
 import { useNavigate } from 'react-router-dom';
 
+//TODO 장바구니 결제창
 const CartTotalPrice = ({ showCoupon = false, showVAT = false, showButton = true }) => {
   const { cartCount, totalPrice, discount, finalPrice } = useProductsStore();
   const navigate = useNavigate();

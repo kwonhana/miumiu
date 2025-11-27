@@ -2,6 +2,7 @@ import React from 'react';
 import '../scss/CartItem.scss';
 import { useProductsStore } from '../../../store/useProductsStore';
 
+//TODO 장바구니 아이템
 const CartItem = () => {
   const { cartItems, onMinusItem, onPlusItem, onRemoveCart } = useProductsStore();
   return (

@@ -6,6 +6,7 @@ import OngoingNone from './OngoingNone';
 import RecentNone from './RecentNone';
 import { useNavigate } from 'react-router-dom';
 
+// TODO 결제
 const MyOrder = () => {
   const navigate = useNavigate();
   return (

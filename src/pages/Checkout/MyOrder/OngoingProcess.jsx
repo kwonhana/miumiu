@@ -1,6 +1,7 @@
 import React from 'react';
 import './scss/OngoingProcess.scss';
 
+//TODO  배송 진행 단계
 const OngoingProcess = () => {
   return (
     <div className="ongoingProcess">

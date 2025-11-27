@@ -9,6 +9,7 @@ import WIshList from '../WishList/WIshList';
 import { useNavigate, useParams } from 'react-router-dom';
 import MyOrder from '../../Checkout/MyOrder/MyOrder';
 
+//TODO 마이페이지  시작점
 const Mypage = () => {
   const { tab } = useParams();
   const navigate = useNavigate();

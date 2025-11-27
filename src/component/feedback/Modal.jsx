@@ -1,6 +1,7 @@
 import React from 'react';
 import ModalText from './ModalText';
 
+//TODO
 const Modal = ({ title, contentKey, onClose }) => {
   const ModalContent = ModalText[contentKey];
 

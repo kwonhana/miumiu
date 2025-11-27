@@ -3,6 +3,7 @@ import AddressTable from './AddressTable';
 import InfoEditPopup from './InfoEditPopup';
 import AddressEditModal from './AddressEditModal';
 
+//TODO 내정보
 const MyInfo = ({ userData }) => {
   const [isOpen, setIsOpen] = useState(false);
   if (!userData) {

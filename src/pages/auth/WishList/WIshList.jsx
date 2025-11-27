@@ -6,6 +6,7 @@ import { useNavigate } from 'react-router-dom';
 import './WishList.scss';
 import './WishListPopup.scss';
 
+//TODO 찜리스트
 const WIshList = () => {
   const wishList = useProductsStore((state) => state.wishList);
   const onAddToCart = useProductsStore((state) => state.onAddToCart);

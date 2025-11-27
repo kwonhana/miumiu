@@ -9,10 +9,6 @@ import Login from './pages/auth/login/Login';
 import Footer from './pages/footer/Footer';
 import Join from './pages/auth/join/Join';
 import Mypage from './pages/auth/MyPage/Mypage';
-import OAuthRedirect from './pages/auth/OAuthRedirect/OAuthRedirect';
-import ResetID from './pages/auth/ResetID/ResetID';
-import ResetPassword from './pages/auth/ResetPassword/ResetPassword';
-import VerifyEmail from './pages/auth/VerifyEmail/VerifyEmail';
 import Cart from './pages/Checkout/Cart/Cart';
 import OrderComplete from './pages/Checkout/OrderComplete/OrderComplete';
 import OrderSummary from './pages/Checkout/OrderSummary/OrderSummary';
@@ -91,11 +87,6 @@ function App() {
         <Route path="mypage/:tab?" element={<Mypage />} />
         <Route path="wishlist" element={<Navigate to="/mypage/wishlist" replace />} />
         <Route path="myOrder" element={<Navigate to="/mypage/order" replace />} />
-
-        <Route path="OAuthRedirect" element={<OAuthRedirect />} />
-        <Route path="resetId" element={<ResetID />} />
-        <Route path="resetpassword" element={<ResetPassword />} />
-        <Route path="verifyEmail" element={<VerifyEmail />} />
         <Route path="cart" element={<Cart />} />
         <Route path="orderComplete" element={<OrderComplete />} />
         <Route path="orderSummary" element={<OrderSummary />} />

@@ -1,6 +1,7 @@
 import React from 'react';
 import './scss/RecentOrderTable.scss';
 
+//TODO  최근 구매 리스트
 const RecentOrderTable = () => {
   return (
     <table className="order-table">
