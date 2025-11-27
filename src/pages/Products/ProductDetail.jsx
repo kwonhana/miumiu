@@ -7,6 +7,8 @@ import ProductDetailSkeleton from './layout/ProductDetailSkeleton';
 import ProductDetailNav from './layout/ProductDetailNav';
 import ProductShoesSize from './layout/ProductShoesSize';
 import './scss/ProductDetail.scss';
+import CartList from './CartList';
+import { useAuthStore } from '../../api/authStore';
 
 const ProductDetail = () => {
   const { id } = useParams();
@@ -18,6 +20,10 @@ const ProductDetail = () => {
   // TODO 연관 아이템
   const [relatedProducts, setRelatedProducts] = useState([]);
   const [count, setCount] = useState(1);
+  // TODO 장바구니 리스트 팝업
+  const [showCartPopup, setShowCartPopup] = useState(false);
+  //TODO 로그인 유무
+  const { user, logout } = useAuthStore();
 
   //TODO 데이터 존재 여부 확인하여 데이터 가지고 오기
   useEffect(() => {
@@ -68,7 +74,7 @@ const ProductDetail = () => {
     navigate('/shipping');
   };
 
-  // TODO 장바구니 연결
+  // TODO 장바구니 팝업 연결
   const handleCart = () => {
     const productCart = {
       ...product,
@@ -79,7 +85,7 @@ const ProductDetail = () => {
 
     onAddToCart(productCart);
 
-    navigate('/cart');
+    setShowCartPopup(true);
   };
 
   const handleScroll = (targetID) => {
@@ -146,7 +152,11 @@ const ProductDetail = () => {
 
               <div className="price-button-wrap">
                 <Button onClick={handleCart} title="장바구니 담기" />
-                <Button onClick={handleShipping} title="구매하기" />
+                {user ? (
+                  <Button onClick={handleShipping} title="구매하기" />
+                ) : (
+                  <Button onClick={() => navigate(`/login`)} title="구매하기" />
+                )}
               </div>
             </div>
           </div>
@@ -236,6 +246,7 @@ const ProductDetail = () => {
           ))}
         </ul>
       </section>
+      {showCartPopup && <CartList onClose={() => setShowCartPopup(false)} />}
     </>
   );
 };

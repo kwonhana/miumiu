@@ -5,6 +5,7 @@ import AddressEditModal from './AddressEditModal';
 
 //TODO 내정보
 const MyInfo = ({ userData }) => {
+  console.log(userData, '유저데이터값');
   const [isOpen, setIsOpen] = useState(false);
   if (!userData) {
     return null;

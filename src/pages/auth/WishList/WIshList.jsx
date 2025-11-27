@@ -5,6 +5,7 @@ import { count } from 'firebase/firestore';
 import { useNavigate } from 'react-router-dom';
 import './WishList.scss';
 import './WishListPopup.scss';
+import CartList from '../../Products/CartList';
 
 //TODO 찜리스트
 const WIshList = () => {
@@ -18,6 +19,7 @@ const WIshList = () => {
   // TODO 삭제 팝업용
   const [deleteTarget, setDeleteTarget] = useState(null);
   const [isDeleteOpen, setIsDeleteOpen] = useState(false);
+  const [showCartPopup, setShowCartPopup] = useState(false);
 
   //TODO 카트 아이콘 클릭
   const handleClickCart = (wish) => {
@@ -29,6 +31,7 @@ const WIshList = () => {
     };
     onAddToCart(productCart);
     onToggleWish(wish);
+    setShowCartPopup(true);
   };
 
   // TODO 쓰레기통아이콘 클릭 -> 팝업 열기
@@ -120,6 +123,7 @@ const WIshList = () => {
           </div>
         )}
       </section>
+      {showCartPopup && <CartList onClose={() => setShowCartPopup(false)} />}
     </div>
   );
 };

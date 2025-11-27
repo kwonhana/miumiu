@@ -29,6 +29,7 @@ import ScrollToTop from './ScrollToTop';
 
 import { Chatbot } from './component/feedback/Chatbot';
 import Modal from './component/feedback/Modal';
+import CartList from './pages/Products/CartList';
 
 // 🔹 추가: 로그인된 유저 정보 가져오기
 import { useAuthStore } from './api/authStore';
@@ -106,6 +107,7 @@ function App() {
         <Route path="ProductDetailNav" element={<ProductDetailNav />} />
         <Route path="AllProducts" element={<AllProducts />} />
         <Route path="ProductFilterWrap" element={<ProductFilterWrap />} />
+        <Route path="CartList" element={<CartList />} />
       </Routes>
       <Footer openModal={openModal} />
       <Chatbot />

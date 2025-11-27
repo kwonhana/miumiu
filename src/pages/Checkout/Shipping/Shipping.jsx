@@ -11,11 +11,13 @@ import RadioCard from '../../../component/input/RadioCard';
 import { store, coupon } from '../../../store/data.js';
 import PointInput from '../../../component/input/PointInput.jsx';
 import { useProductsStore } from '../../../store/useProductsStore';
+import { useAuthStore } from '../../../api/authStore.js';
 
 export const Shipping = ({ openModal }) => {
   const navigate = useNavigate();
   const { onSelectCoupon, onFinalPrice } = useProductsStore();
   const [activeTab, setActiveTab] = useState('delivery');
+  const { user } = useAuthStore();
 
   const handleModalClick = (e) => {
     e.preventDefault();
@@ -40,6 +42,19 @@ export const Shipping = ({ openModal }) => {
     selectCoupon: '',
     country: '대한민국',
   });
+
+  //TODO 로그인된 유저 정보 입력
+  useEffect(() => {
+    if (user) {
+      setCheckData((prev) => ({
+        ...prev,
+        email: user.email || '',
+        lastName: user.lastName || '',
+        name: user.name || '',
+        phone: user.phone || '',
+      }));
+    }
+  }, [user]);
 
   // TODO 뉴스, 매장, 쿠폰 값 업데이트
   const handleInputChange = (e) => {
@@ -80,10 +95,6 @@ export const Shipping = ({ openModal }) => {
       }
       if (!checkData.name) {
         alert('이름을 입력해주세요.');
-        return false;
-      }
-      if (!checkData.zipAddress) {
-        alert('주소를 입력해주세요.');
         return false;
       }
       if (!checkData.phone) {
@@ -241,8 +252,8 @@ export const Shipping = ({ openModal }) => {
               <DetailAddress
                 zipAddress={checkData.zipAddress}
                 detailAddress={checkData.detailAddress}
-                onZipAddress={(addr) => setCheckData((p) => ({ ...p, zipAddress: addr }))}
-                onDetailAddress={(d) => setCheckData((p) => ({ ...p, detailAddress: d }))}
+                setZipAddress={(addr) => setCheckData((p) => ({ ...p, zipAddress: addr }))}
+                setDetailAddress={(d) => setCheckData((p) => ({ ...p, detailAddress: d }))}
               />
 
               <div className="country-phon">

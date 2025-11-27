@@ -1,6 +1,7 @@
 import React from 'react';
 import '../scss/CartItem.scss';
 import { useProductsStore } from '../../../store/useProductsStore';
+import { Link } from 'react-router-dom';
 
 //TODO 장바구니 아이템
 const CartItem = () => {
@@ -10,7 +11,9 @@ const CartItem = () => {
       {cartItems.map((item) => (
         <div className="CartItem" key={item.id}>
           <div className="itemleft-Img">
-            <img src={`/assets/images/detail/${item.cartImg}`} alt={item.name} />
+            <Link to={`/product/${item.id}`}>
+              <img src={`/assets/images/detail/${item.cartImg}`} alt={item.name} />
+            </Link>
           </div>
           <div className="itemRight">
             <div className="top">
