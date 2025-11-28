@@ -15,7 +15,7 @@ const OrderComplete = () => {
 
       <div className="OrderCom-move">
         <div className="white">
-          <Link to={'/cart'}>장바구니로 가기</Link>
+          <Link to={'/mypage/info'}>마이페이지로 가기</Link>
         </div>
         <div className="black">
           <Link to={'/'}>홈으로 가기</Link>

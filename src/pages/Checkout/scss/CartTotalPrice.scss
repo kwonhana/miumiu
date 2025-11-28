@@ -3,10 +3,10 @@
 .CartTotalPrice {
   width: 37.5%;
   flex-grow: 1;
-  padding: 90px 30px 60px 30px;
+  padding: 0px 30px 60px 30px;
   position: sticky;
-  top: 0px;
-  height: 100vh;
+  top: 80px;
+  height: calc(100vh - 80px);
 
   b {
     @include ct.font(2.2rem, 600, ct.$base);
@@ -83,7 +83,7 @@
     flex-direction: column;
 
     .accordion-list {
-      height: 250px;
+      height: calc(100vh - 500px);
       overflow-y: auto;
       overflow-x: hidden;
       overscroll-behavior: contain;

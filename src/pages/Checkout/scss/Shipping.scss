@@ -186,11 +186,15 @@
       gap: 20px;
     }
     .radio-card {
-      display: flex;
-      gap: 16px;
-      flex: 1;
       border: 1px solid sh.$base;
-      padding: 30px;
+      width: 50%;
+
+      .cardLabel {
+        display: flex;
+        gap: 16px;
+        flex: 1;
+        padding: 30px;
+      }
 
       input {
         width: 2rem;
