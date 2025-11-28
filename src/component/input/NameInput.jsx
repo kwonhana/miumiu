@@ -81,7 +81,7 @@ const NameInput = ({ lastName, name, onLastNameChange, onNameChange }) => {
             className="lastName-input"
             type="text"
             placeholder="성"
-            value={lastName}
+            value={lastName || ''}
             onChange={handleLastNameChange}
             required
           />
@@ -97,7 +97,7 @@ const NameInput = ({ lastName, name, onLastNameChange, onNameChange }) => {
             className="name-input"
             type="text"
             placeholder="이름(성 제외)"
-            value={name}
+            value={name || ''}
             onChange={handleNameChange}
             required
           />

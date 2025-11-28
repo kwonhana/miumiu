@@ -153,7 +153,7 @@ const ProductDetail = () => {
           <div className="ProductDetail-top">
             <div className="top-left">
               <div className="main-image">
-                <img src={`${mainImage}`} alt="" />
+                <img src={`${mainImage || null}`} alt="" />
               </div>
               <ul className="sub-image">
                 {product?.detail_images?.map((el, index) => {

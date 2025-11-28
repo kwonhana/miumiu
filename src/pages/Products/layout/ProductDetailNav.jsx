@@ -28,14 +28,14 @@ const ProductDetailNav = ({ onScroll, onCart, onShipping }) => {
             </Link>
           </li>
           <li>
-            <Link className="link" To="#info-text" onClick={(e) => handleNavClick(e, 'info-text')}>
+            <Link className="link" to="#info-text" onClick={(e) => handleNavClick(e, 'info-text')}>
               제품 설명
             </Link>
           </li>
           <li>
             <Link
               className="link "
-              TO="#product-size"
+              to="#product-size"
               onClick={(e) => handleNavClick(e, 'product-size')}>
               제품 세부 정보
             </Link>

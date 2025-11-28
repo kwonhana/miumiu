@@ -4,7 +4,7 @@ import '../scss/ProductShoesSize.scss';
 const ProductShoesSize = () => {
   return (
     <div className="ProductShoesSize">
-      <ul class="shoesSize">
+      <ul className="shoesSize">
         <li class="th">
           <div class="first">미우미우 사이즈 (이탈리아)</div>
           <div class="second">대한민국</div>
