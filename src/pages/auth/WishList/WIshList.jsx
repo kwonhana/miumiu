@@ -98,8 +98,8 @@ const WishList = () => {
                       <div className="img">
                         <img
                           src={
-                            wish.detail_images.url?.[0]
-                              ? `/${wish.detail_images.url[0]}`
+                            wish?.detail_images[0]?.url
+                              ? `${wish.detail_images[0]?.url}`
                               : '/assets/images/default-product-image.png'
                           }
                           alt={wish.name}
