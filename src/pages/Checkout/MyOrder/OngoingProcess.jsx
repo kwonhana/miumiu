@@ -13,10 +13,16 @@ const getOrderStatusByTime = (paymentTime) => {
   const hours = minutes / 60;
   const days = hours / 24;
 
-  // 👉 여기 구간은 너가 원하는대로 바꿔도 됨
-  if (minutes < 10) return '결제완료';
-  if (hours < 2) return '배송 준비 중';
-  if (hours < 48) return '배송 중';
+  // 1) 6시간 미만: 결제완료
+  if (hours < 6) return '결제완료';
+
+  // 2) 6시간 이상 ~ 1일 미만: 배송 준비 중
+  if (days < 1) return '배송 준비 중';
+
+  // 3) 1일 이상 ~ 3일 미만: 배송 중
+  if (days < 3) return '배송 중';
+
+  // 4) 3일 이상: 배송 완료
   return '배송 완료';
 };
 

@@ -37,9 +37,12 @@
     }
 
     .cartpop-list {
+      height: calc(100vh - 120px);
       padding: 40px 30px;
-      overflow-x: hidden;
+      overflow-x: auto;
       overscroll-behavior: contain;
+
+      // border: 1px solid red;
       .cartItem {
         border-bottom: 1px solid #e4e4e4;
       }

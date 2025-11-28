@@ -9,10 +9,9 @@ import { useNavigate } from 'react-router-dom';
 
 // 🔹 파이어베이스 관련 import
 import { db } from '../../../api/firebase';
-import { collection, getDocs, orderBy, query } from 'firebase/firestore';
+import { collection, getDocs, orderBy, query, where } from 'firebase/firestore';
 import { useAuthStore } from '../../../api/authStore';
 
-// 🔹 시간 기준으로 주문 상태 계산하는 함수
 // 🔹 시간 기준으로 주문 상태 계산하는 함수
 const getOrderStatusByTime = (paymentTime) => {
   if (!paymentTime) return '결제완료';
@@ -24,7 +23,6 @@ const getOrderStatusByTime = (paymentTime) => {
   const hours = diffMs / (1000 * 60 * 60); // 시간
   const days = diffMs / (1000 * 60 * 60 * 24); // 일
 
-  // 👉 조건
   // 1) 6시간 미만: 결제완료
   if (hours < 6) return '결제완료';
 
@@ -53,7 +51,10 @@ const MyOrder = () => {
   const navigate = useNavigate();
   const { user } = useAuthStore();
 
-  // 진행중인 주문 목록 (시간기준으로 계산된 상태 포함)
+  // 🔹 전체 주문 목록 (computedStatus 포함해서 저장)
+  const [orders, setOrders] = useState([]);
+
+  // 진행중인 주문 목록 (배송 완료 아닌 것만)
   const [ongoingOrders, setOngoingOrders] = useState([]);
 
   // 상태별 카운트
@@ -69,9 +70,18 @@ const MyOrder = () => {
       if (!user) return;
       const uid = user.uid || user.userId || user.id;
 
-      // users/{uid}/orders 컬렉션에서 최근 주문 가져오기
       const ordersRef = collection(db, 'users', uid, 'orders');
-      const q = query(ordersRef, orderBy('createdAt', 'desc'));
+
+      // 🔹 최근 6개월만 가져오기 (테이블이랑 동일 기준)
+      const sixMonthsAgo = new Date();
+      sixMonthsAgo.setMonth(sixMonthsAgo.getMonth() - 6);
+
+      const q = query(
+        ordersRef,
+        where('createdAt', '>=', sixMonthsAgo),
+        orderBy('createdAt', 'desc')
+      );
+
       const snap = await getDocs(q);
 
       const rawOrders = snap.docs.map((doc) => ({
@@ -89,9 +99,11 @@ const MyOrder = () => {
         };
       });
 
-      // 🔹 "진행중 주문" = 배송 완료가 아닌 주문들만
-      const ongoing = withStatus.filter((order) => order.computedStatus !== '배송 완료');
+      // 🔹 전체 주문 저장 (테이블에 props로 내려줄 것)
+      setOrders(withStatus);
 
+      // 🔹 진행중 주문 = 배송 완료가 아닌 주문들
+      const ongoing = withStatus.filter((order) => order.computedStatus !== '배송 완료');
       setOngoingOrders(ongoing);
 
       // 🔹 상태별 카운트 계산
@@ -118,6 +130,7 @@ const MyOrder = () => {
     <div className="myOrder">
       <div className="myOrder-inner">
         <div className="container">
+          {/* 진행중 주문 섹션 */}
           <section className="ongoingOrder">
             <div className="ongoingOrder-inner">
               <h2>진행중인 주문</h2>
@@ -159,7 +172,7 @@ const MyOrder = () => {
                       {
                         key: 'orderState',
                         className: 'orderState',
-                        // 🔹 기존 order.status 대신, 시간 기준 상태 사용
+                        // 🔹 여기서도 computedStatus 사용
                         value: order.computedStatus || '결제완료',
                       },
                     ];
@@ -202,13 +215,16 @@ const MyOrder = () => {
             </div>
           </section>
 
+          {/* 최근 주문 테이블 섹션 */}
           <section className="recentOrder">
             <div className="recentOrder-inner">
               <div className="title-wrap">
                 <h2>최근 구매 내역</h2>
                 <p>최근 6개월 간의 온라인 구매 내역을 확인하실 수 있습니다.</p>
               </div>
-              <RecentOrderTable />
+
+              {/* 🔹 여기서 orders를 props로 내려줌 */}
+              <RecentOrderTable orders={orders} />
             </div>
           </section>
         </div>

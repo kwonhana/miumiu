@@ -50,6 +50,10 @@
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
+        cursor: pointer;
+        &.active {
+          background-image: url('../../../../public/assets/icon/Wish-active.svg');
+        }
       }
     }
     h3 {
