@@ -15,12 +15,13 @@
         padding: 50px;
 
         &:first-child {
-          background: url('../../../../src/assets/images/static/main/MiuService/package.png')
+          background: url('../../../../public/assets/images/static/main/MiuService/package.png')
             no-repeat;
         }
 
         &:last-child {
-          background: url('../../../../src/assets/images/static/main/MiuService/card.png') no-repeat;
+          background: url('../../../../public/assets/images/static/main/MiuService/card.png')
+            no-repeat;
         }
         .title {
           @include main.font(1.6rem, 400, main.$base);
