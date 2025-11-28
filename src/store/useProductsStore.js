@@ -165,19 +165,19 @@ export const useProductsStore = create((set, get) => ({
     return filtered;
   },
 
-  // onCateTag: (category1, tags) => {
-  //   const items = get().items;
-  //   let filtered = items;
+  onCateTag: (category1, tags) => {
+    const items = get().items;
+    let filtered = items;
 
-  //   if (category1 && tags) {
-  //     filtered = items.filter((item) => item.category1 === category1 && item.tags === tags);
-  //   } else if (tags) {
-  //     filtered = items.filter((item) => item.tags === tags);
-  //   }
+    if (category1 && tags) {
+      filtered = items.filter((item) => item.category1 === category1 && item.tags === tags);
+    } else if (tags) {
+      filtered = items.filter((item) => item.tags === tags);
+    }
 
-  //   set({ filtered });
-  //   return filtered;
-  // },
+    set({ filtered });
+    return filtered;
+  },
 
   onCate1: (category1) => {
     const items = get().items;
@@ -186,12 +186,12 @@ export const useProductsStore = create((set, get) => ({
     return filtered;
   },
 
-  // onTags: (tags) => {
-  //   const items = get().items;
-  //   const filtered = items.filter((item) => item.tags === tags);
-  //   set({ filtered });
-  //   return filtered;
-  // },
+  onTags: (tags) => {
+    const items = get().items;
+    const filtered = items.filter((item) => item.tags === tags);
+    set({ filtered });
+    return filtered;
+  },
 
   onCustomStyle: (style) => {
     const items = get().items;

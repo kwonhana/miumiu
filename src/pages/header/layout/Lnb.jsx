@@ -34,11 +34,11 @@ const Lnb = ({ isOpen, onClose }) => {
                 </li>
               );
             })}
-            <div className="map">
+            <li className="map">
               <Link to={'/local'} onClick={onClose}>
                 매장찾기
               </Link>
-            </div>
+            </li>
           </ul>
         </div>
 

@@ -49,7 +49,6 @@ const Products = ({ list }) => {
       <ProductBanner bannerTitle={categoryName} />
 
       <ProductFilterNav list={items} onFilterChange={setFilteredList} />
-      {/* <ProductFilterNav list={filtered} query={query} onFilter={setFilteredList} /> */}
 
       <div className="product-list-wrap">
         <h2>{categoryName}</h2>

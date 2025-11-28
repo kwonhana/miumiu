@@ -13,6 +13,16 @@
     width: 1440px;
     @include pd.flex(space-between, center, auto);
     margin: 0 auto;
+
+    .cate2-list {
+      @include pd.flex(center, center, 55px);
+    }
+
+    .button-wrap button {
+      @include pd.font(1.4rem, 500, pd.$base);
+      border: 1px solid pd.$base;
+      padding: 10px 16px;
+    }
   }
 
   ul {
