@@ -10,17 +10,6 @@ const footerModalMenu = [
   { name: '판매 약관', className: 'ProductPurchaseTerms' },
 ];
 
-const footerMenu = [
-  {
-    title: '회사',
-    menu: ['프라다 그룹', '사회적 책임', '채용정보'],
-  },
-  {
-    title: '지원',
-    menu: ['미우미우 서비스', '주문 추적', 'FAQ', '반품'],
-  },
-];
-
 const Footer = ({ openModal }) => {
   const handleModalOpen = (el) => {
     // 부모 컴포넌트에게 모달을 열고, 제목과 렌더링 키를 전달합니다.
@@ -36,7 +25,6 @@ const Footer = ({ openModal }) => {
           </div>
           <div className="footer-right">
             <div className="menu-box">
-              <div className="menu-title">법적고지</div>
               <ul>
                 {' '}
                 {footerModalMenu.map((el, i) => (
@@ -47,25 +35,14 @@ const Footer = ({ openModal }) => {
                       onClick={(e) => {
                         e.preventDefault(); // 기본 링크 이동 방지
                         handleModalOpen(el);
-                      }}>
+                      }}
+                    >
                       {el.name}
                     </Link>
                   </li>
                 ))}
               </ul>
             </div>
-            {footerMenu.map((menus) => (
-              <div key={menus.title} className="menu-box">
-                <div className="menu-title">{menus.title}</div>
-                <ul>
-                  {menus.menu.map((subm, index) => (
-                    <li className="link" key={index}>
-                      {subm}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ))}
           </div>
         </div>
         <div className="footer-bottom">

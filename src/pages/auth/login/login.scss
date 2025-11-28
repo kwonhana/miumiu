@@ -19,8 +19,6 @@
 
   .login-inner {
     width: 74%;
-    margin-top: 120px;
-    margin-bottom: 60px;
     overflow-y: auto;
     overscroll-behavior: contain;
 
@@ -31,6 +29,7 @@
 
   h2 {
     @include login.font(5.2rem, 500, #000);
+    margin-top: 90px;
     margin-bottom: 16px;
   }
 

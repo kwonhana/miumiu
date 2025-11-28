@@ -7,7 +7,7 @@ import NameInput from '../../../component/input/NameInput';
 import PhoneInput from '../../../component/input/PhoneInput';
 import BirthdayInput from '../../../component/input/BirthdayInput';
 import EmailInput from '../../../component/input/EmailInput';
-import './Join.scss';
+import './scss/Join.scss';
 
 // 🔹 Firebase
 import { auth, db } from '../../../api/firebase';
@@ -120,6 +120,7 @@ const Join = () => {
       <div className="join-container">
         <div className="join-inner">
           <h2>계정 만들기</h2>
+
           <p>
             계정을 만들면 동의에 따라 온라인 및 매장 모두에서 개별적이고 맞춤화된 경험을 제공하고
             요청한 제품, 서비스, 정보를 제공하며 고객과 소통합니다.
