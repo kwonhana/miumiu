@@ -8,12 +8,12 @@
   padding: 150px 0;
 
   .inner {
-    @include main.flex(space-btween, start, 0);
+    @include main.flex(space-between, start, 0);
 
     .left-container {
       flex-grow: 1;
       span {
-        @include main.font(1.4rem, 400, #fff);
+        @include main.font(1.8rem, 400, #fff);
         user-select: none;
       }
 

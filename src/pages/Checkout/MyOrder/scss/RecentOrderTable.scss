@@ -13,6 +13,10 @@
       text-align: center;
       padding: 12px 16px;
       @include rt.font(1.4rem, 400, rt.$text-333);
+
+      &:last-child {
+        border-right: none;
+      }
     }
 
     td {
@@ -21,6 +25,10 @@
       padding: 16px;
       text-align: center;
       @include rt.font(1.4rem, 400, rt.$text-333);
+
+      &:last-child {
+        border-right: none;
+      }
 
       &:nth-child(1),
       &:nth-child(2),

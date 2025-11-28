@@ -23,7 +23,7 @@ export const useHeaderStore = create((set, get) => ({
       image: '/assets/images/static/lnb/shoes-list.jpg',
     },
     accessories: {
-      title: '엑세서리',
+      title: '액세서리',
       data: accessories,
       path: 'accessories',
       categoryKey: 'accessories',

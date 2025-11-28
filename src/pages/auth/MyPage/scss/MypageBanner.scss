@@ -64,6 +64,7 @@
 
           > span {
             @include mypage.font(2rem, 500, #fff);
+            margin-left: 4px;
           }
         }
       }

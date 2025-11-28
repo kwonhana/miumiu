@@ -94,7 +94,7 @@ const MyInfo = ({ userData }) => {
 
       <section className="myPoint">
         <div className="myPoint-inner">
-          <h2>내 적립금</h2>
+          <h2>내 포인트</h2>
           <p>
             <span>16,800</span> 원
           </p>

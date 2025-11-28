@@ -116,7 +116,7 @@ const Header = () => {
                         </li>
                         <li>
                           <Link to={'/mypage/order'} onClick={closeAll}>
-                            주문 배송 조회
+                            주문 / 배송 조회
                           </Link>
                         </li>
                         <li>
@@ -130,7 +130,8 @@ const Header = () => {
                             onClick={(e) => {
                               e.preventDefault();
                               handleLogout();
-                            }}>
+                            }}
+                          >
                             로그아웃
                           </Link>
                         </li>

@@ -63,7 +63,7 @@ const SeasonCollection = () => {
       <div className="topSection">
         <div className="inner">
           <div className="left-container wow animate__animated animate__fadeInLeft">
-            <span>season collection</span>
+            <span>SEASON COLLECTION</span>
             <h2>miu miu automne</h2>
           </div>
           <div className="right-container wow animate__animated animate__fadeInRight">
@@ -74,7 +74,8 @@ const SeasonCollection = () => {
       <div
         className="bottomSection"
         onMouseEnter={() => setPaused(true)}
-        onMouseLeave={() => setPaused(false)}>
+        onMouseLeave={() => setPaused(false)}
+      >
         <ul className={`item-container ${isPaused ? 'paused' : ''}`}>
           {items.concat(items).map((el, index) => {
             return (

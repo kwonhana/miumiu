@@ -1,7 +1,7 @@
 @use '../../../App.scss' as pd;
 
 .ProductShoesSize {
-  padding-top: 360px;
+  padding-top: 160px;
   width: 55%;
   margin: 0 auto;
 
@@ -32,12 +32,12 @@
       &.th {
         @include pd.font(1.4rem, 500, pd.$text-333);
         text-wrap: nowrap;
+        border-top: 1px solid pd.$line;
       }
     }
   }
 
   .footSize {
-    margin-top: 430px;
     h3 {
       @include pd.font(2.2rem, 500, pd.$base);
       text-align: center;
@@ -51,6 +51,7 @@
 
     img {
       border-bottom: 1px solid;
+      margin: 0 auto;
     }
   }
 }

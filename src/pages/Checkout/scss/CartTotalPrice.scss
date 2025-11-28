@@ -55,7 +55,7 @@
     }
 
     .total-price {
-      @include ct.font(2.6rem, 600, ct.$base);
+      @include ct.font(2.6rem, 600, ct.$text-blue);
     }
   }
 

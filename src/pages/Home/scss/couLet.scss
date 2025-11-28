@@ -4,46 +4,36 @@
   .inner {
     padding: 78px 0;
     .box {
-      @include main.flex(center, center, 0);
+      @include main.flex(center, flex-start, 24px);
       align-items: stretch;
+
       .boxlayout {
-        @include main.flex(center, center, 0);
+        @include main.flex(null, flex-start, 0);
         flex-direction: column;
         width: 50%;
-        aspect-ratio: 720/230;
-        padding: 60px 0;
+        aspect-ratio: 708/440;
+        padding: 50px;
 
         &:first-child {
-          background-color: #f3f3f3;
+          background: url('../../../../src/assets/images/static/main/MiuService/package.png')
+            no-repeat;
         }
 
         &:last-child {
-          background-color: #fdf3ed;
+          background: url('../../../../src/assets/images/static/main/MiuService/card.png') no-repeat;
         }
         .title {
-          @include main.font(1.4rem, 400, #888);
-          padding-bottom: 12px;
+          @include main.font(1.6rem, 400, main.$base);
+          margin-bottom: 18px;
         }
         .sub-title {
-          @include main.font(2.2rem, 500 main.$base);
-          text-align: center;
+          @include main.font(2.8rem, 600, main.$base);
           line-height: 32px;
+          margin-bottom: 18px;
         }
-        > .go-btn {
-          aspect-ratio: 300/60;
-          margin-top: 49px;
-          width: 42%;
-          background-color: main.$base;
-          @include main.font(1.6rem, 500, #fff);
-          @include main.flex(center, center, 0);
-        }
-        > input {
-          aspect-ratio: 458/60;
-          margin-top: 17px;
-          width: 64%;
-          background-color: #fff;
-          padding: 16px 24px;
-          @include main.font(1.6rem, 400, #777);
+
+        .sub-desc {
+          @include main.font(1.6rem, 400, main.$base);
         }
       }
     }

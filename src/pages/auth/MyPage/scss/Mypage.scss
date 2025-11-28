@@ -189,7 +189,7 @@
         p {
           @include mp.font(2.6rem, 500, mp.$base);
           span {
-            @include mp.font(2.6rem, 600, #0068f0);
+            @include mp.font(2.6rem, 600, mp.$text-blue);
           }
         }
       }

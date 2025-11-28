@@ -14,7 +14,7 @@ const MiuClub = () => {
           <p>
             미우미우의 현대적이고 여성스러운 감성을 담은
             <br />
-            jewellery Collections
+            JEWELLERY COLLECTION
           </p>
         </div>
         <ClubSlider />

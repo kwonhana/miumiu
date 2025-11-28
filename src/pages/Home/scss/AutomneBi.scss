@@ -3,12 +3,13 @@
 
 .AutomneBi {
   width: 100%;
+  height: 100%;
   aspect-ratio: 1440/420;
+  @include main.flex(center, center, 0);
 
   .container {
     @include main.flex(center, center, 0);
     flex-direction: column;
-    margin: 132px 0;
   }
 
   .logo {

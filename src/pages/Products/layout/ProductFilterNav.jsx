@@ -114,7 +114,8 @@ const ProductFilterNav = ({
                 <li key={idx}>
                   <button
                     className={category2 === sub ? 'active' : ''}
-                    onClick={() => sendClick(sub)}>
+                    onClick={() => sendClick(sub)}
+                  >
                     {sub}
                   </button>
                 </li>
@@ -123,7 +124,8 @@ const ProductFilterNav = ({
                 <li key={idx}>
                   <button
                     className={category2 === sub.cate2 ? 'active' : ''}
-                    onClick={() => sendClick(sub.cate2)}>
+                    onClick={() => sendClick(sub.cate2)}
+                  >
                     {sub.kor2}
                   </button>
                 </li>
@@ -131,7 +133,13 @@ const ProductFilterNav = ({
         </ul>
 
         <div className="button-wrap">
-          <button type="button" onClick={onOpenFilter}>
+          {/* ✅ 여기서 필터 랩 열기 */}
+          <button
+            type="button"
+            onClick={() => {
+              if (onOpenFilter) onOpenFilter();
+            }}
+          >
             필터 및 정렬
           </button>
         </div>

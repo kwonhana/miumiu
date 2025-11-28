@@ -18,10 +18,10 @@ const Home = () => {
         <NewItemMain />
       </div>
       {/* <LineBanner /> */}
-      <div className="inner">
+      <div className="inner-second">
         <AutomneBi />
-        <MostLove />
       </div>
+      <MostLove />
       <LineBanner />
       <SeasonCollection />
       <SpecialCo />

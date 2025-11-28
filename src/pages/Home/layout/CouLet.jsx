@@ -10,20 +10,20 @@ const CousLet = () => {
       <div className="inner">
         <div className="box">
           <div className="boxlayout">
-            <p className="title">CUSTOMER SERVICE</p>
-            <p className="sub-title">도움이 필요하신가요?</p>
-            <Link className="go-btn" to="/">
-              GO
-            </Link>
+            <p className="title">GIFT BOX SERVICE</p>
+            <p className="sub-title">미우미우 기프트 패키지</p>
+            <p className="sub-desc">
+              미우미우에서 주문하신 제품은 지속가능하게 디자인 및 제작된 <br />
+              익스클루시브 기프트 박스에 담아 배송됩니다.
+            </p>
           </div>
           <div className="boxlayout">
-            <p className="title">NEW LETTER</p>
-            <p className="sub-title">
-              최신 캠페인과 컬렉션 소식을 메일을 통해
-              <br />
-              빠르게 만나보세요!
+            <p className="title">GIFT CARD SERVICE</p>
+            <p className="sub-title">미우미우 기프트 카드</p>
+            <p className="sub-desc">
+              익스클루시브 미우미우 기프트 카드로 최신 컬렉션에서 <br />
+              원하는 제품을 직접 고르는 즐거움을 선사하세요.
             </p>
-            <EmailInput />
           </div>
         </div>
       </div>
