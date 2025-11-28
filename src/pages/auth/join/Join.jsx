@@ -103,8 +103,7 @@ const Join = () => {
 
       await setDoc(userDocRef, userProfile);
 
-      alert('회원가입이 완료되었습니다!');
-      navigate('/login');
+      navigate('/joinComplete');
     } catch (err) {
       console.error('회원가입 에러:', err);
       if (err.code === 'auth/email-already-in-use') {

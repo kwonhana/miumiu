@@ -49,6 +49,8 @@ header {
         width: 2.4rem;
         aspect-ratio: 1/1;
         padding: 4px;
+        img {
+        }
       }
       .gnb-list {
         @include header.flex(start, start, 3rem);
@@ -104,6 +106,21 @@ header {
                 }
               }
             }
+          }
+        }
+        .cart {
+          position: relative;
+          .cart-count {
+            position: absolute;
+            left: 40%;
+            top: 0;
+            display: block;
+            background: #fff;
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            font-size: 12px;
+            text-align: center;
           }
         }
       }

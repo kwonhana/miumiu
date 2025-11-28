@@ -59,7 +59,7 @@ const RecentOrderTable = ({ orders = [] }) => {
             }
 
             // 총 개수
-            const totalCount = items.reduce((sum, it) => sum + (it.count || 1), 0);
+            const totalCount = items.length;
 
             // 금액: finalPrice 있으면 우선, 없으면 totalPrice
             const amount = order.finalPrice ?? order.totalPrice ?? null;

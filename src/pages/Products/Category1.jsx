@@ -62,8 +62,16 @@ const Category1 = () => {
   console.log('cate2222222222222', category2List);
   //  Category 클릭 시 이동
   // -----------------------------------------
+  //  Category 클릭 시 이동
+  // -----------------------------------------
   const handleCategoryClick = (sub) => {
     navigate(`/${category1}/${sub}`);
+    setTimeout(() => {
+      window.scrollTo({
+        top: 700,
+        // behavior: "smooth",
+      });
+    }, 100);
   };
 
   //  필터 적용

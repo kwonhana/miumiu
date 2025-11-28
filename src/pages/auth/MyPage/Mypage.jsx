@@ -39,7 +39,6 @@ const Mypage = () => {
         {activeTab === 'order' && <MyOrder />}
 
         {activeTab === 'wishlist' && <WIshList />}
-        <CousLet />
         {/* 테스트 */}
       </div>
     </div>

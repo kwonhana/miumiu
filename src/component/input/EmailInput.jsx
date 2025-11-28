@@ -10,13 +10,14 @@ const EmailInput = ({ value, onChange }) => {
       return;
     }
 
-    const allowedCharsRegex = /^[a-zA-Z0-9@.]*$/;
+    const allowedCharsRegex = /^[a-zA-Z0-9@._-]*$/;
 
     if (!allowedCharsRegex.test(email)) {
       setStatus('failure');
       return;
     }
-    const emailFormatRegex = /^[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[a-zA-Z0-9]+$/;
+
+    const emailFormatRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9._-]+$/;
 
     if (emailFormatRegex.test(email)) {
       setStatus('success');
@@ -27,7 +28,10 @@ const EmailInput = ({ value, onChange }) => {
 
   const handleEmailChange = (e) => {
     const val = e.target.value;
-    const allowedCharsRegex = /^[a-zA-Z0-9@.]*$/;
+
+    // ✅ 입력 제한 정규식도 동일하게 수정
+    const allowedCharsRegex = /^[a-zA-Z0-9@._-]*$/;
+
     if (allowedCharsRegex.test(val)) {
       onChange(val);
     }

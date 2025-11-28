@@ -106,13 +106,33 @@ const MyOrder = () => {
       const ongoing = withStatus.filter((order) => order.computedStatus !== '배송 완료');
       setOngoingOrders(ongoing);
 
-      // 🔹 상태별 카운트 계산
-      const counts = {
-        payment: withStatus.filter((o) => o.computedStatus === '결제완료').length,
-        prepare: withStatus.filter((o) => o.computedStatus === '배송 준비 중').length,
-        delivering: withStatus.filter((o) => o.computedStatus === '배송 중').length,
-        delivered: withStatus.filter((o) => o.computedStatus === '배송 완료').length,
-      };
+      // 🔹 상태별 카운트 계산 (📌 진행중 주문 + 아이템 수량 기준)
+      const counts = ongoing.reduce(
+        (acc, order) => {
+          // 이 주문에 포함된 아이템 수량 합산
+          const itemCount = order.items?.length ?? 0;
+
+          switch (order.computedStatus) {
+            case '결제완료':
+              acc.payment += itemCount;
+              break;
+            case '배송 준비 중':
+              acc.prepare += itemCount;
+              break;
+            case '배송 중':
+              acc.delivering += itemCount;
+              break;
+            case '배송 완료':
+              acc.delivered += itemCount;
+              break;
+            default:
+              break;
+          }
+
+          return acc;
+        },
+        { payment: 0, prepare: 0, delivering: 0, delivered: 0 }
+      );
 
       setStatusCounts(counts);
     };
@@ -125,7 +145,7 @@ const MyOrder = () => {
   const latestPaymentTime = latestOngoing
     ? latestOngoing.paymentTime || latestOngoing.createdAt
     : null;
-
+  console.log(ongoingOrders, statusCounts);
   return (
     <div className="myOrder">
       <div className="myOrder-inner">

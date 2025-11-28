@@ -5,6 +5,7 @@ import Lnb from './layout/Lnb';
 import Search from './layout/Search';
 import { useAuthStore } from '../../api/authStore';
 import './scss/header.scss';
+import { useProductsStore } from '../../store/useProductsStore';
 
 const Header = () => {
   const location = useLocation();
@@ -15,6 +16,7 @@ const Header = () => {
   const [userMenuOpen, setUserMenuOpen] = useState(false);
   const { user, logout } = useAuthStore();
   const headerRef = useRef(null);
+  const { cartCount } = useProductsStore();
 
   //TODO 모든메뉴 닫기
   const closeAll = useCallback(() => {
@@ -130,8 +132,7 @@ const Header = () => {
                             onClick={(e) => {
                               e.preventDefault();
                               handleLogout();
-                            }}
-                          >
+                            }}>
                             로그아웃
                           </Link>
                         </li>
@@ -141,13 +142,14 @@ const Header = () => {
                 </>
               ) : (
                 <Link to={'/login'}>
-                  <img src="/assets/icon/UserIcon.svg" alt="user" />
+                  <img src="/assets/icon/Login.svg" alt="user" />
                 </Link>
               )}
             </div>
             <div className="Icon cart">
               <Link to={'/cart'}>
                 <img src="/assets/icon/CartIcon.svg" alt="cart" />
+                <span className="cart-count">{cartCount}</span>
               </Link>
             </div>
           </div>
