@@ -6,7 +6,8 @@ import { items } from '../../../store/data';
 
 const MostLove = () => {
   useEffect(() => {
-    new WOW.WOW().init();
+    const wow = new WOW.WOW({ live: false });
+    wow.init();
   }, []);
 
   return (

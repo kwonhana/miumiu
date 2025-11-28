@@ -22,9 +22,16 @@ const Main = () => {
   const [randomItems, setRandomItems] = useState([]);
 
   useEffect(() => {
-    new WOW.WOW().init();
+    const wow = new WOW.WOW({ live: false });
+    wow.init();
+
     const randomImg = [...introItems].sort(() => 0.5 - Math.random());
     setRandomItems(randomImg.slice(0, 1));
+
+    // 새 콘텐츠가 렌더링된 후 WOW.js에 알림
+    setTimeout(() => {
+      wow.sync();
+    }, 100); // DOM 렌더링 후 약간의 지연
   }, []);
 
   return (

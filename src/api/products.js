@@ -35237,44 +35237,6 @@ export const products = [
     ],
   },
   {
-    id: '5HC378_2CQD_F0018',
-    index: 2,
-    category1: 'accessories',
-    category2: 'hats',
-    categoryKor1: '액세서리',
-    categoryKor2: '모자',
-    name: '모헤어 비니',
-    price: '₩ 660,000',
-    image_url:
-      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC378/2CQDF0018/5HC378_2CQD_F0018_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
-    product_url:
-      'https://www.miumiu.com/kr/ko/p/%EB%AA%A8%ED%97%A4%EC%96%B4-%EB%B9%84%EB%8B%88/5HC378_2CQD_F0018',
-    crawled_at: '2025-11-13T16:06:21.189288',
-    subtitle:
-      '한눈에 알아볼 수 있는 아이코닉하고 독특한 개성의 미우미우 인타르시아 로고가 시선을 사로잡는 울 비니입니다.',
-    bullet_points: ['제품 코드: 5HC378_2CQD_F0018', '인타르시아 로고'],
-    size_info: [],
-    material: '주 소재: 울',
-    detail_images: [
-      {
-        type: 'thumbnail',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC378/2CQDF0018/5HC378_2CQD_F0018_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '모헤어 비니',
-      },
-      {
-        type: 'sub',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC378/2CQDF0018/5HC378_2CQD_F0018_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '모헤어 비니',
-        index: 1,
-      },
-    ],
-    local_image: '5HC378_2CQD_F0018.jpg',
-    local_detail_images: [
-      '5HC378_2CQD_F0018_detail_thumbnail.jpg',
-      '5HC378_2CQD_F0018_detail_2.jpg',
-    ],
-  },
-  {
     id: '5HC369_2IF2_F0D3Z',
     index: 3,
     category1: 'accessories',
@@ -35382,55 +35344,6 @@ export const products = [
     ],
   },
   {
-    id: '5HC488_18SI_F0028',
-    index: 5,
-    category1: 'accessories',
-    category2: 'hats',
-    categoryKor1: '액세서리',
-    categoryKor2: '모자',
-    name: '울 모자',
-    price: '₩ 1,100,000',
-    image_url:
-      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC488/18SIF0028/5HC488_18SI_F0028_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
-    product_url: 'https://www.miumiu.com/kr/ko/p/%EC%9A%B8-%EB%AA%A8%EC%9E%90/5HC488_18SI_F0028',
-    crawled_at: '2025-11-13T16:07:35.836672',
-    subtitle:
-      '이 울 모자의 클래식 페어 아일 패턴은 디자인의 질감과 감싸는 라인을 돋보이게 하며, 폼폼 장식이 세련미를 더합니다.',
-    bullet_points: [
-      '제품 코드: 5HC488_18SI_F0028',
-      '자카드 니트',
-      '귀덮개와 폼폼 타이',
-      '라벨 로고',
-    ],
-    size_info: [],
-    material: '주 소재: 폴리에스터',
-    detail_images: [
-      {
-        type: 'thumbnail',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC488/18SIF0028/5HC488_18SI_F0028_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '울 모자',
-      },
-      {
-        type: 'sub',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC488/18SIF0028/5HC488_18SI_F0028_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '울 모자',
-        index: 1,
-      },
-      {
-        type: 'sub',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC488/18SIF0028/5HC488_18SI_F0028_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '울 모자',
-        index: 2,
-      },
-    ],
-    local_image: '5HC488_18SI_F0028.jpg',
-    local_detail_images: [
-      '5HC488_18SI_F0028_detail_thumbnail.jpg',
-      '5HC488_18SI_F0028_detail_2.jpg',
-      '5HC488_18SI_F0028_detail_3.jpg',
-    ],
-  },
-  {
     id: '5HC489_18SI_F0028',
     index: 6,
     category1: 'accessories',
@@ -35465,51 +35378,6 @@ export const products = [
     local_detail_images: [
       '5HC489_18SI_F0028_detail_thumbnail.jpg',
       '5HC489_18SI_F0028_detail_2.jpg',
-    ],
-  },
-  {
-    id: '5HC369_2CWC_F04Z5',
-    index: 7,
-    category1: 'accessories',
-    category2: 'hats',
-    categoryKor1: '액세서리',
-    categoryKor2: '모자',
-    name: '코튼 베이스볼 캡',
-    price: '₩ 840,000',
-    image_url:
-      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2CWCF04Z5/5HC369_2CWC_F04Z5_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
-    product_url:
-      'https://www.miumiu.com/kr/ko/p/%EC%BD%94%ED%8A%BC-%EB%B2%A0%EC%9D%B4%EC%8A%A4%EB%B3%BC-%EC%BA%A1/5HC369_2CWC_F04Z5',
-    crawled_at: '2025-11-13T16:08:22.597783',
-    subtitle:
-      '드릴의 워싱 효과가 대비되는 색상을 돋보이게 하며, 미우미우의 대담하고 스포티한 정신을 구현한 이 베이스볼 캡의 디자인에 캐주얼한 느낌을 더합니다.',
-    bullet_points: ['제품 코드: 5HC369_2CWC_F04Z5', '워싱 데님 처리', '자수 로고'],
-    size_info: [],
-    material: '주 소재: 패브릭',
-    detail_images: [
-      {
-        type: 'thumbnail',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2CWCF04Z5/5HC369_2CWC_F04Z5_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '코튼 베이스볼 캡',
-      },
-      {
-        type: 'sub',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2CWCF04Z5/5HC369_2CWC_F04Z5_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '코튼 베이스볼 캡',
-        index: 1,
-      },
-      {
-        type: 'sub',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2CWCF04Z5/5HC369_2CWC_F04Z5_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '코튼 베이스볼 캡',
-        index: 2,
-      },
-    ],
-    local_image: '5HC369_2CWC_F04Z5.jpg',
-    local_detail_images: [
-      '5HC369_2CWC_F04Z5_detail_thumbnail.jpg',
-      '5HC369_2CWC_F04Z5_detail_2.jpg',
-      '5HC369_2CWC_F04Z5_detail_3.jpg',
     ],
   },
   {
@@ -35558,51 +35426,6 @@ export const products = [
     ],
   },
   {
-    id: '5HC369_2CWC_F04ZH',
-    index: 9,
-    category1: 'accessories',
-    category2: 'hats',
-    categoryKor1: '액세서리',
-    categoryKor2: '모자',
-    name: '코튼 베이스볼 캡',
-    price: '₩ 840,000',
-    image_url:
-      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2CWCF04ZH/5HC369_2CWC_F04ZH_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
-    product_url:
-      'https://www.miumiu.com/kr/ko/p/%EC%BD%94%ED%8A%BC-%EB%B2%A0%EC%9D%B4%EC%8A%A4%EB%B3%BC-%EC%BA%A1/5HC369_2CWC_F04ZH',
-    crawled_at: '2025-11-13T16:09:24.536640',
-    subtitle:
-      '드릴의 워싱 효과가 대비되는 색상을 돋보이게 하며, 미우미우의 대담하고 스포티한 정신을 구현한 이 베이스볼 캡의 디자인에 캐주얼한 느낌을 더합니다.',
-    bullet_points: ['제품 코드: 5HC369_2CWC_F04ZH', '워싱 데님 처리', '자수 로고'],
-    size_info: [],
-    material: '주 소재: 패브릭',
-    detail_images: [
-      {
-        type: 'thumbnail',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2CWCF04ZH/5HC369_2CWC_F04ZH_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '코튼 베이스볼 캡',
-      },
-      {
-        type: 'sub',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2CWCF04ZH/5HC369_2CWC_F04ZH_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '코튼 베이스볼 캡',
-        index: 1,
-      },
-      {
-        type: 'sub',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2CWCF04ZH/5HC369_2CWC_F04ZH_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '코튼 베이스볼 캡',
-        index: 2,
-      },
-    ],
-    local_image: '5HC369_2CWC_F04ZH.jpg',
-    local_detail_images: [
-      '5HC369_2CWC_F04ZH_detail_thumbnail.jpg',
-      '5HC369_2CWC_F04ZH_detail_2.jpg',
-      '5HC369_2CWC_F04ZH_detail_3.jpg',
-    ],
-  },
-  {
     id: '5HC369_2CWC_F0IX2',
     index: 10,
     category1: 'accessories',
@@ -35645,43 +35468,6 @@ export const products = [
       '5HC369_2CWC_F0IX2_detail_thumbnail.jpg',
       '5HC369_2CWC_F0IX2_detail_2.jpg',
       '5HC369_2CWC_F0IX2_detail_3.jpg',
-    ],
-  },
-  {
-    id: '5HC324_2ID1_F0036',
-    index: 11,
-    category1: 'accessories',
-    category2: 'hats',
-    categoryKor1: '액세서리',
-    categoryKor2: '모자',
-    name: '울 모자',
-    price: '₩ 970,000',
-    image_url:
-      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC324/2ID1F0036/5HC324_2ID1_F0036_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
-    product_url: 'https://www.miumiu.com/kr/ko/p/%EC%9A%B8-%EB%AA%A8%EC%9E%90/5HC324_2ID1_F0036',
-    crawled_at: '2025-11-13T16:10:27.880562',
-    subtitle:
-      '폼폼은 미우미우의 장난스럽고 유행을 타지 않는 정신을 표현하며, 캐주얼 시즌 룩을 위해 제작된 부드러운 울 모자의 세련된 디자인을 완성합니다.',
-    bullet_points: ['제품 코드: 5HC324_2ID1_F0036', '이어머프와 폼폼 레이스', '로고 라벨'],
-    size_info: [],
-    material: '주 소재: 캐시미어',
-    detail_images: [
-      {
-        type: 'thumbnail',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC324/2ID1F0036/5HC324_2ID1_F0036_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '울 모자',
-      },
-      {
-        type: 'sub',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC324/2ID1F0036/5HC324_2ID1_F0036_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '울 모자',
-        index: 1,
-      },
-    ],
-    local_image: '5HC324_2ID1_F0036.jpg',
-    local_detail_images: [
-      '5HC324_2ID1_F0036_detail_thumbnail.jpg',
-      '5HC324_2ID1_F0036_detail_2.jpg',
     ],
   },
   {
@@ -35856,51 +35642,6 @@ export const products = [
     ],
   },
   {
-    id: '5HC432_2IEJ_F0244',
-    index: 20,
-    category1: 'accessories',
-    category2: 'hats',
-    categoryKor1: '액세서리',
-    categoryKor2: '모자',
-    name: '울 및 캐시미어 모자',
-    price: '₩ 820,000',
-    image_url:
-      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
-    product_url:
-      'https://www.miumiu.com/kr/ko/p/%EC%9A%B8-%EB%B0%8F-%EC%BA%90%EC%8B%9C%EB%AF%B8%EC%96%B4-%EB%AA%A8%EC%9E%90/5HC432_2IEJ_F0244',
-    crawled_at: '2025-11-13T16:14:02.967627',
-    subtitle:
-      '부드러운 울과 캐시미어로 제작된 이 모자는 절제된 라인과 컨템포러리한 감각을 결합했습니다. 은은한 컬러와 아이코닉한 대비 로고가 더해져 세련된 매력을 한층 강조합니다.',
-    bullet_points: ['제품 코드: 5HC432_2IEJ_F0244', '레이스 장식으로', '로고 라벨'],
-    size_info: [],
-    material: '주 소재: 폴리에스터',
-    detail_images: [
-      {
-        type: 'thumbnail',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC432/2IEJF0244/5HC432_2IEJ_F0244_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '울 및 캐시미어 모자',
-      },
-      {
-        type: 'sub',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC432/2IEJF0244/5HC432_2IEJ_F0244_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '울 및 캐시미어 모자',
-        index: 1,
-      },
-      {
-        type: 'sub',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC432/2IEJF0244/5HC432_2IEJ_F0244_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '울 및 캐시미어 모자',
-        index: 2,
-      },
-    ],
-    local_image: '5HC432_2IEJ_F0244.jpg',
-    local_detail_images: [
-      '5HC432_2IEJ_F0244_detail_thumbnail.jpg',
-      '5HC432_2IEJ_F0244_detail_2.jpg',
-      '5HC432_2IEJ_F0244_detail_3.jpg',
-    ],
-  },
-  {
     id: '5HC179_AF6P_F0201',
     index: 21,
     category1: 'accessories',
@@ -35942,48 +35683,6 @@ export const products = [
     local_detail_images: [
       '5HC179_AF6P_F0201_detail_thumbnail.jpg',
       '5HC179_AF6P_F0201_detail_2.jpg',
-    ],
-  },
-  {
-    id: '5HC369_2CUA_F0844',
-    index: 23,
-    category1: 'accessories',
-    category2: 'hats',
-    categoryKor1: '액세서리',
-    categoryKor2: '모자',
-    name: '벨벳 베이스볼 캡',
-    price: '₩ 1,010,000',
-    image_url:
-      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
-    product_url:
-      'https://www.miumiu.com/kr/ko/p/%EB%B2%A8%EB%B2%B3-%EB%B2%A0%EC%9D%B4%EC%8A%A4%EB%B3%BC-%EC%BA%A1/5HC369_2CUA_F0844',
-    crawled_at: '2025-11-13T16:15:10.747426',
-    subtitle:
-      '캐주얼한 영감과 우아한 요소를 조합하여 클래식한 베이스볼 캡을 벨벳 버전으로 재해석했습니다.',
-    bullet_points: [
-      '제품 코드: 5HC369_2CUA_F0844',
-      '맞춤 조절형 스트랩과 가죽 엔드 캡',
-      '자수 로고',
-    ],
-    size_info: [],
-    material: '패브릭',
-    detail_images: [
-      {
-        type: 'thumbnail',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2CUAF0844/5HC369_2CUA_F0844_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '벨벳 베이스볼 캡',
-      },
-      {
-        type: 'sub',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2CUAF0844/5HC369_2CUA_F0844_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '벨벳 베이스볼 캡',
-        index: 1,
-      },
-    ],
-    local_image: '5HC369_2CUA_F0844.jpg',
-    local_detail_images: [
-      '5HC369_2CUA_F0844_detail_thumbnail.jpg',
-      '5HC369_2CUA_F0844_detail_2.jpg',
     ],
   },
   {
@@ -39285,44 +38984,6 @@ export const products = [
     ],
   },
   {
-    id: '5HC378_2CQD_F0031',
-    index: 1,
-    category1: 'accessories',
-    category2: 'hats',
-    categoryKor1: '액세서리',
-    categoryKor2: '모자',
-    name: '모헤어 비니',
-    price: '₩ 660,000',
-    image_url:
-      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC378/2CQDF0031/5HC378_2CQD_F0031_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
-    product_url:
-      'https://www.miumiu.com/kr/ko/p/%EB%AA%A8%ED%97%A4%EC%96%B4-%EB%B9%84%EB%8B%88/5HC378_2CQD_F0031',
-    crawled_at: '2025-11-13T16:46:20.305934',
-    subtitle:
-      '한눈에 알아볼 수 있는 아이코닉하고 독특한 개성의 미우미우 인타르시아 로고가 시선을 사로잡는 울 비니입니다.',
-    bullet_points: ['제품 코드: 5HC378_2CQD_F0031', '인타르시아 로고'],
-    size_info: [],
-    material: '주 소재: 울',
-    detail_images: [
-      {
-        type: 'thumbnail',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC378/2CQDF0031/5HC378_2CQD_F0031_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '모헤어 비니',
-      },
-      {
-        type: 'sub',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC378/2CQDF0031/5HC378_2CQD_F0031_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '모헤어 비니',
-        index: 1,
-      },
-    ],
-    local_image: '5HC378_2CQD_F0031.jpg',
-    local_detail_images: [
-      '5HC378_2CQD_F0031_detail_thumbnail.jpg',
-      '5HC378_2CQD_F0031_detail_2.jpg',
-    ],
-  },
-  {
     id: '5HC378_2CQD_F0018',
     index: 2,
     category1: 'accessories',
@@ -39358,63 +39019,6 @@ export const products = [
     local_detail_images: [
       '5HC378_2CQD_F0018_detail_thumbnail.jpg',
       '5HC378_2CQD_F0018_detail_2.jpg',
-    ],
-  },
-
-  {
-    id: '5HC488_18SI_F0013',
-    index: 4,
-    category1: 'accessories',
-    category2: 'hats',
-    categoryKor1: '액세서리',
-    categoryKor2: '모자',
-    name: '울 모자',
-    price: '₩ 1,100,000',
-    image_url:
-      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC488/18SIF0013/5HC488_18SI_F0013_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
-    product_url: 'https://www.miumiu.com/kr/ko/p/%EC%9A%B8-%EB%AA%A8%EC%9E%90/5HC488_18SI_F0013',
-    crawled_at: '2025-11-13T16:47:25.391143',
-    subtitle:
-      '이 울 모자의 클래식 페어 아일 패턴은 디자인의 질감과 감싸는 라인을 돋보이게 하며, 폼폼 장식이 세련미를 더합니다.',
-    bullet_points: [
-      '제품 코드: 5HC488_18SI_F0013',
-      '자카드 니트',
-      '귀덮개와 폼폼 타이',
-      '라벨 로고',
-    ],
-    size_info: [],
-    material: '주 소재: 폴리에스터',
-    detail_images: [
-      {
-        type: 'thumbnail',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC488/18SIF0013/5HC488_18SI_F0013_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '울 모자',
-      },
-      {
-        type: 'sub',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC488/18SIF0013/5HC488_18SI_F0013_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '울 모자',
-        index: 1,
-      },
-      {
-        type: 'sub',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC488/18SIF0013/5HC488_18SI_F0013_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '울 모자',
-        index: 2,
-      },
-      {
-        type: 'sub',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC488/18SIF0013/5HC488_18SI_F0013_SLD.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '울 모자',
-        index: 3,
-      },
-    ],
-    local_image: '5HC488_18SI_F0013.jpg',
-    local_detail_images: [
-      '5HC488_18SI_F0013_detail_thumbnail.jpg',
-      '5HC488_18SI_F0013_detail_2.jpg',
-      '5HC488_18SI_F0013_detail_3.jpg',
-      '5HC488_18SI_F0013_detail_4.jpg',
     ],
   },
   {
@@ -39467,43 +39071,6 @@ export const products = [
     ],
   },
   {
-    id: '5HC489_18SI_F0028',
-    index: 6,
-    category1: 'accessories',
-    category2: 'hats',
-    categoryKor1: '액세서리',
-    categoryKor2: '모자',
-    name: '울 모자',
-    price: '₩ 820,000',
-    image_url:
-      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC489/18SIF0028/5HC489_18SI_F0028_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
-    product_url: 'https://www.miumiu.com/kr/ko/p/%EC%9A%B8-%EB%AA%A8%EC%9E%90/5HC489_18SI_F0028',
-    crawled_at: '2025-11-13T16:48:07.789580',
-    subtitle:
-      '이 울 모자의 클래식 페어 아일 패턴은 깔끔한 라인과 부드러운 질감을 돋보이게 하며, 전통 스타일의 매력을 현대적인 감성과 결합합니다.',
-    bullet_points: ['제품 코드: 5HC489_18SI_F0028', '자카드 니트', '라벨 로고'],
-    size_info: [],
-    material: '주 소재: 순수 울',
-    detail_images: [
-      {
-        type: 'thumbnail',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC489/18SIF0028/5HC489_18SI_F0028_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '울 모자',
-      },
-      {
-        type: 'sub',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC489/18SIF0028/5HC489_18SI_F0028_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '울 모자',
-        index: 1,
-      },
-    ],
-    local_image: '5HC489_18SI_F0028.jpg',
-    local_detail_images: [
-      '5HC489_18SI_F0028_detail_thumbnail.jpg',
-      '5HC489_18SI_F0028_detail_2.jpg',
-    ],
-  },
-  {
     id: '5HC369_2CWC_F04Z5',
     index: 7,
     category1: 'accessories',
@@ -39549,51 +39116,6 @@ export const products = [
     ],
   },
   {
-    id: '5HC369_2CWC_F04Z6',
-    index: 8,
-    category1: 'accessories',
-    category2: 'hats',
-    categoryKor1: '액세서리',
-    categoryKor2: '모자',
-    name: '코튼 베이스볼 캡',
-    price: '₩ 840,000',
-    image_url:
-      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2CWCF04Z6/5HC369_2CWC_F04Z6_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
-    product_url:
-      'https://www.miumiu.com/kr/ko/p/%EC%BD%94%ED%8A%BC-%EB%B2%A0%EC%9D%B4%EC%8A%A4%EB%B3%BC-%EC%BA%A1/5HC369_2CWC_F04Z6',
-    crawled_at: '2025-11-13T16:48:51.069369',
-    subtitle:
-      '드릴의 워싱 효과가 대비되는 색상을 돋보이게 하며, 미우미우의 대담하고 스포티한 정신을 구현한 이 베이스볼 캡의 디자인에 캐주얼한 느낌을 더합니다.',
-    bullet_points: ['제품 코드: 5HC369_2CWC_F04Z6', '워싱 데님 처리', '자수 로고'],
-    size_info: [],
-    material: '주 소재: 패브릭',
-    detail_images: [
-      {
-        type: 'thumbnail',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2CWCF04Z6/5HC369_2CWC_F04Z6_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '코튼 베이스볼 캡',
-      },
-      {
-        type: 'sub',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2CWCF04Z6/5HC369_2CWC_F04Z6_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '코튼 베이스볼 캡',
-        index: 1,
-      },
-      {
-        type: 'sub',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2CWCF04Z6/5HC369_2CWC_F04Z6_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '코튼 베이스볼 캡',
-        index: 2,
-      },
-    ],
-    local_image: '5HC369_2CWC_F04Z6.jpg',
-    local_detail_images: [
-      '5HC369_2CWC_F04Z6_detail_thumbnail.jpg',
-      '5HC369_2CWC_F04Z6_detail_2.jpg',
-      '5HC369_2CWC_F04Z6_detail_3.jpg',
-    ],
-  },
-  {
     id: '5HC369_2CWC_F04ZH',
     index: 9,
     category1: 'accessories',
@@ -39636,51 +39158,6 @@ export const products = [
       '5HC369_2CWC_F04ZH_detail_thumbnail.jpg',
       '5HC369_2CWC_F04ZH_detail_2.jpg',
       '5HC369_2CWC_F04ZH_detail_3.jpg',
-    ],
-  },
-  {
-    id: '5HC369_2CWC_F0IX2',
-    index: 10,
-    category1: 'accessories',
-    category2: 'hats',
-    categoryKor1: '액세서리',
-    categoryKor2: '모자',
-    name: '코튼 베이스볼 캡',
-    price: '₩ 840,000',
-    image_url:
-      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2CWCF0IX2/5HC369_2CWC_F0IX2_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.800.800.jpg',
-    product_url:
-      'https://www.miumiu.com/kr/ko/p/%EC%BD%94%ED%8A%BC-%EB%B2%A0%EC%9D%B4%EC%8A%A4%EB%B3%BC-%EC%BA%A1/5HC369_2CWC_F0IX2',
-    crawled_at: '2025-11-13T16:49:32.131918',
-    subtitle:
-      '드릴의 워싱 효과가 대비되는 색상을 돋보이게 하며, 미우미우의 대담하고 스포티한 정신을 구현한 이 베이스볼 캡의 디자인에 캐주얼한 느낌을 더합니다.',
-    bullet_points: ['제품 코드: 5HC369_2CWC_F0IX2', '워싱 데님 처리', '자수 로고'],
-    size_info: [],
-    material: '주 소재: 패브릭',
-    detail_images: [
-      {
-        type: 'thumbnail',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2CWCF0IX2/5HC369_2CWC_F0IX2_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '코튼 베이스볼 캡',
-      },
-      {
-        type: 'sub',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2CWCF0IX2/5HC369_2CWC_F0IX2_MDL.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '코튼 베이스볼 캡',
-        index: 1,
-      },
-      {
-        type: 'sub',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC369/2CWCF0IX2/5HC369_2CWC_F0IX2_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '코튼 베이스볼 캡',
-        index: 2,
-      },
-    ],
-    local_image: '5HC369_2CWC_F0IX2.jpg',
-    local_detail_images: [
-      '5HC369_2CWC_F0IX2_detail_thumbnail.jpg',
-      '5HC369_2CWC_F0IX2_detail_2.jpg',
-      '5HC369_2CWC_F0IX2_detail_3.jpg',
     ],
   },
   {
@@ -39762,44 +39239,6 @@ export const products = [
       '5HC386_2CSR_F0040_detail_thumbnail.jpg',
       '5HC386_2CSR_F0040_detail_2.jpg',
       '5HC386_2CSR_F0040_detail_3.jpg',
-    ],
-  },
-  {
-    id: '5HC432_2IEJ_F073X',
-    index: 13,
-    category1: 'accessories',
-    category2: 'hats',
-    categoryKor1: '액세서리',
-    categoryKor2: '모자',
-    name: '울 및 캐시미어 모자',
-    price: '₩ 820,000',
-    image_url:
-      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
-    product_url:
-      'https://www.miumiu.com/kr/ko/p/%EC%9A%B8-%EB%B0%8F-%EC%BA%90%EC%8B%9C%EB%AF%B8%EC%96%B4-%EB%AA%A8%EC%9E%90/5HC432_2IEJ_F073X',
-    crawled_at: '2025-11-13T16:50:37.018866',
-    subtitle:
-      '부드러운 울과 캐시미어로 제작된 이 모자는 절제된 라인과 컨템포러리한 감각을 결합했습니다. 은은한 컬러와 아이코닉한 대비 로고가 더해져 세련된 매력을 한층 강조합니다.',
-    bullet_points: ['제품 코드: 5HC432_2IEJ_F073X', '레이스 장식으로', '로고 라벨'],
-    size_info: [],
-    material: '주 소재: 폴리에스터',
-    detail_images: [
-      {
-        type: 'thumbnail',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC432/2IEJF073X/5HC432_2IEJ_F073X_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '울 및 캐시미어 모자',
-      },
-      {
-        type: 'sub',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC432/2IEJF073X/5HC432_2IEJ_F073X_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '울 및 캐시미어 모자',
-        index: 1,
-      },
-    ],
-    local_image: '5HC432_2IEJ_F073X.jpg',
-    local_detail_images: [
-      '5HC432_2IEJ_F073X_detail_thumbnail.jpg',
-      '5HC432_2IEJ_F073X_detail_2.jpg',
     ],
   },
   {
@@ -39984,50 +39423,6 @@ export const products = [
       '5HC432_2IEJ_F0244_detail_thumbnail.jpg',
       '5HC432_2IEJ_F0244_detail_2.jpg',
       '5HC432_2IEJ_F0244_detail_3.jpg',
-    ],
-  },
-  {
-    id: '5HC179_AF6P_F0201',
-    index: 21,
-    category1: 'accessories',
-    category2: 'hats',
-    categoryKor1: '액세서리',
-    categoryKor2: '모자',
-    name: '나파 가죽 베이스볼 캡',
-    price: '₩ 1,430,000',
-    image_url:
-      'https://www.miumiu.com/etc/designs/aem-miumiu-innovation-clientlibs/clientlib-resources/resources/images/plp-fallback.svg',
-    product_url:
-      'https://www.miumiu.com/kr/ko/p/%EB%82%98%ED%8C%8C-%EA%B0%80%EC%A3%BD-%EB%B2%A0%EC%9D%B4%EC%8A%A4%EB%B3%BC-%EC%BA%A1/5HC179_AF6P_F0201',
-    crawled_at: '2025-11-13T16:53:52.292044',
-    subtitle:
-      '나파 가죽의 정교한 빈티지 효과 처리가 미우미우의 스포티한 코드를 재해석하며, 에이징된 텍스처와 아이코닉한 엠보싱 로고가 어우러져 매력을 더합니다.',
-    bullet_points: [
-      '제품 코드: 5HC179_AF6P_F0201',
-      '빈티지 효과 처리',
-      '코튼 개버딘 안감',
-      '조절 가능한 레더 백 스트랩',
-      '엠보싱 레터링 로',
-    ],
-    size_info: [],
-    material: '주 소재: 양가죽',
-    detail_images: [
-      {
-        type: 'thumbnail',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC179/AF6PF0201/5HC179_AF6P_F0201_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '나파 가죽 베이스볼 캡',
-      },
-      {
-        type: 'sub',
-        url: 'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC179/AF6PF0201/5HC179_AF6P_F0201_SLR.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
-        alt: '나파 가죽 베이스볼 캡',
-        index: 1,
-      },
-    ],
-    local_image: '5HC179_AF6P_F0201.jpg',
-    local_detail_images: [
-      '5HC179_AF6P_F0201_detail_thumbnail.jpg',
-      '5HC179_AF6P_F0201_detail_2.jpg',
     ],
   },
   {

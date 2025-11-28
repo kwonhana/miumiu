@@ -5,7 +5,8 @@ import '../scss/AutomneBi.scss';
 
 const AutomneBi = () => {
   useEffect(() => {
-    new WOW.WOW().init();
+    const wow = new WOW.WOW({ live: false });
+    wow.init();
   }, []);
 
   return (
