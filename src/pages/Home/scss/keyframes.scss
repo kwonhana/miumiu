@@ -63,3 +63,15 @@
     background-color: main.$base;
   }
 }
+
+//TODO 스켈레톤 키프레임
+@keyframes shine {
+  0% {
+    /* 초기 상태: 그라데이션이 왼쪽 -100% 위치에서 시작 */
+    background-position: 110% 0; /* 시작 위치 조정 */
+  }
+  100% {
+    /* 최종 상태: 그라데이션이 오른쪽 +100% 위치로 이동 */
+    background-position: -110% 0; /* 끝 위치 조정 */
+  }
+}

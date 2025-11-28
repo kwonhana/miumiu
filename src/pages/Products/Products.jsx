@@ -47,12 +47,9 @@ const Products = ({ list }) => {
   return (
     <section className="product-page">
       <ProductBanner bannerTitle={categoryName} />
-
       <ProductFilterNav list={items} onFilterChange={setFilteredList} />
-
       <div className="product-list-wrap">
         <h2>{categoryName}</h2>
-
         <ProductList list={filteredList} />
       </div>
 

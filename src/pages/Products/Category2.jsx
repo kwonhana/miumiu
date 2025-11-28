@@ -6,6 +6,7 @@ import ProductBanner from './layout/ProductBanner';
 import ProductFilterNav from './layout/ProductFilterNav';
 import './scss/Category2.scss';
 import ProductFilterWrap from './layout/ProductFilterWrap';
+import ProductListSkeleton from './layout/ProductListSkeleton';
 
 const Category2 = () => {
   const { category1, category2, tags } = useParams();
@@ -112,7 +113,8 @@ const Category2 = () => {
         onOpenFilter={handleOpenFilter}
       />
 
-      <ProductList filteredList={displayList} />
+      {!items ? <ProductListSkeleton /> : <ProductList filteredList={displayList} />}
+
       <ProductFilterWrap
         collection={collectionArray}
         fabric={fabricArray}

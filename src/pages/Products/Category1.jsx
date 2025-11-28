@@ -6,10 +6,9 @@ import ProductFilterWrap from './layout/ProductFilterWrap';
 import './scss/Category1.scss';
 import ProductList from './layout/ProductList';
 import { CustomItem } from '../../store/data';
-
 import { Link, useParams, useNavigate } from 'react-router-dom';
 import { useEffect, useRef, useState } from 'react';
-
+import ProductListSkeleton from './layout/ProductListSkeleton';
 const Category1 = () => {
   const { category1, category2, tags } = useParams();
   const { items, filterCategory1, onCustomStyle } = useProductsStore();
@@ -18,9 +17,7 @@ const Category1 = () => {
   const [custom, setCustom] = useState(false);
   const navigate = useNavigate();
 
-  // -----------------------------------------
-  // ⭐ Category1/Category2 기준 필터링 전체 로직
-  // -----------------------------------------
+  // TODO Category1/Category2 기준 필터링 전체 로직
   let filtered = [];
 
   if (category1 && category2) {
@@ -59,10 +56,7 @@ const Category1 = () => {
     );
   }
 
-  console.log('cate2222222222222', category2List);
-  //  Category 클릭 시 이동
-  // -----------------------------------------
-  //  Category 클릭 시 이동
+  //  TODO Category 클릭 시 이동
   // -----------------------------------------
   const handleCategoryClick = (sub) => {
     navigate(`/${category1}/${sub}`);
@@ -139,7 +133,7 @@ const Category1 = () => {
   const handleCloseFilter = () => setIsFilterOpen(false);
 
   // -----------------------------------------
-  // ⭐ 필터 리스트 생성
+  //TODO 필터 리스트 생성
   // -----------------------------------------
   const collectionArray = Array.from(new Set(filtered.map((item) => item.tags).filter(Boolean)));
 
@@ -177,8 +171,13 @@ const Category1 = () => {
           custom={custom}
         />
 
-        {/* 필터 적용된 리스트가 있으면 그걸 표시 */}
-        <ProductList filteredList={extraFilteredList ?? filtered} />
+        {/*TODO 필터 적용된 리스트가 있으면 그걸 표시 */}
+
+        {!items ? (
+          <ProductListSkeleton />
+        ) : (
+          <ProductList filteredList={extraFilteredList ?? filtered} />
+        )}
 
         {isFilterOpen && (
           <ProductFilterWrap
