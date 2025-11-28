@@ -2,10 +2,8 @@ import React, { useState } from 'react';
 import './scss/Input.scss';
 import DaumPostcode from 'react-daum-postcode';
 
-const DetailAddress = () => {
+const DetailAddress = ({ zipAddress, detailAddress, setZipAddress, setDetailAddress }) => {
   const [isOpen, setIsOpen] = useState(false);
-  const [zipAddress, setZipAddress] = useState(''); // 기본 주소
-  const [detailAddress, setDetailAddress] = useState(''); // 상세 주소
 
   const handleComplete = (data) => {
     let fullAddress = data.address;

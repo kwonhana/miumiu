@@ -70,6 +70,7 @@
             border-radius: 4px;
             padding: 16px 40px 16px 16px;
             background-color: #fff;
+            cursor: default;
 
             &::placeholder {
               @include am.font(1.4rem, 400, am.$text-666);

@@ -1,3 +1,4 @@
+// src/App.jsx
 import './App.scss';
 
 import 'animate.css/animate.min.css';
@@ -8,17 +9,11 @@ import Login from './pages/auth/login/Login';
 import Footer from './pages/footer/Footer';
 import Join from './pages/auth/join/Join';
 import Mypage from './pages/auth/MyPage/Mypage';
-import OAuthRedirect from './pages/auth/OAuthRedirect/OAuthRedirect';
-import ResetID from './pages/auth/ResetID/ResetID';
-import ResetPassword from './pages/auth/ResetPassword/ResetPassword';
-import VerifyEmail from './pages/auth/VerifyEmail/VerifyEmail';
 import Cart from './pages/Checkout/Cart/Cart';
-import { Coupon } from './pages/Checkout/Coupon/Coupon';
 import OrderComplete from './pages/Checkout/OrderComplete/OrderComplete';
 import OrderSummary from './pages/Checkout/OrderSummary/OrderSummary';
 import Payment from './pages/Checkout/Payment/Payment';
 import { Shipping } from './pages/Checkout/Shipping/Shipping';
-// import Products from './pages/Products/Products';
 import ProductDetail from './pages/Products/ProductDetail';
 import { useProductsStore } from './store/useProductsStore';
 import { useEffect, useState } from 'react';
@@ -34,6 +29,10 @@ import ScrollToTop from './ScrollToTop';
 
 import { Chatbot } from './component/feedback/Chatbot';
 import Modal from './component/feedback/Modal';
+import CartList from './pages/Products/CartList';
+
+// 🔹 추가: 로그인된 유저 정보 가져오기
+import { useAuthStore } from './api/authStore';
 
 function App() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -52,11 +51,30 @@ function App() {
     setModalContentKey(null);
   };
 
-  const { onFetchItems, onMakeMenu } = useProductsStore();
+  // 🔹 상품/메뉴 관련
+  const { onFetchItems, onMakeMenu, loadUserCartAndWish, clearUserCartAndWish } =
+    useProductsStore();
+
+  // 🔹 로그인 유저
+  const user = useAuthStore((state) => state.user);
+
+  // 1) 상품 데이터 + 메뉴 생성
   useEffect(() => {
     onFetchItems();
     onMakeMenu();
   }, [onFetchItems, onMakeMenu]);
+
+  // 2) 유저가 바뀔 때마다 위시/카트 로드 or 초기화
+  useEffect(() => {
+    if (user) {
+      // 로그인 / 계정 변경 → 해당 유저의 위시/카트 불러오기
+      loadUserCartAndWish();
+    } else {
+      // 로그아웃 → 메모리 상태 초기화
+      clearUserCartAndWish();
+    }
+  }, [user, loadUserCartAndWish, clearUserCartAndWish]);
+
   return (
     <>
       <Header />
@@ -70,17 +88,11 @@ function App() {
         <Route path="mypage/:tab?" element={<Mypage />} />
         <Route path="wishlist" element={<Navigate to="/mypage/wishlist" replace />} />
         <Route path="myOrder" element={<Navigate to="/mypage/order" replace />} />
-
-        <Route path="OAuthRedirect" element={<OAuthRedirect />} />
-        <Route path="resetId" element={<ResetID />} />
-        <Route path="resetpassword" element={<ResetPassword />} />
-        <Route path="verifyEmail" element={<VerifyEmail />} />
         <Route path="cart" element={<Cart />} />
-        <Route path="coupon" element={<Coupon />} />
-        <Route path="orderComplete" element={<OrderComplete />} />
+        <Route path="orderComplete/:id" element={<OrderComplete />} />
         <Route path="orderSummary" element={<OrderSummary />} />
         <Route path="payment" element={<Payment />} />
-        <Route path="shipping" element={<Shipping />} />
+        <Route path="shipping" element={<Shipping openModal={openModal} />} />
         <Route path="searchResult" element={<SearchResult />} />
         {/* <Route path="/:category1" element={<Products />} />
         <Route path="/:category1/:category2" element={<Products />} />
@@ -88,13 +100,15 @@ function App() {
         <Route path="/:category1/:category2/tag/:tags" element={<Products />} />
         <Route path="/:category1/tag/:tags/:category2" element={<Products />} /> */}
         <Route path="/:category1" element={<Category1 />} />
-        <Route path="/:category1/:category2" element={<Category2 />} />
+        {/* <Route path="/:category1/:category2" element={<Category2 />} /> */}
+        <Route path="/:category1/:category2" element={<Category1 />} />
         <Route path="/product/:id" element={<ProductDetail />} />
         <Route path="local" element={<Local />} />
         <Route path="ProductBanner" element={<ProductBanner />} />
         <Route path="ProductDetailNav" element={<ProductDetailNav />} />
         <Route path="AllProducts" element={<AllProducts />} />
         <Route path="ProductFilterWrap" element={<ProductFilterWrap />} />
+        <Route path="CartList" element={<CartList />} />
       </Routes>
       <Footer openModal={openModal} />
       <Chatbot />

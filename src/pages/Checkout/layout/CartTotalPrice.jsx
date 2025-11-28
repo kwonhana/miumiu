@@ -3,32 +3,37 @@ import Button from '../../../component/layout/Button';
 import '../scss/CartTotalPrice.scss';
 import { useProductsStore } from '../../../store/useProductsStore';
 import { useNavigate } from 'react-router-dom';
+import { useAuthStore } from '../../../api/authStore';
 
+//TODO 장바구니 결제창
 const CartTotalPrice = ({ showCoupon = false, showVAT = false, showButton = true }) => {
   const { cartCount, totalPrice, discount, finalPrice } = useProductsStore();
+  const { user } = useAuthStore();
+
   const navigate = useNavigate();
 
   const handleCheckout = () => {
-    navigate('/shipping');
+    navigate(user ? '/shipping' : '/login');
   };
 
   return (
     <div className="CartTotalPrice">
       <b className="">총 결제 금액</b>
-
       <div className="price-info">
         <div className="list">
           <p>배송비</p>
           <span>무료</span>
         </div>
         <div className="list">
-          <p>소계</p>
+          <p>
+            소계 <span className="addTax">(부가세 포함)</span>
+          </p>
           <span>{totalPrice.toLocaleString()} 원</span>
         </div>
 
         {showCoupon && (
           <div className="list">
-            <p>쿠폰/적립금</p>
+            <p>쿠폰</p>
             <span>-{(discount || 0).toLocaleString()}원</span>
           </div>
         )}

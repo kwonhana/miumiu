@@ -1,3 +1,4 @@
+//TODO 미우미우 매장 정보
 export const locations = [
   {
     id: 1,

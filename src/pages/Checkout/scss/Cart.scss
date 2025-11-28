@@ -21,6 +21,28 @@
         }
       }
     }
+    .cart-empty {
+      background-color: #fff;
+      height: 500px;
+      @include ct.flex(center, center, 0);
+      flex-direction: column;
+
+      > h3 {
+        margin-top: 8rem;
+        @include ct.font(2rem, 500, ct.$base);
+      }
+      > p {
+        margin-top: 1.6rem;
+        @include ct.font(1.6rem, 400, ct.$text-666);
+      }
+      > button {
+        margin: 4rem 0 8rem 0;
+        @include ct.font(1.6rem, 600, ct.$base);
+        border: 1px solid ct.$base;
+        width: 13%;
+        height: 6rem;
+      }
+    }
     .cart-items {
       margin-top: 30px;
     }

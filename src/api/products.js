@@ -1,3 +1,4 @@
+//TODO 미우미우 제품 정보
 export const products = [
   {
     id: '5MH043_ADT7_F0F06',

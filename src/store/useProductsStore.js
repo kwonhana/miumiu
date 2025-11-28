@@ -1,9 +1,18 @@
+// src/store/useProductsStore.js
 import { create } from 'zustand';
 import { products } from '../api/products';
 import { categoryKorMap, CustomItem } from './data';
 import { db } from '../api/firebase';
-import { doc, getDoc, setDoc } from 'firebase/firestore';
+import { doc, getDoc, setDoc, collection, addDoc, serverTimestamp } from 'firebase/firestore';
 import { useAuthStore } from '../api/authStore';
+import { generateOrderNumber } from '../pages/Checkout/MyOrder/RamdomOrderNumber';
+
+// 🔹 현재 로그인된 유저 UID 가져오는 헬퍼
+const getCurrentUid = () => {
+  const { user } = useAuthStore.getState();
+  const rawUid = user && (user.uid || user.userId || user.id);
+  return typeof rawUid === 'string' && rawUid.trim() ? rawUid : null;
+};
 
 export const useProductsStore = create((set, get) => ({
   // -------------------- 상품 --------------------
@@ -24,6 +33,71 @@ export const useProductsStore = create((set, get) => ({
   finalPrice: 0,
   selectedCoupon: null,
 
+  //TODO 유저별 위시/카트 firebase 로드/저장
+  // 로그인/계정변경 시 호출 → Firebase에 저장된 위시/카트 불러오기
+  loadUserCartAndWish: async () => {
+    const uid = getCurrentUid();
+    if (!uid) return;
+
+    try {
+      const userRef = doc(db, 'users', uid);
+      const userDoc = await getDoc(userRef);
+
+      if (userDoc.exists()) {
+        const data = userDoc.data();
+        const cartItems = data.cartItems || [];
+        const wishList = data.wishList || [];
+        const totalPrice = cartItems.reduce(
+          (sum, item) => sum + (item.price || 0) * (item.count || 1),
+          0
+        );
+
+        set({
+          wishList,
+          cartItems,
+          cartCount: cartItems.length,
+          totalPrice,
+        });
+      }
+    } catch (err) {
+      console.error('유저 장바구니/위시 불러오기 에러:', err);
+    }
+  },
+
+  //TODO 위시/카트 변경 시 Firebase에 저장
+  saveUserCartAndWish: async () => {
+    const uid = getCurrentUid();
+    if (!uid) return;
+
+    const { wishList, cartItems } = get();
+
+    try {
+      const userRef = doc(db, 'users', uid);
+      await setDoc(
+        userRef,
+        {
+          wishList,
+          cartItems,
+        },
+        { merge: true }
+      );
+    } catch (err) {
+      console.error('유저 장바구니/위시 저장 에러:', err);
+    }
+  },
+
+  // 로그아웃 시 메모리 상의 장바구니/위시 비우기
+  clearUserCartAndWish: () =>
+    set({
+      wishList: [],
+      cartItems: [],
+      cartCount: 0,
+      totalPrice: 0,
+      discount: 0,
+      finalPrice: 0,
+      selectedCoupon: null,
+    }),
+
   // -------------------- 상품 전체 로드 --------------------
   onFetchItems: async () => {
     const pull = get().items;
@@ -38,9 +112,14 @@ export const useProductsStore = create((set, get) => ({
     }));
 
     set({ items: enriched, filtered: enriched });
+    // 샘_ (선택)메뉴 자동 생성
+    if (get().onMakeMenu) {
+      // onMakeMenu는 store 내 함수라 바로 호출 가능
+      get().onMakeMenu();
+    }
   },
 
-  // -------------------- 검색 --------------------
+  // TODO 검색
   onSearch: (word) => {
     const query = word.toLowerCase().trim();
     const items = get().items;
@@ -69,7 +148,7 @@ export const useProductsStore = create((set, get) => ({
     return results;
   },
 
-  // -------------------- 필터링 --------------------
+  //TODO 필터링
   onCateOnly: (category1, category2) => {
     const items = get().items;
     let filtered = items;
@@ -86,19 +165,19 @@ export const useProductsStore = create((set, get) => ({
     return filtered;
   },
 
-  onCateTag: (category1, tags) => {
-    const items = get().items;
-    let filtered = items;
+  // onCateTag: (category1, tags) => {
+  //   const items = get().items;
+  //   let filtered = items;
 
-    if (category1 && tags) {
-      filtered = items.filter((item) => item.category1 === category1 && item.tags === tags);
-    } else if (tags) {
-      filtered = items.filter((item) => item.tags === tags);
-    }
+  //   if (category1 && tags) {
+  //     filtered = items.filter((item) => item.category1 === category1 && item.tags === tags);
+  //   } else if (tags) {
+  //     filtered = items.filter((item) => item.tags === tags);
+  //   }
 
-    set({ filtered });
-    return filtered;
-  },
+  //   set({ filtered });
+  //   return filtered;
+  // },
 
   onCate1: (category1) => {
     const items = get().items;
@@ -107,21 +186,17 @@ export const useProductsStore = create((set, get) => ({
     return filtered;
   },
 
-  onTags: (tags) => {
-    const items = get().items;
-    const filtered = items.filter((item) => item.tags === tags);
-    set({ filtered });
-    return filtered;
-  },
+  // onTags: (tags) => {
+  //   const items = get().items;
+  //   const filtered = items.filter((item) => item.tags === tags);
+  //   set({ filtered });
+  //   return filtered;
+  // },
 
   onCustomStyle: (style) => {
     const items = get().items;
     const customItems = CustomItem.filter((item) => item.style === style);
-    const filtered = items.filter((item) =>
-      customItems.some((custom) => custom.itemId === item.id)
-    );
-    set({ filtered });
-    return filtered;
+    return items.filter((item) => customItems.some((custom) => custom.itemId === item.id));
   },
 
   onApplyFilter: (filters) => {
@@ -210,7 +285,7 @@ export const useProductsStore = create((set, get) => ({
     });
   },
 
-  // -------------------- 장바구니 --------------------
+  // TODO 장바구니 --------------------
   onAddToCart: (product, addCount = 1) => {
     const cart = get().cartItems;
     const existing = cart.find((item) => item.id === product.id);
@@ -233,6 +308,9 @@ export const useProductsStore = create((set, get) => ({
       cartCount: updateCart.length,
       totalPrice: total,
     });
+
+    // 🔹 Firestore 반영
+    get().saveUserCartAndWish();
   },
 
   onRemoveCart: (id) => {
@@ -246,6 +324,9 @@ export const useProductsStore = create((set, get) => ({
       cartCount: updateCart.length,
       totalPrice: total,
     });
+
+    // 🔹 Firestore 반영
+    get().saveUserCartAndWish();
   },
 
   onPlusItem: (id) => {
@@ -257,6 +338,9 @@ export const useProductsStore = create((set, get) => ({
     const total = updateCart.reduce((sum, item) => sum + item.price * item.count, 0);
 
     set({ cartItems: updateCart, totalPrice: total });
+
+    // 🔹 Firestore 반영
+    get().saveUserCartAndWish();
   },
 
   onMinusItem: (id) => {
@@ -268,9 +352,13 @@ export const useProductsStore = create((set, get) => ({
     const total = updateCart.reduce((sum, item) => sum + item.price * item.count, 0);
 
     set({ cartItems: updateCart, totalPrice: total });
+
+    // 🔹 Firestore 반영
+    get().saveUserCartAndWish();
   },
 
   onClearCart: () => {
+    // 유저별로도 비울 거라 localStorage는 배송 정보만 정리 용도로 유지
     localStorage.removeItem('cartItems');
     localStorage.removeItem('shippingData');
     set({
@@ -281,6 +369,9 @@ export const useProductsStore = create((set, get) => ({
       finalPrice: 0,
       selectedCoupon: null,
     });
+
+    // 🔹 Firestore 반영
+    get().saveUserCartAndWish();
   },
 
   onSelectCoupon: (coupon) => set({ selectedCoupon: coupon }),
@@ -293,12 +384,65 @@ export const useProductsStore = create((set, get) => ({
     set({ discount, finalPrice });
   },
 
-  // -------------------- 위시리스트 --------------------
-  onToggleWish: async (product) => {
-    const { user } = useAuthStore.getState();
+  createOrder: async ({ shippingData, paymentData, orderMessage }) => {
+    const uid = getCurrentUid();
+    if (!uid) {
+      alert('로그인이 필요합니다.');
+      return null;
+    }
 
-    const rawUid = user && (user.uid || user.userId || user.id);
-    if (!rawUid || typeof rawUid !== 'string') {
+    const { cartItems, totalPrice, discount, finalPrice } = get();
+
+    if (!cartItems || cartItems.length === 0) {
+      alert('장바구니가 비어 있습니다.');
+      return null;
+    }
+
+    try {
+      const ordersRef = collection(db, 'users', uid, 'orders');
+
+      // ⭐ UID 없는 주문번호 생성 (3번 방식)
+      const orderNumber = generateOrderNumber();
+
+      const orderDoc = {
+        orderNumber, // ★ UID 없음!
+        userId: uid,
+        items: cartItems,
+        totalPrice,
+        discount,
+        finalPrice,
+        shipping: shippingData || null,
+        payment: paymentData || null,
+        message: orderMessage || '',
+        status: '주문완료',
+        createdAt: new Date(),
+      };
+
+      const docRef = await addDoc(ordersRef, orderDoc);
+
+      // 장바구니 초기화
+      set({
+        cartItems: [],
+        cartCount: 0,
+        totalPrice: 0,
+        discount: 0,
+        finalPrice: 0,
+        selectedCoupon: null,
+      });
+
+      await get().saveUserCartAndWish();
+
+      return docRef.id;
+    } catch (err) {
+      console.error('주문 생성 에러:', err);
+      alert('주문 저장 실패');
+      return null;
+    }
+  },
+  //TODO 위시리스트 --------------------
+  onToggleWish: async (product) => {
+    const uid = getCurrentUid();
+    if (!uid) {
       alert('로그인이 필요합니다.');
       return;
     }
@@ -311,24 +455,20 @@ export const useProductsStore = create((set, get) => ({
     set({ wishList: updatedWish });
 
     try {
-      const userRef = doc(db, 'users', rawUid);
-
-      // 🔥 기존 문서 유지하고 wishList만 수정하는 안전한 업데이트
-      await setDoc(userRef, { wishList: updatedWish }, { merge: true });
-
+      await get().saveUserCartAndWish();
       console.log('위시리스트 Firestore 업데이트 완료');
     } catch (err) {
       console.error(err);
     }
   },
 
+  // (원래 쓰던 함수 – 필요하면 그대로 사용 가능하지만,
+  // 사실상 loadUserCartAndWish로 통합해서 써도 됨)
   fetchWishList: async () => {
-    const { user } = useAuthStore.getState();
+    const uid = getCurrentUid();
+    if (!uid) return;
 
-    const rawUid = user && (user.uid || user.userId || user.id);
-    if (!rawUid || typeof rawUid !== 'string') return;
-
-    const userRef = doc(db, 'users', rawUid);
+    const userRef = doc(db, 'users', uid);
     const userDoc = await getDoc(userRef);
 
     if (userDoc.exists()) {

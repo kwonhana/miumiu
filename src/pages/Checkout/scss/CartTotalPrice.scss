@@ -24,6 +24,10 @@
 
       p {
         @include ct.font(1.8rem, 400, ct.$base);
+
+        span.addTax {
+          @include ct.font(1.6rem, 400, ct.$text-666);
+        }
       }
       span {
         @include ct.font(1.8rem, 400, ct.$text-666);

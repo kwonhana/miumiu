@@ -1,68 +1,84 @@
+// src/pages/.../RecentOrderTable.jsx
 import React from 'react';
 import './scss/RecentOrderTable.scss';
 
-const RecentOrderTable = () => {
+// 🔹 MyOrder에서 props로 orders를 전달받는다
+const RecentOrderTable = ({ orders = [] }) => {
+  // 날짜 포맷
+  const formatDate = (ts) => {
+    if (!ts) return '';
+    try {
+      const d = ts.toDate ? ts.toDate() : new Date(ts);
+      return d.toLocaleDateString('ko-KR'); // 예: 2025. 11. 10
+    } catch {
+      return '';
+    }
+  };
+
+  // 금액 포맷
+  const formatPrice = (price) => {
+    if (price == null) return '-';
+    const num =
+      typeof price === 'number' ? price : parseInt(String(price).replace(/[^0-9]/g, ''), 10);
+    if (isNaN(num)) return '-';
+    return num.toLocaleString('ko-KR') + '원';
+  };
+
+  const hasOrders = orders && orders.length > 0;
+
   return (
-    <table class="order-table">
-      <tr>
-        <th>주문번호</th>
-        <th>주문일</th>
-        <th>상품명</th>
-        <th>상품 옵션</th>
-        <th>구매 개수</th>
-        <th>금액</th>
-        <th>주문상태</th>
-      </tr>
+    <table className="order-table">
+      <tbody>
+        <tr>
+          <th>주문번호</th>
+          <th>주문일</th>
+          <th>상품명</th>
+          <th>구매 개수</th>
+          <th>금액</th>
+          <th>주문상태</th>
+        </tr>
 
-      <tr>
-        <td>2025-1110-000123</td>
-        <td>2025.11.10</td>
-        <td>벨벳 스크런치</td>
-        <td>앨리베스터 핑크</td>
-        <td>1</td>
-        <td>550,000원</td>
-        <td>주문 취소</td>
-      </tr>
+        {/* 주문이 없을 때 */}
+        {!hasOrders && (
+          <tr>
+            <td colSpan={6}>최근 주문 내역이 없습니다.</td>
+          </tr>
+        )}
 
-      <tr>
-        <td>2025-1101-000123</td>
-        <td>2025.10.01</td>
-        <td>뉴발란스 X 미우미우 스웨이드 및 메쉬 스니커즈</td>
-        <td>에크루 | 35</td>
-        <td>1</td>
-        <td>1,690,000원</td>
-        <td>배송 완료</td>
-      </tr>
+        {/* 주문 배열을 돌면서 행 렌더링 */}
+        {hasOrders &&
+          orders.map((order) => {
+            const items = order.items || [];
+            const firstItem = items[0];
 
-      <tr>
-        <td>2025-0927-000045</td>
-        <td>2025.09.27</td>
-        <td>나파 가족 포켓 백</td>
-        <td>블랙</td>
-        <td>1</td>
-        <td>4,800,000원</td>
-        <td>배송 완료</td>
-      </tr>
+            // 상품명: 첫 상품 이름 + 외 N건
+            let productName = '-';
+            if (firstItem?.name) {
+              productName =
+                items.length > 1 ? `${firstItem.name} 외 ${items.length - 1}건` : firstItem.name;
+            }
 
-      <tr>
-        <td>2025-0719-000017</td>
-        <td>2025.07.19</td>
-        <td>마테라쎄 나파 가족 카드 홀더</td>
-        <td>아쿠아마린</td>
-        <td>1</td>
-        <td>690,000원</td>
-        <td>주문 취소</td>
-      </tr>
+            // 총 개수
+            const totalCount = items.reduce((sum, it) => sum + (it.count || 1), 0);
 
-      <tr>
-        <td>2025-0612-000017</td>
-        <td>2025.06.12</td>
-        <td>에나멜 메탈 귀걸이</td>
-        <td>아마란스 레드/메이즈 옐로우</td>
-        <td>1</td>
-        <td>490,000원</td>
-        <td>배송 완료</td>
-      </tr>
+            // 금액: finalPrice 있으면 우선, 없으면 totalPrice
+            const amount = order.finalPrice ?? order.totalPrice ?? null;
+
+            // 🔹 MyOrder에서 미리 계산해서 넣어준 상태값 사용
+            const status = order.computedStatus || order.status || '주문 완료';
+
+            return (
+              <tr key={order.id}>
+                <td>{order.orderNumber}</td>
+                <td>{formatDate(order.createdAt)}</td>
+                <td>{productName}</td>
+                <td>{totalCount}</td>
+                <td>{formatPrice(amount)}</td>
+                <td>{status}</td>
+              </tr>
+            );
+          })}
+      </tbody>
     </table>
   );
 };

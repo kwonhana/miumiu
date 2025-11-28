@@ -1,4 +1,3 @@
-import React from 'react';
 import '../scss/specialCo.scss';
 import { special } from '../../../store/data';
 import { Link } from 'react-router-dom';

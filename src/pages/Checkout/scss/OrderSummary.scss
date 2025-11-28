@@ -53,6 +53,7 @@
 
     li {
       @include su.font(1.6rem, 400, su.$text-333);
+      line-height: 140%;
     }
   }
 
@@ -147,6 +148,7 @@
       }
       span {
         @include su.font(1.6rem, 400, su.$text-333);
+        line-height: 140%;
       }
     }
   }
