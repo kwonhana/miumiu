@@ -112,6 +112,11 @@ export const useProductsStore = create((set, get) => ({
     }));
 
     set({ items: enriched, filtered: enriched });
+    // 샘_ (선택)메뉴 자동 생성
+    if (get().onMakeMenu) {
+      // onMakeMenu는 store 내 함수라 바로 호출 가능
+      get().onMakeMenu();
+    }
   },
 
   // TODO 검색
@@ -160,19 +165,19 @@ export const useProductsStore = create((set, get) => ({
     return filtered;
   },
 
-  onCateTag: (category1, tags) => {
-    const items = get().items;
-    let filtered = items;
+  // onCateTag: (category1, tags) => {
+  //   const items = get().items;
+  //   let filtered = items;
 
-    if (category1 && tags) {
-      filtered = items.filter((item) => item.category1 === category1 && item.tags === tags);
-    } else if (tags) {
-      filtered = items.filter((item) => item.tags === tags);
-    }
+  //   if (category1 && tags) {
+  //     filtered = items.filter((item) => item.category1 === category1 && item.tags === tags);
+  //   } else if (tags) {
+  //     filtered = items.filter((item) => item.tags === tags);
+  //   }
 
-    set({ filtered });
-    return filtered;
-  },
+  //   set({ filtered });
+  //   return filtered;
+  // },
 
   onCate1: (category1) => {
     const items = get().items;
@@ -181,21 +186,17 @@ export const useProductsStore = create((set, get) => ({
     return filtered;
   },
 
-  onTags: (tags) => {
-    const items = get().items;
-    const filtered = items.filter((item) => item.tags === tags);
-    set({ filtered });
-    return filtered;
-  },
+  // onTags: (tags) => {
+  //   const items = get().items;
+  //   const filtered = items.filter((item) => item.tags === tags);
+  //   set({ filtered });
+  //   return filtered;
+  // },
 
   onCustomStyle: (style) => {
     const items = get().items;
     const customItems = CustomItem.filter((item) => item.style === style);
-    const filtered = items.filter((item) =>
-      customItems.some((custom) => custom.itemId === item.id)
-    );
-    set({ filtered });
-    return filtered;
+    return items.filter((item) => customItems.some((custom) => custom.itemId === item.id));
   },
 
   onApplyFilter: (filters) => {
