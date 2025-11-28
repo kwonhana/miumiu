@@ -212,7 +212,8 @@ export const Chatbot = () => {
                         <button
                           key={btn.id}
                           onClick={() => handleButtonClick(btn.category)}
-                          className="cs-button">
+                          className="cs-button"
+                        >
                           {btn.label}
                         </button>
                       ))}
@@ -228,7 +229,8 @@ export const Chatbot = () => {
                           onClick={() => handleSubButtonClick(btn.subCategory, btn.label)}
                           className={`action-button ${
                             btn.subCategory === 'back' ? 'back-button' : ''
-                          }`}>
+                          }`}
+                        >
                           {btn.label}
                         </button>
                       ))}
@@ -240,7 +242,8 @@ export const Chatbot = () => {
                         <button
                           key={i}
                           onClick={() => btn.action === 'back' && handleReset()}
-                          className="action-button">
+                          className="action-button"
+                        >
                           {btn.label}
                         </button>
                       ))}

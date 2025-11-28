@@ -4,10 +4,11 @@
   @include ct.flex(start, stretch, 0);
   margin-bottom: 20px;
   width: 100%;
+  aspect-ratio: 1087/255;
   background-color: #fff;
 
   .itemleft-Img {
-    width: 32%;
+    width: 23.5%;
     aspect-ratio: 1/1;
     display: flex;
     align-items: center;

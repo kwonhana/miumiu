@@ -24,7 +24,7 @@
             no-repeat;
         }
         .title {
-          @include main.font(1.6rem, 400, main.$base);
+          @include main.font(1.4rem, 400, main.$base);
           margin-bottom: 18px;
         }
         .sub-title {

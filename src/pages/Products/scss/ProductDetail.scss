@@ -80,11 +80,19 @@
           border: 1px solid pd.$base;
           background-color: #fff;
           color: pd.$base;
+
+          &:hover {
+            background: pd.$line-f4;
+          }
         }
         &:nth-child(2) {
           border: 1px solid pd.$base;
           background-color: pd.$base;
           color: #fff;
+
+          &:hover {
+            background: pd.$text-333;
+          }
         }
       }
     }

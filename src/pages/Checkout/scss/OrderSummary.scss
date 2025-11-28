@@ -178,6 +178,10 @@
         border: 1px solid su.$base;
         background-color: #fff;
         padding: 10px 16px;
+
+        &:hover {
+          background: su.$line-f4;
+        }
       }
 
       &:nth-child(2) {
@@ -187,6 +191,10 @@
         border: 1px solid su.$base;
         background-color: su.$base;
         padding: 10px 16px;
+
+        &:hover {
+          background: su.$text-333;
+        }
       }
     }
   }

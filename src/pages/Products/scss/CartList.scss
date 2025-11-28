@@ -69,16 +69,26 @@
       }
       button {
         width: 100%;
+        aspect-ratio: 652/56;
 
         &:nth-child(2) {
           border: 1px solid ca.$base;
           background-color: #fff;
           color: ca.$base;
+          margin-bottom: 10px;
+
+          &:hover {
+            background-color: ca.$line-f4;
+          }
         }
         &:nth-child(3) {
           border: 1px solid ca.$base;
           background-color: ca.$base;
           color: #fff;
+
+          &:hover {
+            background-color: ca.$text-333;
+          }
         }
       }
     }

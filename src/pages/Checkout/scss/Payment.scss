@@ -91,6 +91,10 @@
       width: 20%;
       border: 1px solid pay.$base;
       background-color: #fff;
+
+      &:hover {
+        background: pay.$line-f4;
+      }
     }
 
     &:nth-child(2) {
@@ -98,6 +102,10 @@
       width: 80%;
       border: 1px solid pay.$base;
       background-color: pay.$base;
+
+      &:hover {
+        background-color: pay.$text-333;
+      }
     }
   }
 }

@@ -92,6 +92,16 @@
       .btnLogin {
         background-color: #000;
         color: #fff;
+
+        &:hover {
+          background-color: login.$text-333;
+        }
+      }
+
+      .btnGoogle {
+        &:hover {
+          background-color: login.$line-f4;
+        }
       }
     }
 

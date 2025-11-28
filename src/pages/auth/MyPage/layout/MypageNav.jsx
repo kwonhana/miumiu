@@ -10,7 +10,7 @@ const MypageNav = ({ activeTab, onChangeTab }) => {
         <ul>
           <li className={activeTab === 'info' ? 'active' : ''}>
             <button type="button" onClick={() => onChangeTab('info')}>
-              내 정보
+              나의 정보
             </button>
           </li>
           <li className={activeTab === 'order' ? 'active' : ''}>

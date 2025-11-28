@@ -143,6 +143,10 @@
         text-align: center;
         line-height: 6rem;
         @include join.font(1.6rem, 600, #fff);
+
+        &:hover {
+          background-color: join.$text-333;
+        }
       }
     }
   }

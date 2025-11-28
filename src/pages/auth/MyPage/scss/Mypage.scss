@@ -21,6 +21,10 @@
             padding: 10px 16px;
             border: 1px solid mp.$base;
             background-color: #fff;
+
+            &:hover {
+              background: mp.$line-f4;
+            }
           }
         }
 
@@ -211,6 +215,10 @@
             padding: 10px 16px;
             border: 1px solid mp.$base;
             background-color: #fff;
+
+            &:hover {
+              background: mp.$line-f4;
+            }
           }
         }
       }

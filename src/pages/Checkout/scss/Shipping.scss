@@ -256,5 +256,9 @@
     width: 100%;
     background-color: sh.$base;
     color: #fff;
+
+    &:hover {
+      background: sh.$text-333;
+    }
   }
 }

@@ -49,7 +49,9 @@ const CartTotalPrice = ({ showCoupon = false, showVAT = false, showButton = true
         <p>
           합계 <span className="item-count">({cartCount}개 상품)</span>
         </p>
-        <div className="total-price">{(finalPrice || totalPrice).toLocaleString()} 원</div>
+        <div className="total-price">
+          {(finalPrice || totalPrice).toLocaleString()} <span>원</span>
+        </div>
       </div>
       {showButton && <Button onClick={handleCheckout} className="price-btn" title="결제하기" />}
       <div className="accordion-wrap">

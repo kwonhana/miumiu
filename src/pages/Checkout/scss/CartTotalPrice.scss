@@ -56,6 +56,10 @@
 
     .total-price {
       @include ct.font(2.6rem, 600, ct.$text-blue);
+
+      > span {
+        color: ct.$base;
+      }
     }
   }
 
@@ -67,6 +71,10 @@
     @include ct.flex(center, center, 0);
     background-color: ct.$base;
     border: 1px solid ct.$base;
+
+    &:hover {
+      background: ct.$text-333;
+    }
   }
 
   .accordion-wrap {

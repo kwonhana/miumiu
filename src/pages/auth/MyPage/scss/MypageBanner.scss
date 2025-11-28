@@ -6,6 +6,7 @@
   height: 50rem;
   margin-top: 8rem;
   background: url('../../../../../public/assets/images/static/mypage-bg.jpg') no-repeat;
+  background-position: center;
 
   .mypage-banner-inner {
     @include mypage.flex(space-between, center, 0);

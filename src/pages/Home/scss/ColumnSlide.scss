@@ -5,6 +5,10 @@
   .swiper {
     height: 100%;
     overflow: hidden;
+
+    .swiper-pagination {
+      display: none;
+    }
   }
 
   .swiper-wrapper {
