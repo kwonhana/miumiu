@@ -3,12 +3,11 @@
 .edit-popup-wrap {
   width: 100%;
   height: 100vh;
-  background-color: rgba(99, 99, 99, 0.6);
-  backdrop-filter: blur(20px);
   position: fixed;
   top: 0;
   left: 0;
   z-index: 999;
+  @include am.modalBack();
 
   .edit-popup {
     background: #fff;

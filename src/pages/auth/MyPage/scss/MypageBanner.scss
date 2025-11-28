@@ -43,13 +43,10 @@
         aspect-ratio: 11 / 9;
         width: 50vw;
         max-width: 220px;
-        background-color: rgba(215, 215, 215, 0.1);
-        border: 1px solid rgba(255, 255, 255, 0.12);
-        backdrop-filter: blur(10px);
-        -webkit-backdrop-filter: blur(10px);
         border-radius: 8px;
         padding: 28px;
         box-sizing: border-box;
+        @include mypage.modalBack();
         @include mypage.flex(space-between, flex-start, auto);
         flex-direction: column;
 
