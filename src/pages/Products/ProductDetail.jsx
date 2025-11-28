@@ -46,8 +46,8 @@ const ProductDetail = () => {
 
   //TODO 메인 이미지 찾기
   useEffect(() => {
-    if (product?.local_detail_images?.length > 0) {
-      setMainImage(product.local_detail_images[0]); // 이때 mainImage는 string으로 가정
+    if (product?.detail_images?.[0]?.url?.length > 0) {
+      setMainImage(product.detail_images[0].url); // 이때 mainImage는 string으로 가정
     }
   }, [product]);
 
@@ -83,7 +83,7 @@ const ProductDetail = () => {
     // 구매하기 클릭시 장바구니에 상품 추가
     const productCart = {
       ...product,
-      cartImg: product?.local_detail_images?.[0],
+      cartImg: product?.detail_images?.[0]?.url || '/assets/images/default-product-image.png',
       count: 1,
       price: parseInt(product?.price?.replace(/[^0-9]/g, '')),
     };
@@ -98,7 +98,7 @@ const ProductDetail = () => {
 
     const productCart = {
       ...product,
-      cartImg: product?.local_detail_images?.[0],
+      cartImg: product?.detail_images?.[0]?.url || '/assets/images/default-product-image.png',
       count: 1,
       price: parseInt(product?.price?.replace(/[^0-9]/g, '')), //숫자로 변환
     };
@@ -150,15 +150,15 @@ const ProductDetail = () => {
           <div className="ProductDetail-top">
             <div className="top-left">
               <div className="main-image">
-                <img src={`/assets/images/detail/${mainImage}`} alt="" />
+                <img src={`${mainImage}`} alt="" />
               </div>
               <ul className="sub-image">
-                {product.local_detail_images.map((img, index) => {
+                {product?.detail_images?.map((el, index) => {
                   return (
-                    <li key={index} className={mainImage === img ? 'active' : ''}>
+                    <li key={index} className={mainImage === el.url ? 'active' : ''}>
                       <img
-                        src={`/assets/images/detail/${img}`}
-                        onClick={() => setMainImage(img)}
+                        src={`${el.url}`}
+                        onClick={() => setMainImage(el.url)}
                         alt={product.name}
                       />
                     </li>
@@ -198,11 +198,11 @@ const ProductDetail = () => {
           <div className="inner">
             <div className="product-info" id="detail-info">
               <ul className="info-list ">
-                {product.local_detail_images.map((img, index) => {
+                {product?.detail_images?.map((el, index) => {
                   return (
                     <React.Fragment key={index}>
                       <li>
-                        <img src={`/assets/images/detail/${img}`} alt={product.name} />
+                        <img src={`${el.url}`} alt={product.name} />
                       </li>
 
                       {index === 1 && (
@@ -259,8 +259,8 @@ const ProductDetail = () => {
               <Link to={`/product/${item.id}`}>
                 <img
                   src={
-                    item.local_detail_images?.[0]
-                      ? `/assets/images/detail/${item.local_detail_images[0]}`
+                    item.detail_images?.[0]?.url
+                      ? `${item.detail_images[0]?.url}`
                       : '/assets/images/default-product-image.png'
                   }
                   alt={item.name}

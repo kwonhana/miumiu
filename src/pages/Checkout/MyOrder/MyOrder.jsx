@@ -182,8 +182,8 @@ const MyOrder = () => {
                         <div className="img-box" onClick={() => navigate(`/product/${item.id}`)}>
                           <img
                             src={
-                              item.local_detail_images?.[0]
-                                ? `/assets/images/detail/${item.local_detail_images[0]}`
+                              item.detail_images[0]?.url
+                                ? `${item.detail_images[0].url}`
                                 : '/assets/images/default-product-image.png'
                             }
                             alt={item.name}

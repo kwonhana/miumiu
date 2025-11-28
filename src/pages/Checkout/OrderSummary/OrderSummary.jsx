@@ -191,7 +191,7 @@ const OrderSummary = () => {
             <h4>선택상품</h4>
             {cartItems.map((item) => (
               <div key={item.id} className="item">
-                <img src={`/assets/images/detail/${item.cartImg}`} alt={item.name} />
+                <img src={`${item.cartImg}`} alt={item.name} />
                 <div className="item-info">
                   <p className="name">{item.name}</p>
                   <p className="quantity">수량: {item.count}</p>

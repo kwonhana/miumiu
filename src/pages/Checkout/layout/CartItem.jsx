@@ -6,13 +6,14 @@ import { Link } from 'react-router-dom';
 //TODO 장바구니 아이템
 const CartItem = () => {
   const { cartItems, onMinusItem, onPlusItem, onRemoveCart } = useProductsStore();
+  console.log(cartItems, 'item.cartImg');
   return (
     <>
       {cartItems.map((item) => (
         <div className="CartItem" key={item.id}>
           <div className="itemleft-Img">
             <Link to={`/product/${item.id}`}>
-              <img src={`/assets/images/detail/${item.cartImg}`} alt={item.name} />
+              <img src={`${item.detail_images[0].url}`} alt={item.name} />
             </Link>
           </div>
           <div className="itemRight">

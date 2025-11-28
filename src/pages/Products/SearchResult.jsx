@@ -185,8 +185,8 @@ const SearchResult = () => {
             <Link to={`/product/${p.id}`}>
               <img
                 src={
-                  p.local_detail_images?.[0]
-                    ? `/assets/images/detail/${p.local_detail_images[0]}`
+                  p.detail_images?.[0].url
+                    ? `${p.detail_images[0].url}`
                     : '/assets/images/default-product-image.png'
                 }
                 alt={p.name}

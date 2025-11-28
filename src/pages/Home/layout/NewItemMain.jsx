@@ -25,9 +25,7 @@ const NewItemMain = () => {
           {newItemTitle.map((product, index) => (
             <SwiperSlide key={index}>
               <div className="new-container">
-                <div
-                  className="img-box"
-                  style={{ backgroundImage: `url(/assets/images/detail/${product.no}.jpg)` }}>
+                <div className="img-box" style={{ backgroundImage: `url(${product.imgUrl})` }}>
                   {/* <img src= alt={product.item} /> */}
                 </div>
                 <div className="gradient-wrap">

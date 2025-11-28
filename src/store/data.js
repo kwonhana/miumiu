@@ -236,13 +236,33 @@ export const slideItems = [
 
 // TODO NewitemMain.jsx 데이터
 export const newItemTitle = [
-  { item: '보 플래드 백', no: '5BB173_2DU5_F0Z0F_V_OWM', id: '5BB173_2DU5_F0Z0F_V_OWM' },
-  { item: '트릭 가죽 키링', no: '5TL516_2E6Y_F0032', id: '5TL516_2E6Y_F0032' },
-  { item: '시어링 트래퍼 햇', no: '5HC386_2CSR_F0040', id: '5HC386_2CSR_F0040' },
+  {
+    item: '보 플래드 백',
+    no: '5BB173_2DU5_F0Z0F_V_OWM',
+    id: '5BB173_2DU5_F0Z0F_V_OWM',
+    imgUrl:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5BB/5BB173/2DU5F0Z0F/5BB173_2DU5_F0Z0F_V_OWM_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+  },
+  {
+    item: '트릭 가죽 키링',
+    no: '5TL516_2E6Y_F0032',
+    id: '5TL516_2E6Y_F0032',
+    imgUrl:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5TL/5TL516/2E6YF0032/5TL516_2E6Y_F0032_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+  },
+  {
+    item: '시어링 트래퍼 햇',
+    no: '5HC386_2CSR_F0040',
+    id: '5HC386_2CSR_F0040',
+    imgUrl:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5HC/5HC386/2CSRF0040/5HC386_2CSR_F0040_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
+  },
   {
     item: '캔버스 및 가죽 백팩',
     no: '5BZ043_2IBQ_F04KC_V_OOO_detail_5',
     id: '5BZ043_2IBQ_F04KC_V_OOO',
+    imgUrl:
+      'https://www.miumiu.com/content/dam/miumiubkg_products/5/5BZ/5BZ043/2IBQF04KC/5BZ043_2IBQ_F04KC_V_OOO_SLF.jpg/_jcr_content/renditions/cq5dam.web.hE7E3DA.2400.2400.jpg',
   },
 ];
 

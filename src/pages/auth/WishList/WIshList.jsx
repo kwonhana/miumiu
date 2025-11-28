@@ -40,7 +40,7 @@ const WishList = () => {
 
     const productCart = {
       ...cartTarget,
-      cartImg: cartTarget?.local_detail_images?.[0],
+      cartImg: cartTarget?.detail_images?.[0]?.url,
       count: cartTarget.count || 1,
       price: parseInt(String(cartTarget.price).replace(/[^0-9]/g, ''), 10), // 숫자로 변환
     };
@@ -98,8 +98,8 @@ const WishList = () => {
                       <div className="img">
                         <img
                           src={
-                            wish.local_detail_images?.[0]
-                              ? `/assets/images/detail/${wish.local_detail_images[0]}`
+                            wish.detail_images.url?.[0]
+                              ? `/${wish.detail_images.url[0]}`
                               : '/assets/images/default-product-image.png'
                           }
                           alt={wish.name}

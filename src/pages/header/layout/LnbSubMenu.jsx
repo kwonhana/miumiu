@@ -24,13 +24,8 @@ const LnbSubMenu = ({ categoryKey, isActive, onCloseLnb }) => {
   });
 
   //TODO  LNB 카테고리 대표 사진 가지고 오는 코드;
-  const getItemImageSrc = (item) => {
-    const images = item.local_detail_images;
-    if (images && images.length > 0) {
-      return `/assets/images/detail/${images[0]}`;
-    }
-    return '/assets/images/default-product-image.png';
-  };
+  const getItemImageSrc = (item) =>
+    item?.detail_images?.[0]?.url || '/assets/images/default-product-image.png';
 
   return (
     <div className={`lnb-box ${isActive ? '' : 'hidden'}`}>
