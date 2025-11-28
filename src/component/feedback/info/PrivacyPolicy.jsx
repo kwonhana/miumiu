@@ -30,7 +30,7 @@ const PrivacyPolicy = () => {
           오직 온라인 쇼핑몰, 브랜드 홈페이지 및 프라다 코리아와 계약된 직영점 및 가맹점을 통해서만
           수집됩니다.
         </li>
-        <ul class="sub-list">
+        <ul className="sub-list">
           <li>
             <strong>당사 서비스 이용 중 생성 또는 수집된 정보 (항목)</strong>
           </li>
@@ -55,14 +55,14 @@ const PrivacyPolicy = () => {
           </li>
           <li>
             <span>- 바. 고객카드(고객 데이터 등록):</span>
-            <div className="box">
+            <ul className="box">
               <li className="hi"> 필수항목: 호칭, 성명, 국가, e-mail, 휴대전화</li>
               <li> 선택항목: 주소, 생년월일</li>
               <li>
                 추가항목(자동수집 항목): 구매정보(교환, 환불, 수선 포함), 프라다 그룹과 관계를
                 유지하는 동안 수집되는 정보
               </li>
-            </div>
+            </ul>
           </li>
           <li>
             <span>- 사. 추가 사항:</span> 프라다 코리아는 인증 혹은 본인 확인 결과로 고객에 관한
@@ -84,7 +84,7 @@ const PrivacyPolicy = () => {
         <li>
           <strong>서비스 제공 및 관리 목적 (필요에 따른 처리):</strong>
         </li>
-        <ul class="sub-list">
+        <ul className="sub-list">
           <li>가. 고객의 모든 요청사항 응대 및 고객관리.</li>
           <li>
             나. 고객의 상품 구매를 이행하고 이와 관련된 모든 관리 활동을 수행 및 법규상 의무 준수.
@@ -98,7 +98,7 @@ const PrivacyPolicy = () => {
         <li>
           <strong>회원 가입 또는 고객 카드 작성 시 목적 (별도 동의 기반 처리):</strong>
         </li>
-        <ul class="sub-list">
+        <ul className="sub-list">
           <li>
             마. 등록된 회원의 본인확인 및 그에 따른 맞춤형 고객 서비스 및 독점적 서비스 및 혜택
             제공.
@@ -126,7 +126,7 @@ const PrivacyPolicy = () => {
         </li>
         <li>
           <strong>제공받는 자의 개인정보 이용 목적:</strong>
-          <ul class="sub-list">
+          <ul className="sub-list">
             <li>
               (a) 글로벌 고객서비스: 전세계 프라다 매장에서 개별화되고 효율적인 서비스 와 특별한
               고객 서비스 및 혜택 제공.
@@ -152,7 +152,7 @@ const PrivacyPolicy = () => {
         </li>
         <li>
           <strong>개인정보 보유 및 이용기간:</strong>
-          <ul class="sub-list">
+          <ul className="sub-list">
             <li>
               프라다 그룹의 회원 데이터 베이스 관련: 회원탈퇴 시 즉시 파기(구매이력 및 접속일이
               7년이 넘은 회원정보도 파기).
@@ -193,7 +193,7 @@ const PrivacyPolicy = () => {
       </ul>
 
       <p className="title">국내 서비스 제공자</p>
-      <table className="PrivacyPolicy_1" border="1" cellpadding="8" cellspacing="0">
+      <table className="PrivacyPolicy_1" border="1" cellPadding="8" cellSpacing="0">
         <thead>
           <tr>
             <th>수탁자</th>
@@ -278,7 +278,7 @@ const PrivacyPolicy = () => {
           목적)
         </li>
 
-        <table className="PrivacyPolicy_2" border="1" cellpadding="8" cellspacing="0">
+        <table className="PrivacyPolicy_2" border="1" cellPadding="8" cellSpacing="0">
           <thead>
             <tr>
               <th>수탁자(소재국)</th>
@@ -382,7 +382,7 @@ const PrivacyPolicy = () => {
         </li>
         <li>
           <strong>관계 법령에 따른 보존 의무기간:</strong>
-          <ul class="sub-list">
+          <ul className="sub-list">
             <li>계약 또는 청약철회 등에 관한 기록: 5년</li>
             <li>대금결제 및 재화 등의 공급에 관한 기록: 5년</li>
             <li>소비자의 불만 또는 분쟁 처리에 관한 기록: 3년</li>
@@ -466,7 +466,7 @@ const PrivacyPolicy = () => {
         </li>
         <li>
           <strong>§ 개인정보 보호책임자 (온라인 구매 및 서비스 처리 관련 요청):</strong>
-          <ul class="sub-list">
+          <ul className="sub-list">
             <li>이름: 조우제</li>
             <li>소속: IT</li>
             <li>전자우편: client.service.kr@miumiu.com</li>
@@ -476,7 +476,7 @@ const PrivacyPolicy = () => {
         </li>
         <li>
           <strong>§ Prada S.p.A. (제4조 프라다 그룹 제공 관련 요청):</strong>
-          <ul class="sub-list">
+          <ul className="sub-list">
             <li>직책: 개인정보 보호책임자 (DPO)</li>
             <li>e-mail: privacy@prada.com</li>
             <li>주소: Prada S.p.A., Via Antonio Fogazzaro 28, 20135 Milan (Italy)</li>
@@ -498,7 +498,7 @@ const PrivacyPolicy = () => {
         </li>
       </ul>
 
-      <p class="upDate">시행 일자: 2025. 07. 17</p>
+      <p className="upDate">시행 일자: 2025. 07. 17</p>
 
       <ul>
         <li>이전 시행 버전</li>
