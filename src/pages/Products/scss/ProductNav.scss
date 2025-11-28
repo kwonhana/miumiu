@@ -31,11 +31,12 @@
 
     li {
       @include pd.font(1.6rem, 400, pd.$base);
+      cursor: pointer;
 
       a {
         padding: 27px 20px;
 
-        &:hover {
+        &:active {
           border-bottom: 3px solid pd.$base;
         }
       }

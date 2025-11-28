@@ -183,23 +183,6 @@
       }
     }
 
-    .myPoint {
-      margin-bottom: 80px;
-      .myPoint-inner {
-        h2 {
-          @include mp.font(3.2rem, 500, mp.$base);
-          margin-bottom: 30px;
-        }
-
-        p {
-          @include mp.font(2.6rem, 500, mp.$base);
-          span {
-            @include mp.font(2.6rem, 600, mp.$text-blue);
-          }
-        }
-      }
-    }
-
     .deliveryAddress {
       margin-bottom: 80px;
       .address-inner {

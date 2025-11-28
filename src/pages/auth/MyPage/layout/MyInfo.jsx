@@ -92,15 +92,15 @@ const MyInfo = ({ userData }) => {
         </div>
       </section>
 
-      <section className="myPoint">
-        <div className="myPoint-inner">
-          <h2>내 포인트</h2>
-          <p>
-            <span>16,800</span> 원
-          </p>
+      <section className="deliveryAddress">
+        <div className="address-inner">
+          <div className="title-wrap">
+            <h2>배송지 관리</h2>
+            <button className="addAddressBtn">배송지 추가하기</button>
+          </div>
+          <AddressTable userData={userData} />
         </div>
       </section>
-
       {isOpen && <InfoEditPopup onclose={closePopup} userData={userData} />}
     </div>
   );

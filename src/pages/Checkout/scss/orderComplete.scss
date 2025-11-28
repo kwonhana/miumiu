@@ -27,7 +27,7 @@
     width: 23%;
     height: 6rem;
     margin: 8rem;
-    @include g.flex(center, center, 0.5%);
+    @include g.flex(center, center, 10px);
     > div {
       display: flex;
       justify-content: center;

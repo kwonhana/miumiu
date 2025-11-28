@@ -1,12 +1,14 @@
 @use '../../../App.scss' as ct;
 
 .CartTotalPrice {
-  width: 37.5%;
+  width: 30%;
   flex-grow: 1;
   padding: 0px 30px 60px 30px;
-  position: sticky;
+  position: fixed;
+  right: 0;
   top: 80px;
   height: calc(100vh - 80px);
+  z-index: 998;
 
   b {
     @include ct.font(2.2rem, 600, ct.$base);
@@ -58,7 +60,7 @@
       @include ct.font(2.6rem, 600, ct.$text-blue);
 
       > span {
-        color: ct.$base;
+        @include ct.font(2.6rem, 600, ct.$base);
       }
     }
   }

@@ -173,13 +173,15 @@ export const Shipping = ({ openModal }) => {
           <button
             type="button"
             className={activeTab === 'delivery' ? 'active' : ''}
-            onClick={() => setActiveTab('delivery')}>
+            onClick={() => setActiveTab('delivery')}
+          >
             주소지로 배송
           </button>
           <button
             type="button"
             className={activeTab === 'store' ? 'active' : ''}
-            onClick={() => setActiveTab('store')}>
+            onClick={() => setActiveTab('store')}
+          >
             매장에서 수령
           </button>
         </div>
@@ -243,6 +245,12 @@ export const Shipping = ({ openModal }) => {
             </div>
             <div className="user-address">
               <h4>{activeTab === 'delivery' ? '배송 주소' : '청구 발송 주소'}</h4>
+              <span>
+                {activeTab === 'store'
+                  ? '온라인 결제 완료 후 발송되는 청구서를 지참하시면 매장에서 편리하게 제품을 수령하실 수 있습니다.'
+                  : ''}
+              </span>
+
               <NameInput
                 lastName={checkData.lastName}
                 name={checkData.name}

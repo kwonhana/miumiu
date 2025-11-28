@@ -3,7 +3,7 @@ import React from 'react';
 const RadioCard = ({ id, name, value, checked, onChange, title, script, number }) => {
   return (
     <>
-      <li className="radio-card">
+      <li className={`radio-card ${checked ? 'active' : ''}`}>
         <label className="cardLabel" htmlFor={id}>
           <input
             type="radio"
@@ -14,7 +14,7 @@ const RadioCard = ({ id, name, value, checked, onChange, title, script, number }
             onChange={onChange}
           />
           <div className="text-box">
-            <label>{title}</label>
+            <span>{title}</span>
             <p className="info">{script}</p>
             <p className="info">{number}</p>
           </div>

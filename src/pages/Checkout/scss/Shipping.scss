@@ -113,6 +113,7 @@
 
     .base-input {
       margin-bottom: 30px;
+      margin-top: 30px;
     }
 
     .name-wrap {
@@ -186,8 +187,16 @@
       gap: 20px;
     }
     .radio-card {
-      border: 1px solid sh.$base;
+      border: 1px solid sh.$line;
       width: 50%;
+
+      // &:hover {
+      //   border: 1px solid sh.$base;
+      // }
+
+      &.active {
+        border: 1px solid sh.$base;
+      }
 
       .cardLabel {
         display: flex;
@@ -207,7 +216,7 @@
       }
 
       .text-box {
-        label {
+        span {
           @include sh.font(1.8rem, 500, sh.$base);
           display: block;
           padding-bottom: 12px;
