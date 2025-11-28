@@ -17,37 +17,42 @@ const ProductDetail = () => {
   const { items, onFetchItems, onAddToCart, onToggleWish, setShowWish, wishList } =
     useProductsStore();
 
-  //상품을 저장하는 변수
+  // 상품을 저장하는 변수
   const [product, setProduct] = useState(null);
-  //이미지를 저장하는 변수
-  const [mainImage, setMainImage] = useState('');
-  // TODO 연관 아이템
+  // 이미지를 저장하는 변수 (초기값 null로!)
+  const [mainImage, setMainImage] = useState(null);
+  // 연관 아이템
   const [relatedProducts, setRelatedProducts] = useState([]);
   const [count, setCount] = useState(1);
-  // TODO 장바구니 리스트 팝업
+  // 장바구니 리스트 팝업
   const [showCartPopup, setShowCartPopup] = useState(false);
-  //TODO 로그인 유무
+  // 로그인 유무
   const { user } = useAuthStore();
-  // TODO 하트아이콘 상태변환
+  // 하트아이콘 상태변환
   const [isWished, setIsWished] = useState(false);
 
-  //TODO 데이터 존재 여부 확인하여 데이터 가지고 오기
+  const navigate = useNavigate();
+
+  // 데이터 존재 여부 확인하여 데이터 가지고 오기
   useEffect(() => {
     if (items.length === 0) {
       onFetchItems();
     }
   }, [items.length, onFetchItems]);
 
-  //TODO 불러와질 상품 찾기
+  // 불러와질 상품 찾기
   useEffect(() => {
     const findItem = items.find((item) => item.id === id);
     setProduct(findItem || null);
   }, [id, items]);
 
-  //TODO 메인 이미지 찾기
+  // 메인 이미지 찾기
   useEffect(() => {
-    if (product?.detail_images?.[0]?.url?.length > 0) {
-      setMainImage(product.detail_images[0].url); // 이때 mainImage는 string으로 가정
+    const firstUrl = product?.detail_images?.[0]?.url;
+    if (firstUrl) {
+      setMainImage(firstUrl); // string
+    } else {
+      setMainImage(null); // 없으면 null
     }
   }, [product]);
 
@@ -60,39 +65,35 @@ const ProductDetail = () => {
     setIsWished(exist);
   }, [wishList, product]);
 
-  //TODO 연관 상품 4개 추출
+  // 연관 상품 4개 추출
   useEffect(() => {
     if (product) {
       const related = items.filter(
         (item) => item.id !== product.id && item.category2 === product.category2
       );
       const shuffled = [...related].sort(() => 0.5 - Math.random());
-
       setRelatedProducts(shuffled.slice(0, 4));
     }
   }, [product, items]);
 
   console.log(product, '상세페이지 상품');
 
-  const navigate = useNavigate();
-
-  // TODO Shipping 페이지로 연결
+  // Shipping 페이지로 연결
   const handleShipping = () => {
     if (!product) return;
 
-    // 구매하기 클릭시 장바구니에 상품 추가
     const productCart = {
       ...product,
       cartImg: product?.detail_images?.[0]?.url || '/assets/images/default-product-image.png',
       count: 1,
-      price: parseInt(product?.price?.replace(/[^0-9]/g, '')),
+      price: parseInt(product?.price?.replace(/[^0-9]/g, ''), 10),
     };
 
-    onAddToCart(productCart); // 장바구니에 담기
+    onAddToCart(productCart);
     navigate('/shipping');
   };
 
-  // TODO 장바구니 팝업 연결
+  // 장바구니 팝업 연결
   const handleCart = () => {
     if (!product) return;
 
@@ -100,17 +101,17 @@ const ProductDetail = () => {
       ...product,
       cartImg: product?.detail_images?.[0]?.url || '/assets/images/default-product-image.png',
       count: 1,
-      price: parseInt(product?.price?.replace(/[^0-9]/g, '')), //숫자로 변환
+      price: parseInt(product?.price?.replace(/[^0-9]/g, ''), 10),
     };
 
     onAddToCart(productCart);
-
     setShowCartPopup(true);
   };
 
   const popUpClose = () => {
     setShowCartPopup(false);
   };
+
   const handleScroll = (targetID) => {
     const target = document.getElementById(targetID);
 
@@ -124,7 +125,7 @@ const ProductDetail = () => {
         behavior: 'smooth',
       });
     } else {
-      console.warn(`Target element with id #${target} not found.`);
+      console.warn(`Target element with id #${targetID} not found.`);
     }
   };
 
@@ -132,17 +133,15 @@ const ProductDetail = () => {
     return <ProductDetailSkeleton />;
   }
 
-  // 위시 버튼 클릭 시: 서버/스토어 저장 + 아이콘 상태 토글
+  // 위시 버튼 클릭 시
   const handleAddToWish = () => {
     const productWish = {
       ...product,
       count: count,
     };
 
-    onToggleWish(productWish); // 서버 or store에 위시 저장/토글
-    setShowWish(true); // 위시 팝업
-
-    // 로컬 아이콘 상태도 같이 토글 (즉시 반영용)
+    onToggleWish(productWish);
+    setShowWish(true);
     setIsWished((prev) => !prev);
   };
 
@@ -153,17 +152,17 @@ const ProductDetail = () => {
           <div className="ProductDetail-top">
             <div className="top-left">
               <div className="main-image">
-                <img src={`${mainImage || null}`} alt="" />
+                {/* mainImage가 있을 때만 렌더링 */}
+                {mainImage && <img src={mainImage} alt={product.name || '상품 이미지'} />}
               </div>
               <ul className="sub-image">
                 {product?.detail_images?.map((el, index) => {
+                  const url = el?.url;
+                  if (!url) return null; // url 없으면 렌더링 안 함
+
                   return (
-                    <li key={index} className={mainImage === el.url ? 'active' : ''}>
-                      <img
-                        src={`${el.url}`}
-                        onClick={() => setMainImage(el.url)}
-                        alt={product.name}
-                      />
+                    <li key={index} className={mainImage === url ? 'active' : ''}>
+                      <img src={url} onClick={() => setMainImage(url)} alt={product.name} />
                     </li>
                   );
                 })}
@@ -173,7 +172,6 @@ const ProductDetail = () => {
               <p className="title">
                 <span className="tag">{product.tags ? product.tags : ''}</span>
 
-                {/* isWished 상태에 따라 클래스 토글 */}
                 <button
                   className={`wish-icon ${isWished ? 'active' : ''}`}
                   onClick={handleAddToWish}></button>
@@ -192,6 +190,7 @@ const ProductDetail = () => {
             </div>
           </div>
         </div>
+
         <div className="ProductDetail-bottom">
           <ProductDetailNav
             onScroll={handleScroll}
@@ -202,10 +201,13 @@ const ProductDetail = () => {
             <div className="product-info" id="detail-info">
               <ul className="info-list ">
                 {product?.detail_images?.map((el, index) => {
+                  const url = el?.url;
+                  if (!url) return null; // 여기서도 url 없으면 스킵
+
                   return (
                     <React.Fragment key={index}>
                       <li>
-                        <img src={`${el.url}`} alt={product.name} />
+                        <img src={url} alt={product.name} />
                       </li>
 
                       {index === 1 && (
@@ -254,6 +256,7 @@ const ProductDetail = () => {
           </div>
         </div>
       </section>
+
       <section className="RelatedProducts">
         <h3>관련 제품</h3>
         <ul className="products-wrap">
@@ -263,7 +266,7 @@ const ProductDetail = () => {
                 <img
                   src={
                     item.detail_images?.[0]?.url
-                      ? `${item.detail_images[0]?.url}`
+                      ? item.detail_images[0].url
                       : '/assets/images/default-product-image.png'
                   }
                   alt={item.name}
@@ -277,6 +280,7 @@ const ProductDetail = () => {
           ))}
         </ul>
       </section>
+
       {showCartPopup && <CartList onClose={() => setShowCartPopup(false)} onClick={popUpClose} />}
     </>
   );

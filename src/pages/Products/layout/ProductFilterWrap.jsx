@@ -1,9 +1,15 @@
-// src/pages/Products/layout/ProductFilterWrap.jsx
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Button from '../../../component/layout/Button';
 import '../scss/ProductFilterWrap.scss';
 
-const ProductFilterWrap = ({ collection, fabric, isOpen, onClose, onApplyFilter }) => {
+const ProductFilterWrap = ({
+  collection,
+  fabric,
+  isOpen,
+  onClose,
+  onApplyFilter,
+  selectedFilter, // 부모에서 내려주는 현재 필터 상태
+}) => {
   const [isAlignActive, setIsAlignActive] = useState(true);
   const [isCollectionActive, setIsCollectionActive] = useState(true);
   const [isFabricActive, setIsFabricActive] = useState(true);
@@ -12,10 +18,19 @@ const ProductFilterWrap = ({ collection, fabric, isOpen, onClose, onApplyFilter 
   const [isCollectionHidden, setIsCollectionHidden] = useState(true);
   const [isFabricHidden, setIsFabricHidden] = useState(true);
 
-  // 선택된 값
+  // 선택된 값 (로컬 상태)
   const [selectCollection, setSelectCollection] = useState('');
   const [selectFabric, setSelectFabric] = useState('');
   const [selectSort, setSelectSort] = useState('');
+
+  // 🔥 모달이 열릴 때마다, 부모에서 받은 필터 상태로 동기화
+  useEffect(() => {
+    if (!selectedFilter) return;
+
+    setSelectCollection(selectedFilter.collection || '');
+    setSelectFabric(selectedFilter.fabric || '');
+    setSelectSort(selectedFilter.sort || '');
+  }, [selectedFilter, isOpen]);
 
   const handleClickAlign = () => {
     setIsAlignActive((prev) => !prev);
@@ -42,6 +57,8 @@ const ProductFilterWrap = ({ collection, fabric, isOpen, onClose, onApplyFilter 
   const handleReset = () => {
     setSelectCollection('');
     setSelectFabric('');
+    setSelectSort('');
+
     if (onApplyFilter) {
       onApplyFilter({ collection: '', fabric: '', sort: '' });
     }
@@ -69,7 +86,7 @@ const ProductFilterWrap = ({ collection, fabric, isOpen, onClose, onApplyFilter 
             <button className="icon" onClick={onClose}></button>
           </div>
           <div className="filter-bottom ">
-            {/* 정렬기준 (지금은 UI만) */}
+            {/* 정렬기준 */}
             <p
               className={`accordion-title align ${!isAlignActive ? 'active' : ''}`}
               onClick={handleClickAlign}>
@@ -142,7 +159,7 @@ const ProductFilterWrap = ({ collection, fabric, isOpen, onClose, onApplyFilter 
                   {collection.map((el, i) => {
                     const id = `collection-${i}`;
                     return (
-                      <li key={i}>
+                      <li key={id}>
                         <label htmlFor={id}>
                           <input
                             type="radio"
@@ -171,7 +188,7 @@ const ProductFilterWrap = ({ collection, fabric, isOpen, onClose, onApplyFilter 
               {fabric.map((el, i) => {
                 const id = `fabric-${i}`;
                 return (
-                  <li key={i}>
+                  <li key={id}>
                     <label htmlFor={id}>
                       <input
                         type="radio"

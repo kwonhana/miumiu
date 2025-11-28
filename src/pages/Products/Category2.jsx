@@ -10,31 +10,28 @@ import ProductListSkeleton from './layout/ProductListSkeleton';
 
 const Category2 = () => {
   const { category1, category2, tags } = useParams();
-  const {
-    items,
-    filtered,
-    onFetchItems,
-    onCateOnly,
-    onCateTag,
-    onCate1,
-    onCustomStyle,
-    setFiltered,
-  } = useProductsStore();
-
-  const [filterItem, setFilterItem] = useState(null);
+  const { items, filtered, onFetchItems, onCateOnly, onCateTag, onCate1, onCustomStyle } =
+    useProductsStore();
 
   const [extraFilteredList, setExtraFilteredList] = useState(null);
   const [isFilterOpen, setIsFilterOpen] = useState(false);
 
+  // 🔥 부모가 들고 있는 필터 상태
+  const [filterState, setFilterState] = useState({
+    collection: '',
+    fabric: '',
+    sort: '',
+  });
+
+  // 상품 가져오기
   useEffect(() => {
     onFetchItems();
   }, [onFetchItems]);
 
-  // CustomStudio 필터링
+  // 카테고리 필터링
   useEffect(() => {
     if (category1 === 'CustomStudio' && category2) {
       onCustomStyle(category2);
-      console.log('cus', filtered);
       return;
     }
 
@@ -47,8 +44,7 @@ const Category2 = () => {
     } else if (category1 && !category2 && !tags) {
       onCate1(category1);
     }
-  }, [category1, category2, tags, onFetchItems, onCateOnly, onCateTag, onCate1, onCustomStyle]);
-  console.log('필터링 아이템', filtered);
+  }, [category1, category2, tags, onCateOnly, onCateTag, onCate1, onCustomStyle]);
 
   const handleFilterChange = (result) => {
     if (!result || result.length === 0) {
@@ -58,15 +54,13 @@ const Category2 = () => {
     }
   };
 
-  const handleOpenFilter = () => {
-    setIsFilterOpen(true);
-  };
+  const handleOpenFilter = () => setIsFilterOpen(true);
+  const handleCloseFilter = () => setIsFilterOpen(false);
 
-  const handleCloseFilter = () => {
-    setIsFilterOpen(false);
-  };
-
+  // 🔥 필터 적용 (부모 상태 저장 + 리스트 필터링)
   const handleApplyFilter = (filters) => {
+    setFilterState(filters); // 선택된 필터 기억
+
     let result = filtered;
 
     if (filters.collection) {
@@ -76,10 +70,19 @@ const Category2 = () => {
     if (filters.fabric) {
       result = result.filter((item) => {
         if (!item.material) return false;
-        // "주 소재: 송아지 가죽" → "송아지 가죽"으로 변환해서 비교
         const cleanMaterial = item.material.replace(/^주\s*소재:\s*/g, '').trim();
         return cleanMaterial === filters.fabric;
       });
+    }
+
+    // 정렬
+    if (filters.sort) {
+      const copy = [...result];
+      if (filters.sort === 'name-asc') copy.sort((a, b) => a.name.localeCompare(b.name));
+      if (filters.sort === 'name-desc') copy.sort((a, b) => b.name.localeCompare(a.name));
+      if (filters.sort === 'price-asc') copy.sort((a, b) => parseInt(a.price) - parseInt(b.price));
+      if (filters.sort === 'price-desc') copy.sort((a, b) => parseInt(b.price) - parseInt(a.price));
+      result = copy;
     }
 
     setExtraFilteredList(result);
@@ -87,21 +90,20 @@ const Category2 = () => {
   };
 
   const displayList = extraFilteredList || filtered;
+
   const collectionArray = Array.from(new Set(filtered.map((item) => item.tags).filter(Boolean)));
   const fabricArray = Array.from(
     new Set(
       filtered
         .map((item) => {
           if (!item.material) return null;
-          // "주 소재: 송아지 가죽" → "송아지 가죽"
           return item.material.replace(/^주\s*소재:\s*/g, '').trim();
         })
         .filter(Boolean)
     )
   );
 
-  let filterCategory1 = Array.from(new Set(filtered.map((el) => el.categoryKor1)));
-  console.log(filterCategory1);
+  const filterCategory1 = Array.from(new Set(filtered.map((el) => el.categoryKor1)));
 
   return (
     <div className="Category2">
@@ -113,7 +115,7 @@ const Category2 = () => {
         onOpenFilter={handleOpenFilter}
       />
 
-      {!items ? <ProductListSkeleton /> : <ProductList filteredList={displayList} />}
+      <ProductList filteredList={displayList} />
 
       <ProductFilterWrap
         collection={collectionArray}
@@ -121,6 +123,7 @@ const Category2 = () => {
         isOpen={isFilterOpen}
         onClose={handleCloseFilter}
         onApplyFilter={handleApplyFilter}
+        selectedFilter={filterState} // ⭐ 여기 꼭 추가
       />
     </div>
   );

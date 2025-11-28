@@ -30,6 +30,7 @@ export const Shipping = ({ openModal }) => {
     email: '',
     newsletterAgree: false,
     // 배송주소
+    lastName: '',
     name: '',
     zipAddress: '',
     detailAddress: '',
