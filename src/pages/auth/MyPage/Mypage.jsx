@@ -7,7 +7,6 @@ import MyInfo from './layout/MyInfo';
 import './scss/Mypage.scss';
 import CousLet from '../../Home/layout/CouLet';
 import WIshList from '../WishList/WIshList';
-import { useNavigate, useParams } from 'react-router-dom';
 import './scss/Mypage.scss';
 import MyOrder from '../../Checkout/MyOrder/MyOrder';
 
