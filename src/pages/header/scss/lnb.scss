@@ -93,7 +93,9 @@
       }
     }
     .map {
-      margin-left: 68%;
+      flex-grow: 1;
+      display: flex;
+      justify-content: end;
       @include main.font(1.8rem, 500, main.$base);
     }
   }
