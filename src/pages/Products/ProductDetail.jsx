@@ -108,6 +108,9 @@ const ProductDetail = () => {
     setShowCartPopup(true);
   };
 
+  const popUpClose = () => {
+    setShowCartPopup(false);
+  };
   const handleScroll = (targetID) => {
     const target = document.getElementById(targetID);
 
@@ -274,7 +277,7 @@ const ProductDetail = () => {
           ))}
         </ul>
       </section>
-      {showCartPopup && <CartList onClose={() => setShowCartPopup(false)} />}
+      {showCartPopup && <CartList onClose={() => setShowCartPopup(false)} onClick={popUpClose} />}
     </>
   );
 };

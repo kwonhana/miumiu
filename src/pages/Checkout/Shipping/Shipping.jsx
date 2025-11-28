@@ -290,14 +290,6 @@ export const Shipping = ({ openModal }) => {
                 ))}
               </ul>
             </div>
-            {/* <div className="point">
-              <h4>보유 적립금 원</h4>
-              <div className="point-input">
-                <PointInput />
-                <Button title="전액사용" />
-              </div>
-              <span>적립금은 1,000원 이상일때 사용 가능</span>
-            </div> */}
           </form>
           <Button title="다음" onClick={handleNext} />
         </div>

@@ -12,6 +12,12 @@ const CartList = ({ onClose }) => {
 
   const navigate = useNavigate();
 
+  const handleBackClick = (e) => {
+    if (e.target.classList.contains('add-cart')) {
+      onClose();
+    }
+  };
+
   const handleCart = () => {
     navigate('/cart');
     onClose();
@@ -23,7 +29,7 @@ const CartList = ({ onClose }) => {
   };
 
   return (
-    <section className="add-cart">
+    <section className="add-cart" onClick={handleBackClick}>
       <div className="add-cart-wrap">
         <div className="cartpop-top">
           <h2>장바구니에 추가된 상품</h2>
