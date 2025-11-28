@@ -44,13 +44,25 @@ header {
         width: 100%;
       }
     }
+
+    .sub_logo {
+      position: absolute;
+      width: 8%;
+      aspect-ratio: 150/24;
+      top: 14px;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+      img {
+        width: 100%;
+      }
+    }
+
     .header-right {
       .Icon {
         width: 2.4rem;
         aspect-ratio: 1/1;
         padding: 4px;
-        img {
-        }
       }
       .gnb-list {
         @include header.flex(start, start, 3rem);

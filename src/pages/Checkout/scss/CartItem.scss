@@ -24,11 +24,15 @@
 
   .itemRight {
     width: 76%;
-    padding: 40px 50px;
+    padding: 10px 30px;
+    @include ct.flex(space-between, start, 0);
+    flex-direction: column;
 
     .top {
       width: 100%;
       @include ct.flex(space-between, center, 0);
+      margin-bottom: 30px;
+      flex-grow: 1;
 
       .itemNO {
         @include ct.font(1.4rem, 400, ct.$text-666);
@@ -44,16 +48,15 @@
     }
 
     .title {
-      @include ct.font(2.2rem, 500, ct.$base);
+      @include ct.font(clamp(1.6rem, 2.2rem, 2.4rem), 500, ct.$base);
       @include ct.text-ellipsis();
-      margin-top: 30px;
       width: 100%;
     }
 
     .bottom {
-      @include ct.flex(space-between, center, 0);
-      margin-top: 60px;
-
+      @include ct.flex(space-between, end, 0);
+      flex-grow: 3;
+      width: 100%;
       .countBtn {
         @include ct.flex(start, center, 0);
 
