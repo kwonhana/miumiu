@@ -7,10 +7,9 @@
   top: 8rem;
   right: 0;
   z-index: 9999;
-  background: rgba(175, 175, 175, 0.5);
-  backdrop-filter: blur(20px);
   display: flex;
   justify-content: end;
+  @include pd.modalBack();
 
   > .container {
     background: #fff;

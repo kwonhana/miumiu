@@ -6,10 +6,8 @@
   position: fixed;
   top: 0;
   left: 0;
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  background-color: rgba(215, 215, 215, 0.1);
   @include msg.flex(center, center, 0);
+  @include msg.modalBack();
   z-index: 999999;
 
   .Modal-wrap {
