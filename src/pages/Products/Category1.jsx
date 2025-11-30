@@ -15,6 +15,7 @@ const Category1 = () => {
   const [isFilterOpen, setIsFilterOpen] = useState(false);
   const [extraFilteredList, setExtraFilteredList] = useState(null);
   const [custom, setCustom] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
   const navigate = useNavigate();
 
   // TODO Category1/Category2 기준 필터링 전체 로직
@@ -55,6 +56,16 @@ const Category1 = () => {
       new Set(items.filter((item) => item.category1 === category1).map((item) => item.category2))
     );
   }
+
+  useEffect(() => {
+    // 2초(2000ms) 동안 로딩 상태를 유지합니다.
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 3000); // 2000ms = 2초 지연
+
+    // 컴포넌트 언마운트 시 타이머를 정리하여 메모리 누수를 방지합니다.
+    return () => clearTimeout(timer);
+  }, []); // 컴포넌트가 처음 마운트될 때 한 번만 실행
 
   //  TODO Category 클릭 시 이동
   // -----------------------------------------
@@ -184,7 +195,7 @@ const Category1 = () => {
       <div className="inner">
         {/*TODO 필터 적용된 리스트가 있으면 그걸 표시 */}
 
-        {!items ? (
+        {!items || isLoading ? (
           <ProductListSkeleton />
         ) : (
           <ProductList filteredList={extraFilteredList ?? filtered} />

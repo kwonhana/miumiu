@@ -6,12 +6,13 @@ import ProductBanner from './layout/ProductBanner';
 import ProductFilterNav from './layout/ProductFilterNav';
 import './scss/Category2.scss';
 import ProductFilterWrap from './layout/ProductFilterWrap';
+import ProductListSkeleton from './layout/ProductListSkeleton';
 
 const Category2 = () => {
   const { category1, category2, tags } = useParams();
   const { filtered, onFetchItems, onCateOnly, onCateTag, onCate1, onCustomStyle } =
     useProductsStore();
-
+  const [isLoading, setIsLoading] = useState(true);
   const [extraFilteredList, setExtraFilteredList] = useState(null);
   const [isFilterOpen, setIsFilterOpen] = useState(false);
 
@@ -104,6 +105,16 @@ const Category2 = () => {
 
   const filterCategory1 = Array.from(new Set(filtered.map((el) => el.categoryKor1)));
 
+  useEffect(() => {
+    // 2초(2000ms) 동안 로딩 상태를 유지합니다.
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 3000); // 2000ms = 2초 지연
+
+    // 컴포넌트 언마운트 시 타이머를 정리하여 메모리 누수를 방지합니다.
+    return () => clearTimeout(timer);
+  }, []); // 컴포넌트가 처음 마운트될 때 한 번만 실행
+
   return (
     <div className="Category2">
       <ProductBanner bannerTitle={category1} korTitle={filterCategory1} />
@@ -114,7 +125,11 @@ const Category2 = () => {
         onOpenFilter={handleOpenFilter}
       />
 
-      <ProductList filteredList={displayList} />
+      {!displayList || isLoading ? (
+        <ProductListSkeleton />
+      ) : (
+        <ProductList filteredList={displayList} />
+      )}
 
       <ProductFilterWrap
         collection={collectionArray}

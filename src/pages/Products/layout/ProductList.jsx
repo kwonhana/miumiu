@@ -18,6 +18,7 @@ const ProductList = ({ filteredList }) => {
           <li className="item">
             <Link to={`/product/${p.id}`}>
               <img
+                loading="lazy"
                 src={
                   p.detail_images[0]?.url
                     ? `${p.detail_images[0].url}`

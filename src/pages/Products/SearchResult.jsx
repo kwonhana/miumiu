@@ -11,7 +11,7 @@ import SearchSkeleton from './layout/SearchSkeleton';
 const SearchResult = () => {
   const [searchParams] = useSearchParams();
   const queryParam = searchParams.get('q');
-
+  const [isLoading, setIsLoading] = useState(true);
   const { filtered, onSearch, onFetchItems } = useProductsStore();
   const { currentSearchQuery, setCurrentSearchQuery } = useSearchState();
 
@@ -100,6 +100,16 @@ const SearchResult = () => {
     [displayList]
   );
 
+  useEffect(() => {
+    // 2초(2000ms) 동안 로딩 상태를 유지합니다.
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 3000); // 2000ms = 2초 지연
+
+    // 컴포넌트 언마운트 시 타이머를 정리하여 메모리 누수를 방지합니다.
+    return () => clearTimeout(timer);
+  }, []); // 컴포넌트가
+
   const fabricArray = useMemo(
     () =>
       Array.from(
@@ -177,7 +187,7 @@ const SearchResult = () => {
         <span>({displayList.length})</span>
       </div>
       {/* 상품 리스트 */}
-      {!displayList ? (
+      {!displayList || isLoading ? (
         <SearchSkeleton />
       ) : (
         <ul className="search-product-list">
