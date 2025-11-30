@@ -6,6 +6,7 @@
   height: 100%;
   aspect-ratio: 1440/420;
   @include main.flex(center, center, 0);
+  margin-top: 14px;
 
   .container {
     @include main.flex(center, center, 0);

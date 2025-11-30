@@ -149,6 +149,10 @@
         line-height: 6rem;
         @include join.font(1.6rem, 600, #fff);
 
+        &:disabled {
+          background-color: #ddd;
+        }
+
         &:hover {
           background-color: join.$text-333;
         }
