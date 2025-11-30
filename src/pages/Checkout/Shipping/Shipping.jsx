@@ -9,7 +9,6 @@ import { Link, useNavigate } from 'react-router-dom';
 import Button from '../../../component/layout/Button';
 import RadioCard from '../../../component/input/RadioCard';
 import { store, coupon } from '../../../store/data.js';
-import PointInput from '../../../component/input/PointInput.jsx';
 import { useProductsStore } from '../../../store/useProductsStore';
 import { useAuthStore } from '../../../api/authStore.js';
 
@@ -98,6 +97,10 @@ export const Shipping = ({ openModal }) => {
         alert('이름을 입력해주세요.');
         return false;
       }
+      if (!checkData.zipAddress) {
+        alert('주소를 입력해주세요.');
+        return false;
+      }
       if (!checkData.phone) {
         alert('전화번호를 입력해주세요.');
         return false;
@@ -173,15 +176,13 @@ export const Shipping = ({ openModal }) => {
           <button
             type="button"
             className={activeTab === 'delivery' ? 'active' : ''}
-            onClick={() => setActiveTab('delivery')}
-          >
+            onClick={() => setActiveTab('delivery')}>
             주소지로 배송
           </button>
           <button
             type="button"
             className={activeTab === 'store' ? 'active' : ''}
-            onClick={() => setActiveTab('store')}
-          >
+            onClick={() => setActiveTab('store')}>
             매장에서 수령
           </button>
         </div>

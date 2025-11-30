@@ -12,11 +12,14 @@ const ProductBanner = ({ korTitle, bannerTitle }) => {
     { key: 'jewellery', url: '/assets/images/static/product/Product-jewellery.png' },
     { key: 'wallets', url: '/assets/images/static/product/Product-wallets.png' },
     { key: 'accessories', url: '/assets/images/static/product/Product-accessories.png' },
+    { key: 'Closet', url: '/assets/images/static/product/Product-closet.png' },
+    { key: 'Custom', url: '/assets/images/static/product/Product-custom.png' },
   ];
 
   useEffect(() => {
-    setBanner(bannerImg.filter((img) => img.key === category1));
-  }, [category1]);
+    const cate = category1 === 'CustomStudio' && category2 ? category2 : category1;
+    setBanner(bannerImg.filter((img) => img.key === cate));
+  }, [category1, category2]);
 
   return (
     <section className="ProductBanner">

@@ -5,7 +5,7 @@ import ProductFilterNav from './layout/ProductFilterNav';
 import ProductFilterWrap from './layout/ProductFilterWrap';
 import './scss/Category1.scss';
 import ProductList from './layout/ProductList';
-import { CustomItem } from '../../store/data';
+import { CustomItem, special } from '../../store/data';
 import { Link, useParams, useNavigate } from 'react-router-dom';
 import { useEffect, useRef, useState } from 'react';
 import ProductListSkeleton from './layout/ProductListSkeleton';
@@ -157,9 +157,20 @@ const Category1 = () => {
     category1 ||
     tags;
 
+  let korTitle = categoryName;
+  let bannerTitle = category1;
+
+  if (category1 === 'CustomStudio') {
+    const specialItem = special.find((item) => item.imgUrl === category2);
+    if (specialItem) {
+      korTitle = specialItem.subTitle;
+      bannerTitle = specialItem.title;
+    }
+  }
+
   return (
     <div className="Category1">
-      <ProductBanner korTitle={categoryName} bannerTitle={category1} />
+      <ProductBanner korTitle={korTitle} bannerTitle={bannerTitle} />
       <div className="inner">
         <ProductFilterNav
           category1={category1}
