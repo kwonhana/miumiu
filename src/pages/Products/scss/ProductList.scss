@@ -2,7 +2,7 @@
 
 .product-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 4px;
   max-width: 2400px;
   margin: 0 auto;
