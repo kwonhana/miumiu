@@ -35,7 +35,7 @@
     .icon {
       width: 28px;
       aspect-ratio: 1/1;
-      background: url('../../../../public/assets/icon/close.png');
+      background: url('../../../../public/assets/icon/close.svg');
       background-position: center;
       background-repeat: no-repeat;
       cursor: pointer;
@@ -54,13 +54,14 @@
       padding: 28px 0;
       @include pd.font(2rem, 500, pd.$base);
       @include pd.flex(space-between, center, null);
+      border-bottom: 1px solid pd.$line;
 
       &::after {
         content: '';
         width: 24px;
         aspect-ratio: 1/1;
         display: inline-block;
-        background: url('../../../../public//assets//icon/arrow.png');
+        background: url('../../../../public//assets//icon/arrow.svg');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -125,12 +126,16 @@
         border: 1px solid pd.$base;
         @include pd.flex(space-between, center, null);
 
+        &:hover {
+          background: pd.$line-f4;
+        }
+
         &::after {
           content: '';
           width: 18px;
           aspect-ratio: 1/1;
           display: inline-block;
-          background: url('../../../../public/assets/icon/reset.png');
+          background: url('../../../../public/assets/icon/reset.svg');
           background-repeat: no-repeat;
           background-position: center;
           background-size: contain;
@@ -140,6 +145,10 @@
         flex-grow: 1;
         background: pd.$base;
         color: #fff;
+
+        &:hover {
+          background: pd.$text-333;
+        }
       }
     }
   }

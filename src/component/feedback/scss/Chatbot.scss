@@ -13,7 +13,7 @@
   .up-btn {
     width: 50px;
     aspect-ratio: 1/1;
-    background-image: url('../../../../public/assets/icon/go-up.png');
+    background-image: url('../../../../public/assets/icon/go-up.svg');
     cursor: pointer;
     transition: transform 0.2s;
     &:hover {
@@ -23,7 +23,7 @@
 
   //TODO chatBot
   .chatbot-toggle-btn {
-    background-image: url('../../../../public/assets/icon/message.png');
+    background-image: url('../../../../public/assets/icon/message.svg');
     width: 50px;
     aspect-ratio: 1/1;
     cursor: pointer;

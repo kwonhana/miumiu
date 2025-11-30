@@ -34,7 +34,7 @@ const CartList = ({ onClose }) => {
         <div className="cartpop-top">
           <h2>장바구니에 추가된 상품</h2>
           <div className="close-icon" onClick={onClose}>
-            <img src="/assets/icon/close.png" alt="Close" />
+            <img src="/assets/icon/close.svg" alt="Close" />
           </div>
         </div>
         <div className="cartpop-list">

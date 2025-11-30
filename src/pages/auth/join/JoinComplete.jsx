@@ -6,7 +6,7 @@ const JoinComplete = () => {
   return (
     <div className="joinCom-wrap">
       <div className="joinCom-img">
-        <img src="/assets/icon/OrderComplete.png" alt="" />
+        <img src="/assets/icon/OrderComplete.svg" alt="" />
       </div>
       <div className="joinCom-text">
         <h2>회원가입이 완료되었습니다.</h2>

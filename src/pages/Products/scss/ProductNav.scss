@@ -22,6 +22,10 @@
       @include pd.font(1.4rem, 500, pd.$base);
       border: 1px solid pd.$base;
       padding: 10px 16px;
+
+      &:hover {
+        background: pd.$line-f4;
+      }
     }
   }
 

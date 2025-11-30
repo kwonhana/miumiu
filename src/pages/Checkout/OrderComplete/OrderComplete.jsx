@@ -6,7 +6,7 @@ const OrderComplete = () => {
   return (
     <div className="orderCom-wrap">
       <div className="orderCom-img">
-        <img src="/assets/icon/OrderComplete.png" alt="" />
+        <img src="/assets/icon/OrderComplete.svg" alt="" />
       </div>
       <div className="orderCom-text">
         <h2>주문이 정상적으로 완료되었습니다.</h2>

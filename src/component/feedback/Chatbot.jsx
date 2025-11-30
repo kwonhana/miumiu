@@ -186,7 +186,7 @@ export const Chatbot = () => {
                 <img src="/assets/logo/logo_black.png" alt="미우미우챗봇로고" />
               </div>
               <span className="icon">
-                <img src="/assets/icon/msg.png" alt="미우미우 챗봇" />
+                <img src="/assets/icon/msg.svg" alt="미우미우 챗봇" />
               </span>
             </div>
             <div className="header-right">
@@ -200,7 +200,7 @@ export const Chatbot = () => {
               <div key={msg.id} className={`message-wrapper ${msg.type}`}>
                 {msg.type === 'bot' && (
                   <div className="avatar">
-                    <img src="/assets/icon/MessagesIcon.png" alt="" />
+                    <img src="/assets/icon/MessageIcon.svg" alt="" />
                   </div>
                 )}
                 <div className={`message-content ${msg.type}`}>
