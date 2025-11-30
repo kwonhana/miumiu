@@ -1,5 +1,5 @@
 import './scss/RecentOrderTable.scss';
-import OngoingNone from './OngoingNone';
+import RecentNone from './RecentNone';
 
 const RecentOrderTable = ({ orders = [] }) => {
   const hasOrders = Array.isArray(orders) && orders.length > 0;
@@ -74,7 +74,7 @@ const RecentOrderTable = ({ orders = [] }) => {
           </table>
         ) : (
           // TODO 여기서 네가 넣을 컴포넌트 렌더링 (import는 네가 추가)
-          <OngoingNone />
+          <RecentNone />
         )}
       </div>
     </section>
