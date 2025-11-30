@@ -12,13 +12,13 @@ const SpecialCo = () => {
           {special.map((img, key) => (
             <Link
               to={`/CustomStudio/${img.imgUrl}`}
-              className={`special-item-box wow animate__animated animate__zoomIn`}
+              className={`special-item-box `}
               data-wow-delay="0.6s"
               key={key}
               style={{
                 backgroundImage: `url(/assets/images/static/main/SpecialCo/${img.imgUrl}.jpg)`,
               }}>
-              <div className="text-wrap">
+              <div className="text-wrap wow animate__animated animate__fadeInUp">
                 <p className="sp-text1">{img.title1}</p>
                 {/* TODO: title2가 있을 때만 렌더링 (조건부 렌더링) */}
                 {img.title2 && <p className="sp-text2">{img.title2}</p>}

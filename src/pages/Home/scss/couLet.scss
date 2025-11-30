@@ -6,8 +6,9 @@
     .box {
       @include main.flex(center, flex-start, 24px);
       align-items: stretch;
+      overflow: hidden;
 
-      .boxlayout {
+      .boxLayout {
         @include main.flex(null, flex-start, 0);
         flex-direction: column;
         width: 50%;

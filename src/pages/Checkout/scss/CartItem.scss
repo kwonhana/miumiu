@@ -24,14 +24,14 @@
 
   .itemRight {
     width: 76%;
-    padding: 10px 30px;
+    padding: 30px 50px;
     @include ct.flex(space-between, start, 0);
     flex-direction: column;
 
     .top {
       width: 100%;
       @include ct.flex(space-between, center, 0);
-      margin-bottom: 30px;
+      margin-bottom: 20px;
       flex-grow: 1;
 
       .itemNO {

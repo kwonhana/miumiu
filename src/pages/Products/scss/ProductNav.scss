@@ -3,7 +3,7 @@
 .ProductNav {
   background-color: #fff;
   margin-bottom: 80px;
-  padding: 20px 0;
+  // padding: 20px 0;
   position: sticky;
   top: 80px;
   z-index: 998;
@@ -73,6 +73,18 @@
         &:hover {
           background: pd.$text-333;
         }
+      }
+    }
+  }
+
+  .cate2-list {
+    li {
+      border-bottom: 3px solid transparent;
+      padding: 20px 0;
+
+      &.active,
+      &:has(button.active) {
+        border-bottom-color: pd.$base;
       }
     }
   }

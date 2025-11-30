@@ -18,10 +18,6 @@ const MypageBanner = ({ userName }) => {
               2<span>개</span>
             </p>
           </div>
-          <div className="point">
-            <p className="bannerTitle">적립금</p>
-            <p className="bannerCount">19,600</p>
-          </div>
         </div>
       </div>
     </div>

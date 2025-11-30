@@ -35,7 +35,6 @@
 
     .banner-right {
       @include mypage.flex(space-between, center, 0);
-      width: 33%;
       height: 18rem;
       gap: 30px;
 
