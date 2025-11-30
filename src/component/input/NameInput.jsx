@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useCallback } from 'react';
+import { useEffect, useState, useCallback } from 'react';
 import './scss/nameInput.scss';
 const koreanRegex = /^[ㄱ-ㅎㅏ-ㅣ가-힣]*$/;
 

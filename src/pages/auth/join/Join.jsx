@@ -144,7 +144,7 @@ const Join = () => {
 
               <div className="passCheck-input">
                 <p>비밀번호 확인*</p>
-                <PasswordCheck />
+                <PasswordCheck password={formData.password} />
               </div>
 
               <div className="name-input">
