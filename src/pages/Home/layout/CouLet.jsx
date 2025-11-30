@@ -5,7 +5,7 @@ const CousLet = () => {
     <section className="CousLetter-wrap">
       <div className="inner">
         <div className="box">
-          <div className="boxlayout">
+          <div className="boxLayout wow animate__animated animate__fadeInUp">
             <p className="title">GIFT BOX SERVICE</p>
             <p className="sub-title">미우미우 기프트 패키지</p>
             <p className="sub-desc">
@@ -13,7 +13,7 @@ const CousLet = () => {
               익스클루시브 기프트 박스에 담아 배송됩니다.
             </p>
           </div>
-          <div className="boxlayout">
+          <div className="boxLayout wow animate__animated animate__fadeInUp">
             <p className="title">GIFT CARD SERVICE</p>
             <p className="sub-title">미우미우 기프트 카드</p>
             <p className="sub-desc">
