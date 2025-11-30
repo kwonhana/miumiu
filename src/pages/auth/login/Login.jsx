@@ -18,30 +18,28 @@ const list = [
 ];
 
 const Login = () => {
-  //1. 변수
   const [id, setId] = useState('');
   const [password, setPassword] = useState('');
-  const { onGoogleLogin, onKakaoLogin, setUser } = useAuthStore();
+  const { onGoogleLogin, setUser } = useAuthStore();
   const navigate = useNavigate();
 
-  //1-2 구글 로그인
   const handleGoogleLogin = async () => {
-    console.log('구글');
     await onGoogleLogin();
     navigate('/');
   };
 
-  //2. 메서드
   const handleLogin = async (e) => {
     e.preventDefault();
 
+    // 입력값 없으면 무반응
+    if (!id.trim() || !password.trim()) {
+      return;
+    }
+
     try {
-      // 2. Firebase Auth에서 이메일/비번으로 로그인
-      // id 입력값을 "이메일"로 쓰는 구조
       const userCredential = await signInWithEmailAndPassword(auth, id, password);
       const firebaseUser = userCredential.user;
 
-      // 2-1. Firestore users/{uid} 문서 가져오기
       const userDocRef = doc(db, 'users', firebaseUser.uid);
       const userSnap = await getDoc(userDocRef);
 
@@ -51,15 +49,11 @@ const Login = () => {
       }
 
       const userData = userSnap.data();
-
-      // 2-2. Zustand 상태에 저장 → persist가 알아서 localStorage까지 저장
       setUser(userData);
 
       alert(`${userData.name || userData.displayName || '고객'}님, 환영합니다!`);
       navigate('/');
     } catch (err) {
-      console.error('로그인 에러:', err);
-
       if (err.code === 'auth/user-not-found') {
         alert('가입되지 않은 이메일입니다.');
       } else if (err.code === 'auth/wrong-password') {
@@ -72,7 +66,6 @@ const Login = () => {
     }
   };
 
-  //3.뿌려
   return (
     <section className="login-wrap">
       <div className="login-container">
@@ -82,14 +75,27 @@ const Login = () => {
 
           <div className="login-input">
             <form onSubmit={handleLogin}>
+              {/*  이메일 입력칸 — 한글 입력 차단 */}
               <input
                 className="inputID"
                 value={id}
-                placeholder="이메일 / 휴대폰 번호"
+                placeholder="이메일"
                 type="text"
                 required
-                onChange={(e) => setId(e.target.value)}
+                onChange={(e) => {
+                  const value = e.target.value;
+                  const noKorean = value.replace(/[ㄱ-ㅎ|ㅏ-ㅣ|가-힣]/g, '');
+                  setId(noKorean);
+                }}
+                onKeyDown={(e) => {
+                  if (/^[ㄱ-ㅎ|ㅏ-ㅣ|가-힣]$/.test(e.key)) {
+                    e.preventDefault();
+                  }
+                  if (e.key === 'Enter') handleLogin(e);
+                }}
               />
+
+              {/* 🔥 패스워드 → 엔터키 로그인 */}
               <input
                 className="inputPassword"
                 value={password}
@@ -97,7 +103,7 @@ const Login = () => {
                 type="password"
                 required
                 onChange={(e) => setPassword(e.target.value)}
-                // name????
+                onKeyDown={(e) => e.key === 'Enter' && handleLogin(e)}
               />
             </form>
 
@@ -112,11 +118,12 @@ const Login = () => {
               </p>
             </div>
 
+            {/* 버튼 UI 그대로 유지 */}
             <div className="button-wrap">
               <p>
                 <button type="button" className="btnLogin" onClick={handleLogin}>
                   로그인
-                </button>{' '}
+                </button>
               </p>
               <p>
                 <button type="button" className="btnGoogle" onClick={handleGoogleLogin}>
@@ -126,14 +133,12 @@ const Login = () => {
             </div>
 
             <ul className="info">
-              {list.map((el, i) => {
-                return (
-                  <li key={i}>
-                    <span className="icon">{el.icon}</span>
-                    <span>{el.title}</span>
-                  </li>
-                );
-              })}
+              {list.map((el, i) => (
+                <li key={i}>
+                  <span className="icon">{el.icon}</span>
+                  <span>{el.title}</span>
+                </li>
+              ))}
             </ul>
           </div>
         </div>

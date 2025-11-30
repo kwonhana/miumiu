@@ -139,8 +139,10 @@
 }
 
 //TODO 비밀번호 input
+//TODO 비밀번호 input
 .password {
   position: relative;
+
   .icon {
     @include iconPassword();
   }
@@ -155,6 +157,17 @@
     .icon {
       display: none;
     }
+  }
+
+  /* 🔽 여기 아래에 추가 🔽 */
+  margin-bottom: 6%;
+
+  @media (max-width: 768px) {
+    margin-bottom: 4%;
+  }
+
+  @media (min-width: 1400px) {
+    margin-bottom: 4rem;
   }
 }
 

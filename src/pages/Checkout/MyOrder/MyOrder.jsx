@@ -155,11 +155,8 @@ const MyOrder = () => {
             <div className="ongoingOrder-inner">
               <h2>진행 중인 주문</h2>
 
-              {/* 진행 중 프로세스 UI */}
-              {ongoingOrders.length > 0 && latestPaymentTime ? (
+              {ongoingOrders.length > 0 && latestPaymentTime && (
                 <OngoingProcess paymentTime={latestPaymentTime} counts={statusCounts} />
-              ) : (
-                <OngoingNone />
               )}
 
               <div className="ongoingCard-wrap">
@@ -236,17 +233,7 @@ const MyOrder = () => {
           </section>
 
           {/* 최근 주문 테이블 섹션 */}
-          <section className="recentOrder">
-            <div className="recentOrder-inner">
-              <div className="title-wrap">
-                <h2>최근 구매 내역</h2>
-                <p>최근 6개월 간의 온라인 구매 내역을 확인하실 수 있습니다.</p>
-              </div>
-
-              {/* 🔹 여기서 orders를 props로 내려줌 */}
-              <RecentOrderTable orders={orders} />
-            </div>
-          </section>
+          <RecentOrderTable orders={orders} />
         </div>
       </div>
     </div>

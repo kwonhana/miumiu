@@ -1,21 +1,20 @@
-// src/pages/.../RecentOrderTable.jsx
 import React from 'react';
 import './scss/RecentOrderTable.scss';
+import OngoingNone from './OngoingNone';
 
-// 🔹 MyOrder에서 props로 orders를 전달받는다
 const RecentOrderTable = ({ orders = [] }) => {
-  // 날짜 포맷
+  const hasOrders = Array.isArray(orders) && orders.length > 0;
+
   const formatDate = (ts) => {
     if (!ts) return '';
     try {
       const d = ts.toDate ? ts.toDate() : new Date(ts);
-      return d.toLocaleDateString('ko-KR'); // 예: 2025. 11. 10
+      return d.toLocaleDateString('ko-KR');
     } catch {
       return '';
     }
   };
 
-  // 금액 포맷
   const formatPrice = (price) => {
     if (price == null) return '-';
     const num =
@@ -24,62 +23,62 @@ const RecentOrderTable = ({ orders = [] }) => {
     return num.toLocaleString('ko-KR') + '원';
   };
 
-  const hasOrders = orders && orders.length > 0;
-
   return (
-    <table className="order-table">
-      <tbody>
-        <tr>
-          <th>주문번호</th>
-          <th>주문일</th>
-          <th>상품명</th>
-          <th>구매 개수</th>
-          <th>금액</th>
-          <th>주문상태</th>
-        </tr>
+    <section className="recentOrder">
+      <div className="recentOrder-inner">
+        <div className="title-wrap">
+          <h2>최근 구매 내역</h2>
+          <p>최근 6개월 간의 온라인 구매 내역을 확인하실 수 있습니다.</p>
+        </div>
 
-        {/* 주문이 없을 때 */}
-        {!hasOrders && (
-          <tr>
-            <td colSpan={6}>최근 주문 내역이 없습니다.</td>
-          </tr>
-        )}
-
-        {/* 주문 배열을 돌면서 행 렌더링 */}
-        {hasOrders &&
-          orders.map((order) => {
-            const items = order.items || [];
-            const firstItem = items[0];
-
-            // 상품명: 첫 상품 이름 + 외 N건
-            let productName = '-';
-            if (firstItem?.name) {
-              productName =
-                items.length > 1 ? `${firstItem.name} 외 ${items.length - 1}건` : firstItem.name;
-            }
-
-            // 총 개수
-            const totalCount = items.length;
-
-            // 금액: finalPrice 있으면 우선, 없으면 totalPrice
-            const amount = order.finalPrice ?? order.totalPrice ?? null;
-
-            // 🔹 MyOrder에서 미리 계산해서 넣어준 상태값 사용
-            const status = order.computedStatus || order.status || '주문 완료';
-
-            return (
-              <tr key={order.id}>
-                <td>{order.orderNumber}</td>
-                <td>{formatDate(order.createdAt)}</td>
-                <td>{productName}</td>
-                <td>{totalCount}</td>
-                <td>{formatPrice(amount)}</td>
-                <td>{status}</td>
+        {/* ✅ 주문 있을 때는 테이블 그대로, 없으면 다른 컴포넌트 렌더링 */}
+        {hasOrders ? (
+          <table className="order-table">
+            <tbody>
+              <tr>
+                <th>주문번호</th>
+                <th>주문일</th>
+                <th>상품명</th>
+                <th>구매 개수</th>
+                <th>금액</th>
+                <th>주문상태</th>
               </tr>
-            );
-          })}
-      </tbody>
-    </table>
+
+              {orders.map((order) => {
+                const items = order.items || [];
+                const firstItem = items[0];
+
+                let productName = '-';
+                if (firstItem?.name) {
+                  productName =
+                    items.length > 1
+                      ? `${firstItem.name} 외 ${items.length - 1}건`
+                      : firstItem.name;
+                }
+
+                const totalCount = items.length;
+                const amount = order.finalPrice ?? order.totalPrice ?? null;
+                const status = order.computedStatus || order.status || '주문 완료';
+
+                return (
+                  <tr key={order.id}>
+                    <td>{order.orderNumber}</td>
+                    <td>{formatDate(order.createdAt)}</td>
+                    <td>{productName}</td>
+                    <td>{totalCount}</td>
+                    <td>{formatPrice(amount)}</td>
+                    <td>{status}</td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
+        ) : (
+          // ⚠️ 여기서 네가 넣을 컴포넌트 렌더링 (import는 네가 추가)
+          <OngoingNone />
+        )}
+      </div>
+    </section>
   );
 };
 
