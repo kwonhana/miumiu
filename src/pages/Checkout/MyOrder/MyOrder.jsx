@@ -3,13 +3,13 @@ import { useEffect, useState } from 'react';
 import RecentOrderTable from './RecentOrderTable';
 import OngoingProcess from './OngoingProcess';
 import './scss/MyOrder.scss';
-import RecentNone from './RecentNone';
 import { useNavigate } from 'react-router-dom';
 
 // TODO 파이어베이스 관련 import
 import { db } from '../../../api/firebase';
 import { collection, getDocs, orderBy, query, where } from 'firebase/firestore';
 import { useAuthStore } from '../../../api/authStore';
+import OngoingNone from './OngoingNone';
 
 // TODO 시간 기준으로 주문 상태 계산하는 함수
 const getOrderStatusByTime = (paymentTime) => {
@@ -159,7 +159,7 @@ const MyOrder = () => {
               )}
 
               <div className="ongoingCard-wrap">
-                {ongoingOrders.length === 0 && <RecentNone />}
+                {ongoingOrders.length === 0 && <OngoingNone />}
 
                 {ongoingOrders.map((order) =>
                   order.items?.map((item, idx) => {
