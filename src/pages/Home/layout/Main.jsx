@@ -41,7 +41,8 @@ const Main = () => {
           <div
             className={`photo-box`}
             key={index}
-            style={{ backgroundImage: `url(/assets/images/static/intro/${el.data})` }}></div>
+            style={{ backgroundImage: `url(/assets/images/static/intro/${el.data})` }}
+          ></div>
         );
       })}
       ;

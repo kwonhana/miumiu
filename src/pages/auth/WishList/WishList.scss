@@ -28,6 +28,10 @@
             border: 1px solid wish.$base;
             width: 13%;
             height: 6rem;
+
+            &:hover {
+              background: wish.$line-f4;
+            }
           }
         }
         > p {

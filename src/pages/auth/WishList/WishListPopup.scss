@@ -41,10 +41,20 @@
       @include popup.font(1.4rem, 500, popup.$base);
     }
 
+    .btn-cancel {
+      &:hover {
+        background: popup.$line-f4;
+      }
+    }
+
     .btn-delete {
       background: popup.$base;
       color: #fff;
       border-color: popup.$base;
+
+      &:hover {
+        background: popup.$text-333;
+      }
     }
   }
 }

@@ -43,6 +43,10 @@
         border: 1px solid ct.$base;
         width: 13%;
         height: 6rem;
+
+        &:hover {
+          background: ct.$line-f4;
+        }
       }
     }
     .cart-items {
