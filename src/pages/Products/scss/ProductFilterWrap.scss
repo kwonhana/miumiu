@@ -118,13 +118,14 @@
     padding: 24px 4%;
     button {
       padding: 14px 16px;
-      width: 40%;
+      width: 25%;
       color: pd.$base;
       background: #fff;
 
       &:first-child {
         border: 1px solid pd.$base;
-        @include pd.flex(space-between, center, null);
+        @include pd.flex(null, center, null);
+        gap: 10px;
 
         &:hover {
           background: pd.$line-f4;

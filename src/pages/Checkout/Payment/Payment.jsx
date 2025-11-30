@@ -86,7 +86,7 @@ const Payment = () => {
             </ul>
             <div className="payment-btn">
               <Button title="이전" onClick={handleBackSum} />
-              <Button title="결제진행" onClick={handleComplete} />
+              <Button title="결제하기" onClick={handleComplete} />
             </div>
           </div>
         </div>
