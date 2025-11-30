@@ -13,7 +13,7 @@ const CustomStudio = () => {
 
   useEffect(() => {
     onFetchItems(); // 상품 불러오기
-  }, []);
+  }, [onFetchItems]);
 
   // TODO: 찾은 데이터에서 필요한 값 추출
   const bannerTitle = data?.title;

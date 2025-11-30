@@ -1,13 +1,12 @@
 import React, { useEffect, useState, useCallback } from 'react';
-import { useEffect, useState } from 'react';
 import './scss/nameInput.scss';
+const koreanRegex = /^[ㄱ-ㅎㅏ-ㅣ가-힣]*$/;
 
 const NameInput = ({ lastName, name, onLastNameChange, onNameChange }) => {
   const [nameStatus, setNameStatus] = useState('');
   const [lastNameStatus, setLastNameStatus] = useState('');
   const [lastNameTouch, setLastNameTouch] = useState(false);
   const [nameTouch, setNameTouch] = useState(false);
-  const koreanRegex = /^[ㄱ-ㅎㅏ-ㅣ가-힣]*$/;
 
   // 🔥 성 검사
   const validateLastName = useCallback(() => {
