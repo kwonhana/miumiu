@@ -1,4 +1,3 @@
-import React from 'react';
 import '../scss/MypageBanner.scss';
 
 //TODO 마이페이지 상단 베너

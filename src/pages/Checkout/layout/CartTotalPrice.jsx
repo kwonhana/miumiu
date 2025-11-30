@@ -1,4 +1,3 @@
-import React from 'react';
 import Button from '../../../component/layout/Button';
 import '../scss/CartTotalPrice.scss';
 import { useProductsStore } from '../../../store/useProductsStore';

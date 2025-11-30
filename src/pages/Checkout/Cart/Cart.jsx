@@ -1,4 +1,3 @@
-import React from 'react';
 import '../scss/Cart.scss';
 import CartItem from '../layout/CartItem';
 import CartTotalPrice from '../layout/CartTotalPrice';

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import '../scss/AddressTable.scss';
 import AddressEditModal from './AddressEditModal';
 

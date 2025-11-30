@@ -1,4 +1,3 @@
-import React from 'react';
 import './scss/Input.scss';
 
 //TODO 인증 input

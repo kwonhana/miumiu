@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import './scss/Local.scss';
 import { locations } from '../../api/storeInfo';
 import Textinput from '../../component/input/Textinput';
@@ -58,7 +58,7 @@ const Local = () => {
 
     document.head.appendChild(script);
 
-    // 클린업: 컴포넌트 언마운트 시 스크립트 제거 (선택사항)
+    // TODO 클린업: 컴포넌트 언마운트 시 스크립트 제거 (선택사항)
     return () => {
       document.head.removeChild(script);
     };
@@ -68,18 +68,18 @@ const Local = () => {
   const addMarker = (location) => {
     if (!map) return;
 
-    // 기존 마커 제거
+    // TODO 기존 마커 제거
     markers.forEach((marker) => marker.setMap(null));
     const markerPosition = new window.kakao.maps.LatLng(location.lat, location.lng);
 
-    // 커스텀 마커 이미지 추가
+    // TODO 커스텀 마커 이미지 추가
     const imageSrc = '/assets/images/static/map/mapPin_black.png';
     const imageSize = new window.kakao.maps.Size(40, 50);
     const imageOption = { offset: new window.kakao.maps.Point(20, 50) };
 
     const markerImage = new window.kakao.maps.MarkerImage(imageSrc, imageSize, imageOption);
 
-    // 마커 생성
+    // TODO 마커 생성
     const marker = new window.kakao.maps.Marker({
       position: markerPosition,
       image: markerImage,
@@ -88,11 +88,11 @@ const Local = () => {
     marker.setMap(map);
     setMarkers([marker]);
 
-    // 지도 중심 이동
+    // TODO 지도 중심 이동
     map.setCenter(markerPosition);
     map.setLevel(3);
 
-    // 인포윈도우
+    // TODO 인포윈도우
     const infowindow = new window.kakao.maps.InfoWindow({
       content: `
       <div style="padding:10px; min-width:150px; height: 60px; display: flex; justify-content: center; align-items: center; text-align:center">

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import OrderTotal from '../OrderTotal/OrderTotal';
 import EmailInput from '../../../component/input/EmailInput';
 import NameInput from '../../../component/input/NameInput';

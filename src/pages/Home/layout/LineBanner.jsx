@@ -1,4 +1,3 @@
-import React from 'react';
 import '../scss/Linebanner.scss';
 
 const LineBanner = () => {

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import '../scss/Payment.scss';
 import Button from '../../../component/layout/Button';
 import OrderTotal from '../OrderTotal/OrderTotal';
@@ -67,22 +67,19 @@ const Payment = () => {
             <ul className="payment-list">
               <li
                 className={`payment-icon ${selectedPayment === 'kakao' ? 'active' : ''}`}
-                onClick={() => setSelectedPayment('kakao')}
-              >
+                onClick={() => setSelectedPayment('kakao')}>
                 <img src="/assets/icon/kakaoPay.svg" alt="카카오페이" />
                 <p>카카오페이</p>
               </li>
               <li
                 className={`payment-icon ${selectedPayment === 'credit' ? 'active' : ''}`}
-                onClick={() => setSelectedPayment('credit')}
-              >
+                onClick={() => setSelectedPayment('credit')}>
                 <img src="/assets/icon/creditPay.svg" alt="신용카드" />
                 <p>신용카드</p>
               </li>
               <li
                 className={`payment-icon ${selectedPayment === 'cash' ? 'active' : ''}`}
-                onClick={() => setSelectedPayment('cash')}
-              >
+                onClick={() => setSelectedPayment('cash')}>
                 <img src="/assets/icon/cashPay.svg" alt="실시간 계좌이체" />
                 <p>실시간 계좌이체</p>
               </li>

@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react';
+import { useMemo } from 'react';
 import { useHeaderStore } from '../../../store/useHeaderStore';
 import { useProductsStore } from '../../../store/useProductsStore';
 import { Link } from 'react-router-dom';

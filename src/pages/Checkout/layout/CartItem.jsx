@@ -1,4 +1,3 @@
-import React from 'react';
 import '../scss/CartItem.scss';
 import { useProductsStore } from '../../../store/useProductsStore';
 import { Link } from 'react-router-dom';

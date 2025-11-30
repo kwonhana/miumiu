@@ -1,4 +1,3 @@
-import React from 'react';
 import './scss/PasswordCheck.scss';
 
 const PasswordCheck = () => {

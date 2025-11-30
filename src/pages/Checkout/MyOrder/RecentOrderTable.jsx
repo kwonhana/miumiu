@@ -1,4 +1,3 @@
-import React from 'react';
 import './scss/RecentOrderTable.scss';
 import OngoingNone from './OngoingNone';
 
@@ -31,7 +30,7 @@ const RecentOrderTable = ({ orders = [] }) => {
           <p>최근 6개월 간의 온라인 구매 내역을 확인하실 수 있습니다.</p>
         </div>
 
-        {/* ✅ 주문 있을 때는 테이블 그대로, 없으면 다른 컴포넌트 렌더링 */}
+        {/* TODO 주문 있을 때는 테이블 그대로, 없으면 다른 컴포넌트 렌더링 */}
         {hasOrders ? (
           <table className="order-table">
             <tbody>
@@ -74,7 +73,7 @@ const RecentOrderTable = ({ orders = [] }) => {
             </tbody>
           </table>
         ) : (
-          // ⚠️ 여기서 네가 넣을 컴포넌트 렌더링 (import는 네가 추가)
+          // TODO 여기서 네가 넣을 컴포넌트 렌더링 (import는 네가 추가)
           <OngoingNone />
         )}
       </div>

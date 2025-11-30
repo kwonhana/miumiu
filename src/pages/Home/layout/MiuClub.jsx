@@ -1,4 +1,3 @@
-import React from 'react';
 import '../scss/club.scss';
 import ClubSlider from './ClubSlider';
 

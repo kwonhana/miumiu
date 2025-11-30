@@ -1,4 +1,3 @@
-import React from 'react';
 import '../scss/ProductShoesSize.scss';
 
 const ProductShoesSize = () => {

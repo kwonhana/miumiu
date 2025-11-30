@@ -1,4 +1,3 @@
-import React from 'react';
 import './scss/footer.scss';
 import Logo from '../../component/layout/Logo';
 import { Link } from 'react-router-dom';
@@ -12,7 +11,7 @@ const footerModalMenu = [
 
 const Footer = ({ openModal }) => {
   const handleModalOpen = (el) => {
-    // 부모 컴포넌트에게 모달을 열고, 제목과 렌더링 키를 전달합니다.
+    // TODO 부모 컴포넌트에게 모달을 열고, 제목과 렌더링 키를 전달합니다.
     openModal(el.name, el.className);
   };
 
@@ -35,8 +34,7 @@ const Footer = ({ openModal }) => {
                       onClick={(e) => {
                         e.preventDefault(); // 기본 링크 이동 방지
                         handleModalOpen(el);
-                      }}
-                    >
+                      }}>
                       {el.name}
                     </Link>
                   </li>

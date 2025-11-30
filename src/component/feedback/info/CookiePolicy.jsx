@@ -1,5 +1,3 @@
-import React from 'react';
-
 //TODO 쿠키 정책
 const CookiePolicy = () => {
   return (

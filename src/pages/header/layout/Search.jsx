@@ -1,5 +1,5 @@
 // src/pages/header/layout/Search.jsx
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { useSearchState } from '../../../store/useSearchState';
 import { useNavigate } from 'react-router-dom';
 import '../scss/search.scss';
@@ -14,10 +14,10 @@ const Search = ({ isOpen, onClose }) => {
   const [showNoResult, setShowNoResult] = useState(false);
   const [failedSearchWord, setFailedSearchWord] = useState('');
 
-  // 상품 스토어
+  // TODO 상품 스토어
   const { onSearch, items, onFetchItems } = useProductsStore();
 
-  // 🔹 Search 열릴 때 상품 로드
+  // TODO Search 열릴 때 상품 로드
   useEffect(() => {
     if (isOpen && onFetchItems) {
       onFetchItems();
@@ -25,12 +25,12 @@ const Search = ({ isOpen, onClose }) => {
     }
   }, [isOpen, onFetchItems]);
 
-  // 🔹 검색 실행 시 최근 검색어 추가
+  // TODO 검색 실행 시 최근 검색어 추가
   const executeSearch = (word) => {
     addLastSearch(word); // lastSearch에 저장
   };
 
-  // 🔹 실제 검색 실행 + 페이지 이동
+  // TODO 실제 검색 실행 + 페이지 이동
   const performSearch = (word) => {
     if (!word || word.trim() === '') return;
     const trimmedWord = word.trim();
@@ -52,21 +52,21 @@ const Search = ({ isOpen, onClose }) => {
     }
   };
 
-  // 🔹 Enter 키
+  // TODO Enter 키
   const handleSearch = (e) => {
     if (e.key === 'Enter' && searchWord.trim() !== '') {
       performSearch(searchWord);
     }
   };
 
-  // 🔹 검색 버튼 클릭
+  // TODO 검색 버튼 클릭
   const handleSearchClick = () => {
     if (searchWord.trim() !== '') {
       performSearch(searchWord);
     }
   };
 
-  // 🔹 입력 값 변경 (얘는 그냥 검색창 입력 상태)
+  // TODO 입력 값 변경 (얘는 그냥 검색창 입력 상태)
   const handleInputChange = (e) => {
     const value = e.target.value;
     setSearchWord(value);
@@ -112,7 +112,7 @@ const Search = ({ isOpen, onClose }) => {
       return searchableText.includes(recentLower);
     });
 
-    // 🔹 매칭된 상품들에서 category1/2, 한글 카테고리, material, 태그 등 뽑기
+    // TODO 매칭된 상품들에서 category1/2, 한글 카테고리, material, 태그 등 뽑기
     const set = new Set();
 
     matchedItems.forEach((p) => {

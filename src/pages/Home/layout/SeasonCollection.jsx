@@ -1,6 +1,6 @@
 import '../scss/SeasonCollection.scss';
-import { Link } from 'react-router-dom';
 import 'swiper/css';
+import { Link } from 'react-router-dom';
 import { useState } from 'react';
 
 const items = [
@@ -74,8 +74,7 @@ const SeasonCollection = () => {
       <div
         className="bottomSection"
         onMouseEnter={() => setPaused(true)}
-        onMouseLeave={() => setPaused(false)}
-      >
+        onMouseLeave={() => setPaused(false)}>
         <ul className={`item-container ${isPaused ? 'paused' : ''}`}>
           {items.concat(items).map((el, index) => {
             return (

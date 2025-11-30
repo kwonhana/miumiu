@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import { koreaCity } from '../../store/data';
 
 const SelectCity = ({ city, onCityChange }) => {

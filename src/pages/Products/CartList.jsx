@@ -1,4 +1,3 @@
-import React from 'react';
 import CartItem from '../Checkout/layout/CartItem';
 import { useProductsStore } from '../../store/useProductsStore';
 import Button from '../../component/layout/Button';

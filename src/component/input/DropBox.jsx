@@ -1,7 +1,6 @@
 import './scss/Input.scss';
-import React from 'react';
 
-const DropBox = ({ title, list }) => {
+const DropBox = () => {
   return (
     <></>
     // <div className="base-input">

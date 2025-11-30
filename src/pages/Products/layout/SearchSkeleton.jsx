@@ -1,4 +1,3 @@
-import React from 'react';
 import '../scss/SearchSkeleton.scss';
 
 const SearchSkeleton = () => {

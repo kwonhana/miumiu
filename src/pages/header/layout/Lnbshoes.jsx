@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import '../scss/lnbSub.scss';
 import { shoes, conicshoes } from '../../../store/data';

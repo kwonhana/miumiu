@@ -1,7 +1,5 @@
-import React, { useState } from 'react';
-import AddressTable from './AddressTable';
+import { useState } from 'react';
 import InfoEditPopup from './InfoEditPopup';
-import AddressEditModal from './AddressEditModal';
 
 //TODO 내정보
 const MyInfo = ({ userData }) => {
@@ -10,7 +8,6 @@ const MyInfo = ({ userData }) => {
   if (!userData) {
     return null;
   }
-  const isSocial = userData.provider === 'google';
   const fullName =
     [userData.lastName, userData.name].filter(Boolean).join('') || userData.displayName || '-';
 

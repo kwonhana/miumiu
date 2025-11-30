@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 const BirthdayInput = ({ value, onChange }) => {
   const [inputClass, setInputClass] = useState('');

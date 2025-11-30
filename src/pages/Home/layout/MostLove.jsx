@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import WOW from 'wowjs';
 import '../scss/MostLove.scss';
 import { Link } from 'react-router-dom';

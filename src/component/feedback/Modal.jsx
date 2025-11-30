@@ -1,4 +1,3 @@
-import React from 'react';
 import ModalText from './ModalText';
 
 //TODO

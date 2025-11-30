@@ -1,4 +1,3 @@
-import React from 'react';
 import '../scss/modal-txt.scss';
 
 //TODO 개인정보 처리 방침

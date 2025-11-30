@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import './scss/Input.scss';
 
 const PostCode = ({ postCode, onPostCode }) => {

@@ -1,11 +1,11 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { special } from '../../store/data'; // SpecialCo.jsx와 동일한 경로
 import ProductBanner from './layout/ProductBanner';
 import { useProductsStore } from '../../store/useProductsStore';
 
 const CustomStudio = () => {
-  const { items, onFetchItems } = useProductsStore();
+  const { onFetchItems } = useProductsStore();
   // TODO: URL 파라미터에서 id 가져오기
   const { id } = useParams();
   // TODO: special 배열에서 imgUrl과 일치하는 데이터 찾기

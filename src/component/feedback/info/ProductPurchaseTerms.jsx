@@ -1,4 +1,3 @@
-import React from 'react';
 import '../scss/modal-txt.scss';
 
 //TODO 판매약관
@@ -8,12 +7,9 @@ const ProductPurchaseTerms = () => {
       <ul>
         <li className="title">1. 총칙</li>
         <li>
-          대한민국에서
-          <a href="https://www.miumiu.com/kr/ko.html" target="_blank">
-            https://www.miumiu.com/kr/ko.html
-          </a>
-          (이하 “웹사이트”)를 통해 이루어지는 “Miu Miu” 브랜드 제품(이하 “제품”)의 판매에 대해서는
-          수시로 개정되는 아래와 같은 제품 구매 약관(이하 “약관” 또는 “이 약관”)이 적용됩니다.
+          대한민국에서 (이하 “웹사이트”)를 통해 이루어지는 “Miu Miu” 브랜드 제품(이하 “제품”)의
+          판매에 대해서는 수시로 개정되는 아래와 같은 제품 구매 약관(이하 “약관” 또는 “이 약관”)이
+          적용됩니다.
         </li>
         <li>
           제품은 프라다코리아 유한회사(이하 “프라다")에서 직접 판매합니다. 프라다는 대한민국 법률에

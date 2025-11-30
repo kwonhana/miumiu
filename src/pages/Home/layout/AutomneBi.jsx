@@ -1,5 +1,5 @@
 import Logo from '../../../component/layout/Logo';
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import WOW from 'wowjs';
 import '../scss/AutomneBi.scss';
 

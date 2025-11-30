@@ -1,4 +1,3 @@
-import React from 'react';
 import '../scss/AddressEditModal.scss';
 import PhoneInput from '../../../../component/input/PhoneInput';
 

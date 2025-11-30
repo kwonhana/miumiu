@@ -1,5 +1,3 @@
-import React from 'react';
-
 const RadioCard = ({ id, name, value, checked, onChange, title, script, number }) => {
   return (
     <>

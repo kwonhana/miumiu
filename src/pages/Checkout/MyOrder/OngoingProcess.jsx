@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import './scss/OngoingProcess.scss';
 
 // 결제시간 기준으로 상태 계산하는 함수

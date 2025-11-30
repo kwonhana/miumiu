@@ -1,4 +1,3 @@
-import React from 'react';
 import './scss/AddressTable.scss';
 
 const AddressTable = () => {

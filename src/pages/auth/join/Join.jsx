@@ -1,7 +1,5 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-
-import IdInput from '../../../component/input/IdInput';
 import PasswordInput from '../../../component/input/PasswordInput';
 import NameInput from '../../../component/input/NameInput';
 import PhoneInput from '../../../component/input/PhoneInput';

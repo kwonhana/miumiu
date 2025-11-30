@@ -1,18 +1,17 @@
 // src/pages/.../MyOrder.jsx
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import RecentOrderTable from './RecentOrderTable';
 import OngoingProcess from './OngoingProcess';
 import './scss/MyOrder.scss';
-import OngoingNone from './OngoingNone';
 import RecentNone from './RecentNone';
 import { useNavigate } from 'react-router-dom';
 
-// 🔹 파이어베이스 관련 import
+// TODO 파이어베이스 관련 import
 import { db } from '../../../api/firebase';
 import { collection, getDocs, orderBy, query, where } from 'firebase/firestore';
 import { useAuthStore } from '../../../api/authStore';
 
-// 🔹 시간 기준으로 주문 상태 계산하는 함수
+// TODO 시간 기준으로 주문 상태 계산하는 함수
 const getOrderStatusByTime = (paymentTime) => {
   if (!paymentTime) return '결제완료';
 
@@ -36,7 +35,7 @@ const getOrderStatusByTime = (paymentTime) => {
   return '배송 완료';
 };
 
-// 🔹 날짜 포맷 도우미
+// TODO 날짜 포맷 도우미
 const formatDate = (ts) => {
   if (!ts) return '';
   try {
@@ -51,7 +50,7 @@ const MyOrder = () => {
   const navigate = useNavigate();
   const { user } = useAuthStore();
 
-  // 🔹 전체 주문 목록 (computedStatus 포함해서 저장)
+  // TODO 전체 주문 목록 (computedStatus 포함해서 저장)
   const [orders, setOrders] = useState([]);
 
   // 진행중인 주문 목록 (배송 완료 아닌 것만)
@@ -72,7 +71,7 @@ const MyOrder = () => {
 
       const ordersRef = collection(db, 'users', uid, 'orders');
 
-      // 🔹 최근 6개월만 가져오기 (테이블이랑 동일 기준)
+      // TODO 최근 6개월만 가져오기 (테이블이랑 동일 기준)
       const sixMonthsAgo = new Date();
       sixMonthsAgo.setMonth(sixMonthsAgo.getMonth() - 6);
 
@@ -89,7 +88,7 @@ const MyOrder = () => {
         ...doc.data(),
       }));
 
-      // 🔹 각 주문에 시간 기준 상태(computedStatus) 붙이기
+      // TODO 각 주문에 시간 기준 상태(computedStatus) 붙이기
       const withStatus = rawOrders.map((order) => {
         const baseTime = order.paymentTime || order.createdAt; // paymentTime 없으면 createdAt 사용
         const computedStatus = getOrderStatusByTime(baseTime);
@@ -99,14 +98,14 @@ const MyOrder = () => {
         };
       });
 
-      // 🔹 전체 주문 저장 (테이블에 props로 내려줄 것)
+      // TODO 전체 주문 저장 (테이블에 props로 내려줄 것)
       setOrders(withStatus);
 
-      // 🔹 진행중 주문 = 배송 완료가 아닌 주문들
+      // TODO 진행중 주문 = 배송 완료가 아닌 주문들
       const ongoing = withStatus.filter((order) => order.computedStatus !== '배송 완료');
       setOngoingOrders(ongoing);
 
-      // 🔹 상태별 카운트 계산 (📌 진행중 주문 + 아이템 수량 기준)
+      // TODO 상태별 카운트 계산 (📌 진행중 주문 + 아이템 수량 기준)
       const counts = ongoing.reduce(
         (acc, order) => {
           // 이 주문에 포함된 아이템 수량 합산
@@ -140,7 +139,7 @@ const MyOrder = () => {
     fetchOrders();
   }, [user]);
 
-  // 🔹 OngoingProcess에 넘겨줄 기준 시간 (가장 최근 진행중 주문 기준)
+  // TODO OngoingProcess에 넘겨줄 기준 시간 (가장 최근 진행중 주문 기준)
   const latestOngoing = ongoingOrders[0];
   const latestPaymentTime = latestOngoing
     ? latestOngoing.paymentTime || latestOngoing.createdAt
@@ -164,7 +163,7 @@ const MyOrder = () => {
 
                 {ongoingOrders.map((order) =>
                   order.items?.map((item, idx) => {
-                    // 🔹 text-box 안에서 사용할 데이터 배열 만들기
+                    // TODO text-box 안에서 사용할 데이터 배열 만들기
                     const textBoxData = [
                       {
                         key: 'productName',
@@ -189,7 +188,7 @@ const MyOrder = () => {
                       {
                         key: 'orderState',
                         className: 'orderState',
-                        // 🔹 여기서도 computedStatus 사용
+                        // TODO 여기서도 computedStatus 사용
                         value: order.computedStatus || '결제완료',
                       },
                     ];
@@ -209,7 +208,7 @@ const MyOrder = () => {
 
                         <div className="text-box">
                           <div className="productOption">
-                            {/* 이름 + 수량 */}
+                            {/* TODO 이름 + 수량 */}
                             {textBoxData.slice(0, 2).map((t) => (
                               <p key={t.key} className={t.className}>
                                 {t.value}
@@ -217,7 +216,7 @@ const MyOrder = () => {
                             ))}
                           </div>
 
-                          {/* 코드 / 날짜 / 상태 */}
+                          {/* TODO 코드 / 날짜 / 상태 */}
                           {textBoxData.slice(2).map((t) => (
                             <p key={t.key} className={t.className}>
                               {t.value}
@@ -232,7 +231,7 @@ const MyOrder = () => {
             </div>
           </section>
 
-          {/* 최근 주문 테이블 섹션 */}
+          {/*TODO 최근 주문 테이블 섹션 */}
           <RecentOrderTable orders={orders} />
         </div>
       </div>

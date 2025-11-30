@@ -1,4 +1,3 @@
-import React from 'react';
 import './scss/OngoingNone.scss';
 
 //TODO 결제 상품 없을 시

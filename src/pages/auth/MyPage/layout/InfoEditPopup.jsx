@@ -1,5 +1,4 @@
-// src/pages/.../InfoEditPopup.jsx
-import React, { useState } from 'react';
+import { useState } from 'react';
 import PhoneInput from '../../../../component/input/PhoneInput';
 import EmailInput from '../../../../component/input/EmailInput';
 import '../scss/InfoEditPopup.scss';

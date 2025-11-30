@@ -1,4 +1,3 @@
-import React from 'react';
 import '../scss/modal-txt.scss';
 
 const TermsOfService = () => {

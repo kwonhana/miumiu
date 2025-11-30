@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import Button from '../../../component/layout/Button';
 import '../scss/OrderSummary.scss';
 import OrderTotal from '../OrderTotal/OrderTotal';
@@ -16,7 +16,7 @@ const OrderSummary = () => {
   const [agree19, setAgree19] = useState(false);
   const [agree19Err, setAgree19Err] = useState(false);
 
-  // 배송 예상일 계산 함수
+  // TODO 배송 예상일 계산 함수
   const getDeliveryDateRange = () => {
     const today = new Date();
     const startDate = new Date(today);
@@ -71,7 +71,7 @@ const OrderSummary = () => {
       return;
     }
 
-    // Payment에서 쓸 shipping + 탭 + 메세지 저장
+    // TODO Payment에서 쓸 shipping + 탭 + 메세지 저장
     const orderShippingData = {
       ...shippingData,
       receiveType: fixTab,

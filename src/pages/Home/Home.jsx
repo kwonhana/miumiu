@@ -1,4 +1,3 @@
-import React from 'react';
 import NewItemMain from './layout/NewItemMain';
 import AutomneBi from './layout/AutomneBi';
 import LineBanner from './layout/LineBanner';

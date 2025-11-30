@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import Button from '../../../component/layout/Button';
 import '../scss/ProductFilterWrap.scss';
 

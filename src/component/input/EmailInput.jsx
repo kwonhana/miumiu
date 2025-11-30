@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import './scss/Input.scss';
 
 const EmailInput = ({ value, onChange }) => {

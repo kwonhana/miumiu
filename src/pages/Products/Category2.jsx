@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { useProductsStore } from '../../store/useProductsStore';
 import ProductList from './layout/ProductList';
@@ -6,7 +6,6 @@ import ProductBanner from './layout/ProductBanner';
 import ProductFilterNav from './layout/ProductFilterNav';
 import './scss/Category2.scss';
 import ProductFilterWrap from './layout/ProductFilterWrap';
-import ProductListSkeleton from './layout/ProductListSkeleton';
 
 const Category2 = () => {
   const { category1, category2, tags } = useParams();
