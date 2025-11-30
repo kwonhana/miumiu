@@ -13,9 +13,12 @@ const InfoEditPopup = ({ userData, onclose }) => {
   // 🔹 입력값 상태 세팅
   const [phone, setPhone] = useState(userData.phone || '');
   const [email, setEmail] = useState(userData.email || '');
+  const [loading, setLoading] = useState(false);
 
   // 🔹 변경하기 버튼
   const handleSave = async () => {
+    if (loading) return; // 중복 클릭 방지
+
     try {
       const uid = userData.uid || userData.userId;
 
@@ -23,6 +26,8 @@ const InfoEditPopup = ({ userData, onclose }) => {
         alert('유저 정보가 올바르지 않습니다.');
         return;
       }
+
+      setLoading(true);
 
       const ref = doc(db, 'users', uid);
 
@@ -33,11 +38,17 @@ const InfoEditPopup = ({ userData, onclose }) => {
 
       alert('회원 정보가 변경되었습니다.');
 
-      onclose(); // 팝업 닫고
-      window.location.reload(); // 새로고침해서 MyInfo 업데이트
+      // 🔹 팝업 닫고
+      if (onclose) onclose();
+
+      // 🔹 전체 페이지 새로고침 → 서버에서 다시 userData 가져오게
+      window.location.reload();
+      // 또는 react-router 있으면: navigate(0);
     } catch (error) {
       console.error(error);
       alert('정보 업데이트 중 오류가 발생했습니다.');
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -76,8 +87,12 @@ const InfoEditPopup = ({ userData, onclose }) => {
           </div>
 
           <div className="button-wrap">
-            <button onClick={onclose}>취소</button>
-            <button onClick={handleSave}>변경하기</button>
+            <button type="button" onClick={onclose}>
+              취소
+            </button>
+            <button type="button" onClick={handleSave} disabled={loading}>
+              {loading ? '변경 중...' : '변경하기'}
+            </button>
           </div>
         </div>
       </div>

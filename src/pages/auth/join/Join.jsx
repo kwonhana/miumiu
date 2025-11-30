@@ -28,7 +28,7 @@ const Join = () => {
     marketingAgree: null,
   });
 
-  // 일반 인풋
+  // 🔹 인풋 값 변경
   const handleInputChange = (key, value) => {
     setFormData((prev) => ({
       ...prev,
@@ -36,7 +36,7 @@ const Join = () => {
     }));
   };
 
-  // 체크박스
+  // 🔹 체크박스
   const handleCheckboxChange = (key) => (e) => {
     setFormData((prev) => ({
       ...prev,
@@ -44,7 +44,7 @@ const Join = () => {
     }));
   };
 
-  // 라디오 버튼
+  // 🔹 라디오 버튼
   const handleRadioChange = (e) => {
     const value = e.target.value === 'yes';
     setFormData((prev) => ({
@@ -53,21 +53,24 @@ const Join = () => {
     }));
   };
 
+  // 🔹 버튼 활성/비활성 조건
+  const isFormValid =
+    !!formData.password &&
+    !!formData.lastName &&
+    !!formData.name &&
+    !!formData.phone &&
+    !!formData.email &&
+    !!formData.birthday &&
+    formData.dataTransferAgree === true &&
+    formData.personalDataAgree === true &&
+    formData.marketingAgree === true; // 라디오가 "동의합니다"일 때만
+
   // ✅ 회원가입 제출
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    if (
-      !formData.password ||
-      !formData.lastName ||
-      !formData.name ||
-      !formData.phone ||
-      !formData.email ||
-      !formData.birthday ||
-      !formData.dataTransferAgree ||
-      !formData.personalDataAgree
-    ) {
-      alert('필수 항목을 모두 입력해주세요.');
+    if (!isFormValid) {
+      alert('필수 항목을 모두 입력하고, 약관 및 마케팅 동의에 체크해주세요.');
       return;
     }
 
@@ -235,7 +238,11 @@ const Join = () => {
               </div>
             </div>
 
-            <button type="submit" className="join-button" disabled>
+            <button
+              type="submit"
+              className="join-button"
+              disabled={!isFormValid} // 🔹 조건 안 맞으면 비활성화
+            >
               가입하기
             </button>
           </form>
