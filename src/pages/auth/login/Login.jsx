@@ -109,7 +109,7 @@ const Login = () => {
 
             <div className="half">
               <p>
-                <Link className="link">비밀번호를 잊으셨나요?</Link>
+                <Link className="link hidden">비밀번호를 잊으셨나요?</Link>
               </p>
               <p>
                 <Link to="/Join" className="link">
