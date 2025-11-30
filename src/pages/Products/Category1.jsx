@@ -172,17 +172,16 @@ const Category1 = () => {
   return (
     <div className="Category1">
       <ProductBanner korTitle={korTitle} bannerTitle={bannerTitle} />
+      <ProductFilterNav
+        category1={category1}
+        category2={category2}
+        list={items}
+        sendClick={handleCategoryClick}
+        onOpenFilter={handleOpenFilter}
+        category2List={category2List}
+        custom={custom}
+      />
       <div className="inner">
-        <ProductFilterNav
-          category1={category1}
-          category2={category2}
-          list={items}
-          sendClick={handleCategoryClick}
-          onOpenFilter={handleOpenFilter}
-          category2List={category2List}
-          custom={custom}
-        />
-
         {/*TODO 필터 적용된 리스트가 있으면 그걸 표시 */}
 
         {!items ? (

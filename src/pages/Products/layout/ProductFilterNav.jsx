@@ -25,8 +25,6 @@ const ProductFilterNav = ({
     ).values()
   );
 
-  console.log(cateObj, '한글???????');
-
   return (
     <div className="ProductNav">
       <div className="nav-inner">
