@@ -9,7 +9,7 @@ import ProductFilterWrap from './layout/ProductFilterWrap';
 
 const Category2 = () => {
   const { category1, category2, tags } = useParams();
-  const { items, filtered, onFetchItems, onCateOnly, onCateTag, onCate1, onCustomStyle } =
+  const { filtered, onFetchItems, onCateOnly, onCateTag, onCate1, onCustomStyle } =
     useProductsStore();
 
   const [extraFilteredList, setExtraFilteredList] = useState(null);
