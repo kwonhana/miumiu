@@ -14,16 +14,14 @@ const LnbSubMenu = ({ categoryKey, isActive, onCloseLnb }) => {
 
   const allItems = useProductsStore((state) => state.items);
 
-  //TODO  LNB 랜덤 사진 가지고 오는 코드;
+  // TODO  LNB 랜덤 사진 가지고 오는 코드
   const randomItems = useMemo(() => {
     if (allItems.length === 0) return [];
     const filteredItems = allItems.filter((item) => item.category1 === categoryKey);
-    // console.log(filteredItems, 'filteredItems');
     const shuffled = [...filteredItems].sort(() => 0.5 - Math.random());
     return shuffled.slice(0, 4);
-  });
+  }, [allItems, categoryKey]);
 
-  //TODO  LNB 카테고리 대표 사진 가지고 오는 코드;
   const getItemImageSrc = (item) =>
     item?.detail_images?.[0]?.url || '/assets/images/default-product-image.png';
 

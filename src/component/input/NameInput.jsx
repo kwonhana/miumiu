@@ -1,3 +1,4 @@
+import React, { useEffect, useState, useCallback } from 'react';
 import { useEffect, useState } from 'react';
 import './scss/nameInput.scss';
 
@@ -8,8 +9,10 @@ const NameInput = ({ lastName, name, onLastNameChange, onNameChange }) => {
   const [nameTouch, setNameTouch] = useState(false);
   const koreanRegex = /^[ㄱ-ㅎㅏ-ㅣ가-힣]*$/;
 
-  const validateLastName = () => {
+  // 🔥 성 검사
+  const validateLastName = useCallback(() => {
     if (!lastNameTouch) return;
+
     if (!lastName) {
       setLastNameStatus('failure');
       return false;
@@ -18,18 +21,21 @@ const NameInput = ({ lastName, name, onLastNameChange, onNameChange }) => {
       setLastNameStatus('failure');
       return false;
     }
-    const LastNameFormetRegex = /^[가-힣]{1,2}$/;
-    if (LastNameFormetRegex.test(lastName)) {
+
+    const regex = /^[가-힣]{1,2}$/;
+    if (regex.test(lastName)) {
       setLastNameStatus('success');
       return true;
     } else {
       setLastNameStatus('failure');
       return false;
     }
-  };
+  }, [lastName, lastNameTouch]);
 
-  const validateName = () => {
+  // 🔥 이름 검사
+  const validateName = useCallback(() => {
     if (!nameTouch) return false;
+
     if (!name) {
       setNameStatus('failure');
       return false;
@@ -38,15 +44,16 @@ const NameInput = ({ lastName, name, onLastNameChange, onNameChange }) => {
       setNameStatus('failure');
       return false;
     }
-    const NameFormetRegex = /^[가-힣]{1,3}$/;
-    if (NameFormetRegex.test(name)) {
+
+    const regex = /^[가-힣]{1,3}$/;
+    if (regex.test(name)) {
       setNameStatus('success');
       return true;
     } else {
       setNameStatus('failure');
       return false;
     }
-  };
+  }, [name, nameTouch]);
 
   const handleLastNameChange = (e) => {
     const val = e.target.value;
@@ -64,18 +71,21 @@ const NameInput = ({ lastName, name, onLastNameChange, onNameChange }) => {
     }
   };
 
+  // 🔥 deps를 함수로 교체 (경고 제거)
   useEffect(() => {
     validateLastName();
-  }, [lastName]);
+  }, [validateLastName]);
 
   useEffect(() => {
     validateName();
-  }, [name]);
+  }, [validateName]);
 
   return (
     <div className="base-input">
       <p>이름*</p>
+
       <div className="name-wrap">
+        {/* 성 */}
         <div className={`input-box ${lastNameStatus}`}>
           <input
             className="lastName-input"
@@ -92,6 +102,8 @@ const NameInput = ({ lastName, name, onLastNameChange, onNameChange }) => {
           )}
           {lastNameStatus === 'failure' && <div className="info">성을 입력하세요</div>}
         </div>
+
+        {/* 이름 */}
         <div className={`input-box ${nameStatus}`}>
           <input
             className="name-input"

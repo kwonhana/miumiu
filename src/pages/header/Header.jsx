@@ -18,27 +18,24 @@ const Header = () => {
   const headerRef = useRef(null);
   const { cartCount } = useProductsStore();
 
-  //TODO 모든메뉴 닫기
   const closeAll = useCallback(() => {
     setLnbOpen(false);
     setSearchOpen(false);
     setUserMenuOpen(false);
   }, []);
 
-  //TODO lnb토글(다른메뉴들 닫기)
   const toggleLnb = useCallback(() => {
     setLnbOpen((prev) => !prev);
     setSearchOpen(false);
     setUserMenuOpen(false);
   }, []);
 
-  //TODO 검색창 토글
   const toggleSearch = useCallback(() => {
     setSearchOpen((prev) => !prev);
     setLnbOpen(false);
     setUserMenuOpen(false);
   }, []);
-  //TODO 드롭다운메뉴토글
+
   const toggleUserMenu = useCallback(() => {
     setUserMenuOpen((prev) => !prev);
     setLnbOpen(false);
@@ -51,30 +48,32 @@ const Header = () => {
     Navigate('/');
   };
 
+  // 🔥 Header 밖 클릭 시 메뉴 닫기
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (headerRef.current && !headerRef.current.contains(event.target)) {
         closeAll();
       }
     };
+
     if (lnbOpen || searchOpen || userMenuOpen) {
       document.addEventListener('mousedown', handleClickOutside);
     }
+
     return () => {
       document.removeEventListener('mousedown', handleClickOutside);
     };
   }, [lnbOpen, searchOpen, userMenuOpen, closeAll]);
 
+  // 🔥 스크롤 감지 (scrollY deps 제거)
   useEffect(() => {
     if (location.pathname === '/') {
       const handleScroll = () => {
         setScrollY(window.scrollY);
-        console.log(scrollY);
       };
+
       window.addEventListener('scroll', handleScroll);
-      return () => {
-        window.removeEventListener('scroll', handleScroll);
-      };
+      return () => window.removeEventListener('scroll', handleScroll);
     } else {
       setScrollY(100);
     }
@@ -82,9 +81,6 @@ const Header = () => {
 
   const isMainPage = location.pathname === '/';
   const headerClass = isMainPage ? (scrollY >= 20 ? 'black' : '') : 'black';
-  // window.addEventListener('scroll', () => {
-
-  // });
 
   return (
     <header ref={headerRef} className={headerClass}>
@@ -102,6 +98,7 @@ const Header = () => {
                 <img src="/assets/icon/SearchIcon.svg" alt="Search" />
               </Link>
             </div>
+
             <div className="Icon user">
               {user ? (
                 <>
@@ -146,6 +143,7 @@ const Header = () => {
                 </Link>
               )}
             </div>
+
             <div className="Icon cart">
               <Link to={'/cart'}>
                 <img src="/assets/icon/CartIcon.svg" alt="cart" />
@@ -155,6 +153,7 @@ const Header = () => {
           </div>
         </div>
       </div>
+
       <Lnb isOpen={lnbOpen} onClose={closeAll} />
       <Search isOpen={searchOpen} onClose={closeAll} />
     </header>

@@ -27,7 +27,7 @@ const Search = ({ isOpen, onClose }) => {
 
   // TODO 검색 실행 시 최근 검색어 추가
   const executeSearch = (word) => {
-    addLastSearch(word); // lastSearch에 저장
+    addLastSearch(word);
   };
 
   // TODO 실제 검색 실행 + 페이지 이동
@@ -43,7 +43,6 @@ const Search = ({ isOpen, onClose }) => {
       clearSearchWord();
       setShowNoResult(false);
       navigate(`/searchResult?q=${encodeURIComponent(trimmedWord)}`);
-
       if (onClose) onClose();
     } else {
       setFailedSearchWord(trimmedWord);
@@ -75,11 +74,8 @@ const Search = ({ isOpen, onClose }) => {
 
   // -----------------------------------------
   // 🔥 "최근 검색어" 기반 추천 검색어
-  //   - 타이핑 중인 searchWord 말고
-  //   - lastSearch의 마지막 word를 기준으로
-  //   - 그 단어로 매칭된 상품들의 category/material/tag 등을 추천으로
   // -----------------------------------------
-  const recentWord = lastSearch.length > 0 ? lastSearch[lastSearch.length - 1].word : ''; // 가장 마지막 검색어
+  const recentWord = lastSearch.length > 0 ? lastSearch[lastSearch.length - 1].word : '';
   const recentTrimmed = recentWord.trim();
   const recentLower = recentTrimmed.toLowerCase();
 
@@ -91,7 +87,7 @@ const Search = ({ isOpen, onClose }) => {
       return;
     }
 
-    // useProductsStore.onSearch와 같은 로직으로 "최근 검색어"와 매칭되는 상품 찾기
+    // 최근 검색어와 매칭되는 상품 찾기
     const matchedItems = items.filter((product) => {
       const searchableText = [
         product.category1,
@@ -129,18 +125,8 @@ const Search = ({ isOpen, onClose }) => {
       }
     });
 
-    const result = Array.from(set);
-
-    console.log('최근 검색어:', recentWord);
-    console.log('매칭된 상품 개수:', matchedItems.length);
-    console.log('추천 키워드:', result);
-
-    setRecommendKeywords(result);
-  }, [recentTrimmed, items, recentWord]);
-
-  console.log(' items[0]:', items && items[0]);
-  console.log(' searchWord 상태:', searchWord);
-  console.log(' lastSearch:', lastSearch);
+    setRecommendKeywords(Array.from(set));
+  }, [recentTrimmed, recentLower, items, recentWord]);
 
   return (
     <div className={`search-wrap ${isOpen ? 'active' : ''}`}>
@@ -172,7 +158,7 @@ const Search = ({ isOpen, onClose }) => {
                 </div>
               ) : (
                 <>
-                  {/* 최근 검색어 리스트 */}
+                  {/* 최근 검색어 */}
                   <div className="lasted-search">
                     <p>최근 검색어</p>
                     <ul className="lasted-list">
@@ -182,10 +168,7 @@ const Search = ({ isOpen, onClose }) => {
                         lastSearch.map((item) => (
                           <li className="search-item" key={item.id}>
                             <span onClick={() => performSearch(item.word)}>{item.word}</span>
-                            <button
-                              onClick={() => {
-                                onSearchDelete(item.id);
-                              }}>
+                            <button onClick={() => onSearchDelete(item.id)}>
                               <img src="/assets/icon/search-remove.svg" alt="remove" />
                             </button>
                           </li>
@@ -196,12 +179,13 @@ const Search = ({ isOpen, onClose }) => {
 
                   <div className="divider"></div>
 
-                  {/* 추천 검색어 (최근 검색어 기준 / category1,2, 한글카테고리, material, tag 등) */}
+                  {/* 추천 검색어 */}
                   <div className="recommend-search">
                     <p>
                       추천 검색어
                       {recentTrimmed && <span className="recent-label"></span>}
                     </p>
+
                     <div className="recommend-list">
                       {!recentTrimmed ? (
                         <span className="empty">
