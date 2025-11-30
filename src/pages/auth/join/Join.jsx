@@ -235,7 +235,7 @@ const Join = () => {
               </div>
             </div>
 
-            <button type="submit" className="join-button">
+            <button type="submit" className="join-button" disabled>
               가입하기
             </button>
           </form>
