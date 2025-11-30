@@ -46,7 +46,7 @@ const EmailInput = ({ value, onChange }) => {
       <div className="email-wrap">
         <input
           type="text"
-          placeholder="이메일을 입력해주세요*"
+          placeholder="이메일을 입력해주세요"
           value={value}
           onChange={handleEmailChange}
           required

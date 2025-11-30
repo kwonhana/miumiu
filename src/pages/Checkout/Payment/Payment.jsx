@@ -67,20 +67,23 @@ const Payment = () => {
             <ul className="payment-list">
               <li
                 className={`payment-icon ${selectedPayment === 'kakao' ? 'active' : ''}`}
-                onClick={() => setSelectedPayment('kakao')}>
-                <img src="/assets/icon/kakaoPay.png" alt="카카오페이" />
+                onClick={() => setSelectedPayment('kakao')}
+              >
+                <img src="/assets/icon/kakaoPay.svg" alt="카카오페이" />
                 <p>카카오페이</p>
               </li>
               <li
                 className={`payment-icon ${selectedPayment === 'credit' ? 'active' : ''}`}
-                onClick={() => setSelectedPayment('credit')}>
-                <img src="/assets/icon/creditPay.png" alt="신용카드" />
+                onClick={() => setSelectedPayment('credit')}
+              >
+                <img src="/assets/icon/creditPay.svg" alt="신용카드" />
                 <p>신용카드</p>
               </li>
               <li
                 className={`payment-icon ${selectedPayment === 'cash' ? 'active' : ''}`}
-                onClick={() => setSelectedPayment('cash')}>
-                <img src="/assets/icon/cashPay.png" alt="실시간 계좌이체" />
+                onClick={() => setSelectedPayment('cash')}
+              >
+                <img src="/assets/icon/cashPay.svg" alt="실시간 계좌이체" />
                 <p>실시간 계좌이체</p>
               </li>
             </ul>

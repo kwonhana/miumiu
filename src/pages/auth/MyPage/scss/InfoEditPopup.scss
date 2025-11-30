@@ -72,10 +72,7 @@
             padding: 16px 40px 16px 16px;
             background-color: ep.$line-f4;
             cursor: default;
-
-            &::placeholder {
-              @include ep.font(1.4rem, 400, ep.$text-666);
-            }
+            @include ep.font(1.4rem, 400, ep.$text-666);
           }
         }
         .emailEdit-input {
@@ -87,7 +84,7 @@
             }
             > span {
               margin-left: 2%;
-              font-size: 1rem;
+              font-size: 1.2rem;
             }
           }
         }
@@ -105,9 +102,19 @@
           background-color: #fff;
           @include ep.font(1.6rem, 600, ep.$base);
 
+          &:first-child {
+            &:hover {
+              background: ep.$line-f4;
+            }
+          }
+
           &:last-child {
             background: ep.$base;
             color: #fff;
+
+            &:hover {
+              background: ep.$text-333;
+            }
           }
         }
       }

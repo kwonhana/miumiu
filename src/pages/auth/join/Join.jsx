@@ -7,6 +7,7 @@ import NameInput from '../../../component/input/NameInput';
 import PhoneInput from '../../../component/input/PhoneInput';
 import BirthdayInput from '../../../component/input/BirthdayInput';
 import EmailInput from '../../../component/input/EmailInput';
+import PasswordCheck from '../../../component/input/PasswordCheck';
 import './scss/Join.scss';
 
 // 🔹 Firebase
@@ -141,6 +142,11 @@ const Join = () => {
                   value={formData.password}
                   onChange={(value) => handleInputChange('password', value)}
                 />
+              </div>
+
+              <div className="passCheck-input">
+                <p>비밀번호 확인*</p>
+                <PasswordCheck />
               </div>
 
               <div className="name-input">

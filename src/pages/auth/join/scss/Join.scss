@@ -41,6 +41,10 @@
         gap: 3rem;
         margin-top: 5rem;
 
+        p {
+          margin-bottom: 8px;
+        }
+
         .id-input {
           input {
             width: 100%;
@@ -51,6 +55,7 @@
             width: 100%;
           }
         }
+
         .phone-input {
           width: 100%;
           .phone {

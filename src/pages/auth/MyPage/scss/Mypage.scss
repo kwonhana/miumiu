@@ -182,30 +182,5 @@
         }
       }
     }
-
-    .deliveryAddress {
-      margin-bottom: 80px;
-      .address-inner {
-        .title-wrap {
-          @include mp.flex(space-between, center, auto);
-          margin-bottom: 30px;
-
-          h2 {
-            @include mp.font(3.2rem, 500, mp.$base);
-          }
-
-          button {
-            @include mp.font(1.4rem, 500, mp.$base);
-            padding: 10px 16px;
-            border: 1px solid mp.$base;
-            background-color: #fff;
-
-            &:hover {
-              background: mp.$line-f4;
-            }
-          }
-        }
-      }
-    }
   }
 }

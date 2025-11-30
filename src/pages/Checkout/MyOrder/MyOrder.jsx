@@ -153,7 +153,7 @@ const MyOrder = () => {
           {/* 진행중 주문 섹션 */}
           <section className="ongoingOrder">
             <div className="ongoingOrder-inner">
-              <h2>진행중인 주문</h2>
+              <h2>진행 중인 주문</h2>
 
               {/* 진행 중 프로세스 UI */}
               {ongoingOrders.length > 0 && latestPaymentTime ? (

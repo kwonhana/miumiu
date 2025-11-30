@@ -42,7 +42,7 @@ const PasswordInput = ({ value, onChange }) => {
       <div className="input-box">
         <input
           type="password"
-          placeholder="비밀번호를 입력해주세요*"
+          placeholder="비밀번호를 입력해주세요"
           value={value}
           onChange={handlePassChange}
           onBlur={handleBlur}

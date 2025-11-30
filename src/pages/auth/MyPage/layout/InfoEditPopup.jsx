@@ -69,8 +69,8 @@ const InfoEditPopup = ({ userData, onclose }) => {
             {/* 이메일 */}
             <div className="emailEdit-input">
               <div className="emailEdit-text">
-                <p>이메일</p>
-                <span> *이메일만 변경 됩니다</span>
+                <p>이메일 (* 회원정보용 이메일만 변경됩니다.)</p>
+                {/* <span>회원정보용 이메일만 변경됩니다.</span> */}
               </div>
               <EmailInput value={email} onChange={setEmail} />
             </div>
