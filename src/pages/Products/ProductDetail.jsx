@@ -23,7 +23,7 @@ const ProductDetail = () => {
   const [mainImage, setMainImage] = useState(null);
   // 연관 아이템
   const [relatedProducts, setRelatedProducts] = useState([]);
-  const [count, setCount] = useState(1);
+  const [count] = useState(1);
   // 장바구니 리스트 팝업
   const [showCartPopup, setShowCartPopup] = useState(false);
   // 로그인 유무

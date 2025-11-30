@@ -3,7 +3,8 @@
 .Cart {
   width: 100%;
   display: flex;
-  align-items: stretch;
+  align-items: flex-start;
+  min-height: 100vh;
   max-width: 2400px;
   margin-top: 80px;
   padding-bottom: 40px;

@@ -4,11 +4,9 @@
   width: 30%;
   flex-grow: 1;
   padding: 0px 30px 60px 30px;
-  position: fixed;
-  right: 0;
+  position: sticky;
   top: 80px;
-  height: calc(100vh - 80px);
-  z-index: 998;
+  height: fit-content;
 
   b {
     @include ct.font(2.2rem, 600, ct.$base);

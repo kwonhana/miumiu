@@ -8,6 +8,16 @@
   position: fixed;
   z-index: 1000;
   @include ca.modalBack();
+  animation: fadeIn 0.3s ease-out;
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
 
   .add-cart-wrap {
     width: 40vw;
@@ -19,6 +29,7 @@
     transform: translateX(0);
     display: flex;
     flex-direction: column;
+    animation: slideInRight 0.3s ease-out;
 
     .cartpop-top {
       @include ca.flex(space-between, center, 0);
@@ -89,6 +100,14 @@
           }
         }
       }
+    }
+  }
+  @keyframes slideInRight {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0);
     }
   }
 }

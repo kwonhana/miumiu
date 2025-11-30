@@ -49,7 +49,7 @@ const OrderSummary = () => {
         onFinalPrice();
       }
     }
-  }, []);
+  }, [onSelectCoupon, onFinalPrice]);
 
   console.log('배송정보:', shippingData);
 
