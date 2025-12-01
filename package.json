@@ -23,7 +23,7 @@
   },
   "scripts": {
     "start": "craco start",
-    "build": "build miu",
+    "build": "craco build",
     "test": "craco test",
     "eject": "craco eject"
   },
