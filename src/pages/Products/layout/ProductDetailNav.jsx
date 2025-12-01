@@ -2,14 +2,16 @@ import { Link, useNavigate } from 'react-router-dom';
 import Button from '../../../component/layout/Button';
 import '../scss/ProductNav.scss';
 import { useAuthStore } from '../../../api/authStore';
+import { useState } from 'react';
 
 const ProductDetailNav = ({ onScroll, onCart, onShipping }) => {
   const { user } = useAuthStore();
   const navigate = useNavigate();
+  const [activeId, setActiveId] = useState('detail-info');
 
   const handleNavClick = (e, targetId) => {
     e.preventDefault();
-
+    setActiveId(targetId);
     if (onScroll) {
       onScroll(targetId);
     }
@@ -20,20 +22,23 @@ const ProductDetailNav = ({ onScroll, onCart, onShipping }) => {
         <ul>
           <li>
             <Link
-              className="link"
+              className={`link ${activeId === 'detail-info' ? 'active' : ''}`}
               to="#detail-info"
               onClick={(e) => handleNavClick(e, 'detail-info')}>
               제품 상세 정보
             </Link>
           </li>
           <li>
-            <Link className="link" to="#info-text" onClick={(e) => handleNavClick(e, 'info-text')}>
+            <Link
+              className={`link ${activeId === 'info-text' ? 'active' : ''}`}
+              to="#info-text"
+              onClick={(e) => handleNavClick(e, 'info-text')}>
               제품 설명
             </Link>
           </li>
           <li>
             <Link
-              className="link "
+              className={`link ${activeId === 'product-size' ? 'active' : ''}`}
               to="#product-size"
               onClick={(e) => handleNavClick(e, 'product-size')}>
               제품 세부 정보
