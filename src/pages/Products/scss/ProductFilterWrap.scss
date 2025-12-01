@@ -126,6 +126,7 @@
         border: 1px solid pd.$base;
         @include pd.flex(null, center, null);
         gap: 10px;
+        aspect-ratio: 140/56;
 
         &:hover {
           background: pd.$line-f4;
@@ -146,6 +147,7 @@
         flex-grow: 1;
         background: pd.$base;
         color: #fff;
+        outline: 1px solid pd.$base;
 
         &:hover {
           background: pd.$text-333;
