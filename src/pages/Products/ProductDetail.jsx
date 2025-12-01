@@ -170,7 +170,7 @@ const ProductDetail = () => {
             </div>
             <div className="top-right">
               <p className="title">
-                <span className="tag">{product.tags ? product.tags : ''}</span>
+                <span className="tag">{product.tags ? product.tags : product.id}</span>
 
                 <button
                   className={`wish-icon ${isWished ? 'active' : ''}`}
